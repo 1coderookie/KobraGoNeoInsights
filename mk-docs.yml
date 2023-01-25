@@ -9,6 +9,10 @@ nav:
         - The Printhead: 
             - Go: head_go.md
             - Neo: head_neo.md
+            - Hotend: hotend.md
+            - Nozzle: nozzle.md
+            - Silicone Sock: siliconesock.md
+            - Mods: mods_head.md
         - The Mainboard: 
             - Original Mainboard: mainboard_default.md
             - SKR3: mainboard_skr3.md
