@@ -1,1 +1,1 @@
-Landing page
+(Home of the GitHub page.)
