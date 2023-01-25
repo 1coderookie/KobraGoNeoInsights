@@ -1,0 +1,20 @@
+site_name: How2KobraGoNep
+site_url: https://1coderookie.github.io/How2KobraGoNeo/
+nav:
+    - Home: index.md
+    - Hardware:
+        - The Printers: 
+            - Go: printer_go.md
+            - Neo: printer_neo.md
+        - The Printhead: 
+            - Go: head_go.md
+            - Neo: head_neo.md
+        - The Mainboard: 
+            - Original Mainboard: mainboard_default.md
+            - SKR3: mainboard_skr3.md
+    - Firmware:
+        - Marlin (default): fw_marlin.md
+        - Klipper: fw_klipper.md
+
+
+theme: readthedocs
