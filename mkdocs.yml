@@ -6,11 +6,7 @@ nav:
     - Home: 'index.md'
     - The Printers: 'printers.md'
     - Hardware:
-#            - Go: 'printer_go.md'
-#            - Neo: 'printer_neo.md'
-       - The Printhead: 'printhead.md'
-#            - Go: 'head_go.md'
-#            - Neo: 'head_neo.md'
+        - The Printhead: 'printhead.md'
             - Extruder: 'extruder.md'
             - Hotend: 'hotend.md'
             - Nozzle: 'nozzle.md'
