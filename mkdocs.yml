@@ -16,7 +16,7 @@ nav:
             - Silicone Sock: 'siliconesock.md'
             - Mods: 'mods_head.md'
         - The Mainboard: 
-            - Original Mainboard: 'mainboard_default.md'
+            - Original Mainboard: 'mainboard_stock.md'
             - SKR3: 'mainboard_skr3.md'
     - Firmware:
         - Marlin (default): 'fw_marlin.md'
