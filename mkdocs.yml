@@ -29,7 +29,6 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
-    - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
