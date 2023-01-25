@@ -1,62 +1,24 @@
-# This is a basic workflow that is manually triggered
-
-name: Publish MkDocs via GitHub Pages
-
-# Controls when the action will run. Workflow runs when manually triggered using the UI
-# or API.
+name: Publish docs via GitHub Pages
 on:
- # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: 
-     - main
-    
- # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-    # Inputs the workflow accepts.
-    inputs:
-      name:
-        # Friendly description to be shown in the UI instead of 'name'
-        description: '1coderookie'
-        # Default value if no value is explicitly provided
-        default: 'World'
-        # Input has to be provided for the workflow to run
-        required: true
+    branches:
+      - main
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
+    name: Deploy docs
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Runs a single command using the runners shell
-        
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+      - name: Checkout main
+        uses: actions/checkout@v2
 
-      - name: Setup Python
-        uses: actions/setup-python@v3
-
-      - name: Install Dependencies
-        run: |
-          pip install --upgrade pip 
-          pip install mkdocs
-          pip install mkdocs-gen-files
-          pip install mkdocs-material
-          pip install mkdocs-with-pdf
-
-#      - name: Setup Git Config
-#        run: |
-#          git config user.name 'mkdocs-deploy' 
-#          git config user.email 'mkdocs-deploy@noreply.github.com'
-
-      - name: Deploy docs to gh-pages branch
-        run: mkdocs gh-deploy --config-file ./mkdocs.yml
+      - name: Deploy docs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        # Or use mhausenblas/mkdocs-deploy-gh-pages@nomaterial to build without the mkdocs-material theme
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          #CONFIG_FILE: docs/mkdocs.yml
-#          EXTRA_PACKAGES: build-base
+          CUSTOM_DOMAIN: optionaldomain.com
+          CONFIG_FILE: folder/mkdocs.yml
+          EXTRA_PACKAGES: build-base
+          # GITHUB_DOMAIN: github.myenterprise.com
+          REQUIREMENTS: folder/requirements.txt
