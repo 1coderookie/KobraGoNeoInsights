@@ -10,8 +10,10 @@ As it came with some minor problems and needed a bit of tinker love, I was tryin
   
 May these informations help some newbies like me to get off better from the start and to take care of problems like a broken thermistor or a broken heating element of the extruder or even a broken mainboard (which happened to me all together).  
   
+If you'd like to contribute, please let me know. You don't need a GitHub account for it, just send an email to `3dneo (at) quantentunnel.de` and we'll figure something out.   
+  
 Happy printing!
 
 | Disclaimer |
 |:-----------|
-| All informations, tips, suggestions and so on should be considered as a base for your own further research. It can't be guaranteed that everything is correct and that it wouldn't harm your printer or even yourself. So please be aware of the fact that you use everything at your own risk! |
+| All informations, tips, instructions, suggestions, mods and so on should be considered as a base for your own further research. It can't be guaranteed that everything is correct and that it wouldn't harm your printer or even yourself. So please be aware of the fact that you use everything at your own risk! |
