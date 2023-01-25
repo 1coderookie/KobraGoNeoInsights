@@ -1,0 +1,25 @@
+{
+    "name": "How2KobraGoNeo",
+    "short_name": "How2KobraGoNeo",
+    "start_url": "/index.html",
+    "display": "minimal-ui",
+    "scope": ".",
+    //"orientation":"portrait",
+    "icons": [
+    {
+      "src": "/images/icons-vector.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/images/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
