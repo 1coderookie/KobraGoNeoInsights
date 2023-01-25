@@ -2,6 +2,10 @@
 Tips, tweaks and mods for the Anycubic Kobra Go and Neo to get off better from the start.
   
 ---  
+
+***Visit [How2KobraGoNeo](https://1coderookie.github.io/How2KobraGoNeo/) for the full experience of this site.***
+
+---
   
 **Hi and welcome to my little page about the Anycubic Kobra Go and Neo.**  
   
