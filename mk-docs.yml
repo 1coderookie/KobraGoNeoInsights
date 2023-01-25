@@ -21,4 +21,5 @@ nav:
         - Klipper: fw_klipper.md
 
 
-theme: readthedocs
+theme:
+  name: material
