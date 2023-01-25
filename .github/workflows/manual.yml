@@ -6,7 +6,6 @@ on:
     paths:
       - "/docs/**.md"
       - "/mkdocs.yml"
-#  workflow_dispatch:
 
 jobs:
   build:
