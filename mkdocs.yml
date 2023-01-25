@@ -6,7 +6,8 @@ nav:
     - Home: 'index.md'
     - The Printers: 'printers.md'
     - Hardware:
-        - The Printhead: 'printhead.md'
+        - The Printhead: 
+            - Printhead: 'printhead.md'
             - Extruder: 'extruder.md'
             - Hotend: 'hotend.md'
             - Nozzle: 'nozzle.md'
