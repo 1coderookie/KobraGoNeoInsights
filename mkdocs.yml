@@ -2,31 +2,31 @@ site_name: How2KobraGoNeo
 site_description: Tips, tweaks and mods for Anycubic Kobra Go and Neo.
 site_author: Ulf Dieckmann
 site_url: https://1coderookie.github.io/How2KobraGoNeo/
-nav: /docs
-    - Home: index.md
+nav: 
+    - Home: 'index.md'
     - Hardware:
         - The Printers: 
-            - Go: printer_go.md
-            - Neo: printer_neo.md
+            - Go: 'printer_go.md'
+            - Neo: 'printer_neo.md'
         - The Printhead: 
-            - Go: head_go.md
-            - Neo: head_neo.md
-            - Hotend: hotend.md
-            - Nozzle: nozzle.md
-            - Silicone Sock: siliconesock.md
-            - Mods: mods_head.md
+            - Go: 'head_go.md'
+            - Neo: 'head_neo.md'
+            - Hotend: 'hotend.md'
+            - Nozzle: 'nozzle.md'
+            - Silicone Sock: 'siliconesock.md'
+            - Mods: 'mods_head.md'
         - The Mainboard: 
-            - Original Mainboard: mainboard_default.md
-            - SKR3: mainboard_skr3.md
+            - Original Mainboard: 'mainboard_default.md'
+            - SKR3: 'mainboard_skr3.md'
     - Firmware:
-        - Marlin (default): fw_marlin.md
-        - Klipper: fw_klipper.md
+        - Marlin (default): 'fw_marlin.md'
+        - Klipper: 'fw_klipper.md'
 
 
 theme:
   name: material
   features:
-    - naviagtion.instant
+    - navigation.instant
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs
