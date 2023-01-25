@@ -1,4 +1,6 @@
 site_name: How2KobraGoNeo
+site_description: Tips, tweaks and mods for Anycubic Kobra Go and Neo.
+site_author: Ulf Dieckmann
 site_url: https://1coderookie.github.io/How2KobraGoNeo/
 nav:
     - Home: index.md
