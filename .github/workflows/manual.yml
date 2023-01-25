@@ -22,3 +22,6 @@ jobs:
           EXTRA_PACKAGES: build-base
           # GITHUB_DOMAIN: github.myenterprise.com
           # REQUIREMENTS: folder/requirements.txt
+        
+      - name: Deploy to GH-Pages 
+        run: mkdocs gh-deploy --config-file ./mkdocs.yml
