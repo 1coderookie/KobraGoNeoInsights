@@ -1,4 +1,4 @@
-<link rel=”manifest” href=”/appmanifest.webmanifest”>
+<link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # TriGorilla V_3.0.6 (Stock) 
   
