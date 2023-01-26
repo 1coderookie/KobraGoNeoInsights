@@ -1,4 +1,4 @@
-<link rel=”manifest” href=”/appmanifest.webmanifest”>
+<link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 **Hi and welcome to my little page about the 3D printers "Kobra Go" and "Kobra Neo" from Anycubic.**  
   
