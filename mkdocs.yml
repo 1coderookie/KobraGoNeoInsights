@@ -117,7 +117,7 @@ nav:
       - TriGorilla (Stock): 'hardware/mainboard/mainboard_trigorilla.md'
       - SKR3 (Mod): 'hardware/mainboard/mainboard_skr3.md'
     - Printhead: 'hardware/printhead/index.md'
-    - Bed: 'bed.md'
+    - Bed: 'hardware/bed.md'
     - Spare Parts: 'hardware/spare_parts.md'
   - Firmware:
     - Marlin (Stock): 'firmware/fw_marlin.md'
