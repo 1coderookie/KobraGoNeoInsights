@@ -1,8 +1,8 @@
-# G-Code
+# G-Code Documentation
 
-I don't really offer a g-code *table* here, but here you can find the links to comprehensive sources about the g-codes.  
-  
-The first one to mention is the [RepRap Wiki](https://reprap.org/wiki/G-code), where you can find a general explanation about what g-code is, how it works and all the [g-commands](https://reprap.org/wiki/G-code#G-commands). Within the g-commands section you also see a table which firmware (Marlin/Klipper/RepRap/Repetier/Smoothie) supports the specific code. 
+Here you can find the links to comprehensive and 'official' sources about the g-codes. Of course there are countless sites to find which cover this topic, but the following ones are definitely the one I'd look up first.    
+   
+The first one to mention is the [RepRap Wiki](https://reprap.org/wiki/G-code), where you can find a general explanation about what g-code is, how it works and all the [g-commands](https://reprap.org/wiki/G-code#G-commands). Within the g-commands section and the specific commands you'll also see tables which firmware (Marlin/Klipper/RepRap/Repetier/Smoothie) supports the specific command. 
    
 ## Marlin 
 You can find a complete reference at the belonging [Marlin website](https://marlinfw.org/meta/gcode/).  
