@@ -3,7 +3,7 @@
 # Printhead
 
 ## ABL sensor
-Both printers come with an proximity sensor for automatic bed levelling (ABL).  
+Both printers come with a proximity sensor for automatic bed levelling (ABL).  
   
 ..img..
   
