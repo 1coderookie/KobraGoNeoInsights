@@ -113,12 +113,11 @@ nav:
   - Home: 'index.md'
   - The Printers: 'printers.md'
   - Hardware: 
-    - Overview: 'hardware/index.md'
-    - Printhead: 'hardware/printhead/index.md'
     - Mainboard: 
-      - Overview: 'hardware/mainboard/index.md'
       - TriGorilla (Stock): 'hardware/mainboard/mainboard_trigorilla.md'
       - SKR3 (Mod): 'hardware/mainboard/mainboard_skr3.md'
+    - Printhead: 'hardware/printhead/index.md'
+    - Bed: 'bed.md'
     - Spare Parts: 'hardware/spare_parts.md'
   - Firmware:
     - Marlin (Stock): 'firmware/fw_marlin.md'
