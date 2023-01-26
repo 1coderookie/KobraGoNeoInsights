@@ -9,4 +9,4 @@ The first one to mention is the [RepRap Wiki](https://reprap.org/wiki/G-code), w
 You can find a complete reference at the belonging [Marlin website](https://marlinfw.org/meta/gcode/).  
   
 ## Klipper 
-Besides the standard g-code, Klipper uses so called "extended" g-code commands for general status and configuration. These extended commands start with a command which may be followed by one or more parameters. You can find the whole reference at the [Klipper documentation](https://www.klipper3d.org/G-Codes.html) page about g-codes.  
+Besides the standard g-code, Klipper uses so called "extended" g-code commands for general status and configuration. These extended commands start with a command which may be followed by one or more parameters (e.g. you can set the speed of a certain fan using the command `SET_FAN_SPEED FAN=config_name SPEED=<speed>`). You can find the whole reference at the [Klipper documentation](https://www.klipper3d.org/G-Codes.html) page about g-codes.  
