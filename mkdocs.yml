@@ -122,6 +122,6 @@ nav:
     - Marlin (Stock): 'firmware/fw_marlin.md'
     - Klipper (Mod): 'firmware/fw_klipper.md'
   - Profiles & Settings: 'pro_set.md'
-  - G-Code Table: 'gcode_table.md'
+  - G-Code Documentation: 'gcode_doc.md'
   - Further Sources: 'further_sources.md'
         
