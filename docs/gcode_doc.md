@@ -1,4 +1,4 @@
-<link rel=”manifest” href=”/appmanifest.webmanifest”>
+<link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # G-Code Documentation
 
