@@ -112,9 +112,9 @@ markdown_extensions:
 nav: 
   - Home: 'index.md'
   - The Printers: 'printers.md'
-  - Hardware:
+  - Hardware: 'index.md'
     - Printhead: 'hardware/printhead/index.md'
-    - Mainboard: 
+    - Mainboard: 'index.md'
       - TriGorilla (Stock): 'hardware/mainboard/mainboard_trigorilla.md'
       - SKR3 (Mod): 'hardware/mainboard/mainboard_skr3.md'
     - Spare Parts: 'hardware/spare_parts.md'
