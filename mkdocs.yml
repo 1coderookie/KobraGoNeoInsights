@@ -1,11 +1,14 @@
+# Project information
 site_name: AllAboutKobraGoNeo
-site_description: Tips, tweaks and mods for Anycubic's Kobra Go and Kobra Neo.
-site_author: Ulf Dieckmann
 site_url: https://1coderookie.github.io/AllAboutKobraGoNeo/
+site_author: Ulf Dieckmann
+site_description: Tips, tweaks and mods for the Anycubic 3D printers Kobra Go and Kobra Neo.
 
+# Repository
 repo_name: 1coderookie/AllAboutKobraGoNeo
 repo_url: https://github.com/1coderookie/AllAboutKobraGoNeo
 
+# Copyright
 copyright: Copyright &copy; 2023 Ulf Dieckmann
 
 # Configuration
@@ -36,35 +39,33 @@ theme:
     - search.suggest
     - toc.follow
     - toc.integrate
+ palette:
+   - scheme: default
+     primary: indigo
+     accent: indigo
+     toggle:
+       icon: material/brightness-7
+       name: Switch to dark mode
+   - scheme: slate
+     primary: indigo
+     accent: indigo
+     toggle:
+       icon: material/brightness-4
+       name: Switch to light mode
+ font:
+   text: Roboto
+   code: Roboto Mono
+ favicon: assets/favicon.png
+ icon:
+   logo: logo
     
-    palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-        
-  font:
-    text: Roboto
-    code: Roboto Mono
-    
-  favicon: assets/favicon.png
-  icon:
-    logo: logo
-    
-  plugins:
-    - search:
-        lang: en
-        separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-    - minify:
-        minify_html: true
+# Plugins
+plugins:
+  - search:
+      lang: en
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - minify:
+      minify_html: true
         
 # Extensions
 markdown_extensions:
@@ -107,20 +108,20 @@ markdown_extensions:
   - pymdownx.tilde
 
 
-# Page tree navigation
+# Page tree / navigation
 nav: 
-    - Home: 'index.md'
-    - The Printers: 'printers.md'
-    - Hardware:
-        - Printhead: 'hardware/printhead/index.md'
-        - Mainboard: 
-            - TriGorilla (Stock): 'hardware/mainboard/mainboard_trigorilla.md'
-            - SKR3 (Mod): 'hardware/mainboard/mainboard_skr3.md'
-        - Spare Parts: 'hardware/spare_parts.md'
-    - Firmware:
-        - Marlin (Stock): 'firmware/fw_marlin.md'
-        - Klipper (Mod): 'firmware/fw_klipper.md'
-    - Profiles & Settings: 'pro_set.md'
-    - G-Code Table: 'gcode_table.md'
-    - Further Sources: 'further_sources.md'
+  - Home: 'index.md'
+  - The Printers: 'printers.md'
+  - Hardware:
+    - Printhead: 'hardware/printhead/index.md'
+    - Mainboard: 
+      - TriGorilla (Stock): 'hardware/mainboard/mainboard_trigorilla.md'
+      - SKR3 (Mod): 'hardware/mainboard/mainboard_skr3.md'
+    - Spare Parts: 'hardware/spare_parts.md'
+  - Firmware:
+    - Marlin (Stock): 'firmware/fw_marlin.md'
+    - Klipper (Mod): 'firmware/fw_klipper.md'
+  - Profiles & Settings: 'pro_set.md'
+  - G-Code Table: 'gcode_table.md'
+  - Further Sources: 'further_sources.md'
         
