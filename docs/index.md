@@ -1,3 +1,5 @@
+<link rel=”manifest” href=”/appmanifest.webmanifest”>
+
 **Hi and welcome to my little page about the 3D printers "Kobra Go" and "Kobra Neo" from Anycubic.**  
   
 I am a newbie to 3D printing and got a Kobra Neo from a friend of mine.  
