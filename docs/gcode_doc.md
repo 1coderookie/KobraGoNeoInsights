@@ -1,3 +1,5 @@
+<link rel=”manifest” href=”/appmanifest.webmanifest”>
+
 # G-Code Documentation
 
 Here you can find links to comprehensive and 'official' sources about the g-codes. Of course there are countless sites to find which cover this topic, but the following ones are definitely the one I'd look up first.    
