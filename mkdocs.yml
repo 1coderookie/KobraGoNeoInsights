@@ -11,6 +11,10 @@ repo_url: https://github.com/1coderookie/KobraGoNeoInsights
 # Copyright
 copyright: Copyright &copy; 2023 Ulf Dieckmann
 
+# CSS stylesheet
+extra_css:
+  - stylesheets/extra.css
+
 # Configuration
 theme:
   name: material
