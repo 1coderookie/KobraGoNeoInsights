@@ -1,3 +1,5 @@
+<link rel=”manifest” href=”/appmanifest.webmanifest”>
+
 # Printhead
 
 ## Extruder
