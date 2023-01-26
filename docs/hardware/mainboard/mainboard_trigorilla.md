@@ -1,3 +1,5 @@
+<link rel=”manifest” href=”/appmanifest.webmanifest”>
+
 # TriGorilla V_3.0.6 (Stock) 
   
 The stock mainboard of both the Go and the Neo is the "TriGorilla V_3.0.6", it's just flashed with the respective fimware of either model.  
