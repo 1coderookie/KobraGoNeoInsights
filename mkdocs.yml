@@ -113,10 +113,10 @@ nav:
   - Home: 'index.md'
   - The Printers: 'printers.md'
   - Hardware: 
-    - Overview: 'index.md'
+    - Overview: 'hardware/index.md'
     - Printhead: 'hardware/printhead/index.md'
     - Mainboard: 
-      - Overview: 'index.md'
+      - Overview: 'hardware/mainboard/index.md'
       - TriGorilla (Stock): 'hardware/mainboard/mainboard_trigorilla.md'
       - SKR3 (Mod): 'hardware/mainboard/mainboard_skr3.md'
     - Spare Parts: 'hardware/spare_parts.md'
