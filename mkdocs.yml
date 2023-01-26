@@ -16,8 +16,8 @@ theme:
   name: material
   features:
     # - announce.dismiss
-    - content.action.edit
-    - content.action.view
+    # - content.action.edit
+    # - content.action.view
     - content.code.annotate
     - content.code.copy
     # - content.tabs.link
@@ -26,7 +26,7 @@ theme:
     - navigation.expand
     - navigation.footer
     # - navigation.indexes
-    - navigation.instant
+    # - navigation.instant
     - navigation.path
     # - navigation.prune
     - navigation.sections
