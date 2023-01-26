@@ -9,7 +9,9 @@ This page isn't supposed to discuss individual problems like "I still get string
 It's supposed to be seen as a source of informations for these two specific 3D printer models, which includes general informations about the hardware, firmware, mods and links to further sources.  
   
 However, if you've found out certain settings which work in general (e.g. certain g-codes for the stop/end section), if you discovered mods which aren't listed here or if you found out that certain things just don't work or even harm the printer - you're more than welcome to share them. If you'd like to contribute - please let me know.  
-You don't necessarily need a GitHub account for it if you don't want to register here for free, just send me an email to  <br> `3dneo (at) quantentunnel.de` </br> and we'll figure something out.   
+You don't necessarily need a GitHub account for it if you don't want to register here for free, just send me an email to   
+`3dneo (at) quantentunnel.de`  
+and we'll figure something out.   
   
 May these informations help some newbies like me to get off better from the start and to take care of problems like a broken thermistor or a broken heating element of the extruder or even a broken mainboard (which happened to me all together - nice start).  
   
