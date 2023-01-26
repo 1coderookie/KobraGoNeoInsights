@@ -11,9 +11,9 @@ repo_url: https://github.com/1coderookie/KobraGoNeoInsights
 # Copyright
 copyright: Copyright &copy; 2023 Ulf Dieckmann
 
-# CSS stylesheet
-extra_css:
-  - stylesheets/extra.css
+# Color variables
+# extra_css:
+#  - stylesheets/extra.css
 
 # Configuration
 theme:
@@ -45,14 +45,14 @@ theme:
     - toc.integrate
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: teal
+      accent: teal
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: teal
+      accent: teal
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
