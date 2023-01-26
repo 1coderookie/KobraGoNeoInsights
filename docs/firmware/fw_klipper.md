@@ -1,3 +1,5 @@
+<link rel=”manifest” href=”/appmanifest.webmanifest”>
+
 # Klipper  
   
 Can you run [Klipper]() on the stock mainboard? Yes you can!  
