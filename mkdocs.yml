@@ -113,13 +113,11 @@ nav:
   - Home: 'index.md'
   - The Printers: 'printers.md'
   - Hardware: 
-    - Mainboard: 'mainboard/mainboard.md'
-    - Printhead: 'hardware/printhead/index.md'
+    - Mainboard: 'hardware/mainboard.md'
+    - Printhead: 'hardware/printhead.md'
     - Bed: 'hardware/bed.md'
     - Spare Parts: 'hardware/spare_parts.md'
-  - Firmware:
-    - Marlin (Stock): 'firmware/fw_marlin.md'
-    - Klipper (Mod): 'firmware/fw_klipper.md'
+  - Firmware: 'firmware.md'
   - Profiles & Settings: 'pro_set.md'
   - G-Code Documentation: 'gcode_doc.md'
   - Further Sources: 'further_sources.md'
