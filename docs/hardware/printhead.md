@@ -47,11 +47,11 @@ The silicone sock isolates the heater block. Therefore it should stay in place a
 The sock which comes with the printhead isn't the best one to use (in my opinion), as it comes off pretty easily. There are compatible socks at the aftermarket which I personally use and which I can highly recommend. They have a bigger lip which slips over the heater block and covers a bigger area of the top than the one which comes with the printer. Therefore they stay in place much better when they heat up and become more flexible.  
 The following pictures show the compatible one from the aftermarket on the left side and the stock sock on the right side.     
   
-![Silicone socks top view](../img/silisocks_top_web.jpg)   
+![Silicone socks top view](../assets/images/silisocks_top_web.jpg)   
   
 Additionaly, they also cover the base of the nozzle - something that the stock ones don't do at all.  
   
-![Silicone socks bottom view](../img/silisocks_bottom_web.jpg)  
+![Silicone socks bottom view](../assets/images/silisocks_bottom_web.jpg)  
   
   
 ## Mods
