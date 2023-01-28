@@ -9,13 +9,15 @@ The following picture shows a close up view of the printhead of the **Neo** from
   
 ![Neo printhead front view](../assets/images/head_neo-front_web.jpg) 
   
-
+---
 
 ## ABL sensor
 Both printers come with a proximity sensor for automatic bed levelling (ABL). The ABL sensor at the **Go** is mounted pretty much straight behind the heater block, where at the **Neo** it's located a few centimeters to the right side next to the heater block. The following picture shows the location of the ABL sensor at the printhead of the **Neo**, looking at it from a bottom view angle - the ABL sensor is the part at the right side with the round orange tip.   
   
 ![Orange tip of the ABL sensor at the right side](../assets/images/head_neo-bottom_web.jpg)
-
+  
+---  
+  
 ## Extruder
 The **Go** uses a bowden drive extruder, while the **Neo** is using a direct drive extruder.  
   
@@ -23,9 +25,13 @@ The **Go** uses a bowden drive extruder, while the **Neo** is using a direct dri
   
 If you're about to buy one of either models and you're not sure which fits you better, always go for the direct drive and get yourself the **Neo**.  
   
+---  
+  
 ## Hotend
   
 ..img..  
+  
+---  
   
 ## Heater Block
 Both printers use the E3D V5 compatible heater block.  
@@ -37,7 +43,8 @@ Both the thermistor and the heater cartidge have to be plugged into the specific
 |:----------|
 | *Make sure you don't tighten the screws too much as it could harm both the thermistor and the heater cartridge!* <br> Note the dent from the screw and the deformed thermistor at the following picture. <br> ![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)|   
   
-
+---  
+  
 ## Nozzle
 Anycubic ships the printheads with a 0.4mm brass nozzle for 1.75mm filament. The nozzle is compatible with e.g. E3D V6 nozzles.  
   
@@ -65,7 +72,6 @@ I personally use the E3D V6 brass nozzles for printing PLA+. Yes, they are a bit
   
 If you want to print filaments that are more abrasive, you probably want to go with nozzles made from plated copper, stainless or hardened steel, ruby sapphire nozzles and so on. Check out the web for further and more specific informations about what to choose.  
   
-
 ---   
   
 ## Silicone Sock
@@ -79,6 +85,7 @@ Additionaly, they also cover the base of the nozzle - something that the stock o
   
 ![Silicone socks bottom view](../assets/images/silisocks_bottom_web.jpg)  
   
+---  
   
 ## Disassambling the Printhead
   
@@ -108,5 +115,7 @@ For reassambling, just put everything back together:
 - Turn the extruder so that the wires which are coming from the heater block are hanging freely and aren't bent too much.  
 - Then tighten up the screws, so that the extruder doesn't turn or wiggle anymore (but don't overtighten the screws though).  
 - Reassamble the vent and the plastic cover.   
+  
+---  
   
 ## Mods
