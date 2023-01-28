@@ -1,6 +1,6 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
-# Klipper  
+# Klipper (Mod)  
   
 Can you run [Klipper](https://www.klipper3d.org/) on the stock mainboard? Yes you can!  
 The stock mainboard of the **Go** and the **Neo** is the same, also the procedure of compiling and flashing Klipper is. However, you have to adjust certain settings depending on your specific model.
