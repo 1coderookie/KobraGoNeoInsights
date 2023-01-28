@@ -13,7 +13,8 @@ In case you want to build and compile your own `firmware.bin` file, you can foll
 - [Kobra Neo support page](https://www.anycubic.com/blogs/news/all-you-need-to-know-about-kobra-series)
 - [Kobra Neo GitHub repository](https://github.com/ANYCUBIC-3D/Kobra_Neo)
   
-# Tips
-
+---  
+  
+# Mods
 There are a few modded original firmwares out there:  
 - @Auburn offers a [modified Kobra **Go** firmware](https://github.com/Auburn/Kobra_Go) 
