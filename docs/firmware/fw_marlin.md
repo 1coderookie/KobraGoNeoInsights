@@ -3,8 +3,8 @@
 # Stock Firmware (Marlin Based) 
 The official stock firmware for both models is based on the [Marlin firmware](https://marlinfw.org/).  
   
-You can either 
-- download the necessary `firmware.bin` file at [Anycubic's support page](https://www.anycubic.com/blogs/news/all-you-need-to-know-about-kobra-series) for the specific printer or 
+You can either  
+- download the necessary `firmware.bin` file at [Anycubic's support page](https://www.anycubic.com/blogs/news/all-you-need-to-know-about-kobra-series) for the specific printer or  
 - download the source code from their specific GitHub repositories to compile your own.  
  
 At the time of writing this (January 2023) the available `firmware.bin` files at the support page of Anycubic's website were older versions than the source code ones they offer at their GitHub Account.  
