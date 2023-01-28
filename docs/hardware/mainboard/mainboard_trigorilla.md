@@ -3,7 +3,7 @@
 # TriGorilla V_3.0.6 (Stock) 
   
 The stock mainboard of both the **Go** and the **Neo** is the "TriGorilla V_3.0.6", it's just flashed with the respective fimware of either model.  
-It is a 32bit mainboard with a HC32F460 chip and TM2208 silent steppers.  
+It is a 32bit mainboard with a HC32F460 chip and comes with TM2208 silent stepper drivers soldered onto the board.  
   
 ![Mainboard TriGorilla front](../../assets/images/mainboard_front_web.jpg)  
   
