@@ -9,7 +9,7 @@ You can either
  
 At the time of writing this (January 2023) the available `firmware.bin` files at the support page of Anycubic's website were older versions than the source code ones they offer at their GitHub Account.  
   
-In case you want to build and compile your own `firmware.bin` file, you can follow the instructions of @jojos38 [Tutorial: How to build Anycubic Marlin sourcecode into a firmware.bin](https://www.reddit.com/r/anycubic/comments/y2waxu/tutorial_how_to_build_anycubic_marlin_source_code/).
+In case you want to build and compile your own `firmware.bin` file, you can follow the instructions of @[jojos38](https://github.com/jojos38) [Tutorial: How to build Anycubic Marlin sourcecode into a firmware.bin](https://www.reddit.com/r/anycubic/comments/y2waxu/tutorial_how_to_build_anycubic_marlin_source_code/).
   
 ## Kobra Go
 - [Kobra Go support page](https://www.anycubic.com/blogs/news/all-you-need-to-know-about-kobra-series)
