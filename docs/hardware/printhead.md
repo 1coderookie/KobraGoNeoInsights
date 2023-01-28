@@ -41,7 +41,15 @@ So go for a manufacturer who is known for quality nozzles.
 I personally use the E3D V6 brass nozzles for printing PLA+. Yes, they are a bit more expensive than the super cheap ones, but it's worth it - they last longer, they're precisely made and you'll get much better results. As long as you don't want to print special abrasive filaments, you're always good with these E3D V6 brass nozzles.  
   
 If you want to print filaments that are more abrasive, you probably want to go nozzles made from plated copper, stainless or hardened steel, ruby sapphire nozzles and so on.  
-
+  
+### Changing the Nozzle
+If you just want to change the nozzle, take off the silicone sock of the heater block, then heat up the extruder first and pull back the filament a bit once it's warm enough. Once the extruder heated up, *turn off the printer* and unplug it from the power outlet! Then grab the heater block with a plier to hold it in place and screw out the nozzle.  
+  
+| Attention |
+|:----------|
+| *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with your pliers!* You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. So make sure you really just grab the heater block, preferably grab it from the side where the wires don't come out. |
+| *Make sure you DON'T turn the heater block!* You don't want to loosen the heater block from the hotend, so just hold it in place. |    
+  
 ## Silicone Sock
 The silicone sock isolates the heater block. Therefore it should stay in place and shouldn't come aoff, as it cause the "thermal runaway" error.  
 The sock which comes with the printhead isn't the best one to use (in my opinion), as it comes off pretty easily. There are compatible socks at the aftermarket which I personally use and which I can highly recommend. They have a bigger lip which slips over the heater block and covers a bigger area of the top than the one which comes with the printer. Therefore they stay in place much better when they heat up and become more flexible.  
@@ -54,22 +62,13 @@ Additionaly, they also cover the base of the nozzle - something that the stock o
 ![Silicone socks bottom view](../assets/images/silisocks_bottom_web.jpg)  
   
   
-## Disassambling the Heater Block / Hotend / Nozzle
+## Disassambling the Printhead
   
-### Changing the Nozzle
-If you just want to change the nozzle, take off the silicone sock, then heat up the extruder first and pull back the filament a bit once it's warm enough. Once the extruder heated up, *turn off the printer* and unplug it from the power outlet! Then grab the heater block with a plier to hold it in place and screw out the nozzle.  
+If you need to disassamble the printhead for e.g. changing the hotend, you need to take off the plastic cover first. Unscrew the hexagon socket screws and release the plastic clip at each side - be careful to not break them.   
   
-| Attention |
-|:----------|
-| *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with your pliers!* You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. So make sure you really just grab the heater block, preferably grab it from the side where the wires don't come out. |
-| *Make sure you DON'T turn the heater block!* You don't want to loosen the heater block from the hotend, so just hold it in place. |
+### Kobra Neo  
   
-### Taking out the Extruder  
-If you want to change the whole extruder, the hotend or the heater block, you have to take the extruder out first. Therefore take off the plastic cover of the print head. 
-
-#### Kobra Neo
-In the following, the further steps of this procedure are described for the Kobra **Neo**.  
-After the plastic cover is gone, you can see the vents, the proximity sensor at the right side and the heater block at the bottom. You now have to disassamble the vent on the right side by taking out the four hexagon socket screws.   
+If you want to change the whole extruder, the hotend or the heater block, you have to remove the fan at the right side as the screws which are holding the hotend in place are underneath it. So after the plastic cover is gone, you can see the vents, the proximity sensor at the right side and the heater block at the bottom. You now have to disassamble the vent on the right side by taking out the four hexagon socket screws.   
   
 ![Disassamble the vent on the right side](../assets/images/head_neo_vent-dis_web.jpg)  
   
