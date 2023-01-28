@@ -25,7 +25,12 @@ Both printers use the E3D V5 compatible heater block.
 
 ..img..
 
-Both the thermistor and the heater cartidge have to be plugged into the specific hole and should be fixed with at tiny screw (T 1.5). Make sure that you don't tighten the screw too much as it could harm both the thermistor and the heater cartridge. 
+Both the thermistor and the heater cartidge have to be plugged into the specific hole and should be fixed with at tiny hexagon socket screw (HEX 1.5).  
+  
+| Attention |
+|:----------|
+| *Make sure you don't tighten the screws too much as it could harm both the thermistor and the heater cartridge!* <br> Note the dent from the screw and the deformed thermistor at the following picture. <br> ![Deformed thermistor due to an overtightened screw]()|   
+  
 
 ## Nozzle
 Anycubic ships the printheads with a 0.4mm brass nozzle for 1.75mm filament. 
@@ -64,7 +69,7 @@ Additionaly, they also cover the base of the nozzle - something that the stock o
   
 ## Disassambling the Printhead
   
-If you need to disassamble the printhead for e.g. changing the hotend, you need to take off the plastic cover first. Unscrew the hexagon socket screws and release the plastic clip at each side - be careful to not break them.   
+If you need to disassamble the printhead for e.g. changing the hotend, you need to unload the filament first. Then take off the plastic cover: unscrew the hexagon socket screws at the back and release the plastic clip at each side - be careful not to break them.   
   
 ### Kobra Neo  
   
@@ -76,6 +81,17 @@ Then you'll see two hexagon socket screws at the side, which are holding the hot
   
 ![Loosen the screws to take out the extruder](../assets/images/head_neo_vent-dis-extruder_web.jpg)  
   
-For reassambling, just put everything back together. Make sure you push the hotend far enough in the specific hole - I personally push it as far into it as it goes. Turn the extruder so that the wires which are coming from the heater block are hanging freely. Then tighten up the screws, so that the extruder doesn't turn or wiggle anymore (but don't overtighten the screws though). Reassamble the vent an the plastic cover.   
+Make sure the PTFE tube of the hotend comes out, too.  
+*Be careful to not break any wires or rip them off,* so unscrew the tiny hex screws and take out the thermistor and the heating cartridge. Check the wires and contacts if they aren't harmed and if everything is ok. *If you can see bare wire shining through the isolation, replace the component to not risk a shortcut and therefore a broken mainboard.*   
+  
+If you want to change the hotend or the heater block now, take out the PTFE tube. Then heat up the metal parts by using a heat gun for example and unscrew the hotend from the heater block. Make sure to neither harm the metal parts by the pliers nor yourself by the hot material.  
+    
+For reassambling, just put everything back together:  
+- Warm up the parts and screw the hotend into the heater block until it sits tight.  
+- Put the thermistor and the heater cartridge back in place and secure them by *carefully* tighten the tiny hex screw - *don't overtighten them as you could harm the thermistor and the heater cartridge!*  
+- Then push the hotend back into the specific hole - make sure you push it deep enough (I personally push it as far into it as it goes).  
+- Turn the extruder so that the wires which are coming from the heater block are hanging freely and aren't bent too much.  
+- Then tighten up the screws, so that the extruder doesn't turn or wiggle anymore (but don't overtighten the screws though).  
+- Reassamble the vent and the plastic cover.   
   
 ## Mods
