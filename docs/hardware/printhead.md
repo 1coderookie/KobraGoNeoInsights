@@ -43,8 +43,15 @@ I personally use the E3D V6 brass nozzles for printing PLA+. Yes, they are a bit
 If you want to print filaments that are more abrasive, you probably want to go nozzles made from plated copper, stainless or hardened steel, ruby sapphire nozzles and so on.  
 
 ## Silicone Sock
-The silicone sock keeps isolates the hotend. The sock which comes with the printhead isn't the best one (in my opinion) to use, as it comes off pretty easily. I personally use these socks and can highly recommend them, as they have a bigger lip which covers the hotend at the top area and they are also covering the nozzle much better than the stock ones.  
+The silicone sock isolates the heater block. Therefore it should stay in place and shouldn't come aoff, as it cause the "thermal runaway" error.  
+The sock which comes with the printhead isn't the best one to use (in my opinion), as it comes off pretty easily. There are compatible socks at the aftermarket which I personally use and which I can highly recommend. They have a bigger lip which slips over the heater block and covers a bigger area of the top than the one which comes with the printer. Therefore they stay in place much better when they heat up and become more flexible.  
+The following pictures show the compatible one from the aftermarket on the left side and the stock sock on the right side.     
   
-..img..
-
+![Silicone socks top view](../img/silisocks_top_web.jpg)   
+  
+Additionaly, they also cover the base of the nozzle - something that the stock ones don't do at all.  
+  
+![Silicone socks bottom view](../img/silisocks_bottom_web.jpg)  
+  
+  
 ## Mods
