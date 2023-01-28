@@ -8,7 +8,7 @@ The stock mainboard of both the **Go** and the **Neo** is the "TriGorilla V_3.0.
   
 ![Mainboard TriGorilla back](../../assets/images/mainboard_back_web.jpg)
 
-That means if you e.g. own a Neo and can't get a mainboard for it (at the time of writing this, Anycubic only offers the mainboard for Go in their shop) or if you find a seller but he charges more for the Neo version - just go for the Go version and flash it with the firmware for the Neo.  
+That means if you e.g. own a **Neo** and can't get a mainboard for it (at the time of writing this, Anycubic only offers the mainboard for the **Go** in their shop) or if you find a seller but he charges more for the **Neo** version - just go for the Go version and flash it with the firmware for the **Neo**.  
   
 ## Tips  
   
