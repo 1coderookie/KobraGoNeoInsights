@@ -17,4 +17,4 @@ In case you want to build and compile your own `firmware.bin` file, you can foll
   
 # Mods
 There are a few modded original firmwares out there:  
-- @Auburn offers a [modified Kobra **Go** firmware](https://github.com/Auburn/Kobra_Go) 
+- @[Auburn](https://github.com/Auburn) offers a [modified Kobra **Go** firmware](https://github.com/Auburn/Kobra_Go) 
