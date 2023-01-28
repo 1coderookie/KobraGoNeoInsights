@@ -81,13 +81,15 @@ Then you'll see two hexagon socket screws at the side, which are holding the hot
   
 ![Loosen the screws to take out the extruder](../assets/images/head_neo_vent-dis-extruder_web.jpg)  
   
-Make sure the PTFE tube of the hotend comes out, too.  
-*Be careful to not break any wires or rip them off,* so unscrew the tiny hex screws and take out the thermistor and the heating cartridge. Check the wires and contacts if they aren't harmed and if everything is ok. *If you can see bare wire shining through the isolation, replace the component to not risk a shortcut and therefore a broken mainboard.*   
+Make sure the PTFE tube of the hotend comes out, too. Inspect it if it isn't clogged - if so, either clean it up by e.g. using a little drill or just get a new one as a replacement.   
+  
+When taking out the extruder, *be careful to not break any wires or rip them off from the sensor and heater catridge* - so unscrew the tiny hex screws and take out the thermistor and the heating cartridge. Check the wires and contacts if they aren't harmed and if everything is ok. *If you can see bare wire shining through the isolation, replace the component to not risk a shortcut and therefore a broken mainboard.*   
   
 If you want to change the hotend or the heater block now, take out the PTFE tube. Then heat up the metal parts by using a heat gun for example and unscrew the hotend from the heater block. Make sure to neither harm the metal parts by the pliers nor yourself by the hot material.  
     
 For reassambling, just put everything back together:  
 - Warm up the parts and screw the hotend into the heater block until it sits tight.  
+- Put back the cleaned or renewed PTFE tube.  
 - Put the thermistor and the heater cartridge back in place and secure them by *carefully* tighten the tiny hex screw - *don't overtighten them as you could harm the thermistor and the heater cartridge!*  
 - Then push the hotend back into the specific hole - make sure you push it deep enough (I personally push it as far into it as it goes).  
 - Turn the extruder so that the wires which are coming from the heater block are hanging freely and aren't bent too much.  
