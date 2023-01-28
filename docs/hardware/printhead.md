@@ -54,4 +54,29 @@ Additionaly, they also cover the base of the nozzle - something that the stock o
 ![Silicone socks bottom view](../assets/images/silisocks_bottom_web.jpg)  
   
   
+## Disassambling the Heater Block / Hotend / Nozzle
+  
+### Changing the Nozzle
+If you just want to change the nozzle, take off the silicone sock, then heat up the extruder first and pull back the filament a bit once it's warm enough. Once the extruder heated up, *turn off the printer* and unplug it from the power outlet! Then grab the heater block with a plier to hold it in place and screw out the nozzle.  
+  
+| Attention |
+|:----------|
+| *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with your pliers!* You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. So make sure you really just grab the heater block, preferably grab it from the side where the wires don't come out. |
+| *Make sure you DON'T turn the heater block!* You don't want to loosen the heater block from the hotend, so just hold it in place. |
+  
+### Taking out the Extruder  
+If you want to change the whole extruder, the hotend or the heater block, you have to take the extruder out first. Therefore take off the plastic cover of the print head. 
+
+#### Kobra Neo
+In the following, the further steps of this procedure are described for the Kobra **Neo**.  
+After the plastic cover is gone, you can see the vents, the proximity sensor at the right side and the heater block at the bottom. You now have to disassamble the vent on the right side by taking out the four hexagon socket screws.   
+  
+![Disassamble the vent on the right side](../assets/images/head_neo_vent-dis_web.jpg)  
+  
+Then you'll see two hexagon socket screws at the side, which are holding the hotend - loosen them until you can pull out the extruder.  
+  
+![Loosen the screws to take out the extruder](../assets/images/head_neo_vent-dis-extruder_web.jpg)  
+  
+For reassambling, just put everything back together. Make sure you push the hotend far enough in the specific hole - I personally push it as far into it as it goes. Turn the extruder so that the wires which are coming from the heater block are hanging freely. Then tighten up the screws, so that the extruder doesn't turn or wiggle anymore (but don't overtighten the screws though). Reassamble the vent an the plastic cover.   
+  
 ## Mods
