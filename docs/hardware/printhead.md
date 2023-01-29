@@ -44,10 +44,7 @@ Both the thermistor and the heater cartidge have to be plugged into the specific
   
 ![Heater block V5](../assets/images/head_block-screws-close_web.jpg)  
     
-!!! warning  
-    *Make sure you don't tighten the screws too much as it could harm both the thermistor and the heater cartridge!* Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo** at the following picture.  
   
-![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)|   
   
 ---  
   
@@ -119,11 +116,17 @@ If you need to install a new thermistor and/or cartridge heater, you have to uns
   
 ![Stripping in the new wires](../assets/images/stripping_in_wires_web.jpg)  
   
-When you tighten up the tiny screws at the heater block to secure the thermistor/cartridge heater, make sure you don't overtighten it as it could harm those parts. You can see a picture of that in the "Heater Block" section above which shows the original thermistor which was deformed by an overtightend screw from the manufacturer.   
+!!! warning  
+    *Make sure you don't tighten the screws too much as it could harm both the thermistor and the heater cartridge!* Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo** at the following picture.  
+  
+![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)|    
   
 When installing the parts at the heater block and putting back on the plastic cap of the printhead, I personally avoided to bend the thin wires as it was done within the original installation. I just guided the wires along outside the plastic cover. By doing so, you minimize the risk of getting a shortcut due to a harmed or melted wire isolation at the part where the wires are bended and twisted originally. The following picture shows my new installed thermistor and cartridge heater with the wires running outside of the plastic cap.  
   
 ![Wires running outside of the plastic cap](../assets/images/head_neo_new-sen-therm_web.jpg)  
+  
+!!! tip 
+    *After successful installation of the new thermistor and/or cartridge heater, execute a PID calibration using e.g. Octoprint.*  
   
 ---  
   
