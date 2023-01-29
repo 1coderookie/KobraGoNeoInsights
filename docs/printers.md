@@ -2,8 +2,8 @@
 
 # Printers
 The Anycubic [Kobra **Go**](https://www.anycubic.com/collections/3d-printers/products/kobra-go) and [Kobra **Neo**](https://www.anycubic.com/collections/3d-printers/products/kobra-neo) are pretty much identical FDM bed slinger printers, the only real difference seems to be the different type of extruder:  
-* The Kobra **Go** uses a bowden drive extruder.  
-* The Kobra **Neo** uses a direct drive extruder.  
+- The Kobra **Go** uses a bowden drive extruder.  
+- The Kobra **Neo** uses a direct drive extruder.  
   
 The price of the **Go** usually is a bit lower than the price of the **Neo**.  
 The **Go** comes completely unmounted so you have to mount everything together by yourself. The Kobra **Neo** comes pre-mounted, you only have to mount a few parts like the frame for the x-axis (where the printhead is mounted to) onto the base frame.  
