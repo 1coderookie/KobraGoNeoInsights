@@ -44,7 +44,7 @@ Both the thermistor and the heater cartidge have to be plugged into the specific
   
 ![Heater block V5](../assets/images/head_block-screws-close_web.jpg)  
     
-- *Make sure you don't tighten the screws too much as it could harm both the thermistor and the heater cartridge!*  
+*Make sure you don't tighten the screws too much as it could harm both the thermistor and the heater cartridge!*  
 Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo** at the following picture.  
   
 ![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)|   
@@ -65,8 +65,11 @@ Don't get irritated by the fact that there's a little gap between the head of th
 ![Mounted nozzle](../assets/images/head_nozzle-mounted_web.jpg)    
   
   
-- *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with your pliers!* You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. So make sure you really just grab the heater block, preferably grab it from the side where the wires don't come out.  
-- *Make sure you DON'T turn the heater block!* You don't want to loosen the heater block from the hotend, so just hold it in place.     
+!!! warning  
+    *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with your pliers!* You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. So make sure you really just grab the heater block, preferably grab it from the side where the wires don't come out.  
+    
+!!! danger  
+    *Make sure you DON'T turn the heater block!* You don't want to loosen the heater block from the hotend, so just hold it in place.     
       
    
 ### Tips  
