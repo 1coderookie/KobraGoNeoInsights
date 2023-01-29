@@ -1,5 +1,5 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
-# Further Sources
+# Further Sources of Information
 
 ..
