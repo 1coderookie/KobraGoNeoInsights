@@ -39,8 +39,8 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
 ---  
   
 ## Heater Block
-Both printers use the E3D V5 compatible heater block.  
-Both the thermistor and the heater cartidge have to be plugged into the specific hole and should be fixed with at tiny hexagon socket screw (HEX 1.5).  
+Both printers use an E3D V5 compatible heater block.  
+Both the thermistor and the heater cartidge have to be plugged into the specific holes and should be fixed with at tiny hexagon socket screw (HEX 1.5).  
   
 ![Heater block V5](../assets/images/head_block-screws-close_web.jpg)  
     
