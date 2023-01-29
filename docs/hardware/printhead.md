@@ -17,7 +17,7 @@ The ABL sensor at the **Go** is mounted pretty much straight behind the heater b
   
 ![Orange tip of the ABL sensor at the right side](../assets/images/head_neo-bottom_web.jpg)
   
-!!! tip
+!!! tip  
     Measure the original position (depth/height) of the sensor as it came with and write it down. In case you have to change the sensor or even you loosened the screw which holds it in place by accident you can always put it back in the original position, so that you don't have to deal with fiddling around to find the best position for it afterwards.   
   
 ---  
