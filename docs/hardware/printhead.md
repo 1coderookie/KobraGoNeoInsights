@@ -75,11 +75,12 @@ Don't get irritated by the fact that there's a little gap between the head of th
 When it comes down to choose the right nozzle size, it all depends on what you want to print and how detailed it should be. The standard size of 0.4mm the printers come with is a good starting point. But you may find yourself in the situation that you want to print more detailed objects or objects which should be more sturdy or where it doesn't matter if the surface doesn't look as clean and flat as possible, so you probably should adjust the size and switch to a smaller oder bigger diameter like 0.2-0.3mm for detailed objects and 0.6mm for the 'rougher' prints. Keep in mind though that the printing time increases by choosing a smaller diameter and it decreases when you are using a bigger diameter. Search the web for more specific informations about finding and choosing the right nozzle size for your project.  
   
 In case you're using *Cura* as a slicer, make sure you update to the current version v5.x (Note: It doesn't run at Ubuntu versions below 20.x though) as it uses the new Arachne engine and offers better quality as a result of that. In case you never heard of that, I recommend to watch the following videos from [Thomas Sanladerer](https://www.youtube.com/channel/UCb8Rde3uRL1ohROUVg46h1A) or read the articles at his page [https://toms3d.org/](https://toms3d.org/) where he shows the result of using a 0.6mm nozzle with Cura v5.x comparing to a 0.4 nozzle using Cura 4.x - you barely can see a difference.  
+  
 - [Video: 0.4mm nozzles just became obsolete](https://www.youtube.com/watch?v=WgXM2zPusXo)  
   [Article: 0.4mm nozzles just became obsolete](https://toms3d.org/2022/07/28/arachne-in-prusaslicer-0-4mm-nozzles-just-became-obsolete/)  
 - [Video: Get the benefits of a 0.6mm nozzle with a 0.4?](https://www.youtube.com/watch?v=nmigF5qyJ4M)  
-  [Article: Get the benefits of a 0.6mm nozzle with a 0.4?](https://toms3d.org/2022/09/22/get-the-benefits-of-a-0-6mm-nozzle-with-a-0-4/)
-
+  [Article: Get the benefits of a 0.6mm nozzle with a 0.4?](https://toms3d.org/2022/09/22/get-the-benefits-of-a-0-6mm-nozzle-with-a-0-4/)  
+  
 Do yourself a favour and don't buy those cheap brass nozzles where you'll get a dozen of them for a few bucks. It's just not worth it.  
 Remember that the nozzle is pretty much the most crucial part when it comes down to printing and achieving good results, as it's the last link in the chain of the print process and puts out the filament - so go for a manufacturer who is known for quality nozzles.  
   
@@ -155,13 +156,14 @@ When taking out the extruder, *be careful to not break any wires or rip them off
 If you want to change the hotend or the heater block now, take out the PTFE tube. Then heat up the metal parts by using a heat gun for example and unscrew the hotend from the heater block. Make sure to neither harm the metal parts by the pliers nor yourself by the hot material.  
     
 For reassambling, just put everything back together:  
-- Warm up the parts and screw the hotend into the heater block until it sits tight.  
-- Put back the cleaned or renewed PTFE tube.  
-- Put the thermistor and the heater cartridge back in place and secure them by *carefully* tighten the tiny hex screw - *don't overtighten them as you could harm the thermistor and the heater cartridge!*  
-- Then push the hotend back into the specific hole - make sure you push it deep enough (I personally push it as far into it as it goes).  
-- Turn the extruder so that the wires which are coming from the heater block are hanging freely and aren't bent too much.  
-- Then tighten up the screws, so that the extruder doesn't turn or wiggle anymore (but don't overtighten the screws though).  
-- Reassamble the vent and the plastic cover.   
+  
+1. Warm up the parts and screw the hotend into the heater block until it sits tight.  
+2. Put back the cleaned or renewed PTFE tube.  
+3. Put the thermistor and the heater cartridge back in place and secure them by *carefully* tighten the tiny hex screw - *don't overtighten them as you could harm the thermistor and the heater cartridge!*  
+4. Then push the hotend back into the specific hole - make sure you push it deep enough (I personally push it as far into it as it goes).  
+5. Turn the extruder so that the wires which are coming from the heater block are hanging freely and aren't bent too much.  
+6. Then tighten up the screws, so that the extruder doesn't turn or wiggle anymore (but don't overtighten the screws though).  
+7. Reassamble the vent and the plastic cover.   
   
 ---  
   
