@@ -66,9 +66,7 @@ Don't get irritated by the fact that there's a little gap between the head of th
   
   
 !!! warning  
-    *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with your pliers!* You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. So make sure you really just grab the heater block, preferably grab it from the side where the wires don't come out.  
-    
-!!! danger  
+    *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with your pliers!* You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. So make sure you really just grab the heater block, preferably grab it from the side where the wires don't come out.    
     *Make sure you DON'T turn the heater block!* You don't want to loosen the heater block from the hotend, so just hold it in place.     
       
    
