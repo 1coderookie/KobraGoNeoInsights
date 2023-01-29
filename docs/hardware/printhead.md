@@ -44,8 +44,8 @@ Both the thermistor and the heater cartidge have to be plugged into the specific
   
 ![Heater block V5](../assets/images/head_block-screws-close_web.jpg)  
     
-*Make sure you don't tighten the screws too much as it could harm both the thermistor and the heater cartridge!*  
-Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo** at the following picture.  
+!!! warning  
+    *Make sure you don't tighten the screws too much as it could harm both the thermistor and the heater cartridge!* Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo** at the following picture.  
   
 ![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)|   
   
