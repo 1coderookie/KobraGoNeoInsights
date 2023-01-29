@@ -123,6 +123,7 @@ nav:
       - SKR3 (Mod): 'hardware/mainboard/mainboard_skr3.md'
     - Printhead: 'hardware/printhead.md'
     - Bed: 'hardware/bed.md'
+    - Power Supply Unit: 'hardware/powersupply.md'
     - Spare Parts: 'hardware/spare_parts.md'
   - Firmware: 
     - Stock Firmware (Marlin Based): 'firmware/fw_marlin.md'
