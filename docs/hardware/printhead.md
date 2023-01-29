@@ -21,15 +21,20 @@ Both printers come with a proximity sensor for automatic bed levelling (ABL). Th
 ## Extruder
 The **Go** uses a bowden drive extruder, while the **Neo** is using a direct drive extruder.  
   
-..img..
-  
 If you're about to buy one of either models and you're not sure which fits you better, always go for the direct drive and get yourself the **Neo**.  
   
 ---  
   
 ## Hotend
   
-..img..  
+The hotend of the **Neo** is shown in the following picture. Note the shape of it as it's plugged into the belonging hole at the printhead and secured by two screws. The outer diameter is 6mm, the inner diameter is 4mm and the total length is probably something around 2.4-2.5cm (sorry, I forgot to measure it as I had it disassambled). 
+  
+![Hotend](../assets/images/head_neo_block-hotend-disass_web.jpg)  
+  
+Additionally there is a little PTFE-tube inside of it, which is about 4cm long and 4mm thick with a 2mm hole inside of it to guide the 1.75mm filament.  
+  
+![Hotend mounted with block and tube](../assets/images/head_neo_block-hotend-tube-used_web.jpg)    
+  
   
 ---  
   
@@ -39,23 +44,31 @@ Both the thermistor and the heater cartidge have to be plugged into the specific
   
 ![Heater block V5](../assets/images/head_block-screws-close_web.jpg)  
     
-| Attention |
-|:----------|
-| *Make sure you don't tighten the screws too much as it could harm both the thermistor and the heater cartridge!* <br> Note the dent from the screw and the deformed thermistor at the following picture. <br> ![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)|   
+- *Make sure you don't tighten the screws too much as it could harm both the thermistor and the heater cartridge!*  
+Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo** at the following picture.  
+  
+![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)|   
   
 ---  
   
 ## Nozzle
-Anycubic ships the printheads with a 0.4mm brass nozzle for 1.75mm filament. The nozzle is compatible with e.g. E3D V6 nozzles.  
+Anycubic ships the printheads with a 0.4mm brass nozzle for 1.75mm filament. The nozzle is compatible with e.g. E3D V6 nozzles as shown in the following picture.  
   
+![E3D nozzle](../assets/images/head_nozzle-e3d_web.jpg)  
+    
 ### Changing the Nozzle
 If you just want to change the nozzle, take off the silicone sock of the heater block, then heat up the extruder first and pull back the filament a bit once it's warm enough. Once the extruder heated up, *turn off the printer* and unplug it from the power outlet! Then grab the heater block with a plier to hold it in place and screw out the nozzle.  
   
-| Attention |
-|:----------|
-| *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with your pliers!* You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. So make sure you really just grab the heater block, preferably grab it from the side where the wires don't come out. |
-| *Make sure you DON'T turn the heater block!* You don't want to loosen the heater block from the hotend, so just hold it in place. |   
+For inserting the new nozzle, screw it in and turn it back about half a rotation once you feel it hits the hotend. Then heat up the extruder again and tighten up the nozzle.  
+Don't get irritated by the fact that there's a little gap between the head of the nozzle and the heater block - that's totally fine and it's supposed to be like that as the following picture shows.  
   
+![Mounted nozzle](../assets/images/head_nozzle-mounted_web.jpg)    
+  
+  
+- *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with your pliers!* You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. So make sure you really just grab the heater block, preferably grab it from the side where the wires don't come out.  
+- *Make sure you DON'T turn the heater block!* You don't want to loosen the heater block from the hotend, so just hold it in place.     
+      
+   
 ### Tips  
 When it comes down to choose the right nozzle size, it all depends on what you want to print and how detailed it should be. The standard size of 0.4mm the printers come with is a good starting point. But you may find yourself in the situation that you want to print more detailed objects or objects which should be more sturdy or where it doesn't matter if the surface doesn't look as clean and flat as possible, so you probably should adjust the size and switch to a smaller oder bigger diameter like 0.2-0.3mm for detailed objects and 0.6mm for the 'rougher' prints. Keep in mind though that the printing time increases by choosing a smaller diameter and it decreases when you are using a bigger diameter. Search the web for more specific informations about finding and choosing the right nozzle size for your project.  
   
@@ -84,6 +97,32 @@ The following pictures show the compatible one from the aftermarket on the left 
 Additionaly, they also cover the base of the nozzle - something that the stock ones don't do at all.  
   
 ![Silicone socks bottom view](../assets/images/silisocks_bottom_web.jpg)  
+  
+---  
+  
+## Thermistor & Cartridge Heater
+The *thermistor* which is used is a capsuled NTC 100k (probably "3950"). The diameter is 3mm, the length should be minimum 6mm as that is the depth of the hole in the heater block. You should be able to use a compatible item from the aftermarket which fits a V5/V6 heater block, e.g. an ATC Semitec 104GT-2. The following picture shows the thermistor from the aftermarket I used and the specific plug, the wire is about 150cm long.  
+  
+![Thermistor and plug](../assets/images/head_plug-therm_web.jpg)  
+  
+The *cartidge heater* which is used is a 24V 40W element. The diameter is 6mm, the length of the original part is 18mm. However, a cartridge heater from the aftermarket with a length of about 21mm is just fine, it just sticks out at both sides of ther heater block at the end which shouldn't be a problem. It seems that it's is a typical dimension for V5/V6 heater blocks. The following picture shows the original part on the left side and a compatbile part from the aftermarket I used at the right side.  
+  
+![Cartridge heaters](../assets/images/head_cart-heater_web.jpg)  
+  
+The wire (at least at the **Neo**) is about 150cm with the specific plug at the end shown at the following picture.  
+
+![Spcific plug of the cartridge heater](../assets/images/head_cart-plug_web.jpg)
+  
+### Tip
+If you need to install a new thermistor and/or cartridge heater, you have to unstrip the wires from the cable conduit. You can just unroll the conduit, pull out the wires from the old part while tugging in the wires of the new part. Be careful to not pull too hard to not harm any thin wires which might be wrapped around the wires of the old part.  
+  
+![Stripping in the new wires](../assets/images/stripping_in_wires_web.jpg)  
+  
+When you tighten up the tiny screws at the heater block to secure the thermistor/cartridge heater, make sure you don't overtighten it as it could harm those parts. You can see a picture of that in the "Heater Block" section above which shows the original thermistor which was deformed by an overtightend screw from the manufacturer.   
+  
+When installing the parts at the heater block and putting back on the plastic cap of the printhead, I personally avoided to bend the thin wires as it was done within the original installation. I just guided the wires along outside the plastic cover. By doing so, you minimize the risk of getting a shortcut due to a harmed or melted wire isolation at the part where the wires are bended and twisted originally. The following picture shows my new installed thermistor and cartridge heater with the wires running outside of the plastic cap.  
+  
+![Wires running outside of the plastic cap](../assets/images/head_neo_new-sen-therm_web.jpg)  
   
 ---  
   
