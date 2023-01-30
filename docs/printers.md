@@ -23,8 +23,8 @@ The following list gives an overview of the most important specifications:
 - Control panel: 2.4" LCD screen with a control knob  
 - TriGorilla V_3.0.6 mainboard, 32bit, TPM2208 silent stepper drivers  
 - Extruder / feeder system:  
-  - Bowden separated at Kobra **Go**  
-  - Direct drive at Kobra **Neo**  
+    - Bowden separated at Kobra **Go**  
+    - Direct drive at Kobra **Neo**  
 - Printing platform: 8.7 x 8.7 inches / 220 x 220 mm  
 - Heated and magnetic bed with removable PEI-coated spring steel plate (one-sided coated at **Go**, double-sided coated at **Neo**)  
 - Hot bed temperature: ≤ 230 °F / 110 °C  
