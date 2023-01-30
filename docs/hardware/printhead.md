@@ -137,9 +137,7 @@ If you need to install a new thermistor and/or cartridge heater, you have to uns
 ![Stripping in the new wires](../assets/images/stripping_in_wires_web.jpg)  
   
 !!! warning  
-    *Make sure you don't tighten the screws too much as it could harm both the thermistor and the heater cartridge!* Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo** at the following picture.  
-  
-![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)|    
+    *Make sure you don't tighten the screws too much as it could harm both the thermistor and the heater cartridge!* Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo** at the following picture. <br> ![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)|    
   
 When installing the parts at the heater block and putting back on the plastic cap of the printhead, I personally avoided to bend the thin wires as it was done within the original installation. I just guided the wires along outside the plastic cover. By doing so, you minimize the risk of getting a shortcut due to a harmed or melted wire isolation at the part where the wires are bended and twisted originally. The following picture shows my new installed thermistor and cartridge heater with the wires running outside of the plastic cap.  
   
