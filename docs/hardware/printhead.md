@@ -131,7 +131,7 @@ The wire is about 150cm with the specific plug at the end shown at the following
 
 ![Spcific plug of the cartridge heater](../assets/images/head_cart-plug_web.jpg)
   
-### Tip
+### Tips
 If you need to install a new thermistor and/or cartridge heater, you have to unstrip the wires from the cable conduit. You can just unroll the conduit, pull out the wires from the old part while tugging in the wires of the new part. Be careful to not pull too hard to not harm any thin wires which might be wrapped around the wires of the old part.  
   
 ![Stripping in the new wires](../assets/images/stripping_in_wires_web.jpg)  
