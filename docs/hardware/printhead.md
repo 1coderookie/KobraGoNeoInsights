@@ -19,7 +19,7 @@ The following picture shows a close up view of the printhead of the **Neo** from
 ---
 
 ## ABL Sensor
-Both printers come with a proximity sensor for automatic bed levelling (ABL).  
+Both printers come with a proximity sensor for automatic bed levelling (ABL) which is (afaik) the same model.  
 The ABL sensor at the **Go** is mounted pretty much straight behind the heater block, where at the **Neo** it's located a few centimeters to the right side next to the heater block. The following picture shows the location of the ABL sensor at the printhead of the **Neo**, looking at it from a bottom view angle - the ABL sensor is the part at the right side with the round orange tip.   
   
 ![Orange tip of the ABL sensor at the right side](../assets/images/head_neo-bottom_web.jpg)
@@ -40,7 +40,7 @@ If you're about to buy one of either models and you're not sure which fits you b
   
 ### Go
   
-!!! question Got a **Go**?
+!!! question Got a **Go**?  
     Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures of the hotend like the ones I show here of the **Neo** for example, so people can see the difference between those two models. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!  
   
 ### Neo  
