@@ -61,7 +61,7 @@ theme:
     
 # Color variables and font size
 extra_css:
-  - docs/stylesheets/extra.css
+  - 'stylesheets/extra.css'
     
 # Plugins
 plugins:
