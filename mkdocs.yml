@@ -60,8 +60,8 @@ theme:
     logo: logo
     
 # Color variables and font size
-extra_css:
-  - 'stylesheets/extra.css'
+# extra_css:
+#   - 'stylesheets/extra.css'
     
 # Plugins
 plugins:
