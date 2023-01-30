@@ -3,10 +3,8 @@
     "short_name": "KobraGoNeoInsights",
     "id": "/?source=pwa",
     "start_url": "/?source=pwa",
-    //"start_url": "/index.html",
     "display": "minimal-ui",
     "scope": ".",
-    //"orientation":"portrait",
     "icons": [
     {
       "src": "/images/icons-vector.svg",
