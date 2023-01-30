@@ -11,10 +11,6 @@ repo_url: https://github.com/1coderookie/KobraGoNeoInsights
 # Copyright
 copyright: Copyright &copy; 2023 Ulf Dieckmann
 
-# Color variables
-# extra_css:
-#  - stylesheets/extra.css
-
 # Configuration
 theme:
   name: material
@@ -62,6 +58,10 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
+    
+# Color variables and font size
+extra_css:
+    - stylesheets/extra.css
     
 # Plugins
 plugins:
