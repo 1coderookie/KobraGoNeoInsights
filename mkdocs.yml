@@ -61,7 +61,7 @@ theme:
     
 # Color variables and font size
 extra_css:
-    - stylesheets/extra.css
+  - docs/stylesheets/extra.css
     
 # Plugins
 plugins:
@@ -118,9 +118,7 @@ nav:
   - The Printers: 'printers.md'
   - Hardware: 
     - Hardware: 'hardware/hw_index.md'
-    - Mainboard: 
-      - TriGorilla (Stock): 'hardware/mainboard/mainboard_trigorilla.md'
-      - SKR3 (Mod): 'hardware/mainboard/mainboard_skr3.md'
+    - Mainboard: 'hardware/mainboard.md'
     - Printhead: 'hardware/printhead.md'
     - Bed: 'hardware/bed.md'
     - Power Supply Unit: 'hardware/powersupply.md'
