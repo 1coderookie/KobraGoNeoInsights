@@ -1,7 +1,9 @@
 {
     "name": "KobraGoNeoInsights",
     "short_name": "KobraGoNeoInsights",
-    "start_url": "/index.html",
+    "id": "/?source=pwa",
+    "start_url": "/?source=pwa",
+    //"start_url": "/index.html",
     "display": "minimal-ui",
     "scope": ".",
     //"orientation":"portrait",
