@@ -3,7 +3,7 @@
 **Hi and welcome to my little page about the 3D FDM printers "Kobra Go" and "Kobra Neo" from Anycubic.**  
   
 I am a newbie to 3D printing and got a **Kobra Neo** from a friend of mine.  
-As it came with some minor problems and needed a bit of tinker love, I was trying to find informations and tips specifically about the Neo. It turned out that it wasn't an easy mission as it's pretty new to the Kobra family - most of the (still rare) informations were about the Kobra **Go**.  
+As it came with some minor problems and needed a bit of tinker love, I was trying to find informations and tips specifically about the **Neo**. It turned out that it wasn't an easy mission as it's pretty new to the Kobra family - most of the (still rare) informations were about the Kobra **Go**.  
 So I thought it might be a good idea to document my tinkering and collect informations and tips about the **Go** and **Neo** as they are basically the same to facilitate other newbies like me an easier start right away.  
   
 If you'd like to contribute - please let me know, I'd highly appreciate it.  
