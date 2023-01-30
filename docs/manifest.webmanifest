@@ -1,6 +1,6 @@
 {
-    "name": "How2KobraGoNeo",
-    "short_name": "How2KobraGoNeo",
+    "name": "KobraGoNeoInsights",
+    "short_name": "KobraGoNeoInsights",
     "start_url": "/index.html",
     "display": "minimal-ui",
     "scope": ".",
