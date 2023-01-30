@@ -6,6 +6,11 @@ The microSD card shipped with your printer should contain a file with a Cura pro
   
 However, there are users who offer their profiles for the Go and Neo, so that beginners have a better starting point. In the follwing I'll list them as far as I'm aware of them. Be aware though that you still have to check the settings and finetune them for your device.  
   
+## Go  
+  
+  
+## Neo  
+
 - @sclebo05 offers his profiles for different slicers for the Kobra **Neo**: [https://github.com/sclebo05/KobraNeoProfiles](https://github.com/sclebo05/KobraNeoProfiles)
 
 
