@@ -21,3 +21,7 @@ Shortcuts coming from the cartridge heater for example can/will damage your main
   
 ![Melted D4 caused by a shortcut](../../assets/images/mainboard_melted-D4_web.jpg)  
   
+---
+  
+# SKR3 (Mod)
+..
