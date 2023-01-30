@@ -2,14 +2,17 @@
 
 # Printhead
 The printheads of the **Go** and the **Neo** aren't identical because of the different type of extruder they're using: the **Go** uses a bowden extruder while the **Neo** is using a direct drive extruder. If you look at both printheads from the front and compare their size, you'll notice that the one of the **Go** is a bit smaller and more suqare than the wider and more square one from the **Neo**.  
+  
+## Go
+!!! question Got a **Go**?  
+    Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures of the printhead like the ones I show here of the **Neo** for example, so people can see the difference between those two models like the shape and the position of the ABL sensor. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!  
+  
+## Neo  
 The following picture shows a new printhead for the **Neo** as it comes as a spare part.  
   
 ![New Neo print head spare part](../assets/images/head_neo-spare_web.jpg)
 
 The following picture shows a close up view of the printhead of the **Neo** from the front view. At the bottom you can see the blue silicone sock of the heater block with the nozzle in the middle and the orange tip of the ABL sensor at the right side.  
-  
-!!! question inline end  
-    Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures of the printhead like the ones I show here of the **Neo**, so people can see the difference between those two models like the shape and the position of the ABL sensor. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!    
   
 ![Neo printhead front view](../assets/images/head_neo-front_web.jpg) 
   
@@ -35,7 +38,14 @@ If you're about to buy one of either models and you're not sure which fits you b
   
 ## Hotend
   
-The hotend of the **Neo** is shown in the following picture. Note the shape of it as it's plugged into the belonging hole at the printhead and secured by two screws. The outer diameter is 6mm, the inner diameter is 4mm and the total length is probably something around 2.4-2.5cm (sorry, I forgot to measure it as I had it disassambled). 
+### Go
+  
+!!! question Got a **Go**?
+    Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures of the hotend like the ones I show here of the **Neo** for example, so people can see the difference between those two models. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!  
+  
+### Neo  
+  
+The hotend of the **Neo** is shown in the following picture. Note the shape of it as it's plugged into the belonging hole at the printhead and secured by two screws. The outer diameter is 6mm(?), the inner diameter is 4mm and the total length is probably something around 2.4-2.5cm (sorry, I forgot to measure it as I had it disassambled). 
   
 ![Hotend](../assets/images/head_neo_block-hotend-disass_web.jpg)  
   
@@ -47,7 +57,7 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
 ---  
   
 ## Heater Block
-Both printers use an E3D V5 compatible heater block.  
+Both printers use an E3D V5 compatible heater block (afaik).  
 Both the thermistor and the heater cartidge have to be plugged into the specific holes and should be fixed with at tiny hexagon socket screw (HEX 1.5).  
   
 ![Heater block V5](../assets/images/head_block-screws-close_web.jpg)  
@@ -57,7 +67,8 @@ Both the thermistor and the heater cartidge have to be plugged into the specific
 ---  
   
 ## Nozzle
-Anycubic ships the printheads with a 0.4mm brass nozzle for 1.75mm filament. The nozzle is compatible with e.g. E3D V6 nozzles as shown in the following picture.  
+Anycubic ships the printheads with a 0.4mm brass nozzle for 1.75mm filament.  
+The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following picture.  
   
 ![E3D nozzle](../assets/images/head_nozzle-e3d_web.jpg)  
     
@@ -112,11 +123,11 @@ The *thermistor* which is used is a capsuled NTC 100k (probably "3950"). The dia
   
 ![Thermistor and plug](../assets/images/head_plug-therm_web.jpg)  
   
-The *cartidge heater* which is used is a 24V 40W element. The diameter is 6mm, the length of the original part is 18mm. However, a cartridge heater from the aftermarket with a length of about 21mm is just fine, it just sticks out at both sides of ther heater block at the end which shouldn't be a problem. It seems that it's is a typical dimension for V5/V6 heater blocks. The following picture shows the original part on the left side and a compatbile part from the aftermarket I used at the right side.  
+The *cartidge heater* which is used is a 24V 40W element. The diameter is 6mm, the length of the original part is about 18mm. However, a cartridge heater from the aftermarket with a length of about 21mm is just fine, it just sticks out at both sides of ther heater block at the end which shouldn't be a problem. It seems that it's is a typical dimension for V5/V6 heater blocks. The following picture shows the original part on the left side and a compatbile part from the aftermarket I used at the right side.  
   
 ![Cartridge heaters](../assets/images/head_cart-heater_web.jpg)  
   
-The wire (at least at the **Neo**) is about 150cm with the specific plug at the end shown at the following picture.  
+The wire is about 150cm with the specific plug at the end shown at the following picture.  
 
 ![Spcific plug of the cartridge heater](../assets/images/head_cart-plug_web.jpg)
   
@@ -143,7 +154,13 @@ When installing the parts at the heater block and putting back on the plastic ca
   
 If you need to disassamble the printhead for e.g. changing the hotend, you need to unload the filament first. Then take off the plastic cover: unscrew the hexagon socket screws at the back and release the plastic clip at each side - be careful not to break them.   
   
-### Kobra Neo  
+### Go
+  
+!!! question Got a **Go**?  
+    Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures of disassambling the printhead like the ones I show here of the **Neo** for example, so people can see the difference between those two models. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!  
+  
+  
+### Neo  
   
 If you want to change the whole extruder, the hotend or the heater block, you have to remove the fan at the right side as the screws which are holding the hotend in place are underneath it. So after the plastic cover is gone, you can see the vents, the proximity sensor at the right side and the heater block at the bottom. You now have to disassamble the vent on the right side by taking out the four hexagon socket screws.   
   
@@ -172,4 +189,10 @@ For reassambling, just put everything back together:
 ---  
   
 ## Mods
-- Reddit member [xpeng121](https://www.reddit.com/user/xpeng121/) posted his modification for the Kobra **Go** to a direct drive extruder: [Kobra Go direct drive mod. Yes it's Neo now...](https://www.reddit.com/r/anycubic/comments/10howol/kobra_go_direct_drive_mod_yes_its_neo_now/)
+
+### Go  
+  
+- Reddit member [xpeng121](https://www.reddit.com/user/xpeng121/) posted his modification for the Kobra **Go** to a direct drive extruder: [Kobra Go direct drive mod. Yes it's Neo now...](https://www.reddit.com/r/anycubic/comments/10howol/kobra_go_direct_drive_mod_yes_its_neo_now/)  
+  
+### Neo  
+  
