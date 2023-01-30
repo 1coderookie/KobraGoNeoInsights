@@ -1,9 +1,9 @@
 .md-typeset .footnote,
 .md-typeset .footnote .admonition {
-  font-size: 20px;
+  font-size: 30px;
 }
 .md-typeset table:not([class]) {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #:root {
