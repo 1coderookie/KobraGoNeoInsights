@@ -1,3 +1,4 @@
+:root {
 .md-typeset .footnote,
 .md-typeset .footnote .admonition {
   font-size: 30px;
@@ -6,8 +7,8 @@
   font-size: 30px;
 }
 
-#:root {
+
 #  --md-primary-fg-color:        #159957;
 #  --md-primary-fg-color--light: #159957;
 #  --md-primary-fg-color--dark:  #159957;
-#}
+}
