@@ -57,7 +57,7 @@ If you're about to buy one of either models and you're not sure which fits you b
 ## Neo
 The following picture shows the extruder/feeder of the **Neo**.  
   
-![Direct drive of the Neo](..assets/images/head_neo_directdrive_web.jpg)
+![Direct drive of the Neo](../assets/images/head_neo_directdrive_web.jpg)
   
 At the top in front of the little hole where the filament is inserted you find a little lever for manual release of the tension while loading/unloading the filament. The screw in the front adjusts the pressure of the feeder gear which is brought onto the filament.  
   
