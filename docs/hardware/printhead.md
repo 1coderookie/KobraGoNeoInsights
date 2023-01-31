@@ -4,7 +4,7 @@
 The printheads of the **Go** and the **Neo** aren't identical because of the different type of extruder they're using: the **Go** uses a bowden extruder while the **Neo** is using a direct drive extruder. If you look at both printheads from the front and compare their size, you'll notice that the one of the **Go** is a bit smaller and more suqare than the wider and more square one from the **Neo**.  
   
 ## Go
-!!! question Got a **Go**?  
+!!! question Got a Go?  
     Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures of the printhead like the ones I show here of the **Neo** for example, so people can see the difference between those two models like the shape and the position of the ABL sensor. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!  
   
 ## Neo  
