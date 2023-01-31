@@ -1,7 +1,12 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # Printhead
-The printheads of the **Go** and the **Neo** aren't identical because of the different type of extruder they're using: the **Go** uses a bowden extruder while the **Neo** is using a direct drive extruder. If you look at both printheads from the front and compare their size, you'll notice that the one of the **Go** is a bit smaller and more suqare than the wider and more square one from the **Neo**.  
+The printheads of the **Go** and the **Neo** aren't identical because of the different type of extruder they're using:  
+
+- the **Go** uses a bowden drive feeder/extruder while 
+- the **Neo** is using a direct drive feeder/extruder.   
+  
+If you look at both printheads from the front and compare their size, you'll notice that the one of the **Go** is a bit smaller and more suqare than the wider and more rectangular shaped one of the **Neo**.  
   
 ## Go
 ??? question "Got a **Go**?"  
