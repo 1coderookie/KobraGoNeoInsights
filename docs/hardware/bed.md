@@ -10,3 +10,6 @@ The following picture shows the surface of the coated plate from a close-up view
   
 ![Close-up view of the PEI-coated plate](../assets/images/bed_closeup_web.jpg)  
   
+!!! tip
+
+    Before starting a print, make sure the surface of the plate is clean and without any traces of oil, silicone or other stuff which avoids that the filament sticks to the surface. *To clean it, it's best to use isopropyl alcohol.* 
