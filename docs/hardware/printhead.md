@@ -144,7 +144,7 @@ The wire is about 150cm with the specific plug at the end shown at the following
 
 !!! warning info inline 
 
-    *Make sure you don't tighten the screws too much as it could harm both the thermistor and the heater cartridge!* Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo** at the following picture.  
+    *Make sure you don't overtighten the screws as it could harm both the thermistor and the heater cartridge!* <br> Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo**.  
     
 ![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)|    
   
