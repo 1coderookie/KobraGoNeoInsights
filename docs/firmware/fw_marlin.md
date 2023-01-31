@@ -7,8 +7,8 @@ You can either
 
 - download the necessary `firmware.bin` file at [Anycubic's firmware & software page](https://www.anycubic.com/pages/firmware-software) for the specific printer or  
 - download the source code from their specific GitHub repositories to compile your own:  
-  - [Kobra Go GitHub repository](https://github.com/ANYCUBIC-3D/Kobra_Go)  
-  - [Kobra Neo GitHub repository](https://github.com/ANYCUBIC-3D/Kobra_Neo)  
+    - [Kobra Go GitHub repository](https://github.com/ANYCUBIC-3D/Kobra_Go)  
+    - [Kobra Neo GitHub repository](https://github.com/ANYCUBIC-3D/Kobra_Neo)  
    
 At the time of writing this (January 2023) the available `firmware.bin` files at the support page of Anycubic's website were older versions than the source code ones they offer at their GitHub Account.  
   
