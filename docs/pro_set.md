@@ -8,6 +8,9 @@ However, there are users who offer their profiles for the Go and Neo, so that be
   
 ## Go  
   
+??? question "Got a Go?"
+
+    Do you own a **Go** and created profiles for it which could be useful for other users as well? <br> Did you made them available somewhere? <br> If so, send me an email to <br> `3dneo (at) quantentunnel.de` <br> and let me know about it, I'd be happy to set a link to it.   
   
 ## Neo  
 
