@@ -229,25 +229,25 @@ After the plastic cover is gone, you can see the fans, the proximity sensor at t
   
 ![Front side view](../assets/images/head_dis-front_web.jpg)   
   
-Now look at the left side where you can see the motor of the feeder gear. You can spot three hexagon socket screws there - two at the top and one at the bottom, which are holding the entire feeder system onto the metal backplate.    
+Now we look at the left side where you can see the motor of the feeder gear. You can spot three hexagon socket screws there - two at the top and one at the bottom close to the motor housing, which are holding the entire feeder system onto the metal backplate.    
   
 ![Left side view](../assets/images/head_leftside_motor_mount_web.jpg)
   
-At the right side you see the fan for cooling the extruder and the ABL sensor at the very right side of the construction.    
+From the right side view you see the fan for cooling the extruder and the ABL sensor with the orange tip at the very right side of the construction.    
   
 ![Right side view](../assets/images/head_rightside_web.jpg) 
   
 Looking at the head from the bottom right side, you can see the fan outlet on the left, the hotend with the stock silicone sock and the orange tip of the ABL sensor.    
   
 ![Bottom right side view](../assets/images/head_bottom-view_web.jpg)   
-The following picture shows the whole metal plate where the feeder construction and the bracket of the ABL sensor is mounted onto - I took these pictures when the head wasn't mounted to the carrier of the x-axis so you can have a better look at the deatils.   
+The following picture shows the whole metal plate where the feeder construction and the bracket of the ABL sensor is mounted onto - I took these pictures when the head wasn't mounted to the carrier of the x-axis so you can have a better look at the deatails.   
   
 ![Backside view metal plate](../assets/images/head_backplate_web.jpg)
   
 ??? tip "Disassambling the Hotend, Heater Block and/or Heatbreak"
 
     - First you have to disassamble the fan on the right side by taking out the two hexagon socket screws at the top and bottom of the fan frame. <br> ![Disassamble the fan on the right side](../assets/images/head_rightside_web.jpg)  
-    - Then you'll see two hexagon socket screws at the side which are holding the hotend - loosen them until you can gently pull out the hotend. <br> ![Loosen the screws to take out the hotend](../assets/images/head_neo_vent-dis-extruder_web.jpg) <br> You could've seen the heads of the screws already earlier before disassambling the fan, vbut you wouldn't have been able to reach them as the following picture shows. <br> ![Closeup of the screws which you want to reach](../assets/images/head_hotend-screws_closeup_web.jpg)
+    - Then you'll see two hexagon socket screws at the side which are holding the hotend - loosen them until you can gently pull out the hotend. <br> ![Loosen the screws to take out the hotend](../assets/images/head_neo_vent-dis-extruder_web.jpg) <br> You could've seen the heads of the screws already earlier before disassambling the fan, but you wouldn't have been able to reach them as the following picture shows. <br> ![Closeup of the screws which you want to reach](../assets/images/head_hotend-screws_closeup_web.jpg)
   
     !!! warning  
 
@@ -265,9 +265,9 @@ The following picture shows the whole metal plate where the feeder construction 
 ??? tip "Disassambling the ABL Sensor"
 
     - If you want to change the ABL sensor, loosen the two hexagon socket screw at the backplate which holds the plastic bracket in place (where the ABL sensor sits in). They are located at the left side of the back plate if you look at it from the back (see pictures above). The following picture shows the screws from a side view angle to give you a better impression about the location. <br> ![Screws for the ABL sensor on the left side](../assets/images/head_ABL-sensor_screws_web.jpg)
-    - The bracket itself is designed as a slay which can be adjusted by turning the screw at the very top of this construction. <br> ![Screw at the top to move the slay](../assets/images/head_ABL-sensor_top_closeup_web.jpg)  
+    - The bracket itself is designed as a slay which can be adjusted by turning the screw at the very top of this construction. *Measure and mark or note the position of the ABL sensor first before loosening anything or even taking it out of the bracket.* In case you forgot about that, the following picture of an original spare part printhead shows the position. The upper edge of the sensor is in line with the upper edge of the slay/bracket, the orange tip of the sensor at the bottom sticks out about 3.5mm of the bracket. <br> ![Screw at the top to move the slay](../assets/images/head_ABL-sensor_top_closeup_web.jpg)  
     - Be careful when you want to take out the sensor from the plastic bracket and therefore have to release the tiny plastic clips which close the bracket - don't break them! <br> ![image](../assets/images/head_ABL-sensor_clip_closeup_web.jpg)
-    - Measure and mark or note the position of the ABL sensor first before loosening anything or even taking it out of the bracket. In case you forgot about that, the following picture of an original spare part printhead shows the position. The upper edge of the sensor is in line with the upper edge of the slay/bracket, the orange tip of the sensor at the bottom sticks out about 3.5mm of the bracket. <br> [Alignment of the ABL sensor](../assets/images/head_ABL-sensor_top_closeup_web.jpg)    
+        
 
 ??? tip "Disassambling the Feeder System" 
 
@@ -276,7 +276,7 @@ The following picture shows the whole metal plate where the feeder construction 
   
 ??? tip "Reassambling" 
 
-    For reassambling, just put everything back together by reverting the beforementioned steps. Make sure you're using the right screws and don't forget any of them. Don't overtighten the screws - as my father (R.I.P.) used to say: "After tight comes loose!". 
+    For reassambling, just put everything back together by reverting the beforementioned steps. Make sure you're using the right screws and don't forget any of them. Don't overtighten the screws - as my father (R.I.P.) used to say: "After tight comes loose!" (roughly translated). 
   
     1. Warm up the parts using e.g. a heat gun and screw the heatbreak into the heater block until it sits tight.  
     2. Put back the cleaned or renewed PTFE tube.  
