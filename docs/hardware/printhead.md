@@ -42,6 +42,10 @@ The following picture shows the location of the ABL sensor at the printhead of t
   
 ![Orange tip of the ABL sensor at the right side](../assets/images/head_neo-bottom_web.jpg)
     
+The ABL sensor itself is mounted in a plastic bracket which is the mounted to the metal backplate.  
+  
+![ABL sensor](../assets/images/head_ABL-sensor-front_web.jpg)
+    
 ---  
   
 ## Extruder / Feeder
@@ -55,11 +59,13 @@ If you're about to buy one of either models and you're not sure which fits you b
     Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need a picture of the bowden drive feeder, so people could see the difference between the **Go** and the **Neo**. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you! 
   
 ## Neo
-The following picture shows the extruder/feeder of the **Neo**.  
+The following picture shows the extruder/feeder of the **Neo** with the mounted plastic cover of the printhead.  
   
 ![Direct drive of the Neo](../assets/images/head_neo_directdrive_web.jpg)
   
-At the top in front of the little hole where the filament is inserted you find a little lever for manual release of the tension while loading/unloading the filament. The screw in the front adjusts the pressure of the feeder gear which is brought onto the filament.  
+At the top in front of the little hole where the filament is inserted you find a little lever for manual release of the tension while loading/unloading the filament. The screw in the front adjusts the pressure of the feeder gear which is brought onto the filament. The following picture shows the mechanism without the plastic cover.  
+  
+![Feeder top view](../assets/images/head_feeder_topview_web.jpg)
   
 !!! warning
 
@@ -104,9 +110,7 @@ Both printers use an E3D V5 compatible heater block.
 Both the thermistor and the cartidge heater have to be plugged into the specific holes and should be fixed with at tiny grub screw (HEX 1.5).  
   
 ![Heater block V5](../assets/images/head_block-screws-close_web.jpg)  
-    
-  
-  
+      
 ---  
   
 ## Nozzle
@@ -201,7 +205,11 @@ The wire is about 150cm with the specific plug at the end shown at the following
   
 ## Disassambling the Printhead
   
-If you need to disassamble the printhead for e.g. changing the hotend, you need to unload the filament first. Then take off the plastic cover: unscrew the hexagon socket screws at the back and release the plastic clip at each side - be careful not to break them.   
+Disassambling the printhead isn't really complicated. Just make sure you're careful and put the screws in a place and order that makes it easy for you to reassamble everything later. The following steps are just a rough guide through so that you know what you'll be confrontated with.   
+  
+!!! warning  
+
+    If you need to disassamble the printhead for e.g. changing the hotend, unload the filament first!     
   
 ### Go
   
@@ -212,20 +220,34 @@ If you need to disassamble the printhead for e.g. changing the hotend, you need 
   
 ### Neo  
  
-Disassambling the printhead isn't really complicated. Just make sure you're careful and put the screws in a place and order that makes it easy for you to reassamble everything later. The following steps are just a rough guide through so that you know what you'll be confrontated with.  
-
-Whatever you want to do, like if you want to change the hotend, the heater block, the heatbreak, a fan or even want to disassamble the whole feeder system, you have to remove the plastic cover of the printhead first. It's secured by two hexagon socket screws at the top of the metal back plate and a plastic clip at each side at the lower bottom. Be gentle and careful to not break one of the clips - the best way to get them out of their fittings is to gently push together the whole plastic cover at the bottom sides.  
+Whatever you want to do, like if you want to change the hotend, the heater block, the heatbreak, a fan or even want to disassamble the whole feeder system, you have to remove the plastic cover of the printhead first.  
+It's secured by two hexagon socket screws at the top of the metal back plate and a plastic clip at each side at the lower bottom as you can see at the following picture (well, you don't really see the plastic clip though but you can see the belonging notch of one of them). Be gentle and careful to not break one of the clips - the best way to get them out of their fittings is to gently push together the whole plastic cover at the bottom sides.  
   
-![image]()  
+![Backside view of the head with mounted plastic cover](../assets/images/head_complete_backside_web.jpg)  
   
-After the plastic cover is gone, you can see the fans, the proximity sensor at the right side and the heater block at center down at the bottom and so on. Depending on what you want do do now, you need to follow different steps.  
+After the plastic cover is gone, you can see the fans, the proximity sensor at the right side and the heater block at center down at the bottom and so on. Depending on what you want do do now, you need to follow different steps. But first let's have a look at the coverless head from different points of view, starting with the view from the front with a straight look at the little fan for cooling the printed part.  
   
-![image]()  
+![Front side view](../assets/images/head_dis-front_web.jpg)   
+  
+Now look at the left side where you can see the motor of the feeder gear. You can spot three hexagon socket screws there - two at the top and one at the bottom, which are holding the entire feeder system onto the metal backplate.    
+  
+![Left side view](../assets/images/head_leftside_motor_mount_web.jpg)
+  
+At the right side you see the fan for cooling the extruder and the ABL sensor at the very right side of the construction.    
+  
+![Right side view](../assets/images/head_rightside_web.jpg) 
+  
+Looking at the head from the bottom right side, you can see the fan outlet on the left, the hotend with the stock silicone sock and the orange tip of the ABL sensor.    
+  
+![Bottom right side view](../assets/images/head_bottom-view_web.jpg)   
+The following picture shows the whole metal plate where the feeder construction and the bracket of the ABL sensor is mounted onto - I took these pictures when the head wasn't mounted to the carrier of the x-axis so you can have a better look at the deatils.   
+  
+![Backside view metal plate](../assets/images/head_backplate_web.jpg)
   
 ??? tip "Disassambling the Hotend, Heater Block and/or Heatbreak"
 
-    - First you have to disassamble the fan on the right side by taking out the two hexagon socket screws (top and bottom). <br> ![Disassamble the fan on the right side](../assets/images/head_neo_vent-dis_web.jpg)  
-    - Then you'll see two hexagon socket screws at the side which are holding the hotend - loosen them until you can gently pull out the hotend. <br> ![Loosen the screws to take out the hotend](../assets/images/head_neo_vent-dis-extruder_web.jpg) <br> ![image]()
+    - First you have to disassamble the fan on the right side by taking out the two hexagon socket screws at the top and bottom of the fan frame. <br> ![Disassamble the fan on the right side](../assets/images/head_rightside_web.jpg)  
+    - Then you'll see two hexagon socket screws at the side which are holding the hotend - loosen them until you can gently pull out the hotend. <br> ![Loosen the screws to take out the hotend](../assets/images/head_neo_vent-dis-extruder_web.jpg) <br> You could've seen the heads of the screws already earlier before disassambling the fan, vbut you wouldn't have been able to reach them as the following picture shows. <br> ![Closeup of the screws which you want to reach](../assets/images/head_hotend-screws_closeup_web.jpg)
   
     !!! warning  
 
@@ -242,13 +264,15 @@ After the plastic cover is gone, you can see the fans, the proximity sensor at t
 
 ??? tip "Disassambling the ABL Sensor"
 
-    - If you want to change the ABL sensor, loosen the two hexagon socket screw at the backplate which holds the plastic bracket in place (where the ABL sensor sits in). 
-    - Be careful when you want to take out the sensor from the plastic bracket and therefore have to release the tiny plastic clips which close the bracket - don't break them! 
-    - Measure and mark or note the position of the ABL sensor first before loosening anything or even taking it out of the bracet. In case you forgot about that, the following picture of an original spare part printhead shows the position. <br> ![image]() <br>  
+    - If you want to change the ABL sensor, loosen the two hexagon socket screw at the backplate which holds the plastic bracket in place (where the ABL sensor sits in). They are located at the left side of the back plate if you look at it from the back (see pictures above). The following picture shows the screws from a side view angle to give you a better impression about the location. <br> ![Screws for the ABL sensor on the left side](../assets/images/head_ABL-sensor_screws_web.jpg)
+    - The bracket itself is designed as a slay which can be adjusted by turning the screw at the very top of this construction. <br> ![Screw at the top to move the slay](../assets/images/head_ABL-sensor_top_closeup_web.jpg)  
+    - Be careful when you want to take out the sensor from the plastic bracket and therefore have to release the tiny plastic clips which close the bracket - don't break them! <br> ![image](../assets/images/head_ABL-sensor_clip_closeup_web.jpg)
+    - Measure and mark or note the position of the ABL sensor first before loosening anything or even taking it out of the bracket. In case you forgot about that, the following picture of an original spare part printhead shows the position. The upper edge of the sensor is in line with the upper edge of the slay/bracket, the orange tip of the sensor at the bottom sticks out about 3.5mm of the bracket. <br> [Alignment of the ABL sensor](../assets/images/head_ABL-sensor_top_closeup_web.jpg)    
 
 ??? tip "Disassambling the Feeder System" 
 
-    - I didn't disassamble the feeder system yet, so I can't provide any steps or further pictures of that. From what I see looking at the printhead while the plastic cover is taken off, you probably would have to disassamble the motor from the system. It also migth be pratical to disassamble the metal backplate first, which is secured by three hexagon socket screws only.    
+    - I didn't disassamble the feeder system yet, so I can't provide any steps or further pictures of that besides what you can see above. From what I've seen looking at the printhead while the plastic cover is taken off, you probably would have to disassamble the motor from the system. It also migth come in handy to disassamble the metal backplate first, which is secured by three hexagon socket screws only.   
+    - In case you dropped something tiny like a screw or so in the wholes at the top of the feeder, it should be sufficient to disassamble the system from the metal backplate by taking out the three hexagon socket screws and shake the whole thing around a bit. There are enough holes and openings at the back where you also could try to reach the lost thing using a pair of tweezers.   
   
 ??? tip "Reassambling" 
 
