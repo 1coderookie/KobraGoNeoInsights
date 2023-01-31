@@ -4,9 +4,9 @@
 The printheads of the **Go** and the **Neo** aren't identical because of the different type of extruder they're using: the **Go** uses a bowden extruder while the **Neo** is using a direct drive extruder. If you look at both printheads from the front and compare their size, you'll notice that the one of the **Go** is a bit smaller and more suqare than the wider and more square one from the **Neo**.  
   
 ## Go
-??? question Got a **Go**?  
+??? question "Got a **Go**?"  
 
-    Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures of the printhead like the ones I show here of the **Neo** for example, so people can see the difference between those two models like the shape and the position of the ABL sensor. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!  
+    Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures of the printhead like the ones I show here of the **Neo** for example, so people can see the difference between those two models like the shape and the position of the ABL sensor. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!    
   
 ## Neo  
 The following picture shows a new printhead for the **Neo** as it comes as a spare part.  
@@ -26,6 +26,7 @@ The ABL sensor at the **Go** is mounted pretty much straight behind the heater b
 ![Orange tip of the ABL sensor at the right side](../assets/images/head_neo-bottom_web.jpg)
   
 !!! tip  
+
     Measure the original position (depth/height) of the sensor as it came with and write it down. In case you have to change the sensor or even you loosened the screw which holds it in place by accident you can always put it back in the original position, so that you don't have to deal with fiddling around to find the best position for it afterwards.   
   
 ---  
@@ -41,7 +42,7 @@ If you're about to buy one of either models and you're not sure which fits you b
   
 ### Go
   
-!!! question Got a **Go**?  
+??? question "Got a **Go**?"  
 
     Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures of the hotend like the ones I show here of the **Neo** for example, so people can see the difference between those two models. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!  
   
@@ -84,6 +85,7 @@ Don't get irritated by the fact that there's a little gap between the head of th
   
   
 !!! warning  
+
     *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with your pliers!* You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. So make sure you really just grab the heater block, preferably grab it from the side where the wires don't come out.    
     *Make sure you DON'T turn the heater block!* You don't want to loosen the heater block from the hotend, so just hold it in place.     
       
@@ -139,13 +141,15 @@ If you need to install a new thermistor and/or cartridge heater, you have to uns
 ![Stripping in the new wires](../assets/images/stripping_in_wires_web.jpg)  
   
 !!! warning  
+
     *Make sure you don't tighten the screws too much as it could harm both the thermistor and the heater cartridge!* Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo** at the following picture. <br> ![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)|    
   
 When installing the parts at the heater block and putting back on the plastic cap of the printhead, I personally avoided to bend the thin wires as it was done within the original installation. I just guided the wires along outside the plastic cover. By doing so, you minimize the risk of getting a shortcut due to a harmed or melted wire isolation at the part where the wires are bent and twisted originally. The following picture shows my new installed thermistor and cartridge heater with the wires running outside of the plastic cap.  
   
 ![Wires running outside of the plastic cap](../assets/images/head_neo_new-sen-therm_web.jpg)  
   
-!!! tip 
+!!! tip  
+
     *After successful installation of the new thermistor and/or cartridge heater, execute a PID calibration using e.g. Octoprint.*  
   
 ---  
@@ -156,7 +160,8 @@ If you need to disassamble the printhead for e.g. changing the hotend, you need 
   
 ### Go
   
-!!! question Got a **Go**?  
+??? question "Got a **Go**?"  
+
     Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures of disassambling the printhead like the ones I show here of the **Neo** for example, so people can see the difference between those two models. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!  
   
   
