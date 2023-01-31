@@ -1,6 +1,6 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
-**Hi and welcome to my little page about the 3D FDM printers "Kobra Go" and "Kobra Neo" from Anycubic.** :waving_hand: 
+**Hi and welcome to my little page about the 3D FDM printers "Kobra Go" and "Kobra Neo" from Anycubic.**   
   
 I am a newbie to 3D printing and got a **Kobra Neo** from a friend of mine.  
 As it came with some problems and needed a bit of tinker love, I was trying to find informations and tips specifically about the **Neo**.  
@@ -9,9 +9,9 @@ So I thought it might be a good idea to document my tinkering and collect inform
   
 ??? question "Want to contribute?"  
 
-    If you'd like to contribute - please let me know, I'd highly appreciate it. <br> You don't necessarily need a GitHub account for it - just send me an email to  <br> `3dneo (at) quantentunnel.de` </br> and we'll figure something out. :winking_face:  
+    If you'd like to contribute - please let me know, I'd highly appreciate it. <br> You don't necessarily need a GitHub account for it - just send me an email to  <br> `3dneo (at) quantentunnel.de` </br> and we'll figure something out.  
   
-Happy printing!   
+*Happy printing!*   
   
 !!! warning "Disclaimer"
 
