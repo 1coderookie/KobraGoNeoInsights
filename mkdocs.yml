@@ -116,6 +116,7 @@ nav:
     - Hardware: 'hardware/hw_index.md'
     - Mainboard: 'hardware/mainboard.md'
     - Printhead: 'hardware/printhead.md'
+    - Axes: 'hardware/axes.md'
     - Bed: 'hardware/bed.md'
     - Power Supply Unit: 'hardware/powersupply.md'
     - Spare Parts: 'hardware/spare_parts.md'
