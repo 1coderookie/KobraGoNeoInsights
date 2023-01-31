@@ -18,7 +18,7 @@ The following picture shows a new printhead for the **Neo** as it comes as a spa
   
 ![New Neo print head spare part](../assets/images/head_neo-spare_web.jpg)
 
-The following picture shows a close up view of the printhead of the **Neo** from the front view. At the bottom you can see the blue silicone sock of the heater block with the nozzle in the middle and the orange tip of the ABL sensor at the right side.  
+The following picture shows a close up view of the printhead of the **Neo** from the front view. At the bottom you can see the blue silicone sock of the heater block with the nozzle in the center and the orange tip of the ABL sensor at the right side.  
   
 ![Neo printhead front view](../assets/images/head_neo-front_web.jpg) 
   
