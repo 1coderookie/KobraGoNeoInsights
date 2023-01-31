@@ -24,5 +24,5 @@ Afaik it is a 32bit mainboard with a HC32F460 200MHz ARM Cortex-M4 with 192KB SR
 # SKR3 (Mod)
 ??? question "Got a SKR3?"  
 
-    Did you already replace the stock mainboard with a BTT SKR3? If so, it would be great if you'd share your knowledge with other users and contribute a little description and probably a picture of the built in board. Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> so we can figure something out.  
+    Did you already replace the stock mainboard with a BTT SKR3? If so, it would be great if you'd share your knowledge and contribute a little description and probably a picture of the built in board. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> so we can figure something out.  
     
