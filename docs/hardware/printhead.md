@@ -52,13 +52,13 @@ The ABL sensor itself is mounted in a plastic bracket which is the mounted to th
 The **Go** uses a bowden drive extruder/feeder, while the **Neo** is using a direct drive extruder/feeder.  
 If you're about to buy one of either models and you're not sure which fits you better, always go for the direct drive and get yourself the **Neo**.
 
-## Go
+### Go
   
 ??? question "Got a **Go**?"  
 
     Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need a picture of the bowden drive feeder, so people could see the difference between the **Go** and the **Neo**. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you! 
   
-## Neo
+### Neo
 The following picture shows the extruder/feeder of the **Neo** with the mounted plastic cover of the printhead.  
   
 ![Direct drive of the Neo](../assets/images/head_neo_directdrive_web.jpg)
@@ -251,24 +251,20 @@ The following picture shows the whole metal plate where the feeder construction 
 ??? tip "Disassambling the Hotend, Heater Block and/or Heatbreak"
 
     - First you have to disassamble the fan on the right side by taking out the two hexagon socket screws at the top and bottom of the fan frame. <br> ![Disassamble the fan on the right side](../assets/images/head_rightside_web.jpg)  
-    - Then you'll see two hexagon socket screws at the side which are holding the hotend - loosen them until you can gently pull out the hotend. <br> ![Loosen the screws to take out the hotend](../assets/images/head_neo_vent-dis-extruder_web.jpg) <br> You could've seen the heads of the screws already earlier before disassambling the fan, but you wouldn't have been able to reach them as the following picture shows. <br> ![Closeup of the screws which you want to reach](../assets/images/head_hotend-screws_closeup_web.jpg)
+    - Then you'll see two hexagon socket screws at the side which are holding the hotend - loosen them until you can gently pull out the hotend. <br> ![Loosen the screws to take out the hotend](../assets/images/head_neo_vent-dis-extruder_web.jpg) <br> You could've seen the heads of the screws already earlier before disassambling the fan, but you wouldn't have been able to reach them as the following picture shows. <br> ![Closeup of the screws which you want to reach](../assets/images/head_hotend-screws_closeup_web.jpg)  
+    - If you want to change the hotend, the heatbreak or the heater block now, take out the PTFE tube from the heatbreak first. Then *heat up the metal parts* by using a heat gun for example and unscrew the hotend from the heater block. Make sure to neither harm any parts while using the pliers nor yourself by accidentally touching the hot material.  
   
     !!! warning  
 
         - When pulling out the hotend, *make sure the PTFE tube of the hotend comes out, too!* <br> Inspect it if it isn't clogged - if so, either clean it up carefully by e.g. using a little 2mm drill *manually by hand* or just get a new one as a replacement. Make sure the filament runs through the tube nice and easy and without any friction.   
-        - When pulling out the hotend, *be careful to not break any wires or rip them off from the sensor and heater catridge* - so better unscrew the tiny hex screws and take out the thermistor and the heating cartridge. 
+        - When pulling out the hotend, *be careful to not break any wires or rip them off from the sensor and heater catridge* - so better unscrew the tiny hex screws a bit and take out the thermistor and the heating cartridge. 
         - Check the wires and contacts if they aren't harmed and if everything is ok. 
+        - *Never try to unscrew the heatbreak from the heater block while the parts are cold!* <br> Melted filament or some kind of screw lock glue might make it hard or even impossible to unscrew it and you risk to shear off the heatbreak!  
 
     !!! danger  
 
         *If you can see bare wire shining through the isolation of the wires of either the thermistor or the cartridge heater I'd strongly recommend to replace the component to not risk a shortcut and therefore a broken mainboard (seriously - you don't want to get a blown off mainboard like it happened to me just because of a part which maybe costs a buck or two).*   
-  
-    - If you want to change the hotend, the heatbreak or the heater block now, take out the PTFE tube from the heatbreak first. Then *heat up the metal parts* by using a heat gun for example and unscrew the hotend from the heater block. Make sure to neither harm any parts while using the pliers nor yourself by accidentally touching the hot material.  
-    
-    !!! warning  
-        
-        *Never try to unscrew the heatbreak from the heater block while the parts are cold!* <br> Melted filament or some kind of screw lock glue might make it hard or even impossible to unscrew it and you risk to shear off the heatbreak!  
- 
+   
 
 ??? tip "Disassambling the ABL Sensor"
 
