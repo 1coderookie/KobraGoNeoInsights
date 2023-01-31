@@ -136,7 +136,11 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
     - If you just want to change the nozzle, take off the silicone sock of the heater block, then heat up the extruder first and pull back the filament a bit once it's warm enough. Once the extruder heated up, *turn off the printer* and unplug it from the power outlet! Then grab the heater block with a plier to hold it in place and screw out the nozzle.  
     - For installing the new nozzle, screw it in and turn it back about half a rotation once you feel it hits the hotend. Then heat up the extruder again and tighten up the nozzle. 
     - Don't get irritated by the fact that there's a little gap between the head of the nozzle and the heater block - that's totally fine and it's supposed to be like that as the following picture shows. <br> ![Mounted nozzle](../assets/images/head_nozzle-mounted_web.jpg)    
-    - Mind the warnings from above.
+    - Mind the warnings from above.  
+    
+        !!! warning  
+        
+        *Never try to unscrew the nozzle from the heater block while the parts are cold!* <br> Melted filament or some kind of screw lock glue might make it hard or even impossible to unscrew it and you risk to shear off the nozzle!  
      
 ??? note "About Nozzles in General" 
 
@@ -251,7 +255,7 @@ The following picture shows the whole metal plate where the feeder construction 
   
     !!! warning  
 
-        - When pulling out the hotend, *make sure the PTFE tube of the hotend comes out, too!* <br> Inspect it if it isn't clogged - if so, either clean it up carefully by e.g. using a little 2mm drill or just get a new one as a replacement. Make sure the filament runs through the tube nice and easy and without any friction.   
+        - When pulling out the hotend, *make sure the PTFE tube of the hotend comes out, too!* <br> Inspect it if it isn't clogged - if so, either clean it up carefully by e.g. using a little 2mm drill *manually by hand* or just get a new one as a replacement. Make sure the filament runs through the tube nice and easy and without any friction.   
         - When pulling out the hotend, *be careful to not break any wires or rip them off from the sensor and heater catridge* - so better unscrew the tiny hex screws and take out the thermistor and the heating cartridge. 
         - Check the wires and contacts if they aren't harmed and if everything is ok. 
 
@@ -259,7 +263,11 @@ The following picture shows the whole metal plate where the feeder construction 
 
         *If you can see bare wire shining through the isolation of the wires of either the thermistor or the cartridge heater I'd strongly recommend to replace the component to not risk a shortcut and therefore a broken mainboard (seriously - you don't want to get a blown off mainboard like it happened to me just because of a part which maybe costs a buck or two).*   
   
-    - If you want to change the hotend, the heatbreak or the heater block now, take out the PTFE tube from the heatbreak. Then heat up the metal parts by using a heat gun for example and unscrew the hotend from the heater block. Make sure to neither harm any parts while using the pliers nor yourself by accidentally touching the hot material. 
+    - If you want to change the hotend, the heatbreak or the heater block now, take out the PTFE tube from the heatbreak first. Then *heat up the metal parts* by using a heat gun for example and unscrew the hotend from the heater block. Make sure to neither harm any parts while using the pliers nor yourself by accidentally touching the hot material.  
+    
+    !!! warning  
+        
+        *Never try to unscrew the heatbreak from the heater block while the parts are cold!* <br> Melted filament or some kind of screw lock glue might make it hard or even impossible to unscrew it and you risk to shear off the heatbreak!  
  
 
 ??? tip "Disassambling the ABL Sensor"
