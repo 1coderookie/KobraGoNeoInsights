@@ -26,18 +26,30 @@ The following picture shows a close up view of the printhead of the **Neo** from
 
 ## ABL Sensor
 Both printers come with a proximity sensor for automatic bed levelling (ABL) which is (afaik) the same model.  
-The ABL sensor at the **Go** is mounted pretty much straight behind the heater block, where at the **Neo** it's located a few centimeters to the right side next to the heater block. The following picture shows the location of the ABL sensor at the printhead of the **Neo**, looking at it from a bottom view angle - the ABL sensor is the part at the right side with the round orange tip.   
-  
-![Orange tip of the ABL sensor at the right side](../assets/images/head_neo-bottom_web.jpg)
+The ABL sensor at the **Go** is mounted pretty much straight behind the heater block, where at the **Neo** it's located a few centimeters to the right side next to the heater block.  
   
 !!! tip  
 
-    Measure the original position (depth/height) of the sensor as it came with and write it down. In case you have to change the sensor or even you loosened the screw which holds it in place by accident you can always put it back in the original position, so that you don't have to deal with fiddling around to find the best position for it afterwards.   
+    Measure the original position (depth/height) of the sensor as it came with and write it down. In case you have to change the sensor or even you loosened the screw which holds it in place by accident you can always put it back in the original position, so that you don't have to deal with fiddling around to find the best position for it afterwards. 
   
+### Go
+??? question "Got a **Go**?"  
+
+    Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures of the printhead from the bottom view like the one I show here of the **Neo**, so people can see where the ABL sensor is located. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!  
+  
+### Neo
+The following picture shows the location of the ABL sensor at the printhead of the **Neo**, looking at it from a bottom view angle - the ABL sensor is the part at the right side with the round orange tip.   
+  
+![Orange tip of the ABL sensor at the right side](../assets/images/head_neo-bottom_web.jpg)
+    
 ---  
   
 ## Extruder
 The **Go** uses a bowden drive extruder, while the **Neo** is using a direct drive extruder.  
+  
+??? question "Got a **Go**?"  
+
+    Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need a picture of the bowden drive feeder, so people could see the difference between the **Go** and the **Neo**. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you! 
   
 If you're about to buy one of either models and you're not sure which fits you better, always go for the direct drive and get yourself the **Neo**.  
   
@@ -79,23 +91,26 @@ Anycubic ships the printheads with a 0.4mm brass nozzle for 1.75mm filament.
 The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following picture.  
   
 ![E3D nozzle](../assets/images/head_nozzle-e3d_web.jpg)  
+
     
-### Changing the Nozzle
-If you just want to change the nozzle, take off the silicone sock of the heater block, then heat up the extruder first and pull back the filament a bit once it's warm enough. Once the extruder heated up, *turn off the printer* and unplug it from the power outlet! Then grab the heater block with a plier to hold it in place and screw out the nozzle.  
-  
-For inserting the new nozzle, screw it in and turn it back about half a rotation once you feel it hits the hotend. Then heat up the extruder again and tighten up the nozzle.  
-Don't get irritated by the fact that there's a little gap between the head of the nozzle and the heater block - that's totally fine and it's supposed to be like that as the following picture shows.  
-  
-![Mounted nozzle](../assets/images/head_nozzle-mounted_web.jpg)    
-  
-  
 !!! warning  
 
-    - *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with your pliers!* You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. So make sure you really just grab the heater block, preferably grab it from the side where the wires don't come out.    
-    - *Make sure you DON'T turn the heater block!* You don't want to loosen the heater block from the hotend, so just hold it in place.     
-      
-   
-??? note  
+    - *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with at brass brush or your pliers!* You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. 
+    - If you want to change the nozzle and need to grab the heater block wit some pliers, make sure you really just grab the heater block and never get any wires up in between - preferably grab the heater block from that sides where the wires don't come out.   
+    - If you want to clean the nozzle using a brass brush for example, *never* do it when the printer is powered up and the heating process of the extruder is in progress to avoid causing a shortcut by touching the contacs with the brush.  
+    - *Make sure you DON'T turn the heater block!* In case you want to change the nozzle, you don't want to loosen the heater block from the hotend, so just hold the heater block in place without turning it.     
+    
+!!! tip
+
+    For cleaning the nozzle and getting rid of excessive filament during the printing process or right before printing starts as the extruder is heating up, just use a long and thin wooden stick like a skewer. A wooden toothpick also works fine - just make sure you don't burn yourself as it may be a bit short.    
+     
+??? note "Changing the Nozzle"  
+
+    - If you just want to change the nozzle, take off the silicone sock of the heater block, then heat up the extruder first and pull back the filament a bit once it's warm enough. Once the extruder heated up, *turn off the printer* and unplug it from the power outlet! Then grab the heater block with a plier to hold it in place and screw out the nozzle.  
+    - For installing the new nozzle, screw it in and turn it back about half a rotation once you feel it hits the hotend. Then heat up the extruder again and tighten up the nozzle. <br> Don't get irritated by the fact that there's a little gap between the head of the nozzle and the heater block - that's totally fine and it's supposed to be like that as the following picture shows. <br> ![Mounted nozzle](../assets/images/head_nozzle-mounted_web.jpg)    
+    - Mind the warnings from above.
+     
+??? note "About Nozzles in General" 
 
     When it comes down to choose the right nozzle size, it all depends on what you want to print and how detailed it should be. The standard size of 0.4mm the printers come with is a good starting point. But you may find yourself in the situation that you want to print more detailed objects or objects which should be more sturdy or where it doesn't matter if the surface doesn't look as clean and flat as possible, so you probably should adjust the size and switch to a smaller oder bigger diameter like 0.2-0.3mm for detailed objects and 0.6mm for the 'rougher' prints. Keep in mind though that the printing time increases by choosing a smaller diameter and it decreases when you are using a bigger diameter. Search the web for more specific informations about finding and choosing the right nozzle size for your project.  
   
@@ -144,7 +159,7 @@ The wire is about 150cm with the specific plug at the end shown at the following
 
 !!! warning info inline 
 
-    *Make sure you don't overtighten the screws as it could harm both the thermistor and the heater cartridge!* <br> Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo**.  
+    If you need to replace the thermistor and/or the cartridge heater, *make sure you don't overtighten the screws as it could harm both the thermistor and the heater cartridge!* <br> Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo**.  
     
 ![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)|    
   
