@@ -9,7 +9,7 @@ So I thought it might be a good idea to document my tinkering and collect inform
   
 ??? question "Want to contribute?"  
 
-    If you'd like to contribute - please let me know, I'd highly appreciate it. <br> You don't necessarily need a GitHub account for it - just send me an email to  <br> `3dneo (at) quantentunnel.de` <br> and we'll figure something out.  
+    If you'd like to contribute - please let me know, I'd highly appreciate it. Either if you did any mods and documentated them, have certain tips, stumbled upon useful informations across the web or want to contribute by takting certain pictures - anything is welcome. <br> You don't necessarily need a GitHub account for it - just send me an email to  <br> `3dneo (at) quantentunnel.de` <br> and we'll figure something out. <br> *Thank you!* 
   
 *Happy printing!*   
   
