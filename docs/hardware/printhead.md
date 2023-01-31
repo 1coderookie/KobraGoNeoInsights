@@ -140,7 +140,7 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
     
         !!! warning  
         
-        - ***Never try to unscrew the nozzle from the heater block while the parts are cold!*** <br> Melted filament or some kind of screw lock glue might make it hard or even impossible to unscrew it and you risk to shear off the nozzle!  
+            ***Never try to unscrew the nozzle from the heater block while the parts are cold!*** <br> Melted filament or some kind of screw lock glue might make it hard or even impossible to unscrew it and you risk to shear off the nozzle! *Always heat everything up first!* 
      
 ??? note "About Nozzles in General" 
 
