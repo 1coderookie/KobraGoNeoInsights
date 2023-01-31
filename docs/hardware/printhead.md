@@ -44,14 +44,26 @@ The following picture shows the location of the ABL sensor at the printhead of t
     
 ---  
   
-## Extruder
-The **Go** uses a bowden drive extruder, while the **Neo** is using a direct drive extruder.  
+## Extruder / Feeder
+The **Go** uses a bowden drive extruder/feeder, while the **Neo** is using a direct drive extruder/feeder.  
+If you're about to buy one of either models and you're not sure which fits you better, always go for the direct drive and get yourself the **Neo**.
+
+## Go
   
 ??? question "Got a **Go**?"  
 
     Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need a picture of the bowden drive feeder, so people could see the difference between the **Go** and the **Neo**. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you! 
   
-If you're about to buy one of either models and you're not sure which fits you better, always go for the direct drive and get yourself the **Neo**.  
+## Neo
+The following picture shows the extruder/feeder of the **Neo**.  
+  
+![Direct drive of the Neo](..assets/images/head_neo_directdrive_web.jpg)
+  
+At the top in front of the little hole where the filament is inserted you find a little lever for manual release of the tension while loading/unloading the filament. The screw in the front adjusts the pressure of the feeder gear which is brought onto the filament.  
+  
+!!! tip
+
+    When adjusting the pressure of the feeder gear, make sure you don't tighten it up too much as it could squeeze and deform the filament. On the other hand it shouldn't be too loose though as it should transport the filament reliably. So you might want to try different settings of the tension.   
   
 ---  
   
