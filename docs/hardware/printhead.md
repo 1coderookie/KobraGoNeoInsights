@@ -61,6 +61,10 @@ The following picture shows the extruder/feeder of the **Neo**.
   
 At the top in front of the little hole where the filament is inserted you find a little lever for manual release of the tension while loading/unloading the filament. The screw in the front adjusts the pressure of the feeder gear which is brought onto the filament.  
   
+!!! warning
+
+    - Make sure that you set the retraction distance and speed to the correct values for a direct drive! In general, it's supposed to be something around 1mm distance and probabyl around 50mm speed. If you set the distance to a value which is too high (e.g. the default 6mm for the **Go** as a bowden drive), the melted filament might be pulled back too far and reaches the PTFE tube which leads to clogging. 
+  
 !!! tip
 
     When adjusting the pressure of the feeder gear, make sure you don't tighten it up too much as it could squeeze and deform the filament. On the other hand it shouldn't be too loose though as it should transport the filament reliably. So you might want to try different settings of the tension.   
@@ -84,6 +88,10 @@ The hotend of the **Neo** is shown in the following picture. Note the shape of i
 Additionally there is a little PTFE-tube inside of it, which is about 4cm long and 4mm thick with a 2mm hole inside of it to guide the 1.75mm filament.  
   
 ![Hotend mounted with block and tube](../assets/images/head_neo_block-hotend-tube-used_web.jpg)    
+  
+!!! warning
+
+    Too high temperatures may harm the PTFE tube as it could become deformed. 
   
 !!! tip
 
@@ -199,34 +207,60 @@ If you need to disassamble the printhead for e.g. changing the hotend, you need 
   
 ??? question "Got a **Go**?"  
 
-    Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures of disassambling the printhead like the ones I show here of the **Neo** for example, so people can see the difference between those two models. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!  
+    Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures and a little step-by-step description of disassambling the printhead like you can see underneath for the **Neo**, so people can see the difference between those two models. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!  
   
   
 ### Neo  
+ 
+Disassambling the printhead isn't really complicated. Just make sure you're careful and put the screws in a place and order that makes it easy for you to reassamble everything later. The following steps are just a rough guide through so that you know what you'll be confrontated with.  
+
+Whatever you want to do, like if you want to change the hotend, the heater block, the heatbreak, a fan or even want to disassamble the whole feeder system, you have to remove the plastic cover of the printhead first. It's secured by two hexagon socket screws at the top of the metal back plate and a plastic clip at each side at the lower bottom. Be gentle and careful to not break one of the clips - the best way to get them out of their fittings is to gently push together the whole plastic cover at the bottom sides.  
   
-If you want to change the whole extruder, the hotend or the heater block, you have to remove the fan at the right side as the screws which are holding the hotend in place are underneath it. So after the plastic cover is gone, you can see the vents, the proximity sensor at the right side and the heater block at the bottom. You now have to disassamble the vent on the right side by taking out the four hexagon socket screws.   
+![image]()  
   
-![Disassamble the vent on the right side](../assets/images/head_neo_vent-dis_web.jpg)  
+After the plastic cover is gone, you can see the fans, the proximity sensor at the right side and the heater block at center down at the bottom and so on. Depending on what you want do do now, you need to follow different steps.  
   
-Then you'll see two hexagon socket screws at the side, which are holding the hotend - loosen them until you can pull out the extruder.  
+![image]()  
   
-![Loosen the screws to take out the extruder](../assets/images/head_neo_vent-dis-extruder_web.jpg)  
+??? tip "Disassambling the Hotend, Heater Block and/or Heatbreak"
+
+    - First you have to disassamble the fan on the right side by taking out the two hexagon socket screws (top and bottom). <br> ![Disassamble the fan on the right side](../assets/images/head_neo_vent-dis_web.jpg)  
+    - Then you'll see two hexagon socket screws at the side which are holding the hotend - loosen them until you can gently pull out the hotend. <br> ![Loosen the screws to take out the hotend](../assets/images/head_neo_vent-dis-extruder_web.jpg) <br> ![image]()
   
-Make sure the PTFE tube of the hotend comes out, too. Inspect it if it isn't clogged - if so, either clean it up by e.g. using a little drill or just get a new one as a replacement.   
+    !!! warning  
+
+        - When pulling out the hotend, *make sure the PTFE tube of the hotend comes out, too!* <br> Inspect it if it isn't clogged - if so, either clean it up carefully by e.g. using a little 2mm drill or just get a new one as a replacement. Make sure the filament runs through the tube nice and easy and without any friction.   
+        - When pulling out the hotend, *be careful to not break any wires or rip them off from the sensor and heater catridge* - so better unscrew the tiny hex screws and take out the thermistor and the heating cartridge. 
+        - Check the wires and contacts if they aren't harmed and if everything is ok. 
+
+    !!! danger  
+
+        *If you can see bare wire shining through the isolation of the wires of either the thermistor or the cartridge heater I'd strongly recommend to replace the component to not risk a shortcut and therefore a broken mainboard (seriously - you don't want to get a blown off mainboard like it happened to me just because of a part which maybe costs a buck or two).*   
   
-When taking out the extruder, *be careful to not break any wires or rip them off from the sensor and heater catridge* - so unscrew the tiny hex screws and take out the thermistor and the heating cartridge. Check the wires and contacts if they aren't harmed and if everything is ok. *If you can see bare wire shining through the isolation, replace the component to not risk a shortcut and therefore a broken mainboard.*   
+    - If you want to change the hotend, the heatbreak or the heater block now, take out the PTFE tube from the heatbreak. Then heat up the metal parts by using a heat gun for example and unscrew the hotend from the heater block. Make sure to neither harm any parts while using the pliers nor yourself by accidentally touching the hot material. 
+ 
+
+??? tip "Disassambling the ABL Sensor"
+
+    - If you want to change the ABL sensor, loosen the two hexagon socket screw at the backplate which holds the plastic bracket in place (where the ABL sensor sits in). 
+    - Be careful when you want to take out the sensor from the plastic bracket and therefore have to release the tiny plastic clips which close the bracket - don't break them! 
+    - Measure and mark or note the position of the ABL sensor first before loosening anything or even taking it out of the bracet. In case you forgot about that, the following picture of an original spare part printhead shows the position. <br> ![image]() <br>  
+
+??? tip "Disassambling the Feeder System" 
+
+    - I didn't disassamble the feeder system yet, so I can't provide any steps or further pictures of that. From what I see looking at the printhead while the plastic cover is taken off, you probably would have to disassamble the motor from the system. It also migth be pratical to disassamble the metal backplate first, which is secured by three hexagon socket screws only.    
   
-If you want to change the hotend or the heater block now, take out the PTFE tube. Then heat up the metal parts by using a heat gun for example and unscrew the hotend from the heater block. Make sure to neither harm the metal parts by the pliers nor yourself by the hot material.  
-    
-For reassambling, just put everything back together:  
+??? tip "Reassambling" 
+
+    For reassambling, just put everything back together by reverting the beforementioned steps. Make sure you're using the right screws and don't forget any of them. Don't overtighten the screws - as my father (R.I.P.) used to say: "After tight comes loose!". 
   
-1. Warm up the parts and screw the hotend into the heater block until it sits tight.  
-2. Put back the cleaned or renewed PTFE tube.  
-3. Put the thermistor and the heater cartridge back in place and secure them by *carefully* tighten the tiny hex screw - *don't overtighten them as you could harm the thermistor and the heater cartridge!*  
-4. Then push the hotend back into the specific hole - make sure you push it deep enough (I personally push it as far into it as it goes).  
-5. Turn the extruder so that the wires which are coming from the heater block are hanging freely and aren't bent too much.  
-6. Then tighten up the screws, so that the extruder doesn't turn or wiggle anymore (but don't overtighten the screws though).  
-7. Reassamble the vent and the plastic cover.   
+    1. Warm up the parts using e.g. a heat gun and screw the heatbreak into the heater block until it sits tight.  
+    2. Put back the cleaned or renewed PTFE tube.  
+    3. Put the thermistor and the heater cartridge back in place and secure them by *carefully* tighten the tiny hex screw - *don't overtighten them as you could harm the thermistor and the heater cartridge!*  
+    4. Then push the heatbreak back into the specific hole - make sure you push it deep enough (I personally push it as far into it as it goes).  
+    5. Turn the hotend so that the wires which are coming from the heater block are hanging freely and aren't bent too much.  
+    6. Then tighten up the screws, so that the hotend doesn't turn or wiggle anymore (but don't overtighten the screws though).  
+    7. Reassamble the fan and the plastic cover.   
   
 ---  
   
