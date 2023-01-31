@@ -85,6 +85,9 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
   
 ![Hotend mounted with block and tube](../assets/images/head_neo_block-hotend-tube-used_web.jpg)    
   
+!!! tip
+
+    If you can't load new filament even though nothing seems to be sticking in the printhead anymore, it's most likely that the little PTFE tube inside of the hotend is clogged. To clean or replace it you need to disassamble the hotend from the printhead. Scroll down to find a little guide about how to do that.   
   
 ---  
   
