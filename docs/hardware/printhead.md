@@ -131,7 +131,7 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
 
     For cleaning the nozzle and getting rid of excessive filament during the printing process or right before printing starts as the extruder is heating up, just use a long and thin wooden stick like a skewer. A wooden toothpick also works fine - just make sure you don't burn yourself as it may be a bit short.    
      
-??? note "Changing the Nozzle"  
+??? example "Changing the Nozzle"  
 
     - If you just want to change the nozzle, take off the silicone sock of the heater block, then **heat up the extruder first** and pull back the filament a bit once it's warm enough. Once the extruder heated up, *turn off the printer* and unplug it from the power outlet! Then grab the heater block with a pair of pliers to hold it in place and screw out the nozzle carefully. Use a sufficient tool for the nozzle, don't use a pair of pliers.    
     - For installing the new nozzle, screw it in and turn it back about half a rotation once you feel it hits the hotend. Then heat up the extruder again and tighten up the nozzle. 
@@ -253,7 +253,7 @@ The following picture shows the whole metal plate where the feeder construction 
   
 ![Backside view metal plate](../assets/images/head_neo_backplate_marked_web.jpg)
   
-??? tip "Disassambling the Hotend, Heater Block and/or Heatbreak"
+??? example "Disassambling the Hotend, Heater Block and/or Heatbreak"
 
     - First you have to disassamble the fan on the right side by taking out the two hexagon socket screws at the top and bottom of the fan frame. <br> ![Disassamble the fan on the right side](../assets/images/head_neo_rightside_marked_web.jpg)  
     - Then you'll see two hexagon socket screws at the side which are holding the hotend - loosen them until you can gently pull out the hotend. <br> ![Loosen the screws to take out the hotend](../assets/images/head_neo_vent-dis-extruder_web.jpg) <br> You could've seen the heads of the screws already earlier before disassambling the fan, but you wouldn't have been able to reach them as the following picture shows. <br> ![Closeup of the screws which you want to reach](../assets/images/head_hotend-screws_closeup_web.jpg)  
@@ -271,14 +271,14 @@ The following picture shows the whole metal plate where the feeder construction 
         *If you can see bare wire shining through the isolation of the wires of either the thermistor or the cartridge heater I'd strongly recommend to replace the component to not risk a shortcut and therefore a broken mainboard (seriously - you don't want to get a blown off mainboard like it happened to me just because of a part which maybe costs a buck or two).*   
    
 
-??? tip "Disassambling the ABL Sensor"
+??? example "Disassambling the ABL Sensor"
 
     - If you want to change the ABL sensor, loosen the two hexagon socket screw at the backplate which holds the plastic bracket in place (where the ABL sensor sits in). They are located at the left side of the back plate if you look at it from the back (see pictures above). The following picture shows the screws from a side view angle to give you a better impression about the location. At the bottom you see the little plastic clip. <br> ![Screws for the ABL sensor on the left side](../assets/images/head_neo_ABL-sensor_screws_marked_web.jpg)
     - The bracket itself is designed as a slay which can be adjusted by turning the screw at the very top of this construction. *Measure and mark or note the position of the ABL sensor first before loosening anything or even taking it out of the bracket.* In case you forgot about that, the following picture of an original spare part printhead shows the position. The upper edge of the sensor is in line with the upper edge of the slay/bracket, the orange tip of the sensor at the bottom sticks out about 3.5mm of the bracket. <br> ![Screw at the top to move the slay](../assets/images/head_ABL-sensor_top_closeup_web.jpg)  
     - Be careful when you want to take out the sensor from the plastic bracket and therefore have to release the tiny plastic clips which close the bracket - don't break them! <br> ![image](../assets/images/head_ABL-sensor_clip_closeup_web.jpg)
         
 
-??? tip "Disassambling the Feeder System" 
+??? example "Disassambling the Feeder System" 
 
     - I didn't disassamble the feeder system yet, so I can't really provide any specific steps or further pictures of the disassambling the feeder system itself. However, if you need to gain access to it, it migth come in handy to disassamble the metal backplate first, which is secured by three hexagon socket screws only. 
     - In case you dropped something tiny like a screw or so in the wholes at the top of the feeder, it's probably sufficient to disassamble the system from the metal backplate by taking out the three hexagon socket screws and shake the whole thing around a bit. There are enough holes and openings at the back where you also could try to reach the lost thing using a pair of tweezers. If that doesn't work, proceed with the next step.
@@ -287,7 +287,7 @@ The following picture shows the whole metal plate where the feeder construction 
       
       
   
-??? tip "Reassambling" 
+??? example "Reassambling" 
 
     For reassambling, just put everything back together by reverting the beforementioned steps. Make sure you're using the right screws and don't forget any of them. Don't overtighten the screws - as my father (R.I.P.) used to say: "After tight comes loose!" (roughly translated). 
   
