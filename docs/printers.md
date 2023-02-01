@@ -9,7 +9,7 @@ The Anycubic [Kobra **Go**](https://www.anycubic.com/collections/3d-printers/pro
 The price of the **Go** usually is a bit lower than the price of the **Neo**.  
 The **Go** comes completely unmounted so you have to mount everything together by yourself. The Kobra **Neo** comes pre-mounted, you only have to mount a few parts like the frame for the x-axis (where the printhead is mounted to) onto the base frame.  
   
-See [Anycubic's support page](https://www.anycubic.com/blogs/news/all-you-need-to-know-about-kobra-series) of the Kobra series to find manuals, firmware, video tutorials and more o f both the **Go** and the **Neo**.    
+See e.g. [Anycubic's support page of the blog](https://www.anycubic.com/blogs/news/all-you-need-to-know-about-kobra-series) of the Kobra series to find manuals, firmware, video tutorials and more of both the **Go** and the **Neo**.    
   
 The following list gives an overview of the most important specifications:    
   
@@ -36,4 +36,4 @@ The following list gives an overview of the most important specifications:
 - Optional filament run-out detection sensor  
 
 Because a picture says more than thousand words - let me introduce you to my first 3D printer ever, the Kobra **Neo**:  
-..img..
+..image to come..
