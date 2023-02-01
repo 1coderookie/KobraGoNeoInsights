@@ -142,7 +142,7 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
         
             ***Never try to unscrew the nozzle from the heater block while the parts are cold!*** <br> Melted filament or some kind of screw lock glue might make it hard or even impossible to unscrew it and you risk to shear off the nozzle! <br> *Always heat everything up first!* 
      
-??? note "About Nozzles in General" 
+??? info "About Nozzles in General" 
 
     - When it comes down to choose the right nozzle size, it all depends on what you want to print and how detailed it should be. The standard size of 0.4mm the printers come with is a good starting point. <br> However, you may find yourself in the situation that you want to print more detailed objects or objects which should be more sturdy or where it doesn't matter if the surface doesn't look as clean and flat as possible, so you probably should adjust the size and switch to a smaller oder bigger diameter like 0.2-0.3mm for detailed objects and 0.6mm for the 'rougher' prints. <br> Keep in mind though that the printing time usually increases by choosing a smaller diameter and it decreases when you're using a bigger diameter due to the smaller/larger layer height that is possible to print. <br> Search the web for more specific informations about finding and choosing the right nozzle size for your project.  
   
@@ -163,28 +163,31 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
 ---   
   
 ## Silicone Sock
-The silicone sock isolates the heater block. Therefore it should stay in place and shouldn't come aoff, as it cause the "thermal runaway" error.  
-The sock which comes with the printhead isn't the best one to use (in my opinion), as it comes off pretty easily. There are compatible socks at the aftermarket which I personally use and which I can highly recommend. They have a bigger lip which slips over the heater block and covers a bigger area of the top than the one which comes with the printer. Therefore they stay in place much better when they heat up and become more flexible.  
+The silicone sock isolates the heater block. Therefore it should stay in place and shouldn't come off, as it may cause the "thermal runaway" error.  
+The sock which comes with the printhead isn't the best one to use (in my opinion) as it seems to come off pretty easily. There are compatible socks at the aftermarket which I personally use and which I can highly recommend. They have a bigger lip which slips over the heater block and covers a bigger area of the top than the one which comes with the printer. Therefore they stay in place much better when they heat up and become more flexible.  
 The following pictures show the compatible one from the aftermarket on the left side and the stock sock on the right side.     
   
 ![Silicone socks top view](../assets/images/silisocks_top_web.jpg)   
   
-Additionaly, they also cover the base of the nozzle - something that the stock ones don't do at all.  
+Additionaly, they also cover and therefore isolate the base of the nozzle - something that the stock ones don't do at all.  
   
 ![Silicone socks bottom view](../assets/images/silisocks_bottom_web.jpg)  
   
 ---  
   
 ## Thermistor & Cartridge Heater
-The *thermistor* which is used is a capsuled NTC 100k (probably "3950"). The diameter is 3mm, the length should be minimum 6mm as that is the depth of the hole in the heater block. You should be able to use a compatible item from the aftermarket which fits a V5/V6 heater block, e.g. an ATC Semitec 104GT-2. The following picture shows the thermistor from the aftermarket I used and the specific plug, the wire is about 150cm long.  
+The *thermistor* which is used is a capsuled NTC 100k (probably "3950"). The diameter is 3mm, the length should be minimum 6mm as that is the depth of the hole in the heater block and the length of the wire is about 150cm.  
+You should be able to use a compatible item from the aftermarket which fits a V5/V6 heater block, e.g. an ATC Semitec 104GT-2.  
+The following picture shows the thermistor from the aftermarket I used and the specific plug which is necessary to fit in the belonging socket at the mainboard.  
   
 ![Thermistor and plug](../assets/images/head_plug-therm_web.jpg)  
   
-The *cartidge heater* which is used is a 24V 40W element. The diameter is 6mm, the length of the original part is about 18mm. However, a cartridge heater from the aftermarket with a length of about 21mm is just fine, it just sticks out at both sides of ther heater block at the end which shouldn't be a problem. It seems that it's is a typical dimension for V5/V6 heater blocks. The following picture shows the original part on the left side and a compatbile part from the aftermarket I used at the right side.  
+The *cartidge heater* which is used is a 24V 40W element. The diameter is 6mm, the length of the original part is about 18mm, the length of the wire is about 150cm.  
+However, a cartridge heater from the aftermarket with a length of about 21mm is just fine, it just sticks out at both sides of the heater block at the end which shouldn't be a problem. It seems that it's is a typical dimension for V5/V6 heater blocks. The following picture shows the original part on the left side and a compatbile part from the aftermarket I used at the right side.  
   
 ![Cartridge heaters](../assets/images/head_cart-heater_web.jpg)  
   
-The wire is about 150cm with the specific plug at the end shown at the following picture.  
+The following picture shows the specific plug which is necessary to fit into the socket at the maiboard.  
 
 ![Specific plug of the cartridge heater](../assets/images/head_cart-plug_web.jpg)
   
@@ -218,7 +221,8 @@ Disassambling the printhead isn't really complicated. Just make sure you're care
     - When starting to tinker it's always advisable to *turn off the printer* and to *unplug it from the power outlet*!
     - Use the sufficient tools! So please don't try to loosen the nozzle with a pair of pliers for example, use e.g. a wrench for that.
     - Make sure you don't lose a screw and make sure you'll know where the screws belong later when you want to reassamble everything again. <br> You might will be able to remember the belonging screws and positions if your tinkering lasts only an hour, but if anything crosses your plan and therefore you have to pause tinkering, you maybe won't remember one week later. So maybe start sorting the screws and take notes where they belong and/or take pictures right away from the start.
-    - Be patient and careful. <br> Generally speaking, if you unscrew something and it doesn't come off easy, don't start pulling too hard as you might have overseen a screw or clip, so better watch twice. <br> Don't harm or rip off any wires as it may cause severe damage to your mainboard or might be complicated to fix later on.  
+    - Be patient and careful. Generally speaking, if you unscrew something and it doesn't come off easy, don't start pulling too hard as you might have overseen a screw or clip, so better watch twice. 
+    - Don't harm or rip off any wires as it may cause severe damage to your mainboard or might be complicated to fix later on.  
   
 ### Go
   
