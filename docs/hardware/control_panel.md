@@ -4,6 +4,8 @@
 Both printers come with the same control panel. It's a 2.4" LCD screen with a control knob.  
 There is no additional microSD card slot located at this panel.  
 
+![Image about to come soon]()
+
 The control panel allows you to control the printer manually, so you don't necessarily need an additional computer connected to the printer running e.g. Octoprint (even though it's advisable to do so).  
 You can e.g. initiate the bed leveling process, heat up the extruder, load and unload filament, adjust your z-offset or home one or all axes.  
 The usage is pretty easy and self-explaining - you turn the knob to the desired icon of the menu or function and press it to enter the menu or initiate the function.  
@@ -26,4 +28,4 @@ After searching the web for solutions and trying different suggestions like unpl
 I still have no clue *how* this actually happened, but it must have been caused by a shortcut either of the cartridge heater and/or the thermistor of the extruder. However, this little melted fella named "D4" caused the error message - after I installed a new thermistor and cartridge heater and swapped out the broken mainboard to replace it with a new one, everything was fine again.  
 So if you ever face an error message which just stays on the screen whatever steps you took - maybe grab a magnifying glass and take a closer look, it might be worth it..  
   
-If I'll come across further error messages and knwo the solution for that, I'll post it here.
+If I'll come across further error messages and know the solution for that, I'll post it here.
