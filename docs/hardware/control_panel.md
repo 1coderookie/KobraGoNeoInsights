@@ -1,10 +1,11 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # Control Panel  
-Both printers come with the same control panel. It's a 2.4" LCD screen with a control knob.  
+Both printers come with the same control panel. It's a 2.4" LCD screen with a control knob at the right side next to it.  
 There is no additional microSD card slot located at this panel.  
+The following picture shows the main screen after you turn on the printer.  
 
-![Image about to come soon]()
+![Main screen](../assets/images/display_start_web.jpg)
 
 The control panel allows you to control the printer manually, so you don't necessarily need an additional computer connected to the printer running e.g. Octoprint (even though it's advisable to do so).  
 You can e.g. initiate the bed leveling process, heat up the extruder, load and unload filament, adjust your z-offset or home one or all axes.  
