@@ -6,6 +6,11 @@ It should reach about ≤230°F/110°C maximum and therefore it should be possib
 The bed uses a removable PEI-coated spring steel plate which makes it easy to remove the printed object. The plate that comes with the printer is one-sided coated at the **Go** and double-sided coated at the **Neo**.   
 Both printers offer a 25-point automatic bed leveling which is called "Anycubic LeviQ".  
   
+
+??? tip "Bed Level Visualization"
+
+    The display of the control unit does *not* show a meshview after you proceeded the bed level function - if you'd like to see that, you'd have to use additional software like the beforementioned [Octoprint](https://octoprint.org/) and an additional plugin for visualization like the [Bed Level Visualizer](https://plugins.octoprint.org/plugins/bedlevelvisualizer/).  
+  
 The following picture shows the surface of the coated plate from a close-up view.  
   
 ![Close-up view of the PEI-coated plate](../assets/images/bed_closeup_web.jpg)  
