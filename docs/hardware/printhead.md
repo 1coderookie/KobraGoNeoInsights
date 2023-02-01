@@ -232,7 +232,7 @@ Disassambling the printhead isn't really complicated. Just make sure you're care
 Whatever you want to do, like if you want to change the hotend, the heater block, the heatbreak, a fan or even want to disassamble the whole feeder system, you have to remove the plastic cover of the printhead first.  
 It's secured by two hexagon socket screws at the top of the metal back plate and a plastic clip at each side at the lower bottom as you can see at the following picture (well, you don't really see the plastic clip though but you can see the belonging notch of one of them). Be gentle and careful to not break one of the clips - the best way to get them out of their fittings is to gently push together the whole plastic cover at the bottom sides.  
   
-![Backside view of the head with mounted plastic cover](../assets/images/head_complete_backside_web.jpg)  
+![Backside view of the head with mounted plastic cover](../assets/images/head_neo_complete_backside_marked_web.jpg)  
   
 After the plastic cover is gone, you can see the fans, the proximity sensor at the right side and the heater block at center down at the bottom and so on. Depending on what you want do do now, you need to follow different steps. But first let's have a look at the coverless head from different points of view, starting with the view from the front with a straight look at the little fan for cooling the printed part.  
   
@@ -240,18 +240,18 @@ After the plastic cover is gone, you can see the fans, the proximity sensor at t
   
 Now we look at the left side where you can see the motor of the feeder gear. You can spot three hexagon socket screws there - two at the top and one at the bottom close to the motor housing, which are holding the entire feeder system onto the metal backplate.    
   
-![Left side view](../assets/images/head_leftside_motor_mount_web.jpg)
+![Left side view](../assets/images/head_neo_leftside_motor_mount_marked_web.jpg)
   
 From the right side view you see the fan for cooling the extruder and the ABL sensor with the orange tip at the very right side of the construction.    
   
-![Right side view](../assets/images/head_rightside_web.jpg) 
+![Right side view](../assets/images/head_neo_rightside_marked_web.jpg) 
   
 Looking at the head from the bottom right side, you can see the fan outlet on the left, the hotend with the stock silicone sock and the orange tip of the ABL sensor.    
   
 ![Bottom right side view](../assets/images/head_bottom-view_web.jpg)   
-The following picture shows the whole metal plate where the feeder construction and the bracket of the ABL sensor is mounted onto - I took these pictures when the head wasn't mounted to the carrier of the x-axis so you can have a better look at the deatails.   
+The following picture shows the whole metal plate where the feeder construction (the marked tips of the three screws on the right side) and the bracket of the ABL sensor (the two marked screws on the left side) is mounted onto - I took these pictures when the head wasn't mounted to the carrier of the x-axis so you can have a better look at the deatails.   
   
-![Backside view metal plate](../assets/images/head_backplate_web.jpg)
+![Backside view metal plate](../assets/images/head_neo_backplate_marked_web.jpg)
   
 ??? tip "Disassambling the Hotend, Heater Block and/or Heatbreak"
 
@@ -273,7 +273,7 @@ The following picture shows the whole metal plate where the feeder construction 
 
 ??? tip "Disassambling the ABL Sensor"
 
-    - If you want to change the ABL sensor, loosen the two hexagon socket screw at the backplate which holds the plastic bracket in place (where the ABL sensor sits in). They are located at the left side of the back plate if you look at it from the back (see pictures above). The following picture shows the screws from a side view angle to give you a better impression about the location. <br> ![Screws for the ABL sensor on the left side](../assets/images/head_ABL-sensor_screws_web.jpg)
+    - If you want to change the ABL sensor, loosen the two hexagon socket screw at the backplate which holds the plastic bracket in place (where the ABL sensor sits in). They are located at the left side of the back plate if you look at it from the back (see pictures above). The following picture shows the screws from a side view angle to give you a better impression about the location. At the bottom you see the little plastic clip. <br> ![Screws for the ABL sensor on the left side](../assets/images/head_neo_ABL-sensor_screws_marked_web.jpg)
     - The bracket itself is designed as a slay which can be adjusted by turning the screw at the very top of this construction. *Measure and mark or note the position of the ABL sensor first before loosening anything or even taking it out of the bracket.* In case you forgot about that, the following picture of an original spare part printhead shows the position. The upper edge of the sensor is in line with the upper edge of the slay/bracket, the orange tip of the sensor at the bottom sticks out about 3.5mm of the bracket. <br> ![Screw at the top to move the slay](../assets/images/head_ABL-sensor_top_closeup_web.jpg)  
     - Be careful when you want to take out the sensor from the plastic bracket and therefore have to release the tiny plastic clips which close the bracket - don't break them! <br> ![image](../assets/images/head_ABL-sensor_clip_closeup_web.jpg)
         
