@@ -42,7 +42,7 @@ The following picture shows the location of the ABL sensor at the printhead of t
   
 ![Orange tip of the ABL sensor at the right side](../assets/images/head_neo-bottom_web.jpg)
     
-The ABL sensor itself is mounted in a plastic bracket which is the mounted to the metal backplate.  
+The ABL sensor itself is mounted in a plastic bracket which is the mounted to the metal backplate. You can adjust the height of the position by a little spring supported screw located at the top.  
   
 ![ABL sensor](../assets/images/head_ABL-sensor-front_web.jpg)
     
@@ -69,7 +69,7 @@ At the top in front of the little hole where the filament is inserted you find a
   
 !!! warning
 
-    - Make sure that you set the retraction distance and speed to the correct values for a direct drive! In general, it's supposed to be something around 1mm distance and probabyl around 50mm speed. If you set the distance to a value which is too high (e.g. the default 6mm for the **Go** as a bowden drive), the melted filament might be pulled back too far and reaches the PTFE tube which leads to clogging. 
+    Make sure that you set the retraction distance and speed to the correct values for a direct drive! In general, it's supposed to be something around 1mm distance and probabyl around 50mm speed. If you set the distance to a value which is too high (e.g. the default 6mm for the **Go** as a bowden drive), the melted filament might be pulled back too far and reaches the PTFE tube which might get clogged then. 
   
 !!! tip
 
@@ -87,7 +87,7 @@ At the top in front of the little hole where the filament is inserted you find a
   
 ### Neo  
   
-The hotend of the **Neo** is shown in the following picture. Note the shape of it as it's plugged into the belonging hole at the printhead and secured by two screws. The outer diameter is 6mm(?), the inner diameter is 4mm and the total length is probably something around 2.4-2.5cm (sorry, I forgot to measure it as I had it disassambled). 
+The hotend of the **Neo** is shown in the following picture. Note the shape of it as it's plugged into the belonging hole at the printhead and secured by two screws. The outer diameter is 6mm(?), the inner diameter is 4mm and the total length is probably something around 2.4-2.5cm (sorry, I forgot to measure it as I had it disassambled, will do it next time though). 
   
 ![Hotend](../assets/images/head_neo_block-hotend-disass_web.jpg)  
   
@@ -97,11 +97,11 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
   
 !!! warning
 
-    Too high temperatures may harm the PTFE tube and it may become deformed. 
+    Too high temperatures may harm the PTFE tube - it may become deformed. 
   
 !!! tip
 
-    If you can't load new filament even though nothing seems to be sticking in the printhead anymore, it's most likely that the little PTFE tube inside of the hotend is clogged. To clean or replace it you need to disassamble the hotend from the printhead. Scroll down to find a little guide about how to do that.   
+    If you can't load new filament even though nothing seems to be sticking in the printhead anymore, it's most likely that the little PTFE tube inside of the hotend is clogged. To clean or replace it you need to disassamble the hotend from the printhead. Scroll down to the "disassambling" section find a little guide about how to do that.   
   
 ---  
   
@@ -123,7 +123,7 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
 !!! warning  
 
     - *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with at brass brush or your pliers!* <br> You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. 
-    - If you want to change the nozzle (check out the expandable admonition below!) and need to grab the heater block wit some pliers, make sure you really just grab the heater block and never get any wires up in between - preferably grab the heater block from that sides where the wires don't come out.   
+    - If you want to change the nozzle (*check out the expandable admonition below!*) and need to grab the heater block wit some pliers, make sure you really just grab the heater block and never get any wires up in between - preferably grab the heater block from that sides where the wires don't come out.   
     - If you want to clean the nozzle using a brass brush for example, *never* do it when the printer is powered up and the heating process of the extruder is in progress to avoid causing a shortcut by touching the contacs with the brush.  
     - *Make sure you DON'T turn the heater block!* In case you want to change the nozzle, you don't want to loosen the heater block from the hotend, so just hold the heater block in place without turning it.     
     
@@ -213,7 +213,12 @@ Disassambling the printhead isn't really complicated. Just make sure you're care
   
 !!! warning  
 
-    If you need to disassamble the printhead for e.g. changing the hotend, unload the filament first!     
+    - If you need to disassamble the printhead for e.g. changing the hotend, unload the filament first! 
+    - For changing the nozzle or disassambling the heatbreak from the heater block, you have to heat up the parts first! <br> So either do that using the pre-heat function of the printer or by using a sufficient heat gut. However - don't burn yourself by touching the hot metal parts!
+    - When starting to tinker it's always advisable to *turn off the printer* and to *unplug it from the power outlet*!
+    - Use the sufficient tools! So please don't try to loosen the nozzle with a pair of pliers for example, use e.g. a wrench for that.
+    - Make sure you don't lose a screw and make sure you'll know where the screws belong later when you want to reassamble everything again. <br> You might will be able to remember the belonging screws and positions if your tinkering lasts only an hour, but if anything crosses your plan and therefore you have to pause tinkering, you maybe won't remember one week later. So maybe start sorting the screws and take notes where they belong and/or take pictures right away from the start.
+    - Be patient and careful. <br> Generally speaking, if you unscrew something and it doesn't come off easy, don't start pulling too hard as you might have overseen a screw or clip, so better watch twice. <br> Don't harm or rip off any wires as it may cause severe damage to your mainboard or might be complicated to fix later on.  
   
 ### Go
   
@@ -275,8 +280,12 @@ The following picture shows the whole metal plate where the feeder construction 
 
 ??? tip "Disassambling the Feeder System" 
 
-    - I didn't disassamble the feeder system yet, so I can't provide any steps or further pictures of that besides what you can see above. From what I've seen looking at the printhead while the plastic cover is taken off, you probably would have to disassamble the motor from the system. It also migth come in handy to disassamble the metal backplate first, which is secured by three hexagon socket screws only.   
-    - In case you dropped something tiny like a screw or so in the wholes at the top of the feeder, it should be sufficient to disassamble the system from the metal backplate by taking out the three hexagon socket screws and shake the whole thing around a bit. There are enough holes and openings at the back where you also could try to reach the lost thing using a pair of tweezers.   
+    - I didn't disassamble the feeder system yet, so I can't really provide any specific steps or further pictures of the disassambling the feeder system itself. However, if you need to gain access to it, it migth come in handy to disassamble the metal backplate first, which is secured by three hexagon socket screws only. 
+    - In case you dropped something tiny like a screw or so in the wholes at the top of the feeder, it's probably sufficient to disassamble the system from the metal backplate by taking out the three hexagon socket screws and shake the whole thing around a bit. There are enough holes and openings at the back where you also could try to reach the lost thing using a pair of tweezers. If that doesn't work, proceed with the next step.
+    - There is a metal part with cooling fins underneath the 'big' fan at the right side. <br> ![Metal plate with cooling fins](../assets/images/head_neo_cooling-fins_web.jpg) <br> This metal part is secured by three screws as you can see at the following picture. <br> ![The three screws holding the metal plate](../assets/images/head_neo_screws-cooling-plate_marked_web.jpg) <br> If you unscrew those three hexagon socket screws and take that metal part off, you can get a closer look at the gears of the feeder system (you don't necessarily have to remove the fan to do so). Now you should be able to remove your lost part with some tweezers or get a closer look at the gears if anything is damaged. 
+    - From what I've seen looking at the printhead while the plastic cover is taken off, you probably would have to disassamble the motor from the system if you want to go even further from here, but I can't really say anything about that right now.
+      
+      
   
 ??? tip "Reassambling" 
 
