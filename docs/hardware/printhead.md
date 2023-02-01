@@ -122,8 +122,8 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
     
 !!! warning  
 
-    - *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with at brass brush or your pliers!* <br> You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. 
-    - If you want to change the nozzle (*check out the expandable admonition below!*) and need to grab the heater block wit some pliers, make sure you really just grab the heater block and never get any wires up in between - preferably grab the heater block from that sides where the wires don't come out.   
+    - *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with at brass brush or your pair of pliers!* <br> You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. 
+    - If you want to change the nozzle (*check out the expandable admonition below!*) and need to grab the heater block wit some pair of pliers, make sure you really just grab the heater block and never get any wires up in between - preferably grab the heater block from that sides where the wires don't come out.   
     - If you want to clean the nozzle using a brass brush for example, *never* do it when the printer is powered up and the heating process of the extruder is in progress to avoid causing a shortcut by touching the contacs with the brush.  
     - *Make sure you DON'T turn the heater block!* In case you want to change the nozzle, you don't want to loosen the heater block from the hotend, so just hold the heater block in place without turning it.     
     
@@ -133,7 +133,7 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
      
 ??? note "Changing the Nozzle"  
 
-    - If you just want to change the nozzle, take off the silicone sock of the heater block, then **heat up the extruder first** and pull back the filament a bit once it's warm enough. Once the extruder heated up, *turn off the printer* and unplug it from the power outlet! Then grab the heater block with a plier to hold it in place and screw out the nozzle carefully. Use a sufficient tool for the nozzle, don't use pliers.    
+    - If you just want to change the nozzle, take off the silicone sock of the heater block, then **heat up the extruder first** and pull back the filament a bit once it's warm enough. Once the extruder heated up, *turn off the printer* and unplug it from the power outlet! Then grab the heater block with a pair of pliers to hold it in place and screw out the nozzle carefully. Use a sufficient tool for the nozzle, don't use a pair of pliers.    
     - For installing the new nozzle, screw it in and turn it back about half a rotation once you feel it hits the hotend. Then heat up the extruder again and tighten up the nozzle. 
     - Don't get irritated by the fact that there's a little gap between the head of the nozzle and the heater block - that's totally fine and it's supposed to be like that as the following picture shows. <br> ![Mounted nozzle](../assets/images/head_nozzle-mounted_web.jpg)    
     - Mind the warnings from above.  
@@ -257,7 +257,7 @@ The following picture shows the whole metal plate where the feeder construction 
 
     - First you have to disassamble the fan on the right side by taking out the two hexagon socket screws at the top and bottom of the fan frame. <br> ![Disassamble the fan on the right side](../assets/images/head_neo_rightside_marked_web.jpg)  
     - Then you'll see two hexagon socket screws at the side which are holding the hotend - loosen them until you can gently pull out the hotend. <br> ![Loosen the screws to take out the hotend](../assets/images/head_neo_vent-dis-extruder_web.jpg) <br> You could've seen the heads of the screws already earlier before disassambling the fan, but you wouldn't have been able to reach them as the following picture shows. <br> ![Closeup of the screws which you want to reach](../assets/images/head_hotend-screws_closeup_web.jpg)  
-    - If you want to change the hotend, the heatbreak or the heater block now, take out the PTFE tube from the heatbreak first. Then **heat up the metal parts** by using a heat gun for example and unscrew the hotend from the heater block. Make sure to neither harm any parts while using the pliers nor yourself by accidentally touching the hot material.  
+    - If you want to change the hotend, the heatbreak or the heater block now, take out the PTFE tube from the heatbreak first. Then **heat up the metal parts** by using a heat gun for example and unscrew the hotend from the heater block. Make sure to neither harm any parts while using the pair of pliers nor yourself by accidentally touching the hot material.  
   
     !!! warning  
 
