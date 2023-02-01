@@ -17,7 +17,7 @@ It also displays status informations like the current temperatures and the tempe
   
 ??? tip "Bed Level Visualization"
 
-    The display does *not* show a meshview after you proceeded the bed level function - if you'd like to see that, you'd have to use additional software like the beforementioned [Octoprint](https://octoprint.org/) and an additional plugin for visualization like the [Bed Level Visualizer](https://plugins.octoprint.org/plugins/bedlevelvisualizer/).  
+    The display does *not* show a meshview after you proceeded the bed level function - if you'd like to see that, you'd usually have to use additional software like the beforementioned [Octoprint](https://octoprint.org/) and an additional plugin for visualization like the [Bed Level Visualizer](https://plugins.octoprint.org/plugins/bedlevelvisualizer/). However, it seems that the stock firmware doesn't support that, but I'm not 100% sure about it yet..  
   
 ## Error Messages
 The display also displays error messages if any severe errors occur.  
