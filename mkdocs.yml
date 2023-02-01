@@ -114,6 +114,7 @@ nav:
   - The Printers: 'printers.md'
   - Hardware: 
     - Hardware: 'hardware/hw_index.md'
+    - Control Panel: 'hardware/control_panel.md'
     - Mainboard: 'hardware/mainboard.md'
     - Printhead: 'hardware/printhead.md'
     - Axes: 'hardware/axes.md'
