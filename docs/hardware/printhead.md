@@ -244,7 +244,7 @@ Now we look at the left side where you can see the motor of the feeder gear. You
   
 From the right side view you see the fan for cooling the extruder and the ABL sensor with the orange tip at the very right side of the construction.    
   
-![Right side view](../assets/images/head_neo_rightside_marked_web.jpg) 
+![Right side view](../assets/images/head_rightside_web.jpg) 
   
 Looking at the head from the bottom right side, you can see the fan outlet on the left, the hotend with the stock silicone sock and the orange tip of the ABL sensor.    
   
@@ -255,7 +255,7 @@ The following picture shows the whole metal plate where the feeder construction 
   
 ??? tip "Disassambling the Hotend, Heater Block and/or Heatbreak"
 
-    - First you have to disassamble the fan on the right side by taking out the two hexagon socket screws at the top and bottom of the fan frame. <br> ![Disassamble the fan on the right side](../assets/images/head_rightside_web.jpg)  
+    - First you have to disassamble the fan on the right side by taking out the two hexagon socket screws at the top and bottom of the fan frame. <br> ![Disassamble the fan on the right side](../assets/images/head_neo_rightside_marked_web.jpg)  
     - Then you'll see two hexagon socket screws at the side which are holding the hotend - loosen them until you can gently pull out the hotend. <br> ![Loosen the screws to take out the hotend](../assets/images/head_neo_vent-dis-extruder_web.jpg) <br> You could've seen the heads of the screws already earlier before disassambling the fan, but you wouldn't have been able to reach them as the following picture shows. <br> ![Closeup of the screws which you want to reach](../assets/images/head_hotend-screws_closeup_web.jpg)  
     - If you want to change the hotend, the heatbreak or the heater block now, take out the PTFE tube from the heatbreak first. Then **heat up the metal parts** by using a heat gun for example and unscrew the hotend from the heater block. Make sure to neither harm any parts while using the pliers nor yourself by accidentally touching the hot material.  
   
