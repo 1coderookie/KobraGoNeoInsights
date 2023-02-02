@@ -99,9 +99,9 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
 
     Too high temperatures may harm the PTFE tube - it may become deformed. 
   
-??? tip "Can't load filament"
+??? tip "Can't Load New Filament?!"
 
-    If you can't load new filament even though nothing seems to be sticking in the printhead anymore, it's most likely that the little PTFE tube inside of the hotend is clogged. To clean or replace it you need to disassamble the hotend from the printhead. Scroll down to the "disassambling" section find a little guide about how to do that.   
+    If you can't load new filament even though nothing seems to be sticking in there anymore, it's most likely that the little PTFE tube inside of the hotend is clogged. To clean or replace it you need to disassamble the hotend from the printhead. Scroll down to the "disassambling" section to find a little guide about how to do that.   
   
 ??? tip "Spare Part Hotend"
 
@@ -131,9 +131,10 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
     - If you want to clean the nozzle using a brass brush for example, *never* do it when the printer is powered up and the heating process of the extruder is in progress to avoid causing a shortcut by touching the contacs with the brush.  
     - *Make sure you DON'T turn the heater block!* In case you want to change the nozzle, you don't want to loosen the heater block from the hotend, so just hold the heater block in place without turning it.     
     
-!!! tip
+??? tip "About Cleaning the Nozzle"
 
-    For cleaning the nozzle and getting rid of excessive filament during the printing process or right before printing starts as the extruder is heating up, just use a long and thin wooden stick like a skewer. A wooden toothpick also works fine - just make sure you don't burn yourself as it may be a bit short.    
+    - For cleaning the nozzle and getting rid of excessive filament during the printing process or right before printing starts as the extruder is heating up, just use a long and thin wooden stick like a skewer. A wooden toothpick also works fine - just make sure you don't burn yourself as it may be a bit short. 
+    - Using a needle with the correct diameter (e.g. 0.4mm needle for a 0.4mm nozzle) to stick it into the hot nozzle for cleaning it sometimes works. If you still encounter problems with the flow of the filament though or if you even can't load new filament, most likely the little PTFE tube inside of the heatbreak is clogged. Scroll down to the "disassambling" section where you'll find a little guide about how to get it out and clean it.  
      
 ??? example "Changing the Nozzle"  
 
