@@ -6,7 +6,7 @@
   
 The stock mainboard of both the **Go** and the **Neo** is the "TriGorilla V_3.0.6", it's just flashed with the respective fimware of either model. 
       
-Afaik it is a 32bit mainboard with a HC32F460 200MHz ARM Cortex-M4 with 192KB SRAM and 512KB Flash. The mainboard comes with TM2208 silent stepper drivers soldered onto the board. It offers a microSD card reader and a USB-C connector.    
+Afaik it is a 32bit mainboard with a HC32F460 200MHz ARM Cortex-M4 with 192KB SRAM and 512KB Flash. The mainboard comes with TMC2208 silent stepper drivers soldered onto the board. It offers a microSD card reader and a USB-C connector.    
   
 ![Mainboard TriGorilla front](../assets/images/mainboard_front_web.jpg)  
   
