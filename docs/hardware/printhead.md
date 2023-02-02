@@ -105,8 +105,9 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
   
 ??? tip "Spare Part Hotend"
 
-    - If you need a new hotend because your heater block or the heatbreak needs to be changed, you can get yourself the spare part hotend for the regular *Kobra*. If you look at the picture of it and compare it with the ones I've shown above, you'll notice that the shape of the heatbreak is the same. So up to me it'll fit perfectly. 
+    - If you need a new hotend because your heater block or the heatbreak needs to be changed, you can get yourself the spare part hotend for the regular *Kobra*. If you look at the picture of it and compare it with the ones I've shown above, you'll notice that the shape of the heatbreak is the same. So up to me it'll fit perfectly.   
     - Besides that, the hotend for the *Kobra* comes with a cartridge heater and a thermistor which are also compatible with the ones from the **Go** and **Neo** - at least from a technical side of view. So you'd have them as a spare part also. <br> However, the wires of these parts are way too short though, so you wont't be able to connect them directly! So in case you want to install them, you probably could either just cut the plug and the old part and solder the wires together or (if you have the tools for that) crimp the specific socket for the plug to the old wire to just connect them this way. <br> *Remember to execute a PID tuning after changing the thermistor and/or the dartridge heater!*  
+    - However, scroll down and check out the "disassambling" section below to see how to dis- and reassamble it. *Maybe you don't need new parts, so try to clean up everything first and reassamble it before ordering new parts right away.*
   
 ---  
   
