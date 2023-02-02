@@ -105,7 +105,8 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
   
 ??? tip "Spare Part Hotend"
 
-    If you need a new hotend because your heater block or the heatbreak needs to be changed, you can get yourself the spare part hotend for the regular *Kobra*. If you look at the picture of it and compare it with the ones I've shown above, you'll notice that the shape of the heatbreak is the same. So up to me it'll fit perfectly. <br> Besides that, the hotend for the *Kobra* comes with a cartridge heater and a thermistor which are also compatible with the ones from the **Go**&**Neo** - at least from a technical side of view. So you'd have them as a spare part also. However, the wires of these parts are way too short, so you wont't be able to connect them directly. You probably could either just cut the plug and the old part and solder the wires together or (if you have the tools for that) crimp the specific socket for the plug to the old wire to just connect them this way. 
+    - If you need a new hotend because your heater block or the heatbreak needs to be changed, you can get yourself the spare part hotend for the regular *Kobra*. If you look at the picture of it and compare it with the ones I've shown above, you'll notice that the shape of the heatbreak is the same. So up to me it'll fit perfectly. 
+    - Besides that, the hotend for the *Kobra* comes with a cartridge heater and a thermistor which are also compatible with the ones from the **Go** and **Neo** - at least from a technical side of view. So you'd have them as a spare part also. <br> However, the wires of these parts are way too short though, so you wont't be able to connect them directly! So in case you want to install them, you probably could either just cut the plug and the old part and solder the wires together or (if you have the tools for that) crimp the specific socket for the plug to the old wire to just connect them this way. <br> *Remember to execute a PID tuning after changing the thermistor and/or the dartridge heater!*  
   
 ---  
   
@@ -134,7 +135,7 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
 ??? tip "About Cleaning the Nozzle"
 
     - For cleaning the nozzle and getting rid of excessive filament during the printing process or right before printing starts as the extruder is heating up, just use a long and thin wooden stick like a skewer. A wooden toothpick also works fine - just make sure you don't burn yourself as it may be a bit short. 
-    - Using a needle with the correct diameter (e.g. 0.4mm needle for a 0.4mm nozzle) to stick it into the hot nozzle for cleaning it sometimes works. If you still encounter problems with the flow of the filament though or if you even can't load new filament, most likely the little PTFE tube inside of the heatbreak is clogged. Scroll down to the "disassambling" section where you'll find a little guide about how to get it out and clean it.  
+    - Using a needle with the correct diameter to stick it into the hot nozzle for cleaning it sometimes works. If you still encounter problems with the flow of the filament though or if you even can't load new filament, most likely the little PTFE tube inside of the heatbreak is clogged. Scroll down to the "disassambling" section where you'll find a little guide about how to get it out and clean it.  
      
 ??? example "Changing the Nozzle"  
 
@@ -203,7 +204,7 @@ The following picture shows the specific plug which is necessary to fit into the
     
 ![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)|    
   
-!!! tip  
+??? tip "General Tips" 
 
     - If you need to install a new thermistor and/or cartridge heater, you have to unstrip the wires from the cable conduit. You can just unroll the conduit, pull out the wires from the old part while tugging in the wires of the new part. Be careful to not pull too hard to not harm any thin wires which might be wrapped around the wires of the old part. <br> ![Stripping in the new wires](../assets/images/stripping_in_wires_web.jpg)    
   
@@ -211,7 +212,7 @@ The following picture shows the specific plug which is necessary to fit into the
 
 !!! success      
     
-    ***After successful installation of the new thermistor and/or cartridge heater, execute a PID calibration using e.g. Octoprint.***  
+    ***After successful installation of the new thermistor and/or cartridge heater, execute a PID tuning using e.g. Octoprint.***  
   
 ---  
   
