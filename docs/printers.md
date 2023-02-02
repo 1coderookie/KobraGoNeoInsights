@@ -14,7 +14,7 @@ See e.g. [Anycubic's support page of the blog](https://www.anycubic.com/blogs/ne
 The following list gives an overview of the most important specifications:    
   
 - Printing dimensions: 250 x 220 x 220 mm (HxWxD)  
-- Machine dimensions: 490 x 445 x 443 mm (plus approx. half of the spool diameter on top of the height as the holder is mounted to the upper frame) 
+- Machine dimensions: 490 x 445 x 443 mm (plus filament holder mounted to the upper frame = approx. 630 mm height) 
 - Machine weight: approx. 7.5 kg  
 - Aluminum frame  
 - X-axis and Y-axis: belt driven, belt tension can be adjusted by knobs  
