@@ -77,7 +77,7 @@ At the top in front of the little hole where the filament is inserted you find a
   
 ---  
   
-## Hotend
+## Hotend & Heatbreak
   
 ### Go
   
@@ -87,7 +87,7 @@ At the top in front of the little hole where the filament is inserted you find a
   
 ### Neo  
   
-The hotend of the **Neo** is shown in the following picture. Note the shape of it as it's plugged into the belonging hole at the printhead and secured by two screws. The outer diameter is 6mm(?), the inner diameter is 4mm and the total length is probably something around 2.4-2.5cm (sorry, I forgot to measure it as I had it disassambled, will do it next time though). 
+The hotend of the **Neo** is shown in the following picture. Note the shape of the heatbreak as it's plugged into the belonging hole at the printhead and secured by two screws. The outer diameter of the heatbreak is 6mm(?), the inner diameter is 4mm and the total length is probably something around 2.4-2.5cm (sorry, I forgot to measure it as I had it disassambled, will do it next time though). 
   
 ![Hotend](../assets/images/head_neo_block-hotend-disass_web.jpg)  
   
@@ -99,9 +99,13 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
 
     Too high temperatures may harm the PTFE tube - it may become deformed. 
   
-!!! tip
+??? tip "Can't load filament"
 
     If you can't load new filament even though nothing seems to be sticking in the printhead anymore, it's most likely that the little PTFE tube inside of the hotend is clogged. To clean or replace it you need to disassamble the hotend from the printhead. Scroll down to the "disassambling" section find a little guide about how to do that.   
+  
+??? tip "Spare Part Hotend"
+
+    If you need a new hotend because your heater block or the heatbreak needs to be changed, you can get yourself the spare part hotend for the regular *Kobra*. If you look at the picture of it and compare it with the ones I've shown above, you'll notice that the shape of the heatbreak is the same. So up to me it'll fit perfectly. <br> Besides that, the hotend for the *Kobra* comes with a cartridge heater and a thermistor which are also compatible with the ones from the **Go**&**Neo** - at least from a technical side of view. So you'd have them as a spare part also. However, the wires of these parts are way too short, so you wont't be able to connect them directly. You probably could either just cut the plug and the old part and solder the wires together or (if you have the tools for that) crimp the specific socket for the plug to the old wire to just connect them this way. 
   
 ---  
   
