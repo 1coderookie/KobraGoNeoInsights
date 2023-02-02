@@ -13,15 +13,15 @@ See e.g. [Anycubic's support page of the blog](https://www.anycubic.com/blogs/ne
   
 The following list gives an overview of the most important specifications:    
   
-- Printing dimensions: 250 x 220 x 220 mm (HWD)  
-- Machine dimensions: 490 x 445 x 443 mm  
+- Printing dimensions: 250 x 220 x 220 mm (HxWxD)  
+- Machine dimensions: 490 x 445 x 443 mm (plus approx. half of the spool diameter on top of the height as the holder is mounted to the upper frame) 
 - Machine weight: approx. 7.5 kg  
 - Aluminum frame  
 - X-axis and Y-axis: belt driven, belt tension can be adjusted by knobs  
 - Z-axis: single threaded rod  
 - Printing speed: ≤100 mm/s (Max speed)  
 - Control panel: 2.4" LCD screen with a control knob  
-- TriGorilla V_3.0.6 mainboard, 32bit, TPM2208 silent stepper drivers  
+- Mainboard: TriGorilla V_3.0.6, 32bit, TMC2208 silent stepper drivers (soldered), microSD card reader, USB-C connector 
 - Extruder / feeder system:  
     - Bowden separated at Kobra **Go**  
     - Direct drive at Kobra **Neo**  
@@ -29,7 +29,7 @@ The following list gives an overview of the most important specifications:
 - Heated and magnetic bed with removable PEI-coated spring steel plate (one-sided coated at **Go**, double-sided coated at **Neo**)  
 - Hot bed temperature: ≤ 230 °F / 110 °C  
 - Bed leveling: "Anycubic LeviQ", which is a 25-point automatic bed leveling  
-- Printing material: PLA / ABS / PETG & TPU (for PETG & TPU an optional housing is recommended)  
+- Printing material: PLA / ABS / PETG & TPU (optional housing recommended for certain material)  
 - Single nozzle in a V5 heater block, filament diameter 1.75 mm  
 - Comes with a E3D V6 compatible 0.4 mm brass nozzle which is replaceable  
 - Nozzle temperature: ≤ 500 °F / 260 °C  
