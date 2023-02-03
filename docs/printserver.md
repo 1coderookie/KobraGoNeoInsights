@@ -60,7 +60,7 @@ The (imho great) point is: you can get a pretty powerful and energy efficient ma
 I personally have a RPi3B+ running right now, but as I recently just got myself two HP ThinClient T630 and one of them replaced my T610 as a server, I'll set up the T610 for using it as a print server soon I guess. Unfortunately my T630 server isn't in the same room and I can't connect my printer to it directly, so I'll have to use an extra machine for that.   
 
 ## NAS / Server
-If you have a NAS or a server up and running, you could also install the printing software onto that. But in this case I'd assume that you already knwo what you're doing and that you don't need any advise. If I'm wrong and you do so, probably just do a web search for your specific system - I'm pretty sure you'll find something.  
+If you have a NAS or a server up and running, you could also install the printing software onto that. But in this case I'd assume that you already know what you're doing and that you don't need any advise. If I'm wrong and you do so, probably just do a web search for your specific system - I'm pretty sure you'll find something.  
  
 ## How To Install
 So in case you want to use hardware like the abovementioned Thin Clients, you probably don't know how to set it up and install the software. Right now I'd like to encourage you to search the web as there are many step by step guides and also videos out there about how to do it.  
@@ -69,4 +69,4 @@ However, I'd like to mention [Kiauh](https://github.com/th33xitus/kiauh) though 
 ## Cam / Webcam
 As mentioned in the RPi section, if you connect a webcam directly to your printserver, I'd suggest to use a webcam which only offers a low resolution as you don't need 4K for monitoring the printing process. Also creating a time laps video from your printing process using a resolution of 640x480 or 1024x768 saves your power resources and storage compared to a 4K or something like that.  
   
-I also would like to mention general WiFi/LAN cameras which you could use. Also here it doesn't have to be the one for hundret bucks - a cheap one will do the job just fine. If you like to tinker a bit, maybe get yourself a cheap ESP32-CAM module.  
+I also would like to mention general WiFi/LAN cameras which you could use. Also here it doesn't have to be a cam for a hundret bucks - a cheap one will do the job just fine. If you like to tinker a bit, maybe get yourself a cheap ESP32-CAM module.  
