@@ -9,14 +9,14 @@ You can adjust the tension of the belt by using the knob at the right side of th
 
 ??? tip "Belt Tension"
 
-    It's kinda difficult to explain the correct belt tension, so you'd have to experiment a bit with that. Generally speaking, the belt shouldn't be too tightened up and shouldn't be too loose either. If you can 'bend' the belt down by adding a little pressure with your finger onto it, then it's a good sign that you're in the right area of tension.
+    It's kinda difficult to explain the correct belt tension, so you'd have to experiment a bit with that. Generally speaking, the belt shouldn't be too tightened up and shouldn't be too loose either. If you can 'bend' the belt down by adding a little pressure with your finger onto it but you still feel an amount of resistance, then it's a good sign that you're in the right area of tension.
 
 ## Y-Axis
 The X-axis of both the **Go** and the **Neo** is belt driven. You can adjust the tension of the belt by using the knob at the front side of the aluminum profile where the bed is guided onto.  
 
 ??? tip "Belt Tension"
 
-    It's kinda difficult to explain the correct belt tension, so you'd have to experiment a bit with that. Generally speaking, the belt shouldn't be too tightened up and shouldn't be too loose either. If you can 'bend' the belt down by adding a little pressure with your finger onto it, then it's a good sign that you're in the right area of tension. 
+    It's kinda difficult to explain the correct belt tension, so you'd have to experiment a bit with that. Generally speaking, the belt shouldn't be too tightened up and shouldn't be too loose either. If you can 'bend' the belt down by adding a little pressure with your finger onto it but you still feel an amount of resistance, then it's a good sign that you're in the right area of tension. 
     
 ## Z-Axis
 The Z-axis of both the **Go** and the **Neo** is driven by a single rod. The rod is mounted to the motor by a coupler.  
