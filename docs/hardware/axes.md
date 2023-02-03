@@ -31,7 +31,7 @@ The Z-axis of both the **Go** and the **Neo** is driven by a single rod. The rod
 The endstop switches are triggered when either axis reaches its limits.  
 So if you notice that e.g. the motor of the y axis doesn't stop when the bed reaches the end then you should check if the belonging switch is faulty. 
 
-??? experiment "Checking the Switches"
+??? example "Checking the Switches"
 
     You can check if the switch really isn't working by triggering it manually while e.g. the bed is moving. If the bed doesn't stop, turn off your printer. Check the connectors at the switch and the mainboard if they're still in place. If everything looks fine here, then it's most likey that the switch itself is faulty. So disassamble the switch from the frame and put in a new one. Wire everything up again and try again triggering it manually if it works now.   
   
