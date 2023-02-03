@@ -128,4 +128,6 @@ nav:
   - Profiles & Settings: 'pro_set.md'
   - G-Code Documentation: 'gcode_doc.md'
   - Further Sources: 'further_sources.md'
+  - Printserver: 'printserver.md'
+  - Tools: 'tools.md'
         
