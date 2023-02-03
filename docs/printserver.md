@@ -57,9 +57,8 @@ It's also advisable to not buy the very first offer you can find - even though t
 ??? tip "Tips About Thin Clients"  
 
     - There are many different Thin Clients from different manufacturers available out there - a good site I'd like to recommend to gather around and check out the specs of different Thin Clients is [ParkyTowers](https://www.parkytowers.me.uk/thin/).  
-    - If you're looking for something really small, maybe look out for a Dell Wyse 3040 or 3020. They do have limited power and RAM possibilities compared to bigger Thin Clients, but for just acting as a print server instead of a RPi they're powerful enough.   
-    -  I personally like the HP Thin Client T6x0 as you can upgrade them really well. The higer the number, the newer the model is and the more powerful, energy efficient and compatible with modern parts it is (e.g. T610 uses a 2.5" SSD & DDR3 SO-DIMM RAM while the T630 uses a m2.SATA SSD & DDR4 SO-DIMM RAM). The 'downside' of them (if you even want to call it that way as they're still pretty small) is the bigger housing.   
-    - In case you want to use the Thin Client with a monitor (instead of running it as a headless server) and you don't have one laying around, maybe check out the Dell Wyse 5040 AIO terminal for example so you have everything in one piece. 
+    - If you're looking for something really small, maybe look out for a Dell Wyse 3040 or 3020. They do have limited power and RAM possibilities compared to bigger Thin Clients, but for just acting as a headless print server instead of a RPi they're powerful enough.   
+    -  I personally like the HP Thin Client T6x0 series as you can upgrade them really well. The higer the number, the newer the model and the more powerful, energy efficient and compatible with modern parts it is (e.g. T610 uses a 2.5" SSD & DDR3 SO-DIMM RAM while the T630 uses a m2.SATA SSD & DDR4 SO-DIMM RAM). The 'downside' of them (if you even want to call it that way as they're still pretty small) is the bigger housing.   
 
 
 ## NAS / Server
