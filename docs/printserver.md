@@ -52,13 +52,14 @@ They have a small build factor, don't draw an excessive amount of power and usua
 Especially newer models (like only a few years old) have hardware built in which would be even powerful enough to replace your daily driver for surfing the web or writing stuff. The newer and bigger they are, the more they have to offer usually - I'm talking about energy efficient quadcore CPUs here and the possibility to put in up to 32GB or even 64GB of RAM, swapping in a SSD (2.5", m2 SATA or NVMe - that often depends on the age actually) and even run virtual machines (tip: [ProxmoxVE](https://www.proxmox.com/en)) or containers (tip: [Docker](https://www.docker.com/)). Of course you could also just install a LinuxOS like Ubuntu or Ubuntu Server and install your desired software directly there.  
   
 The (imho great) point is: you can get a pretty powerful and energy efficient machine which is a true x86 platform for just a little amount of money as companies use to sell them pretty cheap most of the time. You probably have to look out for a certain model a bit longer sometimes as they use to be sold out quite fast, but it would be worth it.  
+It's also advisable to not buy the very first offer you can find - even though they're still cheap most of the times compared to a RPi4 for example, certain companies know about the potential and that people like to use them for tinkering around, so some companies call for much higher prices than others.  
 
 ??? tip "Tips About Thin Clients"  
 
     - There are many different Thin Clients from different manufacturers available out there - a good site I'd like to recommend to gather around and check out the specs of different Thin Clients is [ParkyTowers](https://www.parkytowers.me.uk/thin/).  
     - If you're looking for something really small, maybe look out for a Dell Wyse 3040 or 3020. They do have limited power and RAM possibilities compared to bigger Thin Clients, but for just acting as a print server instead of a RPi they're powerful enough.   
     -  I personally like the HP Thin Client T6x0 as you can upgrade them really well. The higer the number, the newer the model is and the more powerful, energy efficient and compatible with modern parts it is (e.g. T610 uses a 2.5" SSD & DDR3 SO-DIMM RAM while the T630 uses a m2.SATA SSD & DDR4 SO-DIMM RAM). The 'downside' of them (if you even want to call it that way as they're still pretty small) is the bigger housing.   
-    - In case you want to use the Thin Client with a monitor instead of a headless server and don't have one laying around, maybe check out the Dell Wyse 5020 for example so you have everything in one piece. 
+    - In case you want to use the Thin Client with a monitor (instead of running it as a headless server) and you don't have one laying around, maybe check out the Dell Wyse 5040 AIO terminal for example so you have everything in one piece. 
 
 
 ## NAS / Server
