@@ -326,4 +326,5 @@ The following picture shows the whole metal plate where the feeder construction 
   
 ### Neo  
   
-..
+- [3dpTeach](https://www.youtube.com/@3dpTeach) upgraded the hotend of this **Kobra** to a full metal hotend. Due to the fact that the hotend of the Kobra and the Kobra **Neo** are identical, you probably want to have a look at his solution: [Upgraded All Metal Hot-End for Anycubic Kobra](https://www.youtube.com/watch?v=8AZB7HRxZfQ)  
+  
