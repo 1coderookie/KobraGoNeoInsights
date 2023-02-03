@@ -29,14 +29,42 @@ However, if you're already running a RPi(3) and face those kind of problems as m
 If you can't or don't want to get an RPi but still want to stick to one of those tiny tinker units, you can check out the market what's available and compareable to a RPi, like an "Orange Pi", a "Le Potato" or so on.  
 I'm not going into further details here as I personally don't use them and prefer Thin Clients.  
 
-## Old Hardware Like Laptops
-If you have old hardware like a laptop laying around, you can also use that. Don't worry - even if it's pretty old in most of the cases it still would be sufficient. Install a Linux OS onto it and then install the desired software.  
+## Old Android Devices
+Yes, you've read correct: certain software could also be installed onto your old Android device like your smartphone or your tablet.  
+I won't go deeper here though due to my lack of experience with this solution - you'll find many informations about this around the web.   
+
+## Old "Regular" Hardware 
+If you have old hardware laying around like a laptop or so, you can also use that. Don't worry - even if it's pretty old in most of the cases it still would be sufficient. Install a Linux OS onto it and then install the desired software.  
 You'll find some tips about how to get the software installed further below.  
   
 However, as much as I appreciate and love to re-/up-cycle old hardware, one thing has to be mentioned: the amount of power they're drawing.  
 It might not really come into account if your prints last only a few hours and after finishing them you turn everything off. But as soon as you think about running those machines pretty much 24/7 you should keep in mind that they draw a lot of power which sums up at the end. Right now here in Germany we're paying about 0,40€/kWh, so it really matters just looking at the financial side of that - not to mention the ecological aspect.    
 
 ## Thin Clients
-Now - get ready for a real deal: Thin Clients!  
+Now - get ready for the real deal: Thin Clients!  
 Ok, might be a bit exxagerated, but I really *love* those fellas.  
-If you've never heard of them, let me give you a quick introduction. Thin Clients are computers which are often used by companies for e.g. setting up workstations for their employees or to have some kind of information desk or screen running somewhere. They have a small build factor, don't draw an excessive amount of power and usually come with connectors for LAN, USB, a monitor and so on. Especially newer models (like only a few years old) have hardware built in which would be even powerful enough to replace your daily driver for surfing the web or writing stuff. The newer they are, the more the yhave to offer usually. That means you can put in up to 32GB or even 64GB of RAM, swap in a SSD (2.5", m2 SATA or NVMe - that often depends on the age actually) and go crazy and even use VirtualMachines (ProxmoxVE) or containers (Docker). Of course you could also just install a LinuxOS like Ubuntu or Ubuntu Server. 
+  
+If you've never heard of them, let me give you a quick introduction:  
+Thin Clients are computers which are often used by companies for e.g. setting up workstations for their employees or to have some kind of information desk or screen running somewhere.  
+They have a small build factor, don't draw an excessive amount of power and usually come with connectors for LAN, USB, a monitor and so on.  
+Especially newer models (like only a few years old) have hardware built in which would be even powerful enough to replace your daily driver for surfing the web or writing stuff. The newer they are, the more they have to offer usually - I'm talking about energy efficient quadcore CPUs here and the possibility to put in up to 32GB or even 64GB of RAM, swapping in a SSD (2.5", m2 SATA or NVMe - that often depends on the age actually) and even run virtual machines (tip: [ProxmoxVE](https://www.proxmox.com/en)) or containers (tip: [Docker](https://www.docker.com/)). Of course you could also just install a LinuxOS like Ubuntu or Ubuntu Server and install your desired software directly there.  
+  
+The (imho great) point is: you can get a pretty powerful and energy efficient machine which is a true x86 platform for just a little amount of money as companies use to sell them pretty cheap most of the time. You probably have to look out for a certain model a bit longer sometimes as they use to be sold out quite fast, but it would be worth it.  
+
+!!! tip  
+
+    There are many different Thin Clients from different manufacturers available out there - a good site I'd like to recommend to gather around and check out the specs of different Thin Clients is [ParkyTowers](https://www.parkytowers.me.uk/thin/). 
+
+I personally have a RPi3B+ running right now, but as I recently just got myself two HP ThinClient T630 and one of them replaced my T610 as a server, I'll set up the T610 for using it as a print server soon I guess. Unfortunately my T630 server isn't in the same room and I can't connect my printer to it directly, so I'll have to use an extra machine for that.   
+
+## NAS / Server
+If you have a NAS or a server up and running, you could also install the printing software onto that. But in this case I'd assume that you already knwo what you're doing and that you don't need any advise. If I'm wrong and you do so, probably just do a web search for your specific system - I'm pretty sure you'll find something.  
+ 
+## How To Install
+So in case you want to use hardware like the abovementioned Thin Clients, you probably don't know how to set it up and install the software. Right now I'd like to encourage you to search the web as there are many step by step guides and also videos out there about how to do it.  
+However, I'd like to mention [Kiauh](https://github.com/th33xitus/kiauh) though as it's an installation script for software like Klipper and so which makes everything a lot easier.
+
+## Cam / Webcam
+As mentioned in the RPi section, if you connect a webcam directly to your printserver, I'd suggest to use a webcam which only offers a low resolution as you don't need 4K for monitoring the printing process. Also creating a time laps video from your printing process using a resolution of 640x480 or 1024x768 saves your power resources and storage compared to a 4K or something like that.  
+  
+I also would like to mention general WiFi/LAN cameras which you could use. Also here it doesn't have to be the one for hundret bucks - a cheap one will do the job just fine. If you like to tinker a bit, maybe get yourself a cheap ESP32-CAM module.  
