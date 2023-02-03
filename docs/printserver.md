@@ -20,10 +20,12 @@ Imagine you connect your RPi3 to a monitor and plug in a mouse, keyboard, your 3
 That doesn't occur because of a lack of RAM or CPU power (what people use to assume) - that occurs because of the architecture and the bottleneck "one USB port at the SoC".  
   
 ??? tip "RPi and a (Web-)Cam"
-However, if you're already running a RPi(3) and face those kind of problems as mentioned above due to a connected webcam to the RPi, I'd suggest the following:  
 
-- Switch to a cheap/old type of webcam which only offers a low resolution like 640x480. You don't need 4K to see what's going on and by using a low resolution you can at least decrease the amount of informations that has to run through the mentioned bottleneck.  
-- Get rid of the USB cam and set up a WiFi/LAN cam instead which isn't connected to the RPi. Up to me this is even a better solution then downgrading the webcam as the RPi doesn't have to deal with the data from the WiFi/LAN cam at all. If you like to tinker and don't mind the probable effort, get yourself one of those cheap ESP32-CAM modules and set it up. Or just go for a cheap WiFi/LAN camera.   
+    However, if you're already running a RPi(3) and face those kind of problems as mentioned above due to a connected webcam to the RPi, I'd suggest the following:  
+
+    - Switch to a cheap/old type of webcam which only offers a low resolution like 640x480. You don't need 4K to see what's going on and by using a low resolution you can at least decrease the amount of informations that has to run through the mentioned bottleneck.  
+    - Don't create a time lapse video.
+    - Get rid of the USB cam and set up a WiFi/LAN cam instead which isn't connected to the RPi. Up to me this is even a better solution then downgrading the webcam as the RPi doesn't have to deal with the data from the WiFi/LAN cam at all. If you like to tinker and don't mind the probable effort, get yourself one of those cheap ESP32-CAM modules and set it up. Or just go for a cheap WiFi/LAN camera.   
 
 ## Other SoC Boards
 If you can't or don't want to get an RPi but still want to stick to one of those tiny tinker units, you can check out the market what's available and compareable to a RPi, like an "Orange Pi", a "Le Potato" or so on.  
