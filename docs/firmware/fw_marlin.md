@@ -18,7 +18,12 @@ In case you want to build and compile your own `firmware.bin` file, you can foll
 ---  
   
 # Mods
-There are a few mods of the original firmwares out there:  
+There are a few compiled versions and also mods of the original firmwares available out there. Please let me know if you find more so that I can link to them. 
+  
+!!! warning
+
+    Use at your own risk!  
+
   
 ## Go  
   
@@ -26,4 +31,5 @@ There are a few mods of the original firmwares out there:
   
 ## Neo
 
-  
+- @[cringegnere](https://github.com/cringegnere) offers [his *compiled* version of the the *original* Kobra **Neo** firmware](https://github.com/cringegnere/Kobra_Neo/releases/tag/v1.3.3_original)
+- @[sjorge](https://github.com/sjorge) offers a [modified Kobra **Neo** firmware](https://github.com/sjorge/Kobra_Neo_Fw)
