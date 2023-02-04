@@ -71,9 +71,9 @@ At the top in front of the little hole where the filament is inserted you find a
 
     Make sure that you set the retraction distance and speed to the correct values for a direct drive! In general, it's supposed to be something around 1mm distance and probabyl around 50mm speed. If you set the distance to a value which is too high (e.g. the default 6mm for the **Go** as a bowden drive), the melted filament might be pulled back too far and reaches the PTFE tube which might get clogged then. 
   
-!!! tip
+??? tip "Feeder Gear Pressure"
 
-    When adjusting the pressure of the feeder gear, make sure you don't tighten it up too much as it could squeeze and deform the filament. On the other hand it shouldn't be too loose though as it should transport the filament reliably. So you might want to try different settings of the tension.   
+    When adjusting the pressure of the feeder gear, make sure you don't tighten it up too much as it could squeeze and deform the filament. On the other hand it shouldn't be too loose though as it should transport the filament reliably. If you hold the filament with two fingers applying just a little amount of pressure and the feeder still pulls it out of your fingers, then you should be good. You might want to try different settings of the tension though.    
   
 ---  
   
@@ -211,15 +211,15 @@ The following picture shows the specific plug which is necessary to fit into the
 
     If you need to replace the thermistor and/or the cartridge heater, *make sure you don't overtighten the screws as it could harm both the thermistor and the heater cartridge!* <br> Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo**.  
     
-![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)|    
-  
+    ![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)    
+   
 ??? tip "General Tips" 
 
     - If you need to install a new thermistor and/or cartridge heater, you have to unstrip the wires from the cable conduit. You can just unroll the conduit, pull out the wires from the old part while tugging in the wires of the new part. Be careful to not pull too hard to not harm any thin wires which might be wrapped around the wires of the old part. <br> ![Stripping in the new wires](../assets/images/stripping_in_wires_web.jpg)    
   
     - When installing the parts at the heater block and putting back on the plastic cap of the printhead, I personally avoided to bend the thin wires as it was done within the original installation. I just guided the wires along outside the plastic cover. By doing so, you minimize the risk of getting a shortcut due to a harmed or melted wire isolation at the part where the wires are bent and twisted originally. The following picture shows my new installed thermistor and cartridge heater with the wires running outside of the plastic cap. <br> ![Wires running outside of the plastic cap](../assets/images/head_neo_new-sen-therm_web.jpg)  
 
-!!! success      
+??? tip "Execute PID Tuning"      
     
     ***After successful installation of the new thermistor and/or cartridge heater, execute a PID tuning using e.g. Octoprint.***  
   
