@@ -47,8 +47,7 @@ I won't go deeper here though due to my lack of experience with this solution - 
     - What also should be mentioned here as a **warning** is the fact that devices which are connected 24/7 to the charger might be a huge hazard as the battery could catch fire or even blow up. So keep that in mind if you're tempted to go this way.
   
 ## Old "Regular" Hardware 
-If you have old hardware laying around like a laptop or so, you can also use that. Don't worry - even if it's pretty old in most of the cases it still would be sufficient. Install a Linux OS onto it and then install the desired software.  
-You'll find some tips about how to get the software installed further below.  
+If you have old hardware laying around like a laptop or so, you can also use that. Don't worry - even if it's pretty old in most of the cases it still would be sufficient. Install a Linux OS onto it and then install the desired software.   
   
 However, as much as I appreciate and love to re- and upcycle old hardware in general, one thing has to be mentioned: the amount of power they're drawing due to their old and mostly energy inefficient chipsets.  
 It might not really come into account if your prints last only a few hours and after finishing them you turn everything off. But as soon as you think about running those machines pretty much 24/7 you should keep in mind that they might draw a lot of power which sums up at the end. Right now here in Germany we're paying about 0,40€/kWh, so it really matters just looking at the financial side of that - not to mention the ecological aspect.    
@@ -82,7 +81,7 @@ However, I'd like to mention [Kiauh](https://github.com/th33xitus/kiauh) though 
 ## Camera
 As mentioned in the RPi section, if you connect a webcam directly to your printserver, I'd suggest to use a webcam which only offers a low resolution like 480p (640x480) as you don't need 4K for monitoring the printing process. Of course a more powerful hardware can also handle a higher resolution though.  
 Preferably use a cam with a wide angle view and a fixed focus, so that you can see the whole area of the bed and there's no autofocus which gets irritated by the movement.  
-If you want to create a time laps video from your printing process, keep in mind that it's a pretty resource consuming task (CPU power, RAM and storage usage). So also here using a low resolution like 480p is adviseable.    
+If you want to create a time lapse video from your printing process, keep in mind that it's a pretty resource consuming task (CPU power, RAM and storage usage). So also here using a low resolution like 480p is adviseable.    
   
-However, I also would like to mention or even recommend general IP cameras (WiFi/LAN) which you could use. Also here it doesn't have to be a cam for a hundret bucks - a cheap one will do the job just fine. They often already come with the option to create time laps videos and store it onto a microSD card also.  
+However, I also would like to mention or even recommend general IP cameras (WiFi/LAN) which you could use. Also here it doesn't have to be a cam for a hundret bucks - a cheap one will do the job just fine. They often already come with the option to create time lapse videos and store it onto a microSD card also.  
 If you like to tinker a bit, maybe get yourself a cheap ESP32-CAM module.  
