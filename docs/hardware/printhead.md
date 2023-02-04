@@ -209,9 +209,8 @@ The following picture shows the specific plug which is necessary to fit into the
 
 !!! warning info inline 
 
-    If you need to replace the thermistor and/or the cartridge heater, *make sure you don't overtighten the screws as it could harm both the thermistor and the heater cartridge!* <br> Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo**.  
-    
-    ![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)    
+    If you need to replace the thermistor and/or the cartridge heater, *make sure you don't overtighten the screws as it could harm both the thermistor and the heater cartridge!* <br> Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo**.     
+![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)    
    
 ??? tip "General Tips" 
 
