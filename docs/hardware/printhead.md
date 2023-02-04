@@ -145,7 +145,7 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
     - Then *turn off the printer* and ideally unplug it from the power outlet. Don't fiddle around while it's turned on - in case you slip with the wrench and harm the wires you could create a shortcut which most likely will blow something up of your mainboard.  
     - Then grab the heater block with a wrench to hold it in place and screw out the nozzle carefully. Use a sufficient tool like a wrench or a socket wrench for the nozzle - don't use a pair of pliers as it may/will round off the screw nut. 
     - Make sure you don't turn the heater block at all to not loosen it from the heat break! Just hold it in place.
-    - If the nozzle won't come loose, heat up the extruder again, raise the temperature a bit and let it sit longer to melt the filament in the gaps which seems to block. Before trying to unscrew the nozzle, switch off the printer again. <br> If that still doesn't work, you could take a peace of damp cloth and hold it against the nozzle (*not* the heater block, *only the nozzle*!) for a moment to cool it down. Due to the sudden decrease of temperature the metal of the nozzle will contract a tiny bit which may result in being able to unscrew it.  
+    - If the nozzle won't come loose, heat up the extruder again, raise the temperature a bit and let it sit longer to melt the filament in the gaps which seems to block. Before trying to unscrew the nozzle, switch off the printer again. <br> If that still doesn't work, you could take a piece of damp cloth and hold it against the nozzle (*not* the heater block, *only the nozzle*!) for a moment to cool it down. Due to the sudden decrease of temperature the metal of the nozzle will contract a tiny bit which may result in being able to unscrew it.  
     - For installing the new nozzle, screw it in and turn it back about one rotation once you feel it hits the hotend. I personally do this after everything cooled down until it's safe to touch because then I can screw in the nozzle by hand and therefore I can feel right at the start if it doesn't sit correctly. 
     - Check if you didn't harm any wires! 
     - If everything is fine, power up the printer, heat up the extruder again and carefully tighten up the nozzle (don't overtighten it though). 
@@ -153,7 +153,9 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
     
         !!! warning  
         
-            ***Never try to unscrew the nozzle from the heater block while the parts are cold!*** <br> Melted filament or some kind of screw lock glue will make it hard or even impossible to unscrew it and you risk to shear off the nozzle!  
+            - ***Never try to unscrew the nozzle from the heater block while the parts are cold!*** <br> Melted filament or some kind of screw lock glue will make it hard or even impossible to unscrew it and you risk to shear off the nozzle!  
+            - Make sure you're holding the heater block tight to avoid *any* movement and don't overtighten the nozzle! Reddit user [I_Sells_Drugs](https://www.reddit.com/user/I_Sells_Drugs/) was so kind to allow me to show pictures of his attempt to tighten up the nozzle even more as he got irritated by the little gap between the head of the nozzle and the heater block. He managed to shear off the heatbreak from the heater block as the following pictures show. <br> ![sheared off heatbreak](../assets/images/sheared-off-heatbreak_web.jpg) 
+            
      
 ??? info "About Nozzles in General" 
 
