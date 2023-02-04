@@ -154,7 +154,7 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
         !!! warning  
         
             - ***Never try to unscrew the nozzle from the heater block while the parts are cold!*** <br> Melted filament or some kind of screw lock glue will make it hard or even impossible to unscrew it and you risk to shear off the nozzle!  
-            - Make sure you're holding the heater block tight to avoid *any* movement and don't overtighten the nozzle! Reddit user [I_Sells_Drugs](https://www.reddit.com/user/I_Sells_Drugs/) was so kind to allow me to show pictures of his attempt to tighten up the nozzle even more as he got irritated by the little gap between the head of the nozzle and the heater block. He managed to shear off the heatbreak from the heater block as the following pictures show. <br> ![sheared off heatbreak](../assets/images/sheared-off-heatbreak_web.jpg) 
+            - Make sure you're holding the heater block tight to avoid *any* movement and don't overtighten the nozzle! Reddit user [I_Sells_Drugs](https://www.reddit.com/user/I_Sells_Drugs/) was so kind to allow me to show pictures of [his attempt to tighten up the nozzle even more](https://www.reddit.com/r/anycubic/comments/10rf58m/does_this_mean_i_need_to_replace_entire_hotend/) as he got irritated by the little gap between the head of the nozzle and the heater block. He managed to shear off the heatbreak from the heater block as the following pictures show. <br> ![sheared off heatbreak](../assets/images/sheared-off-heatbreak_web.jpg) 
             
      
 ??? info "About Nozzles in General" 
