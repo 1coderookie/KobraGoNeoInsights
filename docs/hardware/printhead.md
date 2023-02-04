@@ -28,9 +28,9 @@ The following picture shows a close up view of the printhead of the **Neo** from
 Both printers come with a proximity sensor for automatic bed levelling (ABL) which is (afaik) the same model.  
 The ABL sensor at the **Go** is mounted pretty much straight behind the heater block, where at the **Neo** it's located a few centimeters to the right side next to the heater block.  
   
-!!! tip  
+??? tip "Sensor Position"  
 
-    Measure the original position (depth/height) of the sensor as it came with and write it down. In case you have to change the sensor or even you loosened the screw which holds it in place by accident you can always put it back in the original position, so that you don't have to deal with fiddling around to find the best position for it afterwards. 
+    Measure the original position (depth/height) of the sensor as it came with and write it down. In case you have to change the sensor or even you loosened the screw which holds it in place by accident you can always put it back in the original position, so that you don't have to deal with fiddling around to find the best position for it afterwards. <br> If it's already too late for that, check out the pictures of the ABL sensor here, especially further down below in the "Disassambling" section to see the original position it came with at my **Neo**. 
   
 ### Go
 ??? question "Got a **Go**?"  
