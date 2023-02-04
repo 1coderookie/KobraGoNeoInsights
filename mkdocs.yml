@@ -126,8 +126,8 @@ nav:
     - Stock Firmware (Marlin Based): 'firmware/fw_marlin.md'
     - Klipper (Mod): 'firmware/fw_klipper.md'
   - Profiles & Settings: 'pro_set.md'
-  - G-Code Documentation: 'gcode_doc.md'
-  - Further Sources: 'further_sources.md'
   - Printserver: 'printserver.md'
   - Tools: 'tools.md'
+  - G-Code Documentation: 'gcode_doc.md'
+  - Further Sources: 'further_sources.md'
         
