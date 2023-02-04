@@ -219,7 +219,7 @@ The following picture shows the specific plug which is necessary to fit into the
 
 ??? tip "Execute PID Tuning"      
     
-    ***After successful installation of the new thermistor and/or cartridge heater, execute a PID tuning using e.g. Octoprint.***  
+    After successful installation of the new thermistor and/or cartridge heater, execute a PID tuning using e.g. Octoprint!  
   
 ---  
   
