@@ -13,3 +13,10 @@ Reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) postet a descripti
 ??? tip "What Is Klipper?"
 
     If you don't know what Klipper is, this may be a good start for your research: [All3DP: Klipper](https://www.all3dp.com/topic/klipper)
+
+??? tip "Cura and Klipper"
+
+    Even though Cura and Klipper work perfectly together, there are a few things to be aware of.  
+    Certain classic G-code commands aren't directly supported by Klipper as it uses extended G-code and scripts for certain things. As an example the G-code command `M0` (unconditional stop) isn't recognized by Klipper, you'd have to use the extended G-code command `PAUSE` for that.  
+    Also there are a few functions of Cura which should improve the print quality which interfere with Klipper's own approaches for that (like Pressure Advance or Input Shaping).  
+    You'll find a good overview of what to be aware of in the tutorial from [All3DP: Cura & Klipper: How to Make Them Work Together](https://www.all3dp.com/2/cura-klipper-tutorial).
