@@ -106,7 +106,8 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
 ??? tip "Spare Part Hotend"
 
     - If you need a new hotend because your heater block or the heatbreak needs to be changed, you can get yourself the spare part hotend for the regular *Kobra*. If you look at the picture of it and compare it with the ones I've shown above, you'll notice that the shape of the heatbreak is the same. So up to me it'll fit perfectly.   
-    - Besides that, the hotend for the *Kobra* comes with a cartridge heater and a thermistor which are also compatible with the ones from the **Go** and **Neo** - at least from a technical side of view. So you'd have them as a spare part also. <br> However, the wires of these parts are way too short though, so you wont't be able to connect them directly! So in case you want to install them, you probably could either just cut the plug and the old part and solder the wires together or (if you have the tools for that) crimp the specific socket for the plug to the old wire to just connect them this way. <br> *Remember to execute a PID tuning after changing the thermistor and/or the dartridge heater!*  
+    - Besides that, the hotend for the *Kobra* comes with a cartridge heater and a thermistor which are also compatible with the ones from the **Go** and **Neo** - at least from a technical side of view. So you'd have them as a spare part also. <br> However, the wires of these parts are way too short though, so you wont't be able to connect them directly! So in case you want to install them, you probably could either just cut the plug and the old part and solder the wires together or (if you have the tools for that) crimp the specific socket for the plug to the old wire to just connect them this way. 
+    - *Remember to execute a PID tuning after changing the thermistor and/or the dartridge heater!*  
     - However, scroll down and check out the "disassambling" section below to see how to dis- and reassamble it. *Maybe you don't need new parts, so try to clean up everything first and reassamble it before ordering new parts right away.*
   
 ---  
@@ -322,9 +323,10 @@ The following picture shows the whole metal plate where the feeder construction 
 
 ### Go  
   
-- Reddit member [xpeng121](https://www.reddit.com/user/xpeng121/) posted his modification for the Kobra **Go** to a direct drive extruder: [Kobra Go direct drive mod. Yes it's Neo now...](https://www.reddit.com/r/anycubic/comments/10howol/kobra_go_direct_drive_mod_yes_its_neo_now/)  
+- Reddit member [xpeng121](https://www.reddit.com/user/xpeng121/) posted his modification for the Kobra **Go** to a ***direct drive extruder***: [Kobra Go direct drive mod. Yes it's Neo now...](https://www.reddit.com/r/anycubic/comments/10howol/kobra_go_direct_drive_mod_yes_its_neo_now/)  
+- I've read about people upgraded to a ***full metal hotend*** using a hotend which is compatible with an Ender 3/V2, so maybe do a little research on that.  
   
 ### Neo  
   
-- [3dpTeach](https://www.youtube.com/@3dpTeach) upgraded the hotend of this **Kobra** to a full metal hotend. Due to the fact that the hotend of the Kobra and the Kobra **Neo** are identical, you probably want to have a look at his solution: [Upgraded All Metal Hot-End for Anycubic Kobra](https://www.youtube.com/watch?v=8AZB7HRxZfQ)  
+- [3dpTeach](https://www.youtube.com/@3dpTeach) upgraded the hotend of this **Kobra** to a ***full metal hotend***. Due to the fact that the hotend of the Kobra and the Kobra **Neo** are identical, you probably want to have a look at his solution: [Upgraded All Metal Hot-End for Anycubic Kobra](https://www.youtube.com/watch?v=8AZB7HRxZfQ)  
   
