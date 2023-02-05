@@ -23,12 +23,12 @@ That doesn't occur because of a lack of RAM or CPU power (what people use to ass
 
 So does that mean you shouldn't use a RPi? No, not at all, it works absolutely fine - just be aware of the fact that it might not be the best solution for your money during these times where they became pretty expensive.  
   
-??? tip RPi and Touchscreen
+??? tip "RPi plus Touchscreen"
 
     If you're using a RPi, you can add a touchscreen to it and install an additional software like [OctoDash](https://github.com/UnchartedBull/OctoDash) which gives you a nice clean UI for OctoPrint optimized for small screens. It allows you to display certain status informations and makes it possible to interact with OctoPrint directly using the touchscreen.  
     Especially when you're using the Klipper firmware instead of the stock firmware this a great solution to still be able to monitor and control your printer while you're sitting in front of it as the regular control unit of your printer doesn't work with Klipper anymore.  
   
-??? tip "RPi and a (Web-)Cam"
+??? tip "RPi plus (Web-)Cam"
 
     However, if you're already running a RPi(3) and face those kind of problems as mentioned above which may be caused by a connected webcam to the RPi, I'd suggest the following:  
 
