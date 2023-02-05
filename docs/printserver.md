@@ -1,7 +1,7 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # Printserver
-Sooner or later you'll come to the point that you want to use additional software like [Octoprint](https://octoprint.org/) or so to control your printer.  
+Sooner or later you'll come to the point that you want to use additional software like [OctoPrint](https://octoprint.org/) or so to control your printer.  
 Yes, it's not necessary as you can control it directly using the printers control unit and it's advisable to stay in the same room and monitor the printing process to be able to intervene as soon as something is going wrong - but we all know how it is..  
 So having the possibility to not only send gcode commands directly to the printer but also to use certain plugins or additional hardware to e.g. monitor the printing process isn't the worst idea.  
 In case you're already using some kind of home automation software, you could also send yourself a fancy notification when the printing process is done.  
@@ -11,17 +11,17 @@ Sounds tempting? Ok, so you'd need additional hardware for that to run the desir
 When you start looking around for a system the desired software should run on, the first thing you'll come across surely will be the Raspberry Pi (in the following named as "RPi").  
 The RPi is a little computer which became pretty famous since it entered the market.  
 It's a Broadcom SoC 64bit ARM system with LAN (and WiFi within the newer versions) and a microSD card reader onboard which keeps the desired OS. It offers GPIOs to directly connect hardware like sensors to it and it draws only a little amount of power.  
-Pretty much all of the regular software for 3D printing like the beforementioned [Octoprint](https://octoprint.org/) or [Mainsail](https://docs.mainsail.xyz/) or so are available as specific RPi image which makes it pretty easy and flawless to install even if you're not an expert. Just install the [Raspberry Pi Imager](https://www.raspberrypi.com/software/), create the specific image, copy it to a sufficient microSD card and you're good to go - the installation will take a few minutes only.  
+Pretty much all of the regular software for 3D printing like the beforementioned [OctoPrint](https://octoprint.org/) or [Mainsail](https://docs.mainsail.xyz/) or so are available as specific RPi image which makes it pretty easy and flawless to install even if you're not an expert. Just install the [Raspberry Pi Imager](https://www.raspberrypi.com/software/), create the specific image, copy it to a sufficient microSD card and you're good to go - the installation will take a few minutes only.  
 And as handy as it is - it might not be the best solution, especially these days.  
   
 Prices for the RPi went up to a ridiculous level (afaik at least in Europe and the US) - *if* they're even available at all.  
-Also you don't want to get yourself an old RPi2B for example, it should be a RPi3B at least (referring to Octoprint a RPi Zero 2W also works, it uses the same Broadcom SoC like the RPi3) - a RPi4 would be even better and advisable. Not only because of the pure processor power or the RAM - both is sufficient even with the RPi3 for example, but mostly because of the reason how the USB sockets are connected to the CPU. Afaik, up until the RPi3 the Broadcom BCM2837 only offers one(!) USB port itself. This one port is split up by using a SMSC LAN9514 hub chip to get four USB connectors out of it *and* it also uses the LAN port.  
+Also you don't want to get yourself an old RPi2B for example, it should be a RPi3B at least (referring to OctoPrint a RPi Zero 2W also works, it uses the same Broadcom SoC like the RPi3) - a RPi4 would be even better and advisable. Not only because of the pure processor power or the RAM - both is sufficient even with the RPi3 for example, but mostly because of the reason how the USB sockets are connected to the CPU. Afaik, up until the RPi3 the Broadcom BCM2837 only offers *one* USB port itself. This one port is split up by using a SMSC LAN9514 hub chip to get four USB connectors out of it *and* it also uses the LAN port.  
   
 If you're asking yourself now "What the heck is this guy talking about - I have four USB connectors available there, so what's the problem?" - well, let me try to explain it to you very simple:  
 Imagine you connect your RPi3 to a monitor and plug in a mouse, keyboard, your 3D printer and a webcam to the USB sockets and maybe you also use the LAN connection (because everybody who knows wireless uses wires ;) ). Then you start your printing process sending the gcode file to the printer and start to observe the printing process using the camera. Then all of the informations are running across the same one and only USB port of the SoC (the main CPU). That means that most likely you'll find yourself noticing some kind of stuttering during the printing process and/or the stream of the webcam.  
 That doesn't occur because of a lack of RAM or CPU power (what people use to assume) - that occurs because of the architecture and the bottleneck "one USB port at the SoC".  
 So you can see it like a four lane street going down to one lane - as soon as there's (much) traffic on all of those four lanes, you'll get stuck in the traffic where it goes down to one lane.  
-So does that mean you shouldn't use a RPi? No, not at all - just be aware of the fact that it might not be the best solution for your money. It works fine if you don't use the time lapse function of Octoprint or if you can avoid using an additional webcam at all. 
+So does that mean you shouldn't use a RPi? No, not at all - just be aware of the fact that it might not be the best solution for your money. It works fine if you don't use the time lapse function of OctoPrint or if you can avoid using an additional webcam at all. 
   
 ??? tip "RPi and a (Web-)Cam"
 
@@ -33,12 +33,12 @@ So does that mean you shouldn't use a RPi? No, not at all - just be aware of the
     - If you're already using a RPi3/4 with a RPi cam and don't have a sufficient housing for that yet, have a look at the thing from [A_Leh](https://www.thingiverse.com/A_Leh): [Anycubic Vyper/ Kobra Raspberry 4b (+3b) housing with camera attachment](https://www.thingiverse.com/thing:4994599)
     - Last but not least: make sure you're using a good and fast microSD card and a good USB cable which connects the RPi to the printer.
 
-## Other SoC Boards
-If you can't or don't want to get an RPi but still want to stick to one of those tiny tinker units, you can check out the market what's available and compareable to a RPi, like an "Orange Pi", a "Le Potato" or so on.  
-I'm not going into further details here as I personally don't use them and prefer Thin Clients mentioned further below.  
+## Other SBC
+If you can't or don't want to get an RPi but still want to stick to one of those tiny tinker SBC (single board computer) units, you can check out the market what's available and compareable to a RPi, like an "Orange Pi", a "Le Potato" or so on.  
+However, I'm not going into further details here as I personally don't use them and therefore can't give reliable informations about which boards exactly might be a god substitue to a RPi.  
 
 ## Old Android Devices
-Yes, you've read correct: certain software could also be installed onto your old Android device like your smartphone or your tablet. Namely especially Octoprint has to be mentioned here.  
+Yes, you've read correct: certain software could also be installed onto your old Android device like your smartphone or your tablet. Namely especially OctoPrint has to be mentioned here.  
 I won't go deeper here though due to my lack of experience with this solution - you'll find many informations about this around the web. One of those sources of informations I'd like to mention though is the video of [Thomas Sanladerer: How to run OctoPrint on your phone!](https://www.youtube.com/watch?v=74xdib_-X38) and the GitHub repository of [feelfreelinux: octo4a](https://github.com/feelfreelinux/octo4a).  
   
 ??? tip "USB OTG"
@@ -75,8 +75,11 @@ Anyway - even if they're usually available for a fair price, I want to mention t
 If you have a NAS or a server up and running already, you could also install the printing software onto that. In this case I'd assume that you already know what you're doing and that you don't need any advise though.   
  
 ## How To Install
-So in case you want to use hardware like the abovementioned Thin Clients, you probably don't know how to set it up and install the software. Right now I'd like to encourage you to search the web as there are many step by step guides and also videos out there about how to do it.  
-However, I'd like to mention [Kiauh](https://github.com/th33xitus/kiauh) though as it's an installation script for software like Klipper and so on which makes everything a lot easier.
+So in case you want to use hardware like the abovementioned Thin Clients, you probably don't know how to set it up and install the software. You'll find many guides and tutorials for that out there, so let me just mention the following:  
+
+  - For installing OctoPrint you can start your web research at [All3DP: How to Install OctoPrint on Linux/Ubuntu](https://www.all3dp.com/2/octoprint-linux-ubuntu-tutorial).  
+  - If you want to install on an SBC, you might want to have a look at [All3DP: How to Install OctoPrint/Klipper on an SBC: Tutorial](https://www.all3dp.com/2/install-octoprint-klipper-single-board-computer-sbc).  
+  - Check out [Kiauh](https://github.com/th33xitus/kiauh) as it isn't an installation script that makes everything a lot easier only for Klipper but also for OctoPrint, Mainsail, Fluidd and so on.     
 
 ## Camera
 As mentioned in the RPi section, if you connect a webcam directly to your printserver, I'd suggest to use a webcam which only offers a low resolution like 480p (640x480) as you don't need 4K for monitoring the printing process. Of course a more powerful hardware can also handle a higher resolution though.  
