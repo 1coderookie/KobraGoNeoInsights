@@ -10,7 +10,7 @@ However, there are users who offer their profiles for the Go and Neo, so that be
   
 ## Go 
 
-The following list links to the specific profiles from [Anycubic's firmware page](https://www.anycubic.com/pages/firmware-software)) (btw: I have no idea why they don't offer a profile for the **Go** for PETG):
+The following list links to the specific profiles from [Anycubic's firmware page](https://www.anycubic.com/pages/firmware-software) (btw: I have no idea why they don't offer a profile for the **Go** for PETG):
  
  - [PLA v1.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Go_suggested_parameters_for_PLA_V1.0.curaprofile?v=1669192042) 
  - [ABS v1.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Go_suggested_parameters_for_ABS_V1.0.curaprofile?v=1669192041)
@@ -26,7 +26,7 @@ The following list links to profiles provided by users which I became aware of:
   
 ## Neo 
 
-The following list links to the specific profiles from [Anycubic's firmware page](https://www.anycubic.com/pages/firmware-software)): 
+The following list links to the specific profiles from [Anycubic's firmware page](https://www.anycubic.com/pages/firmware-software): 
  
  - [PLA v1.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Neo_Suggested_parameters_for_PLA_V1.curaprofile?v=1669192662)) 
  - [ABS v1.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Neo_Suggested_parameters_for_ABS_V1.curaprofile?v=1669192662)
