@@ -1,8 +1,8 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # PID Tuning
-Without going into too much details here, PID stands for **P**roportion, **I**ntegral and **D**erivate. These are three variables of an algorith which keeps the temperature stable.  
-By executing a PID tuning, the printer heats up the desired heating element (extruder or bed) to a given temperature for a given amount of circles and measures fluctuation. After the process is done, you'll then get an output of three values P, I and D and write them to the memory.  
+Without going into too much details here, PID stands for Proportion, Integral and Derivate. These are three variables of an algorith which is supposed to keep the temperature stable.  
+By executing a PID tuning, the printer heats up the desired heating element (extruder or bed) to a given temperature for a given amount of circles and measures the fluctuation. After the process is done, you'll then get an output of three values P, I and D and write them to the memory.  
 
 It's advisable to execute a PID tuning for both the extruder and the bed before you want to use your printer for the first time.  
 Also after you changed the hotend, the cartridge heater or a thermistor or installed a new bed, you should execute a PID tuning.  
