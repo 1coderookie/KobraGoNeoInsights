@@ -1,4 +1,4 @@
-# [KobraGoNeoInsights](https://1coderookie.github.io/KobraGoNeoInsights/)
+# [Kobra Go Neo Insights](https://1coderookie.github.io/KobraGoNeoInsights/)
 Informations, tips, tweaks and mods about and for the 3D FDM printer Anycubic Kobra Go and Neo to get off better from the start.
   
 ---
