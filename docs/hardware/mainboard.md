@@ -13,7 +13,7 @@ Afaik it is a 32bit mainboard with a HC32F460 200MHz ARM Cortex-M4 with 192KB SR
 ![Mainboard TriGorilla back](../assets/images/mainboard_back_web.jpg)
   
   
-!!! tip 
+??? tip 
   
     - As both the **Go** and the **Neo** use the same mainboard, you can just get yourself the mainboard for the **Go** if you e.g. own a **Neo** and can't get a mainboard for it (at the time of writing this, Anycubic only offers the mainboard for the **Go** in their shop) or if you find a seller but he charges more for the **Neo** version. You just need to flash the specific firmware for the **Neo** before using the printer. 
   
