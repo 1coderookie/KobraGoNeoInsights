@@ -308,7 +308,7 @@ If you need to take out the hotend from the printhead to change it, disassamble 
 #### Leveling or Dismounting the ABL Sensor
 If you need to dismount the ABL sensor from the printhead to change it or if you need to level it, check out the following steps in the expandable box below.  
 However, the ABL sensor should be leveled anyway, even if you got the printer brandnew from the manufacturer. After adjusting the height of it, determine your Z offset.  
-The following picture shows a sensor that should be leveled (don't mind the tiny rest of filament at the nose which touches the paper instead of the nozzle itself though, I chipped it away before leveling everything).  
+The following picture shows a sensor that should be leveled (don't mind the tiny rest of filament at the tip of the nozzle which touches the paper instead of the nozzle itself though, I chipped it away before leveling everything).  
 ![This sensor needs to be leveld](../assets/images/head_neo_ABL2level_web.jpg)
 
 ??? example "Leveling the ABL Sensor"
