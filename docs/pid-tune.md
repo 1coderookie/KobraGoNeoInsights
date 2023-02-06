@@ -41,6 +41,9 @@ Recv:  T:220.75 /0.00 (241.00) B:53.13 /0.00 (3556.88) @:0 B@:0
 Recv:  bias: 94 d: 94 min: 216.38 max: 224.03 T:218.93 /0.00 (249.13) B:52.98 /0.00 (3559.75) @:94 B@:0
 ```
 As you can see looking at the first value "T:" which is the temperature of the extruder, it fluctuates around the desired 220°C, so the printer heats it up and let it cool down around the 220°C.  
+  
+You can see the process by looking at the temperature graph as shown below.  
+![PID tuning extruder](assets/images/pid-tune-extruder.png)
 
 After finishing the seven cycles, you'll receive a summarized output like the one below:  
 ``` 
