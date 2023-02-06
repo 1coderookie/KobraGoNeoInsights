@@ -319,7 +319,7 @@ The following picture shows a sensor that should be leveled (don't mind the tiny
     
     !!! warning 
     
-        - In the following procedure you're adjusting the height of the sensor by moving the whole bracket with the mounted ABL sensor by turning the little M2 hexagon socket screw at the top. You're only able to move it a few milimeters by doing so though! If you need to adjust a bigger height, you'd need to disassamble the sensor from the bracket itself first to already change it's position in the bracket! <br> See the expandable box below to see how you can disassamble the sensor from the bracket itself.  
+        - In the following procedure you're adjusting the height of the sensor by moving the whole bracket with the mounted ABL sensor by turning the little M2 hexagon socket screw at the top. You're only able to move it a few milimeters by doing so though! If you need to adjust a bigger height, you'd need to disassamble the sensor from the bracket itself first to already change it's position in the bracket! See the expandable box below to see how you can disassamble the sensor from the bracket itself.  
         - Before proceeding the following steps I highly recommend to set the Z offset to zero (0). After proceeding the following steps and the executing the ABL function itself afterwards, then you finally want to set the Z offset if necessary.
         
     - If you're using the height gauge, put it under the printhead and lower the head by turning the z axis rod manually. The nozzle should then touch the lower part of the gauge while the proximity sensor should touch the higher part of it. <br> If the sensor is too high or too low, adjust the height by turning the screw at the top of the bracket that holds the sensor.
