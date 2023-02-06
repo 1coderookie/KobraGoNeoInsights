@@ -11,7 +11,7 @@ The best way to execute a PID tuning is by simply using certain G-code commands 
   
 PID tuning needs to be done in two steps: one for the extruder and one for the bed.
 
-## Extruder PID tuning
+## Extruder
 Because I use to print at 220°C, I want to use this temperature for the PID tuning of the extruder.  
 I want the printer to execute seven cycles - the more the better the result will be.  
 
@@ -69,7 +69,7 @@ Recv: ok
 That's it!  
 Congratulations, you just did the PID tuning for your extruder!
     
-## Bed PID tuning
+## Bed
 Now you want to do the same for your heated bed, but you have to use a different command.  
 Because I use to print at a bed temperature of 60°C, I want to execute the PID tuning at that temperature also. Again it should be done seven times.  
 
