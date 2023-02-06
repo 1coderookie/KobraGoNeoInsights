@@ -341,7 +341,7 @@ For reassambling, just proceed the steps you took to disassamble the part in rev
 
 !!! warning
 
-    - If you dismounted the hotend, make sure to level the ABL sensor again and control your Z offset.
+    - If you dismounted the hotend and/or the ABL sensor, make sure to level the ABL sensor again and control your Z offset!
     - If you replaced the hotend/heater block and/or changed the thermistor and/or the cartridge heater, execute a PID tuning!
   
 ??? example "Reassambling" 
