@@ -317,14 +317,15 @@ The following picture shows a sensor that should be leveled (don't mind the tiny
     - Take the [height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic. <br> If you don't have the height gauge, take a sheet of paper and the open-end wrench that came with your printer. <br> If you also don't have that, take something with a flat surface that is 1.95mm thick as this is the thickness of the wrench that came with the printer (2mm will be fine also I guess).
     - Put on the spring steel plate on the heater bed and place the printhead about the center of the bed.
     
-    ??? warning 
+    !!! warning 
     
-        Attention: In the following procedure you're adjusting the heigfht of the sensor by moving the whole bracket with the mounted ABL sensor by turning the little M2 hexagon socket screw at the top. You're only able to move it a few milimeters though by doing so! If you need to adjust a bigger height, you'd need to disassamble the sensor from the bracket itself first to already change it's position in the bracket! <br> See the expandable box below to see how you can disassamble the sensor from the bracket itself.  
+        - In the following procedure you're adjusting the height of the sensor by moving the whole bracket with the mounted ABL sensor by turning the little M2 hexagon socket screw at the top. You're only able to move it a few milimeters by doing so though! If you need to adjust a bigger height, you'd need to disassamble the sensor from the bracket itself first to already change it's position in the bracket! <br> See the expandable box below to see how you can disassamble the sensor from the bracket itself.  
+        - Before proceeding the following steps I highly recommend to set the Z offset to zero (0). After proceeding the following steps and the executing the ABL function itself afterwards, then you finally want to set the Z offset if necessary.
         
-    - If you're using the height gauge, put it under the printhead and lower the head by turning the z axis rod manually. <br> The nozzle should then touch the lower part of the gauge while the proximity sensor should touch the higher part of it. <br> If the sensor is too high or too low, adjust the height by turning the screw at the top of the bracket that holds the sensor.
-    - If you don't have/use the height gauge, place a sheet of paper under the printhead now. <br> Then lower the head to make the nozzle touch the sheet of paper. You should still be able to move the paper but you should feel a minimum amount of resistance as a sign that the nozzle is touching it. <br> Then place the wrench under the ABL sensor and ajust the height of it by turning the screw on top so that the sensor touches the surface of the wrench.  
-    - After completing the beforementioned steps, take the parts away from the bed, set your z offset to zero and home all axes. Then execute the ABL process and start a testprint.  
-    - If the first layer didn't come out right, adjust the z offset.
+    - If you're using the height gauge, put it under the printhead and lower the head by turning the z axis rod manually. The nozzle should then touch the lower part of the gauge while the proximity sensor should touch the higher part of it. <br> If the sensor is too high or too low, adjust the height by turning the screw at the top of the bracket that holds the sensor.
+    - If you don't have/use the height gauge, place a sheet of paper under the printhead now. Then lower the head to make the nozzle touch the sheet of paper. You should still be able to move the paper but you should feel a minimum amount of resistance as a sign that the nozzle is touching it. <br> Then place the wrench under the ABL sensor and ajust the height of it by turning the screw on top so that the sensor touches the surface of the wrench.  
+    - After completing the beforementioned steps, take the parts away from the bed, set your Z offset to zero (0) if you didn't do it yet and home all axes. Then execute the ABL process and start a testprint.  
+    - If the first layer didn't come out right, adjust the Z offset accordingly.
         
 ??? example "Dismounting the ABL Sensor"
 
