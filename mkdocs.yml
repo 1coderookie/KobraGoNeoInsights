@@ -12,8 +12,8 @@ repo_url: https://github.com/1coderookie/KobraGoNeoInsights
 copyright: Copyright &copy; 2023 Ulf Dieckmann [ 3dneo (at) quantentunnel (dot) de ] | <a href="https://www.flaticon.com/free-icons/3d-printer" title="3d printer icons">3d printer icons created by Freepik - Flaticon</a>
 
 # CSS Stylesheet
-extra_css:
-  - stylesheets/extra.css
+# extra_css:
+#   - stylesheets/extra.css
 
 # Configuration
 theme:
