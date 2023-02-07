@@ -13,6 +13,8 @@ copyright: Copyright &copy; 2023 Ulf Dieckmann [ 3dneo (at) quantentunnel (dot) 
 
 # Configuration
 theme:
+  logo: assets/favicon.png
+  favicon: assets/favicon.png
   name: material
   features:
     # - announce.dismiss
