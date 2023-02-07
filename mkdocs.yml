@@ -20,6 +20,12 @@ theme:
   logo: assets/favicon.png
   favicon: assets/favicon.png
   name: material
+  custom_dir: overrides
+  
+  # 404 page
+  static_templates:
+    - 404.html
+    
   features:
     # - announce.dismiss
     # - content.action.edit
@@ -64,6 +70,7 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
+        
     
 # Plugins
 plugins:
