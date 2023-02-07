@@ -20,7 +20,7 @@ theme:
   logo: assets/favicon.png
   favicon: assets/favicon.png
   name: material
-  custom_dir: overrides
+  # custom_dir: overrides
   
   # 404 page
   static_templates:
