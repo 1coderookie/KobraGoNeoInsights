@@ -1,1 +1,13 @@
+:root {
+.md-typeset .body {
+  font-size: 0.75rem;
+}	
+.md-typeset .footnote,
+.md-typeset .footnote .admonition {
+  font-size: 0.65rem;
+}
+.md-typeset table:not([class]) {
+  font-size: 0.65rem;
+}
 
+}
