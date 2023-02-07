@@ -1,5 +1,5 @@
 # Project information
-site_name: Kobra Go Neo Insights
+site_name: KobraGoNeo Insights
 site_url: https://1coderookie.github.io/KobraGoNeoInsights/
 site_author: Ulf Dieckmann
 site_description: Informations, tips, tweaks and mods about and for the Anycubic 3D FDM printers Kobra Go and Kobra Neo.
@@ -9,7 +9,7 @@ repo_name: 1coderookie/KobraGoNeoInsights
 repo_url: https://github.com/1coderookie/KobraGoNeoInsights
 
 # Copyright
-copyright: Copyright &copy; 2023 Ulf Dieckmann [ 3dneo (at) quantentunnel (dot) de ] | Icon <a href="https://www.flaticon.com/free-icons/3d-printer" title="3d printer icons">3d printer icons created by Freepik - Flaticon</a>
+copyright: Copyright &copy; 2023 Ulf Dieckmann [ 3dneo (at) quantentunnel (dot) de ] | <a href="https://www.flaticon.com/free-icons/3d-printer" title="3d printer icons">3d printer icons created by Freepik - Flaticon</a>
 
 # Configuration
 theme:
