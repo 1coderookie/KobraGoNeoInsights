@@ -120,7 +120,7 @@ nav:
     - Axes: 'hardware/axes.md'
     - Bed: 'hardware/bed.md'
     - Power Supply Unit: 'hardware/powersupply.md'
-    - Filament Runout Sensor: 'hardware/filament_sensor.md'
+    - Filament Sensor: 'hardware/filament_sensor.md'
     - Spare Parts: 'hardware/spare_parts.md'
   - Firmware: 
     - Stock Firmware (Marlin Based): 'firmware/fw_marlin.md'
