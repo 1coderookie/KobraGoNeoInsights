@@ -2,16 +2,13 @@
 
 **Hi and welcome to my little page about the 3D FDM printers "Kobra Go" and "Kobra Neo" from Anycubic.**   
   
-I am a newbie to 3D printing and got a **Kobra Neo** from a friend of mine.  
-As it came with some problems and needed a bit of tinker love, I was trying to find informations and tips specifically about the **Neo**.  
-It turned out that it wasn't an easy mission as it's pretty new to the Kobra family - most of the (still rare) informations were about the Kobra **Go**.  
-So I thought it might be a good idea to document my tinkering and collect informations and tips about the **Go** and **Neo** (as they are basically the same) to facilitate other newbies like me an easier start right away.  
+I am a newbie to 3D printing and got a **Kobra Neo** from a friend of mine. As it came with some problems and needed a bit of tinker love, I was trying to find informations and tips specifically about the **Neo** - it turned out that it wasn't an easy mission as it's pretty new to the Kobra family. So I thought it might be a good idea to document my tinkering and collect informations and tips about the **Go** and **Neo** (as they are basically the same) to facilitate other newbies like me an easier start right away.   
   
 ??? question "Want to contribute?"  
 
-    If you'd like to contribute - please let me know, I'd highly appreciate it. Either if you did any mods and documentated them, have certain tips, stumbled upon useful informations across the web or want to contribute by takting certain pictures - anything is welcome. <br> You don't necessarily need a GitHub account for it - just send me an email to  <br> `3dneo (at) quantentunnel.de` <br> and we'll figure something out. <br> *Thank you!* 
+    If you'd like to contribute - please let me know, I'd highly appreciate it.  Either if you did any mods and documentated them, have certain tips, stumbled upon useful informations across the web or want to contribute by *taking certain pictures from the* ***Go*** - anything is welcome. <br> You don't necessarily need a GitHub account for it - just send me an email to  <br> `3dneo (at) quantentunnel.de` <br> and we'll figure something out. <br> *Thank you!* 
   
-*Happy printing!*   
+*I hope you'll find some useful informations around here - so: happy tinkering and printing!*   
   
 !!! warning "Disclaimer"
 
