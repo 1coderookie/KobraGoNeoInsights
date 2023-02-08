@@ -10,9 +10,9 @@ I am a newbie to 3D printing and got a **Kobra Neo** from a friend of mine. As i
 If you'd like to contribute - please let me know. Especially for the **Go** I don't really have any content yet, so if you'd e.g. send me certain pictures taht would already be very helpful.     
 You don't necessarily need a GitHub account for it if you don't want to register here for free, just send me an email to  <br> `3dneo (at) quantentunnel.de` </br> and we'll figure something out.   
   
-Happy printing!   
+*I hope you'll find some useful informations around here - so: happy tinkering and printing!* 
   
 | Disclaimer |
 |:-----------|
-| All informations, tips, instructions, suggestions, mods and so on which could be found here should be considered as a base for your own further research! <br> It can't be guaranteed that everything is correct and that it wouldn't harm your printer or even yourself! <br> So please be aware of the fact that you use everything at your own risk! <br> I'm not responsible in any way if any damage occurs! <br> Neither am I resposible for any content that I've linked to as a further source of informations! |   
+| All informations, tips, instructions, suggestions, mods and so on which could be found here should be considered as a base for your own further research, especially because I'm NO expert by all means! <br> It can't be guaranteed that everything is correct and that it wouldn't harm your printer or even yourself! <br> So please be aware of the fact that you use everything at your own risk! <br> I'm not responsible in any way if any damage occurs! <br> Neither am I resposible for any content that I've linked to as a further source of informations! |   
 
