@@ -3,7 +3,11 @@
 # Bed
 Both of the printers have a heated and magnetic bed with the dimensions of 220x220mm.  
 It should reach about ≤230°F/110°C maximum and therefore it should be possible to successfully print ABS, PETG and TPU (by using a housing though) besides PLA.  
-Both printers offer a 25-point automatic bed leveling which is called "Anycubic LeviQ" - however, don't get .  
+Both printers offer a 25-point automatic bed leveling which is called "Anycubic LeviQ".  
+
+??? info "Bed Leveling Function"
+
+    Don't get misleaded by the term "automatic bed leveling" - the process does *not* level your bed! It only measures and recognizes the distance towards the sensor at the 25 spots where it measures. You can *not* level the bed itself as it's mounted directly to the construction which leads the bed in the y-axis. However, some people added springs to be able to level the bed, see the "mods" section below.
   
 The bed uses a removable PEI-coated spring steel plate which makes it easy to remove the printed object.  
 The plate that comes with the printer is one-sided coated at the **Go** and double-sided coated at the **Neo**.   
@@ -46,3 +50,10 @@ When you take a look underneath the bed itself, you'll spot a little foam piece 
 
     The display of the control unit does *not* show a meshview after you proceeded the bed level function - if you'd like to see that, you'd usually have to use additional software like the beforementioned [Octoprint](https://octoprint.org/) and an additional plugin for visualization like the [Bed Level Visualizer](https://plugins.octoprint.org/plugins/bedlevelvisualizer/). However, it seems that the stock firmware doesn't support that, but I'm not 100% sure about it yet.. 
 
+## Mods
+
+Because you can't level the bed iteslf due to the construction, some people dismounted the four spacers and replaced them with springs and knobs which allows them to adjust the position of the bed itself. You can look out for a set of springs and knobs suitable for an Ender 3 for example, that should fit. It *might* be a good idea, especially if you find the bed itself completey unleveled which you should be able to see using the mesh visualization by e.g. using the OctoPrint plugin [Bed Level Visualizer](https://plugins.octoprint.org/plugins/bedlevelvisualizer/).     
+  
+??? tip "Leveling the Bed Itself"
+
+    However, *if* you are trying this solution, make sure you get yourself strong springs (so that the bed won't become wobbly) and make sure the knobs won't turn themselves loose by the vibration. When you want to level the bed then by adjusting the tension of the spring to pull down a side or an edge of the bed, be careful to not bend the bed itself by tightening up just one corner too much. Try to push down one side of the bed and adjust two springs at a time. even then be careful though and keep an eye on the mesh visualizer!  
