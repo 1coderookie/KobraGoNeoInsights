@@ -36,4 +36,5 @@ The following list gives an overview of the most important specifications:
 - Optional filament run-out detection sensor  
 
 Because a picture says more than thousand words - let me introduce you to my first 3D printer ever, the Kobra **Neo**:  
-..image to come..
+![Kobra Neo](assets/images/printers_neo_web.jpg)
+
