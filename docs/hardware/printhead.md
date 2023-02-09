@@ -116,7 +116,7 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
 ---  
   
 ## Heater Block
-Both printers use an E3D V5 compatible heater block.  
+Both printers use an E3D **V5** compatible heater block.  
 Both the thermistor and the cartidge heater have to be plugged into the specific holes and should be fixed with at tiny grub screw (HEX 1.5).  
   
 ![Heater block V5](../assets/images/head_block-screws-close_web.jpg)  
@@ -130,7 +130,7 @@ Both the thermistor and the cartidge heater have to be plugged into the specific
   
 ## Silicone Sock
 The silicone sock isolates the heater block. Therefore it should stay in place and shouldn't come off, as it may cause the "thermal runaway" error.  
-The sock which comes with the printhead isn't the best one to use (in my opinion) as it seems to come off pretty easily. There are compatible socks at the aftermarket which I personally use and which I can highly recommend. They have a bigger lip which slips over the heater block and covers a bigger area of the top than the one which comes with the printer. Therefore they stay in place much better when they heat up and become more flexible.  
+The sock which comes with the printhead isn't the best one to use (in my opinion) as it seems to come off pretty easily. There are compatible V5 silicone socks at the aftermarket which I personally use and which I can highly recommend. They have a bigger lip which slips over the heater block and covers a bigger area of the top than the one which comes with the printer. Therefore they stay in place much better when they heat up and become more flexible.  
 The following pictures show the compatible one from the aftermarket on the left side and the stock sock on the right side.     
   
 ![Silicone socks top view](../assets/images/silisocks_top_web.jpg)   
@@ -138,6 +138,10 @@ The following pictures show the compatible one from the aftermarket on the left 
 Additionaly, they also cover and therefore isolate the base of the nozzle - something that the stock ones don't do at all.  
   
 ![Silicone socks bottom view](../assets/images/silisocks_bottom_web.jpg)  
+  
+??? tip
+
+    If you read the above and still don't know what you should look or search for, search for "silicone sock V5" for example as these socks are for a V5 heater block. You can get them pretty much everywhere, so if you use to shop at Amazon or ebay for example, you'll find many offers which are pretty much the same at the end. <br> Just make sure that you're **not** getting the ones for a V6 heater block! You can also diffenrentiate them by already looking at the shape: the wrong ones for the V6 are more flat on one side, the *correct ones* for the V5 *are cubic*, so they are shaped like a dice* as you can see at the pictures above.  
   
 ---  
   
