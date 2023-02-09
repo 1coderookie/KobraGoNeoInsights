@@ -6,7 +6,7 @@ The Anycubic [Kobra **Go**](https://www.anycubic.com/collections/3d-printers/pro
 - The Kobra **Go** uses a bowden drive extruder ([user manual Kobra **Go**](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Anycubic_Kobra_Go_User_Manual_221102_V0.0.4.pdf?v=1667812989)), the home position is the front right corner of the bed.  
 - The Kobra **Neo** uses a direct drive extruder ([user manual Kobra **Neo**](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Anycubic_Kobra_Neo_20230109_V0.1.0_English.pdf?v=1673859391)), the home position is the front left corner of the bed.  
   
-??? info "Be Aware of Different Settings"
+??? tip "Be Aware of Different Settings"
 
     Because of the different types of extruder systems and a different home position you have to be aware of certain settings like in the slicer and also in alternative firmware like Klipper.  
     In the *slicer* (e.g. Cura) you need to keep an eye on the rectration distance, which is set to a higher value at the **Go** (~6mm) than at the **Neo** (~1mm). This is especially important when you're asking in a forum and get tips from other users - they might not be the right ones when it comes down to retraction distance!  
