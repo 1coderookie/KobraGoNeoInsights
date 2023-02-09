@@ -7,7 +7,7 @@ Both printers offer a 25-point automatic bed leveling which is called "Anycubic 
 
 ??? info "Bed Leveling Function"
 
-    Don't get misleaded by the term "automatic bed leveling" - the process does *not* level your bed! It only measures and recognizes the distance towards the sensor at the 25 spots where it measures. You can *not* level the bed itself as it's mounted directly to the construction which leads the bed in the y-axis. However, some people added springs to be able to level the bed, see the "mods" section below.
+    Don't get misleaded by the term "automatic bed leveling" - the process does *not* level your bed! It only measures and recognizes the distance towards the sensor at the 25 spots where it measures. You can *not* level the bed itself as it's mounted directly to the construction which leads the bed in the y-axis. However, some people added springs to be able to level the bed, see the section ["Mods"](#mods) below.
   
 The bed uses a removable PEI-coated spring steel plate which makes it easy to remove the printed object.  
 The plate that comes with the printer is one-sided coated at the **Go** and double-sided coated at the **Neo**.   
@@ -33,7 +33,7 @@ When you take a look underneath the bed itself, you'll spot a little foam piece 
   
 ??? tip "Execute PID Tuning for the Bed"
 
-    To make sure the heating algorithm can work as expected and keeps the fluctuation of the temperature as low as possible, execute a PID tuning. You can find informations about how to do that in the section "PID Tuning".  
+    To make sure the heating algorithm can work as expected and keeps the fluctuation of the temperature as low as possible, execute a PID tuning. You can find informations about how to do that in the chapter ["PID Tuning"](pid-tune.md).  
   
 ??? tip "Clean the Plate of the Bed"
 
@@ -44,7 +44,7 @@ When you take a look underneath the bed itself, you'll spot a little foam piece 
   
 ??? tip "Level the ABL Sensor"
 
-    It's advisable to level the ABL sensor initially, you can find informations about it in the hardware section within the chapter ["Printhead"](printhead.md).  
+    It's advisable to level the ABL sensor initially, you can find informations about it in the hardware section within the chapter ["Printhead"](printhead.md#leveling-or-dismounting-the-abl-sensor).  
     
 ??? tip "Bed Level Visualization"
 
