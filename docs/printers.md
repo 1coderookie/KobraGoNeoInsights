@@ -6,8 +6,8 @@ The Anycubic [Kobra **Go**](https://www.anycubic.com/collections/3d-printers/pro
 - The Kobra **Go** uses a bowden drive extruder ([user manual Kobra **Go**](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Anycubic_Kobra_Go_User_Manual_221102_V0.0.4.pdf?v=1667812989)).  
 - The Kobra **Neo** uses a direct drive extruder ([user manual Kobra **Neo**](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Anycubic_Kobra_Neo_20230109_V0.1.0_English.pdf?v=1673859391)).  
   
-The price of the **Go** usually is a bit lower than the price of the **Neo**.  
-The **Go** comes completely unmounted so you have to mount everything together by yourself. The Kobra **Neo** comes pre-mounted, you only have to mount a few parts like the frame for the x-axis (where the printhead is mounted to) onto the base frame.  
+The **Go** comes completely unmounted so you have to mount everything together by yourself. Therefore the price of the **Go** usually is a bit lower than the price of the **Neo**.  
+The Kobra **Neo** comes pre-mounted, you only have to mount a few parts like the 'upstanding' frame onto the base frame.  
   
 See [Anycubic's support page](https://www.anycubic.com/pages/firmware-software) or [Anycubic's support page of the blog](https://www.anycubic.com/blogs/news/all-you-need-to-know-about-kobra-series) of the Kobra series to find manuals, firmware, video tutorials and more of both the **Go** and the **Neo**.    
   
@@ -35,6 +35,6 @@ The following list gives an overview of the most important specifications:
 - Nozzle temperature: ≤ 500 °F / 260 °C  
 - Optional filament run-out detection sensor  
 
-Because a picture says more than thousand words - let me introduce you to my first 3D printer ever, the Kobra **Neo**:  
+Because a picture says more than thousand words - let me introduce you to my first 3D printer ever, the Kobra **Neo** in it's home position:  
 ![Kobra Neo](assets/images/printers_neo_web.jpg)
 
