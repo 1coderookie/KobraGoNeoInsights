@@ -33,7 +33,7 @@ When you take a look underneath the bed itself, you'll spot a little foam piece 
   
 ??? tip "Execute PID Tuning for the Bed"
 
-    To make sure the heating algorithm can work as expected and keeps the fluctuation of the temperature as low as possible, execute a PID tuning. You can find informations about how to do that in the chapter ["PID Tuning"](pid-tune.md).  
+    To make sure the heating algorithm can work as expected and keeps the fluctuation of the temperature as low as possible, execute a PID tuning. You can find informations about how to do that in the chapter ["PID Tuning"](../pid-tune.md).  
   
 ??? tip "Clean the Plate of the Bed"
 
