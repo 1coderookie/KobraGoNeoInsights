@@ -24,8 +24,8 @@ theme:
   
   # 404 page
   static_templates:
-    #- 404.html
-    - 404.md
+    - 404.html
+    #- 404.md
     
   features:
     # - announce.dismiss
