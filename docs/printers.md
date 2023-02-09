@@ -6,6 +6,12 @@ The Anycubic [Kobra **Go**](https://www.anycubic.com/collections/3d-printers/pro
 - The Kobra **Go** uses a bowden drive extruder ([user manual Kobra **Go**](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Anycubic_Kobra_Go_User_Manual_221102_V0.0.4.pdf?v=1667812989)).  
 - The Kobra **Neo** uses a direct drive extruder ([user manual Kobra **Neo**](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Anycubic_Kobra_Neo_20230109_V0.1.0_English.pdf?v=1673859391)).  
   
+??? info "Be Aware of Different Settings"
+
+    Because of the different types of extruder systems and a different home position you have to be aware of certain settings like in the slicer and also in alternative firmware like Klipper.  
+    In the *slicer* (e.g. Cura) you need to keep an eye on the rectration distance, which is set to a higher value at the **Go** (~6mm) than at the **Neo** (~1mm). This is especially important when you're asking in a forum and get tips from other users - they might not be the right ones when it comes down to retraction distance!  
+    If you want to use other *firmware* than the stock one like Klipper and you're looking out for about how other users set the configuration, be aware of the fact that the **Go** has its home position with the printhead above the right front corner and the **Neo** at the left front corner of the bed (which is driven completely to the back at that time).    
+  
 The **Go** comes completely unmounted so you have to mount everything together by yourself. Therefore the price of the **Go** usually is a bit lower than the price of the **Neo**.  
 The Kobra **Neo** comes pre-mounted, you only have to mount a few parts like the 'upstanding' frame onto the base frame.  
   
