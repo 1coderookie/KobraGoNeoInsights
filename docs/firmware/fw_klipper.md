@@ -8,7 +8,8 @@ Reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) postet a descripti
 
 !!! warning  
   
-    Keep in mind that even though the stock mainboard of the **Go** and the **Neo** is the same, you have to adjust certain settings of the Klipper configuration depending on your specific model!
+    - Keep in mind that even though the stock mainboard of the **Go** and the **Neo** is the same, you have to adjust certain settings of the Klipper configuration depending on your specific model!
+    - Be aware of the fact that the control unit/display of the printer doesn't work after flashing Klipper (due to the fact that the SPI the unit is connected to isn't supported by Klipper yet). So you'd need additional software like OctoPrint or Mainsail or so to be able to also control the printer manually. See the chapter ["Printserver"](../printserver.md) if you don't have e.g. OctoPrint installed yet.    
 
 ??? tip "What Is Klipper?"
 
