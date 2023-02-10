@@ -3,11 +3,14 @@
 # Printserver
 Sooner or later you'll come to the point that you want to use additional software like [OctoPrint](https://octoprint.org/) or so to control your printer.  
 Yes, it's not necessary as you can control it directly using the printers control unit and it's advisable to stay in the same room and monitor the printing process to be able to intervene as soon as something is going wrong - but we all know how it is..  
-So having the possibility to not only send gcode commands directly to the printer but also to use certain plugins or additional hardware to e.g. monitor the printing process isn't the worst idea.  
-In case you're already using some kind of home automation software, you could also send yourself a fancy notification when the printing process is done.  
-Sounds tempting? Ok, so you'd need additional hardware for that to run the desired software on. So let's have a look what might be an interesting and reasonable priced solution for that.  
   
-## Raspberry Pi
+So having the possibility to not only send gcode commands directly to the printer for e.g. executing a PID tuning but also to use certain plugins or additional hardware to e.g. monitor the printing process isn't the worst idea.  
+In case you're already using some kind of home automation software, you could also send yourself a fancy notification when the printing process is done.  
+Sounds tempting? Ok, so you'd need additional hardware for that to run the desired software on. So let's have a look what might be an interesting and reasonable priced solution for that first.  
+  
+## Hardware  
+  
+### Raspberry Pi
 When you start looking around for a system the desired software should run on, the first thing you'll come across surely will be the Raspberry Pi (in the following named as "RPi").  
 The RPi is a little computer which became pretty famous since it entered the market.  
 It's a Broadcom SoC 64bit ARM system with LAN (and WiFi within the newer versions) and a microSD card reader onboard which keeps the desired OS. It offers GPIOs to directly connect hardware like sensors to it and it draws only a little amount of power.  
@@ -38,29 +41,32 @@ So does that mean you shouldn't use a RPi? No, not at all, it works absolutely f
     - If you're already using a RPi3/4 with a RPi cam and don't have a sufficient housing for that yet, have a look at the thing from [A_Leh](https://www.thingiverse.com/A_Leh): [Anycubic Vyper/ Kobra Raspberry 4b (+3b) housing with camera attachment](https://www.thingiverse.com/thing:4994599)
     - Last but not least: make sure you're using a good and fast microSD card and a good USB cable which connects the RPi to the printer.
 
-## Other SBC
+### Other SBC
 If you can't or don't want to get an RPi but still want to stick to one of those tiny tinker SBC (single board computer) units, you can check out the market what's available and compareable to a RPi, like an "Orange Pi", a "Le Potato" or so on.  
 However, I'm not going into further details here as I personally don't use them and therefore can't give reliable informations about which boards exactly might be a god substitue to a RPi.  
 
-## Old Android Devices
+### Old Android Devices
 Yes, you've read correct: certain software could also be installed onto your old Android device like your smartphone or your tablet. Namely especially OctoPrint has to be mentioned here.  
 I won't go deeper here though due to my lack of experience with this solution - you'll find many informations about this around the web. One of those sources of informations I'd like to mention though is the video of [Thomas Sanladerer: How to run OctoPrint on your phone!](https://www.youtube.com/watch?v=74xdib_-X38) and the GitHub repository of [feelfreelinux: octo4a](https://github.com/feelfreelinux/octo4a).  
   
 Besides the possibilty to use your old android device as a printserver, you can also use it as an additional screen for software like OctoPrint. That means that you don't install e.g. OctoPrint itself on the android device - you install an app which connects with the running instance of OctoPrint and gives you a nice UI on your smartphone. By doing so you could mount your old phone at the printer and interact with OctoPrint using your touchscreen or just have certain informations displayed at the screen.  
-Especially when you flashed the Klipper firmware onto your mainboard this is a great solution to still being able to execute direct commands or having status informations visible while sitting in front of your printer as the regular control unit doesn't work with the Klipper firmware anymore.    
+
+!!! info 
+
+    Especially when you flashed the Klipper firmware onto your mainboard, using an old Android device as an additional screen mounted to the printer is a great solution to still being able to execute direct commands or having status informations visible while sitting in front of your printer as the regular control unit doesn't work with the Klipper firmware anymore.    
   
 ??? tip "USB OTG"
 
     - I'd like to mention one of the probably biggest issues you might encouter: charging the device while having it connected to the printer at the same time. <br> While it shouldn't be a problem if you're having a device with a separate power plug or wireless charging, it might become a problem if you'd have to use some kind of solution which splits up the line for USB charging and OTG - not all devices work with that. <br> Additionally, I personally would be concerned about probably harming the printers mainboard due to a faulty cable or whatever. 
     - What also should be mentioned here as a **warning** is the fact that devices which are connected 24/7 to the charger might be a huge hazard as the battery could catch fire or even blow up. So keep that in mind if you're tempted to go this way.
   
-## Old "Regular" Hardware 
+### Old "Regular" Hardware 
 If you have old hardware laying around like a laptop or so, you can also use that. Don't worry - even if it's pretty old in most of the cases it still would be sufficient. Install a Linux OS onto it and then install the desired software.   
   
 However, as much as I appreciate and love to re- and upcycle old hardware in general, one thing has to be mentioned: the amount of power they're drawing due to their old and mostly energy inefficient chipsets.  
 It might not really come into account if your prints last only a few hours and after finishing them you turn everything off. But as soon as you think about running those machines pretty much 24/7 you should keep in mind that they might draw a lot of power which sums up at the end. Right now here in Germany we're paying about 0,40€/kWh, so it really matters just looking at the financial side of that - not to mention the ecological aspect.    
 
-## Thin Clients
+### Thin Clients
 Now - get ready for the real deal: Thin Clients!  
 Ok, might be a bit exxagerated, but I really *love* those fellas.  
   
@@ -79,9 +85,15 @@ Anyway - even if they're usually available for a fair price, I want to mention t
     -  I personally like the HP Thin Client T6x0 series as you can upgrade them really well. The higer the number, the newer the model and the more powerful, energy efficient and compatible with modern parts it is (e.g. T610 uses a 2.5" SSD & DDR3 SO-DIMM RAM while the T630 uses a m2.SATA SSD & DDR4 SO-DIMM RAM). The 'downside' of them (if you even want to call it that way as they're still pretty small) is the bigger housing.   
 
 
-## NAS / Server
+### NAS / Server
 If you have a NAS or a server up and running already, you could also install the printing software onto that. In this case I'd assume that you already know what you're doing and that you don't need any advise though.   
  
+
+## Software
+
+When it comes down to the software that should run on the printserver, you can choose between different solutions. It also depends a bit which kind of firmware you're running. My personal opinion on this: if you're running the stock one which is Marlin based, just go with OctoPrint. If you're using Klipper firmware, you can stick to OctoPrint or use Marlin (or Fluidd, as they're basically made for Klipper). Yes, you could also look out for different software, but because those programs are commonly used you'll find a lot of informations about them and also many plugins for enhancing the capability even more. I'd recommend to do a little websearch on that, you might want to start with this article though: [Ocbico: Mainsail vs. Fluidd vs. Octoprint - A Comparison](https://www.obico.io/blog/mainsail-vs-fluidd-vs-octoprint/)
+  
+
 ## How To Install
 So in case you want to use hardware like the abovementioned Thin Clients, you probably don't know how to set it up and install the software. You'll find many guides and tutorials for that out there, so let me just mention the following:  
 
