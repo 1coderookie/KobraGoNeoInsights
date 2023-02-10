@@ -1,8 +1,10 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # G-Code Documentation
-
-Here you can find links to comprehensive and 'official' sources about the G-codes. Of course there are countless sites to find which cover this topic, but the following ones are definitely the one I'd look up first.    
+If you're new to this whole 3D printing world, then you might want to start reading the article from [All3DP: 3D Printer G-code Commands: Main List & Quick Tutorial](https://all3dp.com/2/3d-printer-g-code-commands-list-tutorial/) to get an overview about what G-code is.  
+  
+For a complete reference of G-codes, you might want to have a look at the following 'official' sources.  
+Of course there are countless sites to find which cover this topic, but the following ones are definitely the one I'd look up first.    
    
 ## RepRap
 The first one to mention is the [RepRap Wiki](https://reprap.org/wiki/G-code), where you can find a general explanation about what G-code is, how it works and all the [g-commands](https://reprap.org/wiki/G-code#G-commands).  
