@@ -329,7 +329,7 @@ The following picture shows a sensor that should/has to be leveled (don't mind t
 
 ??? example "Leveling the ABL Sensor"
 
-    - To adjust the height of the ABL sensor and level it, check out the video from Anycubic ["Leveling Opration for Anycubic Kobra Neo"](https://www.youtube.com/watch?v=25x84AaiUpQ) how to do so. However, I'll also list the steps in the following. 
+    - To adjust the height of the ABL sensor and level it, check out the video from Anycubic ["Leveling Operation for Anycubic Kobra Neo"](https://www.youtube.com/watch?v=25x84AaiUpQ) how to do so. However, I'll also list the steps in the following. 
     - Take the [height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic. <br> If you don't have the height gauge, take a sheet of paper and the open-end wrench that came with your printer. <br> If you also don't have that, take something with a flat surface that is 1.95mm thick as this is the thickness of the wrench that came with the printer (2mm will be fine also I guess).
     - Put on the spring steel plate on the heater bed and place the printhead about the center of the bed.
     
