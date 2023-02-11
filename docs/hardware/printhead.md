@@ -9,9 +9,13 @@ The printheads of the **Go** and the **Neo** aren't identical because of the dif
 If you look at both printheads from the front and compare their size, you'll notice that the one of the **Go** is a bit smaller and more suqare than the wider and more rectangular shaped one of the **Neo**.  
   
 ## Go
-??? question "Got a **Go**?"  
+The following picture shows a new printhead for the **Go** as it comes as a spare part.  
+  
+![New Neo print head spare part](../assets/images/head_go_spare_web.jpg)
 
-    Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures of the printhead like the ones I show here of the **Neo** for example, so people can see the difference between those two models like the shape and the position of the ABL sensor. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!    
+The following picture shows a close up view of the printhead of the **Go** from the front view. At the bottom you can see the blue silicone sock of the heater block with the nozzle in the center and the orange tip of the ABL sensor at the left side.  
+  
+![Neo printhead front view](../assets/images/head_go_front_web.jpg)    
   
 ## Neo  
 The following picture shows a new printhead for the **Neo** as it comes as a spare part.  
@@ -33,9 +37,13 @@ The ABL sensor at the **Go** is mounted pretty much straight behind the heater b
     Most of the time users have to adjust the postion of the ABL sensor even when the printer is brandnew and came straight from the factory. Scroll further down below to the "Disassamble" section where I described the procedure to level it.   
   
 ### Go
-??? question "Got a **Go**?"  
-
-    Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures of the printhead from the bottom view like the one I show here of the **Neo**, so people can see where the ABL sensor is located. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!  
+The following picture shows the location of the ABL sensor at the printhead of the **Go**, looking at it from a bottom view angle - the ABL sensor is the part at the left side with the round orange tip.   
+  
+![Orange tip of the ABL sensor at the right side](../assets/images/head_go_bottom_web.jpg)
+    
+The ABL sensor itself is mounted in a plastic bracket which is the mounted to the metal backplate. You can adjust the height of the position by loosening the screw at the left side of the clamp which then allows you to move the sensor.  
+  
+![ABL sensor](../assets/images/head_go_ABL-bracket-side_web.jpg)
   
 ### Neo
 The following picture shows the location of the ABL sensor at the printhead of the **Neo**, looking at it from a bottom view angle - the ABL sensor is the part at the right side with the round orange tip.   
@@ -81,9 +89,10 @@ At the top in front of the little hole where the filament is inserted you find a
   
 ### Go
   
-??? question "Got a **Go**?"  
+The hotend of the **Go** is shown in the next pictures. In the second picture you can see the heatbreak screwn into the block but dismounted from the aluminum cooling element.  
 
-    Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures of the hotend like the ones I show here of the **Neo** for example, so people can see the difference between those two models. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!  
+![Hotend](../assets/images/head_go_hotend_web.jpg)
+![Hotend disassembled](../assets/images/head_go_hotend-dis_web.jpg)
   
 ### Neo  
   
@@ -268,11 +277,57 @@ Disassambling the printhead isn't really complicated. Just make sure you're care
   
 ### Go
   
-??? question "Got a **Go**?"  
+#### Take Off the Plastic Cover 
+Whatever you want to do, like if you want to change the hotend, the heater block, the heatbreak, a fan or even want to disassamble the whole feeder system, you have to remove the plastic cover of the printhead first.  
+It's secured by two hexagon socket screws at the top of the metal back plate and a plastic clip at each side at the lower bottom. Be gentle and careful to not break one of the clips - the best way to get them out of their fittings is to gently push together the whole plastic cover at the bottom sides.   
+  
+After the plastic cover is gone, you can see the fan and the fanduct inside the plastic cover, the proximity sensor at the left side, the aluminum cooling element of the hotend/heatbreak in the middle and the heater block down at the bottom.
+  
+![Head no cover](../assets/images/head_go_no-cover_web.jpg)   
+  
+#### Disassambling the Hotend/Heater Block/Heatbreak
+If you need to take out the hotend from the printhead to change it, disassamble it or to take out the heatbreak to clean it, check out the following steps in the expandable box below.  
+  
+??? example "Disassambling the Hotend, Heater Block and/or Heatbreak"
 
-    Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need pictures and a little step-by-step description of disassambling the printhead like you can see underneath for the **Neo**, so people can see the difference between those two models. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you!  
+    - When you look at the hotend, you'll see two bigger hexagon socket screws at the top left and right corner of the cooling element and two tiny hexagon grub screws at the lower end. <br> ![Screws](../assets/images/head_go_hotend-screws_web.jpg)
+    - Before you start to disassemble it though, take out the thermistor and the cartridge heater of the heater block first by loosening the two tiny grub screws. <br> ![Screws heater block](../assets/images/head_block-screws-close_web.jpg) <br> Be careful to not rip any wires!  
+    - The two bigger screws at the top are holding the cooling element and therefore the whole hotend in place. At the top of the cooling element you see a nut where the long PTFE tube runs through that leads the filament. Unscrew that nut first, then unscrew the two bigger hexagon socket screws at the top of the cooling element and you can take the hotend away by pulling out the heatbreak of the cooling element. <br> ![Hotend dismounted](../assets/images/head_go_extruder-dismounted_web.jpg)
+    - If you want to change the hotend, the heatbreak or the heater block now, loosen the two tiny hex grub screws just a little bit until you can pull out the heatbreak from the cooling element. <br> ![Extruder disassembled](../assets/images/head_go_hotend-dis_web.jpg) <br> For any further steps of disassembling (taking out the nozzle or the heatbreak from the heater block), **heat up the metal parts** by using a heat gun for example and then unscrew the heatbreak and/or from the heater block. Make sure to neither harm any parts while using the wrench nor yourself by accidentally touching the hot material.  
   
+    !!! warning  
+
+        - When moving or pulling out the hotend, *be careful to not break any wires or rip them off from the sensor and heater catridge* - so better unscrew the tiny hex screws a bit and take out the thermistor and the heating cartridge first as mentioned above. 
+        - Check the wires and contacts if they aren't harmed and if everything is ok. 
+        - ***Never try to unscrew the heatbreak from the heater block while the parts are cold!*** <br> Melted filament or some kind of screw lock glue might make it hard or even impossible to unscrew it and you risk to shear off the heatbreak!  
+
+    !!! danger  
+
+        *If you can see bare wire shining through the isolation of the wires of either the thermistor or the cartridge heater I'd strongly recommend to replace the component to not risk a shortcut and therefore a broken mainboard (seriously - you don't want to get a blown off mainboard like it happened to me just because of a part which maybe costs a buck or two).*    
   
+#### Reassambling
+For reassambling, just proceed the steps you took to disassamble the part in reverse. However, you might also want to have a look at the general steps I mentioned in the expandable box below.  
+
+!!! warning
+
+    - If you dismounted the hotend and/or the ABL sensor, make sure to level the ABL sensor again and control your Z offset!
+    - If you replaced the hotend/heater block and/or changed the thermistor and/or the cartridge heater, execute a PID tuning!
+  
+??? example "Reassambling" 
+
+    For reassambling, just put everything back together by reverting the beforementioned steps. Make sure you're using the right screws and don't forget any of them. Don't overtighten the screws - as my father (R.I.P.) used to say: "After tight comes loose!" (roughly translated). 
+  
+    1. Warm up the parts using e.g. a heat gun and screw the heatbreak into the heater block until it sits tight.  
+    2. Put back the cleaned or renewed PTFE tube into the cooling element, let the tube stick out about 5cm, don tighten up the nut yet.  
+    3. Then push the heatbreak back into the cooling element - make sure you push it deep enough until the little 'ring' of the heatbreak touches the cooling element. The PTFE tube should touch the bottom of the heatbreak - because you let it stick out more than necessary, it should therefore come up a bit out of the cooling element at the top.
+    4. Watch out to put the hotend in place the right way: the 'bigger' part of the heater block should be located at the front. Everything should be aligned. 
+    5. Then tighten up the tiny grub screws to secure the heatbreak, so that the hotend doesn't turn or wiggle anymore (but don't overtighten the screws though). Tighten up the nut of the PTFE tube then.
+    6. Mount the whole hotend/cooling element back on the metal plate by using the two bigger hexagon socket screws.  
+    7. Put the thermistor and the heater cartridge back in place and secure them by *carefully* tighten the tiny hex screw - *don't overtighten them as you could harm the thermistor and the heater cartridge!*  
+    8. Reassamble the fan and the plastic cover.   
+    
+---
+
 ### Neo  
  
 #### Take Off the Plastic Cover 
@@ -305,14 +360,15 @@ If you need to take out the hotend from the printhead to change it, disassamble 
   
 ??? example "Disassambling the Hotend, Heater Block and/or Heatbreak"
 
+    - Before you start to disassemble the hotend, take out the thermistor and the cartridge heater of the heater block first by loosening the two tiny grub screws. <br> ![Screws heater block](../assets/images/head_block-screws-close_web.jpg) <br> Be careful to not rip any wires!  
     - First you have to disassamble the fan on the right side by taking out the two hexagon socket screws at the top and bottom of the fan frame. <br> ![Disassamble the fan on the right side](../assets/images/head_neo_rightside_marked_web.jpg)  
     - Then you'll see two hexagon socket screws at the side which are holding the hotend - loosen them until you can gently pull out the hotend. <br> ![Loosen the screws to take out the hotend](../assets/images/head_neo_vent-dis-extruder_web.jpg) <br> You could've seen the heads of the screws already earlier before disassambling the fan, but you wouldn't have been able to reach them as the following picture shows. <br> ![Closeup of the screws which you want to reach](../assets/images/head_hotend-screws_closeup_web.jpg)  
-    - If you want to change the hotend, the heatbreak or the heater block now, take out the PTFE tube from the heatbreak first. Then **heat up the metal parts** by using a heat gun for example and unscrew the hotend from the heater block. Make sure to neither harm any parts while using the wrench nor yourself by accidentally touching the hot material.  
+    - If you want to change the the heatbreak, the nozzle or the heater block now, take out the PTFE tube from the heatbreak first. Then **heat up the metal parts** by using a heat gun for example and unscrew the heatbreak and/or the nozzle from the heater block. Make sure to neither harm any parts while using the wrench nor yourself by accidentally touching the hot material.  
   
     !!! warning  
 
         - When pulling out the hotend, *make sure the PTFE tube of the hotend comes out, too!* <br> Inspect it if it isn't clogged - if so, either clean it up carefully by e.g. using a little 2mm drill *manually by hand* or just get a new one as a replacement. Make sure the filament runs through the tube nice and easy and without any friction.   
-        - When pulling out the hotend, *be careful to not break any wires or rip them off from the sensor and heater catridge* - so better unscrew the tiny hex screws a bit and take out the thermistor and the heating cartridge. 
+        - When pulling out the hotend, *be careful to not break any wires or rip them off from the sensor and heater catridge* - so better unscrew the tiny hex screws a bit and take out the thermistor and the heating cartridge first as mentioned above. 
         - Check the wires and contacts if they aren't harmed and if everything is ok. 
         - ***Never try to unscrew the heatbreak from the heater block while the parts are cold!*** <br> Melted filament or some kind of screw lock glue might make it hard or even impossible to unscrew it and you risk to shear off the heatbreak!  
 
