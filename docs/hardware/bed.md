@@ -9,6 +9,11 @@ Both printers offer a 25-point automatic bed leveling which is called "Anycubic 
 
     - Don't get misleaded by the term "automatic bed leveling" - the process does *not* level your bed! It only measures and recognizes the distance towards the sensor at the 25 spots where it measures. You can *not* level the bed itself as it's mounted directly to the construction which leads the bed in the y-axis. However, some people added springs to be able to level the bed, see the section ["Mods"](#mods) below.   
     - When it comes to executing the ABL function of the printer, it's advisable to initially check if the ABL sensor is leveled correctly to get the best results out of the ABL process. See the expandable box "Leveling the ABL Sensor" in the section ["Leveling or Dismounting the ABL Sensor"](printhead.md#leveling-or-dismounting-the-abl-sensor) in the chapter "Printhead".  
+    
+!!! tip "Bed Leveling"    
+    
+    For a great overview of the most important things to know about bed leveling in general, check out this [great 3D printing poster](https://i.imgur.com/hIcGr8U.png) from [Billie Ruben](https://www.billieruben.info/)!  
+    
   
 The bed uses a removable PEI-coated spring steel plate which makes it easy to remove the printed object.  
 The plate that comes with the printer is one-sided coated at the **Go** and double-sided coated at the **Neo**.   
