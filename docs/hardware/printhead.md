@@ -91,7 +91,8 @@ At the top in front of the little hole where the filament is inserted you find a
   
 The hotend of the **Go** is shown in the next pictures. In the second picture you can see the heatbreak screwn into the block but dismounted from the aluminum cooling element.  
 
-![Hotend](../assets/images/head_go_hotend_web.jpg)
+![Hotend](../assets/images/head_go_hotend_web.jpg)  
+  
 ![Hotend disassembled](../assets/images/head_go_hotend-dis_web.jpg)
   
 ### Neo  
