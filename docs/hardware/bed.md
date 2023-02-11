@@ -12,7 +12,7 @@ Both printers offer a 25-point automatic bed leveling which is called "Anycubic 
     
 !!! tip "Bed Leveling"    
     
-    For a great overview of the most important things to know about bed leveling in general, check out this [great 3D printing poster](https://i.imgur.com/hIcGr8U.png) from [Billie Ruben](https://www.billieruben.info/)!  
+    For a great overview of the most important things to know about bed leveling in general, check out this [great 3D printing poster](https://i.imgur.com/hIcGr8U.png) made by [Billie Ruben](https://www.billieruben.info/)!  
     
   
 The bed uses a removable PEI-coated spring steel plate which makes it easy to remove the printed object.  
@@ -56,9 +56,13 @@ When you take a look underneath the bed itself, you'll spot a little foam piece 
 
     The display of the control unit does *not* show a meshview after you proceeded the bed level function - if you'd like to see that, you'd usually have to use additional software like the beforementioned [Octoprint](https://octoprint.org/) and an additional plugin for visualization like the [Bed Level Visualizer](https://plugins.octoprint.org/plugins/bedlevelvisualizer/). However, it seems that the stock firmware doesn't support that, but I'm not 100% sure about it yet.. 
 
+??? tip "Spacers of the Bedmount"
+
+    If you find that the bed is not as flat or level as it should be, it might be a good idea to disassemble it and check the four black spacers that connect the metal frame and the bed itself. Measure them with a slide gauge to see if they are really the same height! If they're not, either put some sandpaper on a flat surface and rub them down to make them all the same length, or look for other spacers you might be using.  
+
 ## Mods
 
-Because you can't level the bed iteslf due to the construction, some people dismounted the four spacers and replaced them with springs and knobs which allows them to adjust the position of the bed itself. You can look out for a set of springs and knobs suitable for an Ender 3 for example, that should fit. It *might* be a good idea, especially if you find the bed itself completey unleveled which you should be able to see using the mesh visualization by e.g. using the OctoPrint plugin [Bed Level Visualizer](https://plugins.octoprint.org/plugins/bedlevelvisualizer/).     
+Because you can't level the bed itself due to the construction, some people dismounted the four spacers and replaced them with springs and knobs which allows them to adjust the position of the bed itself. You can look out for a set of springs and knobs suitable for an Ender 3 for example, that should fit. It *might* be a good idea, especially if you find the bed itself completey unleveled which you should be able to see using the mesh visualization by e.g. using the OctoPrint plugin [Bed Level Visualizer](https://plugins.octoprint.org/plugins/bedlevelvisualizer/).     
   
 ??? tip "Leveling the Bed Itself"
 
