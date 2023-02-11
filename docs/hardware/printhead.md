@@ -59,12 +59,16 @@ The ABL sensor itself is mounted in a plastic bracket which is the mounted to th
 ## Extruder / Feeder
 The **Go** uses a bowden drive extruder/feeder, while the **Neo** is using a direct drive extruder/feeder.  
 If you're about to buy one of either models and you're not sure which fits you better, always go for the direct drive and get yourself the **Neo**.
-
+  
+---
+  
 ### Go
   
 ??? question "Got a **Go**?"  
 
     Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need a picture of the bowden drive feeder, so people could see the difference between the **Go** and the **Neo**. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you! 
+  
+---  
   
 ### Neo
 The following picture shows the extruder/feeder of the **Neo** with the mounted plastic cover of the printhead.  
@@ -94,6 +98,8 @@ The hotend of the **Go** is shown in the next pictures. In the second picture yo
 ![Hotend](../assets/images/head_go_hotend_web.jpg)  
   
 ![Hotend disassembled](../assets/images/head_go_hotend-dis_web.jpg)
+  
+---  
   
 ### Neo  
   
@@ -276,6 +282,8 @@ Disassambling the printhead isn't really complicated. Just make sure you're care
     - *Be patient and careful.* Generally speaking, if you unscrew something and it doesn't come off easy, don't start pulling too hard as you might have overseen a screw or clip, so better watch twice. 
     - *Don't harm or rip off any wires* as it may cause severe damage to your mainboard or might be complicated to fix later on.  
   
+---  
+  
 ### Go
   
 #### Take Off the Plastic Cover 
@@ -293,8 +301,8 @@ If you need to take out the hotend from the printhead to change it, disassamble 
 
     - When you look at the hotend, you'll see two bigger hexagon socket screws at the top left and right corner of the cooling element and two tiny hexagon grub screws at the lower end. <br> ![Screws](../assets/images/head_go_hotend-screws_web.jpg)
     - Before you start to disassemble it though, take out the thermistor and the cartridge heater of the heater block first by loosening the two tiny grub screws. <br> ![Screws heater block](../assets/images/head_block-screws-close_web.jpg) <br> Be careful to not rip any wires!  
-    - The two bigger screws at the top are holding the cooling element and therefore the whole hotend in place. At the top of the cooling element you see a nut where the long PTFE tube runs through that leads the filament. Unscrew that nut first, then unscrew the two bigger hexagon socket screws at the top of the cooling element and you can take the hotend away by pulling out the heatbreak of the cooling element. <br> ![Hotend dismounted](../assets/images/head_go_extruder-dismounted_web.jpg)
-    - If you want to change the hotend, the heatbreak or the heater block now, loosen the two tiny hex grub screws just a little bit until you can pull out the heatbreak from the cooling element. <br> ![Extruder disassembled](../assets/images/head_go_hotend-dis_web.jpg) <br> For any further steps of disassembling (taking out the nozzle or the heatbreak from the heater block), **heat up the metal parts** by using a heat gun for example and then unscrew the heatbreak and/or from the heater block. Make sure to neither harm any parts while using the wrench nor yourself by accidentally touching the hot material.  
+    - The two bigger screws at the top are holding the cooling element and therefore the whole hotend in place.  then unscrew the two bigger hexagon socket screws at the top of the cooling element and you can take the hotend away from the metal plate. <br> ![Hotend dismounted](../assets/images/head_go_extruder-dismounted_web.jpg)
+    - If you want to change the hotend, the heatbreak or the heater block now, unscrew the nut at the top of the cooling element where the long PTFE tube runs through that leads the filament. Then loosen the two tiny hex grub screws just a little bit until you can pull out the heatbreak from the cooling element. <br> ![Extruder disassembled](../assets/images/head_go_hotend-dis_web.jpg) <br> For any further steps of disassembling (taking out the nozzle or the heatbreak from the heater block), **heat up the metal parts** by using a heat gun for example and then unscrew the heatbreak and/or from the heater block. Make sure to neither harm any parts while using the wrench nor yourself by accidentally touching the hot material.  
   
     !!! warning  
 
@@ -305,6 +313,23 @@ If you need to take out the hotend from the printhead to change it, disassamble 
     !!! danger  
 
         *If you can see bare wire shining through the isolation of the wires of either the thermistor or the cartridge heater I'd strongly recommend to replace the component to not risk a shortcut and therefore a broken mainboard (seriously - you don't want to get a blown off mainboard like it happened to me just because of a part which maybe costs a buck or two).*    
+  
+#### Leveling or Dismounting the ABL Sensor
+If you need to dismount the ABL sensor from the printhead to change it or if you need to level it, check out the following steps in the expandable box below.  
+However, the ABL sensor should be leveled anyway, even if you got the printer brandnew from the manufacturer. After adjusting the height of it, determine your Z offset.  
+
+The following picture shows a sensor that should/has to be leveled (don't mind the tiny rest of filament at the tip of the nozzle which touches the paper instead of the nozzle itself though, I chipped it away before leveling everything).      
+![This sensor needs to be leveld](../assets/images/head_neo_ABL2level_web.jpg)
+
+??? example "Leveling the ABL Sensor"
+
+    - For leveling the ABL sensor, you need to loosen the screw at the left side of the clamp that holds the sensor in place. <br> ![Screw clamp](../assets/images/head_go_ABL-bracket-side_web.jpg)
+    - Further steps about how to level the sensor in relation to the nozzle will come soon.  
+        
+??? example "Dismounting the ABL Sensor"
+
+    - If you want to change the ABL sensor, you probably have to dismount the bracket/clamp that holds the sensor from the metal backplate. I'm not really sure about it as I didn't do it, but if the bracket is shaped like a U then that should be the way to go. Here you can see the two screws that hold it in place, looking at the metal plate from the back. <br> ![Screws at the back](../assets/images/head_go_abl-mount-back_web.jpg)  
+    - After reassambling the sensor, make sure to level it (see expandable box above).  
   
 #### Reassambling
 For reassambling, just proceed the steps you took to disassamble the part in reverse. However, you might also want to have a look at the general steps I mentioned in the expandable box below.  
