@@ -13,6 +13,10 @@ I am a newbie to 3D printing and got a **Kobra Neo** from a friend of mine. As i
   
 *Happy tinkering and printing!*   
   
+!!! info "Thanks to the Contributers"
+
+    - Thanks to **Anthony** for disassembling the printhead of the **Go** and taking all the pictures!  
+  
 !!! warning "Disclaimer"
 
     - I'm not responsible in any way if any damage occurs! 
