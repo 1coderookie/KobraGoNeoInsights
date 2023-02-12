@@ -136,6 +136,7 @@ nav:
     - Power Supply Unit: 'hardware/powersupply.md'
     - Filament Sensor: 'hardware/filament_sensor.md'
     - Spare Parts: 'hardware/spare_parts.md'
+    - Other: 'hardware/other.md'
   - Firmware: 
     - Stock Firmware (Marlin Based): 'firmware/fw_marlin.md'
     - Klipper (Mod): 'firmware/fw_klipper.md'
