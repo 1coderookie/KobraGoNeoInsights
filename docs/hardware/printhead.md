@@ -469,12 +469,16 @@ For reassembling, just proceed the steps you took to disassemble the part in rev
   
 ## Mods
 
+In the following I'll list some mods I found which belong to the part "printhead" somehow. I won't put them in a special order, so you'd have to got through the list I guess. 
+
 ### Go  
   
 - Reddit member [xpeng121](https://www.reddit.com/user/xpeng121/) posted his modification for the Kobra **Go** to a ***direct drive extruder***: [Kobra Go direct drive mod. Yes it's Neo now...](https://www.reddit.com/r/anycubic/comments/10howol/kobra_go_direct_drive_mod_yes_its_neo_now/)  
 - I've read about people upgraded to a ***full metal hotend*** using a hotend which is compatible with an Ender 3/V2, so maybe do a little research on that.  
+- [MW-Mechanical](https://www.printables.com/de/social/455820-mw-mechanical) created an [Upgraded fan duct (exposed print head setup) for Anycubic Kobra Go](https://www.printables.com/de/model/338244-upgraded-fan-duct-exposed-print-head-setup-for-any) which is supposed to achieve better part cooling.
   
 ### Neo  
   
-- [3dpTeach](https://www.youtube.com/@3dpTeach) upgraded the hotend of this **Kobra** to a ***full metal hotend***. Due to the fact that the hotend of the Kobra and the Kobra **Neo** are identical, you probably want to have a look at his solution: [Upgraded All Metal Hot-End for Anycubic Kobra](https://www.youtube.com/watch?v=8AZB7HRxZfQ)  
+- [3dpTeach](https://www.youtube.com/@3dpTeach) upgraded the hotend of this **Kobra** to a ***full metal hotend***. Due to the fact that the hotend of the Kobra and the Kobra **Neo** are identical, you probably want to have a look at his solution: [Upgraded All Metal Hot-End for Anycubic Kobra](https://www.youtube.com/watch?v=8AZB7HRxZfQ).  
+- [Martin](https://www.printables.com/de/social/443043-martin) created a replacement for the [Anycubic Kobra Neo fan duct ](https://www.printables.com/de/model/378928-anycubic-kobra-neo-fan-duct) which is supposed to achieve better part cooling.  
   
