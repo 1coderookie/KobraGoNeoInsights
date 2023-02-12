@@ -5,7 +5,9 @@ The official stock firmware for both models is based on the [Marlin firmware](ht
   
 You can either  
 
-- download the necessary `firmware.bin` file at [Anycubic's firmware & software page](https://www.anycubic.com/pages/firmware-software) for the specific printer or  
+- download the necessary `firmware.bin` file at [Anycubic's firmware & software page](https://www.anycubic.com/pages/firmware-software) for the 
+    - [Kobra Go v1.3.4](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Go_v1.3.4_firmware.rar?v=1666159978)
+    - [Kobra Neo v1.3.3](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Neo_v1.3.3_firmware.rar?v=1675912197)  
 - download the source code from their specific GitHub repositories to compile your own:  
     - [Kobra Go GitHub repository](https://github.com/ANYCUBIC-3D/Kobra_Go)  
     - [Kobra Neo GitHub repository](https://github.com/ANYCUBIC-3D/Kobra_Neo)  
