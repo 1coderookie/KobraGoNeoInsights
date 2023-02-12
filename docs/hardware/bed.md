@@ -54,7 +54,7 @@ When you take a look underneath the bed itself, you'll spot a little foam piece 
     
 ??? tip "Bed Level Visualization"
 
-    The display of the control unit does *not* show a meshview after you proceeded the bed level function - if you'd like to see that, you'd usually have to use additional software like the beforementioned [Octoprint](https://octoprint.org/) and an additional plugin for visualization like the [Bed Level Visualizer](https://plugins.octoprint.org/plugins/bedlevelvisualizer/). However, it seems that the stock firmware doesn't support that, but I'm not 100% sure about it yet.. 
+    The display of the control unit does *not* show a meshview after you proceeded the bed level function - if you'd like to see that, you'd usually have to use additional software like the beforementioned [Octoprint](https://octoprint.org/) and an additional plugin for visualization like the [Bed Level Visualizer](https://plugins.octoprint.org/plugins/bedlevelvisualizer/). However, it seems that the stock firmware doesn't support that, so even after executing the ABL using the beforementioned Bed Level Visualizer you won't get a *mesh*view but you will get the measured values as the picture below shows (sorry for the colours, they're hard or not even possible to see at all due to the dark UI I'm using). <br> ![Mesh data](../assets/images/mesh-data.jpg)  
 
 ??? tip "Spacers of the Bedmount"
 
