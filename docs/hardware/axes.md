@@ -77,6 +77,8 @@ So if you notice that e.g. the motor of the y axis doesn't stop when the bed rea
 
 ## Mods
 
+The following mods should fit both the **Go** and the **Neo** due to the mostly identical design of the printer itself. So I'm just listing them without any distinction.  
+  
 - Some users stabilize the rod of the Z-axis by adding a top holder/aligner with a ball bearing in the center which sits on top of the rod and mount the holder to the gantry to eliminate wobbling of the rod. For doing so, you could print a construction and add a ball bearing, there are different STL files available for this solution.  
   However, as much as it seems useful at first sight, I personally assume that it might be better if the top of the rod can move freely to avoid putting extra pressure on the frame which could result in shear forces if the guidance doesn't allow at least minimal movement.   
     
