@@ -103,7 +103,7 @@ The hotend of the **Go** is shown in the next pictures. In the second picture yo
   
 ### Neo  
   
-The hotend of the **Neo** is shown in the following picture. Note the shape of the heatbreak as it's plugged into the belonging hole at the printhead and secured by two screws. The outer diameter of the heatbreak is 6mm(?), the inner diameter is 4mm and the total length is probably something around 2.4-2.5cm (sorry, I forgot to measure it as I had it disassembled, will do it next time though). 
+The hotend of the **Neo** is shown in the following picture. Note the shape of the heatbreak as it's plugged into the belonging hole at the printhead and secured by two screws. The outer diameter of the heatbreak is 7mm at the thick part (top and bottom), at the smaller part between it's 6mm. The inner diameter is about 4.2mm. The length measured from the top until the 'stop ring' before the thread is 15.5mm and the length in total is about 24.6mm. 
   
 ![Hotend](../assets/images/head_neo_block-hotend-disass_web.jpg)  
   
