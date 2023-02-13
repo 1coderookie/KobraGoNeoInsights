@@ -6,7 +6,7 @@ The printheads of the **Go** and the **Neo** aren't identical because of the dif
 - the **Go** uses a bowden drive feeder/extruder while 
 - the **Neo** is using a direct drive feeder/extruder.   
   
-If you look at both printheads from the front and compare their size, you'll notice that the one of the **Go** is a bit smaller and more suqare than the wider and more rectangular shaped one of the **Neo**.  
+If you look at both printheads from the front and compare their size, you'll notice that the one of the **Go** is a bit smaller and more square than the wider and more rectangular shaped one of the **Neo**.  
   
 ## Go
 The following picture shows a new printhead for the **Go** as it comes as a spare part.  
@@ -93,7 +93,7 @@ At the top in front of the little hole where the filament is inserted you find a
   
 ### Go
   
-The hotend of the **Go** is shown in the next pictures. In the second picture you can see the heatbreak screwn into the block but dismounted from the aluminum cooling element.  
+The hotend of the **Go** is shown in the next pictures. In the second picture you can see the heatbreak screwed into the block but dismounted from the aluminum cooling element.  
 
 ![Hotend](../assets/images/head_go_hotend_web.jpg)  
   
@@ -169,11 +169,11 @@ The following picture shows the thermistor from the aftermarket I used and the s
 ![Thermistor and plug](../assets/images/head_plug-therm_web.jpg)  
   
 The *cartidge heater* which is used is a 24V 40W element. The diameter is 6mm, the length of the original part is about 18mm, the length of the wire is about 150cm.  
-However, a cartridge heater from the aftermarket with a length of about 21mm is just fine, it just sticks out at both sides of the heater block at the end which shouldn't be a problem. It seems that it's is a typical dimension for V5/V6 heater blocks. The following picture shows the original part on the left side and a compatbile part from the aftermarket I used at the right side.  
+However, a cartridge heater from the aftermarket with a length of about 21mm is just fine, it just sticks out at both sides of the heater block at the end which shouldn't be a problem. It seems that it's is a typical dimension for V5/V6 heater blocks. The following picture shows the original part on the left side and a compatible part from the aftermarket I used at the right side.  
   
 ![Cartridge heaters](../assets/images/head_cart-heater_web.jpg)  
   
-The following picture shows the specific plug which is necessary to fit into the socket at the maiboard.  
+The following picture shows the specific plug which is necessary to fit into the socket at the mainboard.  
 
 ![Specific plug of the cartridge heater](../assets/images/head_cart-plug_web.jpg)
   
@@ -306,7 +306,7 @@ If you need to take out the hotend from the printhead to change it, disassemble 
   
     !!! warning  
 
-        - When moving or pulling out the hotend, *be careful to not break any wires or rip them off from the sensor and heater catridge* - so better unscrew the tiny hex screws a bit and take out the thermistor and the heating cartridge first as mentioned above. 
+        - When moving or pulling out the hotend, *be careful to not break any wires or rip them off from the sensor and heater cartridge* - so better unscrew the tiny hex screws a bit and take out the thermistor and the heating cartridge first as mentioned above. 
         - Check the wires and contacts if they aren't harmed and if everything is ok. 
         - ***Never try to unscrew the heatbreak from the heater block while the parts are cold!*** <br> Melted filament or some kind of screw lock glue might make it hard or even impossible to unscrew it and you risk to shear off the heatbreak!  
 
