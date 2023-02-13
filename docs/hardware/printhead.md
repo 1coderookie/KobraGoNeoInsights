@@ -131,7 +131,7 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
   
 ??? example "Large Clump of Melted Filament Built Up"
 
-    Sometimes it may happen that melted filament builds up on top of the heater block to a large clump. This actually happened to me the other day (sorry, I forgot to take a picture). The reason for that that the heatbreak somehow became loose in the heater block and through the little gap it squeezed out. It also may be caused by bad and cheap parts where the thread isn't just as good as it should be. So if you encouter this problem, here is what I recommend to do (based on my own experience with this).  
+    Sometimes it may happen that melted filament builds up on top of the heater block to a large clump. This actually happened to me the other day (sorry, I forgot to take a picture). The reason for that was that the heatbreak in the heater block became loose somehow and through the little gap it squeezed out. It also may be caused by bad and cheap parts where the thread isn't just as good as it should be. So if you encouter this problem, here is what I recommend to do (based on my experience with this dilemma).  
     
     - Take off the plastic cover first to get better access to the whole area.  
     - Heat up everthing - I did this by using the preherat function for PLA at the control unit.
