@@ -129,6 +129,29 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
     - *Remember to execute a PID tuning after changing the thermistor and/or the cartridge heater!*  
     - However, scroll down and check out the "Disassembling" section below to see how to dis- and reassemble it. *Maybe you don't need new parts, so try to clean up everything first and reassemble it before ordering new parts right away.*
   
+??? example "Large Clump of Melted Filament Built Up"
+
+    Sometimes it may happen that melted filament builds up on top of the heater block to a large clump. This actually happened to me the other day (sorry, I forgot to take a picture). The reason for that that the heatbreak somehow became loose in the heater block and through the little gap it squeezed out. It also may be caused by bad and cheap parts where the thread isn't just as good as it should be. So if you encouter this problem, here is what I recommend to do (based on my own experience with this).  
+    
+    - Take off the plastic cover first to get better access to the whole area.  
+    - Heat up everthing - I did this by using the preherat function for PLA at the control unit.
+    - Once the filament starts to melt and gets soft, grab a wooden stick and take away as much as possible carefully. *Don't* use a screwdriver or something like that to do so as you might harm the wires and/or cause a shortcut at e.g. the contacts of the cartridge heater. <br> *Be really careful when taking away the clumps to not harm or rip off any of the wires!* You can also use a cloth to wipe off the melted filament from the heater block and so on, just make sure you don't burn yourself!  
+    - For the next steps you need to be a bit quick in proceeding them, so if this is the first time you're diassembling the hotend, take a look at the sections here at the page and read them first so you'll know where the screws are located and which steps you need to take. Then proceed with the following steps.
+    - So, once everything is as clean as possible, turn off the printer and loosen the grub screws inside the heater block to take out the thermistor and the cartridge heater. Give it a quick wipe with the cloth if they're covered by a lot of filament, too (but don't waste too much time here as the filament is becoming hard again now pretty quick!). 
+    - Then take out the nozzle from the heater block and unscrew the heater block from the hotend. Pay attention if you can feel that the heatbreak was loose in the heater block to check if that was the reason for the filament being able to squeeze out and build up. 
+    - Dismount the fan on the right side and loosen the two hexagon socket screws which are holding the heatbreak in place. If it doesn't fall out by itself, pull it out. Make sure the little PTFE tube also comes out, take it out of the heatbreak.  
+    - If you were using a cheap nozzle and have a spare one, just throw away the old one. If it's a good or your only nozzle, try to get it back to work again (I'm sure you'll be able to do so). 
+    - Now put all the metal parts (heatbreak, heater block and probably the nozzle) in a glass with acetone. close the lid and let it sit there for about 24hrs. The acetone won't dissolve PLA filament or so automagically like it does with ABS, but it'll make it soft and easier to clean. 
+    - In the meantime you can take care of the thermistor and the cartridge heater. Scratch off the hardened filament from the metal parts by using a cutter for example, but be *really* careful to not slip off and harm any wires! I personally didn't take care of the little clump at the part where ther wires are coming out of the metal part because I didn't wanted to risk harming the wires, so I just let it sit there.  
+    - When you're about to clean the meatal parts which soaked in the acetone, I'd recommend wearing disposable gloves as acteone isn't really healthy for your skin. So put on those gloves and start cleaning the parts by carefully scratching off the rest of the filament. Use a cutter, a brass brush etc., but always be careful to not really harm anything. Pay special attention to all the threads and the holes of the heater block where the thermistor and the cartridge heater will take place. If you don't get everything cleaned up at the first time, just put it back in the acetone, wait again and then repeat the cleaning steps. 
+    - Once everything looks nice and clean, rinse off the acetone with clear water and let it dry. This is especially important for the inner side of the nozzle - you don't want to have acetone in there.  
+    - Then reassemble everything and put it back in place. Read the notes in the specific sections here about how to reassemble the specific parts and what to pay attention to.  
+    - At the end when everything is reassembled and you heated up the hotend to finally mount the nozzle and load the filament, extrude filament to see if everything is ok. 
+    - If so (I hope it will be!), don't start printing right away - execute a PID tuning for the hotend first. 
+    - Also check if you need to re-level the ABL sensor in relation to the nozzle due to a probably different position of the hotend now. 
+    -Execute an ABL and take care of your Z-offset as it also might needs to be adjusted because of the same reason: most likely the position of your nozzle will be different due to a different position of the whole hotend.  
+    
+  
 ---  
   
 ## Heater Block
