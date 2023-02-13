@@ -10,7 +10,17 @@ In this chapter I'll talk a bit about the topic of calibration. I probably won't
 ??? tip "Calibration Models for Cura"
 
     If you're using Cura, you might want to check out the plugin ["Calibration Shapes"](https://marketplace.ultimaker.com/app/cura/plugins/5axes/CalibrationShapes) which gives you access to different STL models you can use for calibration. Before slicing and printing, make sure you're reading the specific notes about the models at the [wiki page of the creator](https://github.com/5axes/Calibration-Shapes/wiki).  
+    
 
+## Calibration Guides
+There are many sites and tutorials to find which are about calibration, so you might want to search for that at your preferred site first. However, I found the following guides useful.  
+
+- The [Print Quality Troubleshooting Guide](https://www.simplify3d.com/resources/print-quality-troubleshooting/) is a good start to compare your faulty prints and see what may caused the problem.    
+- The [poster about what incorrect **bed leveling** can cause](https://i.imgur.com/hIcGr8U.png) made my [Billie Ruben](https://www.billieruben.info/)
+- [Elli's Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/) made by @[AndrewEllis93](https://github.com/AndrewEllis93)
+- [All3DP's article "Extruder Calibration: How to Calibrate E-Steps"](https://all3dp.com/2/extruder-calibration-6-easy-steps-2/)
+
+  
 ## PID Tuning
 Without going into too much details here, PID stands for Proportion, Integral and Derivate. These are three variables of an algorith which is supposed to keep the temperature stable.  
 By executing a PID tuning, the printer heats up the desired heating element (extruder or bed) to a given temperature for a given amount of circles and measures the fluctuation. After the process is done, you'll then get an output of three values P, I and D and write them to the memory.  
