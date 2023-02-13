@@ -15,6 +15,7 @@ I am a newbie to 3D printing and got a **Kobra Neo** from a friend of mine. As i
   
 !!! info "Thanks to the Contributers"
 
+    - Thanks to reddit member **[I_Sells_Drugs](https://www.reddit.com/user/I_Sells_Drugs/)** for taking pictures of his sheared off heatbreak!
     - Thanks to **Anthony** for disassembling the printhead of the **Go** and taking all the pictures!  
   
 !!! warning "Disclaimer"
