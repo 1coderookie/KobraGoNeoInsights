@@ -141,7 +141,7 @@ nav:
     - Stock Firmware (Marlin Based): 'firmware/fw_marlin.md'
     - Klipper (Mod): 'firmware/fw_klipper.md'
   - Profiles & Settings: 'pro_set.md'
-  - PID Tuning: 'pid-tune.md'
+  - Calibration: 'calibration.md'
   - Printserver: 'printserver.md'
   - Tools: 'tools.md'
   - G-Code Documentation: 'gcode_doc.md'
