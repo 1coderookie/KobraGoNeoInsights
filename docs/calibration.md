@@ -1,6 +1,17 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
-# PID Tuning
+# Calibration
+In this chapter I'll talk a bit about the topic of calibration. I probably won't give examples or step-by-step instructions for every calibration that's necessary or advisable to do as there are many sites out there to find which are already covering this topic, so maybe just do a little research by your onw. However, to make this journey a bit easier for you to begin with, I'll list some pages that I personally found useful (links are about to come soon).  
+
+??? tip "Calibration Using OctoPrint"
+
+    If you're using OctoPrint, you might want to check out the plugin ["Marlin Calibration Tools"](https://plugins.octoprint.org/plugins/CalibrationTools/) which allows you to easily execute different calibration procedures.  
+    
+??? tip "Calibration Models for Cura"
+
+    If you're using Cura, you might want to check out the plugin ["Calibration Shapes"](https://marketplace.ultimaker.com/app/cura/plugins/5axes/CalibrationShapes) which gives you access to different STL models you can use for calibration. Before slicing and printing, make sure you're reading the specific notes about the models at the [wiki page of the creator](https://github.com/5axes/Calibration-Shapes/wiki).  
+
+## PID Tuning
 Without going into too much details here, PID stands for Proportion, Integral and Derivate. These are three variables of an algorith which is supposed to keep the temperature stable.  
 By executing a PID tuning, the printer heats up the desired heating element (extruder or bed) to a given temperature for a given amount of circles and measures the fluctuation. After the process is done, you'll then get an output of three values P, I and D and write them to the memory.  
 
@@ -11,7 +22,7 @@ The best way to execute a PID tuning is by simply using certain G-code commands 
   
 PID tuning needs to be done in two steps: one for the extruder and one for the bed.
 
-## Extruder
+### Extruder
 Because I use to print at 220°C, I want to use this temperature for the PID tuning of the extruder.  
 I want the printer to execute seven cycles - the more the better the result will be.  
 
@@ -69,7 +80,7 @@ Recv: ok
 That's it!  
 Congratulations, you just did the PID tuning for your extruder!
     
-## Bed
+### Bed
 Now you want to do the same for your heated bed, but you have to use a different command.  
 Because I use to print at a bed temperature of 60°C, I want to execute the PID tuning at that temperature also. Again it should be done seven times.  
 
