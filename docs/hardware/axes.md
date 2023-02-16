@@ -86,7 +86,7 @@ The Z-axis of both the **Go** and the **Neo** is driven by a single lead screw, 
   
 ![Z-axis views](../assets/images/z-axis_neo_web.jpg)
    
-??? tip "Rod Maintenance"
+??? tip "Lead Screw Maintenance"
 
     - Make sure the coupler is mounted correctly and the screws are tightened. The coupler should be centered, so that the axis of the motor and the threaded rod are perfectly aligned vertically. Check from time to time that the coupler didn't come loose somehow. 
     - Make sure the rod is clean, there shouldn't stick stuff on it as it could/would block the movement. If you need to clean it, take a toothbrush or something like that to be able to reach the bottom of the thread also. It would be even better to completely disassemble the rod from the coupler and the anti-backlash nut to give it a decent cleaning. If you do so, you can clean it from the old grese by e.g. using WD-40 and a toothbrush. Make sure to not leave any particles from the anti-backlash nut or any dirt stuck on it.  
