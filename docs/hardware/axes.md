@@ -33,7 +33,7 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
     - After that, add some sythetic grease to reduce friction. Make sure you're not using grease which has graphite or MoS2 added. 
     - If you see debris building up pretty quick, it's most likely because the wheels are too close to the aluminum and therefore it's too much friction which leads to a quick wearout. So make sure the wheels are touching the aluminum but they shouldn't be too tight.
     
-    !!! warning "Don't Use WD-40 For Lubrication"
+    !!! warning "Don't Use WD-40 for Lubrication"
     
         Do yourself a favour and *don't* use WD-40 for *lubrication* as it's *not* a lubricant and will harm your POM wheels by time!  
         People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
@@ -73,7 +73,7 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
     - After that, add some sythetic grease to reduce friction. Make sure you're not using grease which has graphite or MoS2 added. 
     - If you see debris building up pretty quick, it's most likely because the wheels are too close to the aluminum and therefore it's too much friction which leads to a quick wearout. So make sure the wheels are touching the aluminum but they shouldn't be too tight.
     
-    !!! warning "Don't Use WD-40 For Lubrication"
+    !!! warning "Don't Use WD-40 for Lubrication"
     
         Do yourself a favour and *don't* use WD-40 for *lubrication* as it's *not* a lubricant and will harm your POM wheels by time!  
         People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
