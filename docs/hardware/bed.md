@@ -9,12 +9,7 @@ Both printers offer a 25-point automatic bed leveling which is called "Anycubic 
 
     - Don't get misleaded by the term "automatic bed leveling" - the process does *not* level your bed! It only measures and recognizes the distance towards the sensor at the 25 spots where it measures. You can *not* level the bed itself as it's mounted directly to the construction which leads the bed in the y-axis. However, some people added springs to be able to level the bed, see the section ["Mods"](#mods) below.   
     - When it comes to executing the ABL function of the printer, it's advisable to initially check if the ABL sensor is leveled correctly to get the best results out of the ABL process. See the expandable box "Leveling the ABL Sensor" in the section ["Leveling or Dismounting the ABL Sensor"](printhead.md#leveling-or-dismounting-the-abl-sensor) in the chapter "Printhead".  
-    
-!!! tip "Bed Leveling"    
-    
-    For a great overview of the most important things to know about bed leveling in general, check out this [great 3D printing poster](https://i.imgur.com/hIcGr8U.png) made by [Billie Ruben](https://www.billieruben.info/)!  
-    
-  
+      
 The bed uses a removable PEI-coated spring steel plate which makes it easy to remove the printed object.  
 The plate that comes with the printer is one-sided coated at the **Go** and double-sided coated at the **Neo**.   
 The following picture shows the surface of the coated plate from a close-up view.  
@@ -59,7 +54,13 @@ When you take a look underneath the bed itself, you'll spot a little foam piece 
 ??? tip "Spacers of the Bedmount"
 
     If you find that the bed is not as flat or level as it should be, it might be a good idea to disassemble it and check the four black spacers that connect the metal frame and the bed itself. Measure them with a slide gauge to see if they are really the same height! If they're not, either put some sandpaper on a flat surface and rub them down to make them all the same length, or look for other spacers you might be using.  
+  
+??? tip "Screws of the Bedplate and the Gantry of the Bed"
 
+    - Check if the screws are all tightened up. Be careful though to not overtighten the screws of the Bedplate as you would compress the little spacers underneath it and therefore the plate may become warped. On the other hand, if you see that your bed is warped somehow or that the bed is much more off in certain areas or at one side, you can check if the screws in that area might be too tightened up.  
+    - Check if the bedplate itself is somehow wobbling. Not only sideways/horizontally, but also up and down/vertically. If so, not only check the v-slot wheels and mybe adjust their fitting using the eccentric nuts, also check if the screws of the gantry of the bed where the wheels arre mounted to are tightened up. As an example: at my **Neo** the bed was wobbling up and down in one certain area - after checking the screws and tighten them up everything was sturdy as it should be.     
+    
+    
 ## Mods
 
 Because you can't level the bed itself due to the construction, some people dismounted the four spacers and replaced them with springs and knobs which allows them to adjust the position of the bed itself. You can look out for a set of springs and knobs suitable for an Ender 3 for example, that should fit. It *might* be a good idea, especially if you find the bed itself completey unleveled which you should be able to see using the mesh visualization by e.g. using the OctoPrint plugin [Bed Level Visualizer](https://plugins.octoprint.org/plugins/bedlevelvisualizer/).     
