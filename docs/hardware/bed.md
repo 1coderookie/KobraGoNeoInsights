@@ -7,8 +7,9 @@ Both printers offer a 25-point automatic bed leveling which is called "Anycubic 
 
 ??? tip "Bed Leveling Function"
 
-    - Don't get misleaded by the term "automatic bed leveling" - the process does *not* level your bed! It only measures and recognizes the distance towards the sensor at the 25 spots where it measures. You can *not* level the bed itself as it's mounted directly to the construction which leads the bed in the y-axis. However, some people added springs to be able to level the bed, see the section ["Mods"](#mods) below.   
+    - Don't get misleaded by the term "automatic bed leveling" - the process does *not* level your bed! It only measures and recognizes the distance towards the sensor at the 25 spots where it measures. You can *not* level the bed itself without tinkering as it's mounted directly to the construction which leads the bed in the y-axis. I personally added washers and so on to get the plate trimmed as much as possible. However, some people added springs to be able to level the bed, see the section ["Mods"](#mods) below.   
     - When it comes to executing the ABL function of the printer, it's advisable to initially check if the ABL sensor is leveled correctly to get the best results out of the ABL process. See the expandable box "Leveling the ABL Sensor" in the section ["Leveling or Dismounting the ABL Sensor"](printhead.md#leveling-or-dismounting-the-abl-sensor) in the chapter "Printhead".  
+    - To make the measured values of the ABL come into account later when it comes down to printing, you'll need to add a certain line to the start G-code of the slicer. I'm not 100% sure yet, but right now it seems like the necessary command is "M420 S1 L" which reads the data out of the EEPROM.   
       
 The bed uses a removable PEI-coated spring steel plate which makes it easy to remove the printed object.  
 The plate that comes with the printer is one-sided coated at the **Go** and double-sided coated at the **Neo**.   
@@ -49,11 +50,72 @@ When you take a look underneath the bed itself, you'll spot a little foam piece 
     
 ??? tip "Bed Level Visualization"
 
-    The display of the control unit does *not* show a meshview after you proceeded the bed level function - if you'd like to see that, you'd usually have to use additional software like the beforementioned [Octoprint](https://octoprint.org/) and an additional plugin for visualization like the [Bed Level Visualizer](https://plugins.octoprint.org/plugins/bedlevelvisualizer/). However, it seems that the stock firmware doesn't support that, so even after executing the ABL using the beforementioned Bed Level Visualizer you won't get a *mesh*view but you will get the measured values as the picture below shows (sorry for the colours, they're hard or not even possible to see at all due to the dark UI I'm using). <br> ![Mesh data](../assets/images/mesh-data.jpg)  
+    The display of the control unit does *not* show a meshview after you proceeded the bed level function - if you'd like to see that, you'd usually have to use additional software like the beforementioned [Octoprint](https://octoprint.org/) and an additional plugin for visualization like the [Bed Level Visualizer](https://plugins.octoprint.org/plugins/bedlevelvisualizer/).  
+    To get a visualization out of the data, you need to add some code though, otherwise you won't get that nice graphic you can always see everywhere. So I don't know if the following code is 100% correct or if there's anything obsolete in there or whatever, but at least I got the visualization done at the end (Thanks to reddit member [one-without-zero](https://www.reddit.com/user/one-without-zero/) for pointing out M503 to me!).  
+    
+    - Tab "Collection":  
+        ```
+        M140 S60 ; starting by heating the bed for nominal mesh accuracy 
+        M117 Homing all axes ; send message to printer display 
+        G28 ; home all axes 
+        M420 S0 ; Turning off bed leveling while probing, if firmware is set ; to restore after G28 
+        M104 S0 ;Turn-off hotend 
+        M117 Heating the bed ; send message to printer display 
+        M190 S60 ; waiting until the bed is fully warmed up 
+        M300 S1000 P500 ; chirp to indicate bed mesh levels is initializing 
+        M117 Creating the bed mesh levels ; send message to printer display 
+        M155 S30 ; reduce temperature reporting rate to reduce output pollution
+        @BEDLEVELVISUALIZER ; tell the plugin to watch for reported mesh 
+        G29 T ; run bilinear probing 
+        M155 S3 ; reset temperature reporting 
+        M140 S0 ; cooling down the bed 
+        M104 S0 ; cooling down extruder
+        M500 ; store mesh in EEPROM 
+        M503 ; report mesh values
+        M300 S440 P200 ; make calibration completed tones 
+        M300 S660 P250 M300 S880 P300 
+        M117 Bed mesh levels completed ; send message to printer display
+        ```
+    - Tab "Commands", click the "+ Add" button. There you create two new command scripts: "Create mesh" and "Pull latest mesh" (you can name them however you like though).  
+        "Create mesh" has the same code like at the "Collection" tab above (to be honest: I actually think this one is obsolete but because now it's working for me here and I don't want to mess around, I'll just add it here to show you my solution):  
+        ```
+        M140 S60 ; starting by heating the bed for nominal mesh accuracy 
+        M117 Homing all axes ; send message to printer display 
+        G28 ; home all axes 
+        M420 S0 ; Turning off bed leveling while probing, if firmware is set ; to restore after G28 
+        M104 S0 ;Turn-off hotend 
+        M117 Heating the bed ; send message to printer display 
+        M190 S60 ; waiting until the bed is fully warmed up 
+        M300 S1000 P500 ; chirp to indicate bed mesh levels is initializing 
+        M117 Creating the bed mesh levels ; send message to printer display 
+        M155 S30 ; reduce temperature reporting rate to reduce output pollution
+        @BEDLEVELVISUALIZER ; tell the plugin to watch for reported mesh 
+        G29 T ; run bilinear probing 
+        M155 S3 ; reset temperature reporting 
+        M140 S0 ; cooling down the bed 
+        M104 S0 ; cooling down extruder
+        M500 ; store mesh in EEPROM 
+        M503 ; report mesh values
+        M300 S440 P200 ; make calibration completed tones 
+        M300 S660 P250 M300 S880 P300 
+        M117 Bed mesh levels completed ; send message to printer display
+        ```
+        
+        "Pull latest mesh" has the following code:  
+        ```
+        @BEDLEVELVISUALIZER
+        M420 T0
+        M420 V
+        ```
+        
+    - To creat a msehview now, click on the blue info-button "Update Mesh Now". This will start the probing. After it's done, click on "Pull latest mesh" and the graphic should be rendered.  
+    - To see a table with the collected data, click on the little configuration wheel again and then click on the tab "Data".  
+    - Images will come soon.. ;)
+
 
 ??? tip "Spacers of the Bedmount"
 
-    If you find that the bed is not as flat or level as it should be, it might be a good idea to disassemble it and check the four black spacers that connect the metal frame and the bed itself. Measure them with a slide gauge to see if they are really the same height! If they're not, either put some sandpaper on a flat surface and rub them down to make them all the same length, or look for other spacers you might be using.  
+    If you find that the bed is not as flat or trimmed as it should be, it might be a good idea to disassemble it and check the four black spacers that connect the metal frame and the bed itself. Measure them with a slide gauge to see if they are really the same height! If they're not, either look for other spacers you might be using or just put washers or other suitable material of the needed thickness under them. Then execute another ABL using the "Bed Level Visualizer" plugin with OctoPrint to see the new values. From there you can try to get it as much trimmed as possible with those four screws.     
   
 ??? tip "Check the Screws of the Bedplate and the Gantry of the Bed"
 
