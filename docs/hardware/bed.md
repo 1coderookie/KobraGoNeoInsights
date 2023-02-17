@@ -7,7 +7,7 @@ Both printers offer a 25-point automatic bed leveling which is called "Anycubic 
 
 ??? tip "Bed Leveling Function"
 
-    - Don't get misleaded by the term "automatic bed leveling" - the process does *not* level your bed! It only measures and recognizes the distance towards the sensor at the 25 spots where it measures. You can *not* level the bed itself without tinkering as it's mounted directly to the construction which leads the bed in the y-axis. I personally added washers and so on to get the plate trimmed as much as possible. However, some people added springs to be able to level the bed, see the section ["Mods"](#mods) below.   
+    - Don't get misleaded by the term "automatic bed leveling" - the process does *not* level your bed! It only measures and recognizes the distance towards the sensor at the 25 spots where it measures. You can *not* level the bed itself without tinkering as it's mounted directly to the construction which leads the bed in the y-axis.    
     - When it comes to executing the ABL function of the printer, it's advisable to initially check if the ABL sensor is leveled correctly to get the best results out of the ABL process. See the expandable box "Leveling the ABL Sensor" in the section ["Leveling or Dismounting the ABL Sensor"](printhead.md#leveling-or-dismounting-the-abl-sensor) in the chapter "Printhead".  
     - To make the measured values of the ABL come into account later when it comes down to printing, you'll need to add a certain line to the start G-code of the slicer. I'm not 100% sure yet, but right now it seems like the necessary command is "M420 S1 L" which reads the data out of the EEPROM.   
       
@@ -115,7 +115,11 @@ When you take a look underneath the bed itself, you'll spot a little foam piece 
 
 ??? tip "Spacers of the Bedmount"
 
-    If you find that the bed is not as flat or trimmed as it should be, it might be a good idea to disassemble it and check the four black spacers that connect the metal frame and the bed itself. Measure them with a slide gauge to see if they are really the same height! If they're not, either look for other spacers you might be using or just put washers or other suitable material of the needed thickness under them. Then execute another ABL using the "Bed Level Visualizer" plugin with OctoPrint to see the new values. From there you can try to get it as much trimmed as possible with those four screws.     
+    If you find that the bed is not as flat or trimmed as it should be, it might be a good idea to disassemble it and check the four black spacers that connect the metal frame and the bed itself. Measure them with a slide gauge to see if they are really the same height!  
+    If they're not, either look for other spacers you might be using, put the stock ones on a flat surface with sandpaper and grind them down to one length or put washers or other suitable material of the needed thickness under them. Then execute another ABL using the "Bed Level Visualizer" plugin with OctoPrint to see the new values. From there you can try to get it as much trimmed as possible.  
+      
+    Just to give you an impression - the four spacers at my **Neo** had the following lenghts: 17.78mm, 17.88mm, 17.97mm, 18.11mm. Also the cut ends weren't perpendicular to the axes of those spacers.  
+    So it's not surprising that I was facing an untrimmed bed - even if we'd assume that the gantry itself is completely flat (which I doubt, I did measured it with a spirit level and it seemed to be quite okay, but I didn't disassemble it because I didn't want to deal with the crimped belts) - it's just impossible to get a trimmed bed plate with four spacers of different lengths. I searched my drawers and finally found four 'spacers' made of some kind of plastic as well (probably ABS). They were a bit bigger in the diameter and the length, but at least they seemed to be a bit more equal in the length: 19.88mm (shortest) to 19.90mm (longest) - so I gave them a try.
   
 ??? tip "Check the Screws of the Bedplate and the Gantry of the Bed"
 
