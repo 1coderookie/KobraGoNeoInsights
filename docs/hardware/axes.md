@@ -111,7 +111,7 @@ The Z-axis of both the **Go** and the **Neo** is driven by a single lead screw (
     - After you cleaned and dried it, add a little lube to the rod. Don't be excessive here and drown it with oil - just use a tiny bit to make it glide better.  
     *Don't use WD-40 or grease which contains graphite or MoS2!*   
     I personally like to use PTFE spray first, let it dry and then put some synthetic lube on which is made for mountainbike chains as it uses to stick a bit better onto the metal. But every good medium to heavy synthetic machine oil will do the job just fine.  
-    You can draw a line of oil all ong one side of the rod from the bottom to the top and then put the rod between your fingers and turn it. By doing so, the excessive oil will build up at your fingers and will also reach the bottom of the rod. Wipe off any excessive amount of oil afterwards again - you don't want to have oil dripping down on your motor later!  
+    You can draw a line of oil all along one side of the rod from the bottom to the top and then put the rod between your fingers and turn it. By doing so, the excessive oil will build up at your fingers and will also reach the bottom of the rod. Wipe off any excessive amount of oil afterwards again - you don't want to have oil dripping down on your motor later!  
     - Before installing the rod into the coupler of the motor again, clean the last inch of the bottom again by using the car break cleaner and the cloth. Try to get it as much degreased as possible, so that it doesn't start to slip inside of the coupler later.   
     
     !!! warning "Don't Use WD-40 for Lubrication"
