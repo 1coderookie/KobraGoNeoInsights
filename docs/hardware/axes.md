@@ -20,12 +20,19 @@ It's kinda difficult to explain the correct belt tension, so you'd have to exper
     - Check the gear wheels of the motors which are driving the belts. Are they also looking ok? Did they become loose on the motor shaft somehow?  
 
 ### V Slot Wheels Position
-The wheels are leading the bed onto the aluminum profile in the middle. They run in the V-slot of the profile and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
+The wheels are leading the bed onto the aluminum profile in the middle. They are mounted onto a Y-shaped metal plate which again is mounted onto the aluminum profile. The wheels run in the V-slot of the profile and therefore they should sit in a good position.    
 You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though as the following pictures show.  
   
 ![](../assets/images/x-axis_left-side-nut_web.jpg)
   
 ![](../assets/images/x-axis_knob_nut_web.jpg)
+  
+??? tip "Adjusting the Position of the V-Slot Wheels"
+
+    - The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in there pretty tight, but they should be able to roll and move freely - so they shouldn't sit too tight though (sorry, it's kinda hard to explain). On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability.  
+    - If you need to adjust the position of the wheels using the eccentric nuts, you might encouter the problem that e.g. the inner wheel and the lower wheel on the outside may sit in the v-slot really nice, but that the third wheel (the upper one on the outside in this example) isn't even touching the aluminum and can be spinned in the air. Whatever you'll try with the eccentric nut of the wheel of the inside (because there's only this one), you won't be able to achieve that all of the three wheels touch the aluminum and sit in the slot like they should.  
+    So - what to do?  
+    Well, there's a trick: you have to loosen the two hexagon socket screws which are holding the Y-shaped metal plate (where the wheels are mounted onto) against the aluminum frame of the x-axis gantry. Dont take them out (!), just loosen them a bit. Then you can adjust the position of the wheels by using the eccentric nut again becuase now the metal plate can move a bit and adjust it's position towards the aluminum frame of the x-axis gantry. It's even better to drive up the x-axis gantry all the way to the top first and secure it with some zipties or velcros. Then lower the gantry again until the weight is held by the zipties (make sure the distance between the x-axis and the upper plastic x-frame is pretty much the same though, so that the gantry is horizontally leveled). By doing so you'll take off the weight from the wheels and it'll be easier to adjust their position.     
   
 ??? example "V-Slot Wheels Maintenance"  
 
@@ -95,9 +102,13 @@ The Z-axis of both the **Go** and the **Neo** is driven by a single lead screw (
    
 ??? example "Lead Screw Maintenance"
 
-    - Make sure the coupler is mounted correctly and the screws are tightened. The coupler should be centered, so that the axis of the motor and the threaded rod are perfectly aligned vertically. Check from time to time that the coupler didn't come loose somehow. 
-    - Make sure the rod is clean, there shouldn't stick stuff on it as it could/would block the movement. If you need to clean it, take a toothbrush or something like that to be able to reach the bottom of the thread also. It would be even better to completely disassemble the rod from the coupler and the anti-backlash nut to give it a decent cleaning. If you do so, you can clean it from the old grese by e.g. using WD-40 and a toothbrush. Make sure to not leave any particles from the anti-backlash nut or any dirt stuck on it.  
-    - After you cleaned it, add a little lube to the rod. Don't be excessive here and drown it with oil - just use a tiny bit to make it glide better. I personally like to use PTFE spray first, let it dry and then put some good medium to heavy synthetic machine oil on it. 
+    - Make sure the coupler is mounted correctly and the screws are tightened. Check from time to time that the coupler didn't come loose somehow. 
+    - Make sure the rod is clean, there shouldn't stick debris or dirt on it as it could/would block the movement. 
+    - If you need to clean it, it's advisable to disassamble the whole rod system including the coupler and the anti-backlash nut. A detailed instruction with images about how to do so will come soon. 
+    - Spray e.g. WD-40 on the rod to loosen old sticky oil and debris. Then take a toothbrush or something like that for being able to reach the bottom of the thread also and clean it up. Make sure to not leave any particles from the anti-backlash nut or any dirt stuck on it. 
+    - After this procedure, clean the WD-40 off of the rod by using e.g. car break cleaner. It'll wash off everything, you can also use an old cloth to wipe it. 
+    - After you cleaned and dried it, add a little lube to the rod. Don't be excessive here and drown it with oil - just use a tiny bit to make it glide better. I personally like to use PTFE spray first, let it dry and then put some good medium to heavy synthetic machine oil on it (I personally use synthetic lube which is made for a mountainbike chain as it uses to stick a bit better onto the metal). You can draw a line of oil all ong one side of the rod from the bottom to the top and then put the rod between your fingers and turn it. By doing so, the excessive oil will build up at your fingers and will also reach the bottom of the rod. Wipe off any excessive amount of oil afterwards again - you don't want to have oil dripping down on your motor later!  
+    - Before installing the rod into the coupler of the motor again, clean the last inch of the bottom again by using the car break cleaner and the cloth. Try to get it as much degreased as possible, so that it doesn't start to slip inside of the coupler later.  
     - *Don't use WD-40 or grease which contains graphite or MoS2!*
     
     !!! warning "Don't Use WD-40 for Lubrication"
