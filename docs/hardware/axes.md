@@ -19,7 +19,7 @@ It's kinda difficult to explain the correct belt tension, so you'd have to exper
     - Check if you can see any cracks at the belt. 
     - Check the gear wheels of the motors which are driving the belts. Are they also looking ok? Did they become loose on the motor shaft somehow?  
 
-### V Slot Wheels Position
+### V-Slot Wheels Position
 The wheels are leading the printhead onto the aluminum profile of the x-axis. They are mounted onto a metal plate where the printhead itself is mounted onto. The wheels run in the V-slot of the profile and therefore they should sit in a good position.    
 You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile. 
 
@@ -64,7 +64,7 @@ It's kinda difficult to explain the correct belt tension, so you'd have to exper
     - Check if you can see any cracks at the belt. 
     - Check the gear wheels of the motors which are driving the belts. Are they also looking ok? Did they become loose on the motor shaft somehow?      
     
-### V Slot Wheels Position
+### V-Slot Wheels Position
 The wheels are leading the bed onto the aluminum profile in the middle. They run in the V-slot of the long profile in the middle underneath the bed and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
 You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though as you might be able to see at the following picture.  
   
@@ -118,7 +118,17 @@ The Z-axis of both the **Go** and the **Neo** is driven by a single lead screw. 
         People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
         As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait..  
   
-### V Slot Wheels Position
+??? tip "Changing the Coupler"
+
+    It might be a good idea to change the coupler as the one which comes with the printer doesn't compensate any misalignement of the motor shaft and the lead screw. So if they aren't in a perfect vertical alignment, it will result in shear forces, increased wear of the anti-backlash nut and even may cause jamming.  
+    If you want to change the coupler, you'll need to get a coupler which suits 5/8mm as the motor shaft is 5mm and the rod is 8mm in diameter. Make sure you *don't* get a coupler which uses a grub screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism so to say as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwn onto. Same goes for the lead screw itself. (Pictures are about to come soon.)  
+    
+??? tip "Changing the Anti-Backlash Nut"  
+
+    If the anti-backlash nut that came with the printer is worn out, you don't necessarily have to buy the original spare part. Actually I personally would refuse to so so anyway because I personally don't really like the material of it and prefer brass nuts. Just make sure you get the right size and check the top of the nut which is mounted to the holder to make sure you'll get the right ones. (Pictures are about to come soon.)  
+    When you (re-)install the anti-backlash nut (whichever you get), make sure that you press both parts together when putting the lead screw in. There's a little spring between the upper and the lower part of the nut which is there to prevent the backlash. This spring needs to be pushed together during the installation, so that there's tension and both parts of that nut system are being pushed away from each other when installed.  
+  
+### V-Slot Wheels Position
 The wheels are leading the x-axis gantry along the z-axis aluminum profile. They run in the V-slot of the z-axis profiles and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
 You can adjust the roller tension by turning the eccentric nut of the wheel which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though as the following picture shows, only the two wheels (one at each side) which are facing the inner side (towards the bed) do have an eccentric nut.  
     
@@ -146,10 +156,7 @@ You can adjust the roller tension by turning the eccentric nut of the wheel whic
         People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
         As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait.. 
   
-??? tip "Changing the Coupler"
 
-    It might be a good idea to change the coupler as the one which comes with the printer doesn't compensate any misalignement of the motor shaft and the lead screw. So if they aren't in a perfect vertical alignment, it will result in shear forces, increased wear of the anti-backlash nut and even may cause jamming.  
-    If you want to change the coupler, you'll need to get a coupler which suits 5/8mm as the motor shaft is 5mm and the rod is 8mm in diameter. Make sure you *don't* get a coupler which uses a grub screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism so to say as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwn onto. Same goes for the lead screw itself. (Pictures are about to come soon.)  
     
 ---
 
