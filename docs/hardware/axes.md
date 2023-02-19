@@ -4,7 +4,7 @@
 # Axes
 
 ## X-Axis
-The X-axis of both the **Go** and the **Neo** is belt driven (6mm wide), the motor which drives the belt is located at the left side.  
+The X-axis of both the **Go** and the **Neo** is belt driven (6mm wide), the motor which drives the belt is located at the left side.   
 You can adjust the tension of the belt by using the knob at the right side of the aluminum profile where the printhead is guided onto.  
   
 ![X-axis knob](../assets/images/x-axis_knob_web.jpg)
@@ -29,10 +29,8 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
   
 ??? tip "Adjusting the Position of the V-Slot Wheels"
 
-    - The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in there pretty tight, but they should be able to roll and move freely - so they shouldn't sit too tight though (sorry, it's kinda hard to explain). On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability.  
-    - If you need to adjust the position of the wheels using the eccentric nuts, you might encouter the problem that e.g. the inner wheel and the lower wheel on the outside may sit in the v-slot really nice, but that the third wheel (the upper one on the outside in this example) isn't even touching the aluminum and can be spinned in the air. Whatever you'll try with the eccentric nut of the wheel of the inside (because there's only this one), you won't be able to achieve that all of the three wheels touch the aluminum and sit in the slot like they should.  
-    So - what to do?  
-    Well, there's a trick: you have to loosen the two hexagon socket screws which are holding the Y-shaped metal plate (where the wheels are mounted onto) against the aluminum frame of the x-axis gantry. Dont take them out (!), just loosen them a bit. Then you can adjust the position of the wheels by using the eccentric nut again becuase now the metal plate can move a bit and adjust it's position towards the aluminum frame of the x-axis gantry. It's even better to drive up the x-axis gantry all the way to the top first and secure it with some zipties or velcros. Then lower the gantry again until the weight is held by the zipties (make sure the distance between the x-axis and the upper plastic x-frame is pretty much the same though, so that the gantry is horizontally leveled). By doing so you'll take off the weight from the wheels and it'll be easier to adjust their position. After you're done with adjusting the position of the wheels, tighten up the screws of those metal plates again, drive up the gantry a bit again until the zipties are hanging around freely and then cut them off.    
+    - The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in there pretty tight, but they should be able to roll and move freely - so they shouldn't sit too tight though (sorry, it's kinda hard to explain). On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability. The printhead shouldn't wiggle but it has to be able to move freely.   
+    
   
 ??? example "V-Slot Wheels Maintenance"  
 
@@ -97,7 +95,7 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
 ---
 
 ## Z-Axis
-The Z-axis of both the **Go** and the **Neo** is driven by a single lead screw (8mm diameter with 2mm pitch per rotation). This rod is mounted to the motor by a coupler at the bottom. The top end of the rod is completely unguided, in between it's guided and secured by a POM anti-backlash nut which you can see at the following picture, it's the black plastic part mounted to the black steel bracket.  
+The Z-axis of both the **Go** and the **Neo** is driven by a single lead screw. The lead screw is 8mm in diameter with 2mm pitch per rotation and has a length of 350mm. This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom. The top end of the rod is completely unguided, in between it's guided and secured by a POM anti-backlash nut which you can see at the following picture, it's the black plastic part mounted to the black steel bracket.  
   
 ![Z-axis views](../assets/images/z-axis_neo_web.jpg)
    
@@ -107,11 +105,12 @@ The Z-axis of both the **Go** and the **Neo** is driven by a single lead screw (
     - Make sure the rod is clean, there shouldn't stick debris or dirt on it as it could/would block the movement. 
     - If you need to clean it, it's advisable to disassamble the whole rod system including the coupler and the anti-backlash nut. A detailed instruction with images about how to do so will come soon. 
     - Spray e.g. WD-40 on the rod to loosen old sticky oil and debris. Then take a toothbrush or something like that for being able to reach the bottom of the thread also and clean it up. Make sure to not leave any particles from the anti-backlash nut or any dirt stuck on it. 
-    - After this procedure, clean the WD-40 off of the rod by using e.g. car break cleaner. It'll wash off everything, you can also use an old cloth to wipe it. 
+    - After this procedure, clean the WD-40 off of the rod by using e.g. car break cleaner or silicone remover spray. It'll wash off everything, you can also use an old cloth to wipe it (but make sure that no textile fibres will stick in the thread somehow). 
     - After you cleaned and dried it, add a little lube to the rod. Don't be excessive here and drown it with oil - just use a tiny bit to make it glide better.  
     *Don't use WD-40 or grease which contains graphite or MoS2!*   
     I personally like to use PTFE spray first, let it dry and then put some synthetic lube on which is made for mountainbike chains as it uses to stick a bit better onto the metal. But every good medium to heavy synthetic machine oil will do the job just fine.  
     You can draw a line of oil all along one side of the rod from the bottom to the top and then put the rod between your fingers and turn it. By doing so, the excessive oil will build up at your fingers and will also reach the bottom of the rod. Wipe off any excessive amount of oil afterwards again - you don't want to have oil dripping down on your motor later!  
+    Tip: to avoid dripping oil down to the motor, I personally wrap a pipe cleaner around the rod right above the coupler. If by time a drop or two will move down, the pipe cleaner will absorb it.     
     - Before installing the rod into the coupler of the motor again, clean the last inch of the bottom again by using the car break cleaner and the cloth. Try to get it as much degreased as possible, so that it doesn't start to slip inside of the coupler later. 
     - When you're done reassembling everything and you home the printhead, you only should hear the low noise of the turning motor now - so now grinding noise from the anti-backlash nut or something like that.  
     
@@ -123,8 +122,15 @@ The Z-axis of both the **Go** and the **Neo** is driven by a single lead screw (
         As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait..  
   
 ### V Slot Wheels Position
-The wheels are leading the bed onto the aluminum profile in the middle. They run in the V-slot of the z-axis profiles and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
-You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though as the picture above shows.  
+The wheels are leading the x-axis gantry along the z-axis aluminum profile. They run in the V-slot of the z-axis profiles and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
+You can adjust the roller tension by turning the eccentric nut of the wheel which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though as the picture above shows, only the two wheels (one at each side) which are facing the inner side (towards the bed) do have an eccentric nut.   
+  
+??? example "Adjusting the Wheels: Special 'Trick'"  
+
+    However, you might face the problem that you just can't get all of the three wheels at each side to touch the aluminum frame as they should. So if you need to adjust the position of the wheels using the eccentric nuts, you might encouter the problem that e.g. the inner wheel and the lower wheel on the outside may sit in the v-slot really nice, but that the third wheel (the upper one on the outside in this example) isn't even touching the aluminum and can be spinned in the air. Whatever you'll try with the eccentric nut of the wheel of the inside (because there's only this one), you won't be able to achieve that all of the three wheels touch the aluminum and sit in the slot like they should.  
+    So - what to do?  
+    Well, there's a trick: you have to loosen the two hexagon socket screws which are holding the Y-shaped metal plate (where the wheels are mounted onto, at the backside so to say) against the aluminum frame of the x-axis gantry. Dont take them out (!), just loosen them a bit. Then you can adjust the position of the wheels by using the eccentric nut again because now the metal plate can move a bit and you can adjust it's position towards the aluminum frame of the x-axis gantry.  
+    It's even better to drive up the x-axis gantry all the way to the top first and secure it with some zipties or velcros. Then lower the gantry again until the weight is held by the zipties (make sure the distance between the x-axis and the upper plastic x-frame is pretty much the same though, so that the gantry is horizontally leveled). By doing so you'll take off the weight from the wheels and it'll be easier to adjust their position. After you're done with adjusting the position of the wheels, tighten up the screws of those metal plates again, drive up the gantry a bit again until the zipties are hanging around freely and then cut them off. (Pictures are about to come soon.) 
 
 ??? example "V-Slot Wheels Maintenance"  
 
@@ -139,9 +145,10 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
         People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
         As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait.. 
   
-??? note
+??? tip "Changing the Coupler"
 
-    I noticed at my **Neo** that it's impossible for me to adjust the position in a way that leads to the circumstance that all of the three wheels are in a correct position. Both upper wheels on the outside of the profile aren't touching the profile, there always remains a little gap. Even though it seems that everything works fine, it's either a faulty design or it's intended to be like that.    
+    It might be a good idea to change the coupler as the one which comes with the printer doesn't compensate any misalignement of the motor shaft and the lead screw. So if they aren't in a perfect vertical alignment, it will result in shear forces, increased wear of the anti-backlash nut and even may cause jamming.  
+    If you want to change the coupler, you'll need to get a coupler which suits 5/8mm as the motor shaft is 5mm and the rod is 8mm in diameter. Make sure you *don't* get a coupler which uses a grub screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism so to say as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwn onto. Same goes for the lead screw itself. (Pictures are about to come soon.)  
     
 ---
 
