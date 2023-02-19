@@ -92,7 +92,7 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
 ---
 
 ## Z-Axis
-The Z-axis of both the **Go** and the **Neo** is driven by a single lead screw. The lead screw is 8mm in diameter with 2mm pitch per rotation and has a length of 350mm. This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom. The top end of the rod is completely unguided, in between it's guided and secured by a POM anti-backlash nut which you can see at the following picture, it's the black plastic part mounted to the black steel bracket.  
+The Z-axis of both the **Go** and the **Neo** is driven by a single lead screw. The lead screw has 8mm in diameter with 8mm lead ('distance' of one complete rotation) and 2mm pitch and has a length of 350mm (it's actually this kind of lead screw which is used pretty much everywhere in these kind of machines). This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom. The top end of the rod is completely unguided, in between it's guided and secured by a POM anti-backlash nut which you can see at the following picture, it's the black plastic part mounted to the black steel bracket.  
   
 ![Z-axis views](../assets/images/z-axis_neo_web.jpg)
    
@@ -103,7 +103,8 @@ The Z-axis of both the **Go** and the **Neo** is driven by a single lead screw. 
     - If you need to clean it, it's advisable to disassamble the whole rod system including the coupler and the anti-backlash nut. A detailed instruction with images about how to do so will come soon. 
     - Spray e.g. WD-40 on the rod to loosen old sticky oil and debris. Then take a toothbrush or something like that for being able to reach the bottom of the thread also and clean it up. Make sure to not leave any particles from the anti-backlash nut or any dirt stuck on it. 
     - After this procedure, clean the WD-40 off of the rod by using e.g. car break cleaner or silicone remover spray. It'll wash off everything, you can also use an old cloth to wipe it (but make sure that no textile fibres will stick in the thread somehow). 
-    - After you cleaned and dried it, add a little lube to the rod. Don't be excessive here and drown it with oil - just use a tiny bit to make it glide better.  
+    - After you cleaned and dried it, inspect it! Are there any dents in the thread or any kind of deformation that shouldn't be there? If so, it would be best to get a new lead screw and replace it.   
+    - If everything is fine though and you want to mount the lead screw to the printer again, add a little lube to the rod. Don't be excessive here and drown it with oil - just use a tiny bit to make it glide better.  
     *Don't use WD-40 or grease which contains graphite or MoS2!*   
     I personally like to use PTFE spray first, let it dry and then put some synthetic lube on which is made for mountainbike chains as it uses to stick a bit better onto the metal. But every good medium to heavy synthetic machine oil will do the job just fine.  
     You can draw a line of oil all along one side of the rod from the bottom to the top and then put the rod between your fingers and turn it. By doing so, the excessive oil will build up at your fingers and will also reach the bottom of the rod. Wipe off any excessive amount of oil afterwards again - you don't want to have oil dripping down on your motor later!  
