@@ -4,7 +4,7 @@
 # Axes
 
 ## X-Axis
-The X-axis of both the **Go** and the **Neo** is belt driven (6mm wide), the motor which drives the belt is located at the left side.   
+The X-axis of both the **Go** and the **Neo** is belt driven (6mm wide), the motor which drives the belt (6mm wide) is located at the left side.   
 You can adjust the tension of the belt by using the knob at the right side of the aluminum profile where the printhead is guided onto.  
   
 ![X-axis knob](../assets/images/x-axis_knob_web.jpg)
@@ -20,12 +20,9 @@ It's kinda difficult to explain the correct belt tension, so you'd have to exper
     - Check the gear wheels of the motors which are driving the belts. Are they also looking ok? Did they become loose on the motor shaft somehow?  
 
 ### V Slot Wheels Position
-The wheels are leading the bed onto the aluminum profile in the middle. They are mounted onto a Y-shaped metal plate which again is mounted onto the aluminum profile. The wheels run in the V-slot of the profile and therefore they should sit in a good position.    
-You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though as the following pictures show.  
-  
-![](../assets/images/x-axis_left-side-nut_web.jpg)
-  
-![](../assets/images/x-axis_knob_nut_web.jpg)
+The wheels are leading the printhead onto the aluminum profile of the x-axis. They are mounted onto a metal plate where the printhead itself is mounted onto. The wheels run in the V-slot of the profile and therefore they should sit in a good position.    
+You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile. 
+
   
 ??? tip "Adjusting the Position of the V-Slot Wheels"
 
@@ -48,7 +45,7 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
 ---
 
 ## Y-Axis
-The Y-axis of both the **Go** and the **Neo** is belt driven (6mm wide). You can adjust the tension of the belt by using the knob at the front side of the aluminum profile where the bed is guided onto. The bedmount itself has v-slot wheels which are running in the v-slot of the aluminum profile.  
+The Y-axis of both the **Go** and the **Neo** is belt driven (6mm wide). You can adjust the tension of the belt by using the knob at the front side of the aluminum profile where the bed is guided onto. The x-shaped plate for the bedmount itself has v-slot wheels which are running in the v-slot of the aluminum profile.  
 The following picture shows the aluminum profile of the y-axis with the knob for adjusting the belt tension at the front.   
   
 ![Y-axis knob](../assets/images/y-axis_knob_web.jpg)
@@ -123,7 +120,11 @@ The Z-axis of both the **Go** and the **Neo** is driven by a single lead screw. 
   
 ### V Slot Wheels Position
 The wheels are leading the x-axis gantry along the z-axis aluminum profile. They run in the V-slot of the z-axis profiles and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
-You can adjust the roller tension by turning the eccentric nut of the wheel which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though as the picture above shows, only the two wheels (one at each side) which are facing the inner side (towards the bed) do have an eccentric nut.   
+You can adjust the roller tension by turning the eccentric nut of the wheel which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though as the following picture shows, only the two wheels (one at each side) which are facing the inner side (towards the bed) do have an eccentric nut.  
+    
+![](../assets/images/x-axis_left-side-nut_web.jpg)
+  
+![](../assets/images/x-axis_knob_nut_web.jpg)
   
 ??? example "Adjusting the Wheels: Special 'Trick'"  
 
