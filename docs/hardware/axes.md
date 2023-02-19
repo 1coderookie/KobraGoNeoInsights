@@ -92,7 +92,8 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
 ---
 
 ## Z-Axis
-The Z-axis of both the **Go** and the **Neo** is driven by a single lead screw. The lead screw has 8mm in diameter with 8mm lead ('distance' of one complete rotation) and 2mm pitch and has a length of 350mm (it's actually this kind of lead screw which is used pretty much everywhere in these kind of machines). This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom. The top end of the rod is completely unguided, in between it's guided and secured by a POM anti-backlash nut which you can see at the following picture, it's the black plastic part mounted to the black steel bracket.  
+The Z-axis of both the **Go** and the **Neo** is driven by a single lead screw. The lead screw has 8mm in diameter with 8mm lead ('distance' of one complete rotation) and 2mm pitch and has a length of 350mm (it's actually this kind of lead screw which is used pretty much everywhere in these kind of machines).  
+This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom. The top end of the rod is completely unguided, in between it's guided and secured by a POM anti-backlash nut which you can see at the following picture, it's the black plastic part mounted to the black steel bracket.  
   
 ![Z-axis views](../assets/images/z-axis_neo_web.jpg)
    
