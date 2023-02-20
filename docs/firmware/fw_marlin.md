@@ -31,7 +31,7 @@ In the following I'll list the (imho) most important settings from the `../sourc
 The following represents the state of February 2023 and firmware version 1.3.4.  
 You can find the files `Configuration.h`and`Configuration_adv.h` here: [https://github.com/ANYCUBIC-3D/Kobra_Go/tree/master/source/Marlin](https://github.com/ANYCUBIC-3D/Kobra_Go/tree/master/source/Marlin)  
     
-#### Configurations.h      
+#### Configuration.h      
     
 ``` title="(Some) Settings for Kobra GO from Configuration.h (v1.3.4)"
 #define BAUDRATE 115200  // This setting determines the communication speed of the printer.
