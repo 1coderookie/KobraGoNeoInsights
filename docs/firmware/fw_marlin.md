@@ -746,7 +746,7 @@ So in case you were trying to find the optimum retraction speed and therefore pr
 Yes, you've read correct: the retraction speed you set at your slicer got ignored in case it was higher than 25mm/s, because 25mm/s is the limit for the feed rate which is set in the firmware.  
 Kinda 'sweet', isn't it? I know what you're thinking right now, I thought the same.. ;)  
 
-So in case you want or need to set this value higher (do at your own rsik though!), see the expandable box below.
+So in case you want or need to set this value higher (do at your own risk though!), see the expandable box below.
   
 ??? example "Setting a Higher Maximum Value for Retraction Speed"  
 
@@ -820,7 +820,7 @@ So in case you were trying to find the optimum retraction speed and therefore pr
 Yes, you've read correct: the retraction speed you set at your slicer got ignored in case it was higher than 25mm/s, because 25mm/s is the limit for the feed rate which is set in the firmware.  
 Kinda 'sweet', isn't it? I know what you're thinking right now, I thought the same.. ;)  
 
-So in case you want or need to set this value higher (do at your own rsik though!), see the expandable box below.
+So in case you want or need to set this value higher (do at your own risk though!), see the expandable box below.
   
 ??? example "Setting a Higher Maximum Value for Retraction Speed"  
 
