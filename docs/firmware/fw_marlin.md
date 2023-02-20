@@ -751,7 +751,7 @@ So in case you want or need to set this value higher (do at your own rsik though
 ??? example "Setting a Higher Maximum Value for Retraction Speed"  
 
     If you want to set a higher maximum value for the retraction speed, you can do it as in the following description (do at your own risk though!).  
-    - Open OctoPrint or whichever program you use to get access to a terminal for sending G-codes directly to the printer. 
+    - Open OctoPrint or whichever program you use to get access to a terminal for sending G-codes directly to the printer.  
     - Type in `M503` to get a report of the settings. If you scroll up at the beginning of the output, you'll see these lines:  
       ```
       Recv: echo:; Maximum feedrates (units/s):
@@ -823,7 +823,7 @@ So in case you want or need to set this value higher (do at your own rsik though
 ??? example "Setting a Higher Maximum Value for Retraction Speed"  
 
     If you want to set a higher maximum value for the retraction speed, you can do it as in the following description (do at your own risk though!).  
-    - Open OctoPrint or whichever program you use to get access to a terminal for sending G-codes directly to the printer. 
+    - Open OctoPrint or whichever program you use to get access to a terminal for sending G-codes directly to the printer.  
     - Type in `M503` to get a report of the settings. If you scroll up at the beginning of the output, you'll see these lines:  
       ```
       Recv: echo:; Maximum feedrates (units/s):
