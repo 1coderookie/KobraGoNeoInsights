@@ -1,14 +1,33 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # Spare Parts
-When you need to change certain parts or you need to fix them, check out the [Anycubic site](https://www.anycubic.com/collections/for-kobra-series) first and watch out for the correct printer model if you can find what you're looking for.  
+
+## Which Spare Parts to Stock
+In the following I'll list those kind of parts I personally would suggest to stock. Some of them count as consumables (like nozzles or v-slot wheels for example), some of them are parts to have to be on the safe side if anything breaks (like a motor, fan or even a mainboard).  
+
+However, it does make sense to check whether it's cheaper to get certain parts on their own or to buy a complete spare part. As an example I'd mention the parts of the printhead here. If you'll get the fans, the thermistor, cartridge heater etc. as individual parts it most likely makes more sense to get yourself a complete new printhead as a spare part right away. Of course you still should get nozzles and silicone socks anyway, but if you'd have to pay pretty much the same for some individual parts as for a complete printhead, why should you buy individual parts then? Remember that the whole printhead also includes the feeder gear, the plastic cover, the metal plate, the stepper motor and so on.    
+
+- Nozzles
+- PTFE tube / bowden tube plus couplings
+- Silicone socks
+- Thermistor
+- Cartridge heater
+- V-slot wheels
+- Belts
+- Heatsink fan / hotend fan
+- Part cooler fan
+- Part cooler fan duct
+- Anti-backlash nuts
+- (more to come)  
   
-However, there are only a few original spare parts available for the **Go** and the **Neo** at the time of writing this. But as you maybe read in the belonging sections, there are parts from other Kobra models which are just the same (e.g. the hotend from the Kobra and the Kobra **Neo**) or even parts from third party manufacturers which fit just perfectly (e.g. regular V5 heater blocks, nozzles). So you probably have to look around and search the web a bit if any other company offers the desired parts.  
+## Where to Get
+When you need to change certain parts or you need to fix them, check out the [Anycubic site](https://www.anycubic.com/collections/for-kobra-series) and watch out for the correct printer model if you can find what you're looking for.  
   
-As an example:  
-I had to get myself a new thermistor and cartridge heater for the extruder. As the original ones with the 150cm long wires aren't available as 'official' spare parts and I neither wanted to buy a complete new printhead nor buy a new hotend (from the Kobra) and solder the needed parts, I finally found a seller on Amazon who offered these parts with a long wire and the specific plug for the mainboard. So it's always good to look around a bit instead of just relying on the 'official' sources..  
+However, there are only a few original spare parts available for the **Go** and the **Neo** at the time of writing this. But as you maybe read in the belonging sections, there are parts from other Kobra models which are just the same (e.g. the hotend from the Kobra and the Kobra **Neo**). Also many parts from third party manufacturers can be used as most of the parts are common components of these kinds of machines.  
   
-If you're looking for parts like end stop switches for example, keep in mind that those aren't 'specific' parts most of the time - they're regular electronic components. So just have a look at the spare part you need and do a little research if it really is something 'special' that pretty much only Anycubic or authorized sellers are offering (like the mainboard), or if that's a 'regular' electronic component or other hardware (like a stepper motor or so) which is used in general and therefore could be found easily.  
+So if you're looking for parts like v-slot wheels, belts, anti-backlash nuts, nozzles or even a new lead screw or motor for example, keep in mind that those aren't 'specific' parts most of the time - they're regular components. Have a look at the spare part you need and do a little research if it really is something 'special' that pretty much only Anycubic or authorized sellers are offering (like the mainboard), or if that's a 'regular' component and therefore could be found easily.  
+     
   
-Besides this general note, here's one specifically for the european readers: If you're located in Europe, I personally can recommend **[3D Jake](https://www.3djake.com)** (I'm not affiliated) as I'm very pleased with them. This company is located in Austria and offers a broad spectrum of original spare parts (even some parts you can't get at Anycubic's shop - weird but true), third party spare parts, filament, tools and other useful accessories for a fair price - plus: they ship pretty fast.  
+
+  
 
