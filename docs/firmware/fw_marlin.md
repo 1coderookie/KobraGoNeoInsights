@@ -29,9 +29,11 @@ In the following I'll list the (imho) most important settings from the `../sourc
    
 ### Go  
 The following represents the state of February 2023 and firmware version 1.3.4.  
-You can find the files `Configuration.h`and`Configuration_adv.h` here: [https://github.com/ANYCUBIC-3D/Kobra_Go/tree/master/source/Marlin](https://github.com/ANYCUBIC-3D/Kobra_Go/tree/master/source/Marlin) 
-  
-``` title="Most important (imho) settings for Kobra GO from Configuration.h (v1.3.4)"
+You can find the files `Configuration.h`and`Configuration_adv.h` here: [https://github.com/ANYCUBIC-3D/Kobra_Go/tree/master/source/Marlin](https://github.com/ANYCUBIC-3D/Kobra_Go/tree/master/source/Marlin)  
+    
+#### Configurations.h      
+    
+``` title="(Some) Settings for Kobra GO from Configuration.h (v1.3.4)"
 #define BAUDRATE 115200  // This setting determines the communication speed of the printer.
 --
 #define MOTHERBOARD BOARD_AC_TRI_F1_V1  // Choose the name from boards.h that matches your setup
@@ -295,7 +297,9 @@ DISPLAY
 #define TFT_COLOR_UI  // Marlin Default Menus, Touch Friendly, using full TFT capabilities
 ```
   
-``` title="Most important (imho) settings for GO from Configuration_adv.h (v1.3.4)"
+#### Configuration_adv.h  
+  
+``` title="(Some) Settings for GO from Configuration_adv.h (v1.3.4)"
 Thermal Protection / Thermal Runaway -> Hotend:
 #define THERMAL_PROTECTION_PERIOD 20         // Seconds
 #define THERMAL_PROTECTION_HYSTERESIS 10     // Degrees Celsius
@@ -368,7 +372,9 @@ Advanced Pause (Experimental feature for filament change support and for parking
 The following represents the state of February 2023 and firmware version 1.3.3.  
 You can find the files `Configuration.h`and`Configuration_adv.h` here: [https://github.com/ANYCUBIC-3D/Kobra_Neo/tree/master/source/Marlin](https://github.com/ANYCUBIC-3D/Kobra_Neo/tree/master/source/Marlin)
   
-``` title="Most important (imho) settings for Kobra NEO in Configuration.h (v1.3.3)"
+#### Configuration.h  
+  
+``` title="(Some) Settings for Kobra NEO in Configuration.h (v1.3.3)"
 #define BAUDRATE 115200  // This setting determines the communication speed of the printer.
 --
 #define MOTHERBOARD BOARD_AC_TRI_F1_V1  // Choose the name from boards.h that matches your setup
@@ -631,8 +637,9 @@ DISPLAY
 #define TFT_COLOR_UI  // Marlin Default Menus, Touch Friendly, using full TFT capabilities
 ```
   
+#### Configuration_adv.h  
   
-``` title="Most important (imho) settings for NEO from Configuration_adv.h (v1.3.3)"
+``` title="(Some) Settings for NEO from Configuration_adv.h (v1.3.3)"
 Thermal Protection / Thermal Runaway -> Hotend:
 #define THERMAL_PROTECTION_PERIOD 35         // Seconds
 #define THERMAL_PROTECTION_HYSTERESIS 10     // Degrees Celsius
