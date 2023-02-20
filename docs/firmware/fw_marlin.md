@@ -767,6 +767,7 @@ So in case you want or need to set this value higher (do at your own rsik though
         Recv: echo:; Maximum feedrates (units/s):
         Recv: echo:  M203 X300.00 Y300.00 Z4.00 E50.00
         ``` 
+        
     Now you can start trying to find the best retraction speed that may be above 25mm/s by printing retraction towers. 
 
 #### Babystepping Z-Axis
@@ -840,6 +841,7 @@ So in case you want or need to set this value higher (do at your own rsik though
         Recv: echo:; Maximum feedrates (units/s):
         Recv: echo:  M203 X300.00 Y300.00 Z4.00 E50.00
         ``` 
+       
     Now you can start trying to find the best retraction speed that may be above 25mm/s by printing retraction towers. 
     
        
