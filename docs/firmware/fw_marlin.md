@@ -294,7 +294,6 @@ DISPLAY
 #define TFT_RES_320x240  // TFT Resolution.
 #define TFT_COLOR_UI  // Marlin Default Menus, Touch Friendly, using full TFT capabilities
 ```
----
   
 ``` title="Most important (imho) settings for GO from Configuration_adv.h (v1.3.4)"
 Thermal Protection / Thermal Runaway -> Hotend:
@@ -631,7 +630,7 @@ DISPLAY
 #define TFT_RES_320x240  // TFT Resolution.
 #define TFT_COLOR_UI  // Marlin Default Menus, Touch Friendly, using full TFT capabilities
 ```
----  
+  
   
 ``` title="Most important (imho) settings for NEO from Configuration_adv.h (v1.3.3)"
 Thermal Protection / Thermal Runaway -> Hotend:
