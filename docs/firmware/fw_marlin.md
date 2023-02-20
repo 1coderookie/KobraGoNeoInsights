@@ -360,32 +360,22 @@ In case you didn't want to look into the belonging config-files or the above 'su
     So *if* you decide to change these settings, only do it in small increments and be aware of the fact that it might harm your printer!  
    
 The default settings for X, Y, Z, E0 are:
-- Default Axis Steps Per Unit (steps/mm) 80, 80, 400, 103 -> you can override them with `M92`
 
-  ??? info  
+**Default Axis Steps Per Unit** (steps/mm): 80, 80, 400, 103 -> you can override them with `M92`
+
+??? info  
   
-      During the calibration of your printer it might be necessary to adjust these settings. At my **Neo** for example the steps for the axes did fit, but I had to increase the steps for the extruder (E0). 
+    During the calibration of your printer it might be necessary to adjust these settings. At my **Neo** for example the steps for the axes did fit, but I had to increase the steps for the extruder (E0). 
       
-- Default Max Feed Rate (mm/s): 300, 300, 4, 25 -> you can override them with `M203`   
+**Default Max Feed Rate** (mm/s): 300, 300, 4, 25 -> you can override them with `M203`   
 
-  ??? info  
+??? info  
   
-      You can see that the maximum feed rate for the extruder E0 is set to 25mm/s. That means that this is the *limit* for the retraction speed also!  
-      So in case you were trying to find the optimum retraction speed and therefore printing retraction towers and wondered why there wasn't any real difference between e.g. 30mm/s, 40mm/s and 50mm/s, the reason is simple - they just didn't apply!  
-      Yes, you've read correct: the retraction speed you set at your slicer got ignored in case it was higher than 25mm/s, because 25mm/s is the limit which is set in the firmware. Kinda 'sweet', isn't it? I know what you're thinking right now, I thought the same.. ;)  
-      So in case you want or need to set this value higher (do at your own rsik though!), see the expandable box at the end of this section.  
-
-- Default Max Acceleration (change/s) change = mm/s (Maximum start speed for accelerated moves): 500, 500, 100, 500 (Neo) / 1000 (Go) -> you can override them with `M201`
+    You can see that the maximum feed rate for the extruder E0 is set to 25mm/s. That means that this is the *limit* for the retraction speed also!  
+    So in case you were trying to find the optimum retraction speed and therefore printing retraction towers and wondered why there wasn't any real difference between e.g. 30mm/s, 40mm/s and 50mm/s, the reason is simple - they just didn't apply!  
+    Yes, you've read correct: the retraction speed you set at your slicer got ignored in case it was higher than 25mm/s, because 25mm/s is the limit which is set in the firmware. Kinda 'sweet', isn't it? I know what you're thinking right now, I thought the same.. ;)  
+    So in case you want or need to set this value higher (do at your own rsik though!), see the expandable box below.  
   
-The default acceleration settings (change/s) change = mm/s are:  
-- X, Y, Z and E acceleration for printing moves: 500 -> you can override them with `M204 P`  
-- E acceleration for retracts: 500 -> you can override that with `M204 R`  
-- X, Y, Z acceleration for travel (non printing) moves: 1000 -> you can override that with `M204 T`   
-
-#### Linear Advance  
-The useful function "Linear Advance" is NOT activated!  
-This seems to be due to the fact that (afaik) there's some kind of problem with Marlin firmware versions before v2.1 and TMC2208 stepper drivers.  
-
 ??? example "Setting a Higher Maximum Value for Retraction Speed"  
 
     If you want to set a higher maximum value for the retraction speed, you can do it as in the following description (do at your own risk though!).  
@@ -405,7 +395,17 @@ This seems to be due to the fact that (afaik) there's some kind of problem with 
       ``` 
       Now you can start trying to find the best retraction speed that may be above 25mm/s by printing retraction towers. 
   
+
+**Default Max Acceleration** (change/s) change = mm/s (Maximum start speed for accelerated moves): 500, 500, 100, 500 (Neo) / 1000 (Go) -> you can override them with `M201`
   
+The **default acceleration settings** (change/s) change = mm/s are:  
+- X, Y, Z and E acceleration for printing moves: 500 -> you can override them with `M204 P`  
+- E acceleration for retracts: 500 -> you can override that with `M204 R`  
+- X, Y, Z acceleration for travel (non printing) moves: 1000 -> you can override that with `M204 T`   
+
+#### Linear Advance  
+The useful function "Linear Advance" is NOT activated!  
+This seems to be due to the fact that (afaik) there's some kind of problem with Marlin firmware versions before v2.1 and TMC2208 stepper drivers. 
 
 ### Neo
 
@@ -417,28 +417,22 @@ This seems to be due to the fact that (afaik) there's some kind of problem with 
     So *if* you decide to change these settings, only do it in small increments and be aware of the fact that it might harm your printer!  
 
 The default settings for X, Y, Z, E0 are:
-- Default Axis Steps Per Unit (steps/mm) 80, 80, 400, 390 -> you can override them with `M92`  
 
-  ??? info  
-  
-      During the calibration of your printer it might be necessary to adjust these settings. At my **Neo** for example the steps for the axes did fit, but I had to increase the steps for the extruder (E0).  
-      
-- Default Max Feed Rate (mm/s): 300, 300, 4, 25 -> you can override them with `M203`   
+**Default Axis Steps Per Unit** (steps/mm): 80, 80, 400, 390 -> you can override them with `M92`  
 
-  ??? info  
+??? info  
   
-      You can see that the maximum feed rate for the extruder E0 is set to 25mm/s. That means that this is the *limit* for the retraction speed also!  
-      So in case you were trying to find the optimum retraction speed and therefore printing retraction towers and wondered why there wasn't any real difference between e.g. 30mm/s, 40mm/s and 50mm/s, the reason is simple - they just didn't apply!  
-      Yes, you've read correct: the retraction speed you set at your slicer got ignored in case it was higher than 25mm/s, because 25mm/s is the limit which is set in the firmware. Kinda 'sweet', isn't it? I know what you're thinking right now, I thought the same.. ;)  
-      So in case you want or need to set this value higher (do at your own rsik though!), see the expandable box at the end of this section.  
+    During the calibration of your printer it might be necessary to adjust these settings. At my **Neo** for example the steps for the axes did fit, but I had to increase the steps for the extruder (E0).  
       
-- Default Max Acceleration (change/s) change = mm/s (Maximum start speed for accelerated moves): 500, 500, 100, 500 (Neo) / 1000 (Go) -> you can override them with `M201`
+**Default Max Feed Rate** (mm/s): 300, 300, 4, 25 -> you can override them with `M203`   
+
+??? info  
   
-The default acceleration settings (change/s) change = mm/s are:  
-- X, Y, Z and E acceleration for printing moves: 500 -> you can override them with `M204 P`  
-- E acceleration for retracts: 500 -> you can override that with `M204 R`  
-- X, Y, Z acceleration for travel (non printing) moves: 1000 -> you can override that with `M204 T`  
-  
+    You can see that the maximum feed rate for the extruder E0 is set to 25mm/s. That means that this is the *limit* for the retraction speed also!  
+    So in case you were trying to find the optimum retraction speed and therefore printing retraction towers and wondered why there wasn't any real difference between e.g. 30mm/s, 40mm/s and 50mm/s, the reason is simple - they just didn't apply!  
+    Yes, you've read correct: the retraction speed you set at your slicer got ignored in case it was higher than 25mm/s, because 25mm/s is the limit which is set in the firmware. Kinda 'sweet', isn't it? I know what you're thinking right now, I thought the same.. ;)  
+    So in case you want or need to set this value higher (do at your own rsik though!), see the expandable box below.  
+      
 ??? example "Setting a Higher Maximum Value for Retraction Speed"  
 
     If you want to set a higher maximum value for the retraction speed, you can do it as in the following description (do at your own risk though!).  
@@ -458,7 +452,14 @@ The default acceleration settings (change/s) change = mm/s are:
       ``` 
       Now you can start trying to find the best retraction speed that may be above 25mm/s by printing retraction towers. 
   
+
+**Default Max Acceleration** (change/s) change = mm/s (Maximum start speed for accelerated moves): 500, 500, 100, 500 (Neo) / 1000 (Go) -> you can override them with `M201`
   
+The **default acceleration settings** (change/s) change = mm/s are:  
+- X, Y, Z and E acceleration for printing moves: 500 -> you can override them with `M204 P`  
+- E acceleration for retracts: 500 -> you can override that with `M204 R`  
+- X, Y, Z acceleration for travel (non printing) moves: 1000 -> you can override that with `M204 T`  
+    
 #### Linear Advance  
 The useful function "Linear Advance" is NOT activated!  
 This seems to be due to the fact that (afaik) there's some kind of problem with Marlin firmware versions before v2.1 and TMC2208 stepper drivers.  
