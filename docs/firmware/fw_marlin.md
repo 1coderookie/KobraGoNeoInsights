@@ -751,21 +751,22 @@ So in case you want or need to set this value higher (do at your own rsik though
 ??? example "Setting a Higher Maximum Value for Retraction Speed"  
 
     If you want to set a higher maximum value for the retraction speed, you can do it as in the following description (do at your own risk though!).  
+    
     - Open OctoPrint or whichever program you use to get access to a terminal for sending G-codes directly to the printer.  
     - Type in `M503` to get a report of the settings. If you scroll up at the beginning of the output, you'll see these lines:  
-      ```
-      Recv: echo:; Maximum feedrates (units/s):
-      Recv: echo:  M203 X300.00 Y300.00 Z4.00 E25.00
-      ``` 
-      -> E25.00 is the maximum retraction speed possible. Anything above it coming from the slicer as a command is being ignored, anything lower will be taken into account (as these are the limits).  
+        ```
+        Recv: echo:; Maximum feedrates (units/s):
+        Recv: echo:  M203 X300.00 Y300.00 Z4.00 E25.00
+        ``` 
+        E25.00 is the maximum retraction speed that's possible due to the default setting of the firmware. Anything above it coming from the slicer as a command is being ignored, anything lower will be taken into account (as these are the limits).  
     - Now type in e.g. `M203 E50` to set the new limit to 50mm/s (choose this value wisely and use small increments to go higher).
     - After doing so, type `M500` to store the new value in the EEPROM.  
     - To check if everything got applied and saved now, you can either query `M501` or switch off the printer, switch it on again and check the settings with `M503` again.  
-      The abovementioned line should be changed to this now:  
-      ```
-      Recv: echo:; Maximum feedrates (units/s):
-      Recv: echo:  M203 X300.00 Y300.00 Z4.00 E50.00
-      ``` 
+        The abovementioned line should be changed to this now:  
+        ```
+        Recv: echo:; Maximum feedrates (units/s):
+        Recv: echo:  M203 X300.00 Y300.00 Z4.00 E50.00
+        ``` 
       Now you can start trying to find the best retraction speed that may be above 25mm/s by printing retraction towers. 
 
 #### Babystepping Z-Axis
@@ -823,21 +824,22 @@ So in case you want or need to set this value higher (do at your own rsik though
 ??? example "Setting a Higher Maximum Value for Retraction Speed"  
 
     If you want to set a higher maximum value for the retraction speed, you can do it as in the following description (do at your own risk though!).  
+    
     - Open OctoPrint or whichever program you use to get access to a terminal for sending G-codes directly to the printer.  
     - Type in `M503` to get a report of the settings. If you scroll up at the beginning of the output, you'll see these lines:  
-      ```
-      Recv: echo:; Maximum feedrates (units/s):
-      Recv: echo:  M203 X300.00 Y300.00 Z4.00 E25.00
-      ``` 
-      -> E25.00 is the maximum retraction speed possible. Anything above it coming from the slicer as a command is being ignored, anything lower will be taken into account (as these are the limits).  
+        ```
+        Recv: echo:; Maximum feedrates (units/s):
+        Recv: echo:  M203 X300.00 Y300.00 Z4.00 E25.00
+        ``` 
+        E25.00 is the maximum retraction speed that's possible due to the default setting of the firmware. Anything above it coming from the slicer as a command is being ignored, anything lower will be taken into account (as these are the limits).  
     - Now type in e.g. `M203 E50` to set the new limit to 50mm/s (choose this value wisely and use small increments to go higher).
     - After doing so, type `M500` to store the new value in the EEPROM.  
     - To check if everything got applied and saved now, you can either query `M501` or switch off the printer, switch it on again and check the settings with `M503` again.  
-      The abovementioned line should be changed to this now:  
-      ```
-      Recv: echo:; Maximum feedrates (units/s):
-      Recv: echo:  M203 X300.00 Y300.00 Z4.00 E50.00
-      ``` 
+        The abovementioned line should be changed to this now:  
+        ```
+        Recv: echo:; Maximum feedrates (units/s):
+        Recv: echo:  M203 X300.00 Y300.00 Z4.00 E50.00
+        ``` 
       Now you can start trying to find the best retraction speed that may be above 25mm/s by printing retraction towers. 
     
        
