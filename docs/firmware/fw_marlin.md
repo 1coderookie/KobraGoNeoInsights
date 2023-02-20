@@ -31,7 +31,7 @@ In the following I'll list the (imho) most important settings from the `../sourc
 You can find the files here: [https://github.com/ANYCUBIC-3D/Kobra_Go](https://github.com/ANYCUBIC-3D/Kobra_Go)   
   
 Sorry, I didn't prepare a 'summarization' like for the **Neo** yet, but most of the settings are the same as at the **Neo**, so you might want to look into that. The only "real" differences I noticed at a first glance are:  
-``` title="Most important settings from ../source/Marlin/Configuration.h" linenums="1"
+``` title="Most important (imho) settings from ../source/Marlin/Configuration.h"
 Movement settings: X, Y, Z, E0
 #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 103 } // Default Axis Steps Per Unit (steps/mm); Override with M92
 --
@@ -42,7 +42,7 @@ Default Acceleration (change/s) change = mm/s; Override with M204: M204 P = Acce
 ### Neo
 You can find the files here: [https://github.com/ANYCUBIC-3D/Kobra_Neo](https://github.com/ANYCUBIC-3D/Kobra_Neo)
   
-``` title="Most important settings from ../source/Marlin/Configuration.h" linenums="1"
+``` title="Most important (imho) settings from ../source/Marlin/Configuration.h"
 #define BAUDRATE 115200  // This setting determines the communication speed of the printer.
 --
 #define MOTHERBOARD BOARD_AC_TRI_F1_V1  // Choose the name from boards.h that matches your setup
@@ -288,7 +288,8 @@ DISPLAY
 #define TFT_RES_320x240  // TFT Resolution.
 #define TFT_COLOR_UI  // Marlin Default Menus, Touch Friendly, using full TFT capabilities
 ```
-``` title="Most important settings from ../source/Marlin/Configuration_adv.h" linenums="1"
+  
+``` title="Most important (imho) settings from ../source/Marlin/Configuration_adv.h"
 Thermal Protection / Thermal Runaway -> Hotend:
 #define THERMAL_PROTECTION_PERIOD 35         // Seconds
 #define THERMAL_PROTECTION_HYSTERESIS 10     // Degrees Celsius
@@ -469,9 +470,11 @@ The **default acceleration settings** (change/s) change = mm/s are:
 - E acceleration for retracts: 500 -> you can override that with `M204 R`  
 - X, Y, Z acceleration for travel (non printing) moves: 1000 -> you can override that with `M204 T`  
     
+ 
+    
 #### Linear Advance  
 The useful function "Linear Advance" is NOT activated!  
-This seems to be due to the fact that (afaik) there's some kind of problem with Marlin firmware versions before v2.1 and TMC2208 stepper drivers.  
+This seems to be due to the fact that (afaik) there's some kind of problem with Marlin firmware versions before v2.1 and TMC2208 stepper drivers.   
 
   
    
