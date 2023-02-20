@@ -723,10 +723,22 @@ The default settings for X, Y, Z, E0 are:
 
 ??? info  
   
-    You can see that the maximum feed rate for the extruder E0 is set to 25mm/s. That means that this is the *limit* for the retraction speed also!  
-    So in case you were trying to find the optimum retraction speed and therefore printing retraction towers and wondered why there wasn't any real difference between e.g. 30mm/s, 40mm/s and 50mm/s, the reason is simple - they just didn't apply!  
-    Yes, you've read correct: the retraction speed you set at your slicer got ignored in case it was higher than 25mm/s, because 25mm/s is the limit which is set in the firmware. Kinda 'sweet', isn't it? I know what you're thinking right now, I thought the same.. ;)  
-    So in case you want or need to set this value higher (do at your own rsik though!), see the expandable box below.  
+    You can see that the maximum feed rate for the extruder E0 is set to 25mm/s. That means that this is the *limit* for the retraction speed also! See the following section for more informations about it. 
+      
+**Default Max Acceleration** (change/s) change = mm/s (Maximum start speed for accelerated moves): 500, 500, 100, 1000 -> you can override them with `M201`
+  
+The **default acceleration settings** (change/s) change = mm/s are:  
+- X, Y, Z and E acceleration for printing moves: 500 -> you can override them with `M204 P`  
+- E acceleration for retracts: 500 -> you can override that with `M204 R`  
+- X, Y, Z acceleration for travel (non printing) moves: 1000 -> you can override that with `M204 T`   
+
+#### Retraction Speed Limited to 25mm/s
+So in case you were trying to find the optimum retraction speed and therefore printing retraction towers and wondered why there wasn't any real difference between e.g. 30mm/s, 40mm/s and 50mm/s, the reason is simple - they just didn't apply!  
+  
+Yes, you've read correct: the retraction speed you set at your slicer got ignored in case it was higher than 25mm/s, because 25mm/s is the limit for the feed rate which is set in the firmware.  
+Kinda 'sweet', isn't it? I know what you're thinking right now, I thought the same.. ;)  
+
+So in case you want or need to set this value higher (do at your own rsik though!), see the expandable box below.
   
 ??? example "Setting a Higher Maximum Value for Retraction Speed"  
 
@@ -746,18 +758,6 @@ The default settings for X, Y, Z, E0 are:
       Recv: echo:  M203 X300.00 Y300.00 Z4.00 E50.00
       ``` 
       Now you can start trying to find the best retraction speed that may be above 25mm/s by printing retraction towers. 
-  
-
-**Default Max Acceleration** (change/s) change = mm/s (Maximum start speed for accelerated moves): 500, 500, 100, 1000 -> you can override them with `M201`
-  
-The **default acceleration settings** (change/s) change = mm/s are:  
-- X, Y, Z and E acceleration for printing moves: 500 -> you can override them with `M204 P`  
-- E acceleration for retracts: 500 -> you can override that with `M204 R`  
-- X, Y, Z acceleration for travel (non printing) moves: 1000 -> you can override that with `M204 T`   
-
-#### Linear Advance  
-The useful function "Linear Advance" is NOT activated!  
-This seems to be due to the fact that (afaik) there's some kind of problem with Marlin firmware versions before v2.1 and TMC2208 stepper drivers. 
 
 #### Babystepping Z-Axis
 As we can see from above, the babysteps for manual controling the z-axis using the control unit are 0.025mm. That means that e.g. if we want to set the offset using the control unit, each step will be *displayed* as 0.02mm but *in fact* it is 0.025mm! Means, that e.g. you lower the z-axis or the z-axis offset two steps, it will be displayed as 0.04mm but in fact it will be 0.05mm. This might not appear important at first sight, but as that sums up the higher the value becomes which you set using the control unit, the higher the deviation will be.  
@@ -767,6 +767,11 @@ Then everything was kinda crazy and didn't work out at the second print, so I se
 Suddenly it didn't fit anymore at all.  
 I had no clue what was going on there and whatever I tried, nothing gave me reliable and repeatable results.  
 At the end I made a shorter piece of metal for triggering the limit switch later and therefore getting the nozzle closer to the bed. But when I found out that the display just shows 0.02mm steps while in fact 0.025mm steps were executed, the weird behaviour mentioned before somehow did made sense..
+
+#### Linear Advance  
+The useful function "Linear Advance" is NOT activated!  
+This seems to be due to the fact that (afaik) there's some kind of problem with Marlin firmware versions before v2.1 and TMC2208 stepper drivers. 
+
 
 ### Neo
 
@@ -789,11 +794,23 @@ The default settings for X, Y, Z, E0 are:
 
 ??? info  
   
-    You can see that the maximum feed rate for the extruder E0 is set to 25mm/s. That means that this is the *limit* for the retraction speed also!  
-    So in case you were trying to find the optimum retraction speed and therefore printing retraction towers and wondered why there wasn't any real difference between e.g. 30mm/s, 40mm/s and 50mm/s, the reason is simple - they just didn't apply!  
-    Yes, you've read correct: the retraction speed you set at your slicer got ignored in case it was higher than 25mm/s, because 25mm/s is the limit which is set in the firmware. Kinda 'sweet', isn't it? I know what you're thinking right now, I thought the same.. ;)  
-    So in case you want or need to set this value higher (do at your own rsik though!), see the expandable box below.  
-      
+    You can see that the maximum feed rate for the extruder E0 is set to 25mm/s. That means that this is the *limit* for the retraction speed also! See the following section for more informations about it.
+
+**Default Max Acceleration** (change/s) change = mm/s (Maximum start speed for accelerated moves): 500, 500, 100, 500 -> you can override them with `M201`
+  
+The **default acceleration settings** (change/s) change = mm/s are:  
+- X, Y, Z and E acceleration for printing moves: 500 -> you can override them with `M204 P`  
+- E acceleration for retracts: 500 -> you can override that with `M204 R`  
+- X, Y, Z acceleration for travel (non printing) moves: 1000 -> you can override that with `M204 T`  
+    
+#### Retraction Speed Limited to 25mm/s
+So in case you were trying to find the optimum retraction speed and therefore printing retraction towers and wondered why there wasn't any real difference between e.g. 30mm/s, 40mm/s and 50mm/s, the reason is simple - they just didn't apply!  
+  
+Yes, you've read correct: the retraction speed you set at your slicer got ignored in case it was higher than 25mm/s, because 25mm/s is the limit for the feed rate which is set in the firmware.  
+Kinda 'sweet', isn't it? I know what you're thinking right now, I thought the same.. ;)  
+
+So in case you want or need to set this value higher (do at your own rsik though!), see the expandable box below.
+  
 ??? example "Setting a Higher Maximum Value for Retraction Speed"  
 
     If you want to set a higher maximum value for the retraction speed, you can do it as in the following description (do at your own risk though!).  
@@ -812,18 +829,8 @@ The default settings for X, Y, Z, E0 are:
       Recv: echo:  M203 X300.00 Y300.00 Z4.00 E50.00
       ``` 
       Now you can start trying to find the best retraction speed that may be above 25mm/s by printing retraction towers. 
-  
-
-**Default Max Acceleration** (change/s) change = mm/s (Maximum start speed for accelerated moves): 500, 500, 100, 500 -> you can override them with `M201`
-  
-The **default acceleration settings** (change/s) change = mm/s are:  
-- X, Y, Z and E acceleration for printing moves: 500 -> you can override them with `M204 P`  
-- E acceleration for retracts: 500 -> you can override that with `M204 R`  
-- X, Y, Z acceleration for travel (non printing) moves: 1000 -> you can override that with `M204 T`  
     
-#### Linear Advance  
-The useful function "Linear Advance" is NOT activated!  
-This seems to be due to the fact that (afaik) there's some kind of problem with Marlin firmware versions before v2.1 and TMC2208 stepper drivers.    
+       
 #### Babystepping Z-Axis
 As we can see from above, the babysteps for manual controling the z-axis using the control unit are 0.025mm. That means that e.g. if we want to set the offset using the control unit, each step will be *displayed* as 0.02mm but *in fact* it is 0.025mm! Means, that e.g. you lower the z-axis or the z-axis offset two steps, it will be displayed as 0.04mm but in fact it will be 0.05mm. This might not appear important at first sight, but as that sums up the higher the value becomes which you set using the control unit, the higher the deviation will be.  
 
@@ -833,6 +840,9 @@ Suddenly it didn't fit anymore at all.
 I had no clue what was going on there and whatever I tried, nothing gave me reliable and repeatable results.  
 At the end I made a shorter piece of metal for triggering the limit switch later and therefore getting the nozzle closer to the bed. But when I found out that the display just shows 0.02mm steps while in fact 0.025mm steps were executed, the weird behaviour mentioned before somehow did made sense..
   
+#### Linear Advance  
+The useful function "Linear Advance" is NOT activated!  
+This seems to be due to the fact that (afaik) there's some kind of problem with Marlin firmware versions before v2.1 and TMC2208 stepper drivers. 
    
 ---  
   
