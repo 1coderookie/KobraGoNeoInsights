@@ -294,6 +294,8 @@ DISPLAY
 #define TFT_RES_320x240  // TFT Resolution.
 #define TFT_COLOR_UI  // Marlin Default Menus, Touch Friendly, using full TFT capabilities
 ```
+<details>
+  <summary>Most important (imho) settings for GO from Configuration_adv.h (v1.3.4)</summary>
   
 ``` title="Most important (imho) settings for GO from Configuration_adv.h (v1.3.4)"
 Thermal Protection / Thermal Runaway -> Hotend:
@@ -362,8 +364,8 @@ Advanced Pause (Experimental feature for filament change support and for parking
 
   #define PARK_HEAD_ON_PAUSE                      // Park the nozzle during pause and filament change.
 ```
-
-
+</details>
+  
 ### Neo
 The following represents the state of February 2023 and firmware version 1.3.3.  
 You can find the files `Configuration.h`and`Configuration_adv.h` here: [https://github.com/ANYCUBIC-3D/Kobra_Neo/tree/master/source/Marlin](https://github.com/ANYCUBIC-3D/Kobra_Neo/tree/master/source/Marlin)
