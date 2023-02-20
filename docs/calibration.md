@@ -25,7 +25,7 @@ As a crucial element for great printing results you need to find the right retra
 
 There is a problem though: the retraction speed is limited in the firmware by default to *25mm/s*! This means that every higher value you set in your sclicer will just be ignored and reduced to 25mm/s as that's the encoded limit.   
 
-However, there is a way you can change the default setting. Please check out the chapter [Stock Firmware (Marlin Based)](../firmware/fw_marlin.md) and there the section "Limited Retraction Speed" for your specific model.  
+However, there is a way you can change the default setting. Please check out the chapter [Stock Firmware (Marlin Based)](firmware/fw_marlin.md) and there the section "Limited Retraction Speed" for your specific model.  
   
 ## PID Tuning
 Without going into too much details here, PID stands for Proportion, Integral and Derivate. These are three variables of an algorith which is supposed to keep the temperature stable.  
