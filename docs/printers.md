@@ -19,7 +19,8 @@ See [Anycubic's support page](https://www.anycubic.com/pages/firmware-software) 
   
 The following list gives an overview of the most important specifications:    
   
-- Printing dimensions: 250 x 220 x 220 mm (HxWxD)  
+- Printing dimension: 250 x 220 x 220 mm (HxWxD) 
+- Printing platform: 8.7 x 8.7inches / 220 x 220mm (**Attention:** actually, the *real* size of the bed and the plate is 230x230mm - I have no idea why Anycubic states it's 220 x 220mm in their official specs..) 
 - Machine dimensions: 490 x 445 x 443 mm (plus filament holder mounted to the upper frame = approx. 630 mm height) 
 - Machine weight: approx. 7.5 kg  
 - Aluminum frame  
