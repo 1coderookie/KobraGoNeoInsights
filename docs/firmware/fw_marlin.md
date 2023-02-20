@@ -732,7 +732,7 @@ The **default acceleration settings** (change/s) change = mm/s are:
 - E acceleration for retracts: 500 -> you can override that with `M204 R`  
 - X, Y, Z acceleration for travel (non printing) moves: 1000 -> you can override that with `M204 T`   
 
-#### Retraction Speed Limited to 25mm/s
+#### Limited Retraction Speed
 So in case you were trying to find the optimum retraction speed and therefore printing retraction towers and wondered why there wasn't any real difference between e.g. 30mm/s, 40mm/s and 50mm/s, the reason is simple - they just didn't apply!  
   
 Yes, you've read correct: the retraction speed you set at your slicer got ignored in case it was higher than 25mm/s, because 25mm/s is the limit for the feed rate which is set in the firmware.  
@@ -803,7 +803,7 @@ The **default acceleration settings** (change/s) change = mm/s are:
 - E acceleration for retracts: 500 -> you can override that with `M204 R`  
 - X, Y, Z acceleration for travel (non printing) moves: 1000 -> you can override that with `M204 T`  
     
-#### Retraction Speed Limited to 25mm/s
+#### Limited Retraction Speed
 So in case you were trying to find the optimum retraction speed and therefore printing retraction towers and wondered why there wasn't any real difference between e.g. 30mm/s, 40mm/s and 50mm/s, the reason is simple - they just didn't apply!  
   
 Yes, you've read correct: the retraction speed you set at your slicer got ignored in case it was higher than 25mm/s, because 25mm/s is the limit for the feed rate which is set in the firmware.  
