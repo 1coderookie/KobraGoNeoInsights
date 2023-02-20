@@ -767,7 +767,7 @@ So in case you want or need to set this value higher (do at your own rsik though
         Recv: echo:; Maximum feedrates (units/s):
         Recv: echo:  M203 X300.00 Y300.00 Z4.00 E50.00
         ``` 
-      Now you can start trying to find the best retraction speed that may be above 25mm/s by printing retraction towers. 
+    Now you can start trying to find the best retraction speed that may be above 25mm/s by printing retraction towers. 
 
 #### Babystepping Z-Axis
 As we can see from above, the babysteps for manual controling the z-axis using the control unit are 0.025mm. That means that e.g. if we want to set the offset using the control unit, each step will be *displayed* as 0.02mm but *in fact* it is 0.025mm! Means, that e.g. you lower the z-axis or the z-axis offset two steps, it will be displayed as 0.04mm but in fact it will be 0.05mm. This might not appear important at first sight, but as that sums up the higher the value becomes which you set using the control unit, the higher the deviation will be.  
@@ -840,7 +840,7 @@ So in case you want or need to set this value higher (do at your own rsik though
         Recv: echo:; Maximum feedrates (units/s):
         Recv: echo:  M203 X300.00 Y300.00 Z4.00 E50.00
         ``` 
-      Now you can start trying to find the best retraction speed that may be above 25mm/s by printing retraction towers. 
+    Now you can start trying to find the best retraction speed that may be above 25mm/s by printing retraction towers. 
     
        
 #### Babystepping Z-Axis
