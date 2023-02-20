@@ -20,6 +20,12 @@ There are many sites and tutorials to find which are about calibration, so you m
 - [Elli's Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/) made by @[AndrewEllis93](https://github.com/AndrewEllis93)
 - [All3DP's article "Extruder Calibration: How to Calibrate E-Steps"](https://all3dp.com/2/extruder-calibration-6-easy-steps-2/)
 
+## Retraction Speed
+As a crucial element for great printing results you need to find the right retraction distance and retraction speed. Therefore you'll probably already downloaded and printed retraction towers - which is fine.  
+
+There is a problem though: the retraction speed is limited in the firmware by default to *25mm/s*! This means that every higher value you set in your sclicer will just be ignored and reduced to 25mm/s as that's the encoded limit.   
+
+However, there is a way you can change the default setting. Please check out the chapter [Stock Firmware (Marlin Based)](../firmware/fw_marlin.md) and there the section "Limited Retraction Speed" for your specific model.  
   
 ## PID Tuning
 Without going into too much details here, PID stands for Proportion, Integral and Derivate. These are three variables of an algorith which is supposed to keep the temperature stable.  
