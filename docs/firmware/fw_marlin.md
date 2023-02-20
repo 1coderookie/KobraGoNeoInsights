@@ -24,7 +24,7 @@ Shut down the printer again and take out the card (push it in a bit to unlock it
 Turn on the printer again, go to "Menu" and then "About" and check if the correct firmware version is displayed.  
 If so, everything is fine. If not, check if you really copied the correct version onto the card and proceed the update again.   
    
-## Settings 
+## Default Settings 
 In the following I'll list the (imho) most important settings from the `../source/Marlin/Configuration.h` and `../source/Marlin/Configuration_adv.h`. You can find these files at the GitHub repositories for the specific model (see links below).  
    
 ### Go  
