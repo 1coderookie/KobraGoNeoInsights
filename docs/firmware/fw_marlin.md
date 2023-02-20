@@ -28,7 +28,16 @@ If so, everything is fine. If not, check if you really copied the correct versio
 In the following I'll list the (imho) most important settings from the `../source/Marlin/Configuration.h` and `../source/Marlin/Configuration_adv.h`. You can find these files at the GitHub repositories for the specific model (see links below).  
    
 ### Go  
-Sorry, I didn't prepare it yet, but most of the settings are the same as at the **Neo**, so you might want to look into that.  
+You can find the files here: [https://github.com/ANYCUBIC-3D/Kobra_Go](https://github.com/ANYCUBIC-3D/Kobra_Go)   
+  
+Sorry, I didn't prepare a 'summarization' like for the **Neo** yet, but most of the settings are the same as at the **Neo**, so you might want to look into that. The only "real" differences I noticed at a first glance are:  
+``` title="Most important settings from ../source/Marlin/Configuration.h" linenums="1"
+Movement settings: X, Y, Z, E0
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 103 } // Default Axis Steps Per Unit (steps/mm); Override with M92
+--
+Default Acceleration (change/s) change = mm/s; Override with M204: M204 P = Acceleration / M204 R = Retract Acceleration / M204 T = Travel Acceleration
+#define DEFAULT_TRAVEL_ACCELERATION   1000    // X, Y, Z acceleration for travel (non printing) moves
+```
 
 ### Neo
 You can find the files here: [https://github.com/ANYCUBIC-3D/Kobra_Neo](https://github.com/ANYCUBIC-3D/Kobra_Neo)
@@ -396,7 +405,7 @@ The default settings for X, Y, Z, E0 are:
       Now you can start trying to find the best retraction speed that may be above 25mm/s by printing retraction towers. 
   
 
-**Default Max Acceleration** (change/s) change = mm/s (Maximum start speed for accelerated moves): 500, 500, 100, 500 (Neo) / 1000 (Go) -> you can override them with `M201`
+**Default Max Acceleration** (change/s) change = mm/s (Maximum start speed for accelerated moves): 500, 500, 100, 1000 -> you can override them with `M201`
   
 The **default acceleration settings** (change/s) change = mm/s are:  
 - X, Y, Z and E acceleration for printing moves: 500 -> you can override them with `M204 P`  
@@ -453,7 +462,7 @@ The default settings for X, Y, Z, E0 are:
       Now you can start trying to find the best retraction speed that may be above 25mm/s by printing retraction towers. 
   
 
-**Default Max Acceleration** (change/s) change = mm/s (Maximum start speed for accelerated moves): 500, 500, 100, 500 (Neo) / 1000 (Go) -> you can override them with `M201`
+**Default Max Acceleration** (change/s) change = mm/s (Maximum start speed for accelerated moves): 500, 500, 100, 500 -> you can override them with `M201`
   
 The **default acceleration settings** (change/s) change = mm/s are:  
 - X, Y, Z and E acceleration for printing moves: 500 -> you can override them with `M204 P`  
