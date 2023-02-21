@@ -8,22 +8,24 @@ In the following I'll list those kind of parts I personally would suggest to sto
 However, it does make sense to check whether it's cheaper to get certain parts on their own or to buy a complete spare part. As an example I'd mention the parts of the printhead here. If you'll get the fans, the thermistor, cartridge heater, heater block, hotend etc. as individual parts it most likely makes more sense to get yourself a complete new printhead as a spare part right away. Of course you still should get nozzles and silicone socks anyway, but if you'd have to pay pretty much the same or even more for some individual parts as for a complete printhead, why should you buy individual parts then? Remember that the whole printhead also includes the feeder gear, the plastic cover, the metal plate, the stepper motor and so on. Anyway - even though it most likely makes more sense to buy a complete printhead to have all the parts stocked, I'll list the imho most important parts from that device also individually.  
 
 Consumables which you'll definitely need:  
-- Nozzles
-- PTFE tube / bowden tube plus couplings
-- Silicone socks
-- V-slot wheels
-- Anti-backlash nuts
+
+  - Nozzles
+  - PTFE tube / bowden tube plus couplings
+  - Silicone socks
+  - V-slot wheels
+  - Anti-backlash nuts
   
-Good to have because they will most likely fail when you really need the printer: 
-- Thermistor
-- Cartridge heater
-- Heater block 
-- Heatbreak 
-- Hotend
-- Belts
-- Heatsink fan / hotend fan
-- Part cooler fan
-- Part cooler fan duct
+Good to have because they will most likely fail when you really need the printer:  
+
+  - Thermistor
+  - Cartridge heater
+  - Heater block 
+  - Heatbreak 
+  - Hotend
+  - Belts
+  - Heatsink fan / hotend fan
+  - Part cooler fan
+  - Part cooler fan duct
 
 Of course you can also stock motors, a lead screw, a mainboard, a power supply unit, a control unit and so on, but in case something like that breaks you might also have other, more severe problems. Due to the fact that those parts aren't the cheapest ones to get, you probably want to get them at the time you need them.      
   
