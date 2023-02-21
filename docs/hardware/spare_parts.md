@@ -11,7 +11,7 @@ Anyway - even though it most likely makes more sense to buy a complete printhead
 Consumables which you'll definitely need:  
 
   - Nozzles
-  - PTFE tube / bowden tube plus couplings
+  - PTFE tubes (Neo) / bowden tube plus couplings (Go)
   - Silicone socks
   - V-slot wheels
   - Anti-backlash nuts
