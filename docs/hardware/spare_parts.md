@@ -2,19 +2,19 @@
 
 # Spare Parts
 
-## Which Spare Parts to Stock
+## Spare Parts to Stock
 In the following I'll list those kind of parts I personally would suggest to stock. I'll mostly list parts which aren't that expensive and pretty much known to fail sooner or later. Some of them count as consumables (like nozzles or v-slot wheels for example) and I highly recommend to have at least one or two items of them on stock, others are parts which are nice to have to be on the safe side if anything breaks.    
   
 However, it does make sense to check whether it's cheaper to get certain parts on their own or to buy a complete spare part. As an example I'd mention the parts of the printhead here. If you'll get the fans, the thermistor, cartridge heater, heater block, hotend etc. as individual parts it most likely makes more sense to get yourself a complete new printhead as a spare part right away. Of course you still should get nozzles and silicone socks anyway, but if you'd have to pay pretty much the same or even more for some individual parts as for a complete printhead, why should you buy individual parts then? Remember that the whole printhead also includes the feeder gear, the plastic cover, the metal plate, the stepper motor and so on.  
 Anyway - even though it most likely makes more sense to buy a complete printhead to have all the parts stocked, I'll list the imho most important parts from that device also individually.  
 
-Consumables which you'll definitely need:  
+Consumables which you'll definitely need (sooner or later):  
 
-  - Nozzles
-  - PTFE tubes (Neo) / bowden tube plus couplings (Go)
-  - Silicone socks
-  - V-slot wheels
-  - Anti-backlash nuts
+  - Nozzle
+  - PTFE tube (Neo) / bowden tube plus couplings (Go)
+  - Silicone sock
+  - V-slot wheel
+  - Anti-backlash nut
   
 Good to have because they will most likely fail when you really need the printer:  
 
