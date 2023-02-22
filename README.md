@@ -1,7 +1,10 @@
+## Please visit the GitHub pages:  
 # [KobraGoNeo Insights](https://1coderookie.github.io/KobraGoNeoInsights/)
+
+<!---
+
 Informations, tips, tweaks and mods about and for the 3D FDM printer Anycubic Kobra Go and Neo to get off better from the start.
   
----
   
 **Hi and welcome to my little page about the Anycubic Kobra Go and Kobra Neo.**  
   
@@ -16,3 +19,4 @@ You don't necessarily need a GitHub account for it if you don't want to register
 |:-----------|
 | All informations, tips, instructions, suggestions, mods and so on which could be found here should be considered as a base for your own further research, especially because I'm NO expert by all means! <br> It can't be guaranteed that everything is correct and that it wouldn't harm your printer or even yourself! <br> So please be aware of the fact that you use everything at your own risk! <br> I'm not responsible in any way if any damage occurs! <br> Neither am I resposible for any content that I've linked to as a further source of informations! |   
 
+-->
