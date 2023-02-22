@@ -1,12 +1,12 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
-**Hi and welcome to my little page about the 3D FDM printers "Kobra Go" and "Kobra Neo" from Anycubic.**   
+**Welcome to my page about Anycubic's "Kobra Go" and "Kobra Neo" 3D FDM printers.**   
   
 I am a newbie to 3D printing and got a **Kobra Neo** from a friend of mine. As it came with some problems and needed a bit of tinker love, I was trying to find informations and tips specifically about the **Neo** - it turned out that it wasn't an easy mission as it's pretty new to the Kobra family. So I thought it might be a good idea to document my tinkering and collect informations and tips about the **Go** and **Neo** (as they are basically the same) to facilitate other newbies like me an easier start right away.   
   
-??? question "Want to contribute?"  
+??? question "Want to Contribute?"  
 
-    If you'd like to contribute - please let me know, I'd highly appreciate it.  Either if you did any mods and documentated them, have certain tips, stumbled upon useful informations across the web or want to contribute by *taking certain pictures from the* ***Go*** - anything is welcome. <br> You don't necessarily need a GitHub account for it - just send me an email to  <br> `3dneo (at) quantentunnel.de` <br> and we'll figure something out. <br> *Thank you!* 
+    You did e.g. any mods and documentated them, have certain tips or stumbled upon useful informations across the web and would like to contribute? Just send me an email (address can be found below in the footer), thanks! 
   
 *If you find this page useful, please consider recommending it to others. This will make the community aware of this page and help other users.*  
 *Thank you!*  
@@ -16,7 +16,7 @@ I am a newbie to 3D printing and got a **Kobra Neo** from a friend of mine. As i
 ??? info "Thanks to the Contributers!"
 
     - Thanks to reddit member **[I_Sells_Drugs](https://www.reddit.com/user/I_Sells_Drugs/)** for taking pictures of his sheared off heatbreak!
-    - Thanks to **Anthony** for disassembling the printhead of the **Go** and taking all the pictures!  
+    - Thanks to **Anthony** for disassembling the printhead of the **Go** and the feeder gear system of the **Neo** and taking all the pictures!  
   
 !!! warning "Disclaimer"
 
