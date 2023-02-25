@@ -38,7 +38,7 @@ theme:
     # - header.autohide
     - navigation.expand
     - navigation.footer
-    # - navigation.indexes
+    - navigation.indexes
     # - navigation.instant
     - navigation.path
     # - navigation.prune
@@ -51,7 +51,7 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-    - toc.integrate
+    # - toc.integrate
   palette:
     - scheme: default
       primary: brown
@@ -127,7 +127,7 @@ nav:
   - Home: 'index.md'
   - The Printers: 'printers.md'
   - Hardware: 
-    - Introduction: 'hardware/hw_index.md'
+    - 'hardware/index.md'
     - Control Panel: 'hardware/control_panel.md'
     - Mainboard: 'hardware/mainboard.md'
     - Printhead: 'hardware/printhead.md'
