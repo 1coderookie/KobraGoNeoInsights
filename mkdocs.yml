@@ -2,7 +2,7 @@
 site_name: KobraGoNeo Insights
 site_url: https://1coderookie.github.io/KobraGoNeoInsights/
 site_author: Ulf Dieckmann
-site_description: Comprehensive informations about Anycubic Kobra Go and Kobra Neo 3D FDM printers.
+site_description: Comprehensive informations about Anycubic Kobra Go and Kobra Neo (3D FDM printers).
 
 # Repository
 repo_name: 1coderookie/KobraGoNeoInsights
@@ -127,7 +127,7 @@ nav:
   - Home: 'index.md'
   - The Printers: 'printers.md'
   - Hardware: 
-    - Hardware: 'hardware/hw_index.md'
+    - 'hardware/index.md'
     - Control Panel: 'hardware/control_panel.md'
     - Mainboard: 'hardware/mainboard.md'
     - Printhead: 'hardware/printhead.md'
