@@ -127,7 +127,7 @@ nav:
   - Home: 'index.md'
   - The Printers: 'printers.md'
   - Hardware: 
-    - 'hardware/index.md'
+    - Introduction: 'hardware/hw_index.md'
     - Control Panel: 'hardware/control_panel.md'
     - Mainboard: 'hardware/mainboard.md'
     - Printhead: 'hardware/printhead.md'
