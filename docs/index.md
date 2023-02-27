@@ -1,6 +1,6 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
-**Welcome to my page about Anycubic's "Kobra Go" and "Kobra Neo" 3D FDM printers.**   
+**Welcome to my page about Anycubic's "Kobra Go" and "Kobra Neo".**   
   
 I am a newbie to 3D printing and got a **Kobra Neo** from a friend of mine. As it came with some problems and needed a bit of tinker love, I was trying to find informations and tips specifically about the **Neo** - it turned out that it wasn't an easy mission as it's pretty new to the Kobra family. So I thought it might be a good idea to document my tinkering and collect informations and tips about the **Go** and **Neo** (as they are basically the same) to facilitate other newbies like me an easier start right away.   
   
@@ -15,8 +15,9 @@ I am a newbie to 3D printing and got a **Kobra Neo** from a friend of mine. As i
   
 ??? info "Thanks to the Contributers!"
 
-    - Thanks to reddit member **[I_Sells_Drugs](https://www.reddit.com/user/I_Sells_Drugs/)** for taking pictures of his sheared off heatbreak!
     - Thanks to **Anthony** for disassembling the printhead of the **Go** and the feeder gear system of the **Neo** and taking all the pictures!  
+    - Thanks to reddit member **[I_Sells_Drugs](https://www.reddit.com/user/I_Sells_Drugs/)** for taking pictures of his sheared off heatbreak!
+    - Thanks to reddit member **[the-transponster](https://www.reddit.com/user/the-transponster)** for allowing me to use the picture of his clumped hotend!  
   
 !!! warning "Disclaimer"
 
