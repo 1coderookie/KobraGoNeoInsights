@@ -99,12 +99,15 @@ This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom. Th
    
 ??? example "Lead Screw Maintenance"
 
-    - Make sure the coupler is mounted correctly and the screws are tightened. Check from time to time that the coupler didn't come loose somehow. 
-    - Make sure the rod is clean, there shouldn't stick debris or dirt on it as it could/would block the movement. 
-    - If you need to clean it, it's advisable to disassamble the whole rod system including the coupler and the anti-backlash nut. A detailed instruction with images about how to do so will come soon. 
-    - Spray e.g. WD-40 on the rod to loosen old sticky oil and debris. Then take a toothbrush or something like that for being able to reach the bottom of the thread also and clean it up. Make sure to not leave any particles from the anti-backlash nut or any dirt stuck on it. 
+    - Make sure the coupler is mounted correctly and the screws are tightened.  
+      Check from time to time that the coupler didn't come loose somehow. 
+    - Make sure the rod is clean, there shouldn't stick debris or dirt on it as it could/would block the movement. The following picture shows a partially clogged thread due to debris of the anti-backlash nut. <br> ![Debris in Thread](../assets/images/axes_dirty-thread_web.jpg) <br> In this case the motor was still able to move the rod across it, but you could notice a tiny jerk at that point.  
+    - If you need to clean it, it's advisable to disassamble the whole rod system including the coupler and the anti-backlash nut. The following picture shows the **Neo** where the coupler, rod and nut are dismounted. <br> ![Dismounted z-axis](../assets/images/axes_z-axis-dismounted_web.jpg)   
+    - Spray e.g. WD-40 on the rod to loosen old sticky oil and debris. Then take a toothbrush or something like that for being able to reach the bottom of the thread also and clean it up. Make sure to not leave any particles from the anti-backlash nut like shown in the picture below or any dirt stuck on it. <br> ![Debris](../assets/images/axes_POMdebris_web.jpg)
     - After this procedure, clean the WD-40 off of the rod by using e.g. car break cleaner or silicone remover spray. It'll wash off everything, you can also use an old cloth to wipe it (but make sure that no textile fibres will stick in the thread somehow). 
-    - After you cleaned and dried it, inspect it! Are there any dents in the thread or any kind of deformation that shouldn't be there? If so, it would be best to get a new lead screw and replace it.   
+    - After you cleaned and dried it, inspect the rod and the anti-backlash nut.  
+      Are there any dents in the thread or any kind of deformation that shouldn't be there? Is it really straight or is it somehow bent (roll it across a flat surface)? If so, it would be best to get a new lead screw and replace it.   
+      Is the anti-backlash nut worn out like in the picture shown below? If so, replace it, maybe use a brass one instead. <br> ![Worn out nut](../assets/images/axes_worn-nut_web.jpg)   
     - If everything is fine though and you want to mount the lead screw to the printer again, add a little lube to the rod. Don't be excessive here and drown it with oil - just use a tiny bit to make it glide better.  
     *Don't use WD-40 or grease which contains graphite or MoS2!*   
     I personally like to use PTFE spray first, let it dry and then put some synthetic lube on which is made for mountainbike chains as it uses to stick a bit better onto the metal. But every good medium to heavy synthetic machine oil will do the job just fine.  
@@ -120,14 +123,15 @@ This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom. Th
         People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
         As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait..  
   
-??? tip "Changing the Coupler"
+??? example "Changing the Coupler"
 
-    It might be a good idea to change the coupler as the one which comes with the printer doesn't compensate any misalignement of the motor shaft and the lead screw. So if they aren't in a perfect vertical alignment, it will result in shear forces, increased wear of the anti-backlash nut and even may cause jamming.  
-    If you want to change the coupler, you'll need to get a coupler which suits 5/8mm as the motor shaft is 5mm and the rod is 8mm in diameter. Make sure you *don't* get a coupler which uses a grub screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism so to say as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwn onto. Same goes for the lead screw itself. (Pictures are about to come soon.)  
+    It might be a good idea to change the coupler as the one which comes with the printer doesn't compensate any misalignement of the motor shaft and the lead screw. So if they aren't in a perfect vertical alignment, it will result in shear forces, increased wear of the anti-backlash nut and even may cause jamming. The following picture shows the stock coupler that is mounted. <br> ![Coupler](../assets/images/axes_stock-coupler_web.jpg)   
+    If you want to change the coupler, you'll need to get a coupler which suits 5/8mm as the motor shaft is 5mm and the rod is 8mm in diameter. Make sure you *don't* get a coupler which uses a grub screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism so to say as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwn onto. Same goes for the lead screw itself. (Picture about to come soon.)  
     
-??? tip "Changing the Anti-Backlash Nut"  
+??? example "Changing the Anti-Backlash Nut"  
 
-    If the anti-backlash nut that came with the printer is worn out, you don't necessarily have to buy the original spare part. Actually I personally would refuse to so so anyway because I personally don't really like the material of it and prefer brass nuts. Just make sure you get the right size and check the top of the nut which is mounted to the holder to make sure you'll get the right ones. (Pictures are about to come soon.)  
+    If the anti-backlash nut that came with the printer is worn out like shown in the picture below, you don't necessarily have to buy the original spare part. <br> ![Worn out nut](../assets/images/axes_worn-nut_web.jpg)  
+    Actually I personally would refuse to so so anyway because I personally don't really like the material of it (because it generates strings when wearing out like you can see in the picture above) and prefer brass nuts. Just make sure you get the right size (T8, 2mm pitch, 8mm lead) and check the top of the nut which is mounted to the holder to make sure you'll get the right ones. (Picture about to come soon.)  
     When you (re-)install the anti-backlash nut (whichever you get), make sure that you press both parts together when putting the lead screw in. There's a little spring between the upper and the lower part of the nut which is there to prevent the backlash. This spring needs to be pushed together during the installation, so that there's tension and both parts of that nut system are being pushed away from each other when installed.  
   
 ### V-Slot Wheels Position
