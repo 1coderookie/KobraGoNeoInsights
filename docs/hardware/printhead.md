@@ -232,7 +232,7 @@ The silicone sock that comes with the hotend insulates the heater block. Therefo
 
     The sock which comes with the printhead isn't the best one to use (in my opinion) as it seems to come off pretty easily. There are compatible V5 silicone socks at the aftermarket which I personally use and which I can highly recommend. They have a bigger lip which slips over the heater block and covers a bigger area of the top than the one which comes with the printer. Therefore they stay in place much better when they heat up and become more flexible.  
     
-The following pictures show the compatible one from the aftermarket on the left side and the stock sock on the right side.     
+The following pictures shows a V5 heater block compatible silicone sock from the aftermarket on the left side and the stock sock on the right side.     
   
 ![Silicone socks top view](../assets/images/silisocks_top_web.jpg)   
   
