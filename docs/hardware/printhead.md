@@ -221,7 +221,7 @@ Both the thermistor and the cartidge heater have to be plugged into the specific
       
 ??? info "Spare Part Heater Block"
 
-    If you need a new heater block, you can just get yourself a regular V5 compatible one. It might be smart to not get the cheapest one available as they sometimes lack of precision and therefore may cause problems with leaking filament. Usually the heater blocks are made of aluminum, but you can also get them made out of plated copper as shown in the following picture. <br> ![V5 plated copper](../assets/images/head_heaterblock-v5-copper_web.jpg)  
+    If you need a new heater block, you can just get yourself a regular V5 compatible one. It might be smart to not get the cheapest one available as they sometimes lack of precision and therefore may cause problems with leaking filament. Usually the heater blocks are made of aluminum, but you can also get them made of plated copper as shown in the following picture. <br> ![V5 plated copper](../assets/images/head_heaterblock-v5-copper_web.jpg)  
 
 ---   
   
