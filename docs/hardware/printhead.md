@@ -117,7 +117,7 @@ The hotend of the **Go** is shown in the next pictures. In the second picture yo
 
     If you need a new heatbreak, you should be able to use whichever V5 compatible heatbreak you'd like to use, you just have to pay attention to the dimensions. It should be about the same length as the stock one, so don't buy anything significantly shorter or longer. However, I personally would also suppose to pay attention to the a flat surface, so don't get yourself the ones with the thread on the outside.   
     Some people 'upgraded' to an all-metal heatbreak, which one should avoid though if only printing PLA as it may cause and increase clogging problems. So up to me always go with a heatbreak that uses a PTFE inliner all the way down to the nozzle in case you're only or mostly printing PLA.   
-    The following picture shows such a heatbreak from a third party manufacturer which I use in my **Neo**. <br> ![3rd party heatbreak](../assets/images/head_3rdparty-heatbreak.jpg)  
+    The following picture shows such a heatbreak from a third party manufacturer which I use in my **Neo**. <br> ![3rd party heatbreak](../assets/images/head_3rdparty-heatbreak_web.jpg)  
   
 ??? example "Large Clump of Melted Filament Built Up"
 
