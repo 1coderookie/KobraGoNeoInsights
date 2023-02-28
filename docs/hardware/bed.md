@@ -2,9 +2,9 @@
 
 # Bed
 Both of the printers have a heated and magnetic bed with the *physical* dimension of 230x230mm - even though Anycubic states in the official specs that the size is 220x220mm.  
-However, if you're looking for a plate from a third party company, you need to get yourself a 230x230mm plate, otherwise it'd be too small.  
+However, if you're looking for a plate from a third party company, you need to get yourself a 230x230mm plate, otherwise it would be too small.  
 
-It should reach about ≤230°F/110°C maximum and therefore it should be possible to successfully print ABS, PETG and TPU (by using a housing though) besides PLA.  
+The temperature of the bed should reach about ≤230°F/110°C maximum and therefore it should be possible to successfully print ABS, PETG and TPU (by using a housing though) besides PLA.  
 Both printers offer a 25-point automatic bed leveling which is called "Anycubic LeviQ".  
 
 ??? tip "Bed Leveling Function"
@@ -117,11 +117,10 @@ When you take a look underneath the bed itself, you'll spot a little foam piece 
 
 ??? tip "Spacers of the Bedmount"
 
-    If you find that the bed is not as flat or trimmed as it should be, it might be a good idea to disassemble it and check the four black spacers that connect the metal frame and the bed itself. Measure them with a slide gauge to see if they are really the same height!  
-    If they're not, either look for other spacers you might be using, put the stock ones on a flat surface with sandpaper and grind them down to one length or put washers or other suitable material of the needed thickness under them. Then execute another ABL using the "Bed Level Visualizer" plugin with OctoPrint to see the new values. From there you can try to get it as much trimmed as possible.  
-      
-    Just to give you an impression - the four spacers at my **Neo** had the following lenghts: 17.78mm, 17.88mm, 17.97mm, 18.11mm. Also the cut ends weren't perpendicular to the axes of those spacers.  
-    So it's not surprising that I was facing an unleveled bed - even if we'd assume that the gantry itself is completely flat (which I doubt, I did measured it with a spirit level and it seemed to be quite okay, but I didn't disassemble it because I didn't want to deal with the crimped belts) - it's just impossible to get a leveled bed plate with four spacers of different lengths. I searched my drawers and finally found four 'spacers' made of some kind of plastic as well (probably ABS). They were a bit bigger in the diameter and the length, but at least they seemed to be a bit more equal in the length: 19.88mm (shortest) to 19.90mm (longest) - so I gave them a try. Turned out that it got better, but I still had a deviation of more than 1mm to the right side with the worst value at the right hand corner at the back. So I added some gasked material (the sheets where you can cut out your own gaskets for engines and gearboxes and so on) of approximately the necessary thickness and now it's leveled pretty well. i still do have a deviation from the outside to the insoide though, but that might be due to a warped bed in general and can't be solved by myself. So I'll stick with that for now and try to let the firmware do the math of those ABL values to compensate it during printing.  
+    If you find that the bed is not as flat or trimmed as it should be, it might be a good idea to disassemble it and check the four black spacers that connect the metal y-axis gantry and the bed itself. Measure them with a slide gauge to see if they are really the same height.  
+    If they're not, either look for other spacers you might be using, put the stock ones on a flat surface with sandpaper and grind them down to one length or put washers or other suitable material (e.g. gasket material) of the needed thickness under them. Then execute another ABL and compare the new values. From there you can try to get it as much trammed as possible.  
+    Some people mount springs instead of spacers which seems to be a good idea at first sight. However, as springs are made from metal which underlies the temperature changes of the heated bed, it'll most likely be necessary to check the level once in a while. You also need to make sure that the bolt can't tunr itself loose due to the vibration. Another downside (imho) is, that the springs are pretty long and therefore you either have to use longer screws and/or have to tighten the screws pretty much to compress the springs. This can force warping again though as it puts more stress on the four points where the bed is mounted. So I personally would suggest to use silicone spacers of about the same length as the original spacers, but which also can be compressed a few milimeters to level the bed. The following picture shows the stock spacers on the left, springs in te middle and silicone spacers on the right. <br> ![Spacers](../assets/images/bed_different-spacers_web.jpg) 
+            
   
 ??? tip "Check the Screws of the Bedplate and the Gantry of the Bed"
 
