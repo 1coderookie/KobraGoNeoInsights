@@ -111,7 +111,13 @@ The hotend of the **Go** is shown in the next pictures. In the second picture yo
     
 ??? tip "Spare Part PTFE Tube"
 
-    If you need a new PTFE tube I'd recommend to get the 4mm "Capricorn XS" tube at the length of 1m. Then just cut the belonging length and replace the old part.      
+    If you need a new PTFE tube I'd recommend to get the 4mm "Capricorn XS" tube for 1.75mm filament at the length of 1m. Then just cut the belonging length and replace the old PTFE tube. You can also get it in a set with a cutter. However, make sure you make a clean cut at a 90° to avoid any small gaps between the nozzle and the end of the tube! <br> ![Capricorn XS](../assets/images/head_capricornXS_web.jpg)     
+    
+??? tip "Spare Part Heatbreak"
+
+    If you need a new heatbreak, you should be able to use whichever V5 compatible heatbreak you'd like to use, you just have to pay attention to the dimensions. It should be about the same length as the stock one, so don't buy anything significantly shorter or longer. However, I personally would also suppose to pay attention to the a flat surface, so don't get yourself the ones with the thread on the outside.   
+    Some people 'upgraded' to an all-metal heatbreak, which one should avoid though if only printing PLA as it may cause and increase clogging problems. So up to me always go with a heatbreak that uses a PTFE inliner all the way down to the nozzle in case you're only or mostly printing PLA.   
+    The following picture shows such a heatbreak from a third party manufacturer which I use in my **Neo**. <br> ![3rd party heatbreak](../assets/images/head_3rdparty-heatbreak.jpg)  
   
 ??? example "Large Clump of Melted Filament Built Up"
 
@@ -166,9 +172,17 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
     - *Remember to execute a PID tuning after changing the thermistor and/or the cartridge heater!*  
     - However, scroll down and check out the "Disassembling" section below to see how to dis- and reassemble it. *Maybe you don't need new parts, so try to clean up everything first and reassemble it before ordering new parts right away.*  
     
+    Besides the stock hotend you can also just get or build yourself a hotend by using a V5 compatible heatbreak and heater block which fits just fine. The following picture shows a hotend I built myself from third party manufacturer parts: a regular heatbreak for V5 compatible heater blocks where the PTFE inliner moves all the way down to the nozzle (so it's *not* a full-metal heatbreak as I use to print PLA/PLA+ only right now), a V5 compatible heater block made of plated copper and a Capricorn XS PTFE tube. <br> ![3rd party hotend](../assets/images/head_3rdparty-hotend_web.jpg)  
+    
 ??? tip "Spare Part PTFE Tube"
 
-    If you need a new PTFE tube I'd recommend to get the 4mm "Capricorn XS" tube at the length of 1m. Then just cut the belonging length and replace the old part.  
+    If you need a new PTFE tube I'd recommend to get the 4mm "Capricorn XS" tube for 1.75mm filament at the length of 1m. Then just cut the belonging length and replace the old PTFE tube. You can also get it in a set with a cutter. However, make sure you make a clean cut at a 90° to avoid any small gaps between the nozzle and the end of the tube! <br> ![Capricorn XS](../assets/images/head_capricornXS_web.jpg)  
+  
+??? tip "Spare Part Heatbreak"
+
+    If you need a new heatbreak, you should be able to use whichever V5 compatible heatbreak you'd like to use, you just have to pay attention to the dimensions. It should be about the same length as the stock one, so don't buy anything significantly shorter or longer. However, I personally would also suppose to pay attention to the a flat surface, so don't get yourself the ones with the thread on the outside.   
+    Some people 'upgraded' to an all-metal heatbreak, which one should avoid though if only printing PLA as it may cause and increase clogging problems. So up to me always go with a heatbreak that uses a PTFE inliner all the way down to the nozzle in case you're only or mostly printing PLA.   
+    The following picture shows such a heatbreak from a third party manufacturer which I use in my **Neo**. <br> ![3rd party heatbreak](../assets/images/head_3rdparty-heatbreak_web.jpg)    
   
 ??? example "Large Clump of Melted Filament Built Up"
 
@@ -205,23 +219,30 @@ Both the thermistor and the cartidge heater have to be plugged into the specific
 
     If you need to replace the thermistor and/or the cartridge heater, *make sure you don't overtighten the screws as it could harm both the thermistor and the heater cartridge!* Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo**. <br> ![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)  
       
+??? info "Spare Part Heater Block"
+
+    If you need a new heater block, you can just get yourself a regular V5 compatible one. It might be smart to not get the cheapest one available as they sometimes lack of precision and therefore may cause problems with leaking filament. Usually the heater blocks are made of aluminum, but you can also get them made out of plated copper as shown in the following picture. <br> ![V5 plated copper](../assets/images/head_heaterblock-v5-copper_web.jpg)  
 
 ---   
   
 ## Silicone Sock
-The silicone sock isolates the heater block. Therefore it should stay in place and shouldn't come off, as it may cause the "thermal runaway" error.  
-The sock which comes with the printhead isn't the best one to use (in my opinion) as it seems to come off pretty easily. There are compatible V5 silicone socks at the aftermarket which I personally use and which I can highly recommend. They have a bigger lip which slips over the heater block and covers a bigger area of the top than the one which comes with the printer. Therefore they stay in place much better when they heat up and become more flexible.  
+The silicone sock that comes with the hotend insulates the heater block. Therefore it should stay in place and shouldn't come off, as it may cause the "thermal runaway" error.  
+  
+??? tip "Spare Part Silicone Sock"  
+
+    The sock which comes with the printhead isn't the best one to use (in my opinion) as it seems to come off pretty easily. There are compatible V5 silicone socks at the aftermarket which I personally use and which I can highly recommend. They have a bigger lip which slips over the heater block and covers a bigger area of the top than the one which comes with the printer. Therefore they stay in place much better when they heat up and become more flexible.  
+    
 The following pictures show the compatible one from the aftermarket on the left side and the stock sock on the right side.     
   
 ![Silicone socks top view](../assets/images/silisocks_top_web.jpg)   
   
-Additionaly, they also cover and therefore isolate the base of the nozzle - something that the stock ones don't do at all.  
+Additionaly, the ones from the aftermarket also cover and therefore insulate the base of the nozzle - something that the stock ones don't do at all.  
   
 ![Silicone socks bottom view](../assets/images/silisocks_bottom_web.jpg)  
   
-??? tip
+??? tip "What to Search For" 
 
-    If you read the above and still don't know what you should look or search for, search for "silicone sock V5" for example as these socks are for a V5 heater block. You can get them pretty much everywhere, so if you use to shop at Amazon or ebay for example, you'll find many offers which are pretty much the same at the end. <br> Just make sure that you're **not** getting the ones for a V6 heater block! You can also diffenrentiate them by already looking at the shape: the wrong ones for the V6 are more flat on one side, the *correct ones* for the V5 *are cubic*, so they are shaped like a dice* as you can see at the pictures above.  
+    If you read the above and still don't know what you should look or search for, search for "silicone sock V5" for example as these socks are for a V5 heater block. You can get them pretty much everywhere, so if you use to shop at Amazon or ebay for example, you'll find many offers which are pretty much the same at the end. <br> Just make sure that you're **not** getting the ones for a V6 or a volcano heater block! You can also diffenrentiate them by already looking at the shape: the wrong ones for the V6 are more flat on one side, the *correct ones* for the V5 are more *cubic* as you can see at the pictures above.  
   
 ---  
   
