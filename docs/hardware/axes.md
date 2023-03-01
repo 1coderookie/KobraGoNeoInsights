@@ -101,7 +101,7 @@ This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom. Th
 
     If you need to dis- and reassemble assemble the z-axis lead screw system, there are a few things that one should be aware of. Besides that, the necessary steps are pretty easy and self-explaing, so I'll go over them just really quick.  
     
-    **Disassembling:**
+    **Disassembling:**  
     - First, you should somehow fixate the gantry of the x-axis to get the load off of the lead screw. You can do so by e.g. putting two soupcans onto the bed, each on one side (left/right) and then lower the gantry until it rests onto them. Or you can move the gantry up and fixate it with some velcro straps or cable ties as shown in the picture below. <br> ![Parked x-axis gantry](../assets/images/axes_x-gantry-cableties_web.jpg)  
     - Now unplug the cable from the stepper motor, just to be on the safe side. The printer itself is also switched off of course.  
     - Loosen the two screws at the coupler which conects the motor shaft and the lead screw. 
@@ -109,7 +109,7 @@ This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom. Th
       If you fixated the x-axis gantry at the top like shown in the picture above, you can also just screw the lead screw a bit higher into the anti-backlash nut so that it comes out of the coupler and then you just dismount the anti-backlash nut from the holder at the frame. After that you can take out the lead screw with the nut still on and take off the nut then.  
     - Take off the coupler from the motor shaft as well for being able to inspect everything.  
     
-    **Reassembling:**
+    **Reassembling:**  
     - To reassemble everything, just follow your steps backwards.   
     However, there are a few things you should pay attention to now:  
     - Make sure the motor shaft and the bottom tip of the lead screw are free of oil or grease to avoid slipping of the coupler.  
