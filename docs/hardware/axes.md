@@ -133,8 +133,7 @@ This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom. Th
     If the anti-backlash nut that came with the printer is worn out like shown in the picture below, you should look out for a new one. <br> ![Worn out nut](../assets/images/axes_worn-nut_web.jpg) <br> The nut shown at the picture above is still useable though as it still sits tight on the rod. However, sooner or later the debris will come off again and stick on the rod which may causes jams or stuttering of the z-axis movement.     
     If you find a spring tensioned anti-backlash nut made of brass, you can also use that. However, until now I didn't find one which fits the distance of the holes though.  
     When you (re-)install the anti-backlash nut, make sure that you press both parts together when putting the lead screw in. There's a little spring between the upper and the lower part of the nut which is there to prevent the backlash. This spring needs to be pushed together during the installation, so that there's tension and both parts of that nut system are being pushed away from each other when installed.  
-    When you screw the nut to the belonging part of the frame, I personally like to not tighten the screws up completely to allow a bit of a horizontal movement.  
-    
+        
     !!! tip "Oldham Coupler"
     
         If you find one that fits, you can mount an Oldham coupler additionally between the nut and the holder of the frame. That'll allow horizontal movement of the rod which avoids jamming, stuttering or banding caused by the z-axis.  
@@ -197,7 +196,7 @@ The following mods should fit both the **Go** and the **Neo** due to the mostly 
     So now let's place this cue on the edge of the table, so that only the bottom part lays on it. Again you place your hand somewhere in the middle and hold the cue tight, the end of the cue is just in the air.  
     So when your friend rotates the cue again at the bottom - what will happen? Exactly, the end of the cue will wiggle around and you won't feel the forces that strong anymore like before.  
     Now you and your friend still hold the cue at these positions, but both of you allow a tiny bit of movement, like you allow to move your arms just a tiny bit, following the movement of the cue. Again your friend rotates the cue at the bottom while the top of the cue can still wiggle around in the air. What will happen? Exactly, you as the 'anti-backlash nut' guy won't feel pretty much any forces or stuttering anymore.  
-    I know, using analogies isn't always a good idea to explain things, but I hope it became at least a bit more clear to you why (imho) the end of the lead screw shouldn't be rigidly fixed and why I suppose to use a flexible coupler at the bottom and an Oldham coupler (or at least not completely tightened screws) in the middle where the anti-backlash nut is mounted to the frame.   
+    I know, using analogies isn't always a good idea to explain things, but I hope it became at least a bit more clear to you why (imho) the end of the lead screw shouldn't be rigidly fixed and why I suppose to use a flexible coupler at the bottom and an Oldham coupler in the middle where the anti-backlash nut is mounted to the frame.   
   
     
 - Reddit member [DrumsticknDrumstick](https://www.reddit.com/user/DrumsticknDrumstick/) upgraded the z-axis of his **Neo** to a dual drive, the solution fits both the **Go** and the **Neo**: [Kobra neo/go dual Z mod](https://www.reddit.com/r/anycubic/comments/1083sr2/kobra_neogo_dual_z_mod/)  
