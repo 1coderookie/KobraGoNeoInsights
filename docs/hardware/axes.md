@@ -188,7 +188,7 @@ The following mods should fit both the **Go** and the **Neo** due to the mostly 
 - Some users stabilize the rod of the Z-axis by adding a top holder/aligner with a ball bearing in the center which sits on top of the lead screw and mount the holder to the gantry to eliminate wobbling of the lead screw. For doing so, they print a construction and add a ball bearing, there are different STL files available for this solution.  
   However, as much as it may seem useful at first sight, I personally vote against this. In my opinion it's better if the top of the lead screw can move freely to avoid putting extra pressure on the lead screw, the frame and associated parts - especially in this case where we don't have a high precision type of construction and parts. If the guidance at the top doesn't allow at least minimal movement, then this could result in shear forces and even in bending the lead screw itself which would cause jamming or banding caused by the z-axis, also the anti-backlash nut will mist likely wear out earlier.  
   
-  ??? note "Analogy to Fixed vs Free End of the Axis"
+      ??? note "Analogy to Fixed vs Free End of the Axis"
   
       The reason for this is quite simple, yet it seems that people aren't aware of it, so I'll try to explain it with an analogy.  
       Think of the z-axis lead screw like it's a pool cue which is curved like the really bad ones you have to play with in certain bars. So when you put the cue on the table and roll it - what happens? It'll bump and stutter, there won't be a smooth movement, right?  
