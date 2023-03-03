@@ -44,6 +44,42 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
   
 ---
 
+## X-Axis Gantry
+
+### V-Slot Wheels Position
+The x-axis gantry is moved along the z-axis aluminum profile driven by the z-axis lead screw, guided by v-slot wheels. They run in the v-slot of the z-axis profiles and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
+You can adjust the roller tension by turning the eccentric nut of the wheel which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though as the following picture shows, only the two wheels (one at each side) which are facing the inner side (towards the bed) do have an eccentric nut.  
+    
+![](../assets/images/x-axis_left-side-nut_web.jpg)
+  
+![](../assets/images/x-axis_knob_nut_web.jpg)
+  
+However, you might face the problem that you just can't get all of the three wheels at each side to touch the aluminum frame as they should. So if you need to adjust the position of the wheels using the eccentric nuts, you might encouter the problem that e.g. the inner wheel and the lower wheel on the outside may sit in the v-slot really nice, but that the third wheel (the upper one on the outside in this example) isn't even touching the aluminum and can be spinned in the air. Whatever you'll try with the eccentric nut of the wheel of the inside (because there's only this one), you won't be able to achieve that all of the three wheels touch the aluminum and sit in the slot like they should.  
+So - what to do?  
+Well, there's a trick, which directly leads us to the process of tramming the x-axis gantry in relation to the bed itself. Expand the box below to read about how to do so.  
+
+??? example "Tramming the X-Axis Gantry and Adjusting the Wheels"  
+
+    Take two parts of equal height like soupcans for example and place them onto the left and right side of the bed. Then lower the x-axis gantry until the aluminum frame of it rests onto the cans. Then loosen the two hexagon socket screws which are holding the Y-shaped metal plate (where the wheels are mounted onto, at the backside so to say) against the aluminum frame of the x-axis gantry. Dont take them out (!), just loosen them a bit.  
+    Now you can adjust the position of the wheels by using the eccentric nut again because now the metal plate can move a bit and you can adjust it's position towards the aluminum frame of the x-axis gantry. Adjust everything to the perfect position and then retighten the screws again. Now all of the wheels should touch the aluminum frame of the z-axis and the x-axis gantry should be as parallel to the bed as possible.     
+          
+
+??? example "V-Slot Wheels Maintenance"  
+
+    - As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
+    - After that, add some sythetic grease onto the aluminum profile where the wheels are running to reduce friction. 
+    - *Make sure you're not using WD-40 or grease which has graphite or MoS2 added!* 
+    - If you see debris building up pretty quick, it's most likely because the wheels are too close to the aluminum and therefore it's too much friction which leads to a quick wearout. So make sure the wheels are touching the aluminum but they shouldn't be too tight.
+    
+    !!! warning "Don't Use WD-40 for Lubrication"
+    
+        Do yourself a favour and *don't* use WD-40 for *lubrication* as it's *not* a lubricant and will harm your POM wheels by time!  
+        People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
+        As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait.. 
+
+
+---
+
 ## Y-Axis
 The Y-axis of both the **Go** and the **Neo** is belt driven (6mm wide). You can adjust the tension of the belt by using the knob at the front side of the aluminum profile where the bed is guided onto. The x-shaped plate for the bedmount itself has v-slot wheels which are running in the v-slot of the aluminum profile.  
 The following picture shows the aluminum profile of the y-axis with the knob for adjusting the belt tension at the front.   
@@ -87,8 +123,7 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
         Do yourself a favour and *never* use WD-40 for *lubrication* as it's *not* a lubricant and will harm your POM wheels by time!  
         People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
         As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait..    
-    
-    
+
 ---
 
 ## Z-Axis
@@ -158,41 +193,12 @@ This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom. Th
     
         If you find one that fits, you can mount an Oldham coupler additionally between the nut and the holder of the frame. That'll allow horizontal movement of the rod which avoids jamming, stuttering or banding caused by the z-axis.  
   
-### V-Slot Wheels Position
-The wheels are leading the x-axis gantry along the z-axis aluminum profile. They run in the V-slot of the z-axis profiles and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
-You can adjust the roller tension by turning the eccentric nut of the wheel which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though as the following picture shows, only the two wheels (one at each side) which are facing the inner side (towards the bed) do have an eccentric nut.  
-    
-![](../assets/images/x-axis_left-side-nut_web.jpg)
-  
-![](../assets/images/x-axis_knob_nut_web.jpg)
-  
-??? example "Adjusting the Wheels: Special 'Trick'"  
-
-    However, you might face the problem that you just can't get all of the three wheels at each side to touch the aluminum frame as they should. So if you need to adjust the position of the wheels using the eccentric nuts, you might encouter the problem that e.g. the inner wheel and the lower wheel on the outside may sit in the v-slot really nice, but that the third wheel (the upper one on the outside in this example) isn't even touching the aluminum and can be spinned in the air. Whatever you'll try with the eccentric nut of the wheel of the inside (because there's only this one), you won't be able to achieve that all of the three wheels touch the aluminum and sit in the slot like they should.  
-    So - what to do?  
-    Well, there's a trick: you have to loosen the two hexagon socket screws which are holding the Y-shaped metal plate (where the wheels are mounted onto, at the backside so to say) against the aluminum frame of the x-axis gantry. Dont take them out (!), just loosen them a bit. Then you can adjust the position of the wheels by using the eccentric nut again because now the metal plate can move a bit and you can adjust it's position towards the aluminum frame of the x-axis gantry.  
-    I suppose to level this x-axis gantry frame parallel to the bed - after tramming the bed first though. Take two parts of equal height like soupcans for example and place them onto the left and right side of the bed. Then lower the x-axis gantry until the aluminum frame of it rests onto the cans. Loosen the abovementioned screws, adjust everything to the perfect position and then retighten the screws again. Now everything should be as parallel to each other as possible.     
-
-??? example "V-Slot Wheels Maintenance"  
-
-    - As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
-    - After that, add some sythetic grease onto the aluminum profile where the wheels are running to reduce friction. 
-    - *Make sure you're not using WD-40 or grease which has graphite or MoS2 added!* 
-    - If you see debris building up pretty quick, it's most likely because the wheels are too close to the aluminum and therefore it's too much friction which leads to a quick wearout. So make sure the wheels are touching the aluminum but they shouldn't be too tight.
-    
-    !!! warning "Don't Use WD-40 for Lubrication"
-    
-        Do yourself a favour and *don't* use WD-40 for *lubrication* as it's *not* a lubricant and will harm your POM wheels by time!  
-        People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
-        As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait.. 
-  
-
-    
+      
 ---
 
 ## Endstop Switches
-The endstop switches are triggered when either axis reaches its limits.  
-So if you notice that e.g. the motor of the y axis doesn't stop when the bed reaches the end then you should check if the belonging switch is faulty. 
+The endstop switches are located at the *minimum* endposition of each axis and are triggered when either axis reaches its limit. The switches of the x- and y-axes are mechanical switches, the one at the z-axis is an optical switch.    
+So if you notice that e.g. the motor of the y-axis doesn't stop when the bed reaches the end then you should check if the belonging switch is faulty. 
 
 ??? example "Checking the Switches"
 
