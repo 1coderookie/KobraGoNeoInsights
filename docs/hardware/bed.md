@@ -33,7 +33,7 @@ When you take a look underneath the bed itself, you'll spot a little foam piece 
   
 ??? info "Bed Thermistor"
 
-    As you can already conclude from looking at the picture, you can't change the thermistor of the bed as it's built into it - at least right now it appears to me like that. I might be wrong though as it might be just soldered to some contacts - to investigate that, I'd need to take off the foam piece which I refused to do so because I don't have any kapton tape yet.  
+    The thermistor of the bed is positioned underneath the white piece of foam in the center of the bed. It's soldered to two contacts at the plate, so in case the thermistor is broken, you should be able to replace it.    
   
 ??? tip "Execute PID Tuning for the Bed"
 
