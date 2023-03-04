@@ -32,7 +32,7 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
 ??? example "V-Slot Wheels Maintenance"  
 
     - As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
-    - After that, add some sythetic grease onto the aluminum profile where the wheels are running to reduce friction. 
+    - After that, add some sythetic grease like white lithium grease or silicone grease (e.g. "Super Lube" from Loctite) onto the aluminum profile where the wheels are running to reduce friction. 
     - *Make sure you're not using WD-40 or grease which has graphite or MoS2 added!* 
     - If you see debris building up pretty quick, it's most likely because the wheels are too close to the aluminum and therefore it's too much friction which leads to a quick wearout. So make sure the wheels are touching the aluminum but they shouldn't be too tight.
     
@@ -67,7 +67,7 @@ Well, there's a trick, which directly leads us to the process of tramming the x-
 ??? example "V-Slot Wheels Maintenance"  
 
     - As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
-    - After that, add some sythetic grease onto the aluminum profile where the wheels are running to reduce friction. 
+    - After that, add some sythetic grease like white lithium grease or silicone grease (e.g. "Super Lube" from Loctite) onto the aluminum profile where the wheels are running to reduce friction. 
     - *Make sure you're not using WD-40 or grease which has graphite or MoS2 added!* 
     - If you see debris building up pretty quick, it's most likely because the wheels are too close to the aluminum and therefore it's too much friction which leads to a quick wearout. So make sure the wheels are touching the aluminum but they shouldn't be too tight.
     
@@ -114,7 +114,7 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
 ??? example "V-Slot Wheels Maintenance"  
 
     - As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
-    - After that, add some sythetic grease onto the aluminum profile where the wheels are running to reduce friction. 
+    - After that, add some sythetic grease like white lithium grease or silicone grease (e.g. "Super Lube" from Loctite) onto the aluminum profile where the wheels are running to reduce friction. 
     - *Make sure you're not using WD-40 or grease which has graphite or MoS2 added!* 
     - If you see debris building up pretty quick, it's most likely because the wheels are too close to the aluminum and therefore it's too much friction which leads to a quick wearout. So make sure the wheels are touching the aluminum but they shouldn't be too tight.
     
