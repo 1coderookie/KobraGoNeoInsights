@@ -4,7 +4,7 @@
 # Axes
 
 ## X-Axis
-The X-axis of both the **Go** and the **Neo** is belt driven (6mm wide), the motor which drives the belt (6mm wide) is located at the left side.   
+The X-axis of both the **Go** and the **Neo** is belt driven, the motor which drives the belt (6mm wide, GT-2 type) is located at the left side.   
 You can adjust the tension of the belt by using the knob at the right side of the aluminum profile where the printhead is guided onto.  
   
 ![X-axis knob](../assets/images/x-axis_knob_web.jpg)
