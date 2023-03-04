@@ -60,8 +60,9 @@ Well, there's a trick, which directly leads us to the process of tramming the x-
 
 ??? example "Tramming the X-Axis Gantry and Adjusting the Wheels"  
 
-    Take two parts of equal height like soupcans for example and place them onto the left and right side of the bed. Then lower the x-axis gantry until the aluminum frame of it rests onto the cans. Then loosen the two hexagon socket screws which are holding the Y-shaped metal plate (where the wheels are mounted onto, at the backside so to say) against the aluminum frame of the x-axis gantry. Dont take them out (!), just loosen them a bit.  
-    Now you can adjust the position of the wheels by using the eccentric nut again because now the metal plate can move a bit and you can adjust it's position towards the aluminum frame of the x-axis gantry. Adjust everything to the perfect position and then retighten the screws again. Now all of the wheels should touch the aluminum frame of the z-axis and the x-axis gantry should be as parallel to the bed as possible.     
+    Take two parts of equal height like cans for example and place them onto the left and right side of the bed (make sure they *really* are identical - once I fiddled around 15min before realizing that the two 'identical' cans weren't exactly identical - the height differece was 3mm..). Then lower the x-axis gantry until the aluminum frame of it rests onto the cans. Then loosen the two hexagon socket screws which are holding the Y-shaped metal plate (where the wheels are mounted onto, at the backside so to say) against the aluminum frame of the x-axis gantry. Dont take them out (!), just loosen them a bit.  
+    Now you can adjust the position of the wheels by using the eccentric nut again because now the metal plate can move a bit and you can adjust it's position towards the aluminum frame of the x-axis gantry. Adjust everything to the perfect position and then retighten the screws again. Now all of the wheels should touch the aluminum frame of the z-axis and the x-axis gantry should be as parallel to the bed as possible.   
+    (Pictures will come soon.)  
           
 
 ??? example "V-Slot Wheels Maintenance"  
