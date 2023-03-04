@@ -126,10 +126,13 @@ When you take a look underneath the bed itself, you'll spot a little foam piece 
     - Check if the screws are all tightened up. Be careful though to not overtighten the screws of the Bedplate as you may compress the little spacers underneath it and therefore the plate may become warped. On the other hand, if you see that your bed is warped somehow or that the bed is much more off in certain areas or at one side, you can check if the screws in that area might be too tightened up or too loose.  
     - Check if the bedplate itself is somehow wobbling. Not only sideways (horizontally), but also up and down (vertically). If so, not only check the v-slot wheels and maybe adjust their fitting using the eccentric nuts, also check if the screws of the gantry of the bed where the wheels are mounted to are tightened up.    
     
+??? example "Tramming the Bed"
+
+    If you added adjustable spacers like silicone spacers or springs, you'll be able to tram your bed. When you want to tram the bed by adjusting the tension of the springs or silicone spacers to pull down a side or an edge of the bed, be careful to not bend the bed itself by tightening up just one corner too much. Try to push down one side of the bed and adjust two screws at a time. Even then be careful though and keep an eye on the mesh visualizer or (if you con't have that one) on the values of the ABL.   
+    
 ??? example "Tramming the X-Axis Gantry"  
 
-    To make sure that the bed and the x-axis gantry are parallel to each other, you should also tram the gantry in relation to the bed itself. See the expandable box in the section [X-Axis Gantry](../axes.md/#x-axis-gantry) to read how you could do it.  
-    
+    To make sure that the bed and the x-axis gantry are parallel to each other, you should also tram the gantry in relation to the bed itself. See the expandable box in the section [X-Axis Gantry](../axes.md/#x-axis-gantry) to read how you could do it. 
     
 ## Mods
 
