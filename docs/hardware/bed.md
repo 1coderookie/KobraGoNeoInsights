@@ -143,7 +143,10 @@ The following picture shows the stock spacers on the left, springs in te middle 
   
 ??? example "Tramming the Bed"
 
-    However, *if* you are trying this solution, make sure the screws won't turn themselves loose due to the vibration. When you want to level the bed then by adjusting the tension of the springs or silicone spacers to pull down a side or an edge of the bed, be careful to not bend the bed itself by tightening up just one corner too much. Try to push down one side of the bed and adjust two screws at a time. Even then be careful though and keep an eye on the mesh visualizer or (if you con't have that one) on the values of the ABL.  
+    When you want to tram the bed by adjusting the tension of the springs or silicone spacers to pull down a side or an edge of the bed, be careful to not bend the bed itself by tightening up just one corner too much. Try to push down one side of the bed and adjust two screws at a time.    
+    I personally tram the bed by adding just a little bit of load to the spacers, so that the bed doesn't wobble. Then I'm measuring the distance between the gantry of the bed and the bedplate in first place and adjust the four screws to get the same distance. After tramming the x-axis gantry in relation to the bed then, I proceed with an ABL. In case you're using Klipper like me, you can use the macro ["screws_tilt_adjust"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe) to finetune the tramming of the bed.  
+    When you're done, make sure the screws won't turn themselves loose due to the vibration, so add e.g. an additional lock nut as well.    
+    Also remember to check your z-offset as it'll most likely has to be adjusted.  
     
 ### Insulating the Bed
 What I personally can highly recommend is to insulate the underside of the bed. You can get special insulation mats for 3d printers which meet the requirements for this (like being suited for higher temperatures and being flame retardant) for a few bucks. Make sure you order the correct size (preferrably a bit bigger) which is 230x230mm as that's the size of the bedplate itself.   
