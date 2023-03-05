@@ -4,7 +4,7 @@
   
 Can you run [Klipper](https://www.klipper3d.org/) on the stock mainboard? Oh yes, you can!  
 The MCU is officially supported and implemented in the Klipper firmware now also.  
-With Klipper you'll be able to take advantage of the functions "Pressure Advance" (which is similar to the function "Linear Advance" of Marlin but which you can't use with the stock firmware) and the "Input Shaping".      
+With Klipper you'll be able to take advantage of the functions "Pressure Advance" (which is similar to the function "Linear Advance" of Marlin but which you can't use with the stock firmware) and "Input Shaping".      
 It should be mentioned that you can always go back to the stock firmware by just re-flashing it, so you might just want to give it a shot. 
     
 Reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) postet a description about how to create the necessary `firmware.bin` file for installing Klipper: [Install Klipper on Kobra Go or Neo](https://www.reddit.com/r/anycubic/comments/10cwm16/install_klipper_on_kobra_go_or_neo/)  
