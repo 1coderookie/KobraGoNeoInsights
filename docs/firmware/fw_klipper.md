@@ -6,11 +6,7 @@ Can you run [Klipper](https://www.klipper3d.org/) on the stock mainboard? Oh yes
 The MCU is officially supported and implemented in the Klipper firmware now also.  
 With Klipper you'll be able to take advantage of the functions "Pressure Advance" (which is similar to the function "Linear Advance" of Marlin but which you can't use with the stock firmware) and "Input Shaping".      
 It should be mentioned that you can always go back to the stock firmware by just re-flashing it, so you might just want to give it a shot. 
-    
-Reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) postet a description about how to create the necessary `firmware.bin` file for installing Klipper: [Install Klipper on Kobra Go or Neo](https://www.reddit.com/r/anycubic/comments/10cwm16/install_klipper_on_kobra_go_or_neo/)  
-You'll also find links to `printer.cfg` files for the **Go** and the **Neo** in that thread which makes it even easier to get started with Klipper. 
-   
-   
+       
 !!! warning  
   
     - Keep in mind that even though the stock mainboard of the **Go** and the **Neo** is the same, you have to adjust certain settings of the file `printer.cfg` depending on your specific model!  
@@ -21,8 +17,13 @@ You'll also find links to `printer.cfg` files for the **Go** and the **Neo** in 
 
     Long story short: Klipper is an 'alternative' firmware which gives you way more possibilities and even functions for configuring and using your 3D printer. If you don't know what Klipper is, this may be a good start for your research: [All3DP: Klipper](https://www.all3dp.com/topic/klipper)  
 
+## Installing Klipper
+Reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) postet a description about how to create the necessary `firmware.bin` file for installing Klipper: [Install Klipper on Kobra Go or Neo](https://www.reddit.com/r/anycubic/comments/10cwm16/install_klipper_on_kobra_go_or_neo/)  
+So I won't go over that procedure here once again.  
+  
+You'll also find links to `printer.cfg` files for the **Go** and the **Neo** in that thread which makes it even easier to get started with Klipper.  
+  
 ## Klipper and Slicers
-
 Due to the fact that Klipper uses extended G -code and macros, there are a few things to be aware of when using certain slicers like Cura, PrusaSlicer, SuperSlicer etc.  
 In the following I'll just go over Cura and SuperSlicer really quick as I used them both and SuperSlicer is a fork (with enhanced functionality) of PrusaSlicer.  
 
