@@ -72,4 +72,12 @@ However, if you really do miss the option to control the printer right at that p
 - If you have a Raspberry Pi or other hardware you could connect a touchscreen to (e.g. by using a HMDI port) running for hosting Mainsail, you can add a touchscreen to that and use [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/). It's the same UI like using a smartphone or tablet.  
   This is actually a quite handy solution if you're using a RPi as you can set everything up in a dedicated case. I'll probably do that as well, just for the pure comfort of not having to take care about switching the smartphone on and off as the display is powered by the RPi. I just didn't want to spend money again when trying Klipper initially, that's why I used an old smartphone in first place.  
   
+## Pressure Advance
+By using Klipper you can take advantage of using a feature called "Pressure Advance". Please refer to the [official documentation](https://www.klipper3d.org/Pressure_Advance.html) about how to calibrate and use it.  
+
+## Input Shaping
+By using Klipper you can take advantage of using resonance compensation and a feature called "Input Shaping". You can either calibrate it manually or by using additional hardware like ADXL345 acceleration sensors. Please refer to the [official documentation](https://www.klipper3d.org/Resonance_Compensation.html#resonance-compensation) about how to calibrate and use it.
+
+## Macros
+(...)
 
