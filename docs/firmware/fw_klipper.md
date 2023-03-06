@@ -24,10 +24,19 @@ It should be mentioned that you can always go back to the stock firmware by just
   
 ## Installation
 Reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) postet a description about how to create the necessary `firmware.bin` file for installing Klipper: [Install Klipper on Kobra Go or Neo](https://www.reddit.com/r/anycubic/comments/10cwm16/install_klipper_on_kobra_go_or_neo/)  
-So I won't go over that procedure here once again.  
+So I won't go over that procedure here once again. The installation procedure is also described at the [specific chapter of the documenation](https://www.klipper3d.org/Installation.html).
   
-You'll also find links to `printer.cfg` files for the **Go** and the **Neo** in that thread which makes it even easier to get started with Klipper. However, also when using the beforementioned config files, remember to adapt the config file to your printer and specific settings before starting to print!    
+Once you've created the `firmware.bin` file, copy it onto your mSD card and flash it as you would do with the stock firmware. Note that the screen doesn't update though after the flash procedure is done as the control unit doesn't work with Klipper anymore, it'll stick with the message "Firmware update. Please wait.". So just wait 5-10min to make sure everything had time enough to be installed, turn off the printer, remove the card and turn on the printer again. After that you'd need to continue creating and/or configuring the file `printer.cfg` as that is the file where all the device specific informations are stored.    
+You'll also find links to `printer.cfg` files for the **Go** and the **Neo** in that thread which makes it even easier to get started with Klipper.  
   
+However, also when using the beforementioned config files, remember to adapt the config file to your printer and specific settings *before* starting to print or calibrate the printer!  
+Also proceed with the [configuration checks](https://www.klipper3d.org/Config_checks.html) before you're trying to print anything!      
+   
+## G-Codes & Macros
+Klipper uses extended g-codes and macros, so not all of the 'regular' g-code commands are known and useable within Klipper. See the [g-codes chapter](https://www.klipper3d.org/G-Codes.html) of the documentation for an overview of the specific commands.  
+  
+You'll also need to replace the g-code you added in the start and end section of your slicer. I'll ad the lines for that soon.   
+    
 ## Slicers
 Due to the fact that Klipper uses extended G -code and macros, there are a few things to be aware of when using certain slicers like Cura, PrusaSlicer, SuperSlicer etc.  
 In the following I'll just go over Cura and SuperSlicer really quick as I used them both and SuperSlicer is a fork (with enhanced functionality) of PrusaSlicer.  
