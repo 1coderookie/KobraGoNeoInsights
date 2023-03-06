@@ -85,7 +85,8 @@ Just to mention a few here:
 - You can edit the `printer.cfg` and every other file just directly within Mainsail and don't have to SSH to the Raspberry Pi.  
 - You already have a heightmap function included which allows you to create and display the meshview after executing an ABL.  
 - If your slicer does support it (SuperSlicer does), you can have thumbnails of your models displayed.  
-- There's also a G-Code viewer already built in and you have the possibilty to create custom macros for e.g. executing backups and activate them with one click. 
+- There's also a G-Code viewer already built in. 
+- You have the possibilty to create custom macros for e.g. executing backups and activate them with one click. 
 - And much more..  
   
 **Fluidd** is (imho) pretty similar to Mainsail, but it doesn't seem to be maintained as much as Mainsail (afaik).  
