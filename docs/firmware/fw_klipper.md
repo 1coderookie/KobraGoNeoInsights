@@ -24,7 +24,7 @@ It should be mentioned that you can always go back to the stock firmware by just
   
 ## Installation
 Reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) postet a description about how to create the necessary `firmware.bin` file for installing Klipper: [Install Klipper on Kobra Go or Neo](https://www.reddit.com/r/anycubic/comments/10cwm16/install_klipper_on_kobra_go_or_neo/)  
-So I won't go over that procedure here once again. The installation procedure is also described at the [specific chapter of the documenation](https://www.klipper3d.org/Installation.html).
+So I won't go over that procedure here once again. The installation procedure is also described at the specific chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official documentation.
   
 Once you've created the `firmware.bin` file, copy it onto your mSD card and flash it as you would do with the stock firmware. Note that the screen doesn't update though after the flash procedure is done as the control unit doesn't work with Klipper anymore, it'll stick with the message "Firmware update. Please wait.". So just wait 5-10min to make sure everything had time enough to be installed, turn off the printer, remove the card and turn on the printer again. After that you'd need to continue creating and/or configuring the file `printer.cfg` as that is the file where all the device specific informations are stored.    
 You'll also find links to `printer.cfg` files for the **Go** and the **Neo** in that thread which makes it even easier to get started with Klipper.  
@@ -82,11 +82,10 @@ However, if you really do miss the option to control the printer right at that p
   This is actually a quite handy solution if you're using a RPi as you can set everything up in a dedicated case. I'll probably do that as well, just for the pure comfort of not having to take care about switching the smartphone on and off as the display is powered by the RPi. I just didn't want to spend money again when trying Klipper initially, that's why I used an old smartphone in first place.  
   
 ## Pressure Advance
-By using Klipper you can take advantage of using a feature called "Pressure Advance". Please refer to the [official documentation](https://www.klipper3d.org/Pressure_Advance.html) about how to calibrate and use it.  
+By using Klipper you can take advantage of using a feature called "Pressure Advance". Please refer to the official documentation of [Pressure Advance](https://www.klipper3d.org/Pressure_Advance.html) about how to calibrate and use it.  
 
-## Input Shaping
-By using Klipper you can take advantage of using resonance compensation and a feature called "Input Shaping". You can either calibrate it manually or by using additional hardware like ADXL345 acceleration sensors. Please refer to the [official documentation](https://www.klipper3d.org/Resonance_Compensation.html#resonance-compensation) about how to calibrate and use it.
+## Resonance Compensation: Input Shaping
+By using Klipper you can take advantage of using Resonance Compensation and a feature called "Input Shaping". You can either calibrate it manually or by using additional hardware like ADXL345 acceleration sensors. Please refer to the official documentation of [Resonance Compensation](https://www.klipper3d.org/Resonance_Compensation.html#resonance-compensation) about how to calibrate and use it.
 
-## Macros
-(...)
+
 
