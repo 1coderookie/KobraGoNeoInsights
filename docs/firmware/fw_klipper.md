@@ -27,7 +27,7 @@ It should be mentioned that you can always go back to the stock firmware by just
 Reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) postet a description about how to create the necessary `firmware.bin` file for installing Klipper: [Install Klipper on Kobra Go or Neo](https://www.reddit.com/r/anycubic/comments/10cwm16/install_klipper_on_kobra_go_or_neo/)  
 So I won't go over that procedure here once again.  
   
-You'll also find links to `printer.cfg` files for the **Go** and the **Neo** in that thread which makes it even easier to get started with Klipper.  
+You'll also find links to `printer.cfg` files for the **Go** and the **Neo** in that thread which makes it even easier to get started with Klipper. However, also when using the beforementioned config files, remember to adapt the config file to your printer and specific settings before starting to print!    
   
 ## Slicers
 Due to the fact that Klipper uses extended G -code and macros, there are a few things to be aware of when using certain slicers like Cura, PrusaSlicer, SuperSlicer etc.  
