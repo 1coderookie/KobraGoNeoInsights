@@ -7,13 +7,13 @@ Oh yes, you can!
 
 The [Huada HC32F460 MCU](https://github.com/Klipper3d/klipper/commit/72b6bd7efa1ae282220b4bdcfb789075807ebfd2) is officially supported and implemented in the Klipper firmware.  
   
-It should be mentioned that you can always go back to the stock firmware by just re-flashing it, so you might just want to give Klipper a try. 
-       
-!!! warning  
-  
-    - Keep in mind that even though the stock mainboard of the **Go** and the **Neo** is the same, you have to adjust certain settings of the file `printer.cfg` depending on your specific model!  
-    - After flashing Klipper's `firmware.bin`, don't try to start printing right away! Do all the necessary calibrations and double-check your `printer.cfg`!
-    - Be aware of the fact that the control unit/display of the printer doesn't work after flashing Klipper (due to the fact that the SPI the unit is connected to isn't supported by Klipper yet). So you'd need additional software like OctoPrint or Mainsail or so to be able to also control the printer manually. See the chapter ["Printserver"](../printserver.md) if you don't have e.g. OctoPrint installed yet.    
+!!! tip "Important Informations To Be Aware Of" 
+
+    - It should be mentioned already here that you can always go back to the stock firmware by just re-flashing it, so you might just want to give Klipper a try. 
+    - Be aware of the fact that the control unit and display of the printer doesn't work after flashing Klipper (due to the fact that the SPI the unit is connected to isn't supported by Klipper yet). See the belonging section further down below for more informations. 
+    - You'd need a host to run additional software like OctoPrint or Mainsail for being able to use the printer with Klipper. See the belonging section further down below for some informations and my personal recommendation abput what to use.  
+    If you don't have a host running OctoPrint/Mainsail/.. yet, see the chapter ["Printserver"](../printserver.md) for some informations about hardware you could use for that.    
+      
 
 ??? info "What Is Klipper?"
 
@@ -34,10 +34,11 @@ Note that the screen doesn't update though after the flash procedure is done as 
 Then turn off the printer, remove the card, connect your host which has OctoPrint/Mainsail/.. running with the printer using an USB-C cable and turn on the printer again.  
 Now you should be able to connect OctoPrint/Mainsail/.. with the printer. If an error message pops up that no connection to the MCU was possible, click on "Restart Firmware" or turn off the printer and switch it on again.  
 
-!!! warning "Configure Your Specific Settings"  
-
-    - Remember that even by using beforementioned `printer.cfg` files for either the **Fo** or the **Neo**, you still have to adapt the config file to your printer and specific settings *before* starting to print or calibrate the printer! So don't just use the beforementioned file from the reddit post and start printing right away!  
-    - Also proceed with the [configuration checks](https://www.klipper3d.org/Config_checks.html) before you're trying to print anything!      
+!!! warning  
+  
+    - After flashing Klipper's `firmware.bin`, don't try to start printing right away!  
+    - Keep in mind that even though the stock mainboard of the **Go** and the **Neo** is the same, you have to adjust certain settings of the file `printer.cfg` depending on your specific model *before* starting to print or calibrate the printer! So don't just use the beforementioned file from the reddit post and start printing right away!    
+    - Proceed with the [configuration checks](https://www.klipper3d.org/Config_checks.html) before you're trying to print anything!      
   
 ## Stock Control Unit
 The stock control unit of both the **Go** and the **Neo** don't work with Klipper. So is that going to be an issue? Actually I thought the same initially and that was the only reason which was holding me back switching to Klipper right away at the beginning. Now that I did switch, I can say that I don't really miss the control unit. 
