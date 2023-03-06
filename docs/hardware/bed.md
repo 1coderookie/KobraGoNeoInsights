@@ -137,33 +137,44 @@ When you take a look underneath the bed itself, you'll spot a little foam piece 
 ## Mods
 
 ### Different Spacers
-Because you can't level the bed itself due to the construction, you may want to replaced the stock spacers with springs or silicone spacers which allows them to adjust the position of the bed itself. You can look out for a set of springs suitable for an Ender 3 for example, those would fit. However, you'd have to get yourself some longer M4 type screws as the stock ones will bee too short.  
-Mounting springs instead of spacers which seems to be a good idea at first sight. However, as springs are made from metal which underlies the temperature changes of the heated bed, it'll most likely be necessary to check the level once in a while. You also need to make sure that the bolt can't turn itself loose due to the vibration. Another downside (imho) is, that the springs are pretty long and therefore you either have to use longer screws and/or have to tighten the screws pretty much to compress the springs. This can force warping again though as it puts more stress on the four points where the bed is mounted. So I personally would suggest to use silicone spacers of about the same length as the original spacers, but which also can be compressed a few milimeters to level the bed.  
+Because you can't level the bed itself due to the construction, you may want to replaced the stock spacers with springs or silicone spacers which allows tramming of the bed itself.  
+It's adviseable to make sure that the bolt can't turn itself loose due to the vibration, so add a nylon lock nut or a counter nut to the tip of the screw underneath the bed gantry as well.  
+
+**Springs**  
+Mounting springs instead of spacers seems to be a good idea at first sight. You can look out for a set of springs suitable for an Ender 3 for example, those would fit. You'd have to get yourself some longer M4 type screws as well as the stock ones will be too short.  
+However, as springs are made from metal which underlies the temperature changes of the heated bed, it'll most likely be necessary to check the level once in a while.    
+
+**Silicone Spacers**  
+You could also use silicone spacers of about the same length as the stock spacers for being able to use the stock screws. They are adjustable as well due to the flexible material and they don't expand and shrink with changing temperatures like metal springs will do in a minor range.  
+  
 The following picture shows the stock spacers on the left, springs in te middle and silicone spacers on the right. <br> ![Spacers](../assets/images/bed_different-spacers_web.jpg)
   
 ??? example "Tramming the Bed"
 
     When you want to tram the bed by adjusting the tension of the springs or silicone spacers to pull down a side or an edge of the bed, be careful to not bend the bed itself by tightening up just one corner too much. Try to push down one side of the bed and adjust two screws at a time.    
-    I personally tram the bed by adding just a little bit of load to the spacers, so that the bed doesn't wobble. Then I'm measuring the distance between the gantry of the bed and the bedplate in first place and adjust the four screws to get the same distance. After tramming the x-axis gantry in relation to the bed then, I proceed with an ABL. In case you're using Klipper like me, you can use the macro ["screws_tilt_adjust with the command SCREWS_TILT_CALCULATE"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe) to finetune the tramming of the bed.  
+    I personally tram the bed by adding just a little bit of load to the spacers, so that the bed doesn't wobble. Then I'm measuring the distance between the tip of the ABL sensor and the bedplate where the screws are located in first place and adjust the four screws to get the same distance. Then I proceed with an ABL and look at the mesh and the values and repeat the steps if necessary.  
+    For finetuning I add Kapton tape on the magnetic surface of the bed underneath the PEI plate to egalize warped or dented areas as much as possible.  
+    In case you're using Klipper like me, you can use the macro ["screws_tilt_adjust with the command SCREWS_TILT_CALCULATE"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe) to finetune the tramming of the bed.  
     When you're done, make sure the screws won't turn themselves loose due to the vibration, so add e.g. an additional lock nut as well.    
     Also remember to check your z-offset as it'll most likely has to be adjusted.  
     
 ### Insulating the Bed
 What I personally can highly recommend is to insulate the underside of the bed. You can get special insulation mats for 3d printers which meet the requirements for this (like being suited for higher temperatures and being flame retardant) for a few bucks. Make sure you order the correct size (preferrably a bit bigger) which is 230x230mm as that's the size of the bedplate itself.   
+
 By insulating the bed the temperature won't fluctuate as much as before, it heats up faster and it takes less energy to keep the desired temperature (so you actually lower the power consumption). It also takes longer for the bed to cool down which became impressively clear after doing a PID tune for the bed and comparing the graphs of before and after adding the insulation (picture will come soon).  
+
 After adding the insulation, the temperature didn't fluctuate anymore at all during a print even when I opened the window from time to time - the graph was just a straight line. So I'm highly satisfied with this actually.     
 
 ??? example "Adding the Insulation"  
 
-    Before I'll go into the steps about how to apply the insulation, I have to mention that you'll need longer spacers and screws due to the thickness of the insulation (which is about 9-10mm most of the time). You'll need to raise the whole bedplate to avoid contact between the insulation and the motor mount at the back of the contruction. If you use the beforementioned springs, you'll be fine as they are longer then the stock spacers anyway. If you'll use the stopck spacers or silicone spacers (which may be the same size like the stock spacers), you can add bolt nuts to raise the whole construction.  
+    Before I'll go into the steps about how to apply the insulation, I have to mention that you'll need longer spacers and screws due to the thickness of the insulation (which is about 9-10mm most of the time). You'll need to raise the whole bedplate to avoid contact between the insulation and the motor mount at the back of the construction. If you use the beforementioned springs, you'll be fine as they are longer then the stock spacers anyway. If you'll use the stock spacers or silicone spacers of about the same size, you can add bolt nuts underneath to raise the bed.  
     
     For adding the insulation, you need to dismount the bedplate from the gantry by taking out the four screws (remove the PEI coated plate first tho). Be careful with the wires when moving the plate. Put the plate onto the insulation (but don't peel off the protective layer of the adhesive yet!), align it and mark the four holes of the screws.  
     Then place the bed upside down on a flat and clean surface - wipe the surface beforehand tho to make sure that there's no dirt or even metal chips which would press into or stick onto the magnetic surface. Now use IPA or (which I prefer) silicone remover to wipe the underside of the bed where the insulation should be applied to and clean off any dirt or grease from your fingers.  
     Now lay down the insulation onto the bed like if you would apply it (but still with the protective layer on the adhesive!) and adjust the position. Mark the area where the wires are connected to the bed as well and cut away that part of the insulation. Place the spacers above the premarked holes and cut away the insulation in that area as well, so that the spacers will touch the plate later without any insulation between.  
     When it comes down to finally apply the insulation, I personally used Kapton tape and put it onto the whole bedplate first, just in case I'd have to tear off the insulation in the future. I also added two layers of Kapton tape especially above the contacts and the little piece of foam of the thermistor in the center of the bed and marked that area roughly at the insulation, just in case I'd have to replace the thermistor in the future.  
-    Once everything is done and prepared, you can finally apply the insulation. Make sure you start at one side to avoid any bubbles, you want the insulation to stick on the bed equally. If some of the insulation protrudes beyond the plate, cut it off.  
-    Then add the spacers and the screws and mount the bed onto the gantry again. Make sure that the insulation doesn't touch the construction and the motor mount at the back, the bed has to move as free as before.  
-    In case you used adjustable spacers, tram the bed. Also tram the x-axis gantry again in relation to the bed itself.  
+    Once everything is done and prepared, you can finally apply the insulation. Make sure you start at one side to avoid any bubbles, you want the insulation to stick on the bed equally. If some of the insulation protrudes beyond the plate, cut it off. I highly recommend to additionally secure the insulation by using some pieces of Kapton tape as well to ensure that the edges and sides of the insulation won't come loose.  
+    Then add the spacers and the screws and mount the bed onto the gantry again. Make sure that the insulation doesn't touch the construction and the motor mount at the back, the bed has to move as free as before. If you used adjustable spacers, tram the bed again.  
     When switching on the printer, make sure you proceed with adjusting the z-offset due to the raised bed and execute an ABL procedure as well as a PID tuning of the bed now and save the new values to the EEPROM.  
     (Pictures will come soon.)
     
