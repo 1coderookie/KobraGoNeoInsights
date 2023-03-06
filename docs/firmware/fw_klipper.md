@@ -74,7 +74,8 @@ I can't go into all the possibilities of SuperSlicer deeper though as it's just 
 
 ## OctoPrint, Mainsail or Fluidd?
 
-**OctoPrint** is mentioned and referred to at the Klipper page, so you can use it just fine. Especially when you want to use the TimeLapse plugin there isn't really an alternative to OctoPrint.  
+**OctoPrint** is mentioned and referred to at the Klipper page, so you can use it just fine.  
+You'd need to SSH to the host (e.g. the RPi) though to upload edited files like the `printer.cfg` - if there isn't a plugin for that (I don't know actually) which allows you to do so within the interface of OctoPrint.  
   
 However, I personally prefer to use **Mainsail** with Klipper as it gives you more tools made for Klipper. Just to mention a few here: you can edit the `printer.cfg` and every other file just directly within Mainsail and don't have to SSH to the Raspberry Pi. You already have a heightmap function included which allows you to create and display the meshview after executing an ABL. There's also a G-Code viewer already built in and you have the possibilty to create custom macros for e.g. executing backups and activate them with one click - and much more. Due to the fact that I personally use Mainsail, I'll always refer to it when it comes down to describe or show certain things. 
   
