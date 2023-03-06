@@ -31,6 +31,21 @@ You'll also find links to `printer.cfg` files for the **Go** and the **Neo** in 
   
 However, also when using the beforementioned config files, remember to adapt the config file to your printer and specific settings *before* starting to print or calibrate the printer!  
 Also proceed with the [configuration checks](https://www.klipper3d.org/Config_checks.html) before you're trying to print anything!      
+  
+## Stock Control Unit
+The stock control unit of both the **Go** and the **Neo** don't work with Klipper. So is that going to be an issue? Actually I thought the same initially and that was the only reason which was holding me back switching to Klipper right away at the beginning. Now that I did switch, I can say that I don't really miss the control unit. 
+
+Just as an example:  
+- Klipper *keeps* the z-offset, so you don't have to fiddle arount at the control unit for that before each and every print because the stcok-fw forgot your settings once again. 
+- Setting temps for e.g. heating up the hotend to change a nozzle or load/unload filament can be done by using Mainsail. 
+- Initiating the ABL procedure is also be done thru Mainsail, just like everything else.
+
+However, if you really do miss the option to control the printer right at that place later, you have several options to do so:  
+- You can use your smartphone, tablet or laptop to just open the mainsail.local page at your browser and use the regular Mainsail frontend (which might be a bit 'uncomfortable' when using a smartphone though).
+- You can use an old smartphone or tablet and install [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/) onto it, which then gives you a nice adapted UI with control buttons.  
+  I also set it up, printed a holder for it and mounted it where the original control unit was, but actually I unplugged the phone again as I just control it via my computer and the mainsail.local page anyway. It also kinda bothers me that I have to boot up the phone all the time as I don't leave the printer on 24/7. I'll add pictures of it here soon though.
+- If you have a Raspberry Pi or other hardware you could connect a touchscreen to (e.g. by using a HMDI port) running for hosting Mainsail, you can add a touchscreen to that and use [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/). It's the same UI like using a smartphone or tablet.  
+  This is actually a quite handy solution if you're using a RPi as you can set everything up in a dedicated case. I'll probably do that as well, just for the pure comfort of not having to take care about switching the smartphone on and off as the display is powered by the RPi. I just didn't want to spend money again when trying Klipper initially, that's why I used an old smartphone in first place.    
    
 ## G-Codes & Macros
 Klipper uses extended g-codes and macros, so not all of the 'regular' g-code commands are known and useable within Klipper. See the [g-codes chapter](https://www.klipper3d.org/G-Codes.html) of the documentation for an overview of the specific commands.  
@@ -66,20 +81,6 @@ However, I personally prefer to use **Mainsail** with Klipper as it gives you mo
   
 So to find out what's the best solution for you, either do a little research on that or just get another mSD card, install e.g. MainsailOS onto it and then just give it a try.  
     
-## Control Unit
-The stock control unit of both the **Go** and the **Neo** don't work with Klipper. So is that going to be an issue? Actually I thought the same initially and that was the only reason which was holding me back switching to Klipper right away at the beginning. Now that I did switch, I can say that I don't really miss the control unit. 
-
-Just as an example:  
-- Klipper *keeps* the z-offset, so you don't have to fiddle arount at the control unit for that before each and every print because the stcok-fw forgot your settings once again. 
-- Setting temps for e.g. heating up the hotend to change a nozzle or load/unload filament can be done by using Mainsail. 
-- Initiating the ABL procedure is also be done thru Mainsail, just like everything else.
-
-However, if you really do miss the option to control the printer right at that place later, you have several options to do so:  
-- You can use your smartphone, tablet or laptop to just open the mainsail.local page at your browser and use the regular Mainsail frontend (which might be a bit 'uncomfortable' when using a smartphone though).
-- You can use an old smartphone or tablet and install [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/) onto it, which then gives you a nice adapted UI with control buttons.  
-  I also set it up, printed a holder for it and mounted it where the original control unit was, but actually I unplugged the phone again as I just control it via my computer and the mainsail.local page anyway. It also kinda bothers me that I have to boot up the phone all the time as I don't leave the printer on 24/7. I'll add pictures of it here soon though.
-- If you have a Raspberry Pi or other hardware you could connect a touchscreen to (e.g. by using a HMDI port) running for hosting Mainsail, you can add a touchscreen to that and use [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/). It's the same UI like using a smartphone or tablet.  
-  This is actually a quite handy solution if you're using a RPi as you can set everything up in a dedicated case. I'll probably do that as well, just for the pure comfort of not having to take care about switching the smartphone on and off as the display is powered by the RPi. I just didn't want to spend money again when trying Klipper initially, that's why I used an old smartphone in first place.  
   
 ## Pressure Advance
 By using Klipper you can take advantage of using a feature called "Pressure Advance". Please refer to the official documentation of [Pressure Advance](https://www.klipper3d.org/Pressure_Advance.html) about how to calibrate and use it.  
