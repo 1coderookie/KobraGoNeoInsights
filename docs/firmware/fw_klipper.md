@@ -24,14 +24,20 @@ It should be mentioned that you can always go back to the stock firmware by just
     I opened a [discussion thread about Klipper](https://github.com/1coderookie/KobraGoNeoInsights/discussions/6) just in case any further questions arise or in case you want to comment on certain things without doing so by sending me an email. Keep in mind though that I'm not an expert at all, so if you do have specific questions about Klipper, then it might be better to ask in a special forum like e.g. the [Klipper subreddit](https://www.reddit.com/r/klippers/).  
   
 ## Installation
-Reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) postet a description about how to create the necessary `firmware.bin` file for installing Klipper: [Install Klipper on Kobra Go or Neo](https://www.reddit.com/r/anycubic/comments/10cwm16/install_klipper_on_kobra_go_or_neo/)  
-So I won't go over that procedure here once again. The installation procedure is also described at the specific chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official documentation.
+Credits to reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) who initially posted how to get Klipper running on the **Go** and the **Neo**: [Install Klipper on Kobra Go or Neo](https://www.reddit.com/r/anycubic/comments/10cwm16/install_klipper_on_kobra_go_or_neo/)  
   
-Once you've created the `firmware.bin` file, copy it onto your mSD card and flash it as you would do with the stock firmware. Note that the screen doesn't update though after the flash procedure is done as the control unit doesn't work with Klipper anymore, it'll stick with the message "Firmware update. Please wait.". So just wait 5-10min to make sure everything had time enough to be installed, turn off the printer, remove the card and turn on the printer again. After that you'd need to continue creating and/or configuring the file `printer.cfg` as that is the file where all the device specific informations are stored.    
-You'll also find links to `printer.cfg` files for the **Go** and the **Neo** in that thread which makes it even easier to get started with Klipper.  
-  
-However, also when using the beforementioned config files, remember to adapt the config file to your printer and specific settings *before* starting to print or calibrate the printer!  
-Also proceed with the [configuration checks](https://www.klipper3d.org/Config_checks.html) before you're trying to print anything!      
+Basically you need to clone the Klipper repository and compile the necessary `firmware.bin` file. Referring to the beforementioned post of xpeng121, you need to change the MCU to "HC32F460" and the serial to "Anycubic Kobra". For further informations about the installation steps please read the chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official Klipper documentation.
+Besides the `firmware.bin` of Klipper you also need a file named `printer.cfg` which contains the specific sttings for your model.  You'll also find links to `printer.cfg` files for the **Go** and the **Neo** in the abovementioned reddit post which makes it even easier to get started with Klipper. These files already contain the necessary pin assignement and so on. You still have to adjust these files to your special settings afterwards though.  
+
+Once you've created the `firmware.bin` file, copy it to the root directory (means, directly onto the card, not in a subfolder!) of your mSD card. I personally would suggest to remove any files from the mSD card and only copy the `firmware.bin` file onto it. Then you flash it as you would do with the stock firmware. Means, you turn off the printer, put the card into the cardreader and turn on the printer.  
+Note that the screen doesn't update though after the flash procedure is done as the control unit doesn't work with Klipper anymore, it'll stick with the message "Firmware update. Please wait."! So just wait 5-10min to make sure everything had time enough to be installed.  
+Then turn off the printer, remove the card, connect your host which has OctoPrint/Mainsail/.. running with the printer using an USB-C cable and turn on the printer again.  
+Now you should be able to connect OctoPrint/Mainsail/.. with the printer. If an error message pops up that no connection to the MCU was possible, click on "Restart Firmware" or turn off the printer and switch it on again.  
+
+!!! warning "Configure Your Specific Settings"  
+
+    - Remember that even by using beforementioned `printer.cfg` files for either the **Fo** or the **Neo**, you still have to adapt the config file to your printer and specific settings *before* starting to print or calibrate the printer! So don't just use the beforementioned file from the reddit post and start printing right away!  
+    - Also proceed with the [configuration checks](https://www.klipper3d.org/Config_checks.html) before you're trying to print anything!      
   
 ## Stock Control Unit
 The stock control unit of both the **Go** and the **Neo** don't work with Klipper. So is that going to be an issue? Actually I thought the same initially and that was the only reason which was holding me back switching to Klipper right away at the beginning. Now that I did switch, I can say that I don't really miss the control unit. 
