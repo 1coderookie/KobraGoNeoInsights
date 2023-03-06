@@ -2,10 +2,11 @@
 
 # Klipper (Mod)  
   
-Can you run [Klipper](https://www.klipper3d.org/) on the stock mainboard of the **Go** and **Neo**? Oh yes, you can!  
+Can you run [Klipper](https://www.klipper3d.org/) on the stock mainboard of the **Go** and **Neo**?  
+Oh yes, you can!  
 
-The MCU is officially supported and implemented in the Klipper firmware now also.  
-    
+The [Huada HC32F460 MCU](https://github.com/Klipper3d/klipper/commit/72b6bd7efa1ae282220b4bdcfb789075807ebfd2) is officially supported and implemented in the Klipper firmware.  
+  
 It should be mentioned that you can always go back to the stock firmware by just re-flashing it, so you might just want to give Klipper a try. 
        
 !!! warning  
