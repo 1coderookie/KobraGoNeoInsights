@@ -34,6 +34,7 @@ Also proceed with the [configuration checks](https://www.klipper3d.org/Config_ch
    
 ## G-Codes & Macros
 Klipper uses extended g-codes and macros, so not all of the 'regular' g-code commands are known and useable within Klipper. See the [g-codes chapter](https://www.klipper3d.org/G-Codes.html) of the documentation for an overview of the specific commands.  
+You can also find [command templates](https://www.klipper3d.org/Command_Templates.html) in the official documentation.  
   
 You'll also need to replace the g-code you added in the start and end section of your slicer. I'll ad the lines for that soon.   
     
