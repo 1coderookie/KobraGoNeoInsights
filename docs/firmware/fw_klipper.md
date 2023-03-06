@@ -65,10 +65,13 @@ Also there are a few functions of Cura which should improve the print quality wh
 You'll find a good overview of what to be aware of in the tutorial from [All3DP: Cura & Klipper: How to Make Them Work Together](https://www.all3dp.com/2/cura-klipper-tutorial).
  
 **SuperSlicer**  
-My personal favourite. In SuperSlicer you can set the G-code flavor depending on the firmware of the printer (menu "Printer Settings") as shown in the screenshot below, so it's already everything set up correctly within the g-code of the sliced files. <br> ![SuperSlicer firmware](../assets/images/klipperfw_superslicer-flavor.png)
+My personal favourite. In SuperSlicer you can set the G-code flavor depending on the firmware of the printer (menu "Printer Settings") as shown in the screenshot below, so it's already everything set up correctly within the g-code of the sliced files.  
   
-Besides that, SuperSlicer has many functionalities to finetune and control the output - you can even choose between different patterns for the top layer finish. Besides that it comes with a really handy calibration functionality which guides you step by step through the calibration process and allows you to generate calibration models like temperature or retraction towers with individual settings by just a few clicks.  
-I personally would suppose to use the "Arachne Edition" of SuperSlicer and enable that function as it improves the quality of the printed parts. 
+![SuperSlicer firmware](../assets/images/klipperfw_superslicer-flavor.png)
+  
+Besides that, SuperSlicer has many functionalities to finetune and control the output - you can even choose between different patterns for the top layer finish.  
+Besides that it comes with a really handy calibration functionality which guides you step by step through the calibration process and allows you to generate calibration models like temperature or retraction towers with individual settings by just a few clicks.  
+I personally would suppose to use the "Arachne Edition" of SuperSlicer and enable that function (Print Settings -> Perimeters) as it improves the quality of the printed parts. 
 
 I can't go into all the possibilities of SuperSlicer deeper though as it's just too complex, so just do a research on it.  
 
