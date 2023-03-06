@@ -7,7 +7,7 @@ Oh yes, you can!
 
 The [Huada HC32F460 MCU](https://github.com/Klipper3d/klipper/commit/72b6bd7efa1ae282220b4bdcfb789075807ebfd2) is officially supported and implemented in the Klipper firmware.  
   
-!!! tip "Important Informations To Be Aware Of" 
+??? tip "Important Informations To Be Aware Of" 
 
     - It should be mentioned already here that you can always go back to the stock firmware by just re-flashing it, so you might just want to give Klipper a try. 
     - Be aware of the fact that the control unit and display of the printer doesn't work after flashing Klipper (due to the fact that the SPI the unit is connected to isn't supported by Klipper yet). See the belonging section further down below for more informations. 
