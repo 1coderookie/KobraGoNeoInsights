@@ -138,6 +138,7 @@ nav:
     - Spare Parts: 'hardware/spare_parts.md'
     - Other: 'hardware/other.md'
   - Firmware: 
+    - Introduction: 'firmware/introduction.md'
     - Stock Firmware (Marlin Based): 'firmware/fw_marlin.md'
     - Klipper (Mod): 'firmware/fw_klipper.md'
   - Profiles & Settings: 'pro_set.md'
