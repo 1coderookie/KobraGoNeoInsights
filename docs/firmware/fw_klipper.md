@@ -19,13 +19,13 @@ It should be mentioned that you can always go back to the stock firmware by just
 
     Long story short: Klipper is an 'alternative' firmware which gives you way more possibilities and even functions for configuring and using your 3D printer. If you don't know what Klipper is, this may be a good start for your research: [All3DP: Klipper](https://www.all3dp.com/topic/klipper)  
 
-## Installing Klipper
+## Installation
 Reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) postet a description about how to create the necessary `firmware.bin` file for installing Klipper: [Install Klipper on Kobra Go or Neo](https://www.reddit.com/r/anycubic/comments/10cwm16/install_klipper_on_kobra_go_or_neo/)  
 So I won't go over that procedure here once again.  
   
 You'll also find links to `printer.cfg` files for the **Go** and the **Neo** in that thread which makes it even easier to get started with Klipper.  
   
-## Klipper and Slicers
+## Slicers
 Due to the fact that Klipper uses extended G -code and macros, there are a few things to be aware of when using certain slicers like Cura, PrusaSlicer, SuperSlicer etc.  
 In the following I'll just go over Cura and SuperSlicer really quick as I used them both and SuperSlicer is a fork (with enhanced functionality) of PrusaSlicer.  
 
@@ -43,13 +43,29 @@ I personally would suppose to use the "Arachne Edition" of SuperSlicer and enabl
 
 I can't go into all the possibilities of SuperSlicer deeper though as it's just too complex, so just do a research on it.  
 
-## OctoPrint, Mainsail or Fluidd with Klipper?
+## OctoPrint, Mainsail or Fluidd?
 
 **OctoPrint** is mentioned and referred to at the Klipper page, so you can use it just fine. Especially when you want to use the TimeLapse plugin there isn't really an alternative to OctoPrint.  
   
-However, I personally prefer to use **Mainsail** with Klipper as it gives you more tools made for Klipper. Just to mention a few here: you can edit the `printer.cfg` and every other file just directly within Mainsail and don't have to SSH to the Raspberry Pi. You already have a heightmap function included which allows you to create and display the meshview after executing an ABL. There's also a G-Code viewer already built in and you have the possibilty to create custom macros for e.g. executing backups and activate them with one click - and much more.  
+However, I personally prefer to use **Mainsail** with Klipper as it gives you more tools made for Klipper. Just to mention a few here: you can edit the `printer.cfg` and every other file just directly within Mainsail and don't have to SSH to the Raspberry Pi. You already have a heightmap function included which allows you to create and display the meshview after executing an ABL. There's also a G-Code viewer already built in and you have the possibilty to create custom macros for e.g. executing backups and activate them with one click - and much more. Due to the fact that I personally use Mainsail, I'll always refer to it when it comes down to describe or show certain things. 
   
 **Fluidd** is (imho) pretty similar to Mainsail, but it doesn't seem to be maintained as much as Mainsail (afaik).  
   
 So to find out what's the best solution for you, either do a little research on that or just get another mSD card, install e.g. MainsailOS onto it and then just give it a try.  
     
+## Control Unit
+The stock control unit of both the **Go** and the **Neo** don't work with Klipper. So is that going to be an issue? Actually I thought the same initially and that was the only reason which was holding me back switching to Klipper right away at the beginning. Now that I did switch, I can say that I don't really miss the control unit. 
+
+Just as an example:  
+- Klipper *keeps* the z-offset, so you don't have to fiddle arount at the control unit for that before each and every print because the stcok-fw forgot your settings once again. 
+- Setting temps for e.g. heating up the hotend to change a nozzle or load/unload filament can be done by using Mainsail. 
+- Initiating the ABL procedure is also be done thru Mainsail, just like everything else.
+
+However, if you really do miss the option to control the printer right at that place later, you have several options to do so:  
+- You can use your smartphone, tablet or laptop to just open the mainsail.local page at your browser and use the regular Mainsail frontend (which might be a bit 'uncomfortable' when using a smartphone though).
+- You can use an old smartphone or tablet and install [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/) onto it, which then gives you a nice adapted UI with control buttons.  
+  I also set it up, printed a holder for it and mounted it where the original control unit was, but actually I unplugged the phone again as I just control it via my computer and the mainsail.local page anyway. It also kinda bothers me that I have to boot up the phone all the time as I don't leave the printer on 24/7. I'll add pictures of it here soon though.
+- If you have a Raspberry Pi or other hardware you could connect a touchscreen to (e.g. by using a HMDI port) running for hosting Mainsail, you can add a touchscreen to that and use [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/). It's the same UI like using a smartphone or tablet.  
+  This is actually a quite handy solution if you're using a RPi as you can set everything up in a dedicated case. I'll probably do that as well, just for the pure comfort of not having to take care about switching the smartphone on and off as the display is powered by the RPi. I just didn't want to spend money again when trying Klipper initially, that's why I used an old smartphone in first place.  
+  
+
