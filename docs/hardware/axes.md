@@ -84,7 +84,9 @@ Well, there's a trick, which directly leads us to the process of tramming the x-
 ---
 
 ## Y-Axis
-The Y-axis of both the **Go** and the **Neo** is belt driven (6mm wide). You can adjust the tension of the belt by using the knob at the front side of the aluminum profile where the bed is guided onto. The x-shaped plate for the bedmount itself has v-slot wheels which are running in the v-slot of the aluminum profile.  
+The Y-axis of both the **Go** and the **Neo** is belt driven (6mm wide).  
+You can adjust the tension of the belt by using the knob at the front side of the aluminum profile where the bed is guided onto.   
+The x-shaped plate for the bedmount itself has v-slot wheels which are running in the v-slot of the aluminum profile.  
 The following picture shows the aluminum profile of the y-axis with the knob for adjusting the belt tension at the front.   
   
 ![Y-axis knob](../assets/images/y-axis_knob_web.jpg)
@@ -92,6 +94,11 @@ The following picture shows the aluminum profile of the y-axis with the knob for
 The motor which drives the belt is positioned at the back of the printer.  
   
 ![Y-axis motor](../assets/images/y-axis_motor_web.jpg)
+
+The limit switch for the y-axis is mounted at the back right before the motor, the gantry triggers the switch when moved completely to the back.  
+
+![Y-axis limit switch](../assets/images/axes_y-endstop_web.jpg)
+
 
 ### Belt Tension
 It's kinda difficult to explain the correct belt tension, so you'd have to experiment a bit with that. Generally speaking, the belt shouldn't be too tightened up and shouldn't be too loose either. If it's too tight, too much pressure will be put onto the motor shaft - if it's too loose though, the belt might slip. If you can 'bend' the belt down a bit by putting some pressure with your finger onto it but you still feel an amount of resistance, then it's a good sign that you're in the right area of tension. If you pluck it like a guitar string then it should make something like a mid to high sound.   
