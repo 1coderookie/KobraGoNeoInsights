@@ -167,7 +167,9 @@ The following picture shows the stock spacers on the left, springs in te middle 
     Also remember to check your z-offset as it'll most likely has to be adjusted.  
     
 ### Insulating the Bed
-What I personally can highly recommend is to insulate the underside of the bed. You can get special insulation mats for 3d printers which meet the requirements for this (like being suited for higher temperatures and being flame retardant) for a few bucks. Make sure you order the correct size (preferrably a bit bigger) which is 230x230mm as that's the size of the bedplate itself.  
+What I personally can highly recommend is to insulate the underside of the bed.  
+You can get special insulation mats for 3d printers which meet the requirements for this (like being suited for higher temperatures and being flame retardant) for a few bucks.  
+Make sure you order the correct size (preferrably a bit bigger) which is 230x230mm as that's the size of the bedplate itself.  
 
 ![Bed insulated](../assets/images/bed_insulated_web.jpg)
 
