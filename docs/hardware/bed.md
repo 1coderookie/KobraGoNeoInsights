@@ -6,16 +6,10 @@ However, if you're looking for a plate from a third party company, you need to g
 
 The temperature of the bed should reach about ≤230°F/110°C maximum and therefore it should be possible to successfully print ABS, PETG and TPU (by using a housing though) besides PLA.  
 Both printers offer a 25-point automatic bed leveling which is called "Anycubic LeviQ".  
-
-??? tip "Bed Leveling Function"
-
-    - Don't get misleaded by the term "automatic bed leveling" - the process does *not* level your bed! It only measures and recognizes the distance towards the sensor at the 25 spots where it measures. You can *not* level the bed itself without tinkering as it's mounted directly to the construction which leads the bed in the y-axis.    
-    - When it comes to executing the ABL function of the printer, it's advisable to initially check if the ABL sensor is leveled correctly to get the best results out of the ABL process. See the expandable box "Leveling the ABL Sensor" in the section ["Leveling or Dismounting the ABL Sensor"](printhead.md#leveling-or-dismounting-the-abl-sensor) in the chapter "Printhead".  
-    - To make the measured values of the ABL come into account later when it comes down to printing, you'll need to add a certain line to the start G-code of the slicer. I'm not 100% sure yet, but right now it seems like the necessary command is "M420 S1 L" which reads the data out of the EEPROM.   
-      
+        
 The bed uses a removable PEI-coated spring steel plate which makes it easy to remove the printed object.  
 The plate that comes with the printer is one-sided coated at the **Go** and double-sided coated at the **Neo**.   
-The following picture shows the surface of the coated plate from a close-up view.  
+The following picture shows the surface of the coated plate of the **Neo** from a close-up view.  
   
 ![Close-up view of the PEI-coated plate](../assets/images/bed_closeup_web.jpg)  
   
@@ -31,9 +25,23 @@ When you take a look underneath the bed itself, you'll spot a little foam piece 
   
 ![Bed thermistor](../assets/images/bed_thermistor_web.jpg)
   
+The following picture shows the unmounted bed from the underside.  
+
+![Bed underside](../assets/images/bed_underside_web.jpg)  
+
+The bedplate itself is mounted to the y-axis gantry shown in the following picture.  
+
+![Bed gantry](../assets/images/bed_gantry_web.jpg)
+  
 ??? info "Bed Thermistor"
 
     The thermistor of the bed is positioned underneath the white piece of foam in the center of the bed. It's soldered to two contacts at the plate, so in case the thermistor is broken, you should be able to replace it.    
+  
+??? tip "Bed Leveling Function"
+
+    - Don't get misleaded by the term "automatic bed leveling" - the process does *not* level your bed! It only measures and recognizes the distance towards the sensor at the 25 spots where it measures. You can *not* level the bed itself without tinkering as it's mounted directly to the construction which leads the bed in the y-axis.    
+    - When it comes to executing the ABL function of the printer, it's advisable to initially check if the ABL sensor is leveled correctly to get the best results out of the ABL process. See the expandable box "Leveling the ABL Sensor" in the section ["Leveling or Dismounting the ABL Sensor"](printhead.md#leveling-or-dismounting-the-abl-sensor) in the chapter "Printhead".  
+    - To make the measured values of the ABL come into account later when it comes down to printing, you'll need to add a certain line to the start G-code of the slicer. I'm not 100% sure yet, but right now it seems like the necessary command is "M420 S1 L" which reads the data out of the EEPROM.     
   
 ??? tip "Execute PID Tuning for the Bed"
 
@@ -172,9 +180,8 @@ After adding the insulation, the temperature didn't fluctuate anymore at all dur
     For adding the insulation, you need to dismount the bedplate from the gantry by taking out the four screws (remove the PEI coated plate first tho). Be careful with the wires when moving the plate. Put the plate onto the insulation (but don't peel off the protective layer of the adhesive yet!), align it and mark the four holes of the screws.  
     Then place the bed upside down on a flat and clean surface - wipe the surface beforehand tho to make sure that there's no dirt or even metal chips which would press into or stick onto the magnetic surface. Now use IPA or (which I prefer) silicone remover to wipe the underside of the bed where the insulation should be applied to and clean off any dirt or grease from your fingers.  
     Now lay down the insulation onto the bed like if you would apply it (but still with the protective layer on the adhesive!) and adjust the position. Mark the area where the wires are connected to the bed as well and cut away that part of the insulation. Place the spacers above the premarked holes and cut away the insulation in that area as well, so that the spacers will touch the plate later without any insulation between.  
-    When it comes down to finally apply the insulation, I personally used Kapton tape and put it onto the whole bedplate first, just in case I'd have to tear off the insulation in the future. I also added two layers of Kapton tape especially above the contacts and the little piece of foam of the thermistor in the center of the bed and marked that area roughly at the insulation, just in case I'd have to replace the thermistor in the future.  
-    Once everything is done and prepared, you can finally apply the insulation. Make sure you start at one side to avoid any bubbles, you want the insulation to stick on the bed equally. If some of the insulation protrudes beyond the plate, cut it off. I highly recommend to additionally secure the insulation by using some pieces of Kapton tape as well to ensure that the edges and sides of the insulation won't come loose.  
+    When it comes down to finally apply the insulation, I personally would suggest to cover the whole surface of the bed with Kapton tape first, just in case you'd have to tear off the insulation in the future. I also added two layers of Kapton tape especially above the contacts and the little piece of foam of the thermistor in the center of the bed and marked that area roughly at the insulation, just in case I'd have to replace the thermistor in the future.  
+    Once everything is done and prepared, you can finally apply the insulation. Make sure you start at one side to avoid any bubbles, you want the insulation to stick on the bed equally. If some of the insulation protrudes beyond the plate, cut it off. The following picture shows the applied insulation. <br> ![Bed insulated](../assets/images/bed_insulated_web.jpg) <br> I highly recommend to additionally secure the insulation by using some pieces of Kapton tape as well to ensure that the edges and sides of the insulation won't come loose.  
     Then add the spacers and the screws and mount the bed onto the gantry again. Make sure that the insulation doesn't touch the construction and the motor mount at the back, the bed has to move as free as before. If you used adjustable spacers, tram the bed again.  
     When switching on the printer, make sure you proceed with adjusting the z-offset due to the raised bed and execute an ABL procedure as well as a PID tuning of the bed now and save the new values to the EEPROM.  
-    (Pictures will come soon.)
     
