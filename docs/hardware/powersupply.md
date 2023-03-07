@@ -21,14 +21,14 @@ The housing of the power supply unit is mounted at the back of the base frame un
   
 The following picture shows the location of the PSU (in the back) and the mainboard (in the front) at the **Neo** (should be similar at the **Go**).  
 
-![Location PSU](..assets/images/neo_underside_mb-psu_web.jpg)  
+![Location PSU](../assets/images/neo_underside_mb-psu_web.jpg)  
   
 The following pictures show the connectors of the PSU with the three 230VAC wires on the right side (L = brown, N = blue, earth = yellow/green) and the 24VDC on the left side (V+ = red and V- = black), the PCB of the PSU and the fan of the PSU.  
 
-![Connectors PSU](..assets/images/psu_connectors_web.jpg)  
+![Connectors PSU](../assets/images/psu_connectors_web.jpg)  
 
-![PSU open](..assets/images/psu_open_web.jpg)
+![PSU open](../assets/images/psu_open_web.jpg)
   
-![PSU fan](..assets/images/psu_fan_web.jpg) 
+![PSU fan](../assets/images/psu_fan_web.jpg) 
  
 
