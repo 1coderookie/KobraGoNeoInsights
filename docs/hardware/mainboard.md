@@ -10,11 +10,14 @@ Afaik it is a 32bit mainboard with a Huada HC32F460 200MHz ARM Cortex-M4 with 19
   
 ![Mainboard TriGorilla front](../assets/images/mainboard_front_web.jpg)  
   
-![Mainboard TriGorilla back](../assets/images/mainboard_back_web.jpg)
+![Mainboard TriGorilla back](../assets/images/mainboard_back_web.jpg)  
+
+![Mainboard labeled](../assets/images/mainboard_complete_labeled_web.jpg)
   
 The following picture shows the fan of the mainboard.  
 
-![MCU fan](../assets/images/fan-mainboard_web.jpg)
+![MCU fan](../assets/images/fan-mainboard_web.jpg)  
+
   
 ??? tip 
   
