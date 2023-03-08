@@ -26,6 +26,12 @@ The [Huada HC32F460 MCU](https://github.com/Klipper3d/klipper/commit/72b6bd7efa1
 ## Installation
 Credits to reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) who initially posted how to get Klipper running on the **Go** and the **Neo**: [Install Klipper on Kobra Go or Neo](https://www.reddit.com/r/anycubic/comments/10cwm16/install_klipper_on_kobra_go_or_neo/).  
   
+??? tip "Compiled `klipper.bin` Available"
+
+    I set up a repository where you can download the compiled `klipper.bin`: [Klipper4KobraGoNeo](https://github.com/1coderookie/Klipper4KobraGoNeo)  
+    Thanks to @cringegnere for making the file available!  
+    **USE AT YOUR OWN RISK!**  
+  
 Basically you need to clone the Klipper repository and compile the necessary `firmware.bin` file.  
 Referring to the beforementioned post of xpeng121, you need to change the MCU to "HC32F460" and the serial to "Anycubic Kobra". For further informations about the installation steps please read the chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official Klipper documentation.  
 
@@ -43,6 +49,8 @@ Now you should be able to connect OctoPrint/Mainsail/.. with the printer. If an 
     - After flashing Klipper's `firmware.bin`, don't try to start printing right away!  
     - Keep in mind that even though the stock mainboard of the **Go** and the **Neo** is the same, you have to adjust certain settings of the file `printer.cfg` depending on your specific model *before* starting to print or calibrate the printer! So don't just use the beforementioned file from the reddit post and start printing right away!    
     - Proceed with the [configuration checks](https://www.klipper3d.org/Config_checks.html) before you're trying to print anything!      
+  
+  
   
 ## Stock Control Unit
 The stock control unit of both the **Go** and the **Neo** don't work with Klipper. So is that going to be an issue? Actually I thought the same initially and that was the only reason which was holding me back switching to Klipper right away at the beginning. Now that I did switch, I can say that I don't really miss the control unit. 
