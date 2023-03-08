@@ -561,6 +561,7 @@ In the following I'll list some mods I found which belong to the part "printhead
 - Reddit member [xpeng121](https://www.reddit.com/user/xpeng121/) posted his modification for the Kobra **Go** to a ***direct drive extruder***: [Kobra Go direct drive mod. Yes it's Neo now...](https://www.reddit.com/r/anycubic/comments/10howol/kobra_go_direct_drive_mod_yes_its_neo_now/)  
 - I've read about people upgraded to a ***full metal hotend*** using a hotend which is compatible with an Ender 3/V2, so maybe do a little research on that.  
 - [MW-Mechanical](https://www.printables.com/de/social/455820-mw-mechanical) created an [Upgraded fan duct (exposed print head setup) for Anycubic Kobra Go](https://www.printables.com/de/model/338244-upgraded-fan-duct-exposed-print-head-setup-for-any) which is supposed to achieve better part cooling.
+- [Gallapagos](https://www.thingiverse.com/gallapagos/designs) created a [Monomonster](https://www.thingiverse.com/thing:5741047) for the **Go** using a 5015 style blower fan.
   
 ### Neo  
   
