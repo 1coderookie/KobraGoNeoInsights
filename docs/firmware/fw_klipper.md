@@ -29,7 +29,7 @@ Credits to reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) who ini
 ??? tip "Compiled `klipper.bin` Available"
 
     I set up a repository where you can download the compiled `klipper.bin`: [Klipper4KobraGoNeo](https://github.com/1coderookie/Klipper4KobraGoNeo)  
-    Thanks to @cringegnere for making the file available!  
+    Thanks to @[cringegnere](https://github.com/cringegnere) for making the file available!  
     **USE AT YOUR OWN RISK!**  
   
 Basically you need to clone the Klipper repository and compile the necessary `firmware.bin` file.  
