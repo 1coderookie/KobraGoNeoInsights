@@ -26,14 +26,14 @@ The [Huada HC32F460 MCU](https://github.com/Klipper3d/klipper/commit/72b6bd7efa1
 ## Installation
 Credits to reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) who initially posted how to get Klipper running on the **Go** and the **Neo**: [Install Klipper on Kobra Go or Neo](https://www.reddit.com/r/anycubic/comments/10cwm16/install_klipper_on_kobra_go_or_neo/).  
   
+Basically you need to clone the Klipper repository and compile the necessary `firmware.bin` file.  
+Referring to the beforementioned post of xpeng121, you need to change the MCU to "HC32F460" and the serial to "Anycubic Kobra". For further informations about the installation steps please read the chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official Klipper documentation.  
+
 ??? tip "Compiled `klipper.bin` Available"
 
     I set up a repository where you can download the compiled `klipper.bin`: [Klipper4KobraGoNeo](https://github.com/1coderookie/Klipper4KobraGoNeo)  
     Thanks to @[cringegnere](https://github.com/cringegnere) for making the file available!  
-    **USE AT YOUR OWN RISK!**  
-  
-Basically you need to clone the Klipper repository and compile the necessary `firmware.bin` file.  
-Referring to the beforementioned post of xpeng121, you need to change the MCU to "HC32F460" and the serial to "Anycubic Kobra". For further informations about the installation steps please read the chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official Klipper documentation.  
+    **USE AT YOUR OWN RISK!**
 
 Besides the `firmware.bin` of Klipper you also need a file named `printer.cfg` which contains the specific sttings for your model.  
 You'll also find links to `printer.cfg` files for the **Go** and the **Neo** in the abovementioned reddit post which makes it even easier to get started with Klipper. These files already contain the necessary pin assignement and so on. You still have to adjust these files to your special settings afterwards though.   
