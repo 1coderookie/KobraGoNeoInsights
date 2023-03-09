@@ -449,15 +449,17 @@ It's secured by two hexagon socket screws at the top of the metal back plate and
   
 After the plastic cover is gone, you can see the fans, the proximity sensor at the right side and the heater block at center down at the bottom and so on. Depending on what you want do do now, you need to follow different steps. But first let's have a look at the coverless head from different points of view, starting with the view from the front with a straight look at the little fan for cooling the printed part.  
   
-![Front side view](../assets/images/head_dis-front_web.jpg)   
+![Front side view](../assets/images/head_dis-front_web.jpg) 
+![Fan parts](../assets/images/head_neo_fan-parts_web.jpg)  
   
 Now we look at the left side where you can see the motor of the feeder gear. You can spot three hexagon socket screws there - two at the top and one at the bottom close to the motor housing, which are holding the entire feeder system onto the metal backplate.    
   
 ![Left side view](../assets/images/head_neo_leftside_motor_mount_marked_web.jpg)
   
-From the right side view you see the fan for cooling the extruder and the ABL sensor with the orange tip at the very right side of the construction.    
+From the right side view you see the fan for cooling the heatsink and the ABL sensor with the orange tip at the very right side of the construction.    
   
 ![Right side view](../assets/images/head_rightside_web.jpg) 
+![Fan heatsink](../assets/images/head_neo_fan-heatsink_web.jpg)
   
 Looking at the head from the bottom right side, you can see the fan outlet on the left, the hotend with the stock silicone sock and the orange tip of the ABL sensor.    
   
