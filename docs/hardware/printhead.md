@@ -11,11 +11,13 @@ If you look at both printheads from the front and compare their size, you'll not
 ## Go
 The following picture shows a new printhead for the **Go** as it comes as a spare part.  
   
-![New Neo print head spare part](../assets/images/head_go_spare_web.jpg)
+![New Go print head spare part](../assets/images/head_go_spare_web.jpg)
 
 The following picture shows a close up view of the printhead of the **Go** from the front view. At the bottom you can see the nozzle in the center and the orange tip of the ABL sensor at the left side.  
   
-![Neo printhead front view](../assets/images/head_go_front_web.jpg)    
+![Go printhead front view](../assets/images/head_go_front_web.jpg)    
+  
+You can find a more detailed inside-view further down below in the disassembling section.  
   
 ## Neo  
 The following picture shows a new printhead for the **Neo** as it comes as a spare part.  
@@ -25,6 +27,8 @@ The following picture shows a new printhead for the **Neo** as it comes as a spa
 The following picture shows a close up view of the printhead of the **Neo** from the front view. At the bottom you can see the blue silicone sock of the heater block with the nozzle in the center and the orange tip of the ABL sensor at the right side.  
   
 ![Neo printhead front view](../assets/images/head_neo-front_web.jpg) 
+  
+You can find a more detailed inside-view further down below in the disassembling section.  
   
 ---
 
