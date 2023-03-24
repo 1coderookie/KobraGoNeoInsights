@@ -2,7 +2,7 @@
 
 # Bed
 Both of the printers have a heated and magnetic bed with the *physical* dimension of 230x230mm - even though Anycubic states in the official specs that the size is 220x220mm.  
-However, if you're looking for a plate from a third party company, you need to get yourself a 230x230mm plate, otherwise it would be too small.  
+However, if you're looking for a bedplate or a PEI plate from a third party company, you need to get yourself a 230x230mm plate, otherwise it would be too small.  
 
 The temperature of the bed should reach about ≤230°F/110°C maximum and therefore it should be possible to successfully print ABS, PETG and TPU (by using a housing though) besides PLA.  
 Both printers offer a 25-point automatic bed leveling which is called "Anycubic LeviQ".  
