@@ -173,9 +173,12 @@ Make sure you order the correct size (preferrably a bit bigger) which is 230x230
 
 ![Bed insulated](../assets/images/bed_insulated_web.jpg)
 
-By insulating the bed the temperature won't fluctuate as much as before, it heats up faster and it takes less energy to keep the desired temperature (so you actually lower the power consumption). It also takes longer for the bed to cool down which became impressively clear after doing a PID tune for the bed and comparing the graphs of before and after adding the insulation (picture will come soon).  
-
-After adding the insulation, the temperature didn't fluctuate anymore at all during a print even when I opened the window from time to time - the graph was just a straight line. So I'm highly satisfied with this actually.     
+By insulating the bed the temperature won't fluctuate as much as before, it heats up faster and it takes less energy to keep the desired temperature (so you actually lower the power consumption). It also takes longer for the bed to cool down which became impressively clear after doing a PID tune for the bed and comparing the graphs of before and after adding the insulation as the following screenshots will show.  
+The first screenshot shows the bed temperature (blue graph) before the insulation while doing a PID tuning. The temperature is set to 60°C, after reaching that temperature the bed cools down to 55°C and heats up to 60°C again (and so on). The second screenshot shows the same process but with installed insulation. You can clearly see that it takes longer to cool down after reaching the 60°C as the blue graph of the second screenshot isn't declining as steep and fast to the 55°C target temperature as the one in the first screenshot.  
+![Bed PID before insulating](../assets/images/bed_pre-insulation_PID.jpg)   
+![Bed PID after insulating](../assets/images/bed_post-insulation_PID.jpg)  
+  
+After adding the insulation, the temperature didn't fluctuate anymore at all during a print, even when I opened the window from time to time - the graph was just a straight line. So I'm highly satisfied with this actually and can strongly recommend insulating the bedplate.     
 
 ??? example "Adding the Insulation"  
 
