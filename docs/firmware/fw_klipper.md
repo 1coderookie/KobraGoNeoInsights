@@ -21,22 +21,22 @@ The [Huada HC32F460 MCU](https://github.com/Klipper3d/klipper/commit/72b6bd7efa1
 
 ??? info "Discussion Thread About Klipper"
 
-    I opened a [discussion thread about Klipper](https://github.com/1coderookie/KobraGoNeoInsights/discussions/6) just in case any further questions arise or in case you want to comment on certain things without doing so by sending me an email. Keep in mind though that I'm not an expert at all, so if you do have specific questions about Klipper, then it might be better to ask in a special forum like e.g. the [Klipper subreddit](https://www.reddit.com/r/klippers/).  
+    I opened a [discussion thread about Klipper](https://github.com/1coderookie/KobraGoNeoInsights/discussions/6) just in case any further questions arise or in case you want to comment on certain things without doing so by sending me an email. Keep in mind though that I'm not an expert at all, so if you do have specific questions about Klipper, please refer to the [official documentation of Klipper](https://www.klipper3d.org/Overview.html) and/or ask in a special forum like e.g. the [Klipper subreddit](https://www.reddit.com/r/klippers/).  
   
 ## Installation
-Credits to reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) who initially posted how to get Klipper running on the **Go** and the **Neo**: [Install Klipper on Kobra Go or Neo](https://www.reddit.com/r/anycubic/comments/10cwm16/install_klipper_on_kobra_go_or_neo/).  
+*Credits to reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) who initially posted how to get Klipper running on the **Go** and the **Neo**: [Install Klipper on Kobra Go or Neo](https://www.reddit.com/r/anycubic/comments/10cwm16/install_klipper_on_kobra_go_or_neo/).*  
   
 Basically you need to clone the Klipper repository and compile the necessary `firmware.bin` file.  
 Referring to the beforementioned post of xpeng121, you need to change the MCU to "HC32F460" and the serial to "Anycubic Kobra". For further informations about the installation steps please read the chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official Klipper documentation.  
 
 ??? tip "Compiled `klipper.bin` Available"
 
-    I set up a repository where you can download the compiled `klipper.bin`: [Klipper4KobraGoNeo](https://github.com/1coderookie/Klipper4KobraGoNeo)  
+    I set up a repository where you can download the compiled `klipper.bin` (aka `firmware.bin`): [Klipper4KobraGoNeo](https://github.com/1coderookie/Klipper4KobraGoNeo)  
     Thanks to @[cringegnere](https://github.com/cringegnere) for making the file available!  
     **USE AT YOUR OWN RISK!**
 
-Besides the `firmware.bin` of Klipper you also need a file named `printer.cfg` which contains the specific sttings for your model.  
-You'll also find links to `printer.cfg` files for the **Go** and the **Neo** in the abovementioned reddit post which makes it even easier to get started with Klipper. These files already contain the necessary pin assignement and so on. You still have to adjust these files to your special settings afterwards though.   
+Besides the `firmware.bin` of Klipper (aka `klipper.bin`) you also need a file named `printer.cfg` which contains the specific sttings for your model.  
+You'll also find links to `printer.cfg` files for the **Go** and the **Neo** in the abovementioned reddit post as well as in the abovementioned GitHub repository I set up, which makes it even easier to get started with Klipper. These files already contain the necessary pin assignement and so on. You still have to adjust these files to your special settings afterwards though.   
   
 Once you've created the `firmware.bin` file, copy it to the root directory (means, directly onto the card, not in a subfolder!) of your mSD card. I personally would suggest to remove all files from the mSD card and only copy the `firmware.bin` file onto it.  
 Then you flash it as you would do with the stock firmware. Means, you turn off the printer, put the card into the cardreader and turn on the printer.  
@@ -50,10 +50,44 @@ Now you should be able to connect OctoPrint/Mainsail/.. with the printer. If an 
     - Keep in mind that even though the stock mainboard of the **Go** and the **Neo** is the same, you have to adjust certain settings of the file `printer.cfg` depending on your specific model *before* starting to print or calibrate the printer! So don't just use the beforementioned file from the reddit post and start printing right away!    
     - Proceed with the [configuration checks](https://www.klipper3d.org/Config_checks.html) before you're trying to print anything!      
   
+## Configuration  
+Before you can start with the beforementioned tests to see if anything works correctly, you should check and adjust the settings in the file `printer.cfg` if necessary. *Don't start to print right away!*    
+I won't mention and explain all the settings here as you can just use the official documentation of Klipper to see what each setting means.  
   
+However, there is one specific setting I'd like to mention here though as it may cause problems if you don't adjust that. It's the setting `[fan]` for the part cooling fan.  
+So, in the file `printer.cfg` there is a section for the settings of the fans. Klipper is using software PWM by default, the default frequency here seems to be 100Hz.  
+However, users reported dying part cooling fans shortly after switching to Klipper (you can find one of the discussions [here](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2)). This problem seems to be related to the default PWM frequency.  
+After investiganting the problem it seems that the fan runs at about 31.4kHz when using the stock firmware. Also there users reported dying fans as well, but it seems that that didn't occur so 'fast'. So I'd recommend to change the belonging setting for the part cooling fan to the specific "cycle_time" value "0.0000318471".  
+There isn't a final conclusion on this topic yet (and the manufacturer of the fans didn't answer my email), but after changing the belonging setting so that it runs at a frequency of 31.4kHz (when runnning at 100% fan speed) at least the users involved in these tests didn't reported another broken fan yet.  
+This is the belonging section and the setting for the part cooling fan:  
+```
+[fan]
+pin: PB5
+cycle_time: 0.0000318471
+```
+    
+## Special Functions   
+In the following I'll list some of the special functions which make Klipper so interesting and outstanding compared to the stock firmware, besides the fact that you can adjust the firmware settings to your own needs.  
+  
+### G-Codes & Macros
+Klipper uses extended g-codes and macros, so not all of the 'regular' g-code commands are known and useable within Klipper. See the [g-codes chapter](https://www.klipper3d.org/G-Codes.html) of the official Klipper documentation for an overview of the specific commands.  
+You can also find [command templates](https://www.klipper3d.org/Command_Templates.html) in the official documentation.  
+  
+Due to the fact that Klipper also uses macros, you can set up your own macros to set up certain routines or to e.g. use scripts to do automatic backups of your Klipper configs. 
+  
+### ABL and Manual Bed Leveling
+You can configure the ABL procedure as well so that it fits your needs. Means, you can change the amount and location of probing points, the probing speed and the amount of probes for each probing point. You can also choose between different probe algorithms.  
+  
+Besides that, you can also use manual bed leveling in addition to the ABL. This is especially useful for people who replaced the stock spacers of the bed with [adjustable spacers](../hardware/bed/#different-spacers) for being able to tram the bed itself as well. Read the description of the function ["screws_tilt_adjust" with the command "SCREWS_TILT_CALCULATE"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe) which tells you exactly how much and in which direction you have to turn each screw to tram the bed after configuring it for your printer.   
+  
+### Pressure Advance
+By using Klipper you can take advantage of using a feature called "Pressure Advance". Please refer to the official Klipper documentation of [Pressure Advance](https://www.klipper3d.org/Pressure_Advance.html) about how to calibrate and use it.  
+
+### Resonance Compensation: Input Shaping
+By using Klipper you can take advantage of using Resonance Compensation and a feature called "Input Shaping". You can either calibrate it manually or by using additional hardware like ADXL345 acceleration sensors (recommended). Please refer to the official Klipper documentation of [Resonance Compensation](https://www.klipper3d.org/Resonance_Compensation.html#resonance-compensation) about how to calibrate and use it.
   
 ## Stock Control Unit
-The stock control unit of both the **Go** and the **Neo** don't work with Klipper. So is that going to be an issue? Actually I thought the same initially and that was the only reason which was holding me back switching to Klipper right away at the beginning. Now that I did switch, I can say that I don't really miss the control unit. 
+The stock control unit of both the **Go** and the **Neo** *don't* work with Klipper. So is that going to be an issue? Actually I thought the same initially and that was the only reason which was holding me back switching to Klipper right away at the beginning. Now that I did switch, I can say that I don't really miss the control unit. 
 
 Just as an example:  
 
@@ -81,15 +115,15 @@ Also there are a few functions of Cura which should improve the print quality wh
 
 You'll find a good overview of what to be aware of in the tutorial from [All3DP: Cura & Klipper: How to Make Them Work Together](https://www.all3dp.com/2/cura-klipper-tutorial).  
  
-### SuperSlicer  
-My personal favourite. In SuperSlicer you can set the g-code flavor depending on the firmware of the printer (menu "Printer Settings") as shown in the screenshot below, so it's already everything set up correctly within the g-code of the sliced files.  
+### SuperSlicer (and PrusaSlicer) 
+My personal favourite after using Cura for some time. In SuperSlicer you can set the g-code flavor depending on the firmware of the printer (menu "Printer Settings") as shown in the screenshot below, so it's already everything set up correctly within the g-code of the sliced files.  
   
 ![SuperSlicer firmware](../assets/images/klipperfw_superslicer-flavor.png)
   
 SuperSlicer has many functionalities to finetune and control the output - you can even choose between different patterns for the top layer finish.  
 Besides that it comes with a really handy calibration functionality which guides you step by step through the calibration process and allows you to generate calibration models like temperature or retraction towers with individual settings by just a few clicks.  
 
-I personally would suppose to use the "Arachne Edition" of SuperSlicer and enable that function (Print Settings -> Perimeters) as it improves the quality of the printed parts. 
+*I personally would suppose to use the "Arachne Edition" of SuperSlicer and enable that function (Print Settings -> Perimeters) as it improves the quality of the printed parts.* 
 
 I can't go into all the possibilities of SuperSlicer deeper though as it's just too complex, so just do a research on it.  
 
@@ -115,25 +149,4 @@ Just to mention a few here:
 ### Fluidd
 Fluidd is kinda similar to Mainsail, but it doesn't seem to be maintained as much as Mainsail (afaik).  
     
-## Special Functions   
-In the following I'll list some of the special functions which make Klipper so interesting and outstanding compared to the stock firmware, besides the fact that you can adjust the firmware settings to your own needs.  
-  
-### G-Codes & Macros
-Klipper uses extended g-codes and macros, so not all of the 'regular' g-code commands are known and useable within Klipper. See the [g-codes chapter](https://www.klipper3d.org/G-Codes.html) of the official Klipper documentation for an overview of the specific commands.  
-You can also find [command templates](https://www.klipper3d.org/Command_Templates.html) in the official documentation.  
-  
-Due to the fact that Klipper also uses macros, you can set up your own macros to set up certain routines or to e.g. use scripts to do automatic backups of your Klipper configs. 
-  
-### ABL and Manual Bed Leveling
-You can configure the ABL procedure as well so that it fits your needs. Means, you can change the amount and location of probing points, the probing speed and the amount of probes for each probing point. You can also choose between different probe algorithms.  
-  
-Besides that, you can also use manual bed leveling in addition to the ABL. This is especially useful for people who replaced the stock spacers of the bed with [adjustable spacers](../hardware/bed/#different-spacers) for being able to tram the bed itself as well. Read the description of the function ["screws_tilt_adjust" with the command "SCREWS_TILT_CALCULATE"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe) which tells you exactly how much and in which direction you have to turn each screw to tram the bed after configuring it for your printer.   
-  
-### Pressure Advance
-By using Klipper you can take advantage of using a feature called "Pressure Advance". Please refer to the official Klipper documentation of [Pressure Advance](https://www.klipper3d.org/Pressure_Advance.html) about how to calibrate and use it.  
-
-### Resonance Compensation: Input Shaping
-By using Klipper you can take advantage of using Resonance Compensation and a feature called "Input Shaping". You can either calibrate it manually or by using additional hardware like ADXL345 acceleration sensors (recommended). Please refer to the official Klipper documentation of [Resonance Compensation](https://www.klipper3d.org/Resonance_Compensation.html#resonance-compensation) about how to calibrate and use it.
-
-
 
