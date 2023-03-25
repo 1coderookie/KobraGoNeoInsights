@@ -569,13 +569,12 @@ In the following I'll list some mods I found which belong to the part "printhead
 ### Go  
   
 - Reddit member [xpeng121](https://www.reddit.com/user/xpeng121/) posted his modification for the Kobra **Go** to a ***direct drive extruder***: [Kobra Go direct drive mod. Yes it's Neo now...](https://www.reddit.com/r/anycubic/comments/10howol/kobra_go_direct_drive_mod_yes_its_neo_now/)  
-- I've read about people upgraded to a ***full metal hotend*** using a hotend which is compatible with an Ender 3/V2, so maybe do a little research on that.  
 - [MW-Mechanical](https://www.printables.com/de/social/455820-mw-mechanical) created an [Upgraded fan duct (exposed print head setup) for Anycubic Kobra Go](https://www.printables.com/de/model/338244-upgraded-fan-duct-exposed-print-head-setup-for-any) which is supposed to achieve better part cooling.
 - [Gallapagos](https://www.thingiverse.com/gallapagos/designs) created a [Monomonster](https://www.thingiverse.com/thing:5741047) for the **Go** using a 5015 style blower fan.
   
 ### Neo  
   
-- [3dpTeach](https://www.youtube.com/@3dpTeach) upgraded the hotend of this **Kobra** to a ***full metal hotend***. Due to the fact that the hotend of the Kobra and the Kobra **Neo** are identical, you probably want to have a look at his solution: [Upgraded All Metal Hot-End for Anycubic Kobra](https://www.youtube.com/watch?v=8AZB7HRxZfQ).  
 - [Martin](https://www.printables.com/de/social/443043-martin) created a [replacement for the stock fan duct ](https://www.printables.com/de/model/378928-anycubic-kobra-neo-fan-duct) of the **Neo** which is supposed to achieve better part cooling due to air flow from three sides.  
+  He also created a [fan duct for a 5015 radial fan](https://www.printables.com/en/model/426167-kobra-neo-fan-duct-for-5015-fan/files) which replaces the stock parts.  
 - [Gregg Bennett](https://www.printables.com/de/social/221278-greg-bennett/about) created an [extension for the stock fan duct](https://www.printables.com/de/model/399159-air-duct-anycubic-kobra-neo-httpsyoutubeso7tb6e8yh) of the **Neo** which has to be mounted onto it and leads the airflow closer to the printed object underneath the nozzle.    
   
