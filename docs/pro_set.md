@@ -32,7 +32,18 @@ The following list links to the specific profiles from [Anycubic's firmware page
  - [ABS v1.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Neo_Suggested_parameters_for_ABS_V1.curaprofile?v=1669192662)
  - [TPU v1.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Neo_Suggested_parameters_for_TPU_V1.curaprofile?v=1669192662)
  - [PETG v2.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Neo_Suggested_parameters_for_PETG_V2.curaprofile?v=1669192662)
- 
+  
+!!! warning "Don't Use Anycubic's Profile Right Away!"
+
+    Watch out if you're going to use the profile of Anycubic, the *retraction distance is set to 6mm there*, which is *way* too much for the direct drive system of the **Neo**!  
+    6mm is more a setting for a bowden drive like the **Go**, direct drive systems are supposed to be used with retraction distance settings around/up to 1mm! Using 6mm will lead to clogging!  
+    *Always make sure to check this setting in general when using preconfigured profiles!*   
+  
+!!! warning "Better Don't Print The Owl.gcode!"  
+
+    It's advisable to *not* print the owl.gcode example with the **Neo** which Anycubic provides. In there the retraction distance is also set to 6mm, which is *way* too much for the direct drive of the **Neo**! Even tho people reported a great quality of this owl when they printed it, it'll most likely lead to clogging.  
+    
+  
 The following list links to profiles provided by users which I became aware of: 
 
  - @[sclebo05](https://github.com/sclebo05) offers his profiles for different slicers for the Kobra **Neo**: [https://github.com/sclebo05/KobraNeoProfiles](https://github.com/sclebo05/KobraNeoProfiles)
