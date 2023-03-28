@@ -848,11 +848,7 @@ So in case you want or need to set this value higher (do at your own risk though
 #### Babystepping Z-Axis
 As we can see from above, the babysteps for manual controling the z-axis using the control unit are 0.025mm. That means that e.g. if we want to set the offset using the control unit, each step will be *displayed* as 0.02mm but *in fact* it is 0.025mm! Means, that e.g. you lower the z-axis or the z-axis offset two steps, it will be displayed as 0.04mm but in fact it will be 0.05mm. This might not appear important at first sight, but as that sums up the higher the value becomes which you set using the control unit, the higher the deviation will be.  
 
-I personally had the problem with my **Neo** (before I made a new limit switch which fits my offset in the home position) that I had to enter a pretty negative high value for my z-offset. I set the offset at the control unit to -5.6mm - it seemed to work.  
-Then everything was kinda crazy and didn't work out at the second print, so I set this value using the G-code command directly.  
-Suddenly it didn't fit anymore at all.  
-I had no clue what was going on there and whatever I tried, nothing gave me reliable and repeatable results.  
-At the end I made a shorter piece of metal for triggering the limit switch later and therefore getting the nozzle closer to the bed. But when I found out that the display just shows 0.02mm steps while in fact 0.025mm steps were executed, the weird behaviour mentioned before somehow did made sense..
+
   
 #### Linear Advance  
 The useful function "Linear Advance" is NOT activated!  
