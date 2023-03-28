@@ -147,9 +147,9 @@ The hotend of the **Go** is shown in the next pictures. In the second picture yo
     - Once everything looks nice and clean, rinse off the acetone with clear water and let it dry. This is especially important for the inner side of the nozzle - you don't want to have acetone in there.  
     - Then reassemble everything and put it back in place. Read the notes in the specific sections here about how to reassemble the specific parts and what to pay attention to.  
     - At the end when everything is reassembled and you heated up the hotend to finally mount the nozzle and load the filament, extrude filament to see if everything is ok. 
-    - If so (I hope it will be!), don't start printing right away - execute a PID tuning for the hotend first. 
-    - Also check if you need to re-level the ABL sensor in relation to the nozzle due to a probably different position of the hotend now. 
-    -Execute an ABL and take care of your Z-offset as it also might needs to be adjusted because of the same reason: most likely the position of your nozzle will be different due to a different position of the whole hotend.  
+    - If so (I hope it will be!), don't start printing right away - execute a PID tuning for the hotend first.  
+    - Also check if you need to re-level the ABL sensor in relation to the nozzle due to a probably different position of the hotend now.  
+    - Execute an ABL and take care of your Z-offset, most likely the position of your nozzle will be different due to a different position of the whole hotend.  
       
   
 ---  
@@ -214,7 +214,7 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
     - At the end when everything is reassembled and you heated up the hotend to finally mount the nozzle and load the filament, extrude filament to see if everything is ok. 
     - If so (I hope it will be!), don't start printing right away - execute a PID tuning for the hotend first. 
     - Also check if you need to re-level the ABL sensor in relation to the nozzle due to a probably different position of the hotend now. 
-    -Execute an ABL and take care of your Z-offset as it also might needs to be adjusted because of the same reason: most likely the position of your nozzle will be different due to a different position of the whole hotend.  
+    - Execute an ABL and take care of your Z-offset, most likely the position of your nozzle will be different due to a different position of the whole hotend.  
     
   
 ---  
