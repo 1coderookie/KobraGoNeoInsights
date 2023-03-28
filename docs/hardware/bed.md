@@ -41,7 +41,8 @@ The bedplate itself is mounted to the y-axis gantry shown in the following pictu
 
     - Don't get misleaded by the term "automatic bed leveling" - the process does *not* level your bed! It only measures and recognizes the distance towards the sensor at the 25 spots where it measures. You can *not* level the bed itself without tinkering as it's mounted directly to the construction which leads the bed in the y-axis.    
     - When it comes to executing the ABL function of the printer, it's advisable to initially check if the ABL sensor is leveled correctly to get the best results out of the ABL process. See the expandable box "Leveling the ABL Sensor" in the section ["Leveling or Dismounting the ABL Sensor"](printhead.md#leveling-or-dismounting-the-abl-sensor) in the chapter "Printhead".  
-    - To make the measured values of the ABL come into account later when it comes down to printing, you'll need to add a certain line to the start G-code of the slicer. I'm not 100% sure yet, but right now it seems like the necessary command is "M420 S1 L" which reads the data out of the EEPROM.     
+    - To make the measured values of the ABL come into account later when it comes down to printing, you'll need to add a certain line to the start G-code of the slicer. I'm not 100% sure yet, but right now it seems like the necessary command is `M420 S1` which reads the data out of the EEPROM.  
+    - Keep in mind that every time you proceed an ABL process, you'll have to set the z-offset again!
   
 ??? tip "Execute PID Tuning for the Bed"
 
@@ -49,7 +50,7 @@ The bedplate itself is mounted to the y-axis gantry shown in the following pictu
   
 ??? tip "Clean the Plate of the Bed"
 
-    - Before starting a print, make sure the surface of the plate is clean and without any traces of oil, silicone or other stuff which avoids that the filament sticks to the surface. To clean it, use isopropyl alcohol.  
+    - Before starting a print, make sure the surface of the plate is clean and without any traces of oil, silicone or other stuff which avoids that the filament sticks to the surface. To clean it, use isopropyl alcohol or (what I personally use and recommend) silicone remover spray (it's the stuff the guys use to clean the surface before spraypainting a car).  
     - Already touching the plate with your fingers leads to a little amoung of grease left there which already might be enough to cause problems for your print to stick on the bed, so maybe always use disposable gloves when touching it, taking it off or repositioning it.
     - If there's a rest of filament stuck on the plate, *never* try to scratch it off with metal or other sharp materials as you don't want to harm the PEI coating. Heat up the bed and try to peel off the filament instead. If that doesn't work, take off the plate and heat up the area using your hot air gun - sooner or later you'll be able to peel it off. However, be careful to not overheat and maybe harm the coating though.  
   
@@ -140,7 +141,7 @@ The bedplate itself is mounted to the y-axis gantry shown in the following pictu
     
 ??? example "Tramming the X-Axis Gantry"  
 
-    To make sure that the bed and the x-axis gantry are parallel to each other, you should also tram the gantry in relation to the bed itself. See the expandable box in the section [X-Axis Gantry](../axes.md/#x-axis-gantry) to read how you could do it. 
+    To make sure that the bed and the x-axis gantry are parallel to each other, you should also tram the gantry in relation to the bed itself - if you're using the stock spacers. If you're using adjustable spacers, you should tram the x-axis gantry to the frame and then tram the bed in relation to the nozzle (imhoo). See the expandable box in the section [X-Axis Gantry](../axes.md/#x-axis-gantry) to read how you could do it. 
     
 ## Mods
 
@@ -161,6 +162,7 @@ The following picture shows the stock spacers on the left, springs in te middle 
 
     When you want to tram the bed by adjusting the tension of the springs or silicone spacers to pull down a side or an edge of the bed, be careful to not bend the bed itself by tightening up just one corner too much. Try to push down one side of the bed and adjust two screws at a time.    
     I personally tram the bed by adding just a little bit of load to the spacers, so that the bed doesn't wobble. Then I'm measuring the distance between the tip of the ABL sensor and the bedplate where the screws are located in first place and adjust the four screws to get the same distance. Then I proceed with an ABL and look at the mesh and the values and repeat the steps if necessary.  
+    Remeber that every time you adjust one screw, it most likely will affect the other screws as well!  
     For finetuning I add Kapton tape on the magnetic surface of the bed underneath the PEI plate to egalize warped or dented areas as much as possible.  
     In case you're using Klipper like me, you can use the macro ["screws_tilt_adjust with the command SCREWS_TILT_CALCULATE"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe) to finetune the tramming of the bed.  
     When you're done, make sure the screws won't turn themselves loose due to the vibration, so add e.g. an additional lock nut as well.    
