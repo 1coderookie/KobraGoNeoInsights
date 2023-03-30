@@ -26,10 +26,12 @@ There are many sites and tutorials to find which are about calibration, so you m
 
 ## Retraction Settings
 As a crucial element for great printing results you need to find the optimum settings for retraction distance and retraction speed. The correct setting will avoid stringing (more or less). There are various aspects which affect the retraction settings. One of the main aspects is the printing temperature and the kind of filament. The higher the temperature, the more liquid/fluid the filament will be, which leads to more stringing in general.   
+In general you'll determine the correct settings (after determining the correct print temperature) by printing retraction distance and retraction speed towers. Slight adjustments might be necessary later on though, so pay attention to not only the stringing, but also to e.g. starts and ends of layers where over-/underextrusion might be occur due to imperfect retraction settings.  
 
 !!! warning "Feeder Gear Pressure Is Crucial!"
 
-    It should be noted that the correct pressure of the feeder gear is very crucial (not only) when it comes down to retracting. If the feeder gear pressure is too low, the gear won't 'grab' the filament sufficiently and therefore starts slipping and grinding instead of pulling it back. If the pressure is too high though, it'll deform the filament which will results in e.g. visible artefacts of your printed model. So make sure you adjusted the correct pressure here.   
+    It should be noted that the correct pressure of the feeder gear is very crucial (not only) when it comes down to retracting.  
+    If the feeder gear pressure is too low, the gear won't 'grab' the filament sufficiently and therefore starts slipping and grinding instead of pulling it back. If the pressure is too high though, it'll deform the filament which will results in e.g. visible artefacts of your printed model. So make sure you adjusted the correct pressure.   
 
 ### Retraction Distance
 The retraction distance is a crucial setting one has to take care about. The retraction *distance* (r.d.) is the setting how *far* the feeder gear will pull back the filament when retracting. However, if the r.d. is too high, it'll lead to clogs.    
