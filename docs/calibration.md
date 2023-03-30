@@ -11,6 +11,10 @@ In this chapter I'll talk a bit about the topic of calibration. I probably won't
 
     If you're using Cura, you might want to check out the plugin ["Calibration Shapes"](https://marketplace.ultimaker.com/app/cura/plugins/5axes/CalibrationShapes) which gives you access to different STL models you can use for calibration. Before slicing and printing, make sure you're reading the specific notes about the models at the [wiki page of the creator](https://github.com/5axes/Calibration-Shapes/wiki).  
     
+??? tip "Calibration Using SuperSlicer"
+
+    I personally prefer SuperSlicer (after I used Cura in the first place). One of the great functions is, that SuperSlicer already comes with an inbuilt set of calibration tools. You'll follow the proposed order and generate the specific 3d models for your specific needs with just one click. After that, you just print them and don't have to take care about additional code sections (e.g. like applying temperature or retraction distance changes at layer xy) which is necessary when using Cura and the abovementioned Calibration Shapes plugin.  
+    
 
 ## Calibration Guides
 There are many sites and tutorials to find which are about calibration, so you might want to search for that at your preferred site first. However, I found the following guides useful.  
@@ -20,11 +24,32 @@ There are many sites and tutorials to find which are about calibration, so you m
 - [Elli's Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/) made by @[AndrewEllis93](https://github.com/AndrewEllis93)
 - [All3DP's article "Extruder Calibration: How to Calibrate E-Steps"](https://all3dp.com/2/extruder-calibration-6-easy-steps-2/)
 
-## Retraction Speed
-As a crucial element for great printing results you need to find the right retraction distance and retraction speed. Therefore you'll probably already downloaded and printed retraction towers - which is fine.  
+## Retraction Settings
+As a crucial element for great printing results you need to find the optimum settings for retraction distance and retraction speed. The correct setting will avoid stringing (more or less). There are various aspects which affect the retraction settings. One of the main aspects is the printing temperature and the kind of filament. The higher the temperature, the more liquid/fluid the filament will be, which leads to more stringing in general.   
 
-There is a problem though: the retraction speed is limited in the firmware by default to *25mm/s*! This means that every higher value you set in your sclicer will just be ignored and reduced to 25mm/s as that's the encoded limit.   
+!!! warning "Feeder Gear Pressure Is Crucial!"
 
+    It should be noted that the correct pressure of the feeder gear is very crucial (not only) when it comes down to retracting. If the feeder gear pressure is too low, the gear won't 'grab' the filament sufficiently and therefore starts slipping and grinding instead of pulling it back. If the pressure is too high though, it'll deform the filament which will results in e.g. visible artefacts of your printed model. So make sure you adjusted the correct pressure here.   
+
+### Retraction Distance
+The retraction distance is a crucial setting one has to take care about. The retraction *distance* (r.d.) is the setting how *far* the feeder gear will pull back the filament when retracting. However, if the r.d. is too high, it'll lead to clogs.    
+Finding the correct setting here can be difficult as it depends on various other settings and variables, so there isn't a general one-fits-all setting one could use. However, there is a rule of thumb though one should be aware of: if you're using a bowden drive feeder gear system like the one of the **Go**, the r.d. is higher than the one using a direct drive system like the **Neo**. This is because of the slack of the bowden drive system, where the feeder gear is about 30cm away from the hotend. So as a general rule it's said that at bowden drives the r.d. is something around 6mm, at direct drives it's around 1mm.   
+  
+For finding out the correct r.d. setting, you can print retraction distance towers, where different r.d. values are applied at ceratin heights (kinda the same like when printing temperature towers). Before doing so, you should have figured out the correct printing temperature though. I'd suppose to start with the following settings as *maximum* r.d. values:  
+    - **Go**: max. 6mm retraction distance
+    - **Neo**: max. 1mm retraction distance  
+    
+!!! warning "**Neo:** Don't Use Anycubic's Profile Right Away!"  
+
+    This one is really important for the **Neo**: watch out if you're going to use the profile of Anycubic, the retraction distance is set to 6mm there, which is way too much for the direct drive system of the **Neo** as mentioned above! So change that setting to max. 1mm and go from there.   
+    Always make sure to check this setting in general when using preconfigured profiles!  
+
+### Retraction Speed
+Retraction *speed* (r.s.) is the setting how *fast* the feeder gear will pull back the filament when retracting. It plays together with the setting of the retraction distance, and both settings affect each other.  
+In general you can say that the higher the *speed*, the lower the *distance* can be - but like with every 'rule of thumb', this is just a 'rough' guide and you'll need to find out the optimum setting for your specific setup by your own.    
+
+There is a little problem though with both the **Go** and the **Neo**: the retraction speed is limited in the firmware by default to *25mm/s*!   
+This means that every higher value you set in your sclicer will just be ignored and reduced to 25mm/s as that's the encoded limit. Means, when you're starting to print retraction speed towers with higher vales than 25mm/s, those speeds will be 'ignored' so to say as the speed is actually capped to 25mm/s.   
 However, there is a way you can change the default setting. Please go to the chapter [Stock Firmware (Marlin Based)](firmware/fw_marlin.md), scroll down to the section "Limited Retraction Speed" for your specific model and read the expandable box "Setting a Higher Maximum Value for Retraction Speed".  
   
 ## PID Tuning
