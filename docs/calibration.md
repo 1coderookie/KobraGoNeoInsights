@@ -38,8 +38,8 @@ The retraction distance is a crucial setting one has to take care about. The ret
 Finding the correct setting here can be difficult as it depends on various other settings and variables, so there isn't a general one-fits-all setting one could use. However, there is a rule of thumb though one should be aware of: if you're using a bowden drive feeder gear system like the one of the **Go**, the r.d. is higher than the one using a direct drive system like the **Neo**. This is because of the slack of the bowden drive system, where the feeder gear is about 30cm away from the hotend. So as a general rule it's said that at bowden drives the r.d. is something around 6mm, at direct drives it's around 1mm.   
   
 For finding out the correct r.d. setting, you can print retraction distance towers, where different r.d. values are applied at ceratin heights (kinda the same like when printing temperature towers). Before doing so, you should have figured out the correct printing temperature though. I'd suppose to start with the following settings as *maximum* r.d. values:  
-    - **Go**: max. 6mm retraction distance
-    - **Neo**: max. 1mm retraction distance  
+- **Go**: max. 6mm retraction distance
+- **Neo**: max. 1mm retraction distance  
     
 !!! warning "**Neo:** Don't Use Anycubic's Profile Right Away!"  
 
