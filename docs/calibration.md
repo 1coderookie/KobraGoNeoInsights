@@ -19,10 +19,10 @@ In this chapter I'll talk a bit about the topic of calibration. I probably won't
 ## Calibration Guides
 There are many sites and tutorials to find which are about calibration, so you might want to search for that at your preferred site first. However, I found the following guides useful.  
 
-- The [Print Quality Troubleshooting Guide](https://www.simplify3d.com/resources/print-quality-troubleshooting/) is a good start to compare your faulty prints and see what may caused the problem.    
 - A handy reference when it comes down to judging the quality of your first layer is the [poster about what incorrect bed leveling can cause](https://i.imgur.com/hIcGr8U.png) made my [Billie Ruben](https://www.billieruben.info/).
 - [Elli's Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/) made by @[AndrewEllis93](https://github.com/AndrewEllis93)
 - [All3DP's article "Extruder Calibration: How to Calibrate E-Steps"](https://all3dp.com/2/extruder-calibration-6-easy-steps-2/)
+- The [Print Quality Troubleshooting Guide](https://www.simplify3d.com/resources/print-quality-troubleshooting/) is a good start to compare your faulty prints and see what may caused the problem.  
 
 ## Retraction Settings
 As a crucial element for great printing results you need to find the optimum settings for retraction distance and retraction speed. The correct setting will avoid stringing (more or less). There are various aspects which affect the retraction settings. One of the main aspects is the printing temperature and the kind of filament. The higher the temperature, the more liquid/fluid the filament will be, which leads to more stringing in general.   
@@ -56,10 +56,10 @@ However, there is a way you can change the default setting. Please go to the cha
   
 ## PID Tuning
 Without going into too much details here, PID stands for Proportion, Integral and Derivate. These are three variables of an algorith which is supposed to keep the temperature stable.  
-By executing a PID tuning, the printer heats up the desired heating element (extruder or bed) to a given temperature for a given amount of circles and measures the fluctuation. After the process is done, you'll then get an output of three values P, I and D and write them to the memory.  
+By executing a PID tuning, the printer heats up the desired heating element (extruder or bed) to a given temperature, cools down again a few degrees and heats up again for a given amount of circles and measures the fluctuation. After the process is done, you'll then get an output of three values P, I and D and save them to the firmware.  
 
 It's advisable to execute a PID tuning for both the extruder and the bed before you want to use your printer for the first time.  
-Also after you changed the hotend, the cartridge heater or a thermistor or installed a new bed, you should execute a PID tuning.  
+Also after you changed something at the hotend (like installed a new nozzle or heatbreak) and especially if you changed the cartridge heater or a thermistor (or even the position of it when removing and reinserting it) or installed a new bed, you should execute a PID tuning.  
   
 The best way to execute a PID tuning is by simply using certain G-code commands and send them to your printer. To do so, I'll show you an example of how to do it using OctoPrint - but you can do it with any other program that allows you to send G-code commands directly also.  
   
@@ -163,3 +163,24 @@ Recv: ok
 ```
 That's it!  
 Congratulations, you just did the PID tuning for your bed!
+
+??? tip "Insulate The Bedplate"  
+
+    Insulating the bedplate with sufficient material has a great effect on the stability and the behaviour while heating up and cooling down. It'll minimize temperature fluctuations and saves electrical energy as well. Check out the section [Insulating the Bed](hardware/bed.md#insulating-the-bed) for further informations.  
+    
+## Calibrating E-Steps
+You've probably already came along the sentence "calibrate your e-steps" and maybe you wonder what it is, what you'd have to do and why you should do so. It's actually pretty simple: the "e-steps" are the steps of the motor of your extruder (so "e-steps" stands for "extruder-steps") and therefore they determine how much filament will be extruded with a certain amount of motor steps.  
+Depending on how accurate this setting is (means, how well you calibrated the e-steps), you'll either have some pretty perfect prints (in the meaning of the amount of filament of each layer) or you'll see signs of more or less severe under- or overextrusion. Some people try to adjust or get rid of this problem by setting different extrusion multipliers in the slicer, but that's not the best/correct way (imho).  
+Even though the e-steps of both the **Go** and the **Neo** don't seem to be way off, it's advisable to calibrate them. This whole procedure really isn't a big deal and doesn't take long, so make sure to do this calibration!  
+  
+The actual process of how to calibrate the e-steps is described in many articles and videos already, so right now I won't go into the final details here. Basically what you'll do is measure e.g. 100mm and 120mm of filament right above the printhead where the filament enters and mark those two spots. Then you heat up your system to your regular printing temperature, extrude 100mm and measure the distance between the printhead (where the filament enters) and the 100mm and 120mm marks once the extrusion is done.  
+If e.g. the 100mm mark is right at the spot where the filament enters - great, no calibration necessary!  
+But if either more or less than the 100mm got extruded, then you'd have to do a little math using the measured values of the distance to the marks for determining the final value of the e-steps, the formula can be found in numerous articles and videos as well as calculators where you just enter the belonging values. The calculated value has to be saved to the firmware then.  
+After doing so, repeat this process for verifying that the new setting is correct.  
+  
+Some guides say that you should do it without a nozzle, some guides say you should do it with the nozzle. I personally found it most precise when doing the calibration using the final print setup, so these are my personal suggestions when it comes down to execute this procedure:  
+    - Determine the correct print temperature for the filament you're using.  
+    - Use the nozzle you're going to use for printing as well - so don't calibrate the e-steps with e.g. a 0.4mm nozzle, when you're printing with a 0.6mm nozzle later.  
+    - Make sure the pressure of the feeder gear is correct and it's (mostly) the setting you'll use later on as well. So don't calibrate with a sloppy feeder gear and crank up the tension later and vice versa.    
+    - *Make sure to use a fine lined, waterproof pen for that, so don't use a fat marker which aleady draws a 1mm or 2mm wide line!* You want to be as precise as possible here!  
+    - *Make sure to use a precise ruler or a sliding gauge for being able to actually really measure 100mm!* You'd be suprised how bad certain measurement tools actually are and how big deviations can actually be, so make sure to use a sufficient measuring tool.    
