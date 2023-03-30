@@ -72,6 +72,12 @@ If you're about to buy one of either models and you're not sure which fits you b
 
     Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need a picture of the bowden drive feeder, so people could see the difference between the **Go** and the **Neo**. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you! 
   
+??? tip "Feeder Gear Pressure"
+
+    When adjusting the pressure of the feeder gear, make sure you don't tighten it up too much as it could squeeze and deform the filament. On the other hand it shouldn't be too loose though as it should transport the filament reliably.  
+    When pulling out the filament of the extruder system, you should notice little dents on the surface of the filament from the teeth of the feeder gear, the filament itself shouldn't be squeezed and deformed though, it should still be "round" so to say. You don't want the feeder gear to "bite" too much into the filament as well though, as this may lead to inconsistentites of the filament flow. On the other hand, the filament should be fed reliably, which especially comes into account while retracting. So keep an eye on the shaft of the motor by looking at the back of the motor - if you notice that it's slipping while retracting, you definitely need to increase the tension.  
+    As a rule of thumb you can keep in mind that the pressure should be higher when using hard filament like PLA and lower when using soft filament like TPU.    
+  
 ---  
   
 ### Neo
@@ -89,7 +95,7 @@ You can access the inside of the feeder system by dismounting the heatsink, whic
   
 !!! warning
 
-    Make sure that you set the retraction distance and speed to the correct values for a direct drive! In general, it's supposed to be something around 1mm distance and probabyl around 50mm speed. If you set the distance to a value which is too high (e.g. the default 6mm for the **Go** as a bowden drive), the melted filament might be pulled back too far and reaches the PTFE tube which might get clogged then. 
+    Make sure that you set the retraction distance and speed to the correct values for a direct drive! In general, it's supposed to be something around 1mm retraction distance for direct drive systems like the **Neo**. If you set the distance to a value which is too high (e.g. the default 6mm for the **Go** as a bowden drive), the melted filament might be pulled back too far and reaches the PTFE tube which might get clogged then. You can found some more informations about this topic in the section [Retraction Settings](../calibration.md/#retraction-settings) of the chapter [Calibration](../calibration.md).
   
 ??? tip "Feeder Gear Pressure"
 
