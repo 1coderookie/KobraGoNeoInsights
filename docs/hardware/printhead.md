@@ -95,7 +95,7 @@ You can access the inside of the feeder system by dismounting the heatsink, whic
   
 !!! warning
 
-    Make sure that you set the retraction distance and speed to the correct values for a direct drive! In general, it's supposed to be something around 1mm retraction distance for direct drive systems like the **Neo**. If you set the distance to a value which is too high (e.g. the default 6mm for the **Go** as a bowden drive), the melted filament might be pulled back too far and reaches the PTFE tube which might get clogged then. You can found some more informations about this topic in the section [Retraction Settings](../calibration.md/#retraction-settings) of the chapter [Calibration](../calibration.md).
+    Make sure that you set the retraction distance and speed to the correct values for a direct drive! In general, it's supposed to be something around 1mm retraction distance for direct drive systems like the **Neo**. If you set the distance to a value which is too high (e.g. the default 6mm for the **Go** as a bowden drive), the melted filament might be pulled back too far and reaches the PTFE tube which might get clogged then. You can found some more informations about this topic in the section [Retraction Settings](../calibration.md#retraction-settings) of the chapter [Calibration](../calibration.md).
   
 ??? tip "Feeder Gear Pressure"
 
