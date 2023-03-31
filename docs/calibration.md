@@ -31,7 +31,7 @@ In general you'll determine the correct settings (after determining the correct 
 !!! warning "Feeder Gear Pressure Is Crucial!"
 
     It should be noted that the correct pressure of the feeder gear is very crucial (not only) when it comes down to retracting.  
-    If the feeder gear pressure is too low, the gear won't 'grab' the filament sufficiently and therefore starts slipping and grinding instead of pulling it back. If the pressure is too high though, it'll deform the filament which will results in e.g. visible artefacts of your printed model. So make sure you adjusted the correct pressure.   
+    If the feeder gear pressure is too low, the gear won't 'grab' the filament sufficiently and therefore starts slipping and grinding instead of pulling it back. If the pressure is too high though, it'll deform the filament which may result in e.g. visible artefacts of your printed model. So make sure you adjusted the correct pressure.   
     
 ??? info "Stringing"
 
