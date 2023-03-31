@@ -35,12 +35,13 @@ In general you'll determine the correct settings (after determining the correct 
     
 ??? info "Stringing"
 
-    Stringing can be caused and affected by different factors and therefore can't always be avoided by adjusting retraction settings only. You can find countless articles about it, so maybe do a little research on it. Based on my own experiences the following variables besides the retraction settings should be taken into account as well as one probably doesn't think about them in the first place:  
-    - The kind of filament (PLA, ABS, PETG, TPU), the quality of filament and the moisture of filament (moist filament increases stringing).  
-    - The printing temperature (too high as well as too low printing temperatures cause stringing).  
-    - The feeder gear pressure (see above).  
-    - The quality and the state of the nozzle (low-quality nozzles as well as worn out and/or slightly clogged nozzles increase stringing).  
-    - The quality and the state of the PTFE tube inside of the heatbreak (stringing got way better after I replaced the stock PTFE tube with a Capricorn one, it seems that the lower friction of the Capricorn tube affected the retraction capability; also a slightly clogged and/or deformed tip of the PTFE tube affected this).  
+    Stringing can be caused and affected by different factors and therefore can't always be avoided by adjusting retraction settings only. You can find countless articles about it, so maybe do a little research on it.  
+    Based on my own experiences the following variables besides the retraction settings should be taken into account as well as one probably doesn't think about them in the first place:  
+        - The kind of filament (PLA, ABS, PETG, TPU), the quality of filament and the moisture of filament (moist filament increases stringing).  
+        - The printing temperature (too high as well as too low printing temperatures cause stringing).  
+        - The feeder gear pressure (see above).  
+        - The quality and the state of the nozzle (low-quality nozzles as well as worn out and/or slightly clogged nozzles increase stringing).  
+        - The quality and the state of the PTFE tube inside of the heatbreak (stringing got way better after I replaced the stock PTFE tube with a Capricorn one, it seems that the lower friction of the Capricorn tube affected the retraction capability; also a slightly clogged and/or deformed tip of the PTFE tube affected this).  
     
 
 ### Retraction Distance
