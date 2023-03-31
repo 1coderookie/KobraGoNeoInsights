@@ -43,6 +43,8 @@ In general you'll determine the correct settings (after determining the correct 
     - The feeder gear pressure (see note above).  
     - The quality and the state of the nozzle (low-quality nozzles as well as worn out and/or slightly clogged nozzles increase stringing).  
     - The quality and the state of the PTFE tube inside of the heatbreak (stringing got way better after I replaced the stock PTFE tube with a Capricorn one, it seems that the lower friction of the Capricorn tube affected the retraction capability; also a slightly clogged and/or deformed tip of the PTFE tube affected this).  
+    - The object one wants to print (certain objects just caused stringing, even tho I usually printed without any stringing; I'd recommend to print retraction towers with two cone-shaped towers as well, to get the different diameter into account as well).  
+    - The settings of the slicer (there are many articles and videos about this topic, so I'd recommend to do some research on it for your specific slicer).
     
 
 ### Retraction Distance
