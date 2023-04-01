@@ -199,7 +199,7 @@ After doing so, repeat this process for verifying that the new setting is correc
   
 Some guides say that you should do it without a nozzle, some guides say you should do it with the nozzle. I personally found it most precise when doing the calibration using the final print setup, so these are my personal suggestions when it comes down to execute this procedure:  
 
-- Determine the correct print temperature for the filament you're using. 
+- Determine the correct printing temperature for the filament you're using. 
 - Use the nozzle you're going to use for printing as well - so don't calibrate the e-steps with e.g. a 0.4mm nozzle, when you're printing with a 0.6mm nozzle later. 
 - Make sure the pressure of the feeder gear is correct and it's (mostly) the setting you'll use later on as well. So don't calibrate with a sloppy feeder gear and crank up the tension later and vice versa. 
 - *Make sure to use a fine lined, waterproof pen for that, so don't use a fat marker which aleady draws a 1mm or 2mm wide line!* You want to be as precise as possible here! 
