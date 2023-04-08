@@ -23,7 +23,7 @@ The following picture shows the location of the PSU (in the back) and the mainbo
 
 ![Location PSU](../assets/images/neo_underside_mb-psu_web.jpg)  
   
-The following pictures show the connectors of the PSU with the three 230VAC wires on the right side (L = brown, N = blue, earth = yellow/green) and the 24VDC on the left side (V+ = red and V- = black), the PCB of the PSU and the fan of the PSU.  
+The following pictures show the connectors of the PSU with the three 230VAC wires on the right side (L = brown, N = blue, earth = yellow/green) and the 24VDC on the left side (V+ = red and V- = black), the PCB of the PSU and the fan (60x60x15mm, 24V) of the PSU.  
 
 ![Connectors PSU](../assets/images/psu_connectors_web.jpg)  
 
