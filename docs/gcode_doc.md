@@ -14,4 +14,4 @@ The first one to mention is the [RepRap Wiki](https://reprap.org/wiki/G-code), w
 The stock firmware is based on Marlin v2.0.x. You can find a complete reference at the belonging [Marlin website](https://marlinfw.org/meta/gcode/).  
   
 ## Klipper 
-Besides most of the standard G-code Klipper does support (Attention: it doesn't support *all* of the standard commands!), Klipper uses so called "extended" G-code commands and scripts for general status and configuration. These extended commands start with a command which may be followed by one or more parameters. You can find the whole reference at the [Klipper documentation page about G-codes](https://www.klipper3d.org/G-Codes.html).   
+Besides most of the standard G-code Klipper does support (Attention: it doesn't support *all* of the standard commands!), Klipper uses so called "extended" G-code commands and scripts/macros for general status and configuration. These extended commands start with a command which may be followed by one or more parameters. You can find the whole reference at the [Klipper documentation page about G-codes](https://www.klipper3d.org/G-Codes.html).   
