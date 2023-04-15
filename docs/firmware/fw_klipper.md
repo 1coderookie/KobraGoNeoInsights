@@ -76,21 +76,23 @@ cycle_time: 0.0000318471
 In the following I'll list some of the special functions which make Klipper so interesting and outstanding compared to the stock firmware, besides the fact that you can adjust the firmware settings to your own needs.  
   
 ### G-Codes & Macros
-Klipper uses extended g-codes and macros, so not all of the 'regular' g-code commands are known and useable within Klipper. See the [g-codes chapter](https://www.klipper3d.org/G-Codes.html) of the official Klipper documentation for an overview of the specific commands.  
+Klipper uses extended g-codes and macros, so not all of the 'regular' G-code commands are known and useable within Klipper. See the [g-codes chapter](https://www.klipper3d.org/G-Codes.html) of the official Klipper documentation for an overview of the specific commands.  
 You can also find [command templates](https://www.klipper3d.org/Command_Templates.html) in the official documentation.  
   
 Due to the fact that Klipper also uses macros, you can set up your own macros to set up certain routines or to e.g. use scripts to do automatic backups of your Klipper configs. 
   
 ### ABL and Manual Bed Leveling
-You can configure the ABL procedure as well so that it fits your needs. Means, you can change the amount and location of probing points, the probing speed and the amount of probes for each probing point. You can also choose between different probe algorithms.  
+You can configure the ABL procedure as well so that it fits your needs. Means, you can change the amount and location of probing points, the probing speed and the amount of probes for each probing point. You can also choose between different probe algorithms. There's even an [approach which probes the specific area you're going to print on](https://gist.github.com/ChipCE/95fdbd3c2f3a064397f9610f915f7d02) before staring the print. 
   
 Besides that, you can also use manual bed leveling in addition to the ABL. This is especially useful for people who replaced the stock spacers of the bed with [adjustable spacers](../hardware/bed/#different-spacers) for being able to tram the bed itself as well. Read the description of the function ["screws_tilt_adjust" with the command "SCREWS_TILT_CALCULATE"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe) which tells you exactly how much and in which direction you have to turn each screw to tram the bed after configuring it for your printer.   
   
 ### Pressure Advance
-By using Klipper you can take advantage of using a feature called "Pressure Advance". Please refer to the official Klipper documentation of [Pressure Advance](https://www.klipper3d.org/Pressure_Advance.html) about how to calibrate and use it.  
+By using Klipper you can take advantage of using a feature called "Pressure Advance". Basically this function looks ahead while printing and adjusts the pressure of the filament, so that the typical over- and underextrusion at the beginning and end of a layer you often experience will be avoided. This feature can't be activated with the current stock firmware and the TMC2208 stepper drivers, so this is actually a huge plus for Klipper.  
+Please refer to the official Klipper documentation of [Pressure Advance](https://www.klipper3d.org/Pressure_Advance.html) about how to calibrate and use it.  
 
 ### Resonance Compensation: Input Shaping
-By using Klipper you can take advantage of using Resonance Compensation and a feature called "Input Shaping". You can either calibrate it manually or by using additional hardware like ADXL345 acceleration sensors (recommended). Please refer to the official Klipper documentation of [Resonance Compensation](https://www.klipper3d.org/Resonance_Compensation.html#resonance-compensation) about how to calibrate and use it.
+By using Klipper you can take advantage of using Resonance Compensation and a feature called "Input Shaping". This function compensates certain resonances (after provoking them while measuring the x and y axis), which avoids the artefacts of the printed model called 'ringing' and 'ghosting'. This is especially useful when printing at higher speeds. You can either calibrate it manually or by using additional hardware like ADXL345 acceleration sensors (recommended).  
+Please refer to the official Klipper documentation of [Resonance Compensation](https://www.klipper3d.org/Resonance_Compensation.html#resonance-compensation) about how to calibrate and use it.
   
 ## Stock Control Unit
 The stock control unit of both the **Go** and the **Neo** *don't* work with Klipper. So is that going to be an issue? Actually I thought the same initially and that was the only reason which was holding me back switching to Klipper right away at the beginning. Now that I did switch, I can say that I don't really miss the control unit. 
@@ -110,8 +112,8 @@ However, if you really do miss the option to control the printer right at that p
   This is actually a quite handy solution if you're using a RPi as you can set everything up in a dedicated case. I'll probably do that as well, just for the pure comfort of not having to take care about switching the smartphone on and off as the display is powered by the RPi. I just didn't want to spend money again when trying Klipper initially, that's why I used an old smartphone in first place.    
        
 ## Slicers
-Due to the fact that Klipper uses extended g-code and macros, there are a few things to be aware of when using certain slicers like Cura, PrusaSlicer, SuperSlicer etc.  
-In the following I'll just go over Cura and SuperSlicer really quick as I used them both and SuperSlicer is a fork (with enhanced functionality) of PrusaSlicer.  
+Due to the fact that Klipper uses extended G-code and macros, there are a few things to be aware of when using certain slicers like Cura, PrusaSlicer, SuperSlicer etc.  
+In the following I'll just go over them really quick as it would be too much to discuss the slicers in detail. You'll find many resources online though where yuo'll find more informations about them.    
 
 ### Cura  
 Even though Cura and Klipper work perfectly together, there are a few things to be aware of.  
@@ -121,17 +123,16 @@ Also there are a few functions of Cura which should improve the print quality wh
 
 You'll find a good overview of what to be aware of in the tutorial from [All3DP: Cura & Klipper: How to Make Them Work Together](https://www.all3dp.com/2/cura-klipper-tutorial).  
  
-### SuperSlicer (and PrusaSlicer) 
-My personal favourite after using Cura for some time. In SuperSlicer you can set the g-code flavor depending on the firmware of the printer (menu "Printer Settings") as shown in the screenshot below, so it's already everything set up correctly within the g-code of the sliced files.  
+### PrusaSlicer and SuperSlicer 
+My personal favourites after using Cura for some time. In both slicers you can set the G-code flavor depending on the firmware of the printer (menu "Printer Settings") as shown in the screenshot of SuperSlicer below, so it's already everything set up correctly within the G-code of the sliced files.  
   
 ![SuperSlicer firmware](../assets/images/klipperfw_superslicer-flavor.png)
   
-SuperSlicer has many functionalities to finetune and control the output - you can even choose between different patterns for the top layer finish.  
-Besides that it comes with a really handy calibration functionality which guides you step by step through the calibration process and allows you to generate calibration models like temperature or retraction towers with individual settings by just a few clicks.  
+Both slicers have many functionalities to finetune and control the output - you can even choose between different patterns for the top layer finish. They're both pretty identical overall, yet they differ in certain functions. One of the worth mentioning is a handy set of calibration tools that comes with SuperSlicer. This function actually guides you step by step through the calibration process and allows you to generate calibration models like temperature or retraction towers with individual settings by just a few clicks.  
 
-*I personally would suppose to use the "Arachne Edition" of SuperSlicer and enable that function (Print Settings -> Perimeters) as it improves the quality of the printed parts.* 
+*I personally would suppose to use the "Arachne Edition" of SuperSlicer (already implemented in the recent version of PrusaSlicer) and enable that function (Print Settings -> Perimeters) as it improves the quality of the printed parts.* 
 
-I can't go into all the possibilities of SuperSlicer deeper though as it's just too complex, so just do a research on it.  
+I can't go into all the possibilities of SuperSlicer and PrusaSlicer deeper though as it's just too complex, so just do a research on it. I'd recommend to give both Slicers a try tho if you're using Cura right now. Especially the calibration tools of SuperSlicer really are worth a try.   
 
 ## OctoPrint, Mainsail or Fluidd?
 To find out what's the best solution for you, either do a little research on that, watch some YouTube videos or just get another mSD card for your RPi, install e.g. MainsailOS onto it and then just give it a try.  
@@ -153,6 +154,6 @@ Just to mention a few here:
 - And much more..   
   
 ### Fluidd
-Fluidd is kinda similar to Mainsail, but it doesn't seem to be maintained as much as Mainsail (afaik).  
+Fluidd is kinda similar to Mainsail, but it doesn't seem to be maintained as much as Mainsail (afaik). I personally didn't use it, so I can't say anything more to it than do a bit of a research by your own.  
     
 
