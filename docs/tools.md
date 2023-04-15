@@ -42,14 +42,6 @@ Get yourself some of those long acupuncture needles which fit the diameter of yo
 
     *Always* use them when the nozzle is warm though as they tend to bend or even break if you try to push it into the cold nozzle where the hardened filament sticks in.  
 
-## Small Drills
-I personally like to use a 1.5mm and 2mm drill which is longer than a regular one to clean up a clogged PTFE tube of the heat break. First you stick a needle as far as you can into the warm nozzle which fits the diameter of the nozzle, then you disassamble the extruder and take out the PTFE tube. The little hole the needle created inside of the clogged tube leads the 1.5mm drill perfectly fine. After you went through with that one, switch to the 2mm drill and give it a good last cleaning.  
-However, make sure you only use these drills for this specific purpose as you don't want to have some metal or wood chips sticking on the which then may stay in the tube.  
-
-!!! tip 
-
-    *Always* use the drill by hand - don't use your electric power drill for that as you might harm the tube!
-
 ## Tweezers
 Get yourself some long handled tweezers, preferably a few different ones with different shaped and bent tips.  
 
