@@ -63,13 +63,13 @@ I won't mention and explain all the settings here as you can just use the offici
 However, there is one specific setting I'd like to mention here though as it may cause problems if you don't adjust that. It's the setting `[fan]` for the part cooling fan.  
 So, in the file `printer.cfg` there is a section for the settings of the fans. Klipper is using software PWM by default, the default frequency here seems to be 100Hz.  
 However, users reported dying part cooling fans shortly after switching to Klipper (you can find one of the discussions [here](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2)). This problem seems to be related to the default PWM frequency.  
-After investiganting the problem it seems that the fan runs at about 31.4kHz when using the stock firmware. Also there users reported dying fans as well, but it seems that that didn't occur so 'fast'. So I'd recommend to change the belonging setting for the part cooling fan to the specific "cycle_time" value "0.0000318471".  
+After investiganting the problem it seems that [the fan runs at 20kHz]((https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2#discussioncomment-5626026) when using the stock firmware as [@xiaopeng12138](https://github.com/xiaopeng12138) found out. Also there (when using the stock firmware) users reported dying fans as well, but it seems that that didn't occur so 'fast'. So I'd recommend to change the belonging setting for the part cooling fan to the specific "cycle_time" value "0.000050" which is 20kHz.  
 There isn't a final conclusion on this topic yet (and the manufacturer of the fans didn't answer my email), but after changing the belonging setting so that it runs at a frequency of 31.4kHz (when runnning at 100% fan speed) at least the users involved in these tests didn't reported another broken fan yet.  
 This is the belonging section and the setting for the part cooling fan:  
 ```
 [fan]
 pin: PB5
-cycle_time: 0.0000318471
+cycle_time: 0.000050
 ```
     
 ## Special Functions   
