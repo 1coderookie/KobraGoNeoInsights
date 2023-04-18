@@ -865,4 +865,5 @@ There are a few compiled versions and also mods of the original firmwares availa
 ## Neo
 
 - @[cringegnere](https://github.com/cringegnere) offers [his *compiled* version of the the *original* Kobra **Neo** firmware](https://github.com/cringegnere/Kobra_Neo/releases/tag/v1.3.3_original)
-- @[sjorge](https://github.com/sjorge) offers a [modified Kobra **Neo** firmware](https://github.com/sjorge/Kobra_Neo_Fw)
+- @[sjorge](https://github.com/sjorge) offers a [modified Kobra **Neo** firmware](https://github.com/sjorge/Kobra_Neo_Fw)  
+- @[jokubasver](https://github.com/jokubasver) offers a [modified Kobra **Neo** firmware](https://github.com/jokubasver/Kobra_Neo)  
