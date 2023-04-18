@@ -850,7 +850,7 @@ This seems to be due to the fact that (afaik) there's some kind of problem with 
    
 ---  
   
-# Mods
+## Mods
 There are a few compiled versions and also mods of the original firmwares available out there. Please let me know if you find more so that I can link to them. 
   
 !!! warning
@@ -858,11 +858,11 @@ There are a few compiled versions and also mods of the original firmwares availa
     Use at your own risk!  
 
   
-## Go  
+### Go  
   
 - @[Auburn](https://github.com/Auburn) offers a [modified Kobra **Go** firmware](https://github.com/Auburn/Kobra_Go) 
   
-## Neo
+### Neo
 
 - @[cringegnere](https://github.com/cringegnere) offers [his *compiled* version of the the *original* Kobra **Neo** firmware](https://github.com/cringegnere/Kobra_Neo/releases/tag/v1.3.3_original)
 - @[sjorge](https://github.com/sjorge) offers a [modified Kobra **Neo** firmware](https://github.com/sjorge/Kobra_Neo_Fw)  
