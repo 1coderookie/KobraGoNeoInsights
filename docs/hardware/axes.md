@@ -24,7 +24,7 @@ The wheels are leading the printhead onto the aluminum profile of the x-axis. Th
 You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile. 
 
   
-??? tip "Adjusting the Position of the V-Slot Wheels"
+??? tip "Adjusting The Position Of The V-Slot Wheels"
 
     - The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in there pretty tight, but they should be able to roll and move freely - so they shouldn't sit too tight though (sorry, it's kinda hard to explain). On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability. The printhead shouldn't wiggle but it has to be able to move freely.   
     
@@ -58,7 +58,7 @@ However, you might face the problem that you just can't get all of the three whe
 So - what to do?  
 Well, there's a trick, which directly leads us to the process of tramming the x-axis gantry in relation to the bed itself. Expand the box below to read about how to do so.  
 
-??? example "Tramming the X-Axis Gantry and Adjusting the Wheels"  
+??? example "Tramming The X-Axis Gantry And Adjusting The Wheels"  
 
     When it comes down to tram the x-axis gantry, up to me one should differ between tramming it in relation to the frame of the printer and in relation to the bed. Depending on which spacers are being used, you should either do the one or the other:  
     1. Up to me you should tram in relation to the *bed*, if you're using the stock spacers, because you can't tram the bed itself.  
@@ -121,7 +121,7 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
   
 ![Bedmount](../assets/images/y-axis_gantry_web.jpg)
    
-??? tip "Check the Screws of the Bedplate and the Gantry of the Bed"
+??? tip "Check The Screws Of The Bedplate And The Gantry Of The Bed"
 
     - Check if the screws are all tightened up. Be careful though to not overtighten the screws of the Bedplate as you would compress the little spacers underneath it and therefore the plate may become warped. On the other hand, if you see that your bed is warped somehow or that the bed is much more off in certain areas or at one side, you can check if the screws in that area might be too tightened up.  
     - Check if the bedplate itself is somehow wobbling. Not only sideways/horizontally, but also up and down/vertically. If so, not only check the v-slot wheels and maybe adjust their fitting using the eccentric nuts, also check if the screws of the gantry of the bed where the wheels are mounted to are tightened up. As an example: at my **Neo** the bed was wobbling up and down in one certain area - after checking the screws and tighten them up everything was sturdy as it should be.         
@@ -147,7 +147,7 @@ This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom. Th
   
 ![Z-axis views](../assets/images/z-axis_neo_web.jpg)
    
-??? example "Dis- and Reassembling the Z-Axis Lead Screw System"   
+??? example "Dis- and Reassembling The Z-Axis Lead Screw System"   
 
     If you need to dis- and reassemble assemble the z-axis lead screw system, there are a few things that one should be aware of. Besides that, the necessary steps are pretty easy and self-explaing, so I'll go over them just really quick.  
     
@@ -193,12 +193,12 @@ This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom. Th
         People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
         As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait..  
   
-??? example "Changing the Coupler"
+??? example "Changing The Coupler"
 
     It might be a good idea to change the coupler as the one which comes with the printer doesn't compensate any misalignement of the motor shaft and the lead screw. So if they aren't in a perfect vertical alignment, it will result in shear forces, increased wear of the anti-backlash nut and even may cause jamming. The following picture shows the stock coupler that is mounted. <br> ![Coupler](../assets/images/axes_stock-coupler_web.jpg) <br> Here is a picture of a flex coupler I replaced the stock coupler with. <br> ![Flex coupler](../assets/images/axes_flexcoupler_web.jpg) <br> When mounting it, I put a ball of a ball bearing between the motorshaft and the lead screw, so that the flexcoupler won't be pushed together by the weight of the z-axis. I also added ball bearings underneath the flexcoupler to keep the main load off of the motorshaft and transfer it to the motorhousing. Additionally, I also added a nylon washer of the correct thickness underneath the motor itself as it was hanging in the air, only held by the two screws of the motormount at the z-axis aluminum profile.      
     If you want to change the coupler, you'll need to get a coupler which suits 5mm on one side and 8mm on the other side as the motor shaft is 5mm and the rod is 8mm in diameter. Make sure you *don't* get a coupler which uses a grub screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwn onto. Same goes for the lead screw itself.    
     
-??? example "Changing the Anti-Backlash Nut"  
+??? example "Changing The Anti-Backlash Nut"  
 
     If the anti-backlash nut that came with the printer is worn out like shown in the picture below, you should look out for a new one. <br> ![Worn out nut](../assets/images/axes_worn-nut_web.jpg) <br> The nut shown at the picture above is still useable though as it still sits tight on the rod. However, sooner or later the debris will come off again and stick on the rod which may causes jams or stuttering of the z-axis movement.     
     If you find a spring tensioned anti-backlash nut made of brass, you can also use that. However, until now I didn't find one which fits the distance of the holes though.  
@@ -215,7 +215,7 @@ This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom. Th
 The endstop switches are located at the *minimum* endposition of each axis and are triggered when either axis reaches its limit. The switches of the x- and y-axes are mechanical switches, the one at the z-axis is an optical switch.    
 So if you notice that e.g. the motor of the y-axis doesn't stop when the bed reaches the end then you should check if the belonging switch is faulty. 
 
-??? example "Checking the Switches"
+??? example "Checking The Switches (And Cables)"
 
     You can check if the switch really isn't working by triggering it manually while e.g. the bed is moving. If the bed doesn't stop, turn off your printer. Check the connectors at the switch and the mainboard if they're still in place.  
     If everything looks fine here, then it's most likey that either a cable is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the cables. When measuring the cables, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
@@ -227,11 +227,11 @@ So if you notice that e.g. the motor of the y-axis doesn't stop when the bed rea
 
 The following mods should fit both the **Go** and the **Neo** due to the mostly identical design of the printer itself. So I'm just listing them without any distinction.  
   
-### Z-Axis: Bearing Block at the Top 
+### Z-Axis: Bearing Block At The Top 
 Some users stabilize the rod of the Z-axis by adding a bearing block at the top. That's basically a holder/aligner with a ball bearing in the center which sits on top of the lead screw and mount the holder to the gantry to eliminate wobbling of the lead screw. For doing so, they print a construction and add a ball bearing, there are different STL files available for this solution.  
   However, as much as it may seem useful at first sight, I personally vote against this. In my opinion it's better if the top of the lead screw can move freely to avoid putting extra pressure on the lead screw, the frame and associated parts - especially in this case where we don't have a high precision type of construction and parts. If the guidance at the top doesn't allow at least minimal movement, then this could result in shear forces and even in bending the lead screw itself which would cause jamming or banding caused by the z-axis, also the anti-backlash nut will mist likely wear out earlier.  
   
-??? note "Analogy to Fixed vs Free End of the Z-Axis"
+??? note "Analogy To Fixed vs Free End Of The Z-Axis"
   
     The reason for this is quite simple, yet it seems that people aren't aware of it, so I'll try to explain it with an analogy.  
     Think of the z-axis lead screw like it's a pool cue which is curved like the really bad ones you have to play with in certain bars. So when you put the cue on the table and roll it - what happens? It'll bump and stutter, there won't be a smooth movement, right?  
