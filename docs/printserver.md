@@ -61,7 +61,7 @@ Besides the possibilty to use your old android device as a printserver, you can 
 ??? tip "KlipperScreen On An Old Android Device" 
 
     Especially when you flashed the Klipper firmware onto your mainboard, using an old Android device as an additional screen mounted to the printer is a cheap solution for still being able to execute direct commands or having status informations visible while sitting in front of your printer as the regular control unit doesn't work with the Klipper firmware anymore. Just install [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/) and you're good to go.  
-    You can see a picture of how it looks like on an old Samsung Galxy SII in [this section](../firmware/fw_klipper.md#stock-control-unit).    
+    You can see a picture of how it looks like on an old Samsung Galaxy SII in [this section](../firmware/fw_klipper.md#stock-control-unit).    
   
 ??? tip "USB OTG"
 
