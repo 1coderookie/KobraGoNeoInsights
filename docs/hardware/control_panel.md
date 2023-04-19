@@ -13,12 +13,13 @@ The usage is pretty easy and self-explaining - you turn the knob to the desired 
 You can also upload gcode files directly onto your microSD card and start printing them by choosing the file using the control knob. Besides that, you can also pause or stop a printing process.  
 See your manual for further informations of the possible actions you can take.  
   
-It also displays status informations like the current temperatures and the temperatures that should be reached due to a certain function or during the printing process (see picture above). 
+It also displays status informations like the current temperatures and the temperatures that should be reached due to a certain function or during the printing process as well as error messages if they occur. 
   
 ??? tip "Bed Level Visualization"
 
-    The display does *not* show a meshview after you proceeded the bed level function - if you'd like to see that, you'd usually have to use additional software like the beforementioned [Octoprint](https://octoprint.org/) and an additional plugin for visualization like the [Bed Level Visualizer](https://plugins.octoprint.org/plugins/bedlevelvisualizer/). However, it seems that the stock firmware doesn't support that, but I'm not 100% sure about it yet..  
+    The display does *not* show a meshview or the values of the measured points after you proceeded the bed level function. If you'd like to see that, you'd usually have to use additional software like the beforementioned [Octoprint](https://octoprint.org/) and an additional plugin for visualization like the [Bed Level Visualizer](https://plugins.octoprint.org/plugins/bedlevelvisualizer/).   
   
+<!---  
 ## Error Messages
 The display also displays error messages if any severe errors occur.  
 As an example, it showed "thermal runaway" as my friend was struggeling with the printer and as the silicone sock started to fall of, because it seems that the heater block got cooled and therefore the measured temperature dropped below an expected value (that's just a guess though, I'm still not 100% sure about it).  
@@ -35,3 +36,4 @@ I still have no clue *how* this actually happened, but it must have been caused 
 So if you ever face an error message which just stays on the screen whatever steps you took - maybe grab a magnifying glass and take a closer look, it might be worth it..  
   
 If I'll come across further error messages and know the solution for that, I'll post it here.
+-->
