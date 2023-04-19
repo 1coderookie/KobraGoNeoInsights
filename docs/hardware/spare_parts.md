@@ -32,10 +32,13 @@ Of course you can also stock motors, a lead screw, a mainboard, a power supply u
   
 ## Where to Get
 When you need to change certain parts or you need to fix them, check out the [Anycubic site](https://www.anycubic.com/collections/for-kobra-series) and watch out for the correct printer model if you can find what you're looking for.  
+However, there are only a few original spare parts available for the **Go** and the **Neo** at the time of writing this. But as you maybe read in the belonging sections, there are parts from other Kobra models sometimes which are just the same (e.g. the hotend from the Kobra and the Kobra **Neo**).  
   
-However, there are only a few original spare parts available for the **Go** and the **Neo** at the time of writing this. But as you maybe read in the belonging sections, there are parts from other Kobra models which are just the same (e.g. the hotend from the Kobra and the Kobra **Neo**). Also many parts from third party manufacturers can be used as most of the parts are common components of these kinds of machines.  
+There are also *many* vendors who sell compatible or even original spare parts, so just do a bit of a research. 
   
-So if you're looking for parts like v-slot wheels, belts, anti-backlash nuts, nozzles or even a new lead screw or motor for example, keep in mind that those aren't 'specific' parts most of the time - they're regular components. Have a look at the spare part you need and do a little research if it really is something 'special' that pretty much only Anycubic or authorized sellers are offering (like the mainboard), or if that's a 'regular' component and therefore could be found easily.  
+Also many parts from third party manufacturers can be used as most of the parts are common components of these kinds of machines.    
+So if you're looking for parts like v-slot wheels, belts, anti-backlash nuts, nozzles or even a new lead screw or motor for example, keep in mind that those aren't 'specific' parts most of the time - they're regular components. Same goes for the hotend actually: as it's an E3D V5 compatible one, you don't need to necessarily buy a hotend from Anycubic if you need a new heater block or nozzle or whatever..  
+Have a look at the spare part you need and do a little research if it really is something 'special' that pretty much only Anycubic or authorized sellers are offering (like the mainboard), or if that's a 'regular' component and therefore could be found easily.  
      
   
 
