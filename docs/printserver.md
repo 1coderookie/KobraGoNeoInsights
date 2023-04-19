@@ -58,9 +58,10 @@ I won't go deeper here though due to my lack of experience with this solution - 
   
 Besides the possibilty to use your old android device as a printserver, you can also use it as an additional screen for software like OctoPrint. That means that you don't install e.g. OctoPrint itself on the android device - you install an app which connects with the running instance of OctoPrint and gives you a nice UI on your smartphone. By doing so you could mount your old phone at the printer and interact with OctoPrint using your touchscreen or just have certain informations displayed at the screen.  
 
-!!! info 
+??? tip "KlipperScreen On An Old Android Device" 
 
-    Especially when you flashed the Klipper firmware onto your mainboard, using an old Android device as an additional screen mounted to the printer is a great solution to still being able to execute direct commands or having status informations visible while sitting in front of your printer as the regular control unit doesn't work with the Klipper firmware anymore.    
+    Especially when you flashed the Klipper firmware onto your mainboard, using an old Android device as an additional screen mounted to the printer is a cheap solution for still being able to execute direct commands or having status informations visible while sitting in front of your printer as the regular control unit doesn't work with the Klipper firmware anymore. Just install [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/) and you're good to go.  
+    You can see a picture of how it looks like on an old Samsung Galxy SII in [this section](../firmware/fw_klipper.md#stock-control-unit).    
   
 ??? tip "USB OTG"
 
