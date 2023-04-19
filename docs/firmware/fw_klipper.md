@@ -35,15 +35,12 @@ Referring to the beforementioned post of xpeng121, you need to
 during the setup process for creating the `klipper.bin` file.  
 For further informations about the installation steps please read the chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official Klipper documentation.  
 
-??? tip "Compiled `klipper.bin` Available"
+!!! tip "Compiled `klipper.bin` Available"
 
     I set up a repository where you can download the compiled `klipper.bin` (aka `firmware.bin`): [Klipper4KobraGoNeo](https://github.com/1coderookie/Klipper4KobraGoNeo)  
     Thanks to @[cringegnere](https://github.com/cringegnere) for making the file available!  
     **USE AT YOUR OWN RISK!**
 
-Besides the `firmware.bin` of Klipper (aka `klipper.bin`) you also need a file named `printer.cfg` which contains the specific sttings for your model.  
-You'll also find links to `printer.cfg` files for the **Go** and the **Neo** in the abovementioned reddit post as well as in the abovementioned GitHub repository ["Klipper4KobraGoNeo"](https://github.com/1coderookie/Klipper4KobraGoNeo) I set up, which makes it even easier to get started with Klipper. These files already contain the necessary pin assignement and so on. You still have to adjust these files to your special settings afterwards though.   
-  
 Once you've created the `firmware.bin` file, copy it to the root directory (means, directly onto the card, not in a subfolder!) of your mSD card. I personally would suggest to remove all files from the mSD card and only copy the `firmware.bin` file onto it.  
 Then you flash it as you would do with the stock firmware. Means, you turn off the printer, put the card into the cardreader and turn on the printer.  
 Note that the screen doesn't update though after the flash procedure is done as the control unit doesn't work with Klipper anymore, it'll stick with the message "Firmware update. Please wait."! So just wait 5-10min to make sure everything had time enough to be installed.  
@@ -57,8 +54,14 @@ Now you should be able to connect OctoPrint/Mainsail/.. with the printer. If an 
     - Proceed with the [configuration checks](https://www.klipper3d.org/Config_checks.html) before you're trying to print anything!      
   
 ## Configuration  
+Besides the `firmware.bin` of Klipper (aka `klipper.bin`) you also need a file named `printer.cfg` which contains the specific settings for your model. Please refer to the official Klipper documentation about [configuring Klipper](https://www.klipper3d.org/Installation.html#configuring-klipper).  
+
+You can find preconfigured `printer.cfg` files for both the **Go** and the **Neo** in the belonging repository I set up for this: [Klipper4KobraGoNeo](https://github.com/1coderookie/Klipper4KobraGoNeo).  
+For the **Go** you also find a preconfigured file named `printer-anycubic-kobra-go-2022.cfg` within the Klipper repository [here](https://github.com/Klipper3d/klipper/blob/master/config/printer-anycubic-kobra-go-2022.cfg).  
+  
 Before you can start with the beforementioned tests to see if anything works correctly, you should check and adjust the settings in the file `printer.cfg` if necessary. *Don't start to print right away!*    
 I won't mention and explain all the settings here as you can just use the official documentation of Klipper to see what each setting means.  
+ 
   
 !!! warning "Adjust The `cycle_time` For The Fans"  
 
@@ -73,6 +76,8 @@ I won't mention and explain all the settings here as you can just use the offici
     pin: PB5
     cycle_time: 0.000050
     ```
+    
+    
     
 ## Special Functions   
 In the following I'll list some of the special functions which make Klipper so interesting and outstanding compared to the stock firmware, besides the fact that you can adjust the firmware settings to your own needs.  
