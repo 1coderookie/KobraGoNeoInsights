@@ -217,7 +217,9 @@ So if you notice that e.g. the motor of the y-axis doesn't stop when the bed rea
 
 ??? example "Checking the Switches"
 
-    You can check if the switch really isn't working by triggering it manually while e.g. the bed is moving. If the bed doesn't stop, turn off your printer. Check the connectors at the switch and the mainboard if they're still in place. If everything looks fine here, then it's most likey that the switch itself is faulty. So disassamble the switch from the frame and put in a new one. Wire everything up again and try again triggering it manually if it works now.   
+    You can check if the switch really isn't working by triggering it manually while e.g. the bed is moving. If the bed doesn't stop, turn off your printer. Check the connectors at the switch and the mainboard if they're still in place.  
+    If everything looks fine here, then it's most likey that either a cable is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the cables. When measuring the cables, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
+    If the cable is broken, fix it or install a new one. If the limit switch itself is broken, disassemble the switch from the frame and put in a new one. Wire everything up again and try again triggering it manually to see if it works now.   
   
 ---
 
