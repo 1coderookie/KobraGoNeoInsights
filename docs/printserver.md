@@ -6,7 +6,7 @@ Yes, it's not necessary as you can control it directly using the printers contro
   
 So having the possibility to not only send gcode commands directly to the printer for e.g. executing a PID tuning but also to use certain plugins or additional hardware to e.g. monitor the printing process isn't the worst idea.  
 In case you're already using some kind of home automation software, you could also send yourself a fancy notification when the printing process is done.   
-Sounds tempting? Ok, so you'd need additional hardware for that to run the desired software on. *If you want to use Klipper with your printer you'd need additional hardware to run Klipper and e.g. Mainsail on it anyway.* So let's have a look what might be an interesting and reasonable priced solution for that first.  
+Sounds tempting? Ok, so you'd need additional hardware for that to run the desired software on. *If you want to use Klipper firmware with your printer you'd need additional hardware to run Klipper and e.g. Mainsail on it anyway.* So let's have a look what might be an interesting and reasonable priced solution for that first.  
   
 ## Hardware  
   
@@ -33,7 +33,7 @@ So does that mean you shouldn't use a RPi? No, not at all, it works absolutely f
 ??? tip "RPi plus Touchscreen"
 
     If you're using a RPi, you can add a touchscreen to it and install an additional software like [OctoDash](https://github.com/UnchartedBull/OctoDash) which gives you a nice clean UI for OctoPrint optimized for small screens. It allows you to display certain status informations and makes it possible to interact with OctoPrint directly using the touchscreen.  
-    Especially when you're using the Klipper firmware instead of the stock firmware this a great solution to still be able to monitor and control your printer while you're sitting in front of it as the regular control unit of your printer doesn't work with Klipper anymore.  
+    Especially when you're using the Klipper firmware instead of the stock firmware this a great solution to still be able to monitor and control your printer while you're sitting in front of it as the regular control unit of your printer doesn't work with Klipper anymore. In this case I'd recommend to check out [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/).  
   
 ??? tip "RPi plus (Web-)Cam"
 
