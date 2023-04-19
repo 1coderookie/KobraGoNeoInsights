@@ -35,7 +35,7 @@ Referring to the beforementioned post of xpeng121, you need to
 during the setup process for creating the `klipper.bin` file.  
 For further informations about the installation steps please read the chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official Klipper documentation.  
 
-!!! tip "Compiled `klipper.bin` Available"
+??? tip "Compiled `klipper.bin` Available"
 
     I set up a repository where you can download the compiled `klipper.bin` (aka `firmware.bin`): [Klipper4KobraGoNeo](https://github.com/1coderookie/Klipper4KobraGoNeo)  
     Thanks to @[cringegnere](https://github.com/cringegnere) for making the file available!  
