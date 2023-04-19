@@ -5,7 +5,7 @@ Sooner or later you'll come to the point that you want to use additional softwar
 Yes, it's not necessary as you can control it directly using the printers control unit and it's advisable to stay in the same room and monitor the printing process to be able to intervene as soon as something is going wrong - but we all know how it is..  
   
 So having the possibility to not only send gcode commands directly to the printer for e.g. executing a PID tuning but also to use certain plugins or additional hardware to e.g. monitor the printing process isn't the worst idea.  
-In case you're already using some kind of home automation software, you could also send yourself a fancy notification when the printing process is done.   
+In case you're already using some kind of home automation software, you could also send yourself a fancy notification when the printing process is done.     
 Sounds tempting? Ok, so you'd need additional hardware for that to run the desired software on.  
 *If you want to use Klipper firmware with your printer you'd need additional hardware to run Klipper and e.g. Mainsail on it anyway.*  
 So let's have a look what might be an interesting and reasonable priced solution for that first.  
