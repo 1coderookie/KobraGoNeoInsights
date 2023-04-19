@@ -19,6 +19,10 @@ And as handy as it is - it might not be the best solution, especially these days
   
 Prices for the RPi went up to a ridiculous level (afaik at least in Europe and the US) - *if* they're even available at all.  
 Also you don't want to get yourself an old RPi2B for example, it should be a RPi3B at least (referring to OctoPrint a RPi Zero 2W also works, it uses the same Broadcom SoC like the RPi3) - a RPi4 would be even better and advisable. Not only because of the pure processor power or the RAM - both is sufficient even with the RPi3 for example, but mostly because of the reason how the USB sockets are connected to the CPU. Afaik, up until the RPi3 the Broadcom BCM2837 only offers *one* USB port itself. This one port is split up by using a SMSC LAN9514 hub chip to get four USB connectors out of it *and* it also uses the LAN port.  
+
+??? tip "Looking for A RPi?"  
+
+    If you're trying to find a RPi and have a hard time finding a company who actually has one in stock, maybe give the page [rpilocator](https://rpilocator.com/) a try. It lists vendors and different RPi models and shows if there are RPis in stock. 
   
 If you're asking yourself now "What the heck is this guy talking about - I have four USB connectors available there, so what's the problem?" - well, let me try to explain it to you very simple:  
 Imagine you connect your RPi3 to a monitor and plug in a mouse, keyboard, your 3D printer and a webcam to the USB sockets and maybe you also use the LAN connection (because everybody who knows wireless uses wires ;) ). Then you start your printing process sending the gcode file to the printer and start to observe the printing process using the camera. Then all of the informations are running across the same one and only USB port of the SoC (the main CPU). That means that most likely you'll find yourself noticing some kind of stuttering during the printing process and/or the stream of the webcam.  
