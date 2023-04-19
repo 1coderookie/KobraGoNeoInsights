@@ -60,6 +60,7 @@ You can find preconfigured `printer.cfg` files for both the **Go** and the **Neo
 For the **Go** you also find a preconfigured file named `printer-anycubic-kobra-go-2022.cfg` within the Klipper repository [here](https://github.com/Klipper3d/klipper/blob/master/config/printer-anycubic-kobra-go-2022.cfg).  
   
 Before you can start with the beforementioned tests to see if anything works correctly, you should check and adjust the settings in the file `printer.cfg` if necessary. *Don't start to print right away!*    
+  
 I won't mention and explain all the settings here as you can just use the official documentation of Klipper to see what each setting means.  
  
   
