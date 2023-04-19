@@ -60,17 +60,19 @@ Now you should be able to connect OctoPrint/Mainsail/.. with the printer. If an 
 Before you can start with the beforementioned tests to see if anything works correctly, you should check and adjust the settings in the file `printer.cfg` if necessary. *Don't start to print right away!*    
 I won't mention and explain all the settings here as you can just use the official documentation of Klipper to see what each setting means.  
   
-However, there is one specific setting I'd like to mention here though as it may cause problems if you don't adjust that. It's the setting `[fan]` for the part cooling fan.  
-So, in the file `printer.cfg` there is a section for the settings of the fans. Klipper is using software PWM by default, the default frequency here seems to be 100Hz.  
-However, users reported dying part cooling fans shortly after switching to Klipper (you can find one of the discussions [here](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2)). This problem seems to be related to the default PWM frequency.  
-After investiganting the problem it seems that [the fan runs at 20kHz]((https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2#discussioncomment-5626026) when using the stock firmware as [@xiaopeng12138](https://github.com/xiaopeng12138) found out. Also there (when using the stock firmware) users reported dying fans as well, but it seems that that didn't occur so 'fast'. So I'd recommend to change the belonging setting for the part cooling fan to the specific "cycle_time" value "0.000050" which is 20kHz.  
-There isn't a final conclusion on this topic yet (and the manufacturer of the fans didn't answer my email), but after changing the belonging setting so that it runs at a frequency of 31.4kHz (when runnning at 100% fan speed) at least the users involved in these tests didn't reported another broken fan yet.  
-This is the belonging section and the setting for the part cooling fan:  
-```
-[fan]
-pin: PB5
-cycle_time: 0.000050
-```
+!!! warning "Adjust The `cycle_time` For The Fans"  
+
+    There is one specific setting I'd like to mention here though as it may cause problems if you don't adjust that. It's the setting `[fan]` for the part cooling fan.  
+    So, in the file `printer.cfg` there is a section for the settings of the fans. Klipper is using software PWM by default, the default frequency here seems to be 100Hz.  
+    However, users reported dying part cooling fans shortly after switching to Klipper (you can find one of the discussions [here](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2)). This problem seems to be related to the default PWM frequency.  
+    After investiganting the problem it seems that [the fan runs at 20kHz](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2#discussioncomment-5626026) when using the stock firmware as [@xiaopeng12138](https://github.com/xiaopeng12138) found out. So I'd recommend to change the belonging setting for the part cooling fan to the specific "cycle_time" value "0.000050" which is 20kHz.  
+   
+    This is the belonging section and the setting for the part cooling fan:  
+    ```
+    [fan]
+    pin: PB5
+    cycle_time: 0.000050
+    ```
     
 ## Special Functions   
 In the following I'll list some of the special functions which make Klipper so interesting and outstanding compared to the stock firmware, besides the fact that you can adjust the firmware settings to your own needs.  
