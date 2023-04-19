@@ -10,7 +10,10 @@ You can adjust the tension of the belt by using the knob at the right side of th
 ![X-axis knob](../assets/images/x-axis_knob_web.jpg)
   
 ### Belt Tension
-It's kinda difficult to explain the correct belt tension, so you'd have to experiment a bit with that. Generally speaking, the belt shouldn't be too tightened up and shouldn't be too loose either. If it's too tight, too much pressure will be put onto the motor shaft - if it's too loose though, the belt might slip. If you can 'bend' the belt down a bit by putting a some pressure with your finger onto it but you still feel an amount of resistance, then it's a good sign that you're in the right area of tension. If you pluck it like a guitar string then it should make something like a mid to high sound.  
+It's kinda difficult to explain the correct belt tension, so you'd have to experiment a bit with that.  
+Generally speaking, the belt shouldn't be too tightened up and shouldn't be too loose either.  
+If it's too tight, too much pressure will be put onto the motor shaft - if it's too loose though, the belt might slip.  
+If you can 'bend' the belt down a bit by putting a some pressure with your finger onto it but you still feel an amount of resistance, then it's a good sign that you're in the right area of tension.    
 
 ??? example "Belt Maintenance"
 
@@ -106,7 +109,10 @@ The limit switch for the y-axis is mounted at the back right before the motor, t
 
 
 ### Belt Tension
-It's kinda difficult to explain the correct belt tension, so you'd have to experiment a bit with that. Generally speaking, the belt shouldn't be too tightened up and shouldn't be too loose either. If it's too tight, too much pressure will be put onto the motor shaft - if it's too loose though, the belt might slip. If you can 'bend' the belt down a bit by putting some pressure with your finger onto it but you still feel an amount of resistance, then it's a good sign that you're in the right area of tension. If you pluck it like a guitar string then it should make something like a mid to high sound.   
+It's kinda difficult to explain the correct belt tension, so you'd have to experiment a bit with that.  
+Generally speaking, the belt shouldn't be too tightened up and shouldn't be too loose either.  
+If it's too tight, too much pressure will be put onto the motor shaft - if it's too loose though, the belt might slip.  
+If you can 'bend' the belt down a bit by putting a some pressure with your finger onto it but you still feel an amount of resistance, then it's a good sign that you're in the right area of tension.      
     
 ??? example "Belt Maintenance"
 
