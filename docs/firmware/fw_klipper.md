@@ -41,6 +41,14 @@ For further informations about the installation steps please read the chapter ["
     Thanks to @[cringegnere](https://github.com/cringegnere) for making the file available!  
     **USE AT YOUR OWN RISK!**
 
+??? tip "Use KIAUH For Installation"
+
+    If you're installing Klipper and frontends on [different hardware like a Raspberry Pi](../printserver.md#how-to-install) and therefore don't use e.g. the MainsailOS image for the RPi, you can use [KIAUH](https://github.com/th33xitus/kiauh), which is an installation script for Klipper, KlipperScreen, frontends like Mainsail and so on.  
+    
+??? tip "Installing Frontends As A Docker Container"
+
+    If you want to install frontends like e.g. Mainsail as a Docker container, check out the [prind repository](https://github.com/mkuf/prind).
+
 Once you've created the `firmware.bin` file, copy it to the root directory (means, directly onto the card, not in a subfolder!) of your mSD card. I personally would suggest to remove all files from the mSD card and only copy the `firmware.bin` file onto it.  
 Then you flash it as you would do with the stock firmware. Means, you turn off the printer, put the card into the cardreader and turn on the printer.  
 Note that the screen doesn't update though after the flash procedure is done as the control unit doesn't work with Klipper anymore, it'll stick with the message "Firmware update. Please wait."! So just wait 5-10min to make sure everything had time enough to be installed.  
@@ -50,8 +58,9 @@ Now you should be able to connect OctoPrint/Mainsail/.. with the printer. If an 
 !!! warning  
   
     - After flashing Klipper's `firmware.bin`, don't try to start printing right away!  
-    - Keep in mind that even though the stock mainboard of the **Go** and the **Neo** is the same, you have to adjust certain settings of the file `printer.cfg` depending on your specific model *before* starting to print or calibrate the printer! So don't just use the beforementioned file from the reddit post and start printing right away!    
+    - Keep in mind that even though the stock mainboard of the **Go** and the **Neo** is the same, you have to adjust certain settings of the file `printer.cfg` depending on your specific model *before* starting to print or calibrate the printer! So don't try to start printing right away!    
     - Proceed with the [configuration checks](https://www.klipper3d.org/Config_checks.html) before you're trying to print anything!      
+    - Make sure to adjust the offsets for both the [z-endstop (command `Z_ENDSTOP_CALIBRATE`)](https://www.klipper3d.org/Manual_Level.html#calibrating-a-z-endstop) and the [probe (command `PROBE_CALIBRATE`)](https://www.klipper3d.org/Probe_Calibrate.html#calibrating-probe-z-offset) as well - those are two independent steps and need to be done prior to printing!  
   
 ## Configuration  
 Besides the `firmware.bin` of Klipper (aka `klipper.bin`) you also need a file named `printer.cfg` which contains the specific settings for your model. Please refer to the official Klipper documentation about [configuring Klipper](https://www.klipper3d.org/Installation.html#configuring-klipper).  
