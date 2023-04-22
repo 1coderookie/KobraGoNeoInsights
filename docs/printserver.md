@@ -107,7 +107,7 @@ So in case you want to use hardware like the abovementioned Thin Clients, you pr
 
   - For installing OctoPrint you can start your web research at [All3DP: How to Install OctoPrint on Linux/Ubuntu](https://www.all3dp.com/2/octoprint-linux-ubuntu-tutorial).  
   - If you want to install on an SBC, you might want to have a look at [All3DP: How to Install OctoPrint/Klipper on an SBC: Tutorial](https://www.all3dp.com/2/install-octoprint-klipper-single-board-computer-sbc).  
-  - Check out [Kiauh](https://github.com/th33xitus/kiauh) as it isn't an installation script that makes everything a lot easier only for Klipper but also for OctoPrint, Mainsail, Fluidd and so on.     
+  - Check out [KIAUH](https://github.com/th33xitus/kiauh) as it isn't an installation script that makes everything a lot easier only for Klipper but also for OctoPrint, Mainsail, Fluidd and so on.     
 
 ## Camera
 As mentioned in the RPi section, if you connect a webcam directly to your printserver, I'd suggest to use a webcam which only offers a low resolution like 480p (640x480) as you don't need 4K for monitoring the printing process. Of course a more powerful hardware can also handle a higher resolution though.  
