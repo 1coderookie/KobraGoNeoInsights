@@ -1,7 +1,7 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # Calibration
-In this chapter I'll talk a bit about the topic of calibration. I probably won't give examples or step-by-step instructions for every calibration that's necessary or advisable to do as there are many sites out there to find which are already covering this topic, so maybe just do a little research by your onw. However, to make this journey a bit easier for you to begin with, I'll list some pages that I personally found useful (links are about to come soon).  
+In this chapter I'll talk a bit about the topic of calibration. I probably won't give examples or step-by-step instructions for every calibration that's necessary or advisable to do as there are many sites out there to find which are already covering this topic, so maybe just do a little research by your own. However, to make this journey a bit easier for you to begin with, I'll list some pages that I personally found useful (links are about to come soon).  
 
 ??? tip "Calibration Using OctoPrint"
 
