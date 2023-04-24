@@ -127,9 +127,9 @@ The hotend of the **Go** is shown in the next pictures. In the second picture yo
 
     If you can't load new filament even though the nozzle itself is clean and free, it's most likely that the PTFE tube inside of the hotend is clogged. To clean or replace it you need to disassemble the hotend from the printhead. Scroll down to the "Disassembling" section to find a little guide about how to do that.     
     
-??? tip "Spare Part PTFE Tube"
+??? tip "Spare Part PTFE Bowden Tube"
 
-    If you need a new PTFE tube I'd recommend to get the 4mm "Capricorn XS" tube for 1.75mm filament at the length of 1m. Then just cut the belonging length and replace the old PTFE tube. You can also get it in a set with a cutter. However, make sure you make a clean cut at a 90° to avoid any small gaps between the nozzle and the end of the tube! <br> ![Capricorn XS](../assets/images/head_capricornXS_web.jpg)     
+    If you need a new PTFE bowden tube, I'd recommend to get the 4mm "Capricorn XS" tube for 1.75mm filament at the length of 1m. Then just cut the belonging length and replace the old bowden tube. You can also get it in a set with a cutter. However, make sure you make a clean cut at a 90° to avoid any small gaps between the nozzle and the end of the tube! <br> ![Capricorn XS](../assets/images/head_capricornXS_web.jpg)     
     
 ??? tip "Spare Part Heatbreak"
 
@@ -137,7 +137,7 @@ The hotend of the **Go** is shown in the next pictures. In the second picture yo
     Some people 'upgraded' to an all-metal heatbreak, which one should avoid though if only printing PLA as it may cause and increase clogging problems. So up to me always go with a heatbreak that uses a PTFE inliner all the way down to the nozzle in case you're only or mostly printing PLA.   
     The following picture shows such a heatbreak from a third party manufacturer which I use in my **Neo**. <br> ![3rd party heatbreak](../assets/images/head_3rdparty-heatbreak_web.jpg)  
   
-??? example "Large Clump of Melted Filament Built Up"
+??? example "Large Clump Of Melted Filament Built Up"
 
     Sometimes it may happen that melted filament builds up on top of the heater block to a large clump. The reason for that is that the heatbreak isn't screwed into the heater block tight enough so that the melted fiolament can squeeze out. It also may be caused by bad and cheap parts where the thread isn't just as good as it should be. <br> ![Blob](../assets/images/head_blob_web.jpg) <br> So if you encouter this problem, here is what I recommend to do (based on my own experience with this dilemma).  
     
@@ -194,7 +194,7 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
     
 ??? tip "Spare Part PTFE Tube"
 
-    If you need a new PTFE tube I'd recommend to get the 4mm "Capricorn XS" tube for 1.75mm filament at the length of 1m. Then just cut the belonging length and replace the old PTFE tube. You can also get it in a set with a cutter. However, make sure you make a clean cut at a 90° to avoid any small gaps between the nozzle and the end of the tube! <br> ![Capricorn XS](../assets/images/head_capricornXS_web.jpg)  
+    If you need a new PTFE tube, I'd recommend to get the 4mm "Capricorn XS" tube for 1.75mm filament at the length of 1m. Then just cut the belonging length and replace the old PTFE tube. You can also get it in a set with a cutter. However, make sure you make a clean cut at a 90° to avoid any small gaps between the nozzle and the end of the tube! I personally use to stick the tube into the heatbreak, push it through so that the desired length sticks out and then I cut along the end of the heatbreak using it as a guide. By doing so, I get pretty perfect perpendicular cuts. <br> ![Capricorn XS](../assets/images/head_capricornXS_web.jpg)  
   
 ??? tip "Spare Part Heatbreak"
 
@@ -202,7 +202,7 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
     Some people 'upgraded' to an all-metal heatbreak, which one should avoid though if only printing PLA as it may cause and increase clogging problems. So up to me always go with a heatbreak that uses a PTFE inliner all the way down to the nozzle in case you're only or mostly printing PLA.   
     The following picture shows such a heatbreak from a third party manufacturer which I use in my **Neo**. <br> ![3rd party heatbreak](../assets/images/head_3rdparty-heatbreak_web.jpg)    
   
-??? example "Large Clump of Melted Filament Built Up"
+??? example "Large Clump Of Melted Filament Built Up"
 
     Sometimes it may happen that melted filament builds up on top of the heater block to a large clump. The reason for that is that the heatbreak isn't screwed into the heater block tight enough so that the melted fiolament can squeeze out. It also may be caused by bad and cheap parts where the thread isn't just as good as it should be. <br> ![Blob](../assets/images/head_blob_web.jpg) <br> So if you encouter this problem, here is what I recommend to do (based on my own experience with this dilemma).  
     
@@ -265,13 +265,13 @@ Additionaly, the ones from the aftermarket also cover and therefore insulate the
 ---  
   
 ## Thermistor & Cartridge Heater
-The *thermistor* which is used is a capsuled NTC 100k. The diameter is 3mm, the length should be minimum 6mm as that is the depth of the hole in the heater block and the length of the wire is about 150cm.  
+The **thermistor** which is used is a capsuled NTC 100k. The diameter is 3mm, the length should be minimum 6mm as that is the depth of the hole in the heater block and the length of the wire is about 150cm.  
 Based on the setting of the firmware it's an ATC Semitec 104GT-2/104NT-4-R025H42G (4.7k pullup). You should be able to find and use a compatible item from the aftermarket (which I successfully did - you just have to pay attention to the wire length actually).  
 The following picture shows the thermistor from the aftermarket I used and the specific plug which is necessary to fit in the belonging socket at the mainboard.  
   
 ![Thermistor and plug](../assets/images/head_plug-therm_web.jpg)  
   
-The *cartidge heater* which is used is a 24V 40W element. The diameter is 6mm, the length of the original part is about 18mm, the length of the wire is about 150cm.  
+The **cartidge heater** which is used is a 24V 40W element. The diameter is 6mm, the length of the original part is about 18mm, the length of the wire is about 150cm.  
 However, a cartridge heater from the aftermarket with a length of about 21mm is just fine, it just sticks out at both sides of the heater block at the end which shouldn't be a problem. It seems that it's is a typical dimension for V5/V6 heater blocks. The following picture shows the original part on the left side and a compatible part from the aftermarket I used at the right side.  
   
 ![Cartridge heaters](../assets/images/head_cart-heater_web.jpg)  
@@ -311,7 +311,7 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
     - If you want to clean the nozzle using a brass brush for example, *never* do it when the printer is powered up and the heating process of the extruder is in progress to avoid causing a shortcut by touching the contacs with the brush.  
     - *Make sure you DON'T turn the heater block!* In case you want to change the nozzle, you don't want to loosen the heater block from the hotend, so just hold the heater block in place without turning it.     
     
-??? info "About Nozzles in General" 
+??? info "About Nozzles In General" 
 
     - When it comes down to choose the right nozzle size, it all depends on what you want to print and how detailed it should be. The standard size of 0.4mm the printers come with is a good starting point. <br> However, you may find yourself in the situation that you want to print more detailed objects or objects which should be more sturdy or where it doesn't matter if the surface doesn't look as clean and flat as possible, so you probably should adjust the size and switch to a smaller oder bigger diameter like 0.2-0.3mm for detailed objects and 0.6mm for the 'rougher' prints. <br> Keep in mind though that the printing time usually increases by choosing a smaller diameter and it decreases when you're using a bigger diameter due to the smaller/larger layer height that is possible to print. <br> Search the web for more specific informations about finding and choosing the right nozzle size for your project. You may want to start with this Article from [All3DP: The Best 3D Printer Nozzle Types, Sizes & Materials](https://www.all3dp.com/2/3d-printer-nozzle-size-material-what-to-know-which-to-buy). 
   
@@ -335,22 +335,22 @@ If you need to clean the nozzle during the printing procedure to take off excess
 However, keep in mind that nozzles are consumables though, they won't last forever. So get yourself some good quality nozzles right away so that you can easily replace a nozzle which is too clogged or where the tip may already be harmed.  
 A harmed tip may also cause artefacts like stringing for example, so also keep that in mind if you suddenly see yourself confronted with weird and unexplainable printing behavior (in terms of quality).  
   
-??? example "Cleaning the Nozzle"
+??? example "Cleaning The Nozzle"
 
-    - For cleaning the nozzle and getting rid of excessive filament during the printing process or right before printing starts as the extruder is heating up, just use a long and thin wooden stick like a skewer. A wooden toothpick also works fine - just make sure you don't burn yourself as it may be a bit short.  
-    - Before and after each print I recommend to wipe away the melted filament at the nozzle with a paper towel or a cloth - but *don't burn yourself!* This procedure keeps the nozzle clean and the rest of the filament won't burn black onto the brass which makes it hard to remove later.   
+    - For cleaning the nozzle and getting rid of excessive filament during the printing process or right before printing starts as the extruder is heating up, just use a long and thin wooden stick like a skewer. A wooden toothpick also works fine - just make sure you don't burn yourself as it may be a bit short. I personally use these long pipe cleaners which have this kinda cotton stuff all around them. It doesn't melt when touching the hot nozzle and filament sticks great to it.  
+    - Before and after each print I recommend to wipe away the melted filament at the nozzle with a 'cotton' pipe cleaner, a paper towel or a cloth - but *don't burn yourself!* This procedure keeps the nozzle clean and the rest of the filament won't burn black onto the brass which makes it hard to remove later.   
     - If the nozzle is already too smeared and has too much filament burnt onto the surface to be cleaned with a paper towel, you can use a small brass brush. Be careful though to not harm the tip of the nozzle by scrubbing too hard across it! Be careful to *not* touch any wires or contacts during brushing at it may cause a shortcut and blow off your mainboard! So I'd suggest you heat up the nozzle and then turn off the printer before starting to brush.  
     - If the nozzle is clogged, using a needle with the correct diameter to stick it into the hot nozzle for cleaning it sometimes works. Just stick in in the heatened up nozzle and poke around. Be careful to not harm the tip of the nozzle though!  
     - You can also use certain filament which is made for cleaning. You load it and let it run through. 
-    - If the nozzle is clogged and therefore the cleaning filament can't run through, you could also try to do a "cold pull". To do so you load the cleaning filament and manually push it into a bit. Then let the nozzle cool down and rip out the filament. You may have to repeat this procedure a few times until the cleaning filament can run through again. However, be careful not to rip off the filament by doing the cold pull as you then definitely have to disassemble the hotend. 
+    - If the nozzle is clogged and therefore the cleaning filament can't run through, you could also try to do a *"cold pull"*. To do so you heat up the nozzle to about 220°C, load the cleaning filament and manually push it through a bit. Then let the nozzle cool down to about 90-100°C and rip out the filament. You may have to repeat this procedure a few times until the cleaning filament can run through again. However, be careful not to rip off the filament by doing the cold pull as you then definitely have to disassemble the hotend. <br> *Attention: don't do cold pulls when using hardened steel nozzles, the manufacturers say that it might harm the coating of the inside of the nozzle!* 
     - If you still encounter problems with the flow of the filament though or if you even can't load new filament, most likely the little PTFE tube inside of the heatbreak is clogged. Scroll down to the "Disassembling" section where you'll find a little guide about how to get it out and clean it.  
-    - If you took out the nozzle from the heater block and can't get it clean, try to put in acetone and let it sit there - the longer the better (I'd say minimum 24hrs). This method works especially great with ABS as that just dissolves, but it also works at least a bit with other types of filament like PLA (although not as good as with ABS at all) and makes it a bit softer. Then you can try to poke the filament out. This also works with the heater block and the heatbreak if you want to clean them also. Make sure to rinse them with water before installing though.  
+    - If you took out the nozzle from the heater block and can't get it clean, heat it up with a hot air gun. Then you can poke out the soft filament. You can also try to put it in acetone and let it sit there - the longer the better (I'd say minimum 24hrs). This method works especially great with ABS as that just dissolves, but it also works at least a bit with other types of filament like PLA (although not as good as with ABS at all) and makes it a bit softer. Then you can try to poke the filament out. This also works with the heater block and the heatbreak if you want to clean them also. Make sure to rinse them with water before installing though.  
 
      
-### Changing the Nozzle
+### Changing The Nozzle
 If you need to change the nozzle, mind the warnings from above and check out the following steps in the expandable block below.
      
-??? example "Changing the Nozzle"  
+??? example "Changing The Nozzle"  
 
     - If you just want to change the nozzle, take off the silicone sock of the heater block, then *heat up the extruder first* about 5-10°C above your regular printing temperature and pull back the filament a bit once it's warm enough. 
     - Once the extruder heated up, let it sit at that temperature for about a minute or two to make sure that even the last amount of filament which might stick somewhere in the gaps or the thread is melted. 
@@ -358,10 +358,11 @@ If you need to change the nozzle, mind the warnings from above and check out the
     - Then grab the heater block with a wrench to hold it in place and screw out the nozzle carefully. Use a sufficient tool like a wrench or a socket wrench for the nozzle - don't use a pair of pliers as it may/will round off the screw nut. 
     - Make sure you don't turn the heater block at all to not loosen it from the heat break! Just hold it in place.
     - If the nozzle won't come loose, heat up the extruder again, raise the temperature a bit and let it sit longer to melt the filament in the gaps which seems to block. Before trying to unscrew the nozzle, switch off the printer again. <br> If that still doesn't work, you could take a piece of damp cloth and hold it against the nozzle (*not* the heater block, *only the nozzle*!) for a moment to cool it down. Due to the sudden decrease of temperature the metal of the nozzle will contract a tiny bit which may result in being able to unscrew it.  
-    - For installing the new nozzle, screw it in and turn it back about one rotation once you feel it hits the hotend. I personally do this after everything cooled down until it's safe to touch because then I can screw in the nozzle by hand and therefore I can feel right at the start if it doesn't sit correctly. 
+    - For installing the new nozzle, screw it in and turn it back about one rotation once you feel it hits the heatbreak. I personally do this after everything cooled down until it's safe to touch because then I can screw in the nozzle by hand and therefore I can feel right at the start if it doesn't sit correctly.
     - Check if you didn't harm any wires! 
-    - If everything is fine, power up the printer, heat up the extruder again and carefully tighten up the nozzle (don't overtighten it though). 
-    - Don't get irritated by the fact that there's a little gap between the head of the nozzle and the heater block - that's totally fine and it's supposed to be like that as the following picture shows. <br> ![Mounted nozzle](../assets/images/head_nozzle-mounted_web.jpg)     
+    - If everything is fine, power up the printer and heat up the extruder again. Most nozzle manufacturers say that you should heat it up to about 250°C, but that might already harm the PTFE tube. So go with 230-240°.  
+    - Then carefully tighten up the nozzle, but don't overtighten it though. However, you need to make sure that it's tight enough (about 1.5NM) and that it really touches the heatbreak! There shouldn't be any gap between the heatbreak and the nozzle inside of the heater block!  
+    - Don't get irritated by the fact that there's a little gap between the head of the nozzle and the heater block oncce you installed everything correctly - that's totally fine and it's supposed to be like that as the following picture shows. <br> ![Mounted nozzle](../assets/images/head_nozzle-mounted_web.jpg)     
     
         !!! warning  
         
@@ -371,7 +372,7 @@ If you need to change the nozzle, mind the warnings from above and check out the
          
 ---  
   
-## Disassembling the Printhead
+## Disassembling The Printhead
   
 Disassembling the printhead isn't really complicated. Just make sure you're careful and put the screws in a place and order that makes it easy for you to reassemble everything later. The following steps are just a rough guide through so that you know what you'll be confrontated with.   
   
@@ -389,7 +390,7 @@ Disassembling the printhead isn't really complicated. Just make sure you're care
   
 ### Go
   
-#### Take Off the Plastic Cover 
+#### Take Off The Plastic Cover 
 Whatever you want to do, like if you want to change the hotend, the heater block, the heatbreak, a fan or even want to disassemble the whole feeder system, you have to remove the plastic cover of the printhead first.  
 It's secured by two hexagon socket screws at the top of the metal back plate and a plastic clip at each side at the lower bottom. Be gentle and careful to not break one of the clips - the best way to get them out of their fittings is to gently push together the whole plastic cover at the bottom sides.   
   
@@ -400,7 +401,7 @@ After the plastic cover is gone, you can see the fan and the fanduct inside the 
 #### Disassembling the Hotend/Heater Block/Heatbreak
 If you need to take out the hotend from the printhead to change it, disassemble it or to take out the heatbreak to clean it, check out the following steps in the expandable box below.  
   
-??? example "Disassembling the Hotend, Heater Block and/or Heatbreak"
+??? example "Disassembling The Hotend, Heater Block And/Or Heatbreak"
 
     - When you look at the hotend, you'll see two bigger hexagon socket screws at the top left and right corner of the cooling element and two tiny hexagon grub screws at the lower end. <br> ![Screws](../assets/images/head_go_hotend-screws_web.jpg)
     - Before you start to disassemble it though, take out the thermistor and the cartridge heater of the heater block first by loosening the two tiny grub screws. <br> ![Screws heater block](../assets/images/head_block-screws-close_web.jpg) <br> Be careful to not rip any wires!  
@@ -417,19 +418,19 @@ If you need to take out the hotend from the printhead to change it, disassemble 
 
         *If you can see bare wire shining through the isolation of the wires of either the thermistor or the cartridge heater I'd strongly recommend to replace the component to not risk a shortcut and therefore a broken mainboard (seriously - you don't want to get a blown off mainboard like it happened to me just because of a part which maybe costs a buck or two).*    
   
-#### Leveling or Dismounting the ABL Sensor
+#### Leveling Or Dismounting The ABL Sensor
 If you need to dismount the ABL sensor from the printhead to change it or if you need to level it, check out the following steps in the expandable box below.  
 However, the ABL sensor should be leveled anyway, even if you got the printer brandnew from the manufacturer. After adjusting the height of it, determine your Z offset.  
 
 The following picture shows a sensor that should/has to be leveled (don't mind the tiny rest of filament at the tip of the nozzle which touches the paper instead of the nozzle itself though, I chipped it away before leveling everything).      
 ![This sensor needs to be leveld](../assets/images/head_neo_ABL2level_web.jpg)
 
-??? example "Leveling the ABL Sensor"
+??? example "Leveling The ABL Sensor"
 
     - For leveling the ABL sensor, you need to loosen the screw at the left side of the clamp that holds the sensor in place. <br> ![Screw clamp](../assets/images/head_go_ABL-bracket-side_web.jpg)
     - Further steps about how to level the sensor in relation to the nozzle will come soon.  
         
-??? example "Dismounting the ABL Sensor"
+??? example "Dismounting The ABL Sensor"
 
     - If you want to change the ABL sensor, you probably have to dismount the bracket/clamp that holds the sensor from the metal backplate. I'm not really sure about it as I didn't do it, but if the bracket is shaped like a U then that should be the way to go. Here you can see the two screws that hold it in place, looking at the metal plate from the back. <br> ![Screws at the back](../assets/images/head_go_abl-mount-back_web.jpg)  
     - After reassembling the sensor, make sure to level it (see expandable box above).  
@@ -459,7 +460,7 @@ For reassembling, just proceed the steps you took to disassemble the part in rev
 
 ### Neo  
  
-#### Take Off the Plastic Cover 
+#### Take Off The Plastic Cover 
 Whatever you want to do, like if you want to change the hotend, the heater block, the heatbreak, a fan or even want to disassemble the whole feeder system, you have to remove the plastic cover of the printhead first.  
 It's secured by two hexagon socket screws at the top of the metal back plate and a plastic clip at each side at the lower bottom as you can see at the following picture (well, you don't really see the plastic clip though but you can see the belonging notch of one of them). Be gentle and careful to not break one of the clips - the best way to get them out of their fittings is to gently push together the whole plastic cover at the bottom sides.  
   
@@ -489,7 +490,7 @@ The following picture shows the whole metal plate where the feeder construction 
 #### Disassembling the Hotend/Heater Block/Heatbreak
 If you need to take out the hotend from the printhead to change it, disassemble it or to take out the heatbreak to clean it, check out the following steps in the expandable box below.  
   
-??? example "Disassembling the Hotend, Heater Block and/or Heatbreak"
+??? example "Disassembling The Hotend, Heater Block And/Or Heatbreak"
 
     - Before you start to disassemble the hotend, take out the thermistor and the cartridge heater of the heater block first by loosening the two tiny grub screws. <br> ![Screws heater block](../assets/images/head_block-screws-close_web.jpg) <br> Be careful to not rip any wires!  
     - First you have to disassemble the fan on the right side by taking out the two hexagon socket screws at the top and bottom of the fan frame. <br> ![Disassemble the fan on the right side](../assets/images/head_neo_rightside_marked_web.jpg)  
@@ -507,14 +508,14 @@ If you need to take out the hotend from the printhead to change it, disassemble 
 
         *If you can see bare wire shining through the isolation of the wires of either the thermistor or the cartridge heater I'd strongly recommend to replace the component to not risk a shortcut and therefore a broken mainboard (seriously - you don't want to get a blown off mainboard like it happened to me just because of a part which maybe costs a buck or two).*   
    
-#### Leveling or Dismounting the ABL Sensor
+#### Leveling Or Dismounting The ABL Sensor
 If you need to dismount the ABL sensor from the printhead to change it or if you need to level it, check out the following steps in the expandable box below.  
 However, the ABL sensor should be leveled anyway, even if you got the printer brandnew from the manufacturer. After adjusting the height of it, determine your Z offset.  
 
 The following picture shows a sensor that should/has to be leveled (don't mind the tiny rest of filament at the tip of the nozzle which touches the paper instead of the nozzle itself though, I chipped it away before leveling everything). Because the position of it is too high for just being adjusted using the hex screw at the top, it needs to be dismounted from the bracket first to replace it further below. After that the finetuning using the screw can be done.   
 ![This sensor needs to be leveld](../assets/images/head_neo_ABL2level_web.jpg)
 
-??? example "Leveling the ABL Sensor"
+??? example "Leveling The ABL Sensor"
 
     - To adjust the height of the ABL sensor and level it, check out the video from Anycubic ["Leveling Operation for Anycubic Kobra Neo"](https://www.youtube.com/watch?v=25x84AaiUpQ) how to do so. However, I'll also list the steps in the following. 
     - Take the [height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic. <br> If you don't have the height gauge, take a sheet of paper and the open-end wrench that came with your printer. <br> If you also don't have that, take something with a flat surface that is 1.95mm thick as this is the thickness of the wrench that came with the printer (2mm will be fine also I guess).
@@ -530,7 +531,7 @@ The following picture shows a sensor that should/has to be leveled (don't mind t
     - After completing the beforementioned steps, take the parts away from the bed, set your Z offset to zero (0) if you didn't do it yet and home all axes. Then execute the ABL process and start a testprint.  
     - If the first layer didn't come out right, adjust the Z offset accordingly.
         
-??? example "Dismounting the ABL Sensor"
+??? example "Dismounting The ABL Sensor"
 
     - If you want to change the ABL sensor, it's advisable first to take off the whole printhead from the carriage of the x-axis by taking out the four hexagon socket screws at the back that hold the plate. 
     - Then loosen the two hexagon socket screws at the backplate which holds the plastic bracket in place (where the ABL sensor sits in). They are located at the left side of the back plate if you look at it from the back (see pictures above). The following picture shows the screws from a side view angle to give you a better impression about the location. At the bottom you see one of the little plastic clips - there are two of them on each side. <br> ![Screws for the ABL sensor on the left side](../assets/images/head_neo_ABL-sensor_screws_marked_web.jpg)
@@ -539,10 +540,10 @@ The following picture shows a sensor that should/has to be leveled (don't mind t
     - The following picture shows once again the two plastic clips on one side - they're on both sides, but it's sufficient to unclip them at one side as the other side will come loose as well then. Just be careful when you unclip one side and move the top of the bracket as it's still clipped in at the other side, so don't be rough here. <br> Now you can replace the sensor or readjust the position in the bracket. Be aware that there is something like a tiny thread on the little plastic lip located towards the lower end of this lid of the bracket (see red mark on the picture to the right) - make sure this thread fits into the thread of the sensor. If everything sits just right you don't need much pressure to close the lid, so be aware and careful here to not break anything. <br> ![ABL sensor disassembled](../assets/images/ABL_sensor-dissambled_web.jpg)          
     - After reassembling the sensor, make sure to level it (see expandable box above).
         
-#### Disassembling the Feeder System
+#### Disassembling The Feeder System
 If you need to disassemble the feeder system, check out the following steps in the expandable box below.  
 
-??? example "Disassembling the Feeder System" 
+??? example "Disassembling The Feeder System" 
 
     - In case you dropped something tiny like a screw or so in the wholes at the top of the feeder or if you need to check the feeder gear system due to problems, it's probably sufficient to disassemble the system from the metal backplate by taking out the three hexagon socket screws and shake the whole thing around a bit. There are enough holes and openings at the back where you also could try to reach the lost thing using a pair of tweezers. If that doesn't work, proceed with the next step.
     - There is a metal part with cooling fins underneath the 'big' fan at the right side, this is the heatsink. <br> ![Metal plate with cooling fins](../assets/images/head_neo_cooling-fins_web.jpg) <br> This heatsink is secured by three screws as you can see at the following picture. <br> ![The three screws holding the metal plate](../assets/images/head_neo_screws-cooling-plate_marked_web.jpg) <br> If you unscrew those three hexagon socket screws and take the heatsink off, you can get a closer look at the gears of the feeder system. <br> ![Neo feeder gear system](../assets/images/head_neo_feeder-inside_web.jpg)  
