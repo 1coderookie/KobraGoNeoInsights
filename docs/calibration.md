@@ -37,13 +37,19 @@ To determine the perfect first layer, I'd recommend to have a look at [this hand
     I'd recommend to tram the x-axis gantry before adjusting the z-offset. Of course you don't need to do this every time you adjust the z-offset, you need to tram the gantry one time and then it should be good.  
     If you're using the rigid stock spacers, tram the gantry in relation to the bed itself. If you're using adjustable spacers, tram the gantry in relation to the base frame and then tram the bed in relation to the nozzle. See the first violet expandable textbox in the section ["X-Axis Gantry"](hardware/axes.md#x-axis-gantry) of the chapter ["Axes"](hardware/axes.md) for a more detailed description.  
     
-??? tip "Proceed An ABL Sequence First"  
+??? tip "Proceed An ABL Sequence First, Not After Setting The Z-Offset"  
 
-    Before adjusting the z-offset, I recommend to execute an ABL sequence first. If you execute an ABL *after* you dialed in your z-offset, then you'll have to set the z-offset *again* as it seems that the ABL procedure somehow 'resets' the setting.  
+    Before adjusting the z-offset, I recommend to execute an ABL sequence first (with an already leveled ABL sensor in relation to the nozzle height, see the chapter ["Printhead"](hardware/printhead.md)). If you execute an ABL *after* you dialed in your z-offset, then you'll have to set the z-offset *again* as it seems that the ABL procedure somehow 'resets' the setting.  
     
-When it comes down to describe the actual process of how to determine and set the z-offset correctly, I have to mention that right now I don't give a 'real' step-by-step instruction here about how to proceed, as I'm using Klipper and don't remember 100% how I proceeded when using the stock firmware. However, from what I do remember right now you roughly do it this way:  
-After tramming the x-axis gantry (if you never did it before, otherwise you can skip this step) and executing an ABL sequence, home the printer. Preheat the system for PLA temperatures by using the control unit.  Enter the menu in the control unit where you can move the axes manually, choose "Move Z" and set the value to zero. Then move the printhead to the middle of the bed (x and y axes) - I'd recommend to do so by using the control unit as well instead of moving it manually to avoid any movement on the z-axis. Then take a 0.1mm feeler gauge (or a piece of paper if you don't have a feeler gauge) and place it under the nozzle. Then enter "Leveling" -> "Z-Offset" in the control unit and lower the printhead *carefully step by step* until the nozzle touches the gauge/paper. You want to be able to still move the gauge/paper without any force, but you should feel a tiny bit of resistance to make sure the nozzle touches the gauge/paper. Once you found the sweet spot, save the value. Then start a print job and verify that the first layer came out perfect. Compare the look of it with the abovementioned poster from Billie Ruben to check if it really is perfect or if you need a bit of adjustment.  
-
+When it comes down to describe the actual process of how to determine and set the z-offset correctly, I have to mention that right now I don't give a 'real' step-by-step instruction here about how to proceed, as I'm using Klipper and don't remember 100% how I proceeded when using the stock firmware. However, from what I do remember right now you (roughly) do it this way:  
+After tramming the x-axis gantry (if you never did it before, otherwise you can skip this step) and executing an ABL sequence, home the printer.  
+Preheat the system for PLA temperatures by using the control unit.  
+Enter the menu in the control unit where you can move the axes manually, choose "Move Z" and set the value to zero.  
+Then move the printhead to the middle of the bed (x and y axes) - I'd recommend to do so by using the control unit as well instead of moving it manually to avoid any movement on the z-axis.  
+Then take a 0.1mm feeler gauge (or a piece of paper if you don't have a feeler gauge) and place it under the nozzle.  
+Then enter "Leveling" -> "Z-Offset" in the control unit and lower the printhead *carefully step by step* until the nozzle touches the gauge/paper. You want to be able to still move the gauge/paper without any force, but you should feel a tiny bit of resistance to make sure the nozzle touches the gauge/paper.  
+Once you found the sweet spot, save the value. Then start a print job and verify that the first layer came out perfect. Compare the look of it with the abovementioned poster from Billie Ruben to check if it really is perfect or if you need a bit of adjustment. If you need to adjust the height, you don't need to execute an ABL sequence again, just correct the z-offset setting. You can also adjust it 'on the fly' while printing a (larger) first layer and look at the outcome - this is often even better as you'll see the effect right away.    
+  
 ## Retraction Settings
 As a crucial element for great printing results you need to find the optimum settings for retraction distance and retraction speed. The correct setting will avoid stringing (more or less). There are various aspects which affect the retraction settings. One of the main aspects is the printing temperature and the kind of filament. The higher the temperature, the more liquid/fluid the filament will be, which leads to more stringing in general.   
 In general you'll determine the correct settings (after determining the correct print temperature) by printing retraction distance and retraction speed towers. Slight adjustments might be necessary later on though, so pay attention to not only the stringing, but also to e.g. starts and ends of layers where over-/underextrusion might be occur due to imperfect retraction settings.  
@@ -52,8 +58,9 @@ In general you'll determine the correct settings (after determining the correct 
 
     It should be noted that the correct pressure of the feeder gear is very crucial (not only) when it comes down to retracting.  
     If the feeder gear pressure is too low, the gear won't 'grab' the filament sufficiently and therefore starts slipping and grinding instead of pulling it back. If the pressure is too high though, it'll deform the filament which may result in e.g. visible artefacts of your printed model. So make sure you adjusted the correct pressure.   
+    You can check if the filament gets properly fed and retracted by looking at the filament. Adding some marks with a water resistant pen might be helpful. Observe the filament if it gets retracted (= pushed back) and fed reliably when the printer should do so.   
     
-??? info "Stringing"
+??? info "Stringing - What Causes It And What Affects It"
 
     Stringing can be caused and affected by different factors and therefore can't always be avoided by adjusting retraction settings only. You can find countless articles about it, so maybe do a little research on it.  
     Based on my own experiences, the following variables besides the retraction settings should be taken into account as well as one probably doesn't think about them in the first place:  
@@ -61,7 +68,7 @@ In general you'll determine the correct settings (after determining the correct 
     - The type of filament (PLA, ABS, PETG, TPU), the quality of filament and the moisture of filament (moist filament increases stringing).  
     - The printing temperature (too high as well as too low printing temperatures cause stringing).  
     - The feeder gear pressure (see note above).  
-    - The quality and the state of the nozzle (low-quality nozzles as well as worn out and/or slightly clogged nozzles increase stringing).  
+    - The quality and the state of the nozzle (low-quality nozzles as well as worn out and/or slightly clogged nozzles can increase stringing).  
     - The quality and the state of the PTFE tube inside of the heatbreak (stringing got way better after I replaced the stock PTFE tube with a Capricorn one, it seems that the lower friction of the Capricorn tube affected the retraction capability; also a slightly clogged and/or deformed tip of the PTFE tube affected this).  
     - The object one wants to print (certain objects just caused stringing, even tho I usually printed without any stringing; I'd recommend to print retraction towers with two cone-shaped towers as well, to get the different diameter into account as well).  
     - The settings of the slicer (there are many articles and videos about this topic, so I'd recommend to do some research on it for your specific slicer).
@@ -104,7 +111,7 @@ The best way to execute a PID tuning is by simply using certain G-code commands 
   
 PID tuning needs to be done in two steps: one for the extruder and one for the bed.
 
-### Extruder
+### Extruder PID Tuning
 Because I use to print at 220°C, I want to use this temperature for the PID tuning of the extruder.  
 I want the printer to execute seven cycles - the more the better the result will be.  
 
@@ -173,7 +180,7 @@ Recv: ok
 That's it!  
 Congratulations, you just did the PID tuning for your extruder!
     
-### Bed
+### Bed PID Tuning
 Now you want to do the same for your heated bed, but you have to use a different command.  
 Because I use to print at a bed temperature of 60°C, I want to execute the PID tuning at that temperature also. Again it should be done seven times.  
 
@@ -209,8 +216,8 @@ Congratulations, you just did the PID tuning for your bed!
     
 ## Calibrating E-Steps
 You've probably already came along the sentence "calibrate your e-steps" and maybe you wonder what it is, what you'd have to do and why you should do so. It's actually pretty simple: the "e-steps" are the steps of the motor of your extruder (so "e-steps" stands for "extruder-steps") and therefore they determine how much filament will be extruded with a certain amount of motor steps.  
-Depending on how accurate this setting is (means, how well you calibrated the e-steps), you'll either have some pretty perfect prints (in the meaning of the amount of filament of each layer) or you'll see signs of more or less severe under- or overextrusion. Some people try to adjust or get rid of this problem by setting different extrusion multipliers in the slicer, but that's not the best/correct way (imho).  
-Even though the e-steps of both the **Go** and the **Neo** don't seem to be way off, it's advisable to calibrate them. This whole procedure really isn't a big deal and doesn't take long, so make sure to do this calibration!  
+Depending on how accurate this setting is (means, how well you calibrated the e-steps), you'll either have some pretty perfect prints (in the meaning of the amount of filament of each layer) or you'll see signs of more or less severe under- or overextrusion. Some people try to adjust or get rid of this problem by setting different extrusion multipliers in the slicer, but that's not the best/correct way (imho). You always should have the hardware tuned in as much as possible before trying to tweak software settings for better results.   
+Even though the e-steps of both the **Go** and the **Neo** don't seem to be way off when it comes from the manufacturer with the default firmware settings, it's advisable to calibrate them. This whole procedure really isn't a big deal and doesn't take long, so make sure to do this calibration!  
   
 The actual process of how to calibrate the e-steps is described in many articles and videos already, so right now I won't go into the final details here. Basically what you'll do is measure e.g. 100mm and 120mm of filament right above the printhead where the filament enters and mark those two spots. Then you heat up your system to your regular printing temperature, extrude 100mm and measure the distance between the printhead (where the filament enters) and the 100mm and 120mm marks once the extrusion is done.  
 If e.g. the 100mm mark is right at the spot where the filament enters - great, no calibration necessary!  
@@ -222,5 +229,5 @@ Some guides say that you should do it without a nozzle, some guides say you shou
 - Determine the correct printing temperature for the filament you're using. 
 - Use the nozzle you're going to use for printing as well - so don't calibrate the e-steps with e.g. a 0.4mm nozzle, when you're printing with a 0.6mm nozzle later. 
 - Make sure the pressure of the feeder gear is correct and it's (mostly) the setting you'll use later on as well. So don't calibrate with a sloppy feeder gear and crank up the tension later and vice versa. 
-- *Make sure to use a fine lined, waterproof pen for that, so don't use a fat marker which aleady draws a 1mm or 2mm wide line!* You want to be as precise as possible here! 
+- *Make sure to use a fine lined, waterproof pen for marking the filament, so don't use a fat marker which aleady draws a 1mm or 2mm wide line!* You want to be as precise as possible here! 
 - *Make sure to use a precise ruler or a sliding gauge for being able to actually really measure 100mm!* You'd be suprised how bad certain measurement tools actually are and how big deviations can actually be, so make sure to use a sufficient measuring tool. 
