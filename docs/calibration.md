@@ -1,7 +1,8 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # Calibration
-In this chapter I'll talk a bit about the topic of calibration. I probably won't give examples or step-by-step instructions for every calibration that's necessary or advisable to do as there are many sites out there to find which are already covering this topic, so maybe just do a little research by your own. However, to make this journey a bit easier for you to begin with, I'll list some pages that I personally found useful (links are about to come soon).  
+In this chapter I'll talk a bit about the topic of calibration. I probably won't give examples or step-by-step instructions for every calibration that's necessary or advisable to do, as there are many sites out there to find which are already covering this topic, so maybe just do a little research by your own.  
+However, to make this journey a bit easier for you to begin with, I'll list some pages that I personally found useful in the section ["Calibration Guides"](calibration.md#calibration-guides). For more informations and general sources of informations also check out the chapter ["Further Sources"](further_sources.md).  
 
 ??? tip "Calibration Using OctoPrint"
 
@@ -19,7 +20,7 @@ In this chapter I'll talk a bit about the topic of calibration. I probably won't
 ## Calibration Guides
 There are many sites and tutorials to find which are about calibration, so you might want to search for that at your preferred site first. However, I found the following guides useful.  
 
-- A handy reference when it comes down to judging the quality of your first layer is the [poster about what incorrect bed leveling can cause](https://i.imgur.com/hIcGr8U.png) made my [Billie Ruben](https://www.billieruben.info/).
+- A handy reference when it comes down to **judging the quality of your first layer** is the [poster about what incorrect bed leveling can cause](https://i.imgur.com/hIcGr8U.png) made my [Billie Ruben](https://www.billieruben.info/).
 - [Elli's Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/) made by @[AndrewEllis93](https://github.com/AndrewEllis93)
 - [All3DP's article "Extruder Calibration: How to Calibrate E-Steps"](https://all3dp.com/2/extruder-calibration-6-easy-steps-2/)
 - The [Print Quality Troubleshooting Guide](https://www.simplify3d.com/resources/print-quality-troubleshooting/) is a good start to compare your faulty prints and see what may caused the problem.  
