@@ -41,14 +41,18 @@ To determine the perfect first layer, I'd recommend to have a look at [this hand
 
     Before adjusting the z-offset, I recommend to execute an ABL sequence first (with an already leveled ABL sensor in relation to the nozzle height, see the chapter ["Printhead"](hardware/printhead.md)). If you execute an ABL *after* you dialed in your z-offset, then you'll have to set the z-offset *again* as it seems that the ABL procedure somehow 'resets' the setting.  
     
-When it comes down to describe the actual process of how to determine and set the z-offset correctly, I have to mention that right now I don't give a 'real' step-by-step instruction here about how to proceed, as I'm using Klipper and don't remember 100% how I proceeded when using the stock firmware. However, from what I do remember right now you (roughly) do it this way:  
-After tramming the x-axis gantry (if you never did it before, otherwise you can skip this step) and executing an ABL sequence, home the printer.  
-Preheat the system for PLA temperatures by using the control unit.  
-Enter the menu in the control unit where you can move the axes manually, choose "Move Z" and set the value to zero.  
-Then move the printhead to the middle of the bed (x and y axes) - I'd recommend to do so by using the control unit as well instead of moving it manually to avoid any movement on the z-axis.  
-Then take a 0.1mm feeler gauge (or a piece of paper if you don't have a feeler gauge) and place it under the nozzle.  
-Then enter "Leveling" -> "Z-Offset" in the control unit and lower the printhead *carefully step by step* until the nozzle touches the gauge/paper. You want to be able to still move the gauge/paper without any force, but you should feel a tiny bit of resistance to make sure the nozzle touches the gauge/paper.  
-Once you found the sweet spot, save the value. Then start a print job and verify that the first layer came out perfect. Compare the look of it with the abovementioned poster from Billie Ruben to check if it really is perfect or if you need a bit of adjustment. If you need to adjust the height, you don't need to execute an ABL sequence again, just correct the z-offset setting. You can also adjust it 'on the fly' while printing a (larger) first layer and look at the outcome - this is often even better as you'll see the effect right away.    
+When it comes down to describe the actual process of how to determine and set the z-offset correctly, I have to mention that right now I don't give a 'real' step-by-step instruction here about how to proceed, as I'm using Klipper and don't remember 100% how I proceeded when using the stock firmware.  
+However, from what I do remember right now you (roughly) do it this way:  
+- After tramming the x-axis gantry (if you never did it before, otherwise you can skip this step) and executing an ABL sequence, home the printer.  
+- Preheat the system for PLA temperatures by using the control unit.  
+- With the printer homed, enter the menu in the control unit where you can move the axes manually, choose "Move Z" and set the value to zero.  
+- Then move the printhead to the middle of the bed (x and y axes) - I'd recommend to do so by using the control unit as well instead of moving it manually to avoid any movement on the z-axis.  
+- Take a 0.1mm feeler gauge (or a piece of paper if you don't have a feeler gauge) and place it under the nozzle.  
+- Then enter "Leveling" -> "Z-Offset" in the control unit and lower the printhead *carefully step by step* until the nozzle touches the gauge/paper. You want to be able to still move the gauge/paper without any force, but you should feel a tiny bit of resistance to make sure the nozzle touches the gauge/paper.  
+- Once you found the sweet spot, save the value.  
+
+Then start a print job and verify that the first layer came out perfect. Compare the look of it with the abovementioned poster from Billie Ruben to check if it really is perfect or if you need a bit of adjustment.  
+If you need to adjust the height, you don't need to execute an ABL sequence again, just correct the z-offset setting. You can also adjust it 'on the fly' while printing a (larger) first layer and look at the outcome - this is often even better as you'll see the effect right away.    
   
 ## Retraction Settings
 As a crucial element for great printing results you need to find the optimum settings for retraction distance and retraction speed. The correct setting will avoid stringing (more or less). There are various aspects which affect the retraction settings. One of the main aspects is the printing temperature and the kind of filament. The higher the temperature, the more liquid/fluid the filament will be, which leads to more stringing in general.   
