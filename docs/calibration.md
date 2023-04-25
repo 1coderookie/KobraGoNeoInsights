@@ -42,7 +42,9 @@ To determine the perfect first layer, I'd recommend to have a look at [this hand
     Before adjusting the z-offset, I recommend to execute an ABL sequence first (with an already leveled ABL sensor in relation to the nozzle height, see the chapter ["Printhead"](hardware/printhead.md)). If you execute an ABL *after* you dialed in your z-offset, then you'll have to set the z-offset *again* as it seems that the ABL procedure somehow 'resets' the setting.  
     
 When it comes down to describe the actual process of how to determine and set the z-offset correctly, I have to mention that right now I don't give a 'real' step-by-step instruction here about how to proceed, as I'm using Klipper and don't remember 100% how I proceeded when using the stock firmware.  
+
 However, from what I do remember right now you (roughly) do it this way:  
+
 - After tramming the x-axis gantry (if you never did it before, otherwise you can skip this step) and executing an ABL sequence, home the printer.  
 - Preheat the system for PLA temperatures by using the control unit.  
 - With the printer homed, enter the menu in the control unit where you can move the axes manually, choose "Move Z" and set the value to zero.  
