@@ -18,7 +18,7 @@ However, if you're new to this whole thing (or if you've never heard of one of t
 - [Website of Angus Deveson aka "Maker's Muse"](https://www.makersmuse.com/) and [his YouTube channel](https://www.youtube.com/@MakersMuse)
 - [YouTube channel of Alex Kenis](https://www.youtube.com/@AlexKenis)
 - [Website of Michael aka "Teaching Tech"](https://teachingtechyt.github.io/) and [his YouTube channel](https://www.youtube.com/@TeachingTech)
-- [Website of Ellis aka "Ellis3DP"](https://ellis3dp.com/Print-Tuning-Guide/)
+- [Website of Andrew Ellis aka "Ellis3DP"](https://ellis3dp.com/Print-Tuning-Guide/)
 - (more to come)
 
 ## 3D Models
