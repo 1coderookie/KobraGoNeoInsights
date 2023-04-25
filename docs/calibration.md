@@ -1,7 +1,7 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # Calibration
-In this chapter I'll talk a bit about the topic of calibration. I probably won't give examples or step-by-step instructions for every calibration that's necessary or advisable to do, as there are many sites out there to find which are already covering this topic, so maybe just do a little research by your own.  
+For getting high quality prints, you need to calibrate your printer. As there are many things being worth mentioned and I can't cover and explain all of them, I'll just talk about a few which seem to be the most crucial ones beginners might not be aware of. There are many websites and YouTube guides out there to find which are already covering this wide topic of calibration, so I'd recommend to do a little research by your own.  
 However, to make this journey a bit easier for you to begin with, I'll list some pages that I personally found useful in the section ["Calibration Guides"](calibration.md#calibration-guides). For more informations and general sources of informations also check out the chapter ["Further Sources"](further_sources.md).  
 
 ??? tip "Calibration Using OctoPrint"
@@ -24,6 +24,25 @@ There are many sites and tutorials to find which are about calibration, so you m
 - [Elli's Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/) made by @[AndrewEllis93](https://github.com/AndrewEllis93)
 - [All3DP's article "Extruder Calibration: How to Calibrate E-Steps"](https://all3dp.com/2/extruder-calibration-6-easy-steps-2/)
 - The [Print Quality Troubleshooting Guide](https://www.simplify3d.com/resources/print-quality-troubleshooting/) is a good start to compare your faulty prints and see what may caused the problem.  
+
+## Z-Offset  
+The z-offset is the distance between the nozzle and the bed/plate you're printing on. It comes into account when printing the first layer of a model and therefore it's crucial and absolutely important that you dial in your z-offset to get your first layer as perfect as possible.  
+If the nozzle is too far up above the plate, you'll experience that the print doesn't stay onto the bed or (if it's way too far up) that it'll just produce 'spaghetti' while printing up in the air.  
+If it's too close to the plate and therefore the filament will be squished into the plate too much, then it'll either be difficult to remove the object or (if the nozzle is way too close) it'll provoke clogging as the filament won't be able to come out of the nozzle. Worst case would be that the nozzle scrapes across the plate and that you damage the hardware itself.  
+  
+To determine the perfect first layer, I'd recommend to have a look at [this handy guide](https://i.imgur.com/hIcGr8U.png) from [Billie Ruben](https://www.billieruben.info/) first to get an impression how you can judge if the first layer (and therefore the z-offset) is good or not and how it should look like.  
+
+??? tip "Tram The X-Axis Gantry"  
+
+    I'd recommend to tram the x-axis gantry before adjusting the z-offset. Of course you don't need to do this every time you adjust the z-offset, you need to tram the gantry one time and then it should be good.  
+    If you're using the rigid stock spacers, tram the gantry in relation to the bed itself. If you're using adjustable spacers, tram the gantry in relation to the base frame and then tram the bed in relation to the nozzle. See the first violet expandable textbox in the section ["X-Axis Gantry"](hardware/axes.md#x-axis-gantry) of the chapter ["Axes"](hardware/axes.md) for a more detailed description.  
+    
+??? tip "Proceed An ABL Sequence First"  
+
+    Before adjusting the z-offset, I recommend to execute an ABL sequence first. If you execute an ABL *after* you dialed in your z-offset, then you'll have to set the z-offset *again* as it seems that the ABL procedure somehow 'resets' the setting.  
+    
+When it comes down to describe the actual process of how to determine and set the z-offset correctly, I have to mention that right now I don't give a 'real' step-by-step instruction here about how to proceed, as I'm using Klipper and don't remember 100% how I proceeded when using the stock firmware. However, from what I do remember right now you roughly do it this way:  
+After tramming the x-axis gantry (if you never did it before, otherwise you can skip this step) and executing an ABL sequence, home the printer. Preheat the system for PLA temperatures by using the control unit.  Enter the menu in the control unit where you can move the axes manually, choose "Move Z" and set the value to zero. Then move the printhead to the middle of the bed (x and y axes) - I'd recommend to do so by using the control unit as well instead of moving it manually to avoid any movement on the z-axis. Then take a 0.1mm feeler gauge (or a piece of paper if you don't have a feeler gauge) and place it under the nozzle. Then enter "Leveling" -> "Z-Offset" in the control unit and lower the printhead *carefully step by step* until the nozzle touches the gauge/paper. You want to be able to still move the gauge/paper without any force, but you should feel a tiny bit of resistance to make sure the nozzle touches the gauge/paper. Once you found the sweet spot, save the value. Then start a print job and verify that the first layer came out perfect. Compare the look of it with the abovementioned poster from Billie Ruben to check if it really is perfect or if you need a bit of adjustment.  
 
 ## Retraction Settings
 As a crucial element for great printing results you need to find the optimum settings for retraction distance and retraction speed. The correct setting will avoid stringing (more or less). There are various aspects which affect the retraction settings. One of the main aspects is the printing temperature and the kind of filament. The higher the temperature, the more liquid/fluid the filament will be, which leads to more stringing in general.   
