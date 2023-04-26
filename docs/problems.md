@@ -26,11 +26,12 @@ Based on my own experiences, the following variables besides the retraction sett
 - The quality of filament.  
 - The moisture of filament: moist filament increases stringing.  
 - The printing temperature: too high as well as too low printing temperatures cause stringing.  
-- The feeder gear pressure: if it's too low, the gear can't grab the filament reliably and therefore can't retract reliably.  
-- The quality and the state of the nozzle: low-quality nozzles as well as worn out and/or slightly clogged nozzles can increase stringing. Also the diameter of the nozzle has an impact as it determines how much filament gets extruded.   
+- The [feeder gear pressure](hardware/printhead.md#extruder-feeder): if it's too low, the gear can't grab the filament reliably and therefore can't retract reliably.  
+- The state of the feeder gear: if the teeth of the feeder gear which grabs the filament is kinda clogged due to debris of the filament, then it might slip as well.   
+- The quality and the state of the [nozzle](hardware/printhead.md#nozzle): low-quality nozzles as well as worn out and/or slightly clogged nozzles can increase stringing. Also the diameter of the nozzle has an impact as it determines how much filament gets extruded.   
 - The quality and the state of the PTFE tube inside of the heatbreak (Neo) or the bowden tube overall (Go).  
   As an example: stringing got way better after I replaced the stock PTFE tube with a Capricorn one, it seems that the lower friction of the Capricorn tube affected the retraction capability. Also a slightly clogged and/or deformed tip of the PTFE tube affected this a lot.  
-- Retraction settings, so the retraction *distance* and the retraction *speed*.  
+- [Retraction settings](calibration.md#retraction-settings), so the retraction *distance* and the retraction *speed*.  
   Even though one would usually assume that higher values should/would be better to avoid or at least deal with stringing, it's not always the case. So instead of e.g. going higher than 1mm retraction distance at the direct drive of the Neo (which would provoke clogging), go much lower and see how it goes.  
   This seems to be affected not only by the *type* of filament (flexible filament like TPU needs completely different settings than pretty hard filament like PLA for example), but also by the *quality* of filament. Often cheap filament is lighter and more flexible than high quality filament and therefore it needs lower retraction settings overall to achieve good results.   
 - The object one wants to print: certain objects just caused stringing, even tho I usually printed without any stringing. I'd recommend to print retraction towers with two cone-shaped towers as well, to get the different diameter into account as well.  
