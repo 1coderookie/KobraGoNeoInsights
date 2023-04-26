@@ -35,11 +35,12 @@ To determine the perfect first layer, I'd recommend to have a look at [this hand
 ??? tip "Tram The X-Axis Gantry"  
 
     I'd recommend to tram the x-axis gantry before adjusting the z-offset. Of course you don't need to do this every time you adjust the z-offset, you need to tram the gantry one time and then it should be good.  
-    If you're using the rigid stock spacers, tram the gantry in relation to the bed itself. If you're using adjustable spacers, tram the gantry in relation to the base frame and then tram the bed in relation to the nozzle. See the first violet expandable textbox in the section ["X-Axis Gantry"](hardware/axes.md#x-axis-gantry) of the chapter ["Axes"](hardware/axes.md) for a more detailed description.  
+    If you're using the rigid stock spacers, tram the gantry in relation to the bed itself. If you're using adjustable spacers, tram the gantry in relation to the base frame and then tram the bed in relation to the nozzle. See the first violet expandable textbox in the section ["X-Axis Gantry"](hardware/axes.md#x-axis-gantry) for a more detailed description.  
     
-??? tip "Proceed An ABL Sequence First, Not After Setting The Z-Offset"  
+??? tip "Proceed An ABL Sequence Before, Not After Setting The Z-Offset"  
 
-    Before adjusting the z-offset, I recommend to execute an ABL sequence first (with an already leveled ABL sensor in relation to the nozzle height, see the chapter ["Printhead"](hardware/printhead.md)). If you execute an ABL *after* you dialed in your z-offset, then you'll have to set the z-offset *again* as it seems that the ABL procedure somehow 'resets' the setting.  
+    Before adjusting the z-offset, I recommend to execute an ABL sequence first - with an already [leveled ABL sensor](hardware/printhead.md) in relation to the nozzle height as well as an already [trammed x-axis gantry](hardware/axes.md#x-axis-gantry).  
+    If you execute an ABL *after* you dialed in your z-offset, then you'll have to set the z-offset *again* as it seems that the ABL procedure somehow 'resets' the setting.  
     
 When it comes down to describe the actual process of how to determine and set the z-offset correctly, I have to mention that right now I don't give a 'real' step-by-step instruction here about how to proceed, as I'm using Klipper and don't remember 100% how I proceeded when using the stock firmware.  
 
