@@ -10,23 +10,23 @@ Please make sure to **mind the expandable textboxes** as they contain valuable i
 
 ??? warning "Warning"
 
-    ..like "Caution, don't touch the hot nozzle!"
+    Like "Caution, don't touch the hot nozzle!"
 
 ??? tip "Tip"  
 
-    ..like "Level the position of the ABL sensor in relation to the nozzle."
+    Like "Level the position of the ABL sensor in relation to the nozzle."
 
-??? information "Information" 
+??? info "Information" 
 
-    ..like "Informations about nozzles in general." 
+    Like "Informations about nozzles in general." 
 
 ??? question "Question"
 
-    ..like "Have a Go and wanna contribute?"
+    Like "Have a **Go** and wanna contribute?"
 
 ??? example "Instruction"
 
-    ..like "How to disassemble the hotend."
+    Like "How to disassemble the hotend."
 
 you'll find in there. So please take your time and read attentively.  
   
