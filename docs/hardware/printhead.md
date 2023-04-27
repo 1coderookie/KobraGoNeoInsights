@@ -127,11 +127,11 @@ The hotend of the **Go** is shown in the next pictures. In the second picture yo
 
     If you can't load new filament even though the nozzle itself is clean and free, it's most likely that the PTFE tube inside of the hotend is clogged. To clean or replace it you need to disassemble the hotend from the printhead. Scroll down to the "Disassembling" section to find a little guide about how to do that.     
     
-??? tip "Spare Part PTFE Bowden Tube"
+??? info "Spare Part PTFE Bowden Tube"
 
     If you need a new PTFE bowden tube, I'd recommend to get the 4mm "Capricorn XS" tube for 1.75mm filament at the length of 1m. Then just cut the belonging length and replace the old bowden tube. You can also get it in a set with a cutter. However, make sure you make a clean cut at a 90° to avoid any small gaps between the nozzle and the end of the tube! <br> ![Capricorn XS](../assets/images/head_capricornXS_web.jpg)     
     
-??? tip "Spare Part Heatbreak"
+??? info "Spare Part Heatbreak"
 
     If you need a new heatbreak, you should be able to use whichever V5 compatible heatbreak you'd like to use, you just have to pay attention to the dimensions. It should be about the same length as the stock one, so don't buy anything significantly shorter or longer. However, I personally would also suppose to pay attention to the a flat surface, so don't get yourself the ones with the thread on the outside.   
     Some people 'upgraded' to an all-metal heatbreak, which one should avoid though if only printing PLA as it may cause and increase clogging problems. So up to me always go with a heatbreak that uses a PTFE inliner all the way down to the nozzle in case you're only or mostly printing PLA.   
@@ -182,7 +182,7 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
 
     If you can't load new filament even though the nozzle itself is clean and free, it's most likely that the little PTFE tube inside of the hotend is clogged. To clean or replace it you need to disassemble the hotend from the printhead. Scroll down to the "Disassembling" section to find a little guide about how to do that.   
   
-??? tip "Spare Part Hotend"
+??? info "Spare Part Hotend"
 
     - If you need a new hotend because your heater block or the heatbreak needs to be changed, you can get yourself the spare part hotend for the regular *Kobra*. If you look at the picture of it and compare it with the ones I've shown above, you'll notice that the shape of the heatbreak is the same. So up to me it'll fit perfectly.   
     - If the old thermistor and/or cartridge heater are still good and the wires aren't harmed, you don't have to fiddle around to use the new ones! Just take the existing ones out of the old heater block and install them in the new one.   
@@ -192,11 +192,11 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
     
     Besides the stock hotend you can also just get or build yourself a hotend by using a V5 compatible heatbreak and heater block which fits just fine. The following picture shows a hotend I built myself from third party manufacturer parts: a regular heatbreak for V5 compatible heater blocks where the PTFE inliner moves all the way down to the nozzle (so it's *not* a full-metal heatbreak as I use to print PLA/PLA+ only right now), a V5 compatible heater block made of plated copper and a Capricorn XS PTFE tube. <br> ![3rd party hotend](../assets/images/head_3rdparty-hotend_web.jpg)  
     
-??? tip "Spare Part PTFE Tube"
+??? info "Spare Part PTFE Tube"
 
     If you need a new PTFE tube, I'd recommend to get the 4mm "Capricorn XS" tube for 1.75mm filament at the length of 1m. Then just cut the belonging length and replace the old PTFE tube. You can also get it in a set with a cutter. However, make sure you make a clean cut at a 90° to avoid any small gaps between the nozzle and the end of the tube! I personally use to stick the tube into the heatbreak, push it through so that the desired length sticks out and then I cut along the end of the heatbreak using it as a guide. By doing so, I get pretty perfect perpendicular cuts. <br> ![Capricorn XS](../assets/images/head_capricornXS_web.jpg)  
   
-??? tip "Spare Part Heatbreak"
+??? info "Spare Part Heatbreak"
 
     If you need a new heatbreak, you should be able to use whichever V5 compatible heatbreak you'd like to use, you just have to pay attention to the dimensions. It should be about the same length as the stock one, so don't buy anything significantly shorter or longer. However, I personally would also suppose to pay attention to the a flat surface, so don't get yourself the ones with the thread on the outside.   
     Some people 'upgraded' to an all-metal heatbreak, which one should avoid though if only printing PLA as it may cause and increase clogging problems. So up to me always go with a heatbreak that uses a PTFE inliner all the way down to the nozzle in case you're only or mostly printing PLA.   
@@ -246,7 +246,7 @@ Both the thermistor and the cartidge heater have to be plugged into the specific
 ## Silicone Sock
 The silicone sock that comes with the hotend insulates the heater block. Therefore it should stay in place and shouldn't come off, as it may cause the "thermal runaway" error.  
   
-??? tip "Spare Part Silicone Sock"  
+??? info "Spare Part Silicone Sock"  
 
     The sock which comes with the printhead isn't the best one to use (in my opinion) as it seems to come off pretty easily. There are compatible V5 silicone socks at the aftermarket which I personally use and which I can highly recommend. They have a bigger lip which slips over the heater block and covers a bigger area of the top than the one which comes with the printer. Therefore they stay in place much better when they heat up and become more flexible.  
     
