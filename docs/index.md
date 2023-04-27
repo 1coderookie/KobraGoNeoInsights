@@ -6,7 +6,8 @@ to my infopage about Anycubic's **Kobra Go** and **Kobra Neo**.
 Here you'll find specific informations about both models as well as more general kind of informations.  
 I set this page up to facilitate users of these printer models an easier start as well as providing specific informations about e.g. maintaining the printers.    
   
-Please make sure to **mind the expandable textboxes** as they contain valuable informations. Depending on the color of the box, it's either a 
+Please make sure to **mind the expandable textboxes** as they contain valuable informations!  
+Depending on the color of the box, it's either a 
 
 ??? warning "Warning"
 
@@ -28,7 +29,8 @@ Please make sure to **mind the expandable textboxes** as they contain valuable i
 
     Like "How to disassemble the hotend."
 
-you'll find in there. So please take your time and read attentively.  
+you'll find in there.  
+*So please take your time and read attentively.*  
   
 If you want to **contribute** an e.g. modification (aka "mod") you did or an important information you found, feel free to send me an email (address can be found in the footer). 
   
