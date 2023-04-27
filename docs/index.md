@@ -4,7 +4,7 @@
 to my infopage about Anycubic's **Kobra Go** and **Kobra Neo**.   
   
 Here you'll find specific informations about both models as well as more general kind of informations.  
-I set this page up to facilitate users of these printer models an easier start as well as providing specific informations about e.g. maintaining the printers.    
+I created this page to make it easier for users of these printers to get started, as well as to provide specific information on e.g. how to maintain the printers.  
   
 Please make sure to **mind the expandable textboxes** as they contain valuable informations!  
 Depending on the color of the box, it's either a 
