@@ -7,7 +7,7 @@ Here you'll find specific information about both models as well as more general 
 I created this page to make it easier for users of these printers to get started, as well as to provide specific information on e.g. how to maintain the printers.  
   
 Please make sure to **mind the (expandable) textboxes** as they contain valuable informations!  
-Depending on the color of the box, it's either a   
+Depending on the color of the box, it's either a tip, information, instruction, question or warning you'll find in there:    
 
 ??? tip "Tip"  
 
@@ -29,7 +29,6 @@ Depending on the color of the box, it's either a
 
     Textboxes which contain a warning will be displayed extended already to make sure the warning won't be overseen.
  
-you'll find in there.  
 *So please take your time and read attentively.*    
   
 If you want to **contribute** an e.g. modification (aka "mod") you did or an important information you found, feel free to send me an email (address can be found in the footer). 
