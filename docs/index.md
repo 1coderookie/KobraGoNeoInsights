@@ -30,7 +30,7 @@ Please make sure to **mind the expandable textboxes** as they contain valuable i
 
 you'll find in there. So please take your time and read attentively.  
   
-If you want to **contribute** an e.g. mod you did or an important information you found, just send me an email (address can be found in the footer). 
+If you want to **contribute** an e.g. modification (aka "mod") you did or an important information you found, feel free to send me an email (address can be found in the footer). 
   
 ***If you find this page useful, please consider recommending it to others. This will make the community aware of this page and help other users.***    
   
