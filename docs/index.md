@@ -9,10 +9,6 @@ I created this page to make it easier for users of these printers to get started
 Please make sure to **mind the expandable textboxes** as they contain valuable informations!  
 Depending on the color of the box, it's either a 
 
-??? warning "Warning"
-
-    Like "Caution, don't touch the hot nozzle!"
-
 ??? tip "Tip"  
 
     Like "Level the position of the ABL sensor in relation to the nozzle."
@@ -28,6 +24,10 @@ Depending on the color of the box, it's either a
 ??? example "Instruction"
 
     Like "How to disassemble the hotend."
+
+!!! warning "Warning"
+
+    Textboxes which contain a warning will be displayed extended already to make sure the warning won't be overseen.
 
 you'll find in there.  
 *So please take your time and read attentively.*  
