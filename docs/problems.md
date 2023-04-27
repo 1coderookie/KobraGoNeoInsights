@@ -5,18 +5,21 @@ In this chapter I'll list some of the most common problems people seem to have a
 (Note: WIP, so maybe come back another time as well ;) )   
 
 ## First Layer Problems / Print Comes Off
-If you're having the problem that the print doesn't stick on the plate (even though you really cleaned the PEI plate), then it's most likely that your z-offset isn't right.   
-As a rule of thumb you can keep in mind that if the nozzle is too far above the bed, the prints won't stick and (depending on how far above the nozzle actually is) may result in a spaghetti incident (which is filament all over the place) or a blob of fear (which is a large clump of filament built up around the hotend).  
-If the nozzle is too close to the bed, the filament will get squished into the plate too much and that will (depending on *how* close the nozzle actually is) provoke clogging as well as it makes it difficult to remove the printed model later.  
-*The first layer is crucial for a perfect print, so take your time and get your z-offset dialed in well.*   
-See the section ["Z-Offset"](calibration.md#z-offset) for further tips.   
+If you're having the problem that your first layer isn't consistent across the plate and/or the print doesn't stick on the plate (even though you really cleaned the PEI plate) then it's most likely that your z-offset isn't right and/or you're dealing with a warped or tilted bed and therefore experience certain areas where the distance between the nozzle and the plate will vary too much.   
   
-Also make sure that you trammed the [x-axis gantry](hardware/axes.md#x-axis-gantry), so that the nozzle has the same distance to the plate across the whole area.  
-I'd recommend to get some [adjustable spacers](hardware/bed.md#different-spacers) for the bed for being able to tram the bed itself as well.  
-  
-Of course you have to pay attention that you really cleaned the PEI plate of the [bed](hardware/bed.md) properly using e.g. simple dishwasher soap (no balm or 'soft' soap as they often contain some oily ingredients) and IPA. I personally prefer silicone remover spray, it just works great. Avoid touching the plate with your bare hands and fingers as that'll leave a tiny amount of grease onto the plate as well.  
-
-Also make sure that you chose the correct temperature of the bed for the filament you're using. For PLA for example it should be around 55°-60°C. If the bed is too hot, then the print won't stick to it either.    
+- As a rule of thumb you can keep in mind that if the nozzle is too far above the bed, the prints won't stick and (depending on how far above the nozzle actually is) may result in a spaghetti incident (which is filament all over the place) or a blob of fear (which is a large clump of filament built up around the hotend).  
+  If the nozzle is too close to the bed, the filament will get squished into the plate too much and that will (depending on *how* close the nozzle actually is) provoke clogging as well as it makes it difficult to remove the printed model later.  
+  *The first layer is crucial for a perfect print, so take your time and get your z-offset dialed in well.*   
+  See the section ["Z-Offset"](calibration.md#z-offset) for further tips.   
+- Also make sure that you trammed the [x-axis gantry](hardware/axes.md#x-axis-gantry), so that the nozzle has the same distance to the plate across the whole area. This might not be enough though if you're encountering a tilted bed along the y-axis, so check the next listing. 
+- If you're using the rigid stock spacers (the black round parts between the bedplate and the bedgantry) that came with the printer, then it's most likely that they're not all of the same height (at my Neo they *all* had a different height!). Of course that'll lead to a somewhat warped or tilted bed. Before you start fiddling around with that either trying to get them all to the same height by e.g. sanding them down or by putting some sort of thin material underneath them to eaglize the height, I'd recommend to just get some [adjustable spacers](hardware/bed.md#different-spacers) for the bed for being able to tram the bed itself as well.  
+- I'd recommend to check the bedmesh values (query M503 through a program like e.g. OctoPrint, Pronterface to get them listed) or use e.g. OctoPrint for getting a meshview out of it. By doing so you can see how 'flat' and trammed the bed is.  
+  If it's tilted, tram it.  
+  If it's warped or bent (like e.g. a bow) or if you're having certain spots which seem to be bulges or dents or if you have a certain area which is lower, you can use *Kapton tape* to egalize those areas/spots. Just take off the PEI plate, stick pieces of the Kapton tape right onto the magnetic foil of the bed, put the PEI plate back on and do another ABL sequence. Then check the values or the meshview again. By doing so step by step, you can get yourself a bed as flat as possible. Minor deviations should be compensated by the ABL function later when printing. 
+- Of course you have to pay attention that you really cleaned the PEI plate of the [bed](hardware/bed.md) properly using e.g. simple dishwasher soap (no balm or 'soft' soap as they often contain some oily ingredients) and IPA to make the prints stick to it. I personally prefer silicone remover spray, it just works great.  
+  Avoid touching the plate with your bare hands and fingers as that'll leave a tiny amount of grease onto the plate as well.  
+- Also make sure that you chose the correct temperature of the bed for the filament you're using. For PLA for example it should be around 55°-60°C. If the bed is too hot, then the print won't stick to it either.   
+ 
 
 ## Stringing
 Stringing can be caused and affected by different factors and therefore can't always be avoided by adjusting retraction settings only. You can find countless articles about it, so maybe do a little research on it.  
