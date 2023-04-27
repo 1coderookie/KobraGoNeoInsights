@@ -3,17 +3,30 @@
 # Welcome  
 to my infopage about Anycubic's **Kobra Go** and **Kobra Neo**.   
   
-Here you'll fins specific informations about both models as well as more general kind of informations. I set this page up to facilitate user of these printer models an easier start as well as providing specific informations about e.g. maintaining the printers.    
+Here you'll find specific informations about both models as well as more general kind of informations.  
+I set this page up to facilitate users of these printer models an easier start as well as providing specific informations about e.g. maintaining the printers.    
   
 Please make sure to **mind the expandable textboxes** as they contain valuable informations. Depending on the color of the box, it's either a 
 
-!!! warning "warning"
+??? warning "Warning"
 
-!!! tip "tip"
+    ..like "Caution, don't touch the hot nozzle!"
 
-!!! information "information" 
+??? tip "Tip"  
 
-!!! example "instruction"
+    ..like "Level the position of the ABL sensor in relation to the nozzle."
+
+??? information "Information" 
+
+    ..like "Informations about nozzles in general." 
+
+??? question "Question"
+
+    ..like "Have a Go and wanna contribute?"
+
+??? example "Instruction"
+
+    ..like "How to disassemble the hotend."
 
 you'll find in there. So please take your time and read attentively.  
   
