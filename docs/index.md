@@ -17,13 +17,13 @@ Depending on the color of the box, it's either a
 
     Like "Informations about nozzles in general." 
 
-??? question "Question"
-
-    Like "Have a **Go** and wanna contribute?"
-
 ??? example "Instruction"
 
     Like "How to disassemble the hotend."
+
+??? question "Question"
+
+    Like "Have a **Go** and wanna contribute?"
 
 !!! warning "Warning"
 
