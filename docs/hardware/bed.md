@@ -150,7 +150,7 @@ Because you can't level the bed itself due to the construction, you may want to 
 It's adviseable to make sure that the bolt can't turn itself loose due to the vibration, so add a nylon lock nut or a counter nut to the tip of the screw underneath the bed gantry as well.  
 
 **Springs**  
-Mounting springs instead of spacers seems to be a good idea at first sight. You can look out for a set of springs suitable for an Ender 3 for example, those would fit. You'd have to get yourself some longer M4 type screws as well as the stock ones will be too short.  
+Mounting springs instead of rigid spacers allows you to tram the bed itself. You'd have to get yourself some longer M4 type screws as well as the stock ones will be too short. Get yourself some nylon washers as well which you place between the underside of the bed and the springs to prevent scratching the surface.   
 However, as springs are made from metal which underlies the temperature changes of the heated bed, it'll most likely be necessary to check the level once in a while.    
 
 **Silicone Spacers**  
@@ -163,7 +163,7 @@ The following picture shows the stock spacers on the left, springs in te middle 
     When you want to tram the bed by adjusting the tension of the springs or silicone spacers to pull down a side or an edge of the bed, be careful to not bend the bed itself by tightening up just one corner too much. Try to push down one side of the bed and adjust two screws at a time.    
     I personally tram the bed by adding just a little bit of load to the spacers, so that the bed doesn't wobble. Then I'm measuring the distance between the tip of the ABL sensor and the bedplate where the screws are located in first place and adjust the four screws to get the same distance. Then I proceed with an ABL and look at the mesh and the values and repeat the steps if necessary.  
     Remember that every time you adjust one screw, it most likely will affect the other screws as well!  
-    For finetuning I add Kapton tape on the magnetic surface of the bed underneath the PEI plate to egalize warped or dented areas as much as possible.  
+    For finetuning I add Kapton tape on the magnetic surface of the bed underneath the PEI plate to equalize warped or dented areas as much as possible.  
     In case you're using Klipper like me, you can use the macro ["screws_tilt_adjust with the command SCREWS_TILT_CALCULATE"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe) to finetune the tramming of the bed.  
     When you're done, make sure the screws won't turn themselves loose due to the vibration, so add e.g. an additional lock nut as well.    
     Also remember to check your z-offset as it'll most likely has to be adjusted.  
