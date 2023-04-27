@@ -18,7 +18,7 @@ If you're having the problem that your first layer isn't consistent across the p
   If it's warped or bent (like e.g. a bow) or if you're having certain spots which seem to be bulges or dents or if you have a certain area which is lower, you can use *Kapton tape* to egalize those areas/spots. Just take off the PEI plate, stick pieces of the Kapton tape right onto the magnetic foil of the bed, put the PEI plate back on and do another ABL sequence. Then check the values or the meshview again. By doing so step by step, you can get yourself a bed as flat as possible. Minor deviations should be compensated by the ABL function later when printing. 
 - Of course you have to pay attention that you really cleaned the PEI plate of the [bed](hardware/bed.md) properly using e.g. simple dishwasher soap (no balm or 'soft' soap as they often contain some oily ingredients) and IPA to make the prints stick to it. I personally prefer silicone remover spray, it just works great.  
   Avoid touching the plate with your bare hands and fingers as that'll leave a tiny amount of grease onto the plate as well.  
-- Also make sure that you chose the correct temperature of the bed for the filament you're using. For PLA for example it should be around 55°-60°C. If the bed is too hot, then the print won't stick to it either.   
+- Also make sure that you chose the correct temperature of the bed for the filament you're using. For PLA for example it should be around 55°-60°C. If the bed is too hot, then the print won't reliably stick to it either.   
  
 
 ## Stringing
