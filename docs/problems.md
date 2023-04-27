@@ -70,6 +70,9 @@ The solution for this would be to dry your filament. You can either get yourself
 
 When storing your filament, use e.g. some vaccum sealed bags and add dessicant.  
 
+## The Pattern Of The Infill 'Shines' Through
+If you experience a regular pattern on the outside of the printed model, it might be caused by the infill. If you print the infill first and then print the outer perimeters, then the infill will 'shine' through so to say. So try to change the belonging setting in your slicer and print the outer perimeters/walls first.  
+
 ## Dark Pieces Of Melted Filament
 If you see dark (like honey or even brown or black) pieces of melted filament somewhere on your print, then this is a sign of a clogged or (most likely) even wrong assembled hotend. It's caused by filament which stays in the hotend somewhere, gets burned and when it comes out it's dark.  
 Most of the time there is a little gap where the filament gets collected, like between the nozzle and the PTFE tube when not being cut or assembled properly.  
