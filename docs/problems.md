@@ -1,7 +1,8 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # Problems  
-In this chapter I'll list some of the most common problems people seem to have and what to do about them.  
+In this chapter I'll list some of the most common problems people seem to have and what to do about them. Of course this chapter won't cover all of the possible problems one would probably have to deal with, but at least some of the problems beginners struggle with will be covered. If you don't find the answer to your specific problem here, please do a research by your own - there are countless websites as well as YouTube videos out there.  
+
 (Note: WIP, so maybe come back another time as well ;) )   
 
 ## First Layer Problems / Print Comes Off
