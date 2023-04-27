@@ -1,15 +1,25 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
-**Welcome to my page about Anycubic's "Kobra Go" and "Kobra Neo".**   
+# Welcome  
+to my infopage about Anycubic's **Kobra Go** and **Kobra Neo**.   
   
-I am a newbie to 3D printing and got a **Kobra Neo** from a friend of mine. As it came with some problems and needed a bit of tinker love, I was trying to find informations and tips specifically about the **Neo** - it turned out that it wasn't an easy mission as it's pretty new to the Kobra family. So I thought it might be a good idea to document my tinkering and collect informations and tips about the **Go** and **Neo** (as they are basically the same) to facilitate other newbies like me an easier start right away.   
+Here you'll fins specific informations about both models as well as more general kind of informations. I set this page up to facilitate user of these printer models an easier start as well as providing specific informations about e.g. maintaining the printers.    
   
-??? question "Want to Contribute?"  
+Please make sure to **mind the expandable textboxes** as they contain valuable informations. Depending on the color of the box, it's either a 
 
-    You did e.g. any mods and documentated them, have certain tips or stumbled upon useful informations across the web and would like to contribute? Just send me an email (address can be found below in the footer), thanks! 
+!!! warning "warning"
+
+!!! tip "tip"
+
+!!! information "information" 
+
+!!! example "instruction"
+
+you'll find in there. So please take your time and read attentively.  
   
-*If you find this page useful, please consider recommending it to others. This will make the community aware of this page and help other users.*  
-*Thank you!*  
+If you want to **contribute** an e.g. mod you did or an important information you found, just send me an email (address can be found in the footer). 
+  
+***If you find this page useful, please consider recommending it to others. This will make the community aware of this page and help other users.***    
   
 *Happy tinkering and printing!*   
   
