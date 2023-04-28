@@ -435,8 +435,8 @@ The following picture shows the whole metal plate where the feeder construction 
   
 ---
 
-### Disassembling the Hotend/Heater Block/Heatbreak
-If you need to take out the hotend of the printhead to change it, disassemble it or to take out the heatbreak to clean it, check out the following steps for your specific model first to get an idea about how to proceed. 
+### Disassembling The Hotend
+If you need to dismount the hotend from the printhead to change it or if you need to disassemble it, check out the following steps for your specific model first to get an idea about how to proceed. 
 
 !!! warning  
 
@@ -521,15 +521,17 @@ The following picture shows a sensor that should/has to be leveled (don't mind t
   
 ---
 
-### Disassembling The Feeder System
+### Disassembling The Feeder Gear
+
+If you need to disassemble the feeder gear system, check out the following steps for your specific model first to get an idea about how to proceed.  
+
+#### Go
+Sorry, no description available yet..
 
 #### Neo
-If you need to disassemble the feeder system, check out the following steps in the expandable box below.  
 
-??? example "Disassembling The Feeder System" 
-
-    - In case you dropped something tiny like a screw or so in the wholes at the top of the feeder or if you need to check the feeder gear system due to problems, it's probably sufficient to disassemble the system from the metal backplate by taking out the three hexagon socket screws and shake the whole thing around a bit. There are enough holes and openings at the back where you also could try to reach the lost thing using a pair of tweezers. If that doesn't work, proceed with the next step.
-    - There is a metal part with cooling fins underneath the 'big' fan at the right side, this is the heatsink. <br> ![Metal plate with cooling fins](../assets/images/head_neo_cooling-fins_web.jpg) <br> This heatsink is secured by three screws as you can see at the following picture. <br> ![The three screws holding the metal plate](../assets/images/head_neo_screws-cooling-plate_marked_web.jpg) <br> If you unscrew those three hexagon socket screws and take the heatsink off, you can get a closer look at the gears of the feeder system. <br> ![Neo feeder gear system](../assets/images/head_neo_feeder-inside_web.jpg)  
+- In case you dropped something tiny like a screw or so in the wholes at the top of the feeder or if you need to check the feeder gear system due to problems, it's probably sufficient to disassemble the system from the metal backplate by taking out the three hexagon socket screws and shake the whole thing around a bit. There are enough holes and openings at the back where you also could try to reach the lost thing using a pair of tweezers. If that doesn't work, proceed with the next step.   
+- There is a metal part with cooling fins underneath the 'big' fan at the right side, this is the heatsink. <br> ![Metal plate with cooling fins](../assets/images/head_neo_cooling-fins_web.jpg) <br> This heatsink is secured by three screws as you can see at the following picture. <br> ![The three screws holding the metal plate](../assets/images/head_neo_screws-cooling-plate_marked_web.jpg) <br> If you unscrew those three hexagon socket screws and take the heatsink off, you can get a closer look at the gears of the feeder system. <br> ![Neo feeder gear system](../assets/images/head_neo_feeder-inside_web.jpg)  
   
 ---  
   
