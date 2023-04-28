@@ -8,6 +8,8 @@ The printheads of the **Go** and the **Neo** aren't identical because of the dif
   
 If you look at both printheads from the front and compare their size, you'll notice that the one of the **Go** is a bit smaller (and lighter) and more square than the wider (and heavier) and more rectangular shaped one of the **Neo**.  
   
+---  
+  
 ## Go
 The following picture shows a new printhead for the **Go** as it comes as a spare part.  
   
@@ -18,6 +20,8 @@ The following picture shows a close up view of the printhead of the **Go** from 
 ![Go printhead front view](../assets/images/head_go_front_web.jpg)    
   
 You can find a more detailed inside-view further down below in the disassembling section.  
+  
+---  
   
 ## Neo  
 The following picture shows a new printhead for the **Neo** as it comes as a spare part.  
@@ -40,6 +44,8 @@ The ABL sensor at the **Go** is mounted pretty much straight behind the heater b
 
     Most of the time users have to adjust the postion of the ABL sensor, even when the printer is brandnew and came straight from the factory. The steps of the procedure are described within the section of the specific model.     
   
+---  
+  
 ### Go
 The following picture shows the location of the ABL sensor at the printhead of the **Go**, looking at it from a bottom view angle - the ABL sensor is the part at the left side with the round orange tip.   
   
@@ -49,6 +55,8 @@ The ABL sensor itself is mounted in a plastic bracket which is the mounted to th
   
 ![ABL sensor](../assets/images/head_go_ABL-bracket-side_web.jpg)
   
+---  
+    
 #### Leveling The ABL Sensor
 
 Check if you need to level your ABL sensor in relation to the nozzle (which should be done after every maintenance at the hotend as well as when you got the printer brandnew from the manufacturer).  
@@ -69,6 +77,8 @@ Leveling procedure:
 - If you need to adjust the height of the sensor, loosen the screw at the left side of the clamp that holds the sensor in place. <br> ![Screw clamp](../assets/images/head_go_ABL-bracket-side_web.jpg) <br> Move the sensor and tighten up the screw again once you found the correct position.  
 - After completing the beforementioned steps, take the parts away from the bed, set your Z offset to zero (0) if you didn't do it yet and home all axes. Then execute the ABL process and dial in your z-offset.          
   
+---  
+    
 ### Neo
 The following picture shows the location of the ABL sensor at the printhead of the **Neo**, looking at it from a bottom view angle - the ABL sensor is the part at the right side with the round orange tip.   
   
@@ -77,7 +87,9 @@ The following picture shows the location of the ABL sensor at the printhead of t
 The ABL sensor itself is mounted in a plastic bracket which is the mounted to the metal backplate. You can adjust the height of the position by a little spring supported screw located at the top.  
   
 ![ABL sensor](../assets/images/head_ABL-sensor-front_web.jpg)
-    
+  
+---  
+      
 #### Leveling The ABL Sensor
 
 Check if you need to level your ABL sensor in relation to the nozzle (which should be done after every maintenance at the hotend as well as when you got the printer brandnew from the manufacturer).  
@@ -99,8 +111,7 @@ Leveling procedure:
 - If the sensor is too high or too low, adjust the height by turning the little M2 hexagon socket screw at the top of the bracket that holds the sensor.  <br> ![Screw at the top to move the sledge](../assets/images/head_ABL-sensor_top_closeup_web.jpg) <br> You're only able to move it a few milimeters by doing so though!   
 -  If you need to adjust a bigger height, you'd need to disassemble the sensor from the bracket itself first to already change it's position in the bracket (see the pictures of it in the "dismounting" section above.  
 - After completing the beforementioned steps, take the parts away from the bed, set your Z offset to zero (0) if you didn't do it yet and home all axes. Then execute the ABL process and dial in your z-offset.
-      
-    
+       
 ---  
   
 ## Extruder / Feeder
@@ -201,8 +212,9 @@ In the following, the specific hotends will be shown. Before jumping to the spec
     - If so (I hope it will be!), don't start printing right away - execute a PID tuning for the hotend first.  
     - Also check if you need to re-level the ABL sensor in relation to the nozzle due to a probably different position of the hotend now.  
     - Execute an ABL and take care of your Z-offset, most likely the position of your nozzle will be different due to a different position of the whole hotend.  
-        
   
+---  
+   
 ### Go
   
 The hotend of the **Go** is shown in the next pictures. In the second picture you can see the heatbreak screwed into the block but dismounted from the aluminum cooling element.  
@@ -332,7 +344,9 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
     - I personally use the E3D V6 brass nozzles (0.6 mm right now) for printing PLA+. Yes, they are a bit more expensive than the super cheap ones, but it's still a good price and it's really worth it - they last longer, they're precisely made and you'll get much better results. As long as you don't want to print special abrasive filaments, you're always good with these standard E3D V6 brass nozzles.  
   
     - If you want to print filaments that are more abrasive, you probably want to go with nozzles made from plated copper, stainless or hardened steel, ruby sapphire nozzles and so on. Check out the web for further and more specific informations about what to choose.      
-
+  
+---  
+  
 ### Cleaning The Nozzle
 If you need to clean the nozzle during the printing procedure to take off excessive amount of melted filament or if the nozzle is clogged, mind the warnings from above and check out the following steps in the expandable block below.  
   
@@ -349,8 +363,9 @@ A harmed tip may also cause artefacts like stringing for example, so also keep t
     - If the nozzle is clogged and therefore the cleaning filament can't run through, you could also try to do a *"cold pull"*. To do so you heat up the nozzle to about 220°C, load the cleaning filament and manually push it through a bit. Then let the nozzle cool down to about 90-100°C and rip out the filament. You may have to repeat this procedure a few times until the cleaning filament can run through again. However, be careful not to rip off the filament by doing the cold pull as you then definitely have to disassemble the hotend. <br> *Attention: don't do cold pulls when using hardened steel nozzles, the manufacturers say that it might harm the coating of the inside of the nozzle!* 
     - If you still encounter problems with the flow of the filament though or if you even can't load new filament, most likely the little PTFE tube inside of the heatbreak is clogged. Scroll down to the "Disassembling" section where you'll find a little guide about how to get it out and clean it.  
     - If you took out the nozzle from the heater block and can't get it clean, heat it up with a hot air gun. Then you can poke out the soft filament. You can also try to put it in acetone and let it sit there - the longer the better (I'd say minimum 24hrs). This method works especially great with ABS as that just dissolves, but it also works at least a bit with other types of filament like PLA (although not as good as with ABS at all) and makes it a bit softer. Then you can try to poke the filament out. This also works with the heater block and the heatbreak if you want to clean them also. Make sure to rinse them with water before installing though.  
-
-     
+  
+---  
+       
 ### Changing The Nozzle
 If you need to change the nozzle, mind the warnings from above and check out the following steps in the expandable block below.
      
@@ -401,6 +416,8 @@ After the plastic cover is gone, you can see the fan and the fanduct inside the 
   
 ![Head no cover](../assets/images/head_go_no-cover_web.jpg)   
   
+---  
+    
 #### Neo
 Whatever you want to do, like if you want to change the hotend, the heater block, the heatbreak, a fan or even want to disassemble the whole feeder system, you have to remove the plastic cover of the printhead first.  
 It's secured by two hexagon socket screws at the top of the metal back plate and a plastic clip at each side at the lower bottom as you can see at the following picture (well, you don't really see the plastic clip though but you can see the belonging notch of one of them). Be gentle and careful to not break one of the clips - the best way to get them out of their fittings is to gently push together the whole plastic cover at the bottom sides.  
@@ -445,7 +462,9 @@ If you need to dismount the hotend from the printhead to change it or if you nee
 !!! danger  
 
     *If you can see bare wire shining through the isolation of the wires of either the thermistor or the cartridge heater, I'd strongly recommend to replace the component to not risk a shortcut and therefore a broken mainboard!*   
-
+  
+---  
+  
 #### Go
  
 - When you look at the hotend, you'll see two bigger hexagon socket screws at the top left and right corner of the cooling element and two tiny hexagon grub screws at the lower end. <br> ![Screws](../assets/images/head_go_hotend-screws_web.jpg)
@@ -453,6 +472,8 @@ If you need to dismount the hotend from the printhead to change it or if you nee
 - The two bigger screws at the top are holding the cooling element and therefore the whole hotend in place.  then unscrew the two bigger hexagon socket screws at the top of the cooling element and you can take the hotend away from the metal plate. <br> ![Hotend dismounted](../assets/images/head_go_extruder-dismounted_web.jpg)
 - If you want to change the hotend, the heatbreak or the heater block now, unscrew the nut at the top of the cooling element where the long PTFE tube runs through that leads the filament. Then loosen the two tiny hex grub screws just a little bit until you can pull out the heatbreak from the cooling element. <br> ![Extruder disassembled](../assets/images/head_go_hotend-dis_web.jpg) <br> For any further steps of disassembling (taking out the nozzle or the heatbreak from the heater block), **heat up the metal parts** by using a heat gun for example and then unscrew the heatbreak and/or from the heater block. Make sure to neither harm any parts while using the wrench nor yourself by accidentally touching the hot material.  
   
+---  
+    
 #### Neo
 
 - Before you start to disassemble the hotend, take out the thermistor and the cartridge heater of the heater block first by loosening the two tiny grub screws. <br> ![Screws heater block](../assets/images/head_block-screws-close_web.jpg) <br> Be careful to not rip any wires!  
@@ -466,12 +487,16 @@ If you need to dismount the hotend from the printhead to change it or if you nee
 ### Dismounting The ABL Sensor
 
 If you need to dismount the ABL sensor from the printhead to change it, check out the following steps for your specific model first to get an idea about how to proceed.  
-
+  
+---  
+  
 #### Go
 
 - If you want to change the ABL sensor, you probably have to completely dismount the bracket/clamp that holds the sensor from the metal backplate. I'm not really sure about it as I didn't do it myself yet, but if the bracket is shaped like a U then that should be the way to go. Here you can see the two screws that hold it in place, looking at the metal plate from the back. <br> ![Screws at the back](../assets/images/head_go_abl-mount-back_web.jpg)  
 - After reassembling the sensor, make sure to level it.  
   
+---  
+    
 #### Neo
 
 - If you want to change the ABL sensor, it's advisable first to take off the whole printhead from the carriage of the x-axis by taking out the four hexagon socket screws at the back that hold the plate. 
@@ -486,10 +511,14 @@ If you need to dismount the ABL sensor from the printhead to change it, check ou
 ### Disassembling The Feeder Gear
 
 If you need to disassemble the feeder gear system, check out the following steps for your specific model first to get an idea about how to proceed.  
-
+  
+---  
+  
 #### Go
 Sorry, no description available yet..
-
+  
+---  
+  
 #### Neo
 
 - In case you dropped something tiny like a screw or so in the wholes at the top of the feeder or if you need to check the feeder gear system due to problems, it's probably sufficient to disassemble the system from the metal backplate by taking out the three hexagon socket screws and shake the whole thing around a bit. There are enough holes and openings at the back where you also could try to reach the lost thing using a pair of tweezers. If that doesn't work, proceed with the next step.   
@@ -542,13 +571,17 @@ However, you might also want to have a look at some steps I mentioned in the exp
 ## Mods
 
 In the following I'll list some mods I found which belong to the part "printhead" somehow. I won't put them in a special order, so you'd have to got through the list I guess. 
-
+  
+---  
+  
 ### Go  
   
 - Reddit member [xpeng121](https://www.reddit.com/user/xpeng121/) posted his modification for the Kobra **Go** to a ***direct drive extruder***: [Kobra Go direct drive mod. Yes it's Neo now...](https://www.reddit.com/r/anycubic/comments/10howol/kobra_go_direct_drive_mod_yes_its_neo_now/)  
 - [MW-Mechanical](https://www.printables.com/de/social/455820-mw-mechanical) created an [Upgraded fan duct (exposed print head setup) for Anycubic Kobra Go](https://www.printables.com/de/model/338244-upgraded-fan-duct-exposed-print-head-setup-for-any) which is supposed to achieve better part cooling.
 - [Gallapagos](https://www.thingiverse.com/gallapagos/designs) created a [Monomonster](https://www.thingiverse.com/thing:5741047) for the **Go** using a 5015 style blower fan.
   
+---  
+    
 ### Neo  
   
 - [Martin](https://www.printables.com/de/social/443043-martin) created a [replacement for the stock fan duct ](https://www.printables.com/de/model/378928-anycubic-kobra-neo-fan-duct) of the **Neo** which is supposed to achieve better part cooling due to air flow from three sides.  
