@@ -396,9 +396,11 @@ Disassembling the printhead isn't really complicated. Just make sure you're care
   
 ---  
   
-### Go
+
   
-#### Take Off The Plastic Cover 
+### Take Off The Plastic Cover 
+
+#### Go
 Whatever you want to do, like if you want to change the hotend, the heater block, the heatbreak, a fan or even want to disassemble the whole feeder system, you have to remove the plastic cover of the printhead first.  
 It's secured by two hexagon socket screws at the top of the metal back plate and a plastic clip at each side at the lower bottom. Be gentle and careful to not break one of the clips - the best way to get them out of their fittings is to gently push together the whole plastic cover at the bottom sides.   
   
@@ -406,69 +408,7 @@ After the plastic cover is gone, you can see the fan and the fanduct inside the 
   
 ![Head no cover](../assets/images/head_go_no-cover_web.jpg)   
   
-#### Disassembling the Hotend/Heater Block/Heatbreak
-If you need to take out the hotend from the printhead to change it, disassemble it or to take out the heatbreak to clean it, check out the following steps in the expandable box below.  
-  
-??? example "Disassembling The Hotend, Heater Block And/Or Heatbreak"
-
-    - When you look at the hotend, you'll see two bigger hexagon socket screws at the top left and right corner of the cooling element and two tiny hexagon grub screws at the lower end. <br> ![Screws](../assets/images/head_go_hotend-screws_web.jpg)
-    - Before you start to disassemble it though, take out the thermistor and the cartridge heater of the heater block first by loosening the two tiny grub screws. <br> ![Screws heater block](../assets/images/head_block-screws-close_web.jpg) <br> Be careful to not rip any wires!  
-    - The two bigger screws at the top are holding the cooling element and therefore the whole hotend in place.  then unscrew the two bigger hexagon socket screws at the top of the cooling element and you can take the hotend away from the metal plate. <br> ![Hotend dismounted](../assets/images/head_go_extruder-dismounted_web.jpg)
-    - If you want to change the hotend, the heatbreak or the heater block now, unscrew the nut at the top of the cooling element where the long PTFE tube runs through that leads the filament. Then loosen the two tiny hex grub screws just a little bit until you can pull out the heatbreak from the cooling element. <br> ![Extruder disassembled](../assets/images/head_go_hotend-dis_web.jpg) <br> For any further steps of disassembling (taking out the nozzle or the heatbreak from the heater block), **heat up the metal parts** by using a heat gun for example and then unscrew the heatbreak and/or from the heater block. Make sure to neither harm any parts while using the wrench nor yourself by accidentally touching the hot material.  
-  
-    !!! warning  
-
-        - When moving or pulling out the hotend, *be careful to not break any wires or rip them off from the sensor and heater cartridge* - so better unscrew the tiny hex screws a bit and take out the thermistor and the heating cartridge first as mentioned above. 
-        - Check the wires and contacts if they aren't harmed and if everything is ok. 
-        - ***Never try to unscrew the heatbreak from the heater block while the parts are cold!*** <br> Melted filament or some kind of screw lock glue might make it hard or even impossible to unscrew it and you risk to shear off the heatbreak!  
-
-    !!! danger  
-
-        *If you can see bare wire shining through the isolation of the wires of either the thermistor or the cartridge heater I'd strongly recommend to replace the component to not risk a shortcut and therefore a broken mainboard (seriously - you don't want to get a blown off mainboard like it happened to me just because of a part which maybe costs a buck or two).*    
-  
-#### Leveling Or Dismounting The ABL Sensor
-If you need to dismount the ABL sensor from the printhead to change it or if you need to level it, check out the following steps in the expandable box below.  
-However, the ABL sensor should be leveled anyway, even if you got the printer brandnew from the manufacturer. After adjusting the height of it, determine your Z offset.  
-
-The following picture shows a sensor that should/has to be leveled (don't mind the tiny rest of filament at the tip of the nozzle which touches the paper instead of the nozzle itself though, I chipped it away before leveling everything).      
-![This sensor needs to be leveld](../assets/images/head_neo_ABL2level_web.jpg)
-
-??? example "Leveling The ABL Sensor"
-
-    - For leveling the ABL sensor, you need to loosen the screw at the left side of the clamp that holds the sensor in place. <br> ![Screw clamp](../assets/images/head_go_ABL-bracket-side_web.jpg)
-    - Further steps about how to level the sensor in relation to the nozzle will come soon.  
-        
-??? example "Dismounting The ABL Sensor"
-
-    - If you want to change the ABL sensor, you probably have to dismount the bracket/clamp that holds the sensor from the metal backplate. I'm not really sure about it as I didn't do it, but if the bracket is shaped like a U then that should be the way to go. Here you can see the two screws that hold it in place, looking at the metal plate from the back. <br> ![Screws at the back](../assets/images/head_go_abl-mount-back_web.jpg)  
-    - After reassembling the sensor, make sure to level it (see expandable box above).  
-  
-#### Reassembling
-For reassembling, just proceed the steps you took to disassemble the part in reverse. However, you might also want to have a look at the general steps I mentioned in the expandable box below.  
-
-!!! warning
-
-    - If you dismounted the hotend and/or the ABL sensor, make sure to level the ABL sensor again and control your Z offset!
-    - If you replaced the hotend/heater block and/or changed the thermistor and/or the cartridge heater, execute a PID tuning!
-  
-??? example "Reassembling" 
-
-    For reassembling, just put everything back together by reverting the beforementioned steps. Make sure you're using the right screws and don't forget any of them. Don't overtighten the screws - as my father (R.I.P.) used to say: "After tight comes loose!" (roughly translated). 
-  
-    1. Warm up the parts using e.g. a heat gun and screw the heatbreak into the heater block until it sits tight.  
-    2. Put back the cleaned or renewed PTFE tube into the cooling element, let the tube stick out about 5cm, don tighten up the nut yet.  
-    3. Then push the heatbreak back into the cooling element - make sure you push it deep enough until the little 'ring' of the heatbreak touches the cooling element. The PTFE tube should touch the bottom of the heatbreak - because you let it stick out more than necessary, it should therefore come up a bit out of the cooling element at the top.
-    4. Watch out to put the hotend in place the right way: the 'bigger' part of the heater block should be located at the front. Everything should be aligned. 
-    5. Then tighten up the tiny grub screws to secure the heatbreak, so that the hotend doesn't turn or wiggle anymore (but don't overtighten the screws though). Tighten up the nut of the PTFE tube then.
-    6. Mount the whole hotend/cooling element back on the metal plate by using the two bigger hexagon socket screws.  
-    7. Put the thermistor and the heater cartridge back in place and secure them by *carefully* tighten the tiny hex screw - *don't overtighten them as you could harm the thermistor and the heater cartridge!*  
-    8. Reassemble the fan and the plastic cover.   
-    
----
-
-### Neo  
- 
-#### Take Off The Plastic Cover 
+#### Neo
 Whatever you want to do, like if you want to change the hotend, the heater block, the heatbreak, a fan or even want to disassemble the whole feeder system, you have to remove the plastic cover of the printhead first.  
 It's secured by two hexagon socket screws at the top of the metal back plate and a plastic clip at each side at the lower bottom as you can see at the following picture (well, you don't really see the plastic clip though but you can see the belonging notch of one of them). Be gentle and careful to not break one of the clips - the best way to get them out of their fittings is to gently push together the whole plastic cover at the bottom sides.  
   
@@ -495,7 +435,29 @@ The following picture shows the whole metal plate where the feeder construction 
   
 ![Backside view metal plate](../assets/images/head_neo_backplate_marked_web.jpg)
   
-#### Disassembling the Hotend/Heater Block/Heatbreak
+### Disassembling the Hotend/Heater Block/Heatbreak
+
+#### Go
+If you need to take out the hotend from the printhead to change it, disassemble it or to take out the heatbreak to clean it, check out the following steps in the expandable box below.  
+  
+??? example "Disassembling The Hotend, Heater Block And/Or Heatbreak"
+
+    - When you look at the hotend, you'll see two bigger hexagon socket screws at the top left and right corner of the cooling element and two tiny hexagon grub screws at the lower end. <br> ![Screws](../assets/images/head_go_hotend-screws_web.jpg)
+    - Before you start to disassemble it though, take out the thermistor and the cartridge heater of the heater block first by loosening the two tiny grub screws. <br> ![Screws heater block](../assets/images/head_block-screws-close_web.jpg) <br> Be careful to not rip any wires!  
+    - The two bigger screws at the top are holding the cooling element and therefore the whole hotend in place.  then unscrew the two bigger hexagon socket screws at the top of the cooling element and you can take the hotend away from the metal plate. <br> ![Hotend dismounted](../assets/images/head_go_extruder-dismounted_web.jpg)
+    - If you want to change the hotend, the heatbreak or the heater block now, unscrew the nut at the top of the cooling element where the long PTFE tube runs through that leads the filament. Then loosen the two tiny hex grub screws just a little bit until you can pull out the heatbreak from the cooling element. <br> ![Extruder disassembled](../assets/images/head_go_hotend-dis_web.jpg) <br> For any further steps of disassembling (taking out the nozzle or the heatbreak from the heater block), **heat up the metal parts** by using a heat gun for example and then unscrew the heatbreak and/or from the heater block. Make sure to neither harm any parts while using the wrench nor yourself by accidentally touching the hot material.  
+  
+    !!! warning  
+
+        - When moving or pulling out the hotend, *be careful to not break any wires or rip them off from the sensor and heater cartridge* - so better unscrew the tiny hex screws a bit and take out the thermistor and the heating cartridge first as mentioned above. 
+        - Check the wires and contacts if they aren't harmed and if everything is ok. 
+        - ***Never try to unscrew the heatbreak from the heater block while the parts are cold!*** <br> Melted filament or some kind of screw lock glue might make it hard or even impossible to unscrew it and you risk to shear off the heatbreak!  
+
+    !!! danger  
+
+        *If you can see bare wire shining through the isolation of the wires of either the thermistor or the cartridge heater I'd strongly recommend to replace the component to not risk a shortcut and therefore a broken mainboard (seriously - you don't want to get a blown off mainboard like it happened to me just because of a part which maybe costs a buck or two).*    
+  
+#### Neo
 If you need to take out the hotend from the printhead to change it, disassemble it or to take out the heatbreak to clean it, check out the following steps in the expandable box below.  
   
 ??? example "Disassembling The Hotend, Heater Block And/Or Heatbreak"
@@ -515,13 +477,30 @@ If you need to take out the hotend from the printhead to change it, disassemble 
     !!! danger  
 
         *If you can see bare wire shining through the isolation of the wires of either the thermistor or the cartridge heater I'd strongly recommend to replace the component to not risk a shortcut and therefore a broken mainboard (seriously - you don't want to get a blown off mainboard like it happened to me just because of a part which maybe costs a buck or two).*   
-   
-#### Leveling Or Dismounting The ABL Sensor
+  
+---
+
+### Leveling Or Dismounting The ABL Sensor
+
 If you need to dismount the ABL sensor from the printhead to change it or if you need to level it, check out the following steps in the expandable box below.  
 However, the ABL sensor should be leveled anyway, even if you got the printer brandnew from the manufacturer. After adjusting the height of it, determine your Z offset.  
 
-The following picture shows a sensor that should/has to be leveled (don't mind the tiny rest of filament at the tip of the nozzle which touches the paper instead of the nozzle itself though, I chipped it away before leveling everything). Because the position of it is too high for just being adjusted using the hex screw at the top, it needs to be dismounted from the bracket first to replace it further below. After that the finetuning using the screw can be done.   
+The following picture shows a sensor that should/has to be leveled (don't mind the tiny rest of filament at the tip of the nozzle which touches the paper instead of the nozzle itself though, I chipped it away before leveling everything).      
 ![This sensor needs to be leveld](../assets/images/head_neo_ABL2level_web.jpg)
+
+#### Go
+
+??? example "Leveling The ABL Sensor"
+
+    - For leveling the ABL sensor, you need to loosen the screw at the left side of the clamp that holds the sensor in place. <br> ![Screw clamp](../assets/images/head_go_ABL-bracket-side_web.jpg)
+    - Further steps about how to level the sensor in relation to the nozzle will come soon.  
+        
+??? example "Dismounting The ABL Sensor"
+
+    - If you want to change the ABL sensor, you probably have to dismount the bracket/clamp that holds the sensor from the metal backplate. I'm not really sure about it as I didn't do it, but if the bracket is shaped like a U then that should be the way to go. Here you can see the two screws that hold it in place, looking at the metal plate from the back. <br> ![Screws at the back](../assets/images/head_go_abl-mount-back_web.jpg)  
+    - After reassembling the sensor, make sure to level it (see expandable box above).  
+  
+#### Neo
 
 ??? example "Leveling The ABL Sensor"
 
@@ -547,36 +526,61 @@ The following picture shows a sensor that should/has to be leveled (don't mind t
     - Be careful when you want to take out the sensor from the plastic bracket and therefore have to release the tiny plastic clips which close the bracket - don't break them! <br> ![image](../assets/images/head_ABL-sensor_clip_closeup_web.jpg) 
     - The following picture shows once again the two plastic clips on one side - they're on both sides, but it's sufficient to unclip them at one side as the other side will come loose as well then. Just be careful when you unclip one side and move the top of the bracket as it's still clipped in at the other side, so don't be rough here. <br> Now you can replace the sensor or readjust the position in the bracket. Be aware that there is something like a tiny thread on the little plastic lip located towards the lower end of this lid of the bracket (see red mark on the picture to the right) - make sure this thread fits into the thread of the sensor. If everything sits just right you don't need much pressure to close the lid, so be aware and careful here to not break anything. <br> ![ABL sensor disassembled](../assets/images/ABL_sensor-dissambled_web.jpg)          
     - After reassembling the sensor, make sure to level it (see expandable box above).
-        
-#### Disassembling The Feeder System
+  
+---
+
+### Disassembling The Feeder System
+
+#### Neo
 If you need to disassemble the feeder system, check out the following steps in the expandable box below.  
 
 ??? example "Disassembling The Feeder System" 
 
     - In case you dropped something tiny like a screw or so in the wholes at the top of the feeder or if you need to check the feeder gear system due to problems, it's probably sufficient to disassemble the system from the metal backplate by taking out the three hexagon socket screws and shake the whole thing around a bit. There are enough holes and openings at the back where you also could try to reach the lost thing using a pair of tweezers. If that doesn't work, proceed with the next step.
     - There is a metal part with cooling fins underneath the 'big' fan at the right side, this is the heatsink. <br> ![Metal plate with cooling fins](../assets/images/head_neo_cooling-fins_web.jpg) <br> This heatsink is secured by three screws as you can see at the following picture. <br> ![The three screws holding the metal plate](../assets/images/head_neo_screws-cooling-plate_marked_web.jpg) <br> If you unscrew those three hexagon socket screws and take the heatsink off, you can get a closer look at the gears of the feeder system. <br> ![Neo feeder gear system](../assets/images/head_neo_feeder-inside_web.jpg)  
-      
-      
-#### Reassembling
-For reassembling, just proceed the steps you took to disassemble the part in reverse. However, you might also want to have a look at the general steps I mentioned in the expandable box below.  
-
-!!! warning
-
-    - If you dismounted the hotend and/or the ABL sensor, make sure to level the ABL sensor again and control your Z offset!
-    - If you replaced the hotend/heater block and/or changed the thermistor and/or the cartridge heater, execute a PID tuning!
   
-??? example "Reassembling" 
+---  
+  
+### Reassembling
 
-    For reassembling, just put everything back together by reverting the beforementioned steps. Make sure you're using the right screws and don't forget any of them. Don't overtighten the screws - as my father (R.I.P.) used to say: "After tight comes loose!" (roughly translated). 
+For reassembling, just put everything back together by proceeding the steps of disassemblingin in reverse. Make sure you're using the right screws and don't forget any of them.  
+Don't overtighten the screws though - as my father (R.I.P.) used to say: "After tight comes loose!" (roughly translated ;) ).  
+<!---  
+However, you might also want to have a look at some steps I mentioned in the expandable box below.  
+-->
+
+!!! warning "Attention"
+
+    - If you dismounted the hotend and/or the ABL sensor, make sure to level the ABL sensor again and control your Z offset!  
+    - If you replaced the hotend/heater block and/or changed the thermistor and/or the cartridge heater, execute a PID tuning!  
+
+<!---
+#### Go  
+  
+??? example "Reassembling The Hotend" 
+  
+    1. Screw the heatbreak into the heater block in the corresponding depth and screw in the nozzle from the other side until they touch. Don't tighten up the nozzle yet!    
+    2. Put back the cleaned or renewed PTFE tube into the heatsink element, let the tube stick out about 5cm at the bottom, don't tighten up the nut yet.  
+    3. Then push the heatbreak back into the heatsink part - make sure you push it deep enough until the little 'ring' of the heatbreak touches the heatsink part. The PTFE tube should touch the bottom of the heatbreak - because you let it stick out more than necessary, it should therefore come up a bit out of the cooling element at the top.
+    4. Watch out to put the hotend in place the right way: the 'bigger' part of the heater block should be located at the front. Everything should be aligned. 
+    5. Then tighten up the tiny grub screws to secure the heatbreak, so that the hotend doesn't turn or wiggle anymore (but don't overtighten the screws though). Tighten up the nut of the PTFE tube then.
+    6. Mount the whole hotend/cooling element back on the metal plate by using the two bigger hexagon socket screws.  
+    7. Put the thermistor and the heater cartridge back in place and secure them by *carefully* tighten the tiny hex screw - *don't overtighten them as you could harm the thermistor and the heater cartridge!*  
+    8. Reassemble the fan and the plastic cover.   
+    
+#### Neo
+
+??? example "Reassembling" 
   
     1. Warm up the parts using e.g. a heat gun and screw the heatbreak into the heater block until it sits tight.  
     2. Put back the cleaned or renewed PTFE tube.  
     3. Put the thermistor and the heater cartridge back in place and secure them by *carefully* tighten the tiny hex screw - *don't overtighten them as you could harm the thermistor and the heater cartridge!*  
-    4. Then push the heatbreak back into the specific hole - make sure you push it deep enough (I personally push it as far into it as it goes).  
+    4. Then push the heatbreak back into the specific hole of the heatsink - make sure you push it deep enough (I personally push it as far into it as it goes).  
     5. Turn the hotend so that the wires which are coming from the heater block are hanging freely and aren't bent too much.  
-    6. Then tighten up the screws, so that the hotend doesn't turn or wiggle anymore (but don't overtighten the screws though).  
+    6. Then tighten up the two hexagon socket screws at the heatsink which hold the heatbreak in place, so that the hotend doesn't turn or wiggle anymore (but don't overtighten the screws though).  
     7. Reassemble the fan and the plastic cover.   
-  
+-->
+
 ---  
   
 ## Mods
