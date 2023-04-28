@@ -332,7 +332,7 @@ If you need to change the nozzle, mind the warnings from above and check out the
              
 ---  
   
-## Disassembling The Printhead
+## Disassembling
   
 Disassembling the printhead isn't really complicated. Just make sure you're careful and put the screws in a place and order that makes it easy for you to reassemble everything later. The following steps are just a rough guide through so that you know what you'll be confrontated with. I'd recommend to take a picture of each step, so that you can look at them later when reassembling - just in case you don't know how to proceed at a certain point or if you're not sure where certain screws belong.    
   
@@ -487,7 +487,7 @@ Sorry, no description available yet..
   
 ---  
   
-### Reassembling
+## Reassembling
 
 For reassembling, just put everything back together by proceeding the steps of disassemblingin in reverse. Make sure you're using the right screws and don't forget any of them.  
 Don't overtighten the screws though - as my father (R.I.P.) used to say: "After tight comes loose!" (roughly translated ;) ).  
