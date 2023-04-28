@@ -114,14 +114,7 @@ You can access the inside of the feeder system by dismounting the heatsink, whic
 ---  
   
 ## Hotend & Heatbreak
-  
-### Go
-  
-The hotend of the **Go** is shown in the next pictures. In the second picture you can see the heatbreak screwed into the block but dismounted from the aluminum cooling element.  
-
-![Hotend](../assets/images/head_go_hotend_web.jpg)  
-  
-![Hotend disassembled](../assets/images/head_go_hotend-dis_web.jpg)
+In the following, the specific hotends will be shown. Before jumping to the specific section, mind the notes in the expandable textboxes as well.  
   
 !!! warning
 
@@ -135,7 +128,8 @@ The hotend of the **Go** is shown in the next pictures. In the second picture yo
     
 ??? info "Spare Part PTFE Bowden Tube"
 
-    If you need a new PTFE bowden tube, I'd recommend to get the 4mm "Capricorn XS" tube for 1.75mm filament at the length of 1m. Then just cut the belonging length and replace the old bowden tube. You can also get it in a set with a cutter. However, make sure you make a clean cut at a 90° to avoid any small gaps between the nozzle and the end of the tube! <br> ![Capricorn XS](../assets/images/head_capricornXS_web.jpg)     
+    If you need a new PTFE bowden tube, I'd recommend to get the 4mm "Capricorn XS" tube for 1.75mm filament at the length of 1m. Then just cut the belonging length and replace the old bowden tube. You can also get it in a set with a cutter.  
+    However, make sure you make a clean and perpendicular cut at a 90° angle to avoid any small gaps between the nozzle and the end of the tube! I personally like to just cut along the end of the heatbreak, using it as a guide for the knife. <br> ![Capricorn XS](../assets/images/head_capricornXS_web.jpg)     
     
 ??? info "Spare Part Heatbreak"
 
@@ -153,8 +147,8 @@ The hotend of the **Go** is shown in the next pictures. In the second picture yo
     - For the next steps you need to be a bit quick in proceeding them, so if this is the first time you're diassembling the hotend, take a look at the sections here at the page and read them first so you'll know where the screws are located and which steps you need to take. Then proceed with the following steps.
     - So, once everything is as clean as possible, turn off the printer and loosen the grub screws inside the heater block to take out the thermistor and the cartridge heater. Give it a quick wipe with the cloth if they're covered by a lot of filament, too (but don't waste too much time here as the filament is becoming hard again now pretty quick!). 
     - Then take out the nozzle from the heater block and unscrew the heater block from the hotend. Pay attention if you can feel that the heatbreak was loose in the heater block to check if that was the reason for the filament being able to squeeze out and build up. 
-    - Dismount the fan on the right side and loosen the two hexagon socket screws which are holding the heatbreak in place. If it doesn't fall out by itself, pull it out. Make sure the little PTFE tube also comes out, take it out of the heatbreak.  
-    - If you were using a cheap nozzle and have a spare one, just throw away the old one. If it's a good or your only nozzle, try to get it back to work again (I'm sure you'll be able to do so). 
+    - Dismount the fan on the right side and loosen the two hexagon socket screws which are holding the heatbreak in place. If it doesn't fall out by itself, pull it out. When using the **Neo**, make sure the little PTFE tube also comes out, take it out of the heatbreak.  
+    - If you were using a cheap nozzle and have a spare one, just throw away the old one. If it's a good or your only nozzle, try to get it back to work again by giving it a proper cleaning and doing some cold pulls when it's installed again. 
     - Now put all the metal parts (heatbreak, heater block and probably the nozzle) in a glass with acetone. close the lid and let it sit there for about 24hrs. The acetone won't dissolve PLA filament or so automagically like it does with ABS, but it'll make it soft and easier to clean. 
     - In the meantime you can take care of the thermistor and the cartridge heater. Scratch off the hardened filament from the metal parts by using a cutter for example, but be *really* careful to not slip off and harm any wires! I personally didn't take care of the little clump at the part where ther wires are coming out of the metal part because I didn't wanted to risk harming the wires, so I just let it sit there.  
     - When you're about to clean the meatal parts which soaked in the acetone, I'd recommend wearing disposable gloves as acteone isn't really healthy for your skin. So put on those gloves and start cleaning the parts by carefully scratching off the rest of the filament. Use a cutter, a brass brush etc., but always be careful to not really harm anything. Pay special attention to all the threads and the holes of the heater block where the thermistor and the cartridge heater will take place. If you don't get everything cleaned up at the first time, just put it back in the acetone, wait again and then repeat the cleaning steps. 
@@ -164,7 +158,15 @@ The hotend of the **Go** is shown in the next pictures. In the second picture yo
     - If so (I hope it will be!), don't start printing right away - execute a PID tuning for the hotend first.  
     - Also check if you need to re-level the ABL sensor in relation to the nozzle due to a probably different position of the hotend now.  
     - Execute an ABL and take care of your Z-offset, most likely the position of your nozzle will be different due to a different position of the whole hotend.  
-      
+        
+  
+### Go
+  
+The hotend of the **Go** is shown in the next pictures. In the second picture you can see the heatbreak screwed into the block but dismounted from the aluminum cooling element.  
+
+![Hotend](../assets/images/head_go_hotend_web.jpg)  
+  
+![Hotend disassembled](../assets/images/head_go_hotend-dis_web.jpg)
   
 ---  
   
@@ -178,16 +180,6 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
   
 ![Hotend mounted with block and tube](../assets/images/head_neo_block-hotend-tube-used_web.jpg)    
   
-!!! warning
-
-    - Too high temperatures may harm the PTFE tube - it may become deformed!   
-    - If you dismounted the hotend and you put it back into the printhead, make sure you check and adjust the position of the ABL sensor in relation to the nozzle and that you check and set your new z-offset afterwards!    
-    - If you replaced your old hotend with a new one (regardless of whether you also replaced the thermistor and/or cartridge heater with a new one or keep using the existing ones), execute a PID tuning afterwards!
-  
-??? tip "Can't Load New Filament?!"
-
-    If you can't load new filament even though the nozzle itself is clean and free, it's most likely that the little PTFE tube inside of the hotend is clogged. To clean or replace it you need to disassemble the hotend from the printhead. Scroll down to the "Disassembling" section to find a little guide about how to do that.   
-  
 ??? info "Spare Part Hotend"
 
     - If you need a new hotend because your heater block or the heatbreak needs to be changed, you can get yourself the spare part hotend for the regular *Kobra*. If you look at the picture of it and compare it with the ones I've shown above, you'll notice that the shape of the heatbreak is the same. So up to me it'll fit perfectly.   
@@ -197,40 +189,7 @@ Additionally there is a little PTFE-tube inside of it, which is about 4cm long a
     - However, scroll down and check out the "Disassembling" section below to see how to dis- and reassemble it. *Maybe you don't need new parts, so try to clean up everything first and reassemble it before ordering new parts right away.*  
     
     Besides the stock hotend you can also just get or build yourself a hotend by using a V5 compatible heatbreak and heater block which fits just fine. The following picture shows a hotend I built myself from third party manufacturer parts: a regular heatbreak for V5 compatible heater blocks where the PTFE inliner moves all the way down to the nozzle (so it's *not* a full-metal heatbreak as I use to print PLA/PLA+ only right now), a V5 compatible heater block made of plated copper and a Capricorn XS PTFE tube. <br> ![3rd party hotend](../assets/images/head_3rdparty-hotend_web.jpg)  
-    
-??? info "Spare Part PTFE Tube"
-
-    If you need a new PTFE tube, I'd recommend to get the 4mm "Capricorn XS" tube for 1.75mm filament at the length of 1m. Then just cut the belonging length and replace the old PTFE tube. You can also get it in a set with a cutter. However, make sure you make a clean cut at a 90° to avoid any small gaps between the nozzle and the end of the tube! I personally use to stick the tube into the heatbreak, push it through so that the desired length sticks out and then I cut along the end of the heatbreak using it as a guide. By doing so, I get pretty perfect perpendicular cuts. <br> ![Capricorn XS](../assets/images/head_capricornXS_web.jpg)  
-  
-??? info "Spare Part Heatbreak"
-
-    If you need a new heatbreak, you should be able to use whichever V5 compatible heatbreak you'd like to use, you just have to pay attention to the dimensions. It should be about the same length as the stock one, so don't buy anything significantly shorter or longer. However, I personally would also suppose to pay attention to the a flat surface, so don't get yourself the ones with the thread on the outside.   
-    Some people 'upgraded' to an all-metal heatbreak, which one should avoid though if only printing PLA as it may cause and increase clogging problems. So up to me always go with a heatbreak that uses a PTFE inliner all the way down to the nozzle in case you're only or mostly printing PLA.   
-    The following picture shows such a heatbreak from a third party manufacturer which I use in my **Neo**. <br> ![3rd party heatbreak](../assets/images/head_3rdparty-heatbreak_web.jpg)    
-  
-??? example "Large Clump Of Melted Filament Built Up"
-
-    Sometimes it may happen that melted filament builds up on top of the heater block to a large clump. The reason for that is that the heatbreak isn't screwed into the heater block tight enough so that the melted fiolament can squeeze out. It also may be caused by bad and cheap parts where the thread isn't just as good as it should be. <br> ![Blob](../assets/images/head_blob_web.jpg) <br> So if you encouter this problem, here is what I recommend to do (based on my own experience with this dilemma).  
-    
-    - Take off the plastic cover first to get better access to the whole area.  
-    - Heat up everthing - I did this by using the preherat function for PLA at the control unit.
-    - Once the filament starts to melt and gets soft, grab a wooden stick and take away as much as possible carefully. *Don't* use a screwdriver or something like that to do so as you might harm the wires and/or cause a shortcut at e.g. the contacts of the cartridge heater. <br> *Be really careful when taking away the clumps to not harm or rip off any of the wires!* You can also use a cloth to wipe off the melted filament from the heater block and so on, just make sure you don't burn yourself!  
-    - For the next steps you need to be a bit quick in proceeding them, so if this is the first time you're diassembling the hotend, take a look at the sections here at the page and read them first so you'll know where the screws are located and which steps you need to take. Then proceed with the following steps.
-    - So, once everything is as clean as possible, turn off the printer and loosen the grub screws inside the heater block to take out the thermistor and the cartridge heater. Give it a quick wipe with the cloth if they're covered by a lot of filament, too (but don't waste too much time here as the filament is becoming hard again now pretty quick!). 
-    - Then take out the nozzle from the heater block and unscrew the heater block from the hotend. Pay attention if you can feel that the heatbreak was loose in the heater block to check if that was the reason for the filament being able to squeeze out and build up. 
-    - Dismount the fan on the right side and loosen the two hexagon socket screws which are holding the heatbreak in place. If it doesn't fall out by itself, pull it out. Make sure the little PTFE tube also comes out, take it out of the heatbreak.  
-    - If you were using a cheap nozzle and have a spare one, just throw away the old one. If it's a good or your only nozzle, try to get it back to work again (I'm sure you'll be able to do so). 
-    - Now put all the metal parts (heatbreak, heater block and probably the nozzle) in a glass with acetone. close the lid and let it sit there for about 24hrs. The acetone won't dissolve PLA filament or so automagically like it does with ABS, but it'll make it soft and easier to clean. 
-    - In the meantime you can take care of the thermistor and the cartridge heater. Scratch off the hardened filament from the metal parts by using a cutter for example, but be *really* careful to not slip off and harm any wires! I personally didn't take care of the little clump at the part where ther wires are coming out of the metal part because I didn't wanted to risk harming the wires, so I just let it sit there.  
-    - When you're about to clean the meatal parts which soaked in the acetone, I'd recommend wearing disposable gloves as acteone isn't really healthy for your skin. So put on those gloves and start cleaning the parts by carefully scratching off the rest of the filament. Use a cutter, a brass brush etc., but always be careful to not really harm anything. Pay special attention to all the threads and the holes of the heater block where the thermistor and the cartridge heater will take place. If you don't get everything cleaned up at the first time, just put it back in the acetone, wait again and then repeat the cleaning steps. 
-    - Once everything looks nice and clean, rinse off the acetone with clear water and let it dry. This is especially important for the inner side of the nozzle - you don't want to have acetone in there.  
-    - Then reassemble everything and put it back in place. Read the notes in the specific sections here about how to reassemble the specific parts and what to pay attention to.  
-    - At the end when everything is reassembled and you heated up the hotend to finally mount the nozzle and load the filament, extrude filament to see if everything is ok. 
-    - If so (I hope it will be!), don't start printing right away - execute a PID tuning for the hotend first. 
-    - Also check if you need to re-level the ABL sensor in relation to the nozzle due to a probably different position of the hotend now. 
-    - Execute an ABL and take care of your Z-offset, most likely the position of your nozzle will be different due to a different position of the whole hotend.  
-    
-  
+      
 ---  
   
 ## Heater Block
@@ -250,12 +209,8 @@ Both the thermistor and the cartidge heater have to be plugged into the specific
 ---   
   
 ## Silicone Sock
-The silicone sock that comes with the hotend insulates the heater block. Therefore it should stay in place and shouldn't come off, as it may cause the "thermal runaway" error.  
+The silicone sock that comes with the hotend insulates the heater block. Therefore it should stay in place and shouldn't come off, as it *might* cause the "thermal runaway" error.  
   
-??? info "Spare Part Silicone Sock"  
-
-    The sock which comes with the printhead isn't the best one to use (in my opinion) as it seems to come off pretty easily. There are compatible V5 silicone socks at the aftermarket which I personally use and which I can highly recommend. They have a bigger lip which slips over the heater block and covers a bigger area of the top than the one which comes with the printer. Therefore they stay in place much better when they heat up and become more flexible.  
-    
 The following pictures shows a V5 heater block compatible silicone sock from the aftermarket on the left side and the stock sock on the right side.     
   
 ![Silicone socks top view](../assets/images/silisocks_top_web.jpg)   
@@ -264,8 +219,9 @@ Additionaly, the ones from the aftermarket also cover and therefore insulate the
   
 ![Silicone socks bottom view](../assets/images/silisocks_bottom_web.jpg)  
   
-??? tip "What to Search For" 
+??? info "Spare Part Silicone Sock"  
 
+    The sock which comes with the printhead isn't the best one to use (in my opinion) as it seems to come off pretty easily. There are compatible V5 silicone socks at the aftermarket which I personally use and which I can highly recommend. They have a bigger lip which slips over the heater block and covers a bigger area of the top than the one which comes with the printer. Therefore they stay in place much better when they heat up and become more flexible.    
     If you read the above and still don't know what you should look or search for, search for "silicone sock V5" for example as these socks are for a V5 heater block. You can get them pretty much everywhere, so if you use to shop at Amazon or ebay for example, you'll find many offers which are pretty much the same at the end. <br> Just make sure that you're **not** getting the ones for a V6 or a volcano heater block! You can also diffenrentiate them by already looking at the shape: the wrong ones for the V6 are more flat on one side, the *correct ones* for the V5 are more *cubic* as you can see at the pictures above.  
   
 ---  
@@ -294,7 +250,6 @@ The following picture shows the specific plug which is necessary to fit into the
 ??? tip "General Tips" 
 
     - If you need to install a new thermistor and/or cartridge heater, you have to unstrip the wires from the cable conduit. You can just unroll the conduit, pull out the wires from the old part while tugging in the wires of the new part. Be careful to not pull too hard to not harm any thin wires which might be wrapped around the wires of the old part. <br> ![Stripping in the new wires](../assets/images/stripping_in_wires_web.jpg)    
-  
     - When installing the parts at the heater block and putting back on the plastic cap of the printhead, I personally avoided to bend the thin wires as it was done within the original installation. I just guided the wires along outside the plastic cover. By doing so, you minimize the risk of getting a shortcut due to a harmed or melted wire isolation at the part where the wires are bent and twisted originally. The following picture shows my new installed thermistor and cartridge heater with the wires running outside of the plastic cap. <br> ![Wires running outside of the plastic cap](../assets/images/head_neo_new-sen-therm_web.jpg)  
 
 ??? tip "Execute PID Tuning"      
@@ -374,10 +329,7 @@ If you need to change the nozzle, mind the warnings from above and check out the
     - If everything is fine, power up the printer and heat up the extruder again. Most nozzle manufacturers say that you should heat it up to about 250°C, but that might already harm the PTFE tube. So go with 230-240°.  
     - Then carefully tighten up the nozzle, but don't overtighten it though. However, you need to make sure that it's tight enough (about 1.5NM) and that it really touches the heatbreak! There shouldn't be any gap between the heatbreak and the nozzle inside of the heater block!  
     - Don't get irritated by the fact that there's a little gap between the head of the nozzle and the heater block oncce you installed everything correctly - that's totally fine and it's supposed to be like that as the following picture shows. <br> ![Mounted nozzle](../assets/images/head_nozzle-mounted_web.jpg)     
-    
-
-            
-         
+             
 ---  
   
 ## Disassembling The Printhead
