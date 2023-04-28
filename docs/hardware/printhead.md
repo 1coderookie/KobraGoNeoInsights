@@ -467,8 +467,8 @@ The following picture shows a sensor that should/has to be leveled (don't mind t
 - Put on the spring steel plate on the heater bed and place the printhead about the center of the bed.
 - If you're using the height gauge, put it under the printhead and lower the head by turning the z axis rod manually. The nozzle should then touch the lower part of the gauge while the proximity sensor should touch the higher part of it. 
 - If you don't have/use the height gauge, place a sheet of paper under the printhead now. Then lower the head to make the nozzle touch the sheet of paper. You should still be able to move the paper but you should feel a minimum amount of resistance as a sign that the nozzle is touching it. <br> Now place the wrench under the ABL sensor. The sensor should touch the wrench.  
-- If the sensor is too high or too low, adjust the height by turning the little M2 hexagon socket screw at the top of the bracket that holds the sensor. You're only able to move it a few milimeters by doing so though! <br> ![Screw at the top to move the sledge](../assets/images/head_ABL-sensor_top_closeup_web.jpg)  
--  If you need to adjust a bigger height, you'd need to disassemble the sensor from the bracket itself first to already change it's position in the bracket.  
+- If the sensor is too high or too low, adjust the height by turning the little M2 hexagon socket screw at the top of the bracket that holds the sensor.  <br> ![Screw at the top to move the sledge](../assets/images/head_ABL-sensor_top_closeup_web.jpg) <br> You're only able to move it a few milimeters by doing so though!   
+-  If you need to adjust a bigger height, you'd need to disassemble the sensor from the bracket itself first to already change it's position in the bracket (see the pictures of it in the "dismounting" section above.  
 - After completing the beforementioned steps, take the parts away from the bed, set your Z offset to zero (0) if you didn't do it yet and home all axes. Then execute the ABL process and dial in your z-offset.
   
 ---
