@@ -80,10 +80,11 @@ Most of the time there is a little gap where the filament gets collected, like b
 The solution here would be to do some cold pulls first to get as much filament out as possible, then disassemble the hotend and inspect it. Pay attention to the PTFE tube as well. When reassembling, make sure everything sits in place as it should and the tube is long enough to hit the nozzle (and at the Neo it also has to go up to the extruder gear as well). The tube needs to be cut perpendicular as well.  
 *If any gap occurs, the melted filament will stick there again and get burned and the problem will occur again.*    
 
-## Layer Shifts And/Or Pushed Off Prints
-If you're experiencing layer shifts at either the x- or y-axis, control the position of the wheels and the belt tension.  
-If you're experiencing problems in the height or if your prints get pushed off the bed because the nozzle hit them at a certain height, check the wheels of the x-axis gantry as well as the whole z-axis.  
-See the chapter ["Axes"](hardware/axes.md) for more informations.  
+## Layer Shifts / Pushed Off Prints / Stuck Axes
+- If you're experiencing layer shifts or stuck movements at either the x- or y-axis, check the position of the wheels and the belt tension.  
+- If you're experiencing problems in the height or if your prints get pushed off the bed because the nozzle hit them at a certain height, check the wheels of the x-axis gantry as well as the whole z-axis.  
+
+Generally speking, everything should run smooth when you move it manually by hand. If you feel some kind of resistance or a jam at certain spots, check the belonging axis and the involved parts. Deformed and/or too tight wheels can cause 'similar' problems like a misaligned z-axis for example. See the chapter ["Axes"](hardware/axes.md) for more informations.  
 
 ## Error Messages
 ..
