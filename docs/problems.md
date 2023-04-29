@@ -85,5 +85,9 @@ The solution here would be to do some cold pulls first to get as much filament o
 
 Generally speaking, everything should run smooth when you move it manually by hand. If you feel some kind of resistance or a jam at certain spots, check the belonging axis and the involved parts. Deformed and/or too tight wheels can cause 'similar' problems like a misaligned z-axis for example. See the chapter ["Axes"](hardware/axes.md) for more informations.  
 
+## Can't Load New Filament
+If you can't load new filament, first of all check if you pulled the lever on the feeder gear.  
+If you did so and were able to insert the filament but it seems that it's getting stuck lower down in the hotend, then it's most likely that the PTFE tube inside of the hotend is clogged or that you have a clog in or above the nozzle somewhere. To clean, inspect and maintain it, you need to disassemble the hotend. Check the section ["Disassembling The Hotend"](hardware/printhead.md#disassembling-the-hotend) for more informations.  
+
 ## Error Messages
 ..
