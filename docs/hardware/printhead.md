@@ -178,7 +178,8 @@ In the following, the specific hotends will be shown. Before jumping to the spec
   
 ??? tip "Can't Load New Filament?!"
 
-    If you can't load new filament even though the nozzle itself is clean and free, it's most likely that the PTFE tube inside of the hotend is clogged. To clean or replace it you need to disassemble the hotend from the printhead. Scroll down to the "Disassembling" section to find a little guide about how to do that.     
+    If you can't load new filament, first of all check if you pulled the lever on the feeder gear.
+    If you did so and were able to insert the filament but it seems that it's getting stuck lower down in the hotend, then it's most likely that the PTFE tube inside of the hotend is clogged or that you have a clog in or above the nozzle somewhere. To clean, inspect and maintain it, you need to disassemble the hotend. Check the section ["Disassembling The Hotend"](#disassembling-the-hotend) further down below for more informations.     
     
 ??? info "Spare Part PTFE Bowden Tube"
 
