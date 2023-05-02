@@ -90,7 +90,7 @@ If you can't load new filament, first of all check if you pulled the lever on th
 If you did so and were able to insert the filament but it seems that it's getting stuck lower down in the hotend, then it's most likely that the PTFE tube inside of the hotend is clogged or deformed or that you have a clog in or above the nozzle somewhere. To clean, inspect and maintain it, you need to disassemble the hotend. Check the section ["Disassembling The Hotend"](hardware/printhead.md#disassembling-the-hotend) for more informations.  
 
 ## Error Messages
-It might happen that the whole display turns red and an error message "Err: MINTEMP/MAXTMEP - PRINTER HALTED - Please reset" will be shown (see the following sections for the specific messsage), blocking any further usage. You won't be able to use the printer anymore unless the problem that causes this error will be solved (at least it was the case when I faced this kind of error message).  
+It might happen that the whole display turns red and an error message "Err: MINTEMP/MAXTMEP - PRINTER HALTED - Please reset" will be shown (see the following sections for the specific message), blocking any further usage. You won't be able to use the printer anymore unless the problem that causes this error will be solved (at least it was the case when I faced this kind of error message).  
   
 Before going into details here, I have to mention that I personally only came across the warnings "Err: MAXTEMP: E1" and "Err: MINTEMP: Bed". I might be wrong of course, but looking at the underlying reasons for these kind of errors, I *assume* that it's also possible to get the warnings "Err: MINTEMP: E1" and "Err: MAXTEMP: Bed". So please keep that in mind when reading further..   
   
