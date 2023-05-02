@@ -99,8 +99,11 @@ However, there is a way you can change the default setting of the maximum retrac
   
 ## Layer Height
 When deciding for a layer height, you probably think "well, I can just choose whatever I want" - and yes, of course you can do so. But there's a "magic number" you should actually take into account when making your decision: 0.04mm.  
+
 Let me explain it a bit: when moving along the z-axis which is done by the lead screw, it's smart to choose your layer heights in a way that for each layer full motor steps are taken. *One* step is 0.04mm, so it's better to set e.g. 0.2mm layer height (which is 5 full steps) instead of e.g. 0.18mm.  
+
 Here's the 'math' behind it:  
+
 - The lead screw is 8mm in diameter.  
 - There are 4 starts (= thread paths) at the lead screw.  
 - The lead screw has 2mm pitch.  
@@ -108,7 +111,9 @@ Here's the 'math' behind it:
 - The stepper motor of the z-axis does 200 steps per revolution.  
 - Means: 8mm lead divided by 200 steps per revolution is *0.04mm movement per step*.  
 
-Doing the math, you'll realize that e.g. 0.2mm l.h. = 5 steps, 0.24mm l.h. = 6 steps, 0.28mm l.h. = 7 steps and so on. So when choosing a l.h. like e.g. 0.15mm or 0.3mm, the motor has to do 3.75 or 7.5 steps which isn't smart and won't be as accurate and reliable as doing full steps. So: always choose layer heights which can be 'fully' divided by 0.04mm.
+Doing the math, you'll realize that e.g. 0.2mm l.h. = 5 steps, 0.24mm l.h. = 6 steps, 0.28mm l.h. = 7 steps and so on.  
+So when choosing a l.h. like e.g. 0.15mm or 0.3mm, the motor has to do 3.75 or 7.5 steps which isn't smart and won't be as accurate and reliable as doing full steps.  
+So: always choose layer heights which can be 'fully' divided by 0.04mm.
 
   
 ## PID Tuning
