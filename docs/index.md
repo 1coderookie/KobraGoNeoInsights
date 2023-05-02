@@ -52,9 +52,9 @@ If you want to **contribute** an e.g. modification (aka "mod") you did or an imp
 
 !!! warning "Disclaimer"
 
-    - I'm not responsible in any way if any damage occurs! 
-    - Please be aware of the fact that you use and/or transpose everything at your own risk! 
-    - It can't be guaranteed that everything is correct and that it wouldn't harm your printer or even yourself - keep in mind that I'm NO expert by all means! I'm a newbie and might be wrong! 
-    - All informations, tips, instructions, suggestions, mods and so on which could be found here should be considered as a base for your own further research! 
+    - I'm not responsible in any way if *any* damage or harm occurs! 
+    - Please be aware of the fact that you use and/or transpose everything *at your own risk*! 
+    - It can't be guaranteed that everything is correct and that it wouldn't harm your printer or even yourself - keep in mind that I'm NO expert by all means!  
+    - All information, tips, instructions, suggestions, mods and so on which could be found here should be considered as a base for your own further research! 
     - Neither am I resposible for any content that I've linked to, it's just meant to be a further source of information to make the start of your own research a bit easier! 
 
