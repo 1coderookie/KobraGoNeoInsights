@@ -112,7 +112,10 @@ If the blue elastic piece which covers the heater block of the hotend came off, 
 
 ---
 
-## Error Messages / Faulty Temperature Readings
+## Error Messages 
+In the following I'll list some of the error messages that might appear on the screen of the control unit.  
+
+### Err: MINTEMP/MAXTEMP: E1/Bed
 It might happen that either a wrong temperature will be read or that the whole display turns red and an error message "Err: MINTEMP/MAXTMEP - PRINTER HALTED - Please reset" will be shown (see the following sections for the specific message), blocking any further usage. In this case (red screen) you won't be able to use the printer anymore unless the problem that causes this error will be solved (at least it was the case when I faced this kind of error message).  
   
 Before going into details here, I have to mention that I personally only came across the warnings "Err: MAXTEMP: E1" and "Err: MINTEMP: Bed". I might be wrong of course, but looking at the underlying reasons for these kind of errors, I *assume* that it's also possible to get the warnings "Err: MINTEMP: E1" and "Err: MAXTEMP: Bed". Therefore I'll write the next sections assuming and regarding that both type of messages may occur for either the extruder or the bed. So please keep that in mind when reading further..   
@@ -148,7 +151,7 @@ In the following sections I'll go over these messages for noth the extruder and 
 
 ---
 
-### Err: MINTEMP/MAXTEMP: E1
+#### Err: MINTEMP/MAXTEMP: E1
 ![Err: MAXTEMP: E1](assets/images/controlunit_err_e1-max-temp_web.jpg)  
   
 These messages will be triggered either if the temperature of the extruder (= E1) drops more than 10°C within a timeframe of 35seconds (= MINTEMP error) or if it reaches above the limit of 275°C (or if you have a certain hardware issue which causes a certain resistance value) (= MAXTEMP error) as you can see in the belonging code sections of the firmware settings:  
@@ -187,7 +190,7 @@ Good luck!
 
 ---
 
-### Err: MINTEMP/MAXTEMP: Bed
+#### Err: MINTEMP/MAXTEMP: Bed
 ![Err: MINTEMP: Bed](assets/images/controlunit_err_bed-min-temp_web.jpg)  
 
 These messages will be triggered either if the temperature of the bed drops more than 2°C within a timeframe of 20seconds (= MINTEMP error) or if it reaches above the limit of 120°C (or if you have a certain hardware issue which causes a certain resistance value) (= MAXTEMP error) as you can see in the belonging code sections of the firmware settings:  
@@ -223,3 +226,27 @@ If that doesn't solve the issue, I'd suppose to take a magnifying glass and insp
 
 Once you solved the problem and turn the printer back on, the error message shouldn't appear anymore and you should be able to print again.  
 Good luck!
+
+---
+
+### Homing Failed: X/Y
+When trying to home the x- and/or y-axis, the error message "Homing Failed: X/Y - PRINTER HALTED - Please Reset" might occur.  
+  
+This occurs when either  
+
+- the belonging switch isn't installed correctly and therefore can't be properly triggered by the belonging part of the head or the bed, 
+- the wiring is faulty (e.g. a loose connector either at the belonging switch or at the mainboard, a broken cable),
+- the limit switch itself is faulty, 
+- the mainboard is damaged (which ususally is pretty unlikely if you didn't somehow create a shortcut or so).  
+
+To determine whether it's the position, the wiring or the switch (as these are the most likely reasons), check the position of the switch first. Make sure it's properly installed and the belonging part of either the head of the bed touches the metal lever of the switch properly, so that the switch itself really will be triggered. You can do so by manually moving the head or bed towards the switch while observing it.  
+If everything seems to be ok here, check if the connections of the wirings are established and the connectors sit tight (at the side of the switch as well as at the mainboard).  
+If everything looks ok here as well, then I'd suppose to continue with triggering the belonging limit switch of either the x- or y-axis (whichever is reported in the error message) while the printer is homing that axis: 
+
+- If the **x-axis** is reported, move the printhead completely to the right side and then initiate the homing sequence using the control unit. 
+- If the **y-axis** is reported, move the bed completely to the front and then initiate the homing sequence using the control unit.  
+
+When the homing movement occurs and the head/bed made it about half the way towards the home position, trigger the belonging limit switch manually by pressing the metal lever. If the movement doesn't stop, trigger the switch more than once, just to make sure that you got it right.  
+If the movement stops, then the switch is working fine and the wiring is good as well. In this case it must be an incorrect installation of the switch in terms of it's position. So check that again and adjust the position.   
+If the movement still doesn't stop, *turn off the printer immediately to avoid that the part will crash into the end of that axis*. Then measure the switch itself as well as the wiring using a multimeter. If it turns out that either part is defective, replace the belonging part.  
+
