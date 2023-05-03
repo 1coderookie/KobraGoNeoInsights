@@ -112,11 +112,53 @@ If the blue elastic piece which covers the heater block of the hotend came off, 
 
 ---
 
+## Wrong Temperature Is Read
+
+---
+
+## Homing/Movement Problems
+
+If you face **homing problems** of  
+
+- the **x- or y-axis**, like the printhead crashes into the limit switch and doesn't seem to stop trying to move (which most likely makes an awful sound as well), please see the section ["Homing Failed: X/Y](#homing-failed-xy).
+- the **z-axis**, then it's most likely either a wiring problem (like a broken cable or a loose or unplugged connector) or a faulty switch. Of course the mainboard might be defective as well, but this is more unlikely (imho) if you didn't create a shortcut or so.  
+  So first of all check if the little metal piece at the x-axis gantry which triggers the switch really is in the correct position to trigger the switch.  
+  Check if the wiring of the switch is correct and if the connectors are plugged in at both the limit switch as well as at the mainboard.  
+  You can also measure the cable with a multimeter to see if you face a broken cable.  
+  If you know how to use a multimeter correctly, you can also measure the voltage coming from the mainboard to the switch itself, it should be around 3.3V DC. If that's the case, then it's most likely that the limit switch itself is faulty.
+  
+If you face **movement problems** of    
+
+- the **x- or y-axis**, check the belonging wheels and belts.  
+  Are the wheels in the perfect position, can they turn how they're supposed to?  
+  Is the belt neither too sloppy nor too tight?  
+  Can you move the belonging part (printhead/bed) manually without feeling any kind of unusual resistance or jam while moving it along the axis?  
+  Everything should move smooth. Check out the chapter ["Axes"](hardware/axes.md) for further informations.  
+  *If no movement occurs at all*, check if the belonging motor is working.  
+  Check if the wiring is correct and if the connectors are plugged in at the motor and the mainboard correctly.  
+  If that's the case, you could measure the cables using a multimeter to check if there's a broken cable maybe.  
+- the **z-axis**, check the belonging wheels of the x-axis gantry which run along the z-axis aluminum frame.  
+  Are the wheels in the perfect position, can they turn how they're supposed to?  
+  Is the lead screw system assembled correctly?  
+  Can you move the axis by turning the lead screw manually without feeling any kind of unusual resistance or jam?  
+  Everything should move smooth. Check out the chapter ["Axes"](hardware/axes.md) for further informations.  
+  If no movement occurs at all, check if the coupler between the motor and the lead screw is tight and mounted correctly.  
+  Check if the belonging motor is working.  
+  Check if the wiring is correct and if the connectors are plugged in at the motor and the mainboard correctly.  
+  If that's the case, you could measure the cables using a multimeter to check if there's a broken cable maybe.  
+  *Another problem might be the z-axis limit switch.* This is an optical type of switch. So if the z-axis only move a tiny bit upwards or if it doesn't move downwards while homing, then it might be that the problem is caused by the limit switch system here.  
+  So first of all check if the little metal piece at the x-axis gantry which triggers the switch really is in the correct position to trigger the switch.  
+  Check if the wiring of the switch is correct and if the connectors are plugged in at both the limit switch as well as at the mainboard.  
+  You can also measure the cable with a multimeter to see if you face a broken cable.  
+  If you know how to use a multimeter correctly, you can also measure the voltage coming from the mainboard to the switch itself, it should be around 3.3V DC. If that's the case, then it's most likely that the limit switch itself is faulty.    
+
+---
+
 ## Error Messages 
 In the following I'll list some of the error messages that might appear on the screen of the control unit.  
 
-### Err: MINTEMP/MAXTEMP: E1/Bed
-It might happen that either a wrong temperature will be read or that the whole display turns red and an error message "Err: MINTEMP/MAXTMEP - PRINTER HALTED - Please reset" will be shown (see the following sections for the specific message), blocking any further usage. In this case (red screen) you won't be able to use the printer anymore unless the problem that causes this error will be solved (at least it was the case when I faced this kind of error message).  
+### Err: MINTEMP/MAXTEMP
+It might happen that either a **wrong temperature will be read** or that the **whole display turns red** and an error message "Err: MINTEMP/MAXTMEP - PRINTER HALTED - Please reset" will be shown (see the following sections for the specific message), blocking any further usage. In this case (red screen) you won't be able to use the printer anymore unless the problem that causes this error will be solved (at least it was the case when I faced this kind of error message).  
   
 Before going into details here, I have to mention that I personally only came across the warnings "Err: MAXTEMP: E1" and "Err: MINTEMP: Bed". I might be wrong of course, but looking at the underlying reasons for these kind of errors, I *assume* that it's also possible to get the warnings "Err: MINTEMP: E1" and "Err: MAXTEMP: Bed". Therefore I'll write the next sections assuming and regarding that both type of messages may occur for either the extruder or the bed. So please keep that in mind when reading further..   
   
@@ -144,7 +186,7 @@ Before going into details here, I have to mention that I personally only came ac
   #define BED_MAXTEMP      120  // max target temp-10=110
   ``` 
   
-- It also might happen that a **negative temperature** will be reported. This is most likely the case when a lot of the thin wires of the cable inside of the insulation broke and lost contact and only a few wires are still ok. In that case the resistance raises which leads to a faulty temperature reading.  
+- It also might happen that just an **obviously wrong temperature** or even a **negative temperature** will be reported. This is most likely the case when a lot of the thin wires of the cable inside of the insulation broke and lost contact and only a few wires are still ok. In that case the resistance raises which leads to a faulty temperature reading.  
   This is also one of the most common reasons which cause the MINTEMP error due to a fluctuating resistance and temperature reading while the e.g. bed and therefore the cable moves (which then causes lost contacts of the broken wires in certain positions), but it'll be mentioned as one of the possible reasons further down below as well. There were just some users who reported a negative temperature reading of the actual bed temperature but they didn't had the red 'locked' screen, so I wanted to mention this scenario already here as well.    
 
 In the following sections I'll go over these messages for noth the extruder and the bed and what the reasons and possible solutions might be.  
