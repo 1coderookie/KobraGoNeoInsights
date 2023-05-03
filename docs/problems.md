@@ -97,7 +97,7 @@ It might happen that either a wrong temperature will be read or that the whole d
   
 Before going into details here, I have to mention that I personally only came across the warnings "Err: MAXTEMP: E1" and "Err: MINTEMP: Bed". I might be wrong of course, but looking at the underlying reasons for these kind of errors, I *assume* that it's also possible to get the warnings "Err: MINTEMP: E1" and "Err: MAXTEMP: Bed". Therefore I'll write the next sections assuming and regarding that both type of messages may occur for either the extruder or the bed. So please keep that in mind when reading further..   
   
-- **MINTEMP** erros:  
+- **MINTEMP** errors:  
   These kind of errors are called "thermal runaway errors" and they are triggered by a function called "thermal runaway protection".  
   Basically it's a good thing that these appear (even though the underlying problem isn't 'good' most of the time), as that shows you that this protective function is working. The function observes the development of the heat in a given time and triggers the messages when the expexted temperature of either the bed or the hotend drops about a certain amount of degrees within a certain amount of time and then it triggers the "MINTEMP" error.   
   These are the sections in the files `Configuration_adv.h` of the belonging [stock firmware](firmware/fw_marlin.md#default-settings):   
@@ -119,7 +119,8 @@ Before going into details here, I have to mention that I personally only came ac
   // Above this temperature the heater will be switched off. This can protect components from overheating, but NOT from shorts and failures.
   #define HEATER_0_MAXTEMP 275  
   #define BED_MAXTEMP      120  // max target temp-10=110
-  ```
+  ``` 
+  
 - It also might happen that a **negative temperature** will be reported. This is most likely the case when a lot of the thin wires of the cable inside of the insulation broke and lost contact and only a few wires are still ok. In that case the resistance raises which leads to a faulty temperature reading.  
   This is also one of the most common reasons which cause the MINTEMP error due to a fluctuating resistance and temperature reading while the e.g. bed and therefore the cable moves (which then causes lost contacts of the broken wires in certain positions), but it'll be mentioned as one of the possible reasons further down below as well. There were just some users who reported a negative temperature reading of the actual bed temperature but they didn't had the red 'locked' screen, so I wanted to mention this scenario already here as well.    
 
