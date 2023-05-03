@@ -5,6 +5,8 @@ In this chapter I'll list some of the most common problems people seem to have a
 
 (Note: WIP, so maybe come back another time as well ;) )   
 
+---
+
 ## First Layer Problems / Print Comes Off
 If you're having the problem that your first layer isn't consistent across the plate and/or the print doesn't stick on the plate (even though you really cleaned the PEI plate), then it's most likely that your [z-offset](calibration.md#z-offset) isn't right and/or you're dealing with a warped or tilted [bed](hardware/bed.md) and therefore experience certain areas where the distance between the nozzle and the plate will vary too much.   
   
@@ -25,7 +27,8 @@ If you're having the problem that your first layer isn't consistent across the p
 - Also make sure that you chose the correct temperature of the bed for the filament you're using. For PLA for example it should be around 55°-60°C. If the bed is too hot, then the print won't reliably stick to it either.   
 - Once the plate is clean, the z-offset is dialed in and the bedtemp is correct for the type of filament, the PEI plate really works great. There's *no need* to mess around with some sort of gluestick, tape, hairspray or whatsoever.  
 - I'd also suppose to add a brim to your model (you need to do it in the slicer), which helps keeping the print staying on the plate a lot. This is especially useful for objects with a small base. You can configure the width of the brim in your slicer. After finishing the print, you just wait until the object is cooled down and then you can break/tear the brim off the object. If tiny amounts of the brim stay at the model, just use a sharp cutter.   
- 
+
+---
 
 ## Stringing
 Stringing can be caused and affected by different factors and therefore can't always be avoided by adjusting retraction settings only. You can find countless articles about it, so maybe do a little research on it.  
@@ -45,7 +48,8 @@ Based on my own experiences, the following variables besides the retraction sett
   This seems to be affected not only by the *type* of filament (flexible filament like TPU needs completely different settings than pretty hard filament like PLA for example), but also by the *quality* of filament. Often cheap filament is lighter and more flexible than high quality filament and therefore it needs lower retraction settings overall to achieve good results.   
 - The object one wants to print: certain objects just caused stringing, even tho I usually printed without any stringing. I'd recommend to print retraction towers with two cone-shaped towers as well, to get the different diameter into account as well.  
 - The settings of the slicer, like wiping, z-hop, outer- vs. inner perimeter and so on. There are many articles and videos about this topic, so I'd recommend to do some research on it for your specific slicer.  
-    
+
+---
 
 ## Holes And/Or Bulges In Layers 
 These are mostly signs of under- / overextrusion and/or a clogged nozzle.  
@@ -55,10 +59,14 @@ These are mostly signs of under- / overextrusion and/or a clogged nozzle.
 - If you observe **holes in layers**, or even longer **lines in layers where filament is missing**, then it's most likely too much retraction distance and/or a (partial) clog you're dealing with (which also gets provoked by too much retraction distance btw).  
   So I'd recommend to check the [retraction settings](calibration.md#retraction-settings) and [clean the nozzle](hardware/printhead.md#cleaning-the-nozzle) by e.g. doing some cold pulls. If the problem gets a bit better but persists, I'd recommend to disassemble the hotend, clean everything, inspect and maintain it and reassemble it again. Also pay attention to the PTFE tube and make sure you reassembled the hotend correctly. Check out the chapter ["Printhead"](hardware/printhead.md) for more informations.   
 
+---
+
 ## Zits And Blobs
 If you're printing from an SD card and you notice zits and blobs all over the print in a regular pattern, then turn off the resume function. It makes the printer stop regularly for a tiny moment when saving to the card which results in those artefacts due to the leaking filament.  
 Best would be to not print from the SD card and use an [extra host](printserver.md) running e.g. OctoPrint on.  
-  
+
+---
+
 ## 'Rough' Look, Uneven And 'Bubbly' Surface
 This is mostly caused by moist filament. When the filament gets heated up in the hotend and gets extruded, the water 'boils' up and the damp releases which results in a pretty 'rough' look. Even tho PLA isn't *that* sensitive to moisture like e.g. Nylon, it still may be moist - even a fresh and sealed spool can be moist (due to the production procedure).  
 
@@ -69,8 +77,12 @@ The solution for this would be to dry your filament. You can either get yourself
 
 When storing your filament, use e.g. some vaccum sealed bags and add dessicant.  
 
+---
+
 ## The Pattern Of The Infill 'Shines' Through
 If you experience a regular pattern on the outside of the printed model, it might be caused by the infill. If you print the infill first and then print the outer perimeters, then the infill will 'shine' through so to say. So try to change the belonging setting in your slicer and print the outer perimeters/walls first.  
+
+---
 
 ## Dark Pieces Of Melted Filament
 If you see dark (like honey or even brown or black) pieces of melted filament somewhere on your print, then this is a sign of a clogged or (most likely) even wrong assembled hotend. It's caused by filament which stays in the hotend somewhere, gets burned and when it comes out it's dark.  
@@ -79,18 +91,26 @@ Most of the time there is a little gap where the filament gets collected, like b
 The solution here would be to do some cold pulls first to get as much filament out as possible, then disassemble the hotend and inspect it. Pay attention to the PTFE tube as well. When reassembling, make sure everything sits in place as it should and the tube is long enough to hit the nozzle (and at the Neo it also has to go up to the extruder gear as well). The tube needs to be cut perpendicular as well.  
 *If any gap occurs, the melted filament will stick there again and get burned and the problem will occur again.*    
 
+---
+
 ## Layer Shifts / Pushed Off Prints / Stuck Axes
 - If you're experiencing layer shifts or stuck movements at either the x- or y-axis, check the position of the wheels and the belt tension.  
 - If you're experiencing problems in the height or if your prints get pushed off the bed because the nozzle hit them at a certain height, check the wheels of the x-axis gantry which run along the aluminum frame of the z-axis as well as the lead screw, the anti-backlash nut, the alignment and the complete assembly of the whole z-axis.  
 
 Generally speaking, everything should run smooth when you move it manually by hand. If you feel some kind of resistance or a jam at certain spots, check the belonging axis and the involved parts. Deformed and/or too tight wheels can cause 'similar' problems like a misaligned z-axis for example. See the chapter ["Axes"](hardware/axes.md) for more informations.  
 
+---
+
 ## Can't Load New Filament
 If you can't load new filament, first of all check if you pulled the lever on the feeder gear.  
 If you did so and were able to insert the filament but it seems that it's getting stuck lower down in the hotend, then it's most likely that the PTFE tube inside of the hotend is clogged or deformed or that you have a clog in or above the nozzle somewhere. To clean, inspect and maintain it, you need to disassemble the hotend. Check the section ["Disassembling The Hotend"](hardware/printhead.md#disassembling-the-hotend) for more informations.  
 
+---
+
 ## Blue Silicone Sock Comes Off
 If the blue elastic piece which covers the heater block of the hotend came off, try to put it back on. This one is called ["silicone sock"](hardware/printhead.md#silicone-sock). It kinda insulates the heater block and should be used. If it doesn't stay on, just get yourself some new ones. I'd suppose to get yourself the ones which are slightliy shaped different and have bigger lips, they wrap around the heater block much better and therefore stay in place better. Read the section ["Silicone Sock"](hardware/printhead.md#silicone-sock) for further informations and to see both types for comparison.  
+
+---
 
 ## Error Messages / Faulty Temperature Readings
 It might happen that either a wrong temperature will be read or that the whole display turns red and an error message "Err: MINTEMP/MAXTMEP - PRINTER HALTED - Please reset" will be shown (see the following sections for the specific message), blocking any further usage. In this case (red screen) you won't be able to use the printer anymore unless the problem that causes this error will be solved (at least it was the case when I faced this kind of error message).  
@@ -125,6 +145,8 @@ Before going into details here, I have to mention that I personally only came ac
   This is also one of the most common reasons which cause the MINTEMP error due to a fluctuating resistance and temperature reading while the e.g. bed and therefore the cable moves (which then causes lost contacts of the broken wires in certain positions), but it'll be mentioned as one of the possible reasons further down below as well. There were just some users who reported a negative temperature reading of the actual bed temperature but they didn't had the red 'locked' screen, so I wanted to mention this scenario already here as well.    
 
 In the following sections I'll go over these messages for noth the extruder and the bed and what the reasons and possible solutions might be.  
+
+---
 
 ### Err: MINTEMP/MAXTEMP: E1
 ![Err: MAXTEMP: E1](assets/images/controlunit_err_e1-max-temp_web.jpg)  
@@ -162,6 +184,8 @@ If that doesn't solve the issue, I'd suppose to take a magnifying glass and insp
 
 Once you solved the problem and turn the printer back on, the error message shouldn't appear anymore and you should be able to print again.  
 Good luck!
+
+---
 
 ### Err: MINTEMP/MAXTEMP: Bed
 ![Err: MINTEMP: Bed](assets/images/controlunit_err_bed-min-temp_web.jpg)  
