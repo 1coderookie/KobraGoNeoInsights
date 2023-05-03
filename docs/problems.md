@@ -89,10 +89,13 @@ Generally speaking, everything should run smooth when you move it manually by ha
 If you can't load new filament, first of all check if you pulled the lever on the feeder gear.  
 If you did so and were able to insert the filament but it seems that it's getting stuck lower down in the hotend, then it's most likely that the PTFE tube inside of the hotend is clogged or deformed or that you have a clog in or above the nozzle somewhere. To clean, inspect and maintain it, you need to disassemble the hotend. Check the section ["Disassembling The Hotend"](hardware/printhead.md#disassembling-the-hotend) for more informations.  
 
-## Error Messages
-It might happen that the whole display turns red and an error message "Err: MINTEMP/MAXTMEP - PRINTER HALTED - Please reset" will be shown (see the following sections for the specific message), blocking any further usage. You won't be able to use the printer anymore unless the problem that causes this error will be solved (at least it was the case when I faced this kind of error message).  
+## Blue Silicone Sock Comes Off
+If the blue elastic piece which covers the heater block of the hotend came off, try to put it back on. This one is called ["silicone sock"](hardware/printhead.md#silicone-sock). It kinda insulates the heater block and should be used. If it doesn't stay on, just get yourself some new ones. I'd suppose to get yourself the ones which are slightliy shaped different and have bigger lips, they wrap around the heater block much better and therefore stay in place better. Read the section ["Silicone Sock"](hardware/printhead.md#silicone-sock) for further informations and to see both types for comparison.  
+
+## Error Messages / Faulty Temperature Readings
+It might happen that either a wrong temperature will be read or that the whole display turns red and an error message "Err: MINTEMP/MAXTMEP - PRINTER HALTED - Please reset" will be shown (see the following sections for the specific message), blocking any further usage. In this case (red screen) you won't be able to use the printer anymore unless the problem that causes this error will be solved (at least it was the case when I faced this kind of error message).  
   
-Before going into details here, I have to mention that I personally only came across the warnings "Err: MAXTEMP: E1" and "Err: MINTEMP: Bed". I might be wrong of course, but looking at the underlying reasons for these kind of errors, I *assume* that it's also possible to get the warnings "Err: MINTEMP: E1" and "Err: MAXTEMP: Bed". So please keep that in mind when reading further..   
+Before going into details here, I have to mention that I personally only came across the warnings "Err: MAXTEMP: E1" and "Err: MINTEMP: Bed". I might be wrong of course, but looking at the underlying reasons for these kind of errors, I *assume* that it's also possible to get the warnings "Err: MINTEMP: E1" and "Err: MAXTEMP: Bed". Therefore I'll write the next sections assuming and regarding that both type of messages may occur for either the extruder or the bed. So please keep that in mind when reading further..   
   
 - **MINTEMP** erros:  
   These kind of errors are called "thermal runaway errors" and they are triggered by a function called "thermal runaway protection".  
@@ -125,7 +128,7 @@ In the following sections I'll go over these messages for noth the extruder and 
 ### Err: MINTEMP/MAXTEMP: E1
 ![Err: MAXTEMP: E1](assets/images/controlunit_err_e1-max-temp_web.jpg)  
   
-This message will be triggered either if the temperature of the extruder (= E1) drops more than 10°C within a timeframe of 35seconds (= MINTEMP error) or if it reaches above the limit of 275°C (or if you have a certain hardware issue which causes a certain resistance value) (= MAXTEMP error) as you can see in the belonging code sections of the firmware settings:  
+These messages will be triggered either if the temperature of the extruder (= E1) drops more than 10°C within a timeframe of 35seconds (= MINTEMP error) or if it reaches above the limit of 275°C (or if you have a certain hardware issue which causes a certain resistance value) (= MAXTEMP error) as you can see in the belonging code sections of the firmware settings:  
 ```
 Thermal Protection / Thermal Runaway -> Hotend:
 #define THERMAL_PROTECTION_PERIOD 35         // Seconds
@@ -162,7 +165,7 @@ Good luck!
 ### Err: MINTEMP/MAXTEMP: Bed
 ![Err: MINTEMP: Bed](assets/images/controlunit_err_bed-min-temp_web.jpg)  
 
-This message will be triggered either if the temperature of the bed drops more than 2°C within a timeframe of 20seconds (= MINTEMP error) or if it reaches above the limit of 120°C (or if you have a certain hardware issue which causes a certain resistance value) (= MAXTEMP error) as you can see in the belonging code sections of the firmware settings:  
+These messages will be triggered either if the temperature of the bed drops more than 2°C within a timeframe of 20seconds (= MINTEMP error) or if it reaches above the limit of 120°C (or if you have a certain hardware issue which causes a certain resistance value) (= MAXTEMP error) as you can see in the belonging code sections of the firmware settings:  
 ```
 Thermal Protection / Thermal Runaway -> Bed:
 #define THERMAL_PROTECTION_BED_PERIOD        20 // Seconds
@@ -185,12 +188,11 @@ Reasons that can cause this might vary from being easy to fix to a real hardware
 - An electronic component of the mainboard is broken (e.g. due to a shortcut).   
 
 If the error pops up while the printer is moving or printing, then it's most likely one of the first two things I mentioned above.    
-It's actually *most likely that you're dealing with broken wires* - that's a pretty common issue, as they are made of poor quality and tend to brake over time. In this case a broken wire loses contact due to movements of the bed and therefore the resistance becomes bigger (if just a few wires of the cable are broken inside of the insulation) or the signal won't be transmitted anymore at all (if the wire is completely broken).  
-If the error pops up right away when you turn on the printer, then it's most likely one of the other problems.  
+It's actually *most likely that you're dealing with broken wires* - that's a pretty common issue, as they are made of poor quality and tend to brake over time due to the movement. In this case broken wires of the cables (inside of the insulation) temporary lose contact due to the movement of the bed and cables and therefore the resistance fluctuates, which results in a fluctuating temperature reading. The more wires break and the more permament this 'gap' between the broken wires will be, the more 'permanent' this problem will be until to the point that all wires broke and the signal won't be transmitted anymore at all. At this stage the error message will pop up right away when you turn on the printer.    
 
 The solution depends on the underlying problem of course.  
 If you face a hardware issue like a partially or completely broken sensor cable, you can replace the sensor cables. I'll add more specific information about how to do so soon.  
-If you face a hardware issue of the thermistor part (which you could determine by using a multimeter), you can get yourself new thermistor 100K NTC thermistor and replace the broken one.   
+If you face a hardware issue of the thermistor part (which you could determine by using a multimeter), you can get yourself new thermistor 100K NTC thermistor and replace the broken one - but as mentioned before, this is (imho) pretty unlikely, it's more likely that the cables cause the problem.   
   
 If that doesn't solve the issue, I'd suppose to take a magnifying glass and inspect the SMD parts of the mainboard. You probably won't be able to spot a faulty part as not every defect will be visible, but it might happen that you'll spot a melted part like I did when I faced the "Err: MAXTEMP: E1" issue as the following picture shows. <br> ![Melted D4](assets/images/mainboard_melted-D4_web.jpg)  
 
