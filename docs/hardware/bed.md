@@ -150,11 +150,15 @@ Because you can't level the bed itself due to the construction, you may want to 
 It's adviseable to make sure that the bolt can't turn itself loose due to the vibration, so add a nylon lock nut or a counter nut to the tip of the screw underneath the bed gantry as well.  
 
 **Springs**  
-Mounting springs instead of rigid spacers allows you to tram the bed itself. You'd have to get yourself some longer M4 type screws as well as the stock ones will be too short. Get yourself some nylon washers as well which you place between the underside of the bed and the springs to prevent scratching the surface.   
-However, as springs are made from metal which underlies the temperature changes of the heated bed, it'll most likely be necessary to check the level once in a while.    
+Mounting springs instead of rigid spacers allows you to tram the bed itself. You'd have to get yourself some longer M4 type screws as well as the stock ones will be too short. Get yourself some nylon washers as well which you place between the underside of the bed and the springs to prevent scratching the surface. Add a lock nut underneath the gantry to the end of the screws as well after tramming the bed.    
+However, as springs are made from metal which underlies the temperature changes of the heated bed, it'll probably be necessary to check the level once in a while.    
+  
+I personally used 8x25mm springs (the yellow ones shown below) and M4x40mm countersunk head screws as that allowed me to add some bigger lock nut knobs I had laying around. So if you go with regular M4 lock nuts, 35mm (or *maybe* even 30mm) screws should be fine as well I guess.  
 
 **Silicone Spacers**  
-You could also use silicone spacers of about the same length as the stock spacers for being able to use the stock screws. They are adjustable as well due to the flexible material and they don't expand and shrink with changing temperatures like metal springs will do in a minor range.  
+You could also use silicone spacers of about the same length as the stock spacers for being able to use the stock screws and still being able to tram the bed. They are adjustable as well due to the flexible material and they don't expand and shrink with changing temperatures like metal springs will do in a minor range. I'd suppose to add a lock nut underneath the gantry to the end of the screws as well after tramming the bed though.  
+  
+Keep in mind that the silicone spacers (I used 18mm long ones shown below) compress when tramming the bed. Therefore it *might* happen that you'll get into trouble because the position of the whole bedplate will be lowered a bit, so make sure that the bedplate doesn't somehow hit the motor mount at the back of the y-axis. *Especially when adding insulation to the underside of the bed, you'll need to raise the bedplate a bit, so I highly recommend using the abovementioned 25mm springs in that case anyway!*   
   
 The following picture shows the stock spacers on the left, springs in te middle and silicone spacers on the right. <br> ![Spacers](../assets/images/bed_different-spacers_web.jpg)
   
@@ -163,7 +167,7 @@ The following picture shows the stock spacers on the left, springs in te middle 
     When you want to tram the bed by adjusting the tension of the springs or silicone spacers to pull down a side or an edge of the bed, be careful to not bend the bed itself by tightening up just one corner too much. Try to push down one side of the bed and adjust two screws at a time.    
     I personally tram the bed by adding just a little bit of load to the spacers, so that the bed doesn't wobble. Then I'm measuring the distance between the tip of the ABL sensor and the bedplate where the screws are located in first place and adjust the four screws to get the same distance. Then I proceed with an ABL and look at the mesh and the values and repeat the steps if necessary.  
     Remember that every time you adjust one screw, it most likely will affect the other screws as well!  
-    For finetuning I add Kapton tape on the magnetic surface of the bed underneath the PEI plate to equalize warped or dented areas as much as possible.  
+    For finetuning I add Kapton tape on the magnetic surface of the bed underneath the PEI plate to egalize warped or dented areas as much as possible.  
     In case you're using Klipper like me, you can use the macro ["screws_tilt_adjust with the command SCREWS_TILT_CALCULATE"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe) to finetune the tramming of the bed.  
     When you're done, make sure the screws won't turn themselves loose due to the vibration, so add e.g. an additional lock nut as well.    
     Also remember to check your z-offset as it'll most likely has to be adjusted.  
