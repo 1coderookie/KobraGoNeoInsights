@@ -190,7 +190,7 @@ In the following, the specific hotends will be shown. Before jumping to the spec
 
     If you need a new heatbreak, you should be able to use whichever V5 compatible heatbreak you'd like to use, you just have to pay attention to the dimensions. It should be about the same length as the stock one, so don't buy anything significantly shorter or longer. Make sure to pay attention to the surface at the top part - that should be even and smooth, so don't get yourself the ones with the thread on the outside.   
     Some people 'upgraded' to an all-metal heatbreak, which one should avoid though if only printing PLA as it may cause and increase clogging problems. So up to me always go with a heatbreak that uses a PTFE inliner all the way down to the nozzle in case you're only or mostly printing PLA.   
-    The following picture shows such a heatbreak from a third party manufacturer which I use in my **Neo**, it's about 27mm long and works just fine. Due to the slightly bigger length than the stock one, the nozzle is a bit further down though, so I had to adjust the position of the part cooling fan. <br> ![3rd party heatbreak](../assets/images/head_3rdparty-heatbreak_web.jpg)  
+    The following picture shows such a heatbreak from a third party manufacturer which I use in my **Neo**, it's about 27mm long and works just fine. Due to the slightly bigger length than the stock one, the nozzle is a bit further down though, so I had to adjust the position of the printed part cooling fan duct I'm using. I chose the 'regular' version with the additional PTFE tube instead of an all-metal one as I'm only PLA right now. <br> ![3rd party heatbreak](../assets/images/head_3rdparty-heatbreak_web.jpg)  
   
 ??? example "Large Clump Of Melted Filament Built Up"
 
