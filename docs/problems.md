@@ -159,13 +159,13 @@ If you face **movement problems** of
 ## Error Messages 
 In the following I'll list some of the error messages that might appear on the screen of the control unit.  
 
-### Err: MINTEMP/MAXTEMP
-It might happen that either a **wrong temperature will be read** or that the **whole display turns red** and an error message "Err: MINTEMP/MAXTMEP - PRINTER HALTED - Please reset" will be shown (see the following sections for the specific message), blocking any further usage. In this case (red screen) you won't be able to use the printer anymore unless the problem that causes this error will be solved (at least it was the case when I faced this kind of error message).  
+### Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY
+It might happen that either a **wrong temperature will be read** or that the **whole display turns red** and an error message "Err: MINTEMP/MAXTMEP/THERMAL RUNAWAY: E1/Bed - PRINTER HALTED - Please reset" will be shown (see the following sections for the specific message), blocking any further usage. In this case (red screen) you won't be able to use the printer anymore unless the problem that causes this error will be solved (at least it was the case when I faced this kind of error message).  
   
 Before going into details here, I have to mention that I personally only came across the warnings "Err: MAXTEMP: E1" and "Err: MINTEMP: Bed". I might be wrong of course, but looking at the underlying reasons for these kind of errors, I *assume* that it's also possible to get the warnings "Err: MINTEMP: E1" and "Err: MAXTEMP: Bed". Therefore I'll write the next sections assuming and regarding that both type of messages may occur for either the extruder or the bed. So please keep that in mind when reading further..   
   
-- **MINTEMP** errors:  
-  These kind of errors are called "thermal runaway errors" and they are triggered by a function called "thermal runaway protection".  
+- **MINTEMP** and **THERMAL RUNAWAY** errors:  
+  These kind of errors are called "thermal runaway errors" (*Attention: I'm not sure about the MINTEMP error yet though!*) and they are triggered by a function called "thermal runaway protection".  
   Basically it's a good thing that these appear (even though the underlying problem isn't 'good' most of the time), as that shows you that this protective function is working. The function observes the development of the heat in a given time and triggers the messages when the expexted temperature of either the bed or the hotend drops about a certain amount of degrees within a certain amount of time and then it triggers the "MINTEMP" error.   
   These are the sections in the files `Configuration_adv.h` of the belonging [stock firmware](firmware/fw_marlin.md#default-settings):   
   ```
@@ -195,10 +195,10 @@ In the following sections I'll go over these messages for noth the extruder and 
 
 ---
 
-#### Err: MINTEMP/MAXTEMP: E1
+#### Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY: E1
 ![Err: MAXTEMP: E1](assets/images/controlunit_err_e1-max-temp_web.jpg)  
   
-These messages will be triggered either if the temperature of the extruder (= E1) drops more than 10°C within a timeframe of 35seconds (= MINTEMP error) or if it reaches above the limit of 275°C (or if you have a certain hardware issue which causes a certain resistance value) (= MAXTEMP error) as you can see in the belonging code sections of the firmware settings:  
+These messages will be triggered either if the temperature of the extruder (= E1) drops more than 10°C within a timeframe of 35seconds (= MINTEMP error), doesn't reach it's desired temperature in a certain amount of time or fluctuates too much (= THERMAL RUNAWAY) (*Attention: I'm not sure about this yet though!*) or if it reaches above the limit of 275°C (or if you have a certain hardware issue which causes a certain resistance value) (= MAXTEMP error) as you can see in the belonging code sections of the firmware settings:  
 ```
 Thermal Protection / Thermal Runaway -> Hotend:
 #define THERMAL_PROTECTION_PERIOD 35         // Seconds
@@ -234,10 +234,10 @@ Good luck!
 
 ---
 
-#### Err: MINTEMP/MAXTEMP: Bed
+#### Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY: Bed
 ![Err: MINTEMP: Bed](assets/images/controlunit_err_bed-min-temp_web.jpg)  
 
-These messages will be triggered either if the temperature of the bed drops more than 2°C within a timeframe of 20seconds (= MINTEMP error) or if it reaches above the limit of 120°C (or if you have a certain hardware issue which causes a certain resistance value) (= MAXTEMP error) as you can see in the belonging code sections of the firmware settings:  
+These messages will be triggered either if the temperature of the bed drops more than 2°C within a timeframe of 20seconds (= MINTEMP error), doesn't reach it's desired temperature in a certain amount of time or fluctuates too much (= THERMAL RUNAWAY) (*Attention: I'm not sure about this yet though!*) or if it reaches above the limit of 120°C (or if you have a certain hardware issue which causes a certain resistance value) (= MAXTEMP error) as you can see in the belonging code sections of the firmware settings:  
 ```
 Thermal Protection / Thermal Runaway -> Bed:
 #define THERMAL_PROTECTION_BED_PERIOD        20 // Seconds
