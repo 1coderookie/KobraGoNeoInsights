@@ -42,6 +42,8 @@ The following list gives an overview of the most important specifications:
 - Nozzle temperature: ≤ 500 °F / 260 °C  
 - Optional filament run-out detection sensor  
 
-Because a picture says more than thousand words - let me introduce you to my first 3D printer ever, the Kobra **Neo** in it's home position:  
-![Kobra Neo](assets/images/printers_neo_web.jpg)
+  
+| Kobra **Go** | Kobra **Neo** |
+|--------------|---------------|
+| ![Kobra Go](assets/images/printers_go_web.jpg) | ![Kobra Neo](assets/images/printers_neo_web.jpg) | 
 
