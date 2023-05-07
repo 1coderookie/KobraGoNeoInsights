@@ -121,11 +121,11 @@ The **Go** uses a bowden drive extruder/feeder, while the **Neo** is using a dir
   
 ### Go
   
-The following picture shows the bowden drive feeder system of the **Go**. The feeder gear mounted onto the extruder motor is located on the left side and is connected with the white PTFE bowden tube (which leads the filament) to the printhead.  
+The following picture shows the bowden drive feeder system of the **Go**. The feeder gear box mounted onto the extruder motor is located on the left side next to the z-axis lead screw and is connected with the white PTFE bowden tube (which leads the filament) to the printhead.  
 
 ![](../assets/images/head_GO_feeder-head_web.jpg)  
 
-A closer view of the feeder gear mounted onto the extruder motor:  
+A closer view of the feeder gear box mounted onto the extruder motor:  
 
 ![](../assets/images/head_GO_feeder-system_web.jpg)  
 
