@@ -8,10 +8,15 @@ The Anycubic [Kobra **Go**](https://www.anycubic.com/collections/3d-printers/pro
   
 ??? tip "Be Aware of Different Settings"
 
-    Because of the different types of extruder systems and a different home position you have to be aware of certain settings like in the slicer and also in alternative firmware like Klipper.  
-    In the *slicer* (e.g. Cura) you need to keep an eye on the rectration distance, which is set to a higher value at the **Go** (~6mm) than at the **Neo** (~1mm). This is especially important when you're asking in a forum and get tips from other users - they might not be the right ones when it comes down to retraction distance!  
-    If you want to use other *firmware* than the stock one like Klipper and you're looking out for about how other users set the configuration, be aware of the fact that the **Go** has its home position with the printhead above the right front corner and the **Neo** at the left front corner of the bed (which is driven completely to the back at that time).    
-  
+    Because of the different types of extruder systems you have to be aware of certain settings like in the slicer you're using and also in alternative firmware like Klipper. In both cases you need to keep an eye on the rectration distance - this is *very* important!  
+    *The profile (for the slicer) for the* ***Neo*** *Anycubic is offering has a* ***wrong*** *retraction distance set!*  
+    In general, the retraction distance at bowden drives like the **Go** is set to a higher value (up to ~6mm) than at direct drives like the **Neo** (up to ~1mm). The profile from Anycubic has this set to 6mm for the **Neo** as well though - you'll need to change that before starting to print!  
+    Please see the section ["Retraction Settings"](calibration.md#retraction-settings) for further informations.  
+    This is also something you should keep in mind when you're asking in a forum and get tips from other users - they might not be correct when it comes down to retraction distance!  
+    <!---
+    - If you want to use other *firmware* than the stock one like Klipper and you're looking out for about how other users set the configuration, be aware of the fact that the **Go** has its home position with the printhead above the right front corner and the **Neo** at the left front corner of the bed (which is driven completely to the back at that time).    
+    -->
+    
 The **Go** comes completely unmounted so you have to mount everything together by yourself. Therefore the price of the **Go** usually is a bit lower than the price of the **Neo**.  
 The Kobra **Neo** comes pre-mounted, you only have to mount a few parts like the 'upstanding' frame onto the base frame.  
   
