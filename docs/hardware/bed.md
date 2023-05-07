@@ -57,7 +57,7 @@ The bedplate itself is mounted to the y-axis gantry shown in the following pictu
     - Already touching the plate with your fingers leads to a little amoung of grease left there which already might be enough to cause problems for your print to stick on the bed, so maybe always use disposable gloves when touching it, taking it off or repositioning it.
     - If there's a rest of filament stuck on the plate, *never* try to scratch it off with metal or other sharp materials as you don't want to harm the PEI coating. Heat up the bed and try to peel off the filament instead. If that doesn't work, take off the plate and heat up the area using your hot air gun - sooner or later you'll be able to peel it off. However, be careful to not overheat and maybe harm the coating though.  
 
-    ***Don't use Acetone to clean the PEI plate, it'll destryo the coating!***       
+    ***Don't use Acetone to clean the PEI plate, it'll destroy the coating!***       
   
 ??? tip "Level The ABL Sensor"
 
