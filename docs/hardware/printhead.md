@@ -116,7 +116,6 @@ Leveling procedure:
   
 ## Extruder / Feeder
 The **Go** uses a bowden drive extruder/feeder, while the **Neo** is using a direct drive extruder/feeder.  
-If you're about to buy one of either models and you're not sure which fits you better, always go for the direct drive and get yourself the **Neo**.
   
 ---
   
