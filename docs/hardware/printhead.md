@@ -122,17 +122,29 @@ If you're about to buy one of either models and you're not sure which fits you b
   
 ### Go
   
-??? question "Got a **Go**?"  
+The following picture shows the bowden drive feeder system of the **Go**. The feeder gear mounted onto the extruder motor is located on the left side and is connected with the white PTFE bowden tube (which leads the filament) to the printhead.  
 
-    Do you own a Kobra **Go** and want to contribute? That would be great! <br> I'd need a picture of the bowden drive feeder, so people could see the difference between the **Go** and the **Neo**. <br> Just send me an email to <br> `3dneo (at) quantentunnel.de` <br> Thank you! 
-  
+![](../assets/images/head_GO_feeder-head_web.jpg)  
+
+A closer view of the feeder gear mounted onto the extruder motor:  
+
+![](../assets/images/head_GO_feeder-system_web.jpg)  
+
+The following picture shows the feeder gear box itself.  
+
+![](../assets/images/head_GO_feeder-gear_web.jpg)  
+
+
+
+<!---  
 ??? tip "Feeder Gear Pressure"
 
     When adjusting the pressure of the feeder gear, make sure you don't tighten it up too much as it could squeeze and deform the filament. On the other hand it shouldn't be too loose though as it should transport the filament reliably.  
     When pulling out the filament of the extruder system, you should notice little dents on the surface of the filament from the teeth of the feeder gear, the filament itself shouldn't be squeezed and deformed though, it should still be "round" so to say. You don't want the feeder gear to "bite" too much into the filament as well though, as this may lead to inconsistentites of the filament flow. I personally like to extrude a bit so that the gear actually has to pull it in. Then I do a cold pull and check the marks of the gear on the filament itself. If you can see and feel little marks of the teeth of the gear on the surface of the filament, then it should be ok. If you don't feel and see any marks, then it's too loose. PLA is pretty hard, so the pressure can/should be a bit higher as well, but if the marks are pretty deep, then it already might be too much. If the filament is already a bit squeezed and kinda flat, then it's definitely way too much pressure (you'll most likely experience some weird artefacts, inconcisties and patterns at your prints as well then). 
     The filament should be fed reliably, which especially comes into account while retracting. So keep an eye on the shaft of the motor by looking at the back of the motor - if you notice that it's slipping while retracting, you definitely need to increase the tension.  
     As a rule of thumb you can keep in mind that the pressure should be higher when using hard filament like PLA and lower when using soft filament like TPU.    
-  
+-->
+
 ---  
   
 ### Neo
@@ -148,11 +160,11 @@ You can access the inside of the feeder system by dismounting the heatsink, whic
 
 ![Feeder inside](../assets/images/head_neo_feeder-inside_web.jpg)  
   
-!!! warning
+!!! warning "Retraction Settings"
 
     Make sure that you set the retraction distance and speed to the correct values for a direct drive!  
     In general, it's supposed to be something around 1mm retraction distance for direct drive systems like the **Neo**. The profile from Anycubic has this setting set to 6mm though, which is *way* too much for the direct drive! If you set the distance to a value which is too high (e.g. the default 6mm for the **Go** as a bowden drive), the melted filament might be pulled back too far and reaches the PTFE tube which might get clogged then.  
-    You can find some more informations about this topic in the section [Retraction Settings](../calibration.md#retraction-settings) of the chapter [Calibration](../calibration.md).
+    You can find some more informations about this topic in the section ["Retraction Settings"](../calibration.md#retraction-settings).
   
 ??? tip "Feeder Gear Pressure"
 
