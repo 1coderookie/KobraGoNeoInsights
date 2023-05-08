@@ -43,7 +43,7 @@ The following list gives an overview of the most important specifications:
 - Hot bed temperature: ≤ 230 °F / 110 °C  
 - Bed leveling: "Anycubic LeviQ", which is a 25-point automatic bed leveling  
 - Printing material: PLA / ABS / PETG & TPU (optional housing recommended for certain material)  
-- Single nozzle in a V5 heater block, filament diameter 1.75 mm  
+- Single nozzle in a E3D **V5** heater block, filament diameter 1.75 mm  
 - Comes with a E3D V6 compatible 0.4 mm brass nozzle which is replaceable  
 - Nozzle temperature: ≤ 500 °F / 260 °C  
 - Optional filament run-out detection sensor  
