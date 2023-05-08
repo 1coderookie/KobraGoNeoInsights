@@ -108,7 +108,10 @@ If you did so and were able to insert the filament but it seems that it's gettin
 ---
 
 ## Blue Silicone Sock Comes Off
-If the blue elastic piece which covers the heater block of the hotend came off, try to put it back on. This one is called ["silicone sock"](hardware/printhead.md#silicone-sock). It kinda insulates the heater block and should be used. If it doesn't stay on, just get yourself some new ones. I'd suppose to get yourself the ones which are slightliy shaped different and have bigger lips, they wrap around the heater block much better and therefore stay in place better. Read the section ["Silicone Sock"](hardware/printhead.md#silicone-sock) for further informations and to see both types for comparison.  
+If the blue elastic piece, which covers the heater block of the hotend, came off, try to put it back on. This one is called ["silicone sock"](hardware/printhead.md#silicone-sock).  
+It kinda insulates the heater block and should be used. If it's missing and the fan duct of the part cooling fan is pointing not at the printed piece, but at the heater block, then you even may face a "Thermal Runaway" error.  
+If it doesn't stay on, just get yourself some new ones. I'd suppose to get yourself the ones which are slightliy shaped different and have bigger lips, they wrap around the heater block much better and therefore stay in place better.  
+Read the section ["Silicone Sock"](hardware/printhead.md#silicone-sock) for further informations and to see both types for comparison.  
 
 ---
 
