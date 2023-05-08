@@ -68,21 +68,9 @@ You can adjust the roller tension by turning the eccentric nut of the wheel whic
   
 However, you might face the problem that you just can't get all of the three wheels at each side to touch the aluminum frame as they should. So if you need to adjust the position of the wheels using the eccentric nuts, you might encouter the problem that e.g. the inner wheel and the lower wheel on the outside may sit in the v-slot really nice, but that the third wheel (the upper one on the outside in this example) isn't even touching the aluminum and can be spinned in the air. Whatever you'll try with the eccentric nut of the wheel of the inside (because there's only this one), you won't be able to achieve that all of the three wheels touch the aluminum and sit in the slot like they should.  
 So - what to do?  
-Well, there's a trick, which directly leads us to the process of tramming the x-axis gantry in relation to the bed itself. Expand the box below to read about how to do so.  
+Well, there's a trick, which directly leads us to the process of tramming the x-axis gantry. Please see the expandable violet textbox in the next section to read about how to do so.  
 
-??? example "Tramming The X-Axis Gantry And Adjusting The Wheels"  
-
-    When it comes down to tram the x-axis gantry, up to me one should differ between tramming it in relation to the frame of the printer and in relation to the bed. Depending on which spacers are being used, you should either do the one or the other:  
-    1. Up to me you should tram in relation to the *bed*, if you're using the stock spacers, because you can't tram the bed itself.  
-    2. If you've swapped the stock spacers and are using *adjustable* ones, like silicone spacers or springs, then you should tram in relation to the frame itself to make sure everything is square and perpendicular like it should be. After that, tram the bed itself to the x-axis gantry by adjusting the height of the bed by using the screws and adjust it at the four corners to the same distance of the nozzle (e.g. 0.1mm by using a feeler gauge or a sheet of paper).  
-    
-    *The following description is for tramming the x-axis gantry in relation to the bed itself when using the rigid stock spacers. If you're using adjustable spacers, the procedure is pretty much the same, you just have to put two pieces of equal height onto the frame of the printer (where the z-axis aluminum frame is mounted onto) and rest the x-axis gantry onto them instead of placing those pieces on the bed itself.*   
-    
-    So in order to *tram the x-axis gantry in relation to the bed* so that both are as parallel as possible, take two parts of equal height like cans for example and place them onto the left and right side of the bed.  
-    Lower the x-axis gantry until the aluminum frame of it touches the can(s). Then loosen the two hexagon socket screws which are holding each of the Y-shaped metal plate (where the wheels are mounted onto, at the backside so to say) against the aluminum frame of the x-axis gantry. Don't take them out (!), just loosen them a bit.  
-    Also unscrew or at least loosen the anti-backlash nut (depending on how much you have to adjust) so that the gantry really rests on the cans completely as shown in the following picture. <br> ![X-axis gantry](../assets/images/tramming_x-gantry_web.jpg)     
-    Now you can adjust the position of the wheels by using the eccentric nut again. This will pull the Y-shaped metal bracket in position because it can move a bit now and you can adjust it's position towards the aluminum frame of the x-axis gantry. You might have to tighten up the wheel a lot initially to make the bracket move though.  
-    After it repositioned itself, adjust the position of the wheels to the perfect pressure and adjust everything to the perfect position. Once you checked everything again, retighten the two hexagon socket screws at each bracket again. Now all of the wheels should touch the aluminum frame of the z-axis and the x-axis gantry should be as parallel to the bed as possible. Remount the anti-backlash nut and you should be good to go.                 
+              
 
 ??? example "V-Slot Wheels Maintenance"  
 
@@ -97,6 +85,33 @@ Well, there's a trick, which directly leads us to the process of tramming the x-
         People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
         As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait.. 
 
+### Tramming The X-Axis Gantry
+
+It's advisable to tram the x-axis gantry to either the bed itself or the frame (depending on the type of spacers of the bedmount). By doing so, you make sure that the bed and the gantry are parallel to each other and therefore the distance of the nozzle to the plate is pretty much the same all along the x-axis.  
+  
+As the printers come with rigid spacers (the black plastic pieces between the bedplate and the bed gantry), you aren't able to tram the bed unless you replace the stock spacers with adjustable ones (which I personally would recommend to do). Please see the section ["Different Spacers"](bed.md#different-spacers) for further information.  
+The problem with those rigid stock spacers is, that they most likely aren't all of the same length/height - so I'd recommend to at least dismount them, check if they're all of the same height and if they aren't, sand them down to an equal height. By doing so you can at least make sure that you won't have a tilted or warped bed caused by spacers of different legth.  
+  
+However, after taking care of the spacers (either the stock ones or after getting yourself new adjustable ones), reassemble everything. Now you can proceed tramming the x-axis gantry:  
+
+- If you're using the rigid stock spacers, tram the gantry in relation to the bed itself.  
+- If you're using adjustable spacers, tram the gantry in relation to the frame itself and then tram the bed in relation to the nozzle at different positions (at least at the four corners of the bed).  
+
+Please see the expandable textbox below for further instructions.  
+
+??? example "Tramming The X-Axis Gantry And Adjusting The Wheels"  
+
+    When it comes down to tram the x-axis gantry, up to me one should differ between tramming it in relation to the frame of the printer and in relation to the bed. Depending on which spacers are being used, you should either do the one or the other:  
+    1. Up to me you should tram in relation to the *bed*, if you're using the stock spacers, because you can't tram the bed itself.  
+    2. If you've swapped the stock spacers and are using *adjustable* ones, like silicone spacers or springs, then you should tram in relation to the frame itself to make sure everything is square and perpendicular like it should be. After that, tram the bed itself to the x-axis gantry by adjusting the height of the bed by using the screws and adjust it at the four corners to the same distance of the nozzle (e.g. 0.1mm by using a feeler gauge or a sheet of paper).  
+    
+    *The following description is for tramming the x-axis gantry in relation to the bed itself when using the rigid stock spacers. If you're using adjustable spacers, the procedure is pretty much the same, you just have to put two pieces of equal height onto the frame of the printer (where the z-axis aluminum frame is mounted onto) and rest the x-axis gantry onto them instead of placing those pieces on the bed itself.*   
+    
+    So in order to *tram the x-axis gantry in relation to the bed* so that both are as parallel as possible, take two parts of equal height like cans for example and place them onto the left and right side of the bed.  
+    Lower the x-axis gantry until the aluminum frame of it touches the can(s). Then loosen the two hexagon socket screws which are holding each of the Y-shaped metal plate (where the wheels are mounted onto, at the backside so to say) against the aluminum frame of the x-axis gantry. Don't take them out (!), just loosen them a bit.  
+    Also unscrew or at least loosen the anti-backlash nut (depending on how much you have to adjust) so that the gantry really rests on the cans completely as shown in the following picture. <br> ![X-axis gantry](../assets/images/tramming_x-gantry_web.jpg)     
+    Now you can adjust the position of the wheels by using the eccentric nut again. This will pull the Y-shaped metal bracket in position because it can move a bit now and you can adjust it's position towards the aluminum frame of the x-axis gantry. You might have to tighten up the wheel a lot initially to make the bracket move though.  
+    After it repositioned itself, adjust the position of the wheels to the perfect pressure and adjust everything to the perfect position. Once you checked everything again, retighten the two hexagon socket screws at each bracket again. Now all of the wheels should touch the aluminum frame of the z-axis and the x-axis gantry should be as parallel to the bed as possible. Remount the anti-backlash nut and you should be good to go.   
 
 ---
 
