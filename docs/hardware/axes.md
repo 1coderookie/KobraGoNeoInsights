@@ -11,8 +11,10 @@ You can adjust the tension of the belt by using the knob at the right side of th
   
 The limit switch is located inside of the blue plastic cover at the left hand side (where the motor is mounted at as well).   
 
-![X-axis limit switch](../assets/images/axes_x-axis-limit-switch_web.jpg)  
-
+![X-axis limit switch frontview](../assets/images/axes_x-limit-switch_web.jpg)  
+  
+![X-axis limit switch backview](../assets/images/axes_x-axis-limit-switch_web.jpg)  
+  
 ??? example "Limit Switch Problem"
 
     If you encounter the problem that the limit switch won't be hit sufficiently for being triggered sucessfully, move the printhead manually against it (with the blue plastic cover of the printhead removed) and observe what might cause the problem. Try to adjust the position of the limit switch, so that it can be triggered sucessfully.  
