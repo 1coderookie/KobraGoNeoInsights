@@ -145,7 +145,7 @@ The bedplate itself is mounted to the y-axis gantry shown in the following pictu
     
 ??? example "Tramming The X-Axis Gantry"  
 
-    To make sure that the bed and the x-axis gantry are parallel to each other, you should also tram the gantry in relation to the bed itself - if you're using the stock spacers. If you're using adjustable spacers, you should tram the x-axis gantry to the frame and then tram the bed in relation to the nozzle (imhoo). See the expandable box in the section [X-Axis Gantry](../axes.md/#x-axis-gantry) to read how you could do it. 
+    To make sure that the bed and the x-axis gantry are parallel to each other, you should also tram the gantry in relation to the bed itself - if you're using the stock spacers. If you're using adjustable spacers, you should tram the x-axis gantry to the frame and then tram the bed in relation to the nozzle (imhoo). See the section ["Tramming The X-Axis Gantry"](axes.md#tramming-the-x-axis-gantry) to read how you could do it. 
     
 ## Mods
 
