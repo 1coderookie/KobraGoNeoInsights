@@ -112,6 +112,12 @@ If the blue elastic piece which covers the heater block of the hotend came off, 
 
 ---
 
+## Large Clump Of Melted Filament Built Up
+If you had a problem with a clump of melted filament that built up around the heater block or hotend, see the violet expandable textbox in the section ["Hotend & Heatbreak"](hardware/printhead.md#hotend-heatbreak) to get some tips about how to clean everything again.  
+Also check the belonging sections in the chapter ["Printhead"](hardware/printhead.md) to see how to assemble the belonging parts  of the hotend (heater block, heatbreak, nozzle) correctly for avoiding this kind of incident in the future.   
+
+---
+
 ## Wrong Temperature Is Read
 If an obviously wrong temperature is read (like e.g. 10° for the bed when you have 25° room temperature or even a negative temperature when it's obvously not *that* cold), then it's most likely that you face a faulty cable. The wires inside of the cables tend to break due to the movement and poor quality, and when only a few wires are left, the resistance becomes bigger - which results in an obviously faulty reading.  
 See the section ["Err: MINTEMP/MAXTEMP"](#err-mintempmaxtemp) and the reasons listed there as well as the possible solutions for further informations.   
