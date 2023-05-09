@@ -6,8 +6,11 @@ As there are many things being worth mentioned and I can't cover and explain all
 
 There are many websites and YouTube guides out there to find which are already covering this wide topic of calibration, so I'd recommend to do a little research by your own.  
 However, to make this journey a bit easier for you to begin with, I'll list some pages that I personally found useful in the following section.  
+
 For further sources of information also check out the chapter ["Further Sources"](further_sources.md).  
-  
+
+If you encounter problems, check out the chapter ["Problems"](problems.md), you might find your problem and a solution mentioned there.  
+
 ---
 
 ## Calibration Guides
