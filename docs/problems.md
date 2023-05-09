@@ -24,7 +24,7 @@ If you're having the problem that your first layer isn't consistent across the p
 - I'd recommend to check the bedmesh values (query M503 through a program like e.g. OctoPrint, Pronterface to get them listed) or use e.g. OctoPrint for getting a meshview out of it. By doing so you can see how 'flat' and trammed the bed is.  
   If it's tilted, tram it.  
   If it's warped or bent (like e.g. a bow) or if you're having certain spots which seem to be bulges or dents or if you have a certain area which is lower, you can use *Kapton tape* to equalize those areas/spots. Just take off the PEI plate, stick pieces of the Kapton tape right onto the magnetic foil of the bed, put the PEI plate back on and do another ABL sequence. Then check the values or the meshview again. By doing so step by step, you can get yourself a bed as flat as possible. Minor deviations should be compensated by the ABL function later when printing.  
-  See the chapter ["Bed"](hardware/bed.md) (mind the expandable textboxes) as well for more informations.  
+  See the chapter ["Bed"](hardware/bed.md) (mind the expandable textboxes) as well for more information.  
 - Wiggle the bed and check if it moves in the vertical plane. If it does, check the bolts and nuts of the bedgantry and [check the v-slot wheels for perfect position](hardware/axes.md#v-slot-wheels-position_2). Most likely the wheels (or at least one) are a bit too far away from the aluminum frame. Adjust the position of the wheels then, but pay attention to not adjust them too tight as well.  
 - Of course you have to pay attention that you really cleaned the PEI plate of the bed properly using e.g. simple dishwasher soap (no balm or 'soft' soap as they often contain some oily ingredients) and IPA to make the prints stick to it. I personally prefer and highly recommend *silicone remover spray* (that's the stuff the guys are using who are painting cars on a professional basis to get off any oil and grease off the chassis before starting the actual paintjob), it just works great. 
 - Avoid touching the plate with your bare hands and fingers as that'll leave a tiny amount of grease onto the plate as well.  
@@ -61,7 +61,7 @@ These are mostly signs of under- / overextrusion and/or a clogged nozzle.
 - If you observe a **regular pattern** like a vertical line where these **gaps and bulges** occur, then it's most likely the z-seam. You could change the setting of your slicer for the z-seam to "random", but that'll lead to random artefacts all over the print. In that case you'll most likely also note these artefacts in other spots of your model where layers start or end.  
   As you can't use Linear Advance with the stock firmware, there isn't that much you can do about this under- and overextrusion an the beginning and the end of a layer besides making sure that you [calibrated the e-steps](calibration.md#calibrating-e-steps) correctly. You might be able to tweak some settings in your slicer though and optimize it a bit.    
 - If you observe **holes in layers**, or even longer **lines in layers where filament is missing**, then it's most likely too much retraction distance and/or a (partial) clog you're dealing with (which also gets provoked by too much retraction distance btw).  
-  So I'd recommend to check the [retraction settings](calibration.md#retraction-settings) and [clean the nozzle](hardware/printhead.md#cleaning-the-nozzle) by e.g. doing some cold pulls. If the problem gets a bit better but persists, I'd recommend to disassemble the hotend, clean everything, inspect and maintain it and reassemble it again. Also pay attention to the PTFE tube and make sure you reassembled the hotend correctly. Check out the chapter ["Printhead"](hardware/printhead.md) for more informations.   
+  So I'd recommend to check the [retraction settings](calibration.md#retraction-settings) and [clean the nozzle](hardware/printhead.md#cleaning-the-nozzle) by e.g. doing some cold pulls. If the problem gets a bit better but persists, I'd recommend to disassemble the hotend, clean everything, inspect and maintain it and reassemble it again. Also pay attention to the PTFE tube and make sure you reassembled the hotend correctly. Check out the chapter ["Printhead"](hardware/printhead.md) for further information.   
 
 ---
 
@@ -101,13 +101,13 @@ The solution here would be to do some cold pulls first to get as much filament o
 - If you're experiencing layer shifts or stuck movements at either the x- or y-axis, check the position of the wheels and the belt tension.  
 - If you're experiencing problems in the height or if your prints get pushed off the bed because the nozzle hit them at a certain height, check the wheels of the x-axis gantry which run along the aluminum frame of the z-axis as well as the lead screw, the anti-backlash nut, the alignment and the complete assembly of the whole z-axis.  
 
-Generally speaking, everything should run smooth when you move it manually by hand. If you feel some kind of resistance or a jam at certain spots, check the belonging axis and the involved parts. Deformed and/or too tight wheels can cause 'similar' problems like a misaligned z-axis for example. See the chapter ["Axes"](hardware/axes.md) for more informations.  
+Generally speaking, everything should run smooth when you move it manually by hand. If you feel some kind of resistance or a jam at certain spots, check the belonging axis and the involved parts. Deformed and/or too tight wheels can cause 'similar' problems like a misaligned z-axis for example. See the chapter ["Axes"](hardware/axes.md) for further information.  
 
 ---
 
 ## Can't Load New Filament
 If you can't load new filament, first of all check if you pulled the lever on the feeder gear.  
-If you did so and were able to insert the filament but it seems that it's getting stuck lower down in the hotend, then it's most likely that the PTFE tube inside of the hotend is clogged or deformed or that you have a clog in or above the nozzle somewhere. To clean, inspect and maintain it, you need to disassemble the hotend. Check the section ["Disassembling The Hotend"](hardware/printhead.md#disassembling-the-hotend) for more informations.  
+If you did so and were able to insert the filament but it seems that it's getting stuck lower down in the hotend, then it's most likely that the PTFE tube inside of the hotend is clogged or deformed or that you have a clog in or above the nozzle somewhere. To clean, inspect and maintain it, you need to disassemble the hotend. Check the section ["Disassembling The Hotend"](hardware/printhead.md#disassembling-the-hotend) for more information.  
 
 ---
 
@@ -115,7 +115,7 @@ If you did so and were able to insert the filament but it seems that it's gettin
 If the blue elastic piece, which covers the heater block of the hotend, came off, try to put it back on. This one is called ["silicone sock"](hardware/printhead.md#silicone-sock).  
 It kinda insulates the heater block and should be used. If it's missing and the fan duct of the part cooling fan is pointing not at the printed piece, but at the heater block, then you even may face a "Thermal Runaway" error.  
 If it doesn't stay on, just get yourself some new ones. I'd suppose to get yourself the ones which are slightliy shaped different and have bigger lips, they wrap around the heater block much better and therefore stay in place better.  
-Read the section ["Silicone Sock"](hardware/printhead.md#silicone-sock) for further informations and to see both types for comparison.  
+Read the section ["Silicone Sock"](hardware/printhead.md#silicone-sock) for further information and to see both types for comparison.  
 
 ---
 
@@ -127,7 +127,7 @@ Also check the belonging sections in the chapter ["Printhead"](hardware/printhea
 
 ## Wrong Temperature Is Read
 If an obviously wrong temperature is read (like e.g. 10° for the bed when you have 25° room temperature or even a negative temperature when it's obvously not *that* cold), then it's most likely that you face a faulty cable. The wires inside of the cables tend to break due to the movement and poor quality, and when only a few wires are left, the resistance becomes bigger - which results in an obviously faulty reading.  
-See the section ["Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY"](#err-mintempmaxtempthermal-runaway) and the reasons listed there as well as the possible solutions for further informations.   
+See the section ["Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY"](#err-mintempmaxtempthermal-runaway) and the reasons listed there as well as the possible solutions for further information.   
 
 ---
 
@@ -148,7 +148,7 @@ If you face **movement problems** of
   Are the wheels in the perfect position, can they turn how they're supposed to?  
   Is the belt neither too sloppy nor too tight?  
   Can you move the belonging part (printhead/bed) manually without feeling any kind of unusual resistance or jam while moving it along the axis?  
-  Everything should move smooth. Check out the chapter ["Axes"](hardware/axes.md) for further informations.  
+  Everything should move smooth. Check out the chapter ["Axes"](hardware/axes.md) for further information.  
   *If no movement occurs at all*, check if the belonging motor is working.  
   Check if the wiring is correct and if the connectors are plugged in at the motor and the mainboard correctly.  
   If that's the case, you could measure the cables using a multimeter to check if there's a broken cable maybe.  
@@ -156,7 +156,7 @@ If you face **movement problems** of
   Are the wheels in the perfect position, can they turn how they're supposed to?  
   Is the lead screw system assembled correctly?  
   Can you move the axis by turning the lead screw manually without feeling any kind of unusual resistance or jam?  
-  Everything should move smooth. Check out the chapter ["Axes"](hardware/axes.md) for further informations.  
+  Everything should move smooth. Check out the chapter ["Axes"](hardware/axes.md) for further information.  
   If no movement occurs at all, check if the coupler between the motor and the lead screw is tight and mounted correctly.  
   Check if the belonging motor is working.  
   Check if the wiring is correct and if the connectors are plugged in at the motor and the mainboard correctly.  
