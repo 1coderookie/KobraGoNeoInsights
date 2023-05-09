@@ -9,6 +9,10 @@ In this chapter I'll list some of the most common problems people seem to have a
 
     Anycubic recently made up a website called "Help Center", where you can select your specific model and search around for problems and possible solutions. You might also wanna have a look at that one: ["Anycubic Help Center"](https://cloud-universe.anycubic.com/w/p/helpCenter/#/pages/machineClassification/machineClassification?id=2&name=FDM%25203D%2520Printer&type=0&isShowShare=true)  
 
+??? info "Print Quality Troubleshooting Guide"
+
+    The [Print Quality Troubleshooting Guide](https://www.simplify3d.com/resources/print-quality-troubleshooting/) is a nice source to compare your faulty prints and see what may caused the problem.  
+
 ---
 
 ## First Layer Problems / Print Comes Off
