@@ -7,12 +7,12 @@ Oh yes, you can!
 
 The [Huada HC32F460 MCU](https://github.com/Klipper3d/klipper/commit/72b6bd7efa1ae282220b4bdcfb789075807ebfd2) is officially supported and implemented in the Klipper firmware.  
   
-??? tip "Important Informations To Be Aware Of" 
+??? tip "Important Information To Be Aware Of" 
 
     - It should already be mentioned here that you can always go back to the stock firmware by just re-flashing it, so you might just want to give Klipper a try. 
-    - Be aware of the fact that the control unit and display of the printer doesn't work after flashing Klipper due to the fact that the SPI the unit is connected to isn't supported by Klipper yet. See the belonging section further down below for more informations. 
-    - You'd need a host to run additional software like OctoPrint or Mainsail for being able to use the printer with Klipper. See the belonging section further down below for some informations and my personal recommendation abput what to use.  
-    If you don't have a host running OctoPrint/Mainsail/.. yet, see the chapter ["Printserver"](../printserver.md) for some informations about hardware you could use for that.    
+    - Be aware of the fact that the control unit and display of the printer doesn't work after flashing Klipper due to the fact that the SPI the unit is connected to isn't supported by Klipper yet. See the belonging section further down below for more information. 
+    - You'd need a host to run additional software like OctoPrint or Mainsail for being able to use the printer with Klipper. See the belonging section further down below for some information and my personal recommendation abput what to use.  
+    If you don't have a host running OctoPrint/Mainsail/.. yet, see the chapter ["Printserver"](../printserver.md) for some information about hardware you could use for that.    
       
 
 ??? info "What Is Klipper?"
@@ -33,7 +33,7 @@ Referring to the beforementioned post of xpeng121, you need to
 - the serial to "Anycubic Kobra"  
 
 during the setup process for creating the `klipper.bin` file.  
-For further informations about the installation steps please read the chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official Klipper documentation.  
+For further information about the installation steps please read the chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official Klipper documentation.  
 
 ??? tip "Compiled `klipper.bin` Available"
 
@@ -130,7 +130,7 @@ However, if you really do miss the option to control the printer right at that p
        
 ## Slicers
 Due to the fact that Klipper uses extended G-code and macros, there are a few things to be aware of when using certain slicers like Cura, PrusaSlicer, SuperSlicer etc.  
-In the following I'll just go over them really quick as it would be too much to discuss the slicers in detail. You'll find many resources online though where yuo'll find more informations about them.    
+In the following I'll just go over them really quick as it would be too much to discuss the slicers in detail. You'll find many resources online though where yuo'll find more information about them.    
 
 ### Cura  
 Even though Cura and Klipper work perfectly together, there are a few things to be aware of.  
