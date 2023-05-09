@@ -5,6 +5,10 @@ In this chapter I'll list some of the most common problems people seem to have a
 
 (Note: WIP, so maybe come back another time as well ;) )   
 
+??? info "Anycubic Help Center"  
+
+    Anycubic recently made up a website called "Help Center", where you can select your specific model and search around for problems and possible solutions. You might also wanna have a look at that one: ["Anycubic Help Center"](https://cloud-universe.anycubic.com/w/p/helpCenter/#/pages/machineClassification/machineClassification?id=2&name=FDM%25203D%2520Printer&type=0&isShowShare=true)  
+
 ---
 
 ## First Layer Problems / Print Comes Off
