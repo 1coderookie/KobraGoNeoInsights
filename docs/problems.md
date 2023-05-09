@@ -172,8 +172,13 @@ If you face **movement problems** of
 ## Error Messages 
 In the following I'll list some of the error messages that might appear on the screen of the control unit.  
 
-### Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY
+### Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY  
+
 It might happen that either a **wrong temperature will be read** or that the **whole display turns red** and an error message "Err: MINTEMP/MAXTMEP/THERMAL RUNAWAY: E1/Bed - PRINTER HALTED - Please reset" will be shown (see the following sections for the specific message), blocking any further usage. In this case (red screen) you won't be able to use the printer anymore unless the problem that causes this error will be solved (at least it was the case when I faced this kind of error message).  
+  
+| Err: MINTEMP | Err: MAXTEMP | Err: THERMAL RUNAWAY |
+|--------------|--------------|----------------------|
+| ![Err: MINTEMP: Bed](assets/images/controlunit_err_bed-min-temp_web.jpg)   | ![Err: MAXTEMP: E1](assets/images/controlunit_err_e1-max-temp_web.jpg) | ![Err: THERMAL RUNAWAY: E1](assets/images/thermal_runaway_e1_web.jpg) |  
   
 Before going into details here, I have to mention that I personally only came across the warnings "Err: MAXTEMP: E1" and "Err: MINTEMP: Bed". I might be wrong of course, but looking at the underlying reasons for these kind of errors, I *assume* that it's also possible to get the warnings "Err: MINTEMP: E1" and "Err: MAXTEMP: Bed". Therefore I'll write the next sections assuming and regarding that both type of messages may occur for either the extruder or the bed. So please keep that in mind when reading further..   
   
@@ -209,7 +214,6 @@ In the following sections I'll go over these messages for noth the extruder and 
 ---
 
 #### Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY: E1
-![Err: MAXTEMP: E1](assets/images/controlunit_err_e1-max-temp_web.jpg)  
   
 These messages will be triggered either if the temperature of the extruder (= E1) drops more than 10°C within a timeframe of 35seconds (= MINTEMP error), doesn't reach it's desired temperature in a certain amount of time or fluctuates too much (= THERMAL RUNAWAY) (*Attention: I'm not sure about this yet though!*) or if it reaches above the limit of 275°C (or if you have a certain hardware issue which causes a certain resistance value) (= MAXTEMP error) as you can see in the belonging code sections of the firmware settings:  
 ```
@@ -248,7 +252,6 @@ Good luck!
 ---
 
 #### Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY: Bed
-![Err: MINTEMP: Bed](assets/images/controlunit_err_bed-min-temp_web.jpg)  
 
 These messages will be triggered either if the temperature of the bed drops more than 2°C within a timeframe of 20seconds (= MINTEMP error), doesn't reach it's desired temperature in a certain amount of time or fluctuates too much (= THERMAL RUNAWAY) (*Attention: I'm not sure about this yet though!*) or if it reaches above the limit of 120°C (or if you have a certain hardware issue which causes a certain resistance value) (= MAXTEMP error) as you can see in the belonging code sections of the firmware settings:  
 ```
