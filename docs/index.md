@@ -6,7 +6,7 @@ to my infopage about Anycubic's **Kobra Go** and **Kobra Neo**.
 Here you'll find specific information about both models as well as more general kind of information.  
 I created this page to make it easier for users of these printers to get started, as well as to provide specific information on e.g. how to maintain the printers.  
   
-Please make sure to **mind the (expandable) textboxes** as they contain valuable informations!  
+Please make sure to **mind the (expandable) textboxes** as they contain valuable information!  
 Depending on the color of the box, it's either a tip, information, instruction, question or warning you'll find in there:    
 
 ??? tip "Tip"  
@@ -15,7 +15,7 @@ Depending on the color of the box, it's either a tip, information, instruction, 
 
 ??? info "Information" 
 
-    Like "Informations about nozzles in general." 
+    Like "Information about nozzles in general." 
 
 ??? example "Instruction"
 
