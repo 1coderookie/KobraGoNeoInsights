@@ -163,7 +163,7 @@ You can access the inside of the feeder system by dismounting the heatsink, whic
 
     Make sure that you set the retraction distance and speed to the correct values for a direct drive!  
     In general, it's supposed to be something around 1mm retraction distance for direct drive systems like the **Neo**. The profile from Anycubic has this setting set to 6mm though, which is *way* too much for the direct drive! If you set the distance to a value which is too high (e.g. the default 6mm for the **Go** as a bowden drive), the melted filament might be pulled back too far and reaches the PTFE tube which might get clogged then.  
-    You can find some more informations about this topic in the section ["Retraction Settings"](../calibration.md#retraction-settings).
+    You can find some more information about this topic in the section ["Retraction Settings"](../calibration.md#retraction-settings).
   
 ??? tip "Feeder Gear Pressure"
 
@@ -190,7 +190,7 @@ In the following, the specific hotends will be shown. Before jumping to the spec
 ??? tip "Can't Load New Filament?!"
 
     If you can't load new filament, first of all check if you pulled the lever on the feeder gear.
-    If you did so and were able to insert the filament but it seems that it's getting stuck lower down in the hotend, then it's most likely that the PTFE tube inside of the hotend is clogged or deformed or that you have a clog in or above the nozzle somewhere. To clean, inspect and maintain it, you need to disassemble the hotend. Check the section ["Disassembling The Hotend"](#disassembling-the-hotend) further down below for more informations.     
+    If you did so and were able to insert the filament but it seems that it's getting stuck lower down in the hotend, then it's most likely that the PTFE tube inside of the hotend is clogged or deformed or that you have a clog in or above the nozzle somewhere. To clean, inspect and maintain it, you need to disassemble the hotend. Check the section ["Disassembling The Hotend"](#disassembling-the-hotend) further down below for more information.     
     
 ??? info "Spare Part PTFE Bowden Tube"
 
@@ -326,11 +326,11 @@ The following picture shows the specific plug which is necessary to fit into the
 ---  
   
 ## Nozzle
-Anycubic ships the printheads with a 0.4mm brass nozzle for 1.75mm filament.  
-The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following picture.  
+Anycubic ships the printheads with a 0.4mm **E3D V6 type** brass nozzle for 1.75mm filament.  
   
 ![E3D nozzle](../assets/images/head_nozzle-e3d_web.jpg)  
 
+So if you're looking for replacement nozzles, make sure to get yourself the correct ones! I highly recommend to only use high quality nozzles, like the [*original* E3D V6 nozzles](https://e3d-online.com/products/v6-nozzles)!
     
 !!! warning  
 
@@ -341,7 +341,7 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
     
 ??? info "About Nozzles In General" 
 
-    - When it comes down to choose the right nozzle size, it all depends on what you want to print and how detailed it should be. The standard size of 0.4mm the printers come with is a good starting point. <br> However, you may find yourself in the situation that you want to print more detailed objects or objects which should be more sturdy or where it doesn't matter if the surface doesn't look as clean and flat as possible, so you probably should adjust the size and switch to a smaller oder bigger diameter like 0.2-0.3mm for detailed objects and 0.6mm for the 'rougher' prints. <br> Keep in mind though that the printing time usually increases by choosing a smaller diameter and it decreases when you're using a bigger diameter due to the smaller/larger layer height that is possible to print. <br> Search the web for more specific informations about finding and choosing the right nozzle size for your project. You may want to start with this Article from [All3DP: The Best 3D Printer Nozzle Types, Sizes & Materials](https://www.all3dp.com/2/3d-printer-nozzle-size-material-what-to-know-which-to-buy). 
+    - When it comes down to choose the right nozzle size, it all depends on what you want to print and how detailed it should be. The standard size of 0.4mm the printers come with is a good starting point. <br> However, you may find yourself in the situation that you want to print more detailed objects or objects which should be more sturdy or where it doesn't matter if the surface doesn't look as clean and flat as possible, so you probably should adjust the size and switch to a smaller oder bigger diameter like 0.2-0.3mm for detailed objects and 0.6mm for the 'rougher' prints. <br> Keep in mind though that the printing time usually increases by choosing a smaller diameter and it decreases when you're using a bigger diameter due to the smaller/larger layer height that is possible to print. <br> Search the web for more specific information about finding and choosing the right nozzle size for your project. You may want to start with this Article from [All3DP: The Best 3D Printer Nozzle Types, Sizes & Materials](https://www.all3dp.com/2/3d-printer-nozzle-size-material-what-to-know-which-to-buy). 
   
     - In case you're using *Cura* as a slicer, make sure you update to the current version v5.x (Note: It doesn't run at Ubuntu versions below 20.x though) as it uses the new Arachne engine and offers better quality as a result of that. In case you never heard of that, I recommend to watch the following videos from [Thomas Sanladerer](https://www.youtube.com/channel/UCb8Rde3uRL1ohROUVg46h1A) or read the articles at his page [https://toms3d.org/](https://toms3d.org/) where he shows the result of using a 0.6mm nozzle with Cura v5.x comparing to a 0.4 nozzle using Cura 4.x (SPOILER: you barely can see a difference).  
   
@@ -353,9 +353,9 @@ The nozzle is compatible with e.g. E3D V5/V6 nozzles as shown in the following p
     - Do yourself a favour and don't buy those cheap brass nozzles where you'll get a dozen of them for a few bucks. It's just not worth it.  
     Remember that the nozzle is pretty much the most crucial part when it comes down to printing and achieving good results, as it's the last link in the chain of the print process and puts out the filament - so go for a manufacturer who is known for quality nozzles.  
   
-    - I personally use the E3D V6 brass nozzles (0.6 mm right now) for printing PLA+. Yes, they are a bit more expensive than the super cheap ones, but it's still a good price and it's really worth it - they last longer, they're precisely made and you'll get much better results. As long as you don't want to print special abrasive filaments, you're always good with these standard E3D V6 brass nozzles.  
+    - I personally only use [*original* E3D V6 nozzles](https://e3d-online.com/products/v6-nozzles). Yes, they are a bit more expensive than the super cheap ones, but it's still a good price and it's really worth it - they last longer, they're precisely made and you'll get much better results. As long as you don't want to print special abrasive filaments, you're always good with these standard E3D V6 brass nozzles.  
   
-    - If you want to print filaments that are more abrasive, you probably want to go with nozzles made from plated copper, stainless or hardened steel, ruby sapphire nozzles and so on. Check out the web for further and more specific informations about what to choose.      
+    - If you want to print filaments that are more abrasive, you probably want to go with nozzles made from plated copper, stainless or hardened steel, ruby sapphire nozzles and so on. Check out the web for further and more specific information about what to choose.      
   
 ---  
   
