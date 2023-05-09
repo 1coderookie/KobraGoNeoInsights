@@ -1,31 +1,49 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # Calibration
-For getting high quality prints, you need to calibrate your printer. As there are many things being worth mentioned and I can't cover and explain all of them, I'll just talk about a few which seem to be the most crucial ones beginners might not be aware of. There are many websites and YouTube guides out there to find which are already covering this wide topic of calibration, so I'd recommend to do a little research by your own.  
-However, to make this journey a bit easier for you to begin with, I'll list some pages that I personally found useful in the section ["Calibration Guides"](calibration.md#calibration-guides). For more information and general sources of information also check out the chapter ["Further Sources"](further_sources.md).  
+For getting high quality prints, you need to calibrate your printer.  
+As there are many things being worth mentioned and I can't cover and explain all of them, I'll just talk about a few which seem to be the most crucial ones beginners might not be aware of, especially with these printers.  
+
+There are many websites and YouTube guides out there to find which are already covering this wide topic of calibration, so I'd recommend to do a little research by your own.  
+However, to make this journey a bit easier for you to begin with, I'll list some pages that I personally found useful in the following section.  
+For further sources of information also check out the chapter ["Further Sources"](further_sources.md).  
   
-    
-??? tip "Calibration Using SuperSlicer"
-
-    I personally prefer SuperSlicer (after I used Cura in the first place), especially when it comes down to calibration. One of the great functions is, that SuperSlicer already comes with an *inbuilt set of calibration tools*. You'll follow the proposed order and generate the specific 3d models for your specific needs with just one click, like temperature towers, retraction towers and so on. After that, you just print them and don't have to take care about additional code sections (e.g. like applying temperature or retraction distance changes at layer xy) which is necessary when using Cura and the Calibration Shapes plugin.  
-
-??? tip "Calibration Models For Cura"
-
-    If you're using Cura, you might want to check out the plugin ["Calibration Shapes"](https://marketplace.ultimaker.com/app/cura/plugins/5axes/CalibrationShapes) which gives you access to different STL models you can use for calibration. Before slicing and printing, make sure you're reading the specific notes about the models at the [wiki page of the creator](https://github.com/5axes/Calibration-Shapes/wiki).  
-
-??? tip "Calibration Using OctoPrint"
-
-    If you're using OctoPrint, you might want to check out the plugin ["Marlin Calibration Tools"](https://plugins.octoprint.org/plugins/CalibrationTools/) which allows you to easily execute different calibration procedures.
-
 ---
 
 ## Calibration Guides
 There are many sites and tutorials to find which are about calibration, so you might want to search for that at your preferred site first. However, I found the following guides useful.  
 
 - A handy reference when it comes down to **judging the quality of your first layer** is the [**poster about bed leveling**](https://i.imgur.com/hIcGr8U.png) made my [Billie Ruben](https://www.billieruben.info/).
-- [Elli's Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/) made by @[AndrewEllis93](https://github.com/AndrewEllis93)
-- [All3DP's article "Extruder Calibration: How to Calibrate E-Steps"](https://all3dp.com/2/extruder-calibration-6-easy-steps-2/)
+- A great resource with many specific calibration tips and instructions is [**Elli's Print Tuning Guide**](https://ellis3dp.com/Print-Tuning-Guide/) made by @[AndrewEllis93](https://github.com/AndrewEllis93).
+- For not only getting an idea what "calibrate your e-steps" means, but to get a useful guide about how to do so, maybe also read [All3DP's article "Extruder Calibration: How to Calibrate E-Steps"](https://all3dp.com/2/extruder-calibration-6-easy-steps-2/).
 - The [Print Quality Troubleshooting Guide](https://www.simplify3d.com/resources/print-quality-troubleshooting/) is a good start to compare your faulty prints and see what may caused the problem.  
+
+---
+
+## Calibration Tools
+Using certain tools makes it easier to calibrate your printer. It'll allow you to generate specific models which are necessary for certain calibrations, like e.g. temperature or retraction distance towers, so you'll be able to determine your specific settings. Not all calibrations can be done like this, like calibrating the steps of your extruder ("e-steps"), but many.   
+I'll list some options in the following.   
+
+---
+
+### Calibrating Using SuperSlicer
+
+I personally prefer SuperSlicer (after I used Cura in the first place), especially when it comes down to calibration.  
+One of the great functions is, that SuperSlicer already comes with an *inbuilt set of calibration tools*. You'll follow the proposed order and generate the specific 3d models for your specific needs with just one click, like temperature towers, retraction towers and so on.  
+After that, you just print them and don't have to take care about additional code sections (e.g. like applying temperature or retraction distance changes at layer xy) which is necessary when using Cura and the Calibration Shapes plugin.  
+
+---
+
+### Calibrating Using Cura
+
+If you're using Cura, you might want to check out the plugin ["Calibration Shapes"](https://marketplace.ultimaker.com/app/cura/plugins/5axes/CalibrationShapes) which gives you access to different STL models you can use for calibration.  
+Before slicing and printing, make sure you're reading the specific notes about the models at the [wiki page of the creator](https://github.com/5axes/Calibration-Shapes/wiki) and to add the additional code to the generated STL files when necessary.  
+
+---
+
+### Calibrating Using OctoPrint
+
+If you're using OctoPrint, you might want to check out the plugin ["Marlin Calibration Tools"](https://plugins.octoprint.org/plugins/CalibrationTools/) which allows you to easily execute different calibration procedures.
 
 ---
 
