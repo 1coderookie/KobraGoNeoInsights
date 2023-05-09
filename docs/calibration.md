@@ -27,26 +27,18 @@ There are many sites and tutorials to find which are about calibration, so you m
 Using certain tools makes it easier to calibrate your printer. It'll allow you to generate specific models which are necessary for certain calibrations, like e.g. temperature or retraction distance towers, so you'll be able to determine your specific settings. Not all calibrations can be done like this, like calibrating the steps of your extruder ("e-steps"), but many.   
 I'll list some options in the following.   
 
----
+- **SuperSlicer**  
+  I personally prefer SuperSlicer (after I used Cura in the first place), especially when it comes down to calibration.   
+  One of the great functions is, that SuperSlicer already comes with an *inbuilt set of calibration tools*.  
+  You'll follow the proposed order and generate the specific 3d models for your specific needs with just one click, like temperature towers, retraction towers and so on.  
+  After that, you just print them and don't have to take care about additional code sections (e.g. like applying temperature or retraction distance changes at layer xy) which is necessary when using Cura and the Calibration Shapes plugin.  
 
-### Calibrating Using SuperSlicer
+- **Cura**  
+  If you're using Cura, you might want to check out the plugin ["Calibration Shapes"](https://marketplace.ultimaker.com/app/cura/plugins/5axes/CalibrationShapes) which gives you access to different STL models you can use for calibration.  
+  Before slicing and printing, make sure you're reading the specific notes about the models at the [wiki page of the creator](https://github.com/5axes/Calibration-Shapes/wiki) and to add the additional code to the generated STL files when necessary.  
 
-I personally prefer SuperSlicer (after I used Cura in the first place), especially when it comes down to calibration.  
-One of the great functions is, that SuperSlicer already comes with an *inbuilt set of calibration tools*. You'll follow the proposed order and generate the specific 3d models for your specific needs with just one click, like temperature towers, retraction towers and so on.  
-After that, you just print them and don't have to take care about additional code sections (e.g. like applying temperature or retraction distance changes at layer xy) which is necessary when using Cura and the Calibration Shapes plugin.  
-
----
-
-### Calibrating Using Cura
-
-If you're using Cura, you might want to check out the plugin ["Calibration Shapes"](https://marketplace.ultimaker.com/app/cura/plugins/5axes/CalibrationShapes) which gives you access to different STL models you can use for calibration.  
-Before slicing and printing, make sure you're reading the specific notes about the models at the [wiki page of the creator](https://github.com/5axes/Calibration-Shapes/wiki) and to add the additional code to the generated STL files when necessary.  
-
----
-
-### Calibrating Using OctoPrint
-
-If you're using OctoPrint, you might want to check out the plugin ["Marlin Calibration Tools"](https://plugins.octoprint.org/plugins/CalibrationTools/) which allows you to easily execute different calibration procedures.
+- **OctoPrint**  
+  If you're using OctoPrint, you might want to check out the plugin ["Marlin Calibration Tools"](https://plugins.octoprint.org/plugins/CalibrationTools/) which allows you to easily execute different calibration procedures.
 
 ---
 
