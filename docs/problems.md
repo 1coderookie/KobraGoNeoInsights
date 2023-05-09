@@ -127,7 +127,7 @@ Also check the belonging sections in the chapter ["Printhead"](hardware/printhea
 
 ## Wrong Temperature Is Read
 If an obviously wrong temperature is read (like e.g. 10° for the bed when you have 25° room temperature or even a negative temperature when it's obvously not *that* cold), then it's most likely that you face a faulty cable. The wires inside of the cables tend to break due to the movement and poor quality, and when only a few wires are left, the resistance becomes bigger - which results in an obviously faulty reading.  
-See the section ["Err: MINTEMP/MAXTEMP"](#err-mintempmaxtemp) and the reasons listed there as well as the possible solutions for further informations.   
+See the section ["Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY"](#err-mintempmaxtempthermal-runaway) and the reasons listed there as well as the possible solutions for further informations.   
 
 ---
 
