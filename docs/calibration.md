@@ -24,8 +24,7 @@ There are many sites and tutorials to find which are about calibration, so you m
 ---
 
 ## Calibration Tools
-Using certain tools makes it easier to calibrate your printer. It'll allow you to generate specific models which are necessary for certain calibrations, like e.g. temperature or retraction distance towers, so you'll be able to determine your specific settings. Not all calibrations can be done like this, like calibrating the steps of your extruder ("e-steps"), but many.   
-I'll list some options in the following.   
+Using certain tools makes it easier to calibrate your printer. It'll allow you to generate your own specific models which are necessary for certain calibrations, like e.g. temperature or retraction distance towers. I'll list some options in the following.   
 
 - **SuperSlicer**  
   I personally prefer SuperSlicer (after I used Cura in the first place), especially when it comes down to calibration.   
