@@ -24,7 +24,7 @@ Prices for the RPi went up to a ridiculous level (afaik at least in Europe and t
 Also you don't want to get yourself an old RPi2B for example, it should be a RPi3B at least (referring to OctoPrint a RPi Zero 2W also works, it uses the same Broadcom SoC like the RPi3) - a RPi4 would be even better and advisable. Not only because of the pure processor power or the RAM - both is sufficient even with the RPi3 for example, but mostly because of the reason how the USB sockets are connected to the CPU. Afaik, up until the RPi3 the Broadcom BCM2837 only offers *one* USB port itself. This one port is split up by using a SMSC LAN9514 hub chip to get four USB connectors out of it *and* it also uses the LAN port.  
  
 If you're asking yourself now "What the heck is this guy talking about - I have four USB connectors available there, so what's the problem?" - well, let me try to explain it to you very simple:  
-Imagine you connect your RPi3 to a monitor and plug in a mouse, keyboard, your 3D printer and a webcam to the USB sockets and maybe you also use the LAN connection (because everybody who knows wireless uses wires ;) ). Then you start your printing process sending the gcode file to the printer and start to observe the printing process using the camera. Then all of the informations are running across the same one and only USB port of the SoC (the main CPU). That means that most likely you'll find yourself noticing some kind of stuttering during the printing process and/or the stream of the webcam.  
+Imagine you connect your RPi3 to a monitor and plug in a mouse, keyboard, your 3D printer and a webcam to the USB sockets and maybe you also use the LAN connection (because everybody who knows wireless uses wires ;) ). Then you start your printing process sending the gcode file to the printer and start to observe the printing process using the camera. Then all of the information are running across the same one and only USB port of the SoC (the main CPU). That means that most likely you'll find yourself noticing some kind of stuttering during the printing process and/or the stream of the webcam.  
 That doesn't occur because of a lack of RAM or CPU power (what people use to assume) - that occurs because of the architecture and the bottleneck "one USB port at the SoC". So you can see it like a four lane street going down to one lane - as soon as there's (much) traffic on all of those four lanes, you'll get stuck in the traffic where it goes down to one lane.  
 
 So does that mean you shouldn't use a RPi? No, not at all, it works absolutely fine - just be aware of the fact that it might not be the best solution for your money during these times where they became pretty expensive.  
@@ -35,14 +35,14 @@ So does that mean you shouldn't use a RPi? No, not at all, it works absolutely f
   
 ??? tip "RPi plus Touchscreen"
 
-    If you're using a RPi, you can add a touchscreen to it and install an additional software like [OctoDash](https://github.com/UnchartedBull/OctoDash) which gives you a nice clean UI for OctoPrint optimized for small screens. It allows you to display certain status informations and makes it possible to interact with OctoPrint directly using the touchscreen.  
+    If you're using a RPi, you can add a touchscreen to it and install an additional software like [OctoDash](https://github.com/UnchartedBull/OctoDash) which gives you a nice clean UI for OctoPrint optimized for small screens. It allows you to display certain status information and makes it possible to interact with OctoPrint directly using the touchscreen.  
     Especially when you're using the Klipper firmware instead of the stock firmware this a great solution to still be able to monitor and control your printer while you're sitting in front of it as the regular control unit of your printer doesn't work with Klipper anymore. In this case I'd recommend to check out [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/).  
   
 ??? tip "RPi plus (Web-)Cam"
 
     However, if you're already running a RPi(3) and face those kind of problems as mentioned above which may be caused by a connected webcam to the RPi, I'd suggest the following:  
 
-    - Switch to a cheap/old type of webcam which only offers a low resolution like 480p (640x480). You don't need 4K to see what's going on and by using a low resolution you can at least decrease the amount of informations that has to run through the mentioned bottleneck.  
+    - Switch to a cheap/old type of webcam which only offers a low resolution like 480p (640x480). You don't need 4K to see what's going on and by using a low resolution you can at least decrease the amount of information that has to run through the mentioned bottleneck.  
     - Don't create a time lapse video as it really is consuming a lot of processor power and RAM.
     - Get rid of the USB cam and set up an IP cam (WiFi/LAN) instead which isn't connected to the RPi. Up to me this is even a better solution then downgrading the webcam as the RPi doesn't have to deal with the data from the IP cam at all. If you like to tinker and don't mind the probable effort, get yourself one of those cheap ESP32-CAM modules and set it up. Or just go for a cheap WiFi/LAN camera.   
     - If you're already using a RPi3/4 with a RPi cam and don't have a sufficient housing for that yet, have a look at the thing from [A_Leh](https://www.thingiverse.com/A_Leh): [Anycubic Vyper/ Kobra Raspberry 4b (+3b) housing with camera attachment](https://www.thingiverse.com/thing:4994599)
@@ -50,17 +50,17 @@ So does that mean you shouldn't use a RPi? No, not at all, it works absolutely f
 
 ### Other SBC
 If you can't or don't want to get an RPi but still want to stick to one of those tiny tinker SBC (single board computer) units, you can check out the market what's available and compareable to a RPi, like an "Orange Pi", a "Le Potato" or so on.  
-However, I'm not going into further details here as I personally don't use them and therefore can't give reliable informations about which boards exactly might be a god substitue to a RPi.  
+However, I'm not going into further details here as I personally don't use them and therefore can't give reliable pieces of information about which boards exactly might be a good substitue to a RPi.  
 
 ### Old Android Devices
 Yes, you've read correct: certain software could also be installed onto your old Android device like your smartphone or your tablet. Namely especially OctoPrint has to be mentioned here.  
-I won't go deeper here though due to my lack of experience with this solution - you'll find many informations about this around the web. One of those sources of informations I'd like to mention though is the video of [Thomas Sanladerer: How to run OctoPrint on your phone!](https://www.youtube.com/watch?v=74xdib_-X38) and the GitHub repository of [feelfreelinux: octo4a](https://github.com/feelfreelinux/octo4a).  
+I won't go deeper here though due to my lack of experience with this solution - you'll find many information about this around the web. One of those sources of information I'd like to mention though is the video of [Thomas Sanladerer: How to run OctoPrint on your phone!](https://www.youtube.com/watch?v=74xdib_-X38) and the GitHub repository of [feelfreelinux: octo4a](https://github.com/feelfreelinux/octo4a).  
   
-Besides the possibilty to use your old android device as a printserver, you can also use it as an additional screen for software like OctoPrint. That means that you don't install e.g. OctoPrint itself on the android device - you install an app which connects with the running instance of OctoPrint and gives you a nice UI on your smartphone. By doing so you could mount your old phone at the printer and interact with OctoPrint using your touchscreen or just have certain informations displayed at the screen.  
+Besides the possibilty to use your old android device as a printserver, you can also use it as an additional screen for software like OctoPrint. That means that you don't install e.g. OctoPrint itself on the android device - you install an app which connects with the running instance of OctoPrint and gives you a nice UI on your smartphone. By doing so you could mount your old phone at the printer and interact with OctoPrint using your touchscreen or just have certain information displayed at the screen.  
 
 ??? tip "KlipperScreen On An Old Android Device" 
 
-    Especially when you flashed the Klipper firmware onto your mainboard, using an old Android device as an additional screen mounted to the printer is a cheap solution for still being able to execute direct commands or having status informations visible while sitting in front of your printer as the regular control unit doesn't work with the Klipper firmware anymore. Just install [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/) and you're good to go.  
+    Especially when you flashed the Klipper firmware onto your mainboard, using an old Android device as an additional screen mounted to the printer is a cheap solution for still being able to execute direct commands or having status information visible while sitting in front of your printer as the regular control unit doesn't work with the Klipper firmware anymore. Just install [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/) and you're good to go.  
     You can see a picture of how it looks like on an old Samsung Galaxy SII in [this section](../firmware/fw_klipper.md#stock-control-unit).    
   
 ??? tip "USB OTG"
@@ -99,7 +99,7 @@ If you have a NAS or a server up and running already, you could also install the
 
 ## Software
 
-When it comes down to the software that should run on the printserver, you can choose between different solutions. It also depends a bit which kind of firmware you're running. My personal opinion on this: if you're running the stock one which is Marlin based, just go with OctoPrint. If you're using Klipper firmware, you can stick to OctoPrint or use Marlin (or Fluidd, as they're basically made for Klipper). Yes, you could also look out for different software, but because those programs are commonly used you'll find a lot of informations about them and also many plugins for enhancing the capability even more. I'd recommend to do a little websearch on that, you might want to start with this article though: [Ocbico: Mainsail vs. Fluidd vs. Octoprint - A Comparison](https://www.obico.io/blog/mainsail-vs-fluidd-vs-octoprint/)
+When it comes down to the software that should run on the printserver, you can choose between different solutions. It also depends a bit which kind of firmware you're running. My personal opinion on this: if you're running the stock one which is Marlin based, just go with OctoPrint. If you're using Klipper firmware, you can stick to OctoPrint or use Marlin (or Fluidd, as they're basically made for Klipper). Yes, you could also look out for different software, but because those programs are commonly used you'll find a lot of information about them and also many plugins for enhancing the capability even more. I'd recommend to do a little websearch on that, you might want to start with this article though: [Ocbico: Mainsail vs. Fluidd vs. Octoprint - A Comparison](https://www.obico.io/blog/mainsail-vs-fluidd-vs-octoprint/)
   
 
 ## How To Install
