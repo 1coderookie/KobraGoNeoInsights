@@ -178,7 +178,7 @@ It might happen that either a **wrong temperature will be read** or that the **w
   
 | Err: MINTEMP | Err: MAXTEMP | Err: THERMAL RUNAWAY |
 |--------------|--------------|----------------------|
-| ![Err: MINTEMP: Bed](assets/images/controlunit_err_bed-min-temp_web.jpg)   | ![Err: MAXTEMP: E1](assets/images/controlunit_err_e1-max-temp_web.jpg) | ![Err: THERMAL RUNAWAY: E1](assets/images/thermal_runaway_e1_web.jpg) |  
+| ![Err: MINTEMP: Bed](assets/images/controlunit_err_bed-min-temp_web.jpg)   | ![Err: MAXTEMP: E1](assets/images/controlunit_err_e1-max-temp_web.jpg) | ![Err: THERMAL RUNAWAY: E1](assets/images/controlunit_thermal-runaway_e1_web.jpg) |  
   
 Before going into details here, I have to mention that I personally only came across the warnings "Err: MAXTEMP: E1" and "Err: MINTEMP: Bed". I might be wrong of course, but looking at the underlying reasons for these kind of errors, I *assume* that it's also possible to get the warnings "Err: MINTEMP: E1" and "Err: MAXTEMP: Bed". Therefore I'll write the next sections assuming and regarding that both type of messages may occur for either the extruder or the bed. So please keep that in mind when reading further..   
   
