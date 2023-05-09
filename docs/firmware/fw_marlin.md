@@ -731,7 +731,7 @@ The default settings for X, Y, Z, E0 are:
 
 ??? info  
   
-    You can see that the maximum feed rate for the extruder E0 is set to 25mm/s. That means that this is the *limit* for the retraction speed also! See the following section for more informations about it. 
+    You can see that the maximum feed rate for the extruder E0 is set to 25mm/s. That means that this is the *limit* for the retraction speed also! See the following section for more information about it. 
       
 **Default Max Acceleration** (change/s) change = mm/s (Maximum start speed for accelerated moves): 500, 500, 100, 1000 -> you can override them with `M201`
   
@@ -799,7 +799,7 @@ The default settings for X, Y, Z, E0 are:
 
 ??? info  
   
-    You can see that the maximum feed rate for the extruder E0 is set to 25mm/s. That means that this is the *limit* for the retraction speed also! See the following section for more informations about it.
+    You can see that the maximum feed rate for the extruder E0 is set to 25mm/s. That means that this is the *limit* for the retraction speed also! See the following section for more information about it.
 
 **Default Max Acceleration** (change/s) change = mm/s (Maximum start speed for accelerated moves): 500, 500, 100, 500 -> you can override them with `M201`
   
