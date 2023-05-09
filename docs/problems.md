@@ -200,7 +200,8 @@ Before going into details here, I have to mention that I personally only came ac
 - **MAXTEMP** errors will be triggered when the temperature of the belonging part (extruder or bed) exceeds the defined maximum temperature (or if a certain hardware error occurs which leads to a resistance value which will be interpreted by the MCU as a too high temperature).  
   The maximum temperatures for both the extruder and the bed are set in the files `Configuration.h` of the belonging [stock firmware](firmware/fw_marlin.md#default-settings):  
   ```
-  // Above this temperature the heater will be switched off. This can protect components from overheating, but NOT from shorts and failures.
+  // Above this temperature the heater will be switched off.  
+  // This can protect components from overheating, but NOT from shorts and failures.
   #define HEATER_0_MAXTEMP 275  
   #define BED_MAXTEMP      120  // max target temp-10=110
   ``` 
@@ -221,7 +222,8 @@ Thermal Protection / Thermal Runaway -> Hotend:
 #define THERMAL_PROTECTION_HYSTERESIS 10     // Degrees Celsius
 ```  
 ```
-// Above this temperature the heater will be switched off. This can protect components from overheating, but NOT from shorts and failures.
+// Above this temperature the heater will be switched off.  
+// This can protect components from overheating, but NOT from shorts and failures.
 #define HEATER_0_MAXTEMP 275  
 ```
   
@@ -229,7 +231,7 @@ Reasons that can cause this might vary from being easy to fix to a real hardware
 
 - The printer is exposed to cold air and therefore the temperature drops rapidly. This might be caused by e.g. a window or door you opened. So make sure to prevent the printer being exposed to an area where (cold) air ventilates too much. Also use the printer in a room which isn't too cold in general.  
 - The blue [silicone sock](hardware/printhead.md#silicone-sock) of the heater block came off (or isn't present because you took it off) and the part cooling fan blows at the heater block instead of blowing at the printed part. So make sure to add a silicone sock and adjust the airflow of the part cooling fan.  
-- The wires of the thermistor cable are broken (inside of the insulation) and they're losing contact due to movement that occurs.  
+- *The wires of the thermistor cable are broken (inside of the insulation) and they're losing contact due to movement that occurs.*  
 - The insulation of the thermistor cable is harmed and the blank wires of both cables are touching each other.  
 - The thermistor cable is completely broken or ripped off.  
 - The thermistor itself is faulty.  
@@ -259,7 +261,8 @@ Thermal Protection / Thermal Runaway -> Bed:
 #define THERMAL_PROTECTION_BED_HYSTERESIS     2 // Degrees Celsius
 ```
 ```
-// Above this temperature the heater will be switched off. This can protect components from overheating, but NOT from shorts and failures.
+// Above this temperature the heater will be switched off.  
+// This can protect components from overheating, but NOT from shorts and failures.
 #define BED_MAXTEMP      120  // max target temp-10=110
 ```
   
@@ -267,7 +270,7 @@ Reasons that can cause this might vary from being easy to fix to a real hardware
 
 - The printer is exposed to cold air and therefore the temperature drops rapidly. This might be caused by e.g. a window or door you opened. So make sure to prevent the printer being exposed to an area where (cold) air ventilates too much. Also use the printer in a room which isn't too cold in general.  
   
-- The wires of the thermistor cable are broken (inside of the insulation) and they're losing contact due to movement that occurs.  
+- *The wires of the thermistor cable are broken (inside of the insulation) and they're losing contact due to movement that occurs.*  
 - The insulation of the thermistor cable is harmed and the blank wires of both cables are touching each other.  
 - The thermistor cable is completely broken or ripped off.  
 - The thermistor itself is faulty.  
