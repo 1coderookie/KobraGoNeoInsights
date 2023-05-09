@@ -46,7 +46,7 @@ The bedplate itself is mounted to the y-axis gantry shown in the following pictu
   
 ??? tip "Execute PID Tuning For The Bed"
 
-    To make sure the heating algorithm can work as expected and keeps the fluctuation of the temperature as low as possible, execute a PID tuning. You can find informations about how to do that in the chapter ["PID Tuning"](../pid-tune.md).  
+    To make sure the heating algorithm can work as expected and keeps the fluctuation of the temperature as low as possible, execute a PID tuning. You can find information about how to do that in the chapter ["PID Tuning"](../pid-tune.md).  
   
 ??? tip "Clean The PEI Plate Of The Bed"
 
@@ -61,7 +61,7 @@ The bedplate itself is mounted to the y-axis gantry shown in the following pictu
   
 ??? tip "Level The ABL Sensor"
 
-    It's advisable to level the ABL sensor in relation to the nozzle initially, you can find informations about it in the hardware section within the chapter ["Printhead"](printhead.md#leveling-or-dismounting-the-abl-sensor).  
+    It's advisable to level the ABL sensor in relation to the nozzle initially, you can find information about it in the hardware section within the chapter ["Printhead"](printhead.md#leveling-or-dismounting-the-abl-sensor).  
     
 ??? tip "Bed Level Visualization"
 
