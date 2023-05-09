@@ -3,19 +3,21 @@
 # Calibration
 For getting high quality prints, you need to calibrate your printer. As there are many things being worth mentioned and I can't cover and explain all of them, I'll just talk about a few which seem to be the most crucial ones beginners might not be aware of. There are many websites and YouTube guides out there to find which are already covering this wide topic of calibration, so I'd recommend to do a little research by your own.  
 However, to make this journey a bit easier for you to begin with, I'll list some pages that I personally found useful in the section ["Calibration Guides"](calibration.md#calibration-guides). For more information and general sources of information also check out the chapter ["Further Sources"](further_sources.md).  
-
-??? tip "Calibration Using OctoPrint"
-
-    If you're using OctoPrint, you might want to check out the plugin ["Marlin Calibration Tools"](https://plugins.octoprint.org/plugins/CalibrationTools/) which allows you to easily execute different calibration procedures.  
-    
-??? tip "Calibration Models For Cura"
-
-    If you're using Cura, you might want to check out the plugin ["Calibration Shapes"](https://marketplace.ultimaker.com/app/cura/plugins/5axes/CalibrationShapes) which gives you access to different STL models you can use for calibration. Before slicing and printing, make sure you're reading the specific notes about the models at the [wiki page of the creator](https://github.com/5axes/Calibration-Shapes/wiki).  
+  
     
 ??? tip "Calibration Using SuperSlicer"
 
-    I personally prefer SuperSlicer (after I used Cura in the first place). One of the great functions is, that SuperSlicer already comes with an inbuilt set of calibration tools. You'll follow the proposed order and generate the specific 3d models for your specific needs with just one click. After that, you just print them and don't have to take care about additional code sections (e.g. like applying temperature or retraction distance changes at layer xy) which is necessary when using Cura and the abovementioned Calibration Shapes plugin.  
-    
+    I personally prefer SuperSlicer (after I used Cura in the first place), especially when it comes down to calibration. One of the great functions is, that SuperSlicer already comes with an *inbuilt set of calibration tools*. You'll follow the proposed order and generate the specific 3d models for your specific needs with just one click, like temperature towers, retraction towers and so on. After that, you just print them and don't have to take care about additional code sections (e.g. like applying temperature or retraction distance changes at layer xy) which is necessary when using Cura and the Calibration Shapes plugin.  
+
+??? tip "Calibration Models For Cura"
+
+    If you're using Cura, you might want to check out the plugin ["Calibration Shapes"](https://marketplace.ultimaker.com/app/cura/plugins/5axes/CalibrationShapes) which gives you access to different STL models you can use for calibration. Before slicing and printing, make sure you're reading the specific notes about the models at the [wiki page of the creator](https://github.com/5axes/Calibration-Shapes/wiki).  
+
+??? tip "Calibration Using OctoPrint"
+
+    If you're using OctoPrint, you might want to check out the plugin ["Marlin Calibration Tools"](https://plugins.octoprint.org/plugins/CalibrationTools/) which allows you to easily execute different calibration procedures.
+
+---
 
 ## Calibration Guides
 There are many sites and tutorials to find which are about calibration, so you might want to search for that at your preferred site first. However, I found the following guides useful.  
@@ -24,6 +26,8 @@ There are many sites and tutorials to find which are about calibration, so you m
 - [Elli's Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/) made by @[AndrewEllis93](https://github.com/AndrewEllis93)
 - [All3DP's article "Extruder Calibration: How to Calibrate E-Steps"](https://all3dp.com/2/extruder-calibration-6-easy-steps-2/)
 - The [Print Quality Troubleshooting Guide](https://www.simplify3d.com/resources/print-quality-troubleshooting/) is a good start to compare your faulty prints and see what may caused the problem.  
+
+---
 
 ## Z-Offset  
 The z-offset is the distance between the nozzle and the bed/plate you're printing on. It comes into account when printing the first layer of a model and therefore it's crucial and absolutely important that you dial in your z-offset to get your first layer as perfect as possible.  
@@ -34,8 +38,8 @@ To determine the perfect first layer, I'd recommend to have a look at [this hand
 
 ??? tip "Tram The X-Axis Gantry"  
 
-    I'd recommend to tram the x-axis gantry before adjusting the z-offset. Of course you don't need to do this every time you adjust the z-offset, you need to tram the gantry one time and then it should be good.  
-    If you're using the rigid stock spacers, tram the gantry in relation to the bed itself. If you're using adjustable spacers, tram the gantry in relation to the base frame and then tram the bed in relation to the nozzle. See the first violet expandable textbox in the section ["X-Axis Gantry"](hardware/axes.md#x-axis-gantry) for a more detailed description.  
+    I'd recommend to [tram the x-axis gantry](hardware/axes.md#tramming-the-x-axis-gantry) before adjusting the z-offset. Of course you don't need to do this every time you adjust the z-offset, you need to tram the gantry one time and then it should be good.  
+    If you're using the rigid stock spacers, tram the gantry in relation to the bed itself. If you're using adjustable spacers, tram the gantry in relation to the base frame and then tram the bed in relation to the nozzle. See the section ["Tramming The X-Axis Gantry"](hardware/axes.md#tramming-the-x-axis-gantry) for a more detailed description.  
     
 ??? tip "Proceed An ABL Sequence Before, Not After Setting The Z-Offset"  
 
@@ -46,7 +50,7 @@ When it comes down to describe the actual process of how to determine and set th
 
 However, from what I do remember right now you (roughly) do it this way:  
 
-- After tramming the x-axis gantry (if you never did it before, otherwise you can skip this step) and executing an ABL sequence, home the printer.  
+- After [tramming the x-axis gantry](hardware/axes.md#tramming-the-x-axis-gantry) (if you never did it before, otherwise you can skip this step) and executing an ABL sequence, home the printer.  
 - Preheat the system for PLA temperatures by using the control unit.  
 - With the printer homed, enter the menu in the control unit where you can move the axes manually, choose "Move Z" and set the value to zero.  
 - Then move the printhead to the middle of the bed (x and y axes) - I'd recommend to do so by using the control unit as well instead of moving it manually to avoid any movement on the z-axis.  
@@ -56,6 +60,8 @@ However, from what I do remember right now you (roughly) do it this way:
 
 Then start a print job and verify that the first layer came out perfect. Compare the look of it with the abovementioned poster from Billie Ruben to check if it really is perfect or if you need a bit of adjustment.  
 If you need to adjust the height, you don't need to execute an ABL sequence again, just correct the z-offset setting. You can also adjust it 'on the fly' while printing a (larger) first layer and look at the outcome - this is often even better as you'll see the effect right away.    
+  
+---
   
 ## Retraction Settings
 As a crucial element for great printing results you need to find the optimum settings for retraction *distance* and retraction *speed*.  
@@ -70,7 +76,7 @@ The correct settings will mostly avoid stringing. There are various aspects whic
     If the feeder gear pressure is too low, the gear won't 'grab' the filament sufficiently and therefore starts slipping and grinding instead of pulling it back. If the pressure is too high though, it'll deform the filament which may result in e.g. visible artefacts of your printed model. So make sure you adjusted the correct pressure.   
     You can check if the filament gets properly fed and retracted by looking at the filament. Adding some marks with a water resistant pen might be helpful. Observe the filament if it gets retracted (= pushed back) and fed reliably when the printer should do so.   
     
-
+---
 
 ### Retraction Distance
 The retraction distance is a crucial setting one has to take care about. The retraction *distance* (r.d.) is the setting how *far* the feeder gear will pull back the filament when retracting. However, if the r.d. is too high, it'll lead to clogs.    
@@ -87,6 +93,7 @@ For finding out the correct r.d. setting, you can print retraction distance towe
     This one is really important for the **Neo**: watch out if you're going to use the profile of Anycubic, the retraction distance is set to 6mm there, which is way too much for the direct drive system of the **Neo** as mentioned above! So change that setting to max. 1mm and go from there.   
     Always make sure to check this setting in general when using preconfigured profiles!  
 
+---
 
 ### Retraction Speed
 Retraction *speed* (r.s.) is the setting how *fast* the feeder gear will pull back the filament when retracting. It plays together with the setting of the retraction distance, and both settings affect each other.  
@@ -115,6 +122,7 @@ Doing the math, you'll realize that e.g. 0.2mm l.h. = 5 steps, 0.24mm l.h. = 6 s
 So when choosing a l.h. like e.g. 0.15mm or 0.3mm, the motor has to do 3.75 or 7.5 steps which isn't smart and won't be as accurate and reliable as doing full steps.  
 So: always choose layer heights which can be 'fully' divided by 0.04mm.
 
+---
   
 ## PID Tuning
 Without going into too much details here, PID stands for Proportion, Integral and Derivate. These are three variables of an algorith which is supposed to keep the temperature stable.  
@@ -196,6 +204,8 @@ Recv: ok
 That's it!  
 Congratulations, you just did the PID tuning for your extruder!
     
+---    
+    
 ### Bed PID Tuning
 Now you want to do the same for your heated bed, but you have to use a different command.  
 Because I use to print at a bed temperature of 60°C, I want to execute the PID tuning at that temperature also. Again it should be done seven times.  
@@ -229,6 +239,8 @@ Congratulations, you just did the PID tuning for your bed!
 ??? tip "Insulate The Bedplate"  
 
     Insulating the bedplate with sufficient material has a great effect on the stability and the behaviour while heating up and cooling down. It'll minimize temperature fluctuations and saves electrical energy as well. Check out the section [Insulating the Bed](hardware/bed.md#insulating-the-bed) for further information.  
+    
+---    
     
 ## Calibrating E-Steps
 You've probably already came along the sentence "calibrate your e-steps" and maybe you wonder what it is, what you'd have to do and why you should do so. It's actually pretty simple: the "e-steps" are the steps of the motor of your extruder (so "e-steps" stands for "extruder-steps") and therefore they determine how much filament will be extruded with a certain amount of motor steps.  
