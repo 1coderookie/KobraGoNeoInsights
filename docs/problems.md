@@ -199,7 +199,6 @@ Before going into details here, I have to mention that I personally only came ac
   
 - **MAXTEMP** errors will be triggered when the temperature of the belonging part (extruder or bed) exceeds the defined maximum temperature (or if a certain hardware error occurs which leads to a resistance value which will be interpreted by the MCU as a too high temperature).  
   The maximum temperatures for both the extruder and the bed are set in the files `Configuration.h` of the belonging [stock firmware](firmware/fw_marlin.md#default-settings):  
-
   ```
   // Above this temperature the heater will be switched off. This can protect components from overheating, but NOT from shorts and failures.
   #define HEATER_0_MAXTEMP 275  
