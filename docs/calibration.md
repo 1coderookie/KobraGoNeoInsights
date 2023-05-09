@@ -2,7 +2,7 @@
 
 # Calibration
 For getting high quality prints, you need to calibrate your printer. As there are many things being worth mentioned and I can't cover and explain all of them, I'll just talk about a few which seem to be the most crucial ones beginners might not be aware of. There are many websites and YouTube guides out there to find which are already covering this wide topic of calibration, so I'd recommend to do a little research by your own.  
-However, to make this journey a bit easier for you to begin with, I'll list some pages that I personally found useful in the section ["Calibration Guides"](calibration.md#calibration-guides). For more informations and general sources of informations also check out the chapter ["Further Sources"](further_sources.md).  
+However, to make this journey a bit easier for you to begin with, I'll list some pages that I personally found useful in the section ["Calibration Guides"](calibration.md#calibration-guides). For more information and general sources of information also check out the chapter ["Further Sources"](further_sources.md).  
 
 ??? tip "Calibration Using OctoPrint"
 
@@ -228,7 +228,7 @@ Congratulations, you just did the PID tuning for your bed!
 
 ??? tip "Insulate The Bedplate"  
 
-    Insulating the bedplate with sufficient material has a great effect on the stability and the behaviour while heating up and cooling down. It'll minimize temperature fluctuations and saves electrical energy as well. Check out the section [Insulating the Bed](hardware/bed.md#insulating-the-bed) for further informations.  
+    Insulating the bedplate with sufficient material has a great effect on the stability and the behaviour while heating up and cooling down. It'll minimize temperature fluctuations and saves electrical energy as well. Check out the section [Insulating the Bed](hardware/bed.md#insulating-the-bed) for further information.  
     
 ## Calibrating E-Steps
 You've probably already came along the sentence "calibrate your e-steps" and maybe you wonder what it is, what you'd have to do and why you should do so. It's actually pretty simple: the "e-steps" are the steps of the motor of your extruder (so "e-steps" stands for "extruder-steps") and therefore they determine how much filament will be extruded with a certain amount of motor steps.  
