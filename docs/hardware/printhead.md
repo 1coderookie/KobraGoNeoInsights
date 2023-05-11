@@ -330,7 +330,8 @@ Anycubic ships the printheads with a 0.4mm **E3D V6 type** brass nozzle for 1.75
   
 ![E3D nozzle](../assets/images/head_nozzle-e3d_web.jpg)  
 
-So if you're looking for replacement nozzles, make sure to get yourself the correct ones! I highly recommend to only use high quality nozzles, like the [**original E3D V6 nozzles**](https://e3d-online.com/products/v6-nozzles) (see the infobox below as well)!  
+So if you're looking for replacement nozzles, make sure to get yourself the correct type!  
+I highly recommend to only use high quality nozzles, like the [**original E3D V6 nozzles**](https://e3d-online.com/products/v6-nozzles) (see the infobox below as well)!  
     
 !!! warning  
 
