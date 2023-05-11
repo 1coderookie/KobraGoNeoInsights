@@ -121,7 +121,7 @@ The **Go** uses a bowden drive extruder/feeder, while the **Neo** is using a dir
   
 ### Go
   
-The following picture shows the bowden drive feeder system of the **Go**. The feeder gear box mounted onto the extruder motor is located on the left side next to the z-axis lead screw and is connected with the white PTFE bowden tube (which leads the filament) to the printhead.  
+The following picture shows the bowden drive feeder system of the **Go**. The feeder gear box mounted onto the extruder motor is located on the left side next to the z-axis lead screw and is connected with the white PTFE bowden tube (which leads the filament) to the printhead. The bowden tube is about 38-40cm long.  
 
 ![](../assets/images/head_GO_feeder-head_web.jpg)  
 
@@ -195,7 +195,7 @@ In the following, the specific hotends will be shown. Before jumping to the spec
 ??? info "Spare Part PTFE Bowden Tube"
 
     If you need a new PTFE bowden tube, I'd recommend to get the 4mm "Capricorn XS" tube for 1.75mm filament at the length of 1m. Then just cut the belonging length and replace the old bowden tube. You can also get it in a set with a cutter.  
-    However, make sure you make a clean and perpendicular cut at a 90° angle to avoid any small gaps between the nozzle and the end of the tube! I personally like to just cut along the end of the heatbreak, using it as a guide for the knife. <br> ![Capricorn XS](../assets/images/head_capricornXS_web.jpg)     
+    However, make sure you make a clean and perpendicular cut at a 90° angle to avoid any small gaps between the nozzle and the end of the tube! You can use a special cutter that comes in certain sets from Capricorn, print one of the many available cutting guides or just cut along the end of the heatbreak, using it as a guide for the knife. <br> ![Capricorn XS](../assets/images/head_capricornXS_web.jpg)     
     
 ??? info "Spare Part Heatbreak"
 
@@ -229,7 +229,7 @@ In the following, the specific hotends will be shown. Before jumping to the spec
    
 ### Go
   
-The hotend of the **Go** is shown in the next pictures. In the second picture you can see the heatbreak screwed into the block but dismounted from the aluminum cooling element.  
+The hotend of the **Go** is shown in the next pictures. The bowden tube is about 38-40cm long. In the second picture you can see the heatbreak screwed into the block but dismounted from the aluminum cooling element.  
 
 ![Hotend](../assets/images/head_go_hotend_web.jpg)  
   
