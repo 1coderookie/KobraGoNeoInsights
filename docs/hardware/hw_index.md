@@ -1,7 +1,7 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # Introduction
-This section covers the hardware topics like the mainboard, the printhead and so on.  
+This hardware section covers the hardware topics like the mainboard, the printhead and so on.  
 You'll find pictures and notes about the parts, how to disassemble or maintenace them and sometimes also suggestions for spare parts which could be used. Just click on the belonging chapter of the part where the desired part is located at, so e.g. in case you're looking for informations about the hotend, see the chapter "Printhead".  
 
 If I found mods which seem meaningful to me and which fit in the certain area where the part is located at the printer, I'll list them at the end of the belonging chapter (like e.g. a link to an STL file of an upgraded fan duct can be found in the subchapter "Printhead" and so on).  
