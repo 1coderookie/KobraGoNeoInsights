@@ -140,6 +140,8 @@ Also there are a few functions of Cura which should improve the print quality wh
 
 You'll find a good overview of what to be aware of in the tutorial from [All3DP: Cura & Klipper: How to Make Them Work Together](https://www.all3dp.com/2/cura-klipper-tutorial).  
  
+However, there's a ["Klipper Settings Plugin"](https://github.com/jjgraphix/KlipperSettingsPlugin) available which adds a category to Cura called "Klipper Settings" and offers Klipper specific settings and features.  
+ 
 ### PrusaSlicer and SuperSlicer 
 My personal favourites after using Cura for some time. In both slicers you can set the G-code flavor depending on the firmware of the printer (menu "Printer Settings") as shown in the screenshot of SuperSlicer below, so it's already everything set up correctly within the G-code of the sliced files.  
   
