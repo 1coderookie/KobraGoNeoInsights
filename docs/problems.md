@@ -9,9 +9,16 @@ In this chapter I'll list some of the most common problems people seem to have a
 
     Anycubic recently made up a website called "Help Center", where you can select your specific model and search around for problems and possible solutions. You might also wanna have a look at that one: ["Anycubic Help Center"](https://cloud-universe.anycubic.com/w/p/helpCenter/#/pages/machineClassification/machineClassification?id=2&name=FDM%25203D%2520Printer&type=0&isShowShare=true)  
 
-??? info "Print Quality Troubleshooting Guide"
+---
 
-    The [Print Quality Troubleshooting Guide](https://www.simplify3d.com/resources/print-quality-troubleshooting/) is a nice source to compare your faulty prints and see what may caused the problem.  
+## Troubleshooting Guides
+There are many pages and troubleshooting guides out there to find, so maybe do a little research on that as well.  
+However, to offer you an easier start right away, I'd like to mention a few troubleshooting guides here as well:  
+
+- The [Print Quality Troubleshooting Guide](https://www.simplify3d.com/resources/print-quality-troubleshooting/) from [Simplyfy 3D](https://www.simplify3d.com). 
+- The [3D Printer Troubleshooting Guide](https://www.matterhackers.com/articles/3d-printer-troubleshooting-guide) from [Matterhackers](https://www.matterhackers.com).  
+
+If you're (also) looking for tuning and calibration guides, see the chapter ["Calibration"](calibration.md) for some links.  
 
 ---
 
