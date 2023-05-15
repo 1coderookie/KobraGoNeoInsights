@@ -323,3 +323,10 @@ When the homing movement occurs and the head/bed made it about half the way towa
 If the movement stops, then the switch is working fine and the wiring is good as well. In this case it must be an incorrect installation of the switch in terms of it's position. So check that again and adjust the position.   
 If the movement still doesn't stop, *turn off the printer immediately to avoid that the part will crash into the end of that axis*. Then measure the switch itself as well as the wiring using a multimeter. If it turns out that either part is defective, replace the belonging part.  
 
+---
+
+### SD Init Fail
+This error will be reported when the printer somehow doesn't recognize the [micro SD card](hardware/other.md#microsd-card).  
+Try to reformat the card as FAT32 (full format, not fast format). If that still doesn't solve the issue, try different cards (always formatted as FAT32!). The card that came with the printer is 8GB, but cards up to 32GB should work.  
+
+However, it might happen that you'll have to try more than one card, as the printer somehow seems to be a bit picky - I personally had to try five(!) different cards, until it finally accepted one. The reason for this is unknown to me..  
