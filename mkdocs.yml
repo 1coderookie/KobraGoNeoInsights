@@ -143,7 +143,7 @@ nav:
     - Klipper (Mod): 'firmware/fw_klipper.md'
   - Profiles & Settings: 'pro_set.md'
   - Calibration: 'calibration.md'
-  - Problems: 'problems.md'
+  - Troubleshooting: 'troubleshooting.md'
   - Printserver: 'printserver.md'
   - Tools: 'tools.md'
   - G-Code Documentation: 'gcode_doc.md'
