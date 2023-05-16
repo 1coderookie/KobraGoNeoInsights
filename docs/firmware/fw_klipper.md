@@ -201,7 +201,7 @@ My personal favourites after using Cura for some time. In both slicers you can s
   
 ![SuperSlicer firmware](../assets/images/klipperfw_superslicer-flavor.png)
   
-Both slicers have many functionalities to finetune and control the output - you can even choose between different patterns for the top layer finish. They're both pretty identical overall, yet they differ in certain functions. One of them worth mentioning is a handy set of calibration tools that comes with SuperSlicer. This function actually guides you step by step through the calibration process and allows you to generate calibration models like temperature or retraction towers with individual settings by just a few clicks.  
+Both slicers have many functionalities to finetune and control the output - you can even choose between different patterns for the top layer finish. They're both pretty identical overall, yet they differ in certain functions. One of them being worth mentioned is a *handy set of calibration tools that comes with SuperSlicer*. This function actually guides you step by step through the calibration process and allows you to generate calibration models like temperature or retraction towers with individual settings by just a few clicks.  
 
 *I personally would suppose to use the "Arachne Edition" of SuperSlicer (already implemented in the recent version of PrusaSlicer) and enable that function (Print Settings -> Perimeters) as it improves the quality of the printed parts.* 
 
