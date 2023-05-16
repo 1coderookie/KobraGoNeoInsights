@@ -108,7 +108,8 @@ Of course Klipper supports both ABL and manual bed leveling as well. Please see 
 After executing an ABL sequence, you need to save those results for having them written to your `printer.cfg` file - they *won't* be saved automatically!  
 You can either choose an individual name or just save it as "default".  
 
-However, for loading the values and to get ABL to work while printing, you need to add a specific command to your `[gcode_macro START_PRINT]` file to load the bed mesh profile. This has to be added *after* the last G28 (home the printer) command in there. Here's an example of how it looks like with the belonging command for a bed mesh saved as "default".  
+However, for loading the values and to get ABL to work while printing, you need to add a specific command to your `[gcode_macro START_PRINT]` file to load the bed mesh profile. This command `BED_MESH_PROFILE LOAD=...` has to be added *after* the last G28 (home the printer) command in there, with the belonging name of the mesh that should be loaded.  
+Here's an example of how it looks like with the belonging command for a bed mesh saved as "default".  
 
 ```
 # Home the printer 
@@ -118,7 +119,8 @@ G28
 BED_MESH_PROFILE LOAD=default
 ```
 
-If you chose individual names for different bed meshs (e.g. "mesh1"), you need to name the specific one you want to be loaded then in the abovementioned command (e.g. `BED_MESH_PROFILE LOAD=mesh1`). If you saved the mesh using the "default" name like it's being suggested by the UI, enter the name "default" as shown above.    
+If you chose individual names for different bed meshs (e.g. "mesh1"), you need to name the specific one you want to be loaded then in the abovementioned command (e.g. `BED_MESH_PROFILE LOAD=mesh1`).  
+If you saved the mesh using the "default" name like it's being suggested by the UI, enter the name "default" as shown above.    
 
 You can configure the ABL procedure within your `printer.cfg` as well so that it fits your needs.  
 Means, you can change the amount and location of probing points, the probing speed and the amount of probes for each probing point. You can also choose between different probe algorithms. 
@@ -136,7 +138,7 @@ algorithm: lagrange
 ```  
 Please see the [configuration reference for the bed mesh](https://www.klipper3d.org/Config_Reference.html#bed_mesh) for more detailed information.  
 
-There's even an [approach which probes the specific area you're going to print on](https://gist.github.com/ChipCE/95fdbd3c2f3a064397f9610f915f7d02) before staring the print. 
+There's even an [approach which probes the specific area you're going to print on](https://gist.github.com/ChipCE/95fdbd3c2f3a064397f9610f915f7d02) before starting the print. 
   
 Besides that, you can also use manual bed leveling in addition to the ABL, see the belonging description in the official Klipper documentation [here](https://www.klipper3d.org/Manual_Level.html).  
 This is especially useful for people who replaced the stock spacers of the bed with [adjustable spacers](../hardware/bed/#different-spacers) for being able to tram the bed itself as well.  
@@ -145,11 +147,18 @@ I'd suppose to also read the description of the function ["screws_tilt_adjust" w
   
   
 ### Pressure Advance
-By using Klipper you can take advantage of using a feature called "Pressure Advance". Basically this function looks ahead while printing and adjusts the pressure of the filament, so that the typical over- and underextrusion at the beginning and end of a layer you often experience will be avoided. This feature can't be activated with the current stock firmware and the TMC2208 stepper drivers, so this is actually a huge plus for Klipper.  
+By using Klipper you can take advantage of using a feature called "Pressure Advance".    
+Basically this function looks ahead while printing and adjusts the pressure of the filament, so that the typical over- and underextrusion at the beginning and end of a layer you often experience will be avoided.  
+
+This feature (called "Linear Advance" at Marlin firmware) can't be successfully used with the current stock firmware and the TMC2208 stepper drivers, so this is actually a huge plus for Klipper.  
+
 Please refer to the official Klipper documentation of [Pressure Advance](https://www.klipper3d.org/Pressure_Advance.html) about how to calibrate and use it.  
 
 ### Resonance Compensation: Input Shaping
-By using Klipper you can take advantage of using Resonance Compensation and a feature called "Input Shaping". This function compensates certain resonances (after provoking them while measuring the x and y axis), which avoids the artefacts of the printed model called 'ringing' and 'ghosting'. This is especially useful when printing at higher speeds. You can either calibrate it manually or by using additional hardware like ADXL345 acceleration sensors (recommended).  
+By using Klipper you can take advantage of using Resonance Compensation and a feature called "Input Shaping".  
+This function compensates certain resonances (after provoking them while measuring the x and y axis), which avoids artefacts of the printed model called 'ringing' and 'ghosting'. This is especially useful when printing at higher speeds.  
+You can calibrate it manually or by using additional hardware like ADXL345 acceleration sensors (recommended).  
+
 Please refer to the official Klipper documentation of [Resonance Compensation](https://www.klipper3d.org/Resonance_Compensation.html#resonance-compensation) about how to calibrate and use it.
   
 ## Stock Control Unit
