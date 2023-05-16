@@ -216,17 +216,17 @@ OctoPrint is mentioned and referred to at the Klipper page, so you can use it ju
 You'd need to SSH to the host (e.g. the RPi) to upload edited files like the `printer.cfg` though - if there isn't a plugin for that which allows you to do so within the interface of OctoPrint (I don't know actually).  
   
 ### Mainsail
-I personally prefer to use Mainsail with Klipper as it's tailored for the usage of/with Klipper and gives you more tools made for Klipper rightaway.  
+I personally prefer to use Mainsail with Klipper as it's tailored for the usage of/with Klipper and gives you more tools made for Klipper right away.  
 Just to mention a few here: 
 
 - You can edit the `printer.cfg` and every other file just directly within Mainsail and don't have to SSH to the Raspberry Pi.   
 - You already have a heightmap function included which allows you to create and display the meshview after executing an ABL.   
 - If your slicer does support it (SuperSlicer does), you can have thumbnails of your models displayed.   
 - There's also a G-Code viewer already built in.   
-- You have the possibilty to create custom macros for e.g. executing backups and activate them with one click.   
+- You have the possibilty to create custom macros and add scripts for e.g. executing backups and activate them with one click.   
 - And much more..   
   
 ### Fluidd
-Fluidd is kinda similar to Mainsail, but it doesn't seem to be maintained as much as Mainsail (afaik). I personally didn't use it, so I can't say anything more to it than do a bit of a research by your own.  
+Fluidd is kinda similar to Mainsail, so it's a great alternative if you don't want to use Mainsail. I personally never had a closer look at it though, so I can't say anything more about it. So maybe just do a bit of a research by your own.  
     
 
