@@ -121,28 +121,39 @@ The **Go** uses a bowden drive extruder/feeder, while the **Neo** is using a dir
   
 ### Go
   
-The following picture shows the bowden drive feeder system of the **Go**. The feeder gear box mounted onto the extruder motor is located on the left side next to the z-axis lead screw and is connected with the white PTFE bowden tube (which leads the filament) to the printhead. The bowden tube is about 38-40cm long.  
+The following picture shows the bowden drive feeder system of the **Go**. The feeder gear box is mounted onto the extruder motor with the holding bracket in between. It's located on the left backhand side next to the z-axis lead screw. It's connected with the white PTFE bowden tube (which leads the filament) to the printhead. The bowden tube is about 40cm long.  
 
-![](../assets/images/head_GO_feeder-head_web.jpg)  
+![Head and feeder system](../assets/images/head_GO_feeder-head_web.jpg)  
 
 A closer view of the feeder gear box mounted onto the extruder motor:  
 
-![](../assets/images/head_GO_feeder-system_web.jpg)  
+![Feeder gear system](../assets/images/head_GO_feeder-system_web.jpg)  
 
 The following picture shows the feeder gear box itself.  
 
-![](../assets/images/head_GO_feeder-gear_web.jpg)  
+![Closeup feeder gear box](../assets/images/head_GO_feeder-gear_web.jpg)  
+
+The next picture shows the position of the different screws being used.  
+
+![Screw positions](../assets/images/head_Go_gearbox_screw-positions_web.jpg)
+
+The mounting dimensions of the outer screws which hold the gear box onto the motor (marked with *green* circles) are NEMA17 specific 31mm. The screw on the bottom left corner here also holds the lever in place.  
+The *yellow* circle marks the screw which is used for mounting the cover of the box onto the box itself.  
+The *red* circle marks the position of the screw for adjusting the feeder gear (spring) tension - you can reach that screw form the right sied which is marked with a red arrow.  
+
+The following picture shows the dimensions of the gear box and the lever itself, just in case one wants to get a replacement from a different manufacturer (like a metal gear box).  
+
+![Gear box dimesnions](../assets/images/head_Go_gearbox_dimensions_web.jpg)  
+
+The gear is about 9.2mm outer diameter, approximately 11mm thick and has 31 teeth. There are two set screws for holding it in place when mounted onto the 5mm motor shaft, which therefore is flatted on one side.   
 
 
-
-<!---  
 ??? tip "Feeder Gear Pressure"
 
     When adjusting the pressure of the feeder gear, make sure you don't tighten it up too much as it could squeeze and deform the filament. On the other hand it shouldn't be too loose though as it should transport the filament reliably.  
     When pulling out the filament of the extruder system, you should notice little dents on the surface of the filament from the teeth of the feeder gear, the filament itself shouldn't be squeezed and deformed though, it should still be "round" so to say. You don't want the feeder gear to "bite" too much into the filament as well though, as this may lead to inconsistentites of the filament flow. I personally like to extrude a bit so that the gear actually has to pull it in. Then I do a cold pull and check the marks of the gear on the filament itself. If you can see and feel little marks of the teeth of the gear on the surface of the filament, then it should be ok. If you don't feel and see any marks, then it's too loose. PLA is pretty hard, so the pressure can/should be a bit higher as well, but if the marks are pretty deep, then it already might be too much. If the filament is already a bit squeezed and kinda flat, then it's definitely way too much pressure (you'll most likely experience some weird artefacts, inconcisties and patterns at your prints as well then). 
     The filament should be fed reliably, which especially comes into account while retracting. So keep an eye on the shaft of the motor by looking at the back of the motor - if you notice that it's slipping while retracting, you definitely need to increase the tension.  
     As a rule of thumb you can keep in mind that the pressure should be higher when using hard filament like PLA and lower when using soft filament like TPU.    
--->
 
 ---  
   
@@ -543,7 +554,15 @@ If you need to disassemble the feeder gear system, check out the following steps
 ---  
   
 #### Go
-Sorry, no description available yet..
+Yo can disassemble the feeder gear box by removing the screw of the gear box cover which is marked with a yellow circle in the following picture. You also have to remove the one screw in the lower right corner (marked with a green circle) for taking off the cover then. You don't have to dismount the whole gear box from the motr itself though.  
+If you just want to remove the lever, you'd need to remove the green marked screw in the lower left corner.  
+
+![Gear box marked screws](../assets/images/head_Go_gearbox_screw-positions_web.jpg)  
+
+After removing the cover of the gear box, you'll then be able to access the metal sleeve where the bowden tube runs through.  
+
+![Gear box disassembled](../assets/images/head_Go_gearbox_disass_web.jpg)  
+
   
 ---  
   
