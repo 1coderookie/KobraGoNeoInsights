@@ -8,7 +8,9 @@ So having the possibility to not only send gcode commands directly to the printe
 In case you're already using some kind of home automation software, you could also send yourself a fancy notification when the printing process is done.    
   
 Sounds tempting? Ok, so you'd need additional hardware for that to run the desired software on.  
-*If you want to use Klipper firmware with your printer you'd need additional hardware to run Klipper and e.g. Mainsail on it anyway.*  
+  
+**If you want to use Klipper firmware with your printer you'd need additional hardware to run Klipper and e.g. Mainsail on it anyway.**  
+  
 So let's have a look what might be an interesting and reasonable priced solution for that first.  
   
 ## Hardware  
@@ -49,7 +51,7 @@ So does that mean you shouldn't use a RPi? No, not at all, it works absolutely f
     - Last but not least: make sure you're using a good and fast microSD card and a good USB cable which connects the RPi to the printer.
 
 ### Other SBC
-If you can't or don't want to get an RPi but still want to stick to one of those tiny tinker SBC (single board computer) units, you can check out the market what's available and compareable to a RPi, like an "Orange Pi", a "Le Potato" or so on.  
+If you can't or don't want to get an RPi but still want to stick to one of those tiny tinker SBC (single board computer) units, you can check out the market what's available and comparable to a RPi, like an "Orange Pi", a "Le Potato" or so on.  
 However, I'm not going into further details here as I personally don't use them and therefore can't give reliable pieces of information about which boards exactly might be a good substitue to a RPi.  
 
 ### Old Android Devices
@@ -57,6 +59,8 @@ Yes, you've read correct: certain software could also be installed onto your old
 I won't go deeper here though due to my lack of experience with this solution - you'll find many information about this around the web. One of those sources of information I'd like to mention though is the video of [Thomas Sanladerer: How to run OctoPrint on your phone!](https://www.youtube.com/watch?v=74xdib_-X38) and the GitHub repository of [feelfreelinux: octo4a](https://github.com/feelfreelinux/octo4a).  
   
 Besides the possibilty to use your old android device as a printserver, you can also use it as an additional screen for software like OctoPrint. That means that you don't install e.g. OctoPrint itself on the android device - you install an app which connects with the running instance of OctoPrint and gives you a nice UI on your smartphone. By doing so you could mount your old phone at the printer and interact with OctoPrint using your touchscreen or just have certain information displayed at the screen.  
+
+However, it should be mentioned here that it seems to be a bit like gambling to find the right device which connects with the USB chip being used at the printers mainboard and that can be charged parallel to being connected to the printer as well. It might even occur that the mainboard might get affected somehow if one applies 5V to it through the USB-C connector. 
 
 ??? tip "KlipperScreen On An Old Android Device" 
 
@@ -96,6 +100,9 @@ Anyway - even if they're usually available for a fair price, I want to mention t
 ### NAS / Server
 If you have a NAS or a server up and running already, you could also install the printing software onto that. In this case I'd assume that you already know what you're doing and that you don't need any advise though.   
  
+
+### Sonic Pad
+This is a nice and handy solution for the Klipper users. The Creality Sonic Pad comes with Klipper preinstalled and offers features like WiFi, a touchscreen and so on. User [@mackmind](https://github.com/mackmind) was so kind to write down some [instructions about how to proceed](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/7) for getting a Sonic Pad to work with the Go/Neo.  
 
 ## Software
 
