@@ -47,7 +47,7 @@ If you want to **contribute** an e.g. modification (aka "mod") you did or an imp
     - Thanks to reddit member **[I_Sells_Drugs](https://www.reddit.com/user/I_Sells_Drugs/)** for taking pictures of his sheared off heatbreak!
     - Thanks to reddit member **[the-transponster](https://www.reddit.com/user/the-transponster)** for allowing me to use the picture of his clumped hotend! 
     - Thanks to reddit member **[BlackSunBeast](https://www.reddit.com/user/BlackSunBeast)** for taking pictures of the feeder gear of the **Go** and the **Go** itself!  
-    - Thanks to reddit member **[Dath_Kram](https://www.reddit.com/user/Darth_Kram)** for disassembling the feeder gear box of the **Go**, taking those pics and measuring the dimensions of those parts!  
+    - Thanks to reddit member **[Darth_Kram](https://www.reddit.com/user/Darth_Kram)** for disassembling the feeder gear box of the **Go**, taking those pics and measuring the dimensions of those parts!  
 
 !!! warning "Disclaimer"
 
