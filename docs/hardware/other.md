@@ -8,6 +8,13 @@ Here you can find whatever didn't seem to fit in one of the other chapters.
 The printers are shipped with a 8GB microSD card. If you need to replace that card with a new one, make sure to format it as FAT32. Cards up to 32GB should work.  
 It might happen though that several cards won't be accepted and the error message "SD init fail" will be reported. In that case, try to completely format it again (full format, not fast format) as FAT32. If that still doesn't solve the problem, try a different card. I personally had to try five(!) different cards of different sizes until the printer finally accepted one (actually the oldest 4GB I had laying around).  
   
+## Filament Spool Holder
+The spool holder of both models is mounted to the top frame.  
+
+However, due to the construction of the frame itself, the additional weight being put on top of it, the resulting impact of the (changing) weight on vibrations while printing (especially at higher speeds) and the poor roll-off behavior I'd suppose to create a spool holder which isn't attached to the printer itself and which uses ball bearings as well.    
+If you use a box with a lid which and put a bag of desiccant in the box as well, you'll also can keep the filament dry and dust-free. I personally use a cakebox with a lid which I mounted to an adjustable arm to the wall. The spool itself is held by a bolt with some ball bearing spool holder.     
+If you don't have the space for it, then at least print a holder which uses ball bearings, so that the spool can turn better while the filament gets pulled off of it. Look around at e.g. Thingiverse, there are many models to find.  
+  
 ## Mods
 In the following I'll list mods or STL files I found which could be interesting in general. Keep in mind that they mostly should fit for both printers in general due to the identical design and contruction itself, so (right now) I don't separate them into **Go** and **Neo** like usually.    
 
