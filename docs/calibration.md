@@ -101,22 +101,16 @@ If the nozzle is too far up above the plate, you'll experience that the print do
 If it's too close to the plate and therefore the filament will be squished into the plate too much, then it'll either be difficult to remove the object or (if the nozzle is way too close) it'll provoke clogging as the filament won't be able to come out of the nozzle. Worst case would be that the nozzle scrapes across the plate and that you damage the hardware itself.  
   
 To determine the perfect first layer, I'd recommend to have a look at [this handy guide](https://i.imgur.com/hIcGr8U.png) from [Billie Ruben](https://www.billieruben.info/) first to get an impression how you can judge if the first layer (and therefore the z-offset) is good or not and how it should look like.  
-
-??? tip "Tram The X-Axis Gantry"  
-
-    I'd recommend to [tram the x-axis gantry](hardware/axes.md#tramming-the-x-axis-gantry) before adjusting the z-offset. Of course you don't need to do this every time you adjust the z-offset, you need to tram the gantry one time and then it should be good.  
-    If you're using the rigid stock spacers, tram the gantry in relation to the bed itself. If you're using adjustable spacers, tram the gantry in relation to the base frame and then tram the bed in relation to the nozzle. See the section ["Tramming The X-Axis Gantry"](hardware/axes.md#tramming-the-x-axis-gantry) for a more detailed description.  
     
-??? tip "Proceed An ABL Sequence Before, Not After Setting The Z-Offset"  
+!!! warning "Proceed An ABL Sequence Before, Not After Setting The Z-Offset"  
 
-    Before adjusting the z-offset, I recommend to execute an ABL sequence first - with an already [leveled ABL sensor](hardware/printhead.md) in relation to the nozzle height as well as an already [trammed x-axis gantry](hardware/axes.md#x-axis-gantry).  
+    Before adjusting the z-offset, I recommend to execute an ABL sequence first - with an already [leveled ABL sensor](hardware/printhead.md) in relation to the nozzle height as well as an already [trammed x-axis gantry](hardware/axes.md#x-axis-gantry) (and 'trammed' bed as well).  
     If you execute an ABL *after* you dialed in your z-offset, then you'll have to set the z-offset *again* as it seems that the ABL procedure somehow 'resets' the setting.  
     
 When it comes down to describe the actual process of how to determine and set the z-offset correctly, I have to mention that right now I don't give a 'real' step-by-step instruction here about how to proceed, as I'm using Klipper and don't remember 100% how I proceeded when using the stock firmware.  
 
 However, from what I do remember right now you (roughly) do it this way:  
-
-- After [tramming the x-axis gantry](hardware/axes.md#tramming-the-x-axis-gantry) (if you never did it before, otherwise you can skip this step) and executing an ABL sequence, home the printer.  
+ 
 - Preheat the system for PLA temperatures by using the control unit.  
 - With the printer homed, enter the menu in the control unit where you can move the axes manually, choose "Move Z" and set the value to zero.  
 - Then move the printhead to the middle of the bed (x and y axes) - I'd recommend to do so by using the control unit as well instead of moving it manually to avoid any movement on the z-axis.  
