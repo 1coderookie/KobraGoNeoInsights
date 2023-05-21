@@ -90,8 +90,13 @@ You also should level the ABL sensor in relation to the nozzle, so that you have
 ---
 
 ## Other Calibration
-In the following I'll list some of the calibrations which are necessary. The list isn't completed yet, so things like dialing the temperature for your specific filament and so on aren't mentioned here yet.  
+In the following I'll list some of the calibrations which are necessary. The list isn't completed yet, mostly I'll list calibrations where certain things come into account for these specific printer models. If you don't find a specific calibration mentioned here, please refer to other sources like the abovementioned calibration guides I linked to.  
+  
+Keep in mind that it may take some time until you found the best suitable settings. And even then it might occur that you'll have to adjust certain settings later when finally printing 'real' models. So maybe try to see it more like a process instead of the struggle of a search for the 'perfect' settings which must out there somewhere..  
 
+Also keep in mind that you'll have to do certain calibrations again when using different kinds of filament. This doesn't only comes into account when printing a differenty type like ABS or PETG instead of PLA, but it also most likely will be the case when using the same type of filament but made from another manufaturer. Even the same type and brand of filament from the same manufacturer might need some slightly different settings like the temperature for example, when you're using a new spool or a different colour!  
+  
+  
 ---
 
 ### Z-Offset  
@@ -118,6 +123,30 @@ However, from what I do remember right now you (roughly) do it this way:
 
 Then start a print job and verify that the first layer came out perfect. Compare the look of it with the abovementioned poster from Billie Ruben to check if it really is perfect or if you need a bit of adjustment.  
 If you need to adjust the height, you don't need to execute an ABL sequence again, just correct the z-offset setting. You can also adjust it 'on the fly' while printing a (larger) first layer and look at the outcome - this is often even better as you'll see the effect right away.    
+  
+---
+
+### Printing Temperature (Filament)
+You determie the best printing temperature for your specific type of filament by printing temperature towers. These models change the printing temperature at certain layer heights in certain steps (e.g. in 5°C increments, starting with the highest temperature first), so that you'll print the same structure with different temperatures. For generating a temperature tower with your own specific settings, I recommend using the abovementioned SuperSlicer with the inbuilt calibration toolset. You can take the recommendations of the manufacturer of your filament as a rough guide for the temperature range you should print at.   
+
+Then you inspect the printed model: in which temperature zones does it look best? Where are the layers of the filament solidified and melted together best? Where do overhangs look best and where does (massive) oozing and stringing occur? 
+Don't pay *too much* attention on stringing and oozing yet though, as you'll take care of that later by printing retraction towers. Same goes for bridges (and overhangs): if you notice that bridges didn't come out perfect and that you can see strings of filament 'hanging' down, don't get too irritated by that as well. You can and should take care of bridging specific settings in your slicer later anyway, like a different printing speed, different extrusion rate, different fan speed and so on.    
+
+What's actually more important at this time right now is the *bonding* of the layers!  
+You can encounter an already pretty much great looking print with lower temperatures, but the model will break apart between layers easily. Vice versa you can observe that some stringing, oozing and/or maybe some poorer bridging quality will occur at higher temperatures, but the bonding is much better!  
+As you'll take care of settings that affect stringing and bridging later anyway, *I'd recommend to always go with the higher temperature when in doubt!*   
+Besides only *looking* at the outcome, I personally use to tear apart the printed temperature towers. By doing so, you can find the best printing temperature - not only in terms of the 'look', but also in terms of mechanical stress and resistance.  
+So try to break each temperature section apart by using your hands first. You'll most likely already encounter some floors which are easy to break apart.  
+Once you're done with that, take two pliers and repeat the process for each floor. You'll most likely be able to break every floor at a certain point, but you'll notice some obvious differences like how much force you have to use and *how* the floors break apart.  
+So after you teared the model apart, inspect those areas: did it clearly break right between two layers? Or did it break *across* different layers?  
+When it cleraly broke between two layers, inspect the next floor with the higher temperature being used. Try to find the floor where it seems that the layers sticked together very well and the break most likely occured across different layers.    
+
+Once you're done and decided to go with a specific temperature, continue with other calibrations like printing retraction towers, calibrating the e-steps and so on. At the end I'd recommend to print another temperature tower once again for being able to compare the output to the first one you printed. You don't have to print such a 'large' and wide ranged temperature tower though, maybe just print a tower with the 'final' settings and temperature you decided to use and add a floor with 5° higher and 5° lower temperature.   
+  
+!!! warning "Slightly Lower Temperatures Seem To Be Reported"
+
+    I'd like to mention a finding I made after switching to the Klipper firmware instead of the stock firmware. In the stock firmware the type of temperature sensor for the hotend is set as an "ATC Semitec" type (see the chapter ["Stock Firmware (Marlin Based)"](firmware/fw_marlin.md) for further information). After switching to Klipper, I set different sensor types and inspected the reported temperature. It turned out that with the setting "Generic 3950" the reported temperature seemed to be more accurate than with the "ATC Semitec" type of sensor being set in the stock firmware, which seems to report slightly *lower* temperatures than actually being present at the hotend.   
+    Even though this doesn't really affect the usage at the end, as you'll determine the best printing temperature by the abovementioned outcome in terms of look and bonding quality anyway instead of judging by the sheer temperature value, it is something you should keep in the back of your mind though.  
   
 ---
   
