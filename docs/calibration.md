@@ -139,7 +139,7 @@ Besides only *looking* at the outcome, I personally use to tear apart the printe
 So try to break each temperature section apart by using your hands first. You'll most likely already encounter some floors which are easy to break apart.  
 Once you're done with that, take two pliers and repeat the process for each floor. You'll most likely be able to break every floor at a certain point, but you'll notice some obvious differences like how much force you have to use and *how* the floors break apart.  
 So after you teared the model apart, inspect those areas: did it clearly break right between two layers? Or did it break *across* different layers?  
-When it cleraly broke between two layers, inspect the next floor with the higher temperature being used. Try to find the floor where it seems that the layers sticked together very well and the break most likely occured across different layers.    
+When it clearly broke between two layers, inspect the next floor with the higher temperature being used. Try to find the floor where it seems that the layers sticked together very well and the break most likely occured across different layers.    
 
 Once you're done and decided to go with a specific temperature, continue with other calibrations like printing retraction towers, calibrating the e-steps and so on. At the end I'd recommend to print another temperature tower once again for being able to compare the output to the first one you printed. You don't have to print such a 'large' and wide ranged temperature tower though, maybe just print a tower with the 'final' settings and temperature you decided to use and add a floor with 5° higher and 5° lower temperature.   
   
