@@ -1,10 +1,16 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # Calibration
+***Note: This is WIP, so maybe come back another time as well! ;)***  
+  
 For getting high quality prints, you need to calibrate your printer.  
 As there are many things being worth mentioned and I can't cover and explain all of them, I'll just talk about a few which seem to be the most crucial ones beginners might not be aware of, especially with these printers.  
 
-There are many websites and YouTube guides out there to find which are already covering this wide topic of calibration, so I'd recommend to do a little research by your own.  
+I'll divide this section into two parts: the section "Printer Calibration" and "Other Calibration".  
+- The section "Printer Calibration" will cover the calibration of the hardware itself. It's absolutely necessary that everything is set up correctly and that you take care about some specific topics to get a reliable machine. Please refer to the belonging sections of the chapter "Hardware" as well for further information. 
+- The section "Other Calibration" will cover calibration procedures that need to be done for tuning in the printer itself, like dialing in the z-offset.   
+
+There are many websites and YouTube guides out there to find which are already covering this wide topic of calibration, so I'd recommend to do a little research by your own.   
 However, to make this journey a bit easier for you to begin with, I'll list some pages that I personally found useful in the following section.  
 
 For further sources of information also check out the chapter ["Further Sources"](further_sources.md).  
@@ -29,6 +35,9 @@ Using certain tools makes it easier to calibrate your printer. It'll allow you t
 - **SuperSlicer**  
   I personally prefer SuperSlicer (after I used Cura in the first place), especially when it comes down to calibration.   
   One of the great functions is, that SuperSlicer already comes with an *inbuilt set of calibration tools*.  
+  
+  ![SuperSlicer calibration tools](assets/images/calibration-tools_SuSli.jpg)
+  
   You'll follow the proposed order and generate the specific 3d models for your specific needs with just one click, like temperature towers, retraction towers and so on.  
   After that, you just print them and don't have to take care about additional code sections (e.g. like applying temperature or retraction distance changes at layer xy) which is necessary when using Cura and the Calibration Shapes plugin.  
 
@@ -41,7 +50,52 @@ Using certain tools makes it easier to calibrate your printer. It'll allow you t
 
 ---
 
-## Z-Offset  
+## Printer Calibration 
+The following steps should be done first to ensure that you set up your printer correctly and that you took care of printer specific pecullarities.  
+
+---
+
+### Correct Assembly
+Make sure that you built and set up the printer correctly. This is the most important and crucial thing, as you'll only be able to get good prints if the hardware itself is set up correctly. This also should be checked if you're using the **Neo** which comes pre-assembled, as you shouldn't rely on the assumption that the manufacturere built everything correctly. Read through the hardware chapters if you didn't do it yet. In the following I'll list the most crucial points.  
+
+- Set up the frame correctly. Means, check if the baseframe is mounted rectangular, if the the z-axis aluminum parts are really mounted perpendicular onto the baseframe and so on.
+- Check the axes. Means, check the whole z-axis lead screw system for being assembled correctly and vertically aligned. Make sure you cleaned the old oil off from the lead screw and applied fresh grease, assemble the anit-backlash nut correctly and so on. Make sure that you have all wheels positioned correctly and that the belts of the x- and y-axis aren't too sloppy or too tight.  
+- Check if everything moves smooth while the printer is switched off. Means, *slowly* move the bed and the printhead manually across the whole range of motion and turn the lead screw by hand (across the whole r.o.m. as well) and check if you feel any unusual resistance in certain areas. Parts shouldn't wiggle as well (never mind the top of the z-axis lead screw though - it's fine that it might wiggle a bit, as it isn't and shouldn't be fixated at the top). When everything looks and feels good, you can move the bed, the printhead and the position of the x-axis gantry to about the middle of the range of motion, then turn on the printer and home all axes using the control unit to see if the endstops are working.
+
+---
+
+### Tram The Bed
+Even though 'tramming the bed' isn't really possible when using the rigid stock spacers of the bedplate these printers come with, there is something one can and should do though: check if those spacers are all of the same height. This is really important, so better don't skip this step.     
+Means, dismount the bedplate from the bedgantry and take out the four black spacers. Then put them next to each other on a flat surface and/or measure them using a caliper. Most likely they aren't all of the same height, which will lead to a somewhat crooked, tilted or 'warped' bed.  So sand them down to the smallest of the four spacers for achieving an equal height.     
+When doing so, put the sandpaper on a flat surface and carefully rub the spacers across it - *pay attention that you do this while holding the spacer absolutely perpendicular! You don't want to end up with a spacers where one end is sanded off tilted!*  
+Once you're done and all four spacers are of equal height, reassemble everything. Then proceed with tramming the x-axis gantry in relation to the bed.   
+
+You could also use [adjustable spacers](hardware/bed.md#different-spacers) like silicone spacers or springs instead of those rigid spacers. That'll put you in the position of really being able to tram the bed.  
+However, if doing so you not only need to be precise when tramming the bed, but you should *proceed with tramming the x-axis gantry in relation to the frame first*. This is really important as it will ensure that the x-axis gantry is parallel to the base frame. Once this step is done, you can proceed with tramming the bed itself.     
+For doing so, you'll have to move the printhead to all of the four corners and adjust the height of the belonging edge of the bed by tightening or loosening the belonging screw. I'd suppose to start with the left backhand corner and rotate clockwise.  
+Take off the PEI plate and place an object onto the edge of the bed. It doesn't matter if this object is like 5mm or 5cm high as you're not setting the z-offset yet. It's just being used to ensure that the bedplate will be at the same height in relation to the printhead at all four corners. You need to make sure that you'll still be able to access the screw form the top though, so don't place the object right above the screw.  
+Then lower the printhead manually until the nozzle or the ABL sensor just touches that object. Then move the object to the next corner and move the printhead across it. Make sure that you absolutely *don't* move the head along the z-axis by accident, so that you don't somehow change the height of it!  
+If the head is positioned too low and there isn't enough space to fit the object between the bed and the head, tighten the screw for lowering the bedplate. If there's too much space, loosen the screw a bit until the nozzle/ABL sensor touches the object again.  
+Proceed with the other corners like that. Once you're done with all four corners, do another round and check if everything still fits. Most likely it won't as it affects the other edges when adjusting the height of one edge. When you're done with this round as well, put on the pEI plate, move the lead screw manually for raising the head and place the object in the first corner again. Lower the head and check all four edges once again if everything is correct.   
+
+---
+
+### Tram The X-Axis Gantry
+This is a really important step as well as it will ensure that the x-axis gantry either is parallel to the bed (when using the rigid stock spacers) or to the baseframe (when using adjustable spacers).  
+See the section [Tramming The X-Axis Gantry](hardware/axes.md#tramming-the-x-axis-gantry) in the belonging hardware chapter for further information and instructions.  
+
+---
+
+### Level The ABL Sensor 
+You also should level the ABL sensor in relation to the nozzle, so that you have a defined distance between the tip of the sensor and the tip of the nozzle. Every time you change the hotend or parts of it, you should check that distance again to make sure it's the same like before. Please see the belonging section for your specific model in the section ["ABL Sensor"](hardware/printhead.md#abl-sensor) for further information and instructions about how to do so.  
+
+---
+
+## Other Calibration
+
+---
+
+### Z-Offset  
 The z-offset is the distance between the nozzle and the bed/plate you're printing on. It comes into account when printing the first layer of a model and therefore it's crucial and absolutely important that you dial in your z-offset to get your first layer as perfect as possible.  
 If the nozzle is too far up above the plate, you'll experience that the print doesn't stay onto the bed or (if it's way too far up) that it'll just produce 'spaghetti' while printing up in the air.  
 If it's too close to the plate and therefore the filament will be squished into the plate too much, then it'll either be difficult to remove the object or (if the nozzle is way too close) it'll provoke clogging as the filament won't be able to come out of the nozzle. Worst case would be that the nozzle scrapes across the plate and that you damage the hardware itself.  
@@ -75,7 +129,7 @@ If you need to adjust the height, you don't need to execute an ABL sequence agai
   
 ---
   
-## Retraction Settings
+### Retraction Settings
 As a crucial element for great printing results you need to find the optimum settings for retraction *distance* and retraction *speed*.  
 Both settings have to be evaluated for each filament you're using. You'll note that the settings may differ not only within the same type of material, but especially within different types of material (when printing PLA for example you'll end up with pretty different settings than you'll use when printing flexible TPU).  
 In general you'll determine the correct settings (after determining the correct print temperature) by printing retraction distance and retraction speed towers. Slight adjustments might be necessary later on though, so pay attention to not only the stringing, but also to e.g. starts and ends of layers where over-/underextrusion might be occur due to imperfect retraction settings.   
@@ -90,7 +144,7 @@ The correct settings will mostly avoid stringing. There are various aspects whic
     
 ---
 
-### Retraction Distance
+#### Retraction Distance
 The retraction distance is a crucial setting one has to take care about. The retraction *distance* (r.d.) is the setting how *far* the feeder gear will pull back the filament when retracting. However, if the r.d. is too high, it'll lead to clogs.    
 Finding the correct setting here can be difficult as it depends on various other settings and variables, so there isn't a general one-fits-all setting one could use.  
 However, there is a rule of thumb though one should be aware of: if you're using a bowden drive feeder gear system like the one of the **Go**, the r.d. is higher than the one using a direct drive system like the **Neo**. This is because of the slack of the bowden drive system, where the feeder gear is about 30cm away from the hotend. So as a general rule it's said that at bowden drives the r.d. is something around 6mm, at direct drives it's around 1mm.   
@@ -107,7 +161,7 @@ For finding out the correct r.d. setting, you can print retraction distance towe
 
 ---
 
-### Retraction Speed
+#### Retraction Speed
 Retraction *speed* (r.s.) is the setting how *fast* the feeder gear will pull back the filament when retracting. It plays together with the setting of the retraction distance, and both settings affect each other.  
 In general it seems that you can say that the higher the *speed*, the lower the *distance* can be - but like with every 'rule of thumb', this is just a 'rough' guide and you'll need to find out the optimum setting for your specific setup by your own.   
 
@@ -116,7 +170,9 @@ This means that every higher value you set in your sclicer will just be ignored 
 It has to be mentioned though that a high(er) r.s. isn't always the key - it can also be the case that using a lower speed than e.g. the default maximum 25mm/s is necessary for getting the best results. This also depends on the type and quality of the filament as well.  
 However, there is a way you can change the default setting of the maximum retraction speed. Please go to the chapter [Stock Firmware (Marlin Based)](firmware/fw_marlin.md), scroll down to the section "Limited Retraction Speed" for your specific model and read the expandable box "Setting a Higher Maximum Value for Retraction Speed".  
   
-## Layer Height
+---  
+  
+### Layer Height
 When deciding for a layer height, you probably think "well, I can just choose whatever I want" - and yes, of course you can do so. But there's a "magic number" you should actually take into account when making your decision: 0.04mm.  
 
 Let me explain it a bit: when moving along the z-axis which is done by the lead screw, it's smart to choose your layer heights in a way that for each layer full motor steps are taken. *One* step is 0.04mm, so it's better to set e.g. 0.2mm layer height (which is 5 full steps) instead of e.g. 0.18mm.  
@@ -136,7 +192,7 @@ So: always choose layer heights which can be 'fully' divided by 0.04mm.
 
 ---
   
-## PID Tuning
+### PID Tuning
 Without going into too much details here, PID stands for Proportion, Integral and Derivate. These are three variables of an algorith which is supposed to keep the temperature stable.  
 By executing a PID tuning, the printer heats up the desired heating element (extruder or bed) to a given temperature, cools down again a few degrees and heats up again for a given amount of circles and measures the fluctuation. After the process is done, you'll then get an output of three values P, I and D and save them to the firmware.  
 
@@ -147,7 +203,9 @@ The best way to execute a PID tuning is by simply using certain G-code commands 
   
 PID tuning needs to be done in two steps: one for the extruder and one for the bed.
 
-### Extruder PID Tuning
+---
+
+#### Extruder PID Tuning
 Because I use to print at 220°C, I want to use this temperature for the PID tuning of the extruder.  
 I want the printer to execute seven cycles - the more the better the result will be.  
 
@@ -218,7 +276,7 @@ Congratulations, you just did the PID tuning for your extruder!
     
 ---    
     
-### Bed PID Tuning
+#### Bed PID Tuning
 Now you want to do the same for your heated bed, but you have to use a different command.  
 Because I use to print at a bed temperature of 60°C, I want to execute the PID tuning at that temperature also. Again it should be done seven times.  
 
@@ -254,7 +312,7 @@ Congratulations, you just did the PID tuning for your bed!
     
 ---    
     
-## Calibrating E-Steps
+### Calibrating E-Steps
 You've probably already came along the sentence "calibrate your e-steps" and maybe you wonder what it is, what you'd have to do and why you should do so. It's actually pretty simple: the "e-steps" are the steps of the motor of your extruder (so "e-steps" stands for "extruder-steps") and therefore they determine how much filament will be extruded with a certain amount of motor steps.  
 Depending on how accurate this setting is (means, how well you calibrated the e-steps), you'll either have some pretty perfect prints (in the meaning of the amount of filament of each layer) or you'll see signs of more or less severe under- or overextrusion. Some people try to adjust or get rid of this problem by setting different extrusion multipliers in the slicer, but that's not the best/correct way (imho). You always should have the hardware tuned in as much as possible before trying to tweak software settings for better results.   
 Even though the e-steps of both the **Go** and the **Neo** don't seem to be way off when it comes from the manufacturer with the default firmware settings, it's advisable to calibrate them. This whole procedure really isn't a big deal and doesn't take long, so make sure to do this calibration!  
