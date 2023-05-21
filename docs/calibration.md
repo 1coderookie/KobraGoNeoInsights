@@ -35,9 +35,7 @@ Using certain tools makes it easier to calibrate your printer. It'll allow you t
 - **SuperSlicer**  
   I personally prefer SuperSlicer (after I used Cura in the first place), especially when it comes down to calibration.   
   One of the great functions is, that SuperSlicer already comes with an *inbuilt set of calibration tools*.  
-  
-  ![SuperSlicer calibration tools](assets/images/calibration-tools_SuSli.jpg)
-  
+  ![SuperSlicer calibration tools](assets/images/calibration-tools_SuSli.jpg)  
   You'll follow the proposed order and generate the specific 3d models for your specific needs with just one click, like temperature towers, retraction towers and so on.  
   After that, you just print them and don't have to take care about additional code sections (e.g. like applying temperature or retraction distance changes at layer xy) which is necessary when using Cura and the Calibration Shapes plugin.  
 
@@ -92,6 +90,7 @@ You also should level the ABL sensor in relation to the nozzle, so that you have
 ---
 
 ## Other Calibration
+In the following I'll list some of the calibrations which are necessary. The list isn't completed yet, so things like dialing the temperature for your specific filament and so on aren't mentioned here yet.  
 
 ---
 
@@ -107,15 +106,14 @@ To determine the perfect first layer, I'd recommend to have a look at [this hand
     Before adjusting the z-offset, I recommend to execute an ABL sequence first - with an already [leveled ABL sensor](hardware/printhead.md) in relation to the nozzle height as well as an already [trammed x-axis gantry](hardware/axes.md#x-axis-gantry) (and 'trammed' bed as well).  
     If you execute an ABL *after* you dialed in your z-offset, then you'll have to set the z-offset *again* as it seems that the ABL procedure somehow 'resets' the setting.  
     
-When it comes down to describe the actual process of how to determine and set the z-offset correctly, I have to mention that right now I don't give a 'real' step-by-step instruction here about how to proceed, as I'm using Klipper and don't remember 100% how I proceeded when using the stock firmware.  
-
+When it comes down to describe the actual process of how to determine and set the z-offset correctly, I have to mention that right now the following step-by-step instruction here about how to proceed is written from my memory how I did it when using the stock firmware. I'm using Klipper now and probably don't remember 100% how I proceeded when using the stock firmware, so please keep that in mind.   
 However, from what I do remember right now you (roughly) do it this way:  
  
 - Preheat the system for PLA temperatures by using the control unit.  
 - With the printer homed, enter the menu in the control unit where you can move the axes manually, choose "Move Z" and set the value to zero.  
 - Then move the printhead to the middle of the bed (x and y axes) - I'd recommend to do so by using the control unit as well instead of moving it manually to avoid any movement on the z-axis.  
 - Take a 0.1mm feeler gauge (or a piece of paper if you don't have a feeler gauge) and place it under the nozzle.  
-- Then enter "Leveling" -> "Z-Offset" in the control unit and lower the printhead *carefully step by step* until the nozzle touches the gauge/paper. You want to be able to still move the gauge/paper without any force, but you should feel a tiny bit of resistance to make sure the nozzle touches the gauge/paper.  
+- Then enter "Leveling" -> "Z-Offset" in the control unit and lower the printhead *carefully step by step* until the nozzle touches the gauge/paper. *You want to be able to still move the gauge/paper without any force, but you should feel a tiny bit of resistance to make sure the nozzle touches the gauge/paper.*   
 - Once you found the sweet spot, save the value.  
 
 Then start a print job and verify that the first layer came out perfect. Compare the look of it with the abovementioned poster from Billie Ruben to check if it really is perfect or if you need a bit of adjustment.  
@@ -134,14 +132,14 @@ The correct settings will mostly avoid stringing. There are various aspects whic
 
     It should be noted that the correct pressure of the feeder gear is very crucial (not only) when it comes down to retracting.  
     If the feeder gear pressure is too low, the gear won't 'grab' the filament sufficiently and therefore starts slipping and grinding instead of pulling it back. If the pressure is too high though, it'll deform the filament which may result in e.g. visible artefacts of your printed model. So make sure you adjusted the correct pressure.   
-    You can check if the filament gets properly fed and retracted by looking at the filament. Adding some marks with a water resistant pen might be helpful. Observe the filament if it gets retracted (= pushed back) and fed reliably when the printer should do so.   
+    You can check if the filament gets properly fed and retracted by looking at the filament while printing. Adding some marks with a water resistant pen might be helpful. Observe the filament if it gets retracted (= pushed back) and fed reliably when the printer should do so.   
     
 ---
 
 #### Retraction Distance
-The retraction distance is a crucial setting one has to take care about. The retraction *distance* (r.d.) is the setting how *far* the feeder gear will pull back the filament when retracting. However, if the r.d. is too high, it'll lead to clogs.    
+The retraction *distance* is a crucial setting one has to take care about. The retraction *distance* (r.d.) is the setting how *far* the feeder gear will pull back the filament when retracting. However, if the r.d. is too high, it'll lead to clogs.    
 Finding the correct setting here can be difficult as it depends on various other settings and variables, so there isn't a general one-fits-all setting one could use.  
-However, there is a rule of thumb though one should be aware of: if you're using a bowden drive feeder gear system like the one of the **Go**, the r.d. is higher than the one using a direct drive system like the **Neo**. This is because of the slack of the bowden drive system, where the feeder gear is about 30cm away from the hotend. So as a general rule it's said that at bowden drives the r.d. is something around 6mm, at direct drives it's around 1mm.   
+However, there is a rule of thumb though one should be aware of: if you're using a bowden drive feeder gear system like the one of the **Go**, the r.d. is higher than the one using a direct drive system like the **Neo**. This is because of the slack of the bowden drive system, where the feeder gear is about 30-40cm away from the hotend. So as a general rule it's said that at bowden drives the r.d. is something around 6mm, at direct drives it's around 1mm.   
   
 For finding out the correct r.d. setting, you can print retraction distance towers, where different r.d. values are applied at ceratin heights (kinda the same like when printing temperature towers). Before doing so, you should have figured out the correct printing temperature though. I'd suppose to start with the following settings as *maximum* r.d. values:  
 
@@ -157,12 +155,12 @@ For finding out the correct r.d. setting, you can print retraction distance towe
 
 #### Retraction Speed
 Retraction *speed* (r.s.) is the setting how *fast* the feeder gear will pull back the filament when retracting. It plays together with the setting of the retraction distance, and both settings affect each other.  
-In general it seems that you can say that the higher the *speed*, the lower the *distance* can be - but like with every 'rule of thumb', this is just a 'rough' guide and you'll need to find out the optimum setting for your specific setup by your own.   
+In general it seems that you can say that the higher the *speed*, the lower the *distance* can be - but like with every 'rule of thumb', this is just a 'rough' guide and you'll need to find out the optimum setting for your specific setup by your own. You might also find out that things work out much better and that you get better results when using a lower retraction speed.    
 
 There is a little problem though with both the **Go** and the **Neo**: the retraction speed is limited in the firmware by default to *25mm/s*!   
 This means that every higher value you set in your sclicer will just be ignored and reduced to 25mm/s as that's the encoded limit. Means, when you're starting to print retraction speed towers with higher vales than 25mm/s, those speeds will be 'ignored' so to say as the speed is actually capped to 25mm/s.   
 It has to be mentioned though that a high(er) r.s. isn't always the key - it can also be the case that using a lower speed than e.g. the default maximum 25mm/s is necessary for getting the best results. This also depends on the type and quality of the filament as well.  
-However, there is a way you can change the default setting of the maximum retraction speed. Please go to the chapter [Stock Firmware (Marlin Based)](firmware/fw_marlin.md), scroll down to the section "Limited Retraction Speed" for your specific model and read the expandable box "Setting a Higher Maximum Value for Retraction Speed".  
+However, there is a way you can change the default setting of the maximum retraction speed. Please go to the chapter [Stock Firmware (Marlin Based)](firmware/fw_marlin.md), scroll down to the section "Limited Retraction Speed" for your specific model and read the expandable box "Setting a Higher Maximum Value For Retraction Speed".  
   
 ---  
   
