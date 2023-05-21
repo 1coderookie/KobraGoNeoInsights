@@ -15,6 +15,7 @@ In this chapter I'll list some of the most common problems people seem to have a
 There are many pages and troubleshooting guides out there to find, so maybe do a little research on that as well.  
 However, to offer you an easier start right away, I'd like to mention a few troubleshooting guides here as well:  
 
+- The [troubleshooting page from TeachingTech](https://teachingtechyt.github.io/troubleshooting.html).
 - The [Print Quality Troubleshooting Guide](https://www.simplify3d.com/resources/print-quality-troubleshooting/) from [Simplyfy 3D](https://www.simplify3d.com). 
 - The [3D Printer Troubleshooting Guide](https://www.matterhackers.com/articles/3d-printer-troubleshooting-guide) from [Matterhackers](https://www.matterhackers.com).  
 
