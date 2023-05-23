@@ -78,10 +78,18 @@ See the section [Tramming The X-Axis Gantry](hardware/axes.md#tramming-the-x-axi
 
 ---
 
-### Level The ABL Sensor 
+### ABL
+There are two things you should take care of when it comes down to use the ABL function: you need to make sure that the tip of the sensor is at the correct height (in relation to the tip of the nozzle) and that the ABL function is activated before attempting to print.  
+
+#### Level The ABL Sensor 
 You also should level the ABL sensor in relation to the nozzle, so that you have a defined distance between the tip of the sensor and the tip of the nozzle. Every time you change the hotend or parts of it, you should check that distance again to make sure it's the same like before.  
 
 See the belonging section for your specific model in the section ["ABL Sensor"](hardware/printhead.md#abl-sensor) for further information and instructions about how to do so.  
+
+#### Activate The ABL Function
+To make the measured values of the ABL come into account later when it comes down to printing, you'll need to add a certain g-code command to the start g-code section of your slicer. So enter the settings in your slicer and search the place where this section is located.  
+Then add the command `M420 S1` in a new line *after* the last `G28` command (which is the homing command) being in there.  
+This will load the specific mesh values from the printer's EEPROM and activate the function of the ABL, so that minor height variations of the bed's surface will be compensated while printing.  
 
 ---
 
