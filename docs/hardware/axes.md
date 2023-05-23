@@ -136,13 +136,14 @@ Please see the expandable textbox below for further instructions about how to tr
       If necessary (like if it's either moving not smooth enough or if it feels sloppy), slightly adjust the position of the inner wheel and check everything again.  
     - Once everything seems to be perfect, reinstall the lead screw.  
     - When everything is set up again, move the z-axis up and down by using the control unit. Again, everything should move smooth. Home the z-axis and you should be good to go!   
-    - Congratulations, you just trammed the x-axis gantry!   
+    
+Congratulations, you just trammed the x-axis gantry!   
     
 
 ---
 
 ## Y-Axis
-The Y-axis of both the **Go** and the **Neo** is belt driven (6mm wide).  
+The Y-axis of both the **Go** and the **Neo** is belt driven (GT-2 type, 6mm wide).  
 You can adjust the tension of the belt by using the knob at the front side of the aluminum profile where the bed is guided onto.   
 The x-shaped plate for the bedmount itself has v-slot wheels which are running in the v-slot of the aluminum profile.  
 The following picture shows the aluminum profile of the y-axis with the knob for adjusting the belt tension at the front.   
