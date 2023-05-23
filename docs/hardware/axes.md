@@ -110,7 +110,8 @@ Please see the expandable textbox below for further instructions about how to tr
     
     2. If you've swapped the stock spacers and are using *adjustable* ones, like silicone spacers or springs, then you should tram in relation to the frame itself to make sure everything is square and perpendicular like it should be. After that, tram the bed itself to the x-axis gantry by adjusting the height of the bed by using the screws and adjust it at the four corners to the same distance of the nozzle (e.g. 0.1mm by using a feeler gauge or a sheet of paper).  
     
-    *Note: the following description is for tramming the x-axis gantry in relation to the bed itself when using the rigid stock spacers! If you're using adjustable spacers, the procedure is pretty much the same, you just have to put two pieces of equal height onto the frame of the printer (where the z-axis aluminum frame is mounted onto) and rest the x-axis gantry onto them instead of placing those pieces on the bed itself!*   
+    *Note: the following description is for tramming the x-axis gantry in relation to the bed itself when using the rigid stock spacers!*  
+    *If you're using adjustable spacers, the procedure is pretty much the same, you just have to put two pieces of equal height onto the frame of the printer (where the z-axis aluminum frame is mounted onto) and rest the x-axis gantry onto them instead of placing those pieces on the bed itself!*   
     
     - So in order to *tram the x-axis gantry in relation to the bed*, so that both are as parallel as possible, take two parts of equal height like cans for example and place them onto the left and right side of the bed.  
     - Lower the x-axis gantry until the aluminum frame of it touches the can(s).  
