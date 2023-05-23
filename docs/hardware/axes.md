@@ -2,6 +2,9 @@
   
 
 # Axes
+Both the **Go** and the **Neo** are so called 'bed slingers'. Means, the bed moves along the y-axis (back and forth).  
+The printhead moves along the x-axis (left and right) and is attached to the x-axis gantry.  
+The x-axis gantry moves along the z-axis (up and down).  
 
 ## X-Axis
 The X-axis of both the **Go** and the **Neo** is belt driven, the motor which drives the belt (6mm wide, GT-2 type) is located at the left side.   
