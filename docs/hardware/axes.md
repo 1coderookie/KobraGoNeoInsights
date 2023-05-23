@@ -142,7 +142,7 @@ Please see the expandable textbox below for further instructions about how to tr
     - Once everything seems to be perfect, reinstall the lead screw.  
     - When everything is set up again, move the z-axis up and down by using the control unit. Again, everything should move smooth. Home the z-axis and you should be good to go!   
     
-Congratulations, you just trammed the x-axis gantry!   
+    Congratulations, you just trammed the x-axis gantry!   
     
 
 ---
