@@ -44,14 +44,14 @@ The bedplate itself is mounted to the bed gantry which runs along the y-axis sho
   
 ??? tip "Bed Leveling Function"
 
-    - Don't get misleaded by the term "automatic bed leveling" - the process does *not* level your bed! It only measures and recognizes the distance towards the sensor at the 25 spots where it measures. You can *not* level the bed itself without tinkering as it's mounted directly to the construction which leads the bed in the y-axis.    
-    - When it comes to executing the ABL function of the printer, it's advisable to initially check if the ABL sensor is leveled correctly to get the best results out of the ABL process. See the expandable box "Leveling the ABL Sensor" in the section ["Leveling or Dismounting the ABL Sensor"](printhead.md#leveling-or-dismounting-the-abl-sensor) in the chapter "Printhead".  
-    - To make the measured values of the ABL come into account later when it comes down to printing, you'll need to add a certain line to the start G-code of the slicer. I'm not 100% sure yet, but right now it seems like the necessary command is `M420 S1` which reads the data out of the EEPROM.  
+    - Don't get misleaded by the term "automatic bed leveling" - the process does *not* level or tram your bed! It only measures and recognizes the distance towards the sensor at the 25 spots where it measures. You can *not* level the bed itself without tinkering, as it's mounted directly to the bed gantry.    
+    - When it comes to executing the ABL function of the printer, it's advisable to initially check if the ABL sensor is leveled correctly to get the best results out of the ABL process. You can find information about how to do it for your specific model in the section ["ABL Sensor"](printhead.md#abl-sensor).     
+    - To make the measured values of the ABL come into account later when it comes down to printing, you'll need to add a certain g-code command to the start g-code section of your slicer. So enter the settings in your slicer and search the place where this section is located. Then add the command `M420 S1` in a new line *after* the last `G28` command (which is the homing command) being in there. This will load the specific mesh values from the printer's EEPROM and activate the function of the ABL, so that minor height variations of the bed's surface will be compensated while printing.     
     - Keep in mind that every time you proceed an ABL process, you'll have to set the z-offset again!
   
 ??? tip "Level The ABL Sensor"
 
-    It's advisable to level the ABL sensor in relation to the nozzle initially, you can find information about it in the hardware section within the chapter ["Printhead"](printhead.md#leveling-or-dismounting-the-abl-sensor).   
+    It's advisable to level the ABL sensor in relation to the nozzle initially. You can find information about how to do it for your specific model in the section ["ABL Sensor"](printhead.md#abl-sensor).   
   
 ??? tip "Execute PID Tuning For The Bed"
 
