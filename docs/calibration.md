@@ -162,20 +162,24 @@ The correct settings will mostly avoid stringing. There are various aspects whic
 ---
 
 #### Retraction Distance
-The retraction *distance* is a crucial setting one has to take care about. The retraction *distance* (r.d.) is the setting how *far* the feeder gear will pull back the filament when retracting. However, if the r.d. is too high, it'll lead to clogs.    
-Finding the correct setting here can be difficult as it depends on various other settings and variables, so there isn't a general one-fits-all setting one could use.  
-However, there is a rule of thumb though one should be aware of: if you're using a bowden drive feeder gear system like the one of the **Go**, the r.d. is higher than the one using a direct drive system like the **Neo**. This is because of the slack of the bowden drive system, where the feeder gear is about 30-40cm away from the hotend. So as a general rule it's said that at bowden drives the r.d. is something around 6mm, at direct drives it's around 1mm.   
+The retraction *distance* is a crucial setting one has to take care about. The retraction *distance* is the setting how *far* the feeder gear will pull back the filament when retracting.      
+
+!!! warning "**Neo:** Don't Use Anycubic's Profile Right Away!"  
+
+    This one is really important for the **Neo**: watch out if you're going to use the profile of Anycubic, the retraction distance is set to 6mm there, which is way too much for the direct drive system of the **Neo** as mentioned above! So change that setting to max. 1mm and go from there.   
+    Always make sure to check this setting in general when using preconfigured profiles! 
+
+As a rough orientation, you can keep in mind that if everything is set up well and the best setting is found, it'll mostly avoid any stringing. If the distance is too low, it might lead to oozing and stringing. If the retraction distance is too high, it'll lead to clogs.  
+However, the retraction distance setting is just one of many factors that affect the outcome and the amount of stringing, so if you struggle with that, maybe take a look at the section ["Stringing"](troubleshooting.md#stringing) in the troubleshooting chapter as well.  
+
+Finding the correct retraction distance setting can be difficult and might take a few iterations, as it depends on various other settings and variables, so there isn't a general one-fits-all setting one could use.  
+However, there is a rule of thumb though one should be aware of: if you're using a bowden drive feeder gear system like the one of the **Go**, the retraction distance is higher than when using a direct drive system like the **Neo**. This is because of the slack of the bowden drive system, where the feeder gear is about 30-40cm away from the hotend. So as a general rule it's said that at bowden drives the retraction distance is something around 6mm, at direct drives it should be max. 1mm.   
   
-For finding out the correct r.d. setting, you can print retraction distance towers, where different r.d. values are applied at ceratin heights (kinda the same like when printing temperature towers). Before doing so, you should have figured out the correct printing temperature though. I'd suppose to start with the following settings as *maximum* r.d. values:  
+For finding out the correct retraction distance setting, you can print retraction distance towers, where different retraction distance values are applied at certain heights (kinda the same like when printing temperature towers). Before doing so, you should have figured out the correct printing temperature though. I'd suppose to start with the following settings as *maximum* retraction distance values:  
 
 - **Go** as a bowden drive system: max. 6mm retraction distance
 - **Neo** as a direct drive system: max. 1mm retraction distance  
     
-!!! warning "**Neo:** Don't Use Anycubic's Profile Right Away!"  
-
-    This one is really important for the **Neo**: watch out if you're going to use the profile of Anycubic, the retraction distance is set to 6mm there, which is way too much for the direct drive system of the **Neo** as mentioned above! So change that setting to max. 1mm and go from there.   
-    Always make sure to check this setting in general when using preconfigured profiles!  
-
 ---
 
 #### Retraction Speed
