@@ -29,9 +29,14 @@ The following picture shows the unmounted bed from the underside.
 
 ![Bed underside](../assets/images/bed_underside_web.jpg)  
 
-The bedplate itself is mounted to the y-axis gantry shown in the following picture.  
+The bedplate itself is mounted to the bed gantry which runs along the y-axis shown in the following picture.  
 
 ![Bed gantry](../assets/images/bed_gantry_web.jpg)
+  
+??? example "Check The Screws Of The Bedplate And The Gantry Of The Bed"
+
+    - Check if the screws are all tightened up. Be careful though to not overtighten the screws of the Bedplate as you may compress the little spacers underneath it and therefore the plate may become warped. On the other hand, if you see that your bed is warped somehow or that the bed is much more off in certain areas or at one side, you can check if the screws in that area might be too tightened up or too loose.  
+    - Check if the bedplate itself is somehow wobbling. Not only sideways (horizontally), but also up and down (vertically). If so, not only check the v-slot wheels and maybe adjust their fitting using the eccentric nuts, also check if the screws of the gantry of the bed where the wheels are mounted to are tightened up.     
   
 ??? info "Bed Thermistor"
 
@@ -44,24 +49,24 @@ The bedplate itself is mounted to the y-axis gantry shown in the following pictu
     - To make the measured values of the ABL come into account later when it comes down to printing, you'll need to add a certain line to the start G-code of the slicer. I'm not 100% sure yet, but right now it seems like the necessary command is `M420 S1` which reads the data out of the EEPROM.  
     - Keep in mind that every time you proceed an ABL process, you'll have to set the z-offset again!
   
+??? tip "Level The ABL Sensor"
+
+    It's advisable to level the ABL sensor in relation to the nozzle initially, you can find information about it in the hardware section within the chapter ["Printhead"](printhead.md#leveling-or-dismounting-the-abl-sensor).   
+  
 ??? tip "Execute PID Tuning For The Bed"
 
-    To make sure the heating algorithm can work as expected and keeps the fluctuation of the temperature as low as possible, execute a PID tuning. You can find information about how to do that in the chapter ["PID Tuning"](../pid-tune.md).  
+    To make sure the heating algorithm can work as expected and keeps the fluctuation of the temperature as low as possible, execute a PID tuning. You can find information about how to do that in the section ["PID Tuning"](calibration.md#pid-tuning).  
   
 ??? tip "Clean The PEI Plate Of The Bed"
 
     - Before starting a print, make sure the surface of the plate is clean and without any traces of oil, silicone or other stuff which avoids that the filament sticks to the surface. To clean it, you can   
         - wash the plate using *regular dishwasher soap and water* (don't use the kind of 'soft', 'creamy' or 'balm' soap though), 
         - use *isopropyl alcohol (IPA)* or 
-        - *silicone remover spray* (it's the stuff the guys use to clean the surface before spraypainting a car, I personally use this and can highly recommend it).  
+        - use *silicone remover spray* (it's the stuff the guys use to clean the surface before spraypainting a car, I personally use this and can highly recommend it).  
     - Already touching the plate with your fingers leads to a little amoung of grease left there which already might be enough to cause problems for your print to stick on the bed, so maybe always use disposable gloves when touching it, taking it off or repositioning it.
     - If there's a rest of filament stuck on the plate, *never* try to scratch it off with metal or other sharp materials as you don't want to harm the PEI coating. Heat up the bed and try to peel off the filament instead. If that doesn't work, take off the plate and heat up the area using your hot air gun - sooner or later you'll be able to peel it off. However, be careful to not overheat and maybe harm the coating though.  
 
-    ***Don't use Acetone to clean the PEI plate, it'll destroy the coating!***       
-  
-??? tip "Level The ABL Sensor"
-
-    It's advisable to level the ABL sensor in relation to the nozzle initially, you can find information about it in the hardware section within the chapter ["Printhead"](printhead.md#leveling-or-dismounting-the-abl-sensor).  
+    ***Don't use Acetone to clean the PEI plate, it'll destroy the coating!***        
     
 ??? tip "Bed Level Visualization"
 
@@ -126,26 +131,46 @@ The bedplate itself is mounted to the y-axis gantry shown in the following pictu
     - To create a meshview now, click on the blue info-button "Update Mesh Now". This will start the probing. After it's done, click on "Pull latest mesh" and the graphic should be rendered.  
     - To see a table with the collected data, click on the little configuration wheel again and then click on the tab "Data".  
     - Images will come soon.. ;)
+ 
+    
+## Tramming The Bed
+Even though "tramming" the bed isn't really possible when using the rigid stock spacers of the bedplate these printers come with, there is something one can and should do though: check if those spacers are all of the same height. *This is really important, so better don't skip this step!*   
 
+If you're using adjustable spacers, then you'll be able to actually tram the bed itself.  
 
-??? tip "Spacers Of The Bedmount"
+If necessary, you can add Kapton tape on the magnetic surface of the bed underneath the PEI plate later to equalize warped or dented areas as much as possible.  
 
-    If you find that the bed is not as flat or trimmed as it should be, it might be a good idea to disassemble it and check the four black spacers that connect the metal y-axis gantry and the bed itself. Measure them with a slide gauge to see if they are really the same height.  
-    If they're not, either look for other spacers you might be using, put the stock ones on a flat surface with sandpaper and grind them down to one length or put washers or other suitable material (e.g. gasket material) of the needed thickness under them. Then execute another ABL and compare the new values. From there you can try to get it as much trammed as possible. If that doesn't really help, check the "Mods" section below and read the part about using different types of spacers.       
-            
+I'll describe the belonging process for each case in the following.  
+
+??? example ""Tramming" When Using The Rigid Stock Spacers"
+
+    When using the rigid stock spacers the printer came with, dismount the bedplate from the bedgantry and take out those four black spacers. Then put them next to each other on a flat surface and/or measure them using a caliper. Most likely they aren't all of the same height, which will lead to a somewhat crooked, tilted or 'warped' bed.  
+    
+    Now you could either look for other spacers you might be using, put washers or other suitable material (e.g. gasket material) of the needed thickness under them when remounting or (what I'd recommend to do) *sand them down to the smallest of the four spacers for achieving an equal height*.  
+    When doing so, put the sandpaper on a flat surface and carefully rub the spacers across it - *pay attention that you do this while holding the spacer absolutely perpendicular! You don't want to end up with a spacer where one end is sanded off tilted!*  
+
+    Once you're done and all four spacers are of equal height, reassemble everything. Then proceed with [tramming the x-axis gantry](axes.md#tramming-the-x-axis-gantry) in relation to the bed.   
+
+??? example "Tramming When Using Adjustable Spacers"
   
-??? example "Check The Screws Of The Bedplate And The Gantry Of The Bed"
-
-    - Check if the screws are all tightened up. Be careful though to not overtighten the screws of the Bedplate as you may compress the little spacers underneath it and therefore the plate may become warped. On the other hand, if you see that your bed is warped somehow or that the bed is much more off in certain areas or at one side, you can check if the screws in that area might be too tightened up or too loose.  
-    - Check if the bedplate itself is somehow wobbling. Not only sideways (horizontally), but also up and down (vertically). If so, not only check the v-slot wheels and maybe adjust their fitting using the eccentric nuts, also check if the screws of the gantry of the bed where the wheels are mounted to are tightened up.    
+    You could also use [adjustable spacers](hardware/bed.md#different-spacers) like silicone spacers or springs instead of those rigid spacers. That'll put you in the position of really being able to tram the bed.  
+    However, if doing so you not only need to be precise when tramming the bed, but you should *proceed with [tramming the x-axis gantry](axes.md#tramming-the-x-axis-gantry) in relation to the frame first*. This is really important as it will ensure that the x-axis gantry is parallel to the base frame.  
+    Once this step is done, you can proceed with tramming the bed itself.     
     
-??? example "Tramming The Bed"
-
-    If you added adjustable spacers like silicone spacers or springs, you'll be able to tram your bed. When you want to tram the bed by adjusting the tension of the springs or silicone spacers to pull down a side or an edge of the bed, be careful to not bend the bed itself by tightening up just one corner too much. Try to push down one side of the bed and adjust two screws at a time. Even then be careful though and keep an eye on the mesh visualizer or (if you con't have that one) on the values of the ABL.   
+    When you want to tram the bed by adjusting the tension of the springs or silicone spacers to pull down a side or an edge of the bed, be careful to not bend the bed itself by tightening up just one corner too much. Try to push down one side of the bed and adjust two screws at a time.    
+    I personally tram the bed by adding just a little bit of load to the spacers, so that the bed doesn't wobble.  
     
-??? example "Tramming The X-Axis Gantry"  
+    For actually tramming the bed now, you'll have to move the printhead to all of the four corners and adjust the height of the belonging edge of the bed by tightening or loosening the belonging screw. I'd suppose to start with the left backhand corner and rotate clockwise.  
+    Take off the PEI plate and place an object onto the edge of the bed. It doesn't matter if this object is like 5mm or 5cm high as you're not setting the z-offset yet. It's just being used to ensure that the bedplate will be at the same height in relation to the printhead at all four corners. You need to make sure that you'll still be able to access the screw form the top though, so don't place the object right above the screw.  
+    Then lower the printhead manually until the nozzle or the ABL sensor just touches that object. Then move the object to the next corner and move the printhead across it. Make sure that you absolutely *don't* move the head along the z-axis by accident, so that you don't somehow change the height of it!  
+    If the head is positioned too low and there isn't enough space to fit the object between the bed and the head, tighten the screw for lowering the bedplate. If there's too much space, loosen the screw a bit until the nozzle/ABL sensor touches the object again.  
+    Proceed with the other corners like that. Once you're done with all four corners, do another round and check if everything still fits. Most likely it won't as it affects the other edges when adjusting the height of one edge. When you're done with this round as well, put on the PEI plate, move the lead screw manually for raising the head and place the object in the first corner again. Lower the head and check all four edges once again if everything is correct.   
+    When you're done, make sure the screws won't turn themselves loose due to the vibration, so add e.g. an additional lock nut as well.    
+    Also remember to check your z-offset as it'll most likely has to be adjusted.  
+    
+    In case you're using Klipper like me, you can use the macro ["screws_tilt_adjust with the command SCREWS_TILT_CALCULATE"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe) to finetune the tramming of the bed if necessary.  
+    
 
-    To make sure that the bed and the x-axis gantry are parallel to each other, you should also tram the gantry in relation to the bed itself - if you're using the stock spacers. If you're using adjustable spacers, you should tram the x-axis gantry to the frame and then tram the bed in relation to the nozzle (imhoo). See the section ["Tramming The X-Axis Gantry"](axes.md#tramming-the-x-axis-gantry) to read how you could do it. 
     
 ## Mods
 
@@ -153,28 +178,22 @@ The bedplate itself is mounted to the y-axis gantry shown in the following pictu
 Because you can't level the bed itself due to the construction, you may want to replaced the stock spacers with springs or silicone spacers which allows tramming of the bed itself.  
 It's adviseable to make sure that the bolt can't turn itself loose due to the vibration, so add a nylon lock nut or a counter nut to the tip of the screw underneath the bed gantry as well.  
 
-**Springs**  
-Mounting springs instead of rigid spacers allows you to tram the bed itself. You'd have to get yourself some longer M4 type screws as well as the stock ones will be too short. Get yourself some nylon washers as well which you place between the underside of the bed and the springs to prevent scratching the surface. Add a lock nut underneath the gantry to the end of the screws as well after tramming the bed.    
+The following picture shows the stock spacers on the left, springs in the middle and silicone spacers on the right.  
+![Spacers](../assets/images/bed_different-spacers_web.jpg)
+
+#### Springs  
+Mounting springs instead of rigid spacers allows you to tram the bed itself. You'd have to get yourself some longer M4 type screws as well as the stock ones will be too short.  
+Get yourself some nylon washers as well which you place between the underside of the bed and the springs to prevent scratching the surface.  
+Add a lock nut / counter nut underneath the gantry to the end of the screws as well after tramming the bed.    
 However, as springs are made from metal which underlies the temperature changes of the heated bed, it'll probably be necessary to check the level once in a while.    
   
-I personally used 8x25mm springs (the yellow ones shown below) and M4x40mm countersunk head screws as that allowed me to add some bigger lock nut knobs I had laying around. So if you go with regular M4 lock nuts, 35mm (or *maybe* even 30mm) screws should be fine as well I guess. Those springs were part of a bundle from Capricorn, they came together with 1m of the Capricorn tube and a cutter (and a sticker) for a really fair price (about 11€ for everything together).  
+I personally used 8x25mm springs (the yellow ones shown above) and M4x40mm countersunk head screws as that allowed me to add some bigger lock nut knobs I had laying around. So if you go with regular M4 lock nuts, 35mm (or *maybe* even 30mm) screws should be fine as well I guess. Those springs were part of a bundle from Capricorn, they came together with 1m of the Capricorn tube and a cutter (and a sticker) for a really fair price (about 11€ for everything together).  
 
-**Silicone Spacers**  
+#### Silicone Spacers  
 You could also use silicone spacers of about the same length as the stock spacers for being able to use the stock screws and still being able to tram the bed. They are adjustable as well due to the flexible material and they don't expand and shrink with changing temperatures like metal springs will do in a minor range. I'd suppose to add a lock nut underneath the gantry to the end of the screws as well after tramming the bed though.  
   
 Keep in mind that the silicone spacers (I used 18mm long ones shown below) compress when tramming the bed. Therefore it *might* happen that you'll get into trouble because the position of the whole bedplate will be lowered a bit, so make sure that the bedplate doesn't somehow hit the motor mount at the back of the y-axis. *Especially when adding insulation to the underside of the bed, you'll need to raise the bedplate a bit, so I highly recommend using the abovementioned 25mm springs in that case anyway!*   
   
-The following picture shows the stock spacers on the left, springs in te middle and silicone spacers on the right. <br> ![Spacers](../assets/images/bed_different-spacers_web.jpg)
-  
-??? example "Tramming The Bed"
-
-    When you want to tram the bed by adjusting the tension of the springs or silicone spacers to pull down a side or an edge of the bed, be careful to not bend the bed itself by tightening up just one corner too much. Try to push down one side of the bed and adjust two screws at a time.    
-    I personally tram the bed by adding just a little bit of load to the spacers, so that the bed doesn't wobble. Then I'm measuring the distance between the tip of the ABL sensor and the bedplate where the screws are located in first place and adjust the four screws to get the same distance. Then I proceed with an ABL and look at the mesh and the values and repeat the steps if necessary.  
-    Remember that every time you adjust one screw, it most likely will affect the other screws as well!  
-    For finetuning I add Kapton tape on the magnetic surface of the bed underneath the PEI plate to egalize warped or dented areas as much as possible.  
-    In case you're using Klipper like me, you can use the macro ["screws_tilt_adjust with the command SCREWS_TILT_CALCULATE"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe) to finetune the tramming of the bed.  
-    When you're done, make sure the screws won't turn themselves loose due to the vibration, so add e.g. an additional lock nut as well.    
-    Also remember to check your z-offset as it'll most likely has to be adjusted.  
     
 ### Insulating The Bed
 What I personally can highly recommend is to insulate the underside of the bed.  
