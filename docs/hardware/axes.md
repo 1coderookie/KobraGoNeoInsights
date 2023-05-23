@@ -117,13 +117,13 @@ Please see the expandable textbox below for further instructions about how to tr
     - Lower the x-axis gantry until the aluminum frame of it touches the can(s).  
       Make sure to have the cans positioned as far to the sides of the bed as possible, but only *that* far that *only the aluminum frame of the gantry touches them!* This is crucial - you *don't* want those y-shaped metal brackets touch the cans at all!  
       The following picture shows the crooked gantry resting on one can (the right one), where there's a noticeable gap between it and the left can.  
-      ![Crooked gantry on cans](../docs/assets/images/axes_gantry_screw-position_right-marked_web.jpg)  
+      ![Crooked gantry on cans](../assets/images/axes_NEO_untrammed-x-gantry_marked_web.jpeg)  
     - Loosen the coupler between the z-axis motor shaft and the lead screw at one side. I'd suppose to loosen the upper side where the lead screw is mounted into. Then turn the lead screw manually by hand counter clockwise to get it lifted up outside of the coupler.  
       By doing so you achieve that there isn't any kind of force being added to that side of the gantry which will lead to a false result. You want the gantry to rest on the cans *only* by it's own weight!   
      - *Note: if you didn't take care of cleaning and lubing the lead screw yet as well as checking the whole z-axis lead screw system for perfect vertical alignment and the anti-backlash nut for a correct installation, this is the perfect time to do so! Don't skip this! Please see the belonging textbox below in the section ["Z-Axis"](#z-axis).*   
     - Now loosen the two hexagon socket screws at each side of the aluminum frame of the gantry which are holding each of the Y-shaped metal plate (where the wheels are mounted onto, at the backside so to say) against it. Don't take them out (!), just loosen them a bit. You need to turn the printer around for being able to actually get access to those screws. The following pictures show the locations of those screws.  
       ![Gantry screws left](../assets/images/axes_gantry_screw-position_left-marked_web.jpg)  
-      ![Gantry screws right](../assets/images/axes_NEO_untrammed-x-gantry_marked_web.jpeg)
+      ![Gantry screws right](../assets/images/axes_gantry_screw-position_right-marked_web.jpg)
     - With those brackets being loose, adjust their position by slightly wiggling and turning them until the outer wheels of them touch the aluminum frame of the z-axis. Do one bracket at each time.  
       Don't pay (too much) attention to the inner wheel yet though, as you'll adjust the position of it in the following step. Remember: right now you want to achieve that the bracket is in the position that both of the two outer wheels touch the aluminum frame.  
       Once you found that perfect position of that bracket, hold it in place with one hand and adjust the position of the inner wheel now by turning the eccentric nut in the correct position. You want to achieve that all three wheels touch the frame.  
