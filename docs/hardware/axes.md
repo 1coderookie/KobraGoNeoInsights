@@ -65,10 +65,14 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
 
 ### V-Slot Wheels Position
 The x-axis gantry is moved along the z-axis aluminum profile driven by the z-axis lead screw, guided by v-slot wheels. They run in the v-slot of the z-axis profiles and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
-You can adjust the roller tension by turning the eccentric nut of the wheel which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though as the following picture shows, only the two wheels (one at each side) which are facing the inner side of the frame (towards the bed) do have an eccentric nut.  
+
+You can adjust the roller tension by turning the eccentric nut of the wheel which moves the wheels either towards or away from the aluminum profile.  
+Not all of the wheels have eccentric nuts though as the following picture shows, only the two wheels (one at each side) which are facing the inner side of the frame (towards the bed) do have an eccentric nut.  
     
 ![](../assets/images/x-axis_left-side-nut_web.jpg)
   
+Here you can see clearly that only the inner wheel on the left side in the following picture has an eccentric nut, the red circle at the outer wheel on the right side marks the round spacer.  
+
 ![](../assets/images/x-axis_knob_nut_web.jpg)
   
 However, you might face the problem that you just can't get all of the three wheels at each side to touch the aluminum frame as they should.  
@@ -109,7 +113,7 @@ Please see the expandable textbox below for further instructions about how to tr
 
 ??? example "Tramming The X-Axis Gantry And Adjusting The Wheels"  
 
-    When it comes down to tram the x-axis gantry, up to me one should differ between tramming it in relation to the frame of the printer and in relation to the bed. Depending on which spacers are being used, you should either do the one or the other:  
+    When it comes down to tramming the x-axis gantry, up to me one should differ between tramming it in relation to the frame of the printer and in relation to the bed. Depending on which spacers are being used, you should either do the one or the other:  
     
     1. Tram in relation to the *bed*, if you're using the stock spacers, because you can't really "tram" the bed itself. *Make sure you checked the rigid stock spacers of the bedmount for an equal height before tramming the gantry though!* If they're not all of the same height, I'd recommend to sand them down to the height of the shortest spacer.  
     
