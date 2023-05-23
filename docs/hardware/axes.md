@@ -7,7 +7,7 @@ The printhead moves along the x-axis (left and right) and is attached to the x-a
 The x-axis gantry moves along the z-axis (up and down).  
 
 ## X-Axis
-The X-axis of both the **Go** and the **Neo** is belt driven, the motor which drives the belt (6mm wide, GT-2 type) is located at the left side.   
+The x-axis of both the **Go** and the **Neo** is belt driven, the motor which drives the belt (6mm wide, GT-2 type) is located at the left side.   
 You can adjust the tension of the belt by using the knob at the right side of the aluminum profile where the printhead is guided onto.  
   
 ![X-axis knob](../assets/images/x-axis_knob_web.jpg)
@@ -65,15 +65,17 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
 
 ### V-Slot Wheels Position
 The x-axis gantry is moved along the z-axis aluminum profile driven by the z-axis lead screw, guided by v-slot wheels. They run in the v-slot of the z-axis profiles and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
-You can adjust the roller tension by turning the eccentric nut of the wheel which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though as the following picture shows, only the two wheels (one at each side) which are facing the inner side (towards the bed) do have an eccentric nut.  
+You can adjust the roller tension by turning the eccentric nut of the wheel which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though as the following picture shows, only the two wheels (one at each side) which are facing the inner side of the frame (towards the bed) do have an eccentric nut.  
     
 ![](../assets/images/x-axis_left-side-nut_web.jpg)
   
 ![](../assets/images/x-axis_knob_nut_web.jpg)
   
-However, you might face the problem that you just can't get all of the three wheels at each side to touch the aluminum frame as they should. So if you need to adjust the position of the wheels using the eccentric nuts, you might encouter the problem that e.g. the inner wheel and the lower wheel on the outside may sit in the v-slot really nice, but that the third wheel (the upper one on the outside in this example) isn't even touching the aluminum and can be spinned in the air. Whatever you'll try with the eccentric nut of the wheel of the inside (because there's only this one), you won't be able to achieve that all of the three wheels touch the aluminum and sit in the slot like they should.  
+However, you might face the problem that you just can't get all of the three wheels at each side to touch the aluminum frame as they should.  
+So if you need to adjust the position of the wheels using the eccentric nuts, you might encouter the problem that e.g. the inner wheel and the lower wheel on the outside may sit in the v-slot really nice, but that the third wheel (the upper one on the outside in this example) isn't even touching the aluminum and can be spinned in the air. This also leads to a wobbly x-axis gantry, as you'll most likely be able to move the right part (the side without the lead screw) up and down a bit.   
+Whatever you'll try with the eccentric nut of the wheel of the inside (because there's only this one), you won't be able to achieve that all of the three wheels touch the aluminum and sit in the slot like they should, as the eccentric nut only changes the position of the inner wheel towards the frame.  
 So - what to do?  
-Well, there's a trick, which directly leads us to the process of tramming the x-axis gantry. Please see the expandable violet textbox in the next section to read about how to do so.  
+Well, there's a trick, which directly leads us to the process of [tramming the x-axis gantry](#tramming-the-x-axis-gantry).   
 
               
 
@@ -151,7 +153,7 @@ Please see the expandable textbox below for further instructions about how to tr
 ---
 
 ## Y-Axis
-The Y-axis of both the **Go** and the **Neo** is belt driven (GT-2 type, 6mm wide).  
+The y-axis of both the **Go** and the **Neo** is belt driven (GT-2 type, 6mm wide).  
 You can adjust the tension of the belt by using the knob at the front side of the aluminum profile where the bed is guided onto.   
 The x-shaped plate for the bedmount itself has v-slot wheels which are running in the v-slot of the aluminum profile.  
 The following picture shows the aluminum profile of the y-axis with the knob for adjusting the belt tension at the front.   
@@ -207,8 +209,9 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
 ---
 
 ## Z-Axis
-The Z-axis of both the **Go** and the **Neo** is driven by a single lead screw. The lead screw has 8mm in diameter with 8mm lead ('distance' of one complete rotation) and 2mm pitch and has a length of 350mm (it's actually this kind of lead screw which is used pretty much everywhere in these kind of machines).  
-This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom. The top end of the rod is completely unguided, in between it's guided and secured by a POM anti-backlash nut which you can see at the following picture, it's the black plastic part mounted to the black steel bracket.  
+The z-axis of both the **Go** and the **Neo** is driven by a single lead screw. The lead screw has 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts and has a length of 350mm (it's actually the kind of lead screw which is used pretty much everywhere in these kind of machines).  
+This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom.  
+The top end of the rod is completely unguided, in between it's guided and secured by a POM anti-backlash nut which you can see at the following picture -  it's the black plastic part mounted to the black steel bracket.  
   
 ![Z-axis views](../assets/images/z-axis_neo_web.jpg)
    
@@ -229,7 +232,7 @@ This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom. Th
     However, there are a few things you should pay attention to now:  
     - Make sure the motor shaft and the bottom tip of the lead screw are free of oil or grease to avoid slipping of the coupler.  
     - Mount the coupler to the bottom of the lead screw first and tighten the screw. Then put it onto the motor shaft and tighten the screw. The coupler should not move or wiggle on either part.    
-    - When installing the anti-backlash nut, make sure you press it together while inserting the lead screw so that the spring inside these two parts of the anti-backlash nut is completely compressed and loaded. 
+    - When installing the *anti-backlash nut*, make sure you *press it together* firmly while inserting the lead screw, so that the spring inside these two parts of the anti-backlash nut is completely compressed and loaded. 
     - Before finally installing the lead screw, loosen up the screws of the motor holder a bit so that the motor itself can move a bit on the horizontal plane. Then install the lead screw, align everything, screw the anti-backlash nut to the belonging holder and align the motor once again. Then finally tighten up the screws of the motor mount. By doing so you do the best you can to get the parts vertically aligned as much as possible.  
    
 ??? example "Lead Screw Maintenance"
