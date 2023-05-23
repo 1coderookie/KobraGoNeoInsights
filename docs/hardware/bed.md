@@ -136,7 +136,7 @@ The bedplate itself is mounted to the bed gantry which runs along the y-axis sho
 ## Tramming The Bed
 Even though "tramming" the bed isn't really possible when using the rigid stock spacers of the bedplate these printers come with, there is something one can and should do though: check if those spacers are all of the same height. *This is really important, so better don't skip this step!*   
 
-If you're using adjustable spacers, then you'll be able to actually tram the bed itself.  
+If you're using [adjustable spacers](#different-spacers), then you'll be able to actually tram the bed itself.  
 
 If necessary, you can add Kapton tape on the magnetic surface of the bed underneath the PEI plate later to equalize warped or dented areas as much as possible.  
 
