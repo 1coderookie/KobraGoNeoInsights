@@ -128,7 +128,7 @@ Please see the expandable textbox below for further instructions about how to tr
       Don't pay (too much) attention to the inner wheel yet though, as you'll adjust the position of it in the following step. Remember: right now you want to achieve that the bracket is in the position that both of the two outer wheels touch the aluminum frame.  
       Once you found that perfect position of that bracket, hold it in place with one hand and adjust the position of the inner wheel now by turning the eccentric nut in the correct position. You want to achieve that all three wheels touch the frame.  
       ![Illustration how to adjust the brackets](../assets/images/axes_gantry_bracket-position_web.jpg)  
-    - *Note: with adjusting the position of the inner wheels by turning the eccentric nut (now and later as well), you only adjust the pressure and how tight the wheels sit and run along the z-axis frame. The position of the outer wheels only can be achieved by positioning them manually as described.*  
+      *Note: with adjusting the position of the inner wheels by turning the eccentric nut (now and later as well), you only adjust the pressure and how tight the wheels sit and run along the z-axis frame. The position of the outer wheels only can be achieved by positioning them manually as described.*  
     - After having one side repositioned, repeat the process at the other side.  
     - After you did this, pay attention to the aluminum frame of the x-axis gantry again. You want it to rest completely equal on both cans, as the following picture shows.  
       ![X-axis gantry](../assets/images/tramming_x-gantry_web.jpg)   
