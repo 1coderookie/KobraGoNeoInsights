@@ -64,29 +64,24 @@ Make sure that you built and set up the printer correctly. This is the most impo
 ---
 
 ### Tram The Bed
-Even though 'tramming the bed' isn't really possible when using the rigid stock spacers of the bedplate these printers come with, there is something one can and should do though: check if those spacers are all of the same height. This is really important, so better don't skip this step.     
-Means, dismount the bedplate from the bedgantry and take out the four black spacers. Then put them next to each other on a flat surface and/or measure them using a caliper. Most likely they aren't all of the same height, which will lead to a somewhat crooked, tilted or 'warped' bed.  So sand them down to the smallest of the four spacers for achieving an equal height.     
-When doing so, put the sandpaper on a flat surface and carefully rub the spacers across it - *pay attention that you do this while holding the spacer absolutely perpendicular! You don't want to end up with a spacers where one end is sanded off tilted!*  
-Once you're done and all four spacers are of equal height, reassemble everything. Then proceed with tramming the x-axis gantry in relation to the bed.   
+Even though 'tramming the bed' isn't really possible when using the rigid stock spacers of the bedplate these printers come with, there is something one can and should do though: check if those spacers are all of the same height. *This is really important, so better don't skip this step.*  
 
-You could also use [adjustable spacers](hardware/bed.md#different-spacers) like silicone spacers or springs instead of those rigid spacers. That'll put you in the position of really being able to tram the bed.  
-However, if doing so you not only need to be precise when tramming the bed, but you should *proceed with tramming the x-axis gantry in relation to the frame first*. This is really important as it will ensure that the x-axis gantry is parallel to the base frame. Once this step is done, you can proceed with tramming the bed itself.     
-For doing so, you'll have to move the printhead to all of the four corners and adjust the height of the belonging edge of the bed by tightening or loosening the belonging screw. I'd suppose to start with the left backhand corner and rotate clockwise.  
-Take off the PEI plate and place an object onto the edge of the bed. It doesn't matter if this object is like 5mm or 5cm high as you're not setting the z-offset yet. It's just being used to ensure that the bedplate will be at the same height in relation to the printhead at all four corners. You need to make sure that you'll still be able to access the screw form the top though, so don't place the object right above the screw.  
-Then lower the printhead manually until the nozzle or the ABL sensor just touches that object. Then move the object to the next corner and move the printhead across it. Make sure that you absolutely *don't* move the head along the z-axis by accident, so that you don't somehow change the height of it!  
-If the head is positioned too low and there isn't enough space to fit the object between the bed and the head, tighten the screw for lowering the bedplate. If there's too much space, loosen the screw a bit until the nozzle/ABL sensor touches the object again.  
-Proceed with the other corners like that. Once you're done with all four corners, do another round and check if everything still fits. Most likely it won't as it affects the other edges when adjusting the height of one edge. When you're done with this round as well, put on the pEI plate, move the lead screw manually for raising the head and place the object in the first corner again. Lower the head and check all four edges once again if everything is correct.   
+See the section ["Tramming The Bed"](hardware/bed.md#tramming-the-bed) for further information and instructions about how to do so.  
+
 
 ---
 
 ### Tram The X-Axis Gantry
 This is a really important step as well as it will ensure that the x-axis gantry either is parallel to the bed (when using the rigid stock spacers) or to the baseframe (when using adjustable spacers).  
-See the section [Tramming The X-Axis Gantry](hardware/axes.md#tramming-the-x-axis-gantry) in the belonging hardware chapter for further information and instructions.  
+
+See the section [Tramming The X-Axis Gantry](hardware/axes.md#tramming-the-x-axis-gantry) in the belonging hardware chapter for further information and instructions about how to do so.  
 
 ---
 
 ### Level The ABL Sensor 
-You also should level the ABL sensor in relation to the nozzle, so that you have a defined distance between the tip of the sensor and the tip of the nozzle. Every time you change the hotend or parts of it, you should check that distance again to make sure it's the same like before. Please see the belonging section for your specific model in the section ["ABL Sensor"](hardware/printhead.md#abl-sensor) for further information and instructions about how to do so.  
+You also should level the ABL sensor in relation to the nozzle, so that you have a defined distance between the tip of the sensor and the tip of the nozzle. Every time you change the hotend or parts of it, you should check that distance again to make sure it's the same like before.  
+
+See the belonging section for your specific model in the section ["ABL Sensor"](hardware/printhead.md#abl-sensor) for further information and instructions about how to do so.  
 
 ---
 
