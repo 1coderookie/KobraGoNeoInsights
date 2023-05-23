@@ -169,9 +169,6 @@ The retraction *distance* is a crucial setting one has to take care about. The r
     This one is really important for the **Neo**: watch out if you're going to use the profile of Anycubic, the retraction distance is set to 6mm there, which is way too much for the direct drive system of the **Neo** as mentioned above! So change that setting to max. 1mm and go from there.   
     Always make sure to check this setting in general when using preconfigured profiles! 
 
-As a rough orientation, you can keep in mind that if everything is set up well and the best setting is found, it'll mostly avoid any stringing. If the distance is too low, it might lead to oozing and stringing. If the retraction distance is too high, it'll lead to clogs.  
-However, the retraction distance setting is just one of many factors that affect the outcome and the amount of stringing, so if you struggle with that, maybe take a look at the section ["Stringing"](troubleshooting.md#stringing) in the troubleshooting chapter as well.  
-
 Finding the correct retraction distance setting can be difficult and might take a few iterations, as it depends on various other settings and variables, so there isn't a general one-fits-all setting one could use.  
 However, there is a rule of thumb though one should be aware of: if you're using a bowden drive feeder gear system like the one of the **Go**, the retraction distance is higher than when using a direct drive system like the **Neo**. This is because of the slack of the bowden drive system, where the feeder gear is about 30-40cm away from the hotend. So as a general rule it's said that at bowden drives the retraction distance is something around 6mm, at direct drives it should be max. 1mm.   
   
@@ -183,13 +180,16 @@ For finding out the correct retraction distance setting, you can print retractio
 ---
 
 #### Retraction Speed
-Retraction *speed* (r.s.) is the setting how *fast* the feeder gear will pull back the filament when retracting. It plays together with the setting of the retraction distance, and both settings affect each other.  
+Retraction *speed* is the setting how *fast* the feeder gear will pull back the filament when retracting. It plays together with the setting of the retraction distance, and both settings affect each other.  
 In general it seems that you can say that the higher the *speed*, the lower the *distance* can be - but like with every 'rule of thumb', this is just a 'rough' guide and you'll need to find out the optimum setting for your specific setup by your own. You might also find out that things work out much better and that you get better results when using a lower retraction speed.    
 
 There is a little problem though with both the **Go** and the **Neo**: the retraction speed is limited in the firmware by default to *25mm/s*!   
-This means that every higher value you set in your sclicer will just be ignored and reduced to 25mm/s as that's the encoded limit. Means, when you're starting to print retraction speed towers with higher vales than 25mm/s, those speeds will be 'ignored' so to say as the speed is actually capped to 25mm/s.   
-It has to be mentioned though that a high(er) r.s. isn't always the key - it can also be the case that using a lower speed than e.g. the default maximum 25mm/s is necessary for getting the best results. This also depends on the type and quality of the filament as well.  
-However, there is a way you can change the default setting of the maximum retraction speed. Please go to the chapter [Stock Firmware (Marlin Based)](firmware/fw_marlin.md), scroll down to the section "Limited Retraction Speed" for your specific model and read the expandable box "Setting a Higher Maximum Value For Retraction Speed".  
+This means that every higher value you set in your sclicer will just be ignored and reduced to 25mm/s as that's the encoded limit.  
+Means, when you're starting to print retraction speed towers with higher vales than 25mm/s, those speeds will be 'ignored' so to say as the speed is actually capped to 25mm/s.   
+However, there is a way you can change the default setting of the maximum retraction speed. Please see the chapter [Stock Firmware (Marlin Based)](firmware/fw_marlin.md), scroll down to the section "Limited Retraction Speed" for your specific model and read the expandable box "Setting A Higher Maximum Value For Retraction Speed".  
+  
+It has to be mentioned though that a high(er) retraction speed isn't always the key - it can also be the case that using a lower speed than e.g. the default maximum 25mm/s is necessary for getting the best results. This also depends on the type and quality of the filament as well.  
+  
   
 ---  
   
