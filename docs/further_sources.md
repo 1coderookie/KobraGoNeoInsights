@@ -27,6 +27,7 @@ Some of the following pages offer direct downloads (DD), others are search engin
 
 - https://www.thingiverse.com/ (DD)
 - https://www.printables.com/en (DD)
+- https://www.myminifactory.com/ (DD)
 - https://cults3d.com/en/ (DD)
 - https://repables.com/ (DD)
 - https://www.youmagine.com/ (DD)
