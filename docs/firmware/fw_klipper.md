@@ -74,11 +74,13 @@ Now you should be able to connect OctoPrint/Mainsail/.. with the printer. If an 
 Besides the `firmware.bin` of Klipper (aka `klipper.bin`) you also need a file named `printer.cfg` which contains the specific settings for your model. Please refer to the official Klipper documentation about [configuring Klipper](https://www.klipper3d.org/Installation.html#configuring-klipper).  
 
 You can find preconfigured `printer.cfg` files for both the **Go** and the **Neo** in the belonging repository I set up for this: [Klipper4KobraGoNeo](https://github.com/1coderookie/Klipper4KobraGoNeo).  
-For the **Go** you also find a preconfigured file named `printer-anycubic-kobra-go-2022.cfg` within the Klipper repository [here](https://github.com/Klipper3d/klipper/blob/master/config/printer-anycubic-kobra-go-2022.cfg).  
+For the **Go** you also find a preconfigured file named [`printer-anycubic-kobra-go-2022.cfg`](https://github.com/Klipper3d/klipper/blob/master/config/printer-anycubic-kobra-go-2022.cfg) within the official Klipper repository.  
   
 Before you can start with the beforementioned tests to see if anything works correctly, you should check and adjust the settings in the file `printer.cfg` if necessary. *Don't start to print right away!*    
   
-I won't mention and explain all the settings here as you can just use the official documentation of Klipper to see what each setting means.  
+I won't mention and explain all the settings here as you can just use the official documentation of Klipper to see what each setting means.   
+
+However, there is one thing I'd like to point out right now as it's causing trouble if one doesn't check on that: the lines `include specific_filename_here.cfg` in some of the example `printer.cfg` files that are available. I'll go into detail about that in the section ["include additional.cfg"](#include-additional-cfg), so please make sure to read that section as well.  
  
   
 !!! warning "Adjust The `cycle_time` For The Fans"  
@@ -101,10 +103,38 @@ I won't mention and explain all the settings here as you can just use the offici
 In the following I'll list some of the special functions which make Klipper so interesting and outstanding compared to the stock firmware, besides the fact that you can adjust the firmware settings to your own needs.  
   
 ### G-Codes & Macros
-Klipper uses extended g-codes and macros, so not all of the 'regular' G-code commands are known and useable within Klipper. See the [g-codes chapter](https://www.klipper3d.org/G-Codes.html) of the official Klipper documentation for an overview of the specific commands.  
-You can also find [command templates](https://www.klipper3d.org/Command_Templates.html) in the official documentation.  
-  
-Due to the fact that Klipper also uses macros, you can set up your own macros to set up certain routines or to e.g. use scripts to do automatic backups of your Klipper configs. 
+Klipper uses **extended g-codes**. Therefore one has to be aware of the fact that not all of the 'regular' G-code commands are known and useable within Klipper. See the [g-codes chapter](https://www.klipper3d.org/G-Codes.html) of the official Klipper documentation for an overview of the specific commands.  
+
+??? tip "Slicer Setting: G-Code Flavour"
+
+    Look out for a setting in your slicer called something like "G-Code Flavour". If it's available, set the flavour to "Klipper".  
+
+You can also use **macros** in Klipper. Basically a macro is a collection of g-code commands Klipper should execute. This macro is created and saved as an own file one refers to in the `printer.cfg` then. You can set up your own macros to set up certain routines like when you want to change filament midprint or to e.g. use scripts to do automatic backups of your Klipper configs.  
+
+As I can't go into further details here, I'd highly recommend to read around about macros. To make the research easier for you, here are some links you can start with:  
+
+- The description about [commands templates](https://www.klipper3d.org/Command_Templates.html) in the official documentation.  
+- The detailed article ["Klipper Macros - What They Are and How to Use Them"](https://www.obico.io/blog/klipper-macros/#what-are-klipper-macros) at the Obicio blog.
+- The article ["Voidtrance Klipper Macros Beginners Guide](https://docs.vorondesign.com/community/howto/voidtrance/Klipper_Macros_Beginners_Guide.html) of the Voron Design community.
+- The ["Macro Creation Tutorial"](https://klipper.discourse.group/t/macro-creation-tutorial/30) at Klipper's discourse group.
+- The [collection of Klipper macros](https://github.com/jschuh/klipper-macros) by [Justin Schuh](https://github.com/jschuh). 
+ 
+### Include Additional.cfg 
+You can include additional config files from the main printer config file as well by adding this command line to the start of the `printer.cfg` file: `[include additional.cfg]`, where "additional" will be replaced with the specific filename then. In this "additional" config file you can list certain macros you created or you can list certain settings which will be loaded during the startup of Klipper.  
+By doing so, you not only keep your main `printer.cfg` short and easier to read, but you can also activate or deactivate loading certain settings for example by commenting or commenting out the specific "include" line.  
+You *need to have* that config file (which you referred to in that include line) existent though - if you don't have the file, Klipper won't start and reports an error message instead.   
+
+This might sound a bit confusing right now, so I'll try to clarify this with an example:    
+Imagine you want to use an additional Raspberry Pico with an ADXL345 sensor later for measuring resonances for Input Shaping. So you set up the hardware and then you create a file named `adxl345.cfg` for example. In this file you have all the settings for the set up hardware. In the main `printer.cfg` you add the line `#[include adxl345.cfg]` at the top.  
+Right now this file won't be loaded and executed, because you commented it with the hashtag right before the square bracket. So when you want to use the Pico with the sensor now and you plug it into the host Klipper is running on, you comment out the file by removing the hashtag, which "activates" the command and makes Klipper look out for this specific file to load during the start. Once you're done with the measuring and unplug the Pico again, you comment that line again by adding the hashtag, which 'deactivates' the command to look out for that specific file and load it.  
+If you *don't* do this and try to boot Klipper without the Pico being connected, Klipper won't start and reports an error message instead. Same goes for the case that you don't have that `adxl345.cfg` file existent and try to execute that include command.  
+
+!!! warning "Important Note On Include Files"
+
+    The reason I'm going over this here is that in some `printer.cfg` files you can find there are certain `[include whatever.cfg]` lines already being listed. If you then try to use that printer config file but you don't have that specific files which should be included (or the hardware being referred to in that file isn't connected, like in the abovementioned example about the Pico), Klipper won't start and will report an error message instead.  
+    So whenever you use a printer config file from someone else, check if any `[include whatever.cfg]` lines are existent. If so, either delete those lines or 'deactivate' them by adding a hashtag right before that square bracket like this: `#[include whatever.cfg]`.  
+
+
   
 ### ABL and Manual Bed Leveling
 Of course Klipper supports both ABL and manual bed leveling as well. Please see the official Klipper documentation for more detailed information about this topic, I'll only mention some notes about it here in the following. So before you continue to read here, maybe check out the official Klipper documentation first and read the chapters ["Bed Level Support"](https://www.klipper3d.org/Config_Reference.html#bed-level-support) and ["Bed Level"](https://www.klipper3d.org/Bed_Level.html).  
