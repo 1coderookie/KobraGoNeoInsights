@@ -132,7 +132,11 @@ If you *don't* do this and try to boot Klipper without the Pico being connected,
 !!! warning "Important Note On Include Files"
 
     The reason I'm going over this here is that in some `printer.cfg` files you can find there are certain `[include whatever.cfg]` lines already being listed. If you then try to use that printer config file but you don't have that specific files which should be included (or the hardware being referred to in that file isn't connected, like in the abovementioned example about the Pico), Klipper won't start and will report an error message instead.  
-    So whenever you use a printer config file from someone else, check if any `[include whatever.cfg]` lines are existent. If so, either delete those lines or 'deactivate' them by adding a hashtag right before that square bracket like this: `#[include whatever.cfg]`.  
+    The following screenshot shows an error report because of the missing file `fluidd.cfg` in the active line `[include fluidd.cfg]`.  
+    ![Missing include file](../assets/images/fw_klipper_include-missing.png)
+    So to get rid of this error message, either 'deactivate' that line like this `#[include fluidd.cfg]` or create the belonging file `fluidd.cfg`.  
+    
+    So whenever you use a printer config file from someone else, check if any `[include whatever.cfg]` lines are existent. If so, either delete those lines, 'deactivate' them by adding a hashtag right before that square bracket like this: `#[include whatever.cfg]` or lookout for / create the belonging config file.  
 
 
   
