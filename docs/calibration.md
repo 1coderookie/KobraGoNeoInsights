@@ -64,7 +64,7 @@ Make sure that you built and set up the printer correctly. This is the most impo
 ---
 
 ### Tram The Bed
-Even though 'tramming the bed' isn't really possible when using the rigid stock spacers of the bedplate these printers come with, there is something one can and should do though: check if those spacers are all of the same height. *This is really important, so better don't skip this step.*  
+Even though 'tramming the bed' (often referred to and named as 'leveling' the bed, but 'leveling' actually is the wrong term though) isn't really possible when using the rigid stock spacers of the bedplate these printers come with, there is something one can and should do though: check if those spacers are all of the same height. *This is really important, so better don't skip this step.*  
 
 See the section ["Tramming The Bed"](hardware/bed.md#tramming-the-bed) for further information and instructions about how to do so.  
 
@@ -72,7 +72,7 @@ See the section ["Tramming The Bed"](hardware/bed.md#tramming-the-bed) for furth
 ---
 
 ### Tram The X-Axis Gantry
-This is a really important step as well as it will ensure that the x-axis gantry either is parallel to the bed (when using the rigid stock spacers) or to the baseframe (when using adjustable spacers).  
+Tramming the x-axis gantry (often referred to and named as 'leveling' the gantry, but 'leveling' is actually the wrong term for this) is a really important step as well as it will ensure that the x-axis gantry either is parallel to the bed (when using the rigid stock spacers) or to the baseframe (when using adjustable spacers).  
 
 See the section [Tramming The X-Axis Gantry](hardware/axes.md#tramming-the-x-axis-gantry) in the belonging hardware chapter for further information and instructions about how to do so.  
 
@@ -99,9 +99,8 @@ In the following I'll list some of the calibrations which are necessary. The lis
 Keep in mind that it may take some time until you found the best suitable settings. And even then it might occur that you'll have to adjust certain settings later when finally printing 'real' models. So maybe try to see it more like a process instead of the struggle of a search for the 'perfect' settings which must out there somewhere..  
 
 Also keep in mind that you'll have to do certain calibrations again when using different kinds of filament. This doesn't only comes into account when printing a differenty type like ABS or PETG instead of PLA, but it also most likely will be the case when using the same type of filament but made from another manufaturer. Even the same type and brand of filament from the same manufacturer might need some slightly different settings like the temperature for example, when you're using a new spool or a different colour!  
-  
-  
----
+
+---    
 
 ### Z-Offset  
 The z-offset is the distance between the nozzle and the bed/plate you're printing on. It comes into account when printing the first layer of a model and therefore it's crucial and absolutely important that you dial in your z-offset to get your first layer as perfect as possible.  
@@ -220,6 +219,33 @@ So when choosing a l.h. like e.g. 0.15mm or 0.3mm, the motor has to do 3.75 or 7
 
 So: always choose layer heights which can be 'fully' divided by 0.04mm.
 
+---
+
+### Calibrating E-Steps
+You've probably already came along the sentence "calibrate your e-steps" and maybe you wonder what it is, what you'd have to do and why you should do so. It's actually pretty simple: the "e-steps" are the steps of the motor of your extruder (so "e-steps" stands for "extruder-steps") and therefore they determine how much filament will be extruded with a certain amount of motor steps.  
+Depending on how accurate this setting is (means, how well you calibrated the e-steps), you'll either have some pretty perfect prints (in the meaning of the amount of filament of each layer) or you'll see signs of more or less severe under- or overextrusion. Some people try to adjust or get rid of this problem by setting different extrusion multipliers in the slicer, but that's not the best/correct way (imho). You always should have the hardware tuned in as much as possible before trying to tweak software settings for better results.   
+
+Even though the e-steps of both the **Go** and the **Neo** don't seem to be way off when it comes from the manufacturer with the default firmware settings, it's advisable to calibrate them.  
+This whole procedure really isn't a big deal and doesn't take long, so make sure to do this calibration!   
+  
+However, you need an additional software like OctoPrint or Pronterface for being able to send the specific g-code commands to the printer. As you most likely don't have that installed yet when you just started with 3d printing, I'm mentioning this calibration not as one of the first things to do, even though one should do it as soon and early as possible, as it effects the outcome overall.   
+  
+The actual process of how to calibrate the e-steps is described in many articles see the abovementioned and videos already, so right now I won't go into the final details here. Please see the links in the section ["Calibration Guides"](#calibration-guides) above.   
+Basically what you'll do is measure e.g. 100mm and 120mm of filament right above the printhead where the filament enters and mark those two spots. Then you heat up your system to your regular printing temperature, extrude 100mm and measure the distance between the printhead (where the filament enters) and the 100mm and 120mm marks once the extrusion is done.  
+If e.g. the 100mm mark is right at the spot where the filament enters - great, no calibration necessary!  
+But if either more or less than the 100mm got extruded, then you'd have to do a little math using the measured values of the distance to the marks for determining the final value of the e-steps, the formula can be found in numerous articles and videos as well as calculators where you just enter the belonging values. The calculated value has to be saved to the firmware then.  
+After doing so, repeat this process for verifying that the new setting is correct.  
+  
+Some guides say that you should do it without a nozzle, some guides say you should do it with the nozzle. I personally found it most precise when doing the calibration using the final print setup, so these are my personal suggestions when it comes down to execute this procedure:  
+
+- Determine the correct printing temperature for the filament you're using.  
+  Even though I personally consider this step as quite important, it does make sense to at least 'roughly' calibrate the e-steps initially when setting up and using the printer for the first time. So you won't have printed a temperature tower and therefore didn't find the correct and final printing temperature yet, but as the e-steps affect the outcome of the temperature tower later as well, I'd suppose to initially start with calibrating the e-steps by setting a nozzle temperature which is in the middle of the suggested temperature range from the maunfacturer of that filament. Later, when you printed temperature towers and found the correct printing temperature, just calibrate the e-steps again.   
+- Use the nozzle you're going to use for printing as well - so don't calibrate the e-steps with e.g. a 0.4mm nozzle, when you're printing with a 0.6mm nozzle later. 
+- Make sure the pressure of the feeder gear is correct and it's (mostly) the setting you'll use later on as well. So don't calibrate with a sloppy feeder gear and crank up the tension later and vice versa. 
+- *Make sure to use a fine lined, waterproof pen for marking the filament, so don't use a fat marker which aleady draws a 1mm or 2mm wide line!* You want to be as precise as possible here! 
+- *Make sure to use a precise ruler or a sliding gauge for being able to actually really measure 100mm!* You'd be suprised how bad certain measurement tools actually are and how big deviations can actually be, so make sure to use a sufficient measuring tool.  
+- Calibrate the e-steps whenever you use different type of filament, even different spools of the same type. The process doesn't take long, but it's crucial that the e-steps are calibrated. So better take the little time to check if everything is still fine after changing the filament.  
+    
 ---
   
 ### PID Tuning
@@ -340,22 +366,3 @@ Congratulations, you just did the PID tuning for your bed!
 
     Insulating the bedplate with sufficient material has a great effect on the stability and the behaviour while heating up and cooling down. It'll minimize temperature fluctuations and saves electrical energy as well. Check out the section [Insulating the Bed](hardware/bed.md#insulating-the-bed) for further information.  
     
----    
-    
-### Calibrating E-Steps
-You've probably already came along the sentence "calibrate your e-steps" and maybe you wonder what it is, what you'd have to do and why you should do so. It's actually pretty simple: the "e-steps" are the steps of the motor of your extruder (so "e-steps" stands for "extruder-steps") and therefore they determine how much filament will be extruded with a certain amount of motor steps.  
-Depending on how accurate this setting is (means, how well you calibrated the e-steps), you'll either have some pretty perfect prints (in the meaning of the amount of filament of each layer) or you'll see signs of more or less severe under- or overextrusion. Some people try to adjust or get rid of this problem by setting different extrusion multipliers in the slicer, but that's not the best/correct way (imho). You always should have the hardware tuned in as much as possible before trying to tweak software settings for better results.   
-Even though the e-steps of both the **Go** and the **Neo** don't seem to be way off when it comes from the manufacturer with the default firmware settings, it's advisable to calibrate them. This whole procedure really isn't a big deal and doesn't take long, so make sure to do this calibration!  
-  
-The actual process of how to calibrate the e-steps is described in many articles and videos already, so right now I won't go into the final details here. Basically what you'll do is measure e.g. 100mm and 120mm of filament right above the printhead where the filament enters and mark those two spots. Then you heat up your system to your regular printing temperature, extrude 100mm and measure the distance between the printhead (where the filament enters) and the 100mm and 120mm marks once the extrusion is done.  
-If e.g. the 100mm mark is right at the spot where the filament enters - great, no calibration necessary!  
-But if either more or less than the 100mm got extruded, then you'd have to do a little math using the measured values of the distance to the marks for determining the final value of the e-steps, the formula can be found in numerous articles and videos as well as calculators where you just enter the belonging values. The calculated value has to be saved to the firmware then.  
-After doing so, repeat this process for verifying that the new setting is correct.  
-  
-Some guides say that you should do it without a nozzle, some guides say you should do it with the nozzle. I personally found it most precise when doing the calibration using the final print setup, so these are my personal suggestions when it comes down to execute this procedure:  
-
-- Determine the correct printing temperature for the filament you're using. 
-- Use the nozzle you're going to use for printing as well - so don't calibrate the e-steps with e.g. a 0.4mm nozzle, when you're printing with a 0.6mm nozzle later. 
-- Make sure the pressure of the feeder gear is correct and it's (mostly) the setting you'll use later on as well. So don't calibrate with a sloppy feeder gear and crank up the tension later and vice versa. 
-- *Make sure to use a fine lined, waterproof pen for marking the filament, so don't use a fat marker which aleady draws a 1mm or 2mm wide line!* You want to be as precise as possible here! 
-- *Make sure to use a precise ruler or a sliding gauge for being able to actually really measure 100mm!* You'd be suprised how bad certain measurement tools actually are and how big deviations can actually be, so make sure to use a sufficient measuring tool. 
