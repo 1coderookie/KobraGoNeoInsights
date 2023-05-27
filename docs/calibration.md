@@ -8,7 +8,7 @@ As there are many things being worth mentioned and I can't cover and explain all
 
 I'll divide this section into two parts: the section "Printer Calibration" and "Other Calibration".  
 
-- The section "Printer Calibration" will cover the calibration of the hardware itself. It's absolutely necessary that everything is set up correctly and that you take care about some specific topics to get a reliable machine. Please refer to the belonging sections of the chapter "Hardware" as well for further information.  
+- The section "Printer Calibration" will cover the calibration of the hardware itself. It's absolutely necessary that everything is set up correctly and that you take care about some specific topics to get a reliable machine. Please refer to the belonging sections of the chapter ["Hardware"](hardware/hw_index.md) as well for further information.  
 - The section "Other Calibration" will cover calibration procedures that need to be done for tuning in the printer itself, like dialing in the z-offset.   
 Besides those steps being mentioned in the section "Other Calibration" (yet), you also have to do other calibrations as well for e.g. finding the correct printing temperature for your specific filament and so on. There are many websites and YouTube guides out there to find which are already covering this wide topic of calibrations and give way more detailed instructions for certain calibrations though, so I'd recommend to do a little research by your own.   
 However, to make this journey a bit easier for you to begin with, I'll list some pages that I personally found useful in the following section.  
@@ -57,14 +57,20 @@ The following steps should be done first to ensure that you set up your printer 
 ### Correct Assembly
 Make sure that you built and set up the printer correctly. This is the most important and crucial thing, as you'll only be able to get good prints if the hardware itself is set up correctly. This also should be checked if you're using the **Neo** which comes pre-assembled, as you shouldn't rely on the assumption that the manufacturere built everything correctly. Read through the hardware chapters if you didn't do it yet. In the following I'll list the most crucial points.  
 
-- Set up the frame correctly. Means, check if the baseframe is mounted rectangular, if the the z-axis aluminum parts are really mounted perpendicular onto the baseframe and so on.
-- Check the axes. Means, check the whole z-axis lead screw system for being assembled correctly and vertically aligned. Make sure you cleaned the old oil off from the lead screw and applied fresh grease, assemble the anit-backlash nut correctly and so on. Make sure that you have all wheels positioned correctly and that the belts of the x- and y-axis aren't too sloppy or too tight.  
-- Check if everything moves smooth while the printer is switched off. Means, *slowly* move the bed and the printhead manually across the whole range of motion and turn the lead screw by hand (across the whole r.o.m. as well) and check if you feel any unusual resistance in certain areas. Parts shouldn't wiggle as well (never mind the top of the z-axis lead screw though - it's fine that it might wiggle a bit, as it isn't and shouldn't be fixated at the top). When everything looks and feels good, you can move the bed, the printhead and the position of the x-axis gantry to about the middle of the range of motion, then turn on the printer and home all axes using the control unit to see if the endstops are working.
+- Set up the frame correctly!  
+  Means, check if the baseframe is mounted square, if the the z-axis aluminum parts are really mounted perpendicular onto the baseframe and so on.  
+- Check the [axes](hardware/axes.md)!  
+  Means, check the whole z-axis lead screw system for being assembled correctly and vertically aligned. Make sure you cleaned the old oil off from the lead screw and applied fresh grease, assemble the anti-backlash nut correctly and so on.  
+  Make sure that you have all wheels positioned correctly and that the belts of the x- and y-axis aren't too sloppy or too tight.  
+- Check if everything moves smooth while the printer is switched off!°  
+  Means, *slowly* move the bed and the printhead manually across the whole range of motion and turn the lead screw by hand (across the whole range of motion as well) and check if you feel any unusual resistance in certain areas.  
+  Parts shouldn't wiggle as well (never mind the top of the z-axis lead screw though - it's fine that it might wiggle a bit, as it isn't and shouldn't be fixated at the top).  
+  When everything looks and feels good, you can move the bed, the printhead and the position of the x-axis gantry to about the middle of the range of motion, then turn on the printer and home all axes using the control unit to see if the endstops are working.
 
 ---
 
 ### Tram The Bed
-Even though 'tramming the bed' (often referred to and named as 'leveling' the bed, but 'leveling' actually is the wrong term though) isn't really possible when using the rigid stock spacers of the bedplate these printers come with, there is something one can and should do though: check if those spacers are all of the same height. *This is really important, so better don't skip this step.*  
+Even though 'tramming the bed' (often referred to and named as 'leveling' the bed, but 'leveling' is actually the wrong term for this as it's a tramming you're doing) isn't really possible when using the rigid stock spacers of the bedplate these printers come with, there is something one can and should do though: check if those spacers are all of the same height. *This is really important, so better don't skip this step.*  
 
 See the section ["Tramming The Bed"](hardware/bed.md#tramming-the-bed) for further information and instructions about how to do so.  
 
@@ -72,7 +78,7 @@ See the section ["Tramming The Bed"](hardware/bed.md#tramming-the-bed) for furth
 ---
 
 ### Tram The X-Axis Gantry
-Tramming the x-axis gantry (often referred to and named as 'leveling' the gantry, but 'leveling' is actually the wrong term for this) is a really important step as well as it will ensure that the x-axis gantry either is parallel to the bed (when using the rigid stock spacers) or to the baseframe (when using adjustable spacers).  
+Tramming the x-axis gantry (often referred to and named as 'leveling' the gantry, but 'leveling' is actually the wrong term for this as it's a tramming you're doing) is a really important step as well as it will ensure that the x-axis gantry either is parallel to the bed (when using the rigid stock spacers) or to the baseframe (when using adjustable spacers).  
 
 See the section [Tramming The X-Axis Gantry](hardware/axes.md#tramming-the-x-axis-gantry) in the belonging hardware chapter for further information and instructions about how to do so.  
 
@@ -231,15 +237,15 @@ This whole procedure really isn't a big deal and doesn't take long, so make sure
 However, you need an additional software like OctoPrint or Pronterface for being able to send the specific g-code commands to the printer. As you most likely don't have that installed yet when you just started with 3d printing, I'm mentioning this calibration not as one of the first things to do, even though one should do it as soon and early as possible, as it effects the outcome overall.   
   
 The actual process of how to calibrate the e-steps is described in many articles see the abovementioned and videos already, so right now I won't go into the final details here. Please see the links in the section ["Calibration Guides"](#calibration-guides) above.   
-Basically what you'll do is measure e.g. 100mm and 120mm of filament right above the printhead where the filament enters and mark those two spots. Then you heat up your system to your regular printing temperature, extrude 100mm and measure the distance between the printhead (where the filament enters) and the 100mm and 120mm marks once the extrusion is done.  
+
+So, basically what you'll do is measure e.g. 100mm and 120mm of filament right above the printhead where the filament enters and mark those two spots. Then you heat up your system to your regular printing temperature, extrude 100mm and measure the distance between the printhead (where the filament enters) and the 100mm and 120mm marks once the extrusion is done.  
 If e.g. the 100mm mark is right at the spot where the filament enters - great, no calibration necessary!  
-But if either more or less than the 100mm got extruded, then you'd have to do a little math using the measured values of the distance to the marks for determining the final value of the e-steps, the formula can be found in numerous articles and videos as well as calculators where you just enter the belonging values. The calculated value has to be saved to the firmware then.  
+But if either more or less than the 100mm got extruded, then you'd have to do a little math using a formula and the measured values of the distance to the marks for determining the final value of the e-steps. The calculated value has to be set and saved to the firmware then.  
 After doing so, repeat this process for verifying that the new setting is correct.  
   
 Some guides say that you should do it without a nozzle, some guides say you should do it with the nozzle. I personally found it most precise when doing the calibration using the final print setup, so these are my personal suggestions when it comes down to execute this procedure:  
 
-- Determine the correct printing temperature for the filament you're using.  
-  Even though I personally consider this step as quite important, it does make sense to at least 'roughly' calibrate the e-steps initially when setting up and using the printer for the first time. So you won't have printed a temperature tower and therefore didn't find the correct and final printing temperature yet, but as the e-steps affect the outcome of the temperature tower later as well, I'd suppose to initially start with calibrating the e-steps by setting a nozzle temperature which is in the middle of the suggested temperature range from the maunfacturer of that filament. Later, when you printed temperature towers and found the correct printing temperature, just calibrate the e-steps again.   
+- Determine the correct printing temperature for the filament you're using.   
 - Use the nozzle you're going to use for printing as well - so don't calibrate the e-steps with e.g. a 0.4mm nozzle, when you're printing with a 0.6mm nozzle later. 
 - Make sure the pressure of the feeder gear is correct and it's (mostly) the setting you'll use later on as well. So don't calibrate with a sloppy feeder gear and crank up the tension later and vice versa. 
 - *Make sure to use a fine lined, waterproof pen for marking the filament, so don't use a fat marker which aleady draws a 1mm or 2mm wide line!* You want to be as precise as possible here! 
