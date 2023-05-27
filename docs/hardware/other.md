@@ -11,9 +11,19 @@ It might happen though that several cards won't be accepted and the error messag
 ## Filament Spool Holder
 The spool holder of both models is mounted to the top frame.  
 
-However, due to the construction of the frame itself, the additional weight being put on top of it, the resulting impact of the (changing) weight on vibrations while printing (especially at higher speeds) and the poor roll-off behavior I'd suppose to create a spool holder which isn't attached to the printer itself and which uses ball bearings as well.    
-If you use a box with a lid which and put a bag of desiccant in the box as well, you'll also can keep the filament dry and dust-free. I personally use a cakebox with a lid which I mounted to an adjustable arm to the wall. The spool itself is held by a bolt with some ball bearing spool holder.     
-If you don't have the space for it, then at least print a holder which uses ball bearings, so that the spool can turn better while the filament gets pulled off of it. Look around at e.g. Thingiverse, there are many models to find.  
+However, due to the construction of the frame itself, the additional weight being put on top of it, the resulting impact of the (changing) weight on vibrations while printing (especially at higher speeds) and because of the poor roll-off behavior of the spool itself I'd suppose to create a spool holder which isn't attached to the printer itself and which uses ball bearings as well.  
+
+If you'd use a box with a lid which closes really well (best would be this kind of plastic box with the silicone sealing in the lid) and put a bag of desiccant in the box as well, you could also can keep the filament dry and dust-free. Just print yourself one of those ball bearing spool holders where you place the spool onto, drill a hole in the side of the box and feed the filament through. Then place it next to the printer or onto a shelf above it and you're good. Putting one of these cheap digital hygrometers in the box as well helps keeping an eye on the actual humidity inside of the box.  
+
+I personally used a cakebox with a lid which I mounted to an adjustable construction to the wall (cuz I couldn't get my hands on a decent box and ran across that cheap cakebox, so I couldn't resist). The spool itself is held by a bolt with some ball bearing spool holder. Of course I put a bag of desiccant and a cheap hygrometer in there as well.  
+
+![Cakebox holder front](../assets/images/cakebox-holder_front_web.jpg)
+
+![Cakebox holder open](../assets/images/cakebox-holder_open_web.jpg)
+
+![Cakebox holder back](../assets/images/cakebox-holder_back_web.jpg)
+
+If you don't have the space for it or want to keep the spool being attached at the top of the frame because of other reasons, then at least print a holder which uses ball bearings, so that the spool can turn better while the filament gets pulled off of it. Look around at e.g. Thingiverse, there are many models to find.  
   
 ## Mods
 In the following I'll list mods or STL files I found which could be interesting in general. Keep in mind that they mostly should fit for both printers in general due to the identical design and contruction itself, so (right now) I don't separate them into **Go** and **Neo** like usually.    
