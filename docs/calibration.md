@@ -70,7 +70,7 @@ Make sure that you built and set up the printer correctly. This is the most impo
 ---
 
 ### Tram The Bed
-Even though 'tramming the bed' (often referred to and named as 'leveling' the bed, but 'leveling' is actually the wrong term for this as it's a tramming you're doing) isn't really possible when using the rigid stock spacers of the bedplate these printers come with, there is something one can and should do though: check if those spacers are all of the same height. *This is really important, so better don't skip this step.*  
+Even though 'tramming the bed' (aka 'leveling' the bed) isn't really possible when using the rigid stock spacers of the bedplate these printers come with, there is something one can and should do though: check if those spacers are all of the same height. *This is really important, so better don't skip this step.*  
 
 See the section ["Tramming The Bed"](hardware/bed.md#tramming-the-bed) for further information and instructions about how to do so.  
 
@@ -78,7 +78,7 @@ See the section ["Tramming The Bed"](hardware/bed.md#tramming-the-bed) for furth
 ---
 
 ### Tram The X-Axis Gantry
-Tramming the x-axis gantry (often referred to and named as 'leveling' the gantry, but 'leveling' is actually the wrong term for this as it's a tramming you're doing) is a really important step as well as it will ensure that the x-axis gantry either is parallel to the bed (when using the rigid stock spacers) or to the baseframe (when using adjustable spacers).  
+Tramming the x-axis gantry (aka 'leveling' the gantry) is a really important step as well as it will ensure that the x-axis gantry either is parallel to the bed (when using the rigid stock spacers) or to the baseframe (when using adjustable spacers).  
 
 See the section [Tramming The X-Axis Gantry](hardware/axes.md#tramming-the-x-axis-gantry) in the belonging hardware chapter for further information and instructions about how to do so.  
 
