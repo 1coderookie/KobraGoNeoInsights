@@ -164,7 +164,7 @@ As a crucial element for great printing results you need to find the optimum set
 Both settings have to be evaluated for each filament you're using. You'll note that the settings may differ not only within the same type of material, but especially within different types of material (when printing PLA for example you'll end up with pretty different settings than you'll use when printing flexible TPU).  
 In general you'll determine the correct settings (after determining the correct print temperature) by printing retraction distance and retraction speed towers. Slight adjustments might be necessary later on though, so pay attention to not only the stringing, but also to e.g. starts and ends of layers where over-/underextrusion might be occur due to imperfect retraction settings.   
 
-The correct settings will mostly avoid stringing. There are various aspects which affect stringing though, so if you struggle with stringing, you might want to have a look at the section ["Stringing"](problems.md#stringing) where I list some factors that affect it. 
+The correct settings will mostly avoid stringing. There are various aspects which affect stringing though, so if you struggle with stringing, you might want to have a look at the section ["Stringing"](troubleshooting.md#stringing) where I list some factors that affect it. 
 
 !!! warning "Feeder Gear Pressure Is Crucial!"
 
