@@ -305,13 +305,28 @@ Additionaly, the ones from the aftermarket also cover and therefore insulate the
 ---  
   
 ## Thermistor & Cartridge Heater
-The **thermistor** which is used is a capsuled NTC 100k. The diameter is 3mm, the length should be minimum 6mm as that is the depth of the hole in the heater block and the length of the wire is about 150cm.  
+The **thermistor** which is used is a capsuled **NTC 100k**.  
+The diameter is 3mm, the length should be minimum 6mm as that is the depth of the hole in the heater block and the length of the wire is about 150cm.   
+
 Based on the setting of the firmware it's an ATC Semitec 104GT-2/104NT-4-R025H42G (4.7k pullup). You should be able to find and use a compatible item from the aftermarket (which I successfully did - you just have to pay attention to the wire length actually).  
 The following picture shows the thermistor from the aftermarket I used and the specific plug which is necessary to fit in the belonging socket at the mainboard.  
+
+??? info "What Is A 100k NTC Thermistor?"
+
+    A thermistor is an electronical part which changes resistances depending on the given temperature, the resistance will then be interpreted as a temperature reading. The thermistor being used is a 100k Ohm NTC type. That means, that it has a resistance of about *100k Ohm at 25°C* temperature.  
+    When the temperature drops, the resistance will become higher/bigger. When the temperature rises, the resistance will become lower/smaller.  
+    As an example: at 20°C the resistance is about 125k Ohm; at 30°C the resistance is about 81k Ohm.  
+    Therefore you can measure the functionality of the thermistor by measuring the given resistance with a multimeter.  
+    
+    So when you get false readings or error reports on the temperature, check the thermistor itself (measuring directly at the contacts of the thermistor at the undersie of the bed) as well as the wiring (and the connections in general of course).  
+    The cables are made out of many single thin wires which are then covered by the insulation. If wires now start breaking due to the repeated movement at a certain spot and therefore they lose contact, the resistance will become higher in that moment - which then results in a lower temperature being read. If this occurs spontaneously while e.g. the bed is moving, the firmware will read a spontaneous drop or shift in the temperature and will most likely report a ["MINTEMP" or "thermal runaway protection" error](../troubleshooting.md#err-mintempmaxtempthermal-runaway).  
+    On the other hand, if some kind of a shortcut will appears, the resistance will become smaller and therefore the temperature will be reported higher. This will most likely cause the ["MAXTEMP" error](../troubleshooting.md#err-mintempmaxtempthermal-runaway).  
+    So by looking at the kind of error being reported, you can already guess what might be the issue.    
+    
   
 ![Thermistor and plug](../assets/images/head_plug-therm_web.jpg)  
   
-The **cartidge heater** which is used is a 24V 40W element. The diameter is 6mm, the length of the original part is about 18mm, the length of the wire is about 150cm.  
+The **cartidge heater** which is used is a **24V 40W** element. The diameter is 6mm, the length of the original part is about 18mm, the length of the wire is about 150cm.  
 However, a cartridge heater from the aftermarket with a length of about 21mm is just fine, it just sticks out at both sides of the heater block at the end which shouldn't be a problem. It seems that it's is a typical dimension for V5/V6 heater blocks. The following picture shows the original part on the left side and a compatible part from the aftermarket I used at the right side.  
   
 ![Cartridge heaters](../assets/images/head_cart-heater_web.jpg)  
