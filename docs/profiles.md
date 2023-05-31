@@ -15,8 +15,11 @@ You can always set up your own custom profile in your slicer. Just pay attention
 
     When you're using more than one filament, it's a good idea to set up a profile for each spool of filament you have. So not only for the type of filament (like PLA, PETG etc.), but also for the different manufacturer, the colour and so on. It happens that you have to use slightly different settings even with the same type of filament from the same brand but just when using a different colour of it.   
   
+---  
   
 ## Go 
+
+---
 
 ### Official Profiles
 
@@ -26,13 +29,18 @@ The following list links to the specific profiles from [Anycubic's firmware page
  - [ABS v1.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Go_suggested_parameters_for_ABS_V1.0.curaprofile?v=1669192041)
  - [TPU v1.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Go_suggested_parameters_for_TPU_V1.0.curaprofile?v=1669192041)
   
-  
+---
+
 ### Custom Profiles 
 
 Unfortunately, there aren't any profiles for the **Go** being offered by users that I'm aware of.  
 However, there seems to be one tip I'd like to share with you: Ender 3/V2 profiles. Even though this is not a profile provided by a specific user, I want to mention that it seems that people got good results in using the Ender 3/V2 profile of Cura for the **Go**. So if nothing seems to work out, maybe give that a try.  
-  
+
+---
+
 ## Neo 
+
+---
 
 ### Official Profiles
 
@@ -53,6 +61,8 @@ The following list links to the specific profiles from [Anycubic's firmware page
 
     It's advisable to *not* print the owl.gcode example with the **Neo** which Anycubic provides. In there the retraction distance is also set to 6mm, which is *way* too much for the direct drive of the **Neo**! Even tho people reported a great quality of this owl when they printed it, it'll most likely lead to clogging.  
     
+---
+
 ### Custom Profiles  
   
 The following list links to profiles provided by users which I became aware of: 
