@@ -24,7 +24,7 @@ However, there seems to be one tip I'd like to share with you: Ender 3/V2 profil
 
 The following list links to the specific profiles from [Anycubic's firmware page](https://www.anycubic.com/pages/firmware-software): 
  
- - [PLA v1.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Neo_Suggested_parameters_for_PLA_V1.curaprofile?v=1669192662)) 
+ - [PLA v1.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Neo_Suggested_parameters_for_PLA_V1.curaprofile?v=1669192662) 
  - [ABS v1.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Neo_Suggested_parameters_for_ABS_V1.curaprofile?v=1669192662)
  - [TPU v1.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Neo_Suggested_parameters_for_TPU_V1.curaprofile?v=1669192662)
  - [PETG v2.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Neo_Suggested_parameters_for_PETG_V2.curaprofile?v=1669192662)
