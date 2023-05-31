@@ -306,6 +306,8 @@ Good luck!
 ### Homing Failed: X/Y
 When trying to home the x- and/or y-axis, the error message "Homing Failed: X/Y - PRINTER HALTED - Please Reset" might occur.  
   
+![Homing failed X](assets/images/error_homing_failed_X_web.jpg)  
+  
 This occurs when either  
 
 - the belonging switch isn't installed correctly and therefore can't be properly triggered by the belonging part of the head or the bed, 
@@ -313,8 +315,10 @@ This occurs when either
 - the limit switch itself is faulty, 
 - the mainboard is damaged (which ususally is pretty unlikely if you didn't somehow create a shortcut or so).  
 
-To determine whether it's the position, the wiring or the switch (as these are the most likely reasons), check the position of the switch first. Make sure it's properly installed and the belonging part of either the head of the bed touches the metal lever of the switch properly, so that the switch itself really will be triggered. You can do so by manually moving the head or bed towards the switch while observing it.  
+To determine whether it's the position, the wiring or the switch (as these are the most likely reasons), check the position of the switch and the plastic cap first. Make sure it's properly installed and the belonging part of either the head of the bed touches the metal lever of the switch properly, so that the switch itself really will be triggered. You can do so by manually moving the head or bed towards the switch while observing it.   
+
 If everything seems to be ok here, check if the connections of the wirings are established and the connectors sit tight (at the side of the switch as well as at the mainboard).  
+
 If everything looks ok here as well, then I'd suppose to continue with triggering the belonging limit switch of either the x- or y-axis (whichever is reported in the error message) while the printer is homing that axis: 
 
 - If the **x-axis** is reported, move the printhead completely to the right side and then initiate the homing sequence using the control unit. 
