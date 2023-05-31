@@ -1,16 +1,17 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
-# Profiles & Settings
+# Printer Profiles
 
 The microSD card shipped with your printer should contain Cura profiles. If you don't have them, you can download them at [Anycubic's support page](https://www.anycubic.com/pages/firmware-software) but I'll list and link to them further below also.  
-However, these profiles don't seem to always work right away, even though it's a good start. The specific profile and settings may differ from printer to printer, even within the same model type. The settings like print speed, layer height, extruder and bed temperature etc. also depend on the type of material you want to use (e.g. PLA/ABS/PETG/TPU). But also for the same type of filament material like PLA the settings often need to be adjusted again if you're using filament of a different manufacturer or even just another spool or colour of the same brand.  
-here are countless guides about this topic in general, so I'd recommend to dig into it deeper using your preferred sites or specific videos.   
+
+However, these profiles don't seem to always work right away, even though it's a good start. The specific profile and settings may differ from printer to printer, even within the same model type. The settings like print speed, retraction settings, extruder and bed temperature etc. also depend on the type of material you want to use (e.g. PLA/ABS/PETG/TPU). But also for the same type of filament material like PLA the settings often need to be adjusted again if you're using filament of a different manufacturer or even just another spool or colour of the same brand.  
+There are countless guides about this topic in general, so I'd recommend to dig into it deeper using your preferred sites or specific videos.   
   
 However, there are users who offer their profiles for the Go and Neo, so that beginners have a better starting point if the stock ones don't seem to work for them. In the following I'll list them as far as I'm aware of them. Be aware though that you still have to check the settings and finetune them for your device.  
   
 ## Go 
 
-The following list links to the specific profiles from [Anycubic's firmware page](https://www.anycubic.com/pages/firmware-software) (btw: I have no idea why they don't offer a profile for the **Go** for PETG):
+The following list links to the specific profiles from [Anycubic's firmware page](https://www.anycubic.com/pages/firmware-software):
  
  - [PLA v1.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Go_suggested_parameters_for_PLA_V1.0.curaprofile?v=1669192042) 
  - [ABS v1.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Go_suggested_parameters_for_ABS_V1.0.curaprofile?v=1669192041)
