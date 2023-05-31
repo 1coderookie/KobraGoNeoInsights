@@ -19,6 +19,7 @@ You can always set up your own custom profile in your slicer. Just pay attention
   
 ## Go 
 
+---
 
 ### Official Profiles
 
@@ -39,6 +40,7 @@ However, there seems to be one tip I'd like to share with you: Ender 3/V2 profil
 
 ## Neo 
 
+---
 
 ### Official Profiles
 
