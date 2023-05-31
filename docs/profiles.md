@@ -11,6 +11,10 @@ There are users who offer their profiles for the Go and Neo, so that beginners h
 
 You can always set up your own custom profile in your slicer. Just pay attention to the general machine settings, like the bed size and so on.  
   
+??? tip "Set Up Filament Specific Profiles"
+
+    When you're using more than one filament, it's a good idea to set up a profile for each spool of filament you have. So not only for the type of filament (like PLA, PETG etc.), but also for the different manufacturer, the colour and so on. It happens that you have to use slightly different settings even with the same type of filament from the same brand but just when using a different colour of it.   
+  
   
 ## Go 
 
