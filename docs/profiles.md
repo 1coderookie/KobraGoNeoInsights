@@ -17,13 +17,8 @@ The following list links to the specific profiles from [Anycubic's firmware page
  - [ABS v1.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Go_suggested_parameters_for_ABS_V1.0.curaprofile?v=1669192041)
  - [TPU v1.0](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Kobra_Go_suggested_parameters_for_TPU_V1.0.curaprofile?v=1669192041)
   
-The following list links to profiles provided by users which I became aware of:   
-  
-??? question "Got a Go?"
-
-    Do you own a **Go** and created profiles for it which could be useful for other users as well? <br> Did you made them available somewhere? <br> If so, send me an email to <br> `3dneo (at) quantentunnel.de` <br> and let me know about it, I'd be happy to set a link to it.   
-  
- - Ender 3/V2 profiles: Even though this is not a profile provided by a specific user, I want to mention that it seems that people got good results in using the Ender 3/V2 profile of Cura for the **Go**. So if nothing seems to work out, maybe give that a try.  
+Unfortunately, there aren't any profiles for the **Go** being offered by users that I'm aware of.  
+However, there seems to be one tip I'd like to share with you: Ender 3/V2 profiles. Even though this is not a profile provided by a specific user, I want to mention that it seems that people got good results in using the Ender 3/V2 profile of Cura for the **Go**. So if nothing seems to work out, maybe give that a try.  
   
 ## Neo 
 
