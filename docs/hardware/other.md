@@ -17,9 +17,13 @@ If you don't have the space for it or want to keep the spool being attached at t
 
 ??? tip "Boxed Spool Holder"
 
-    If you'd use a box with a lid which closes really well (best would be this kind of plastic box with the silicone sealing in the lid) and put a bag of desiccant in the box as well, you could also can keep the filament dry and dust-free. Just print yourself one of those ball bearing spool holders where you place the spool onto, drill a hole in the side of the box and feed the filament through. Then place it next to the printer or onto a shelf above it and you're good. Putting one of these cheap digital hygrometers in the box as well helps keeping an eye on the actual humidity inside of the box.  
+    If you'd use a box with a lid which closes really well (best would be this kind of plastic box with the silicone sealing in the lid) and put a bag of desiccant in the box as well, you could also can keep the filament dry and dust-free.  
+    Just print yourself one of those ball bearing spool holders where you place the spool onto, drill a hole in the side of the box and feed the filament through. Then place it next to the printer or onto a shelf above it and you're good.  
+    Putting one of these cheap digital hygrometers in the box as well helps keeping an eye on the actual humidity inside of the box.  
 
-    I personally used a cakebox with a lid which I mounted to an adjustable construction to the wall (cuz I couldn't get my hands on a decent box and ran across that cheap cakebox, so I couldn't resist). The spool itself is held by a bolt with some ball bearing spool holder. Of course I put a bag of desiccant and a cheap hygrometer in there as well.  
+    I personally used a cakebox with a lid which I mounted to an adjustable construction to the wall (cuz I couldn't get my hands on a decent box and ran across that cheap cakebox, so I couldn't resist). The spool itself is held by a bolt with some ball bearing spool holder.  
+    Of course I put a bag of desiccant and a cheap hygrometer in there as well.  
+    This solution isn't as air-tight as a box with a silicone sealed lid, but it does the job in my room fine. Plus, it keeps dust and my cats away from the filament as well.  
 
     ![Cakebox holder front](../assets/images/cakebox-holder_front_web.jpg)
 
