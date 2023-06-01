@@ -44,13 +44,21 @@ If you don't have the space for it or want to keep the spool being attached at t
     
     So the following images show the outcomes of the Input Shaper measurements with an ADXL345 sensor being used. The first two images show the vibrations of the x-axis test with a full 1kg spool and an empty spool, the next two images show the belonging results for the y-axis.  
     
-    ![Full X](../assets/images/Full_X.png)  
+    | X-Axis, Full Spool (1kg) |
+    |---|
+    | ![Full X](../assets/images/Full_X.png) |  
     
-    ![Empty X](../assets/images/Empty_X.png) 
+    | X-Axis, Empty Spool |
+    |---|
+    | ![Empty X](../assets/images/Empty_X.png) |
     
-    ![Full Y](../assets/images/Full_Y.png)
+    | Y-Axis, Full Spool (1kg) |
+    |---|
+    | ![Full Y](../assets/images/Full_Y.png) |
     
-    ![Empty Y](../assets/images/Empty_Y.png)
+    | Y-Axis, Empty Spool |
+    |---|
+    | ![Empty Y](../assets/images/Empty_Y.png) |
     
     
   
