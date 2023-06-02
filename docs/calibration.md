@@ -99,6 +99,18 @@ This will load the specific mesh values from the printer's EEPROM and activate t
 
 ---
 
+### Fan Duct
+Even though this isn't really a 'calibration', let me mention it at this point while you're going through the steps of tuning in your printer.  
+
+The stock fan ducts of both the **Go** and the **Neo**, which are only cooling from one side, are (imho) actually pretty bad. So I highly recommend to print a better one as soon as you're able to somehow print.  
+This first one doesn't have to be perfect yet, but it'll most likely already have a big impact on the outcome, which allows you to tune in the settings even better and therefore finally print another fan duct.  
+  
+I linked to some STL files for both the **Go** and the **Neo** in the section ["Mods"](hardware/printhead.md#mods) of the chapter "Printhead", but you'll probably find other models as well. 
+  
+If you're printing PETG, then this would be the material you want to end up using for this as it's more heat resistant than PLA. If you're only printing PLA (yet), then at least give it a try and see if it lasts or if it deforms due to the heat of the hotend.  
+
+---
+
 ## Other Calibration
 In the following I'll list some of the calibrations which are necessary. The list isn't completed yet, mostly I'll list calibrations where certain things come into account for these specific printer models. If you don't find a specific calibration mentioned here, please refer to other sources like the abovementioned calibration guides I linked to.  
   
