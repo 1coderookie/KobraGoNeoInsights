@@ -129,7 +129,7 @@ A set of heat shrink tubings is always good to have, as they allow you to insula
 
 ---
 
-## Kapton tape
+## Kapton Tape
 Get yourself some Kapton tape. This tape is kinda heat resistant and has silicone glue applied, which makes it easy to remove.  
 You can use it to e.g. secure insulation of the heated bed, equalize dents or certain areas of the bed for achieving a flat surface and so on.  
 
@@ -137,8 +137,8 @@ You can use it to e.g. secure insulation of the heated bed, equalize dents or ce
 
 ---
 
-## Slide Gauge
-A slide gauge comes in handy if you want to measure accuracy of e.g. your printed test cubes. I'd recommend to get a digital one as it's easier to read the measured value.   
+## Slide Gauge / Caliper
+A slide gauge comes in handy if you want to measure accuracy of e.g. your printed test cubes. I'd recommend to get a digital one as it's easier to read the measured value and it's more precise as well.   
 
 ![Slide gauge](assets/images/caliper_web.jpg)
 
