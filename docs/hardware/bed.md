@@ -181,6 +181,13 @@ It's adviseable to make sure that the bolt can't turn itself loose due to the vi
 The following picture shows the stock spacers on the left, springs in the middle and silicone spacers on the right.  
 ![Spacers](../assets/images/bed_different-spacers_web.jpg)
 
+!!! warning "Mind The Gap!"
+
+    When using adjustable spacers, it's extremely important to keep an eye on the clearing underneath the bed while tramming the bed and therefore adjusting the height of the whole bedplate itself. You don't want to get the bed too low so that it hits or scratches the bracket of the y-axis motor mount!  
+    This is extremely important when using silicone spacers as they most likely come in about the same height (18mm) of the regular stock spacers but will compress while tramming the bed!  
+    Also when adding insulation to the underside of the bed, the clearance has to be checked!  
+        
+
 #### Springs  
 Mounting springs instead of rigid spacers allows you to tram the bed itself. You'd have to get yourself some longer M4 type screws as well as the stock ones will be too short.  
 Get yourself some nylon washers as well which you place between the underside of the bed and the springs to prevent scratching the surface.  
@@ -189,11 +196,22 @@ However, as springs are made from metal which underlies the temperature changes 
   
 I personally used 8x25mm springs (the yellow ones shown above) and M4x40mm countersunk head screws as that allowed me to add some bigger lock nut knobs I had laying around. So if you go with regular M4 lock nuts, 35mm (or *maybe* even 30mm) screws should be fine as well I guess. Those springs were part of a bundle from Capricorn, they came together with 1m of the Capricorn tube and a cutter (and a sticker) for a really fair price (about 11€ for everything together).  
 
+!!! warning "Mind The Gap!"
+
+    When using adjustable spacers, it's extremely important to keep an eye on the clearing underneath the bed while tramming the bed and therefore adjusting the height of the whole bedplate itself. You don't want to get the bed too low so that it hits or scratches the bracket of the y-axis motor mount!  
+    This is extremely important when using silicone spacers as they most likely come in about the same height (18mm) of the regular stock spacers but will compress while tramming the bed!  
+    Also when adding insulation to the underside of the bed, the clearance has to be checked!  
+
 #### Silicone Spacers  
 You could also use silicone spacers of about the same length as the stock spacers for being able to use the stock screws and still being able to tram the bed. They are adjustable as well due to the flexible material and they don't expand and shrink with changing temperatures like metal springs will do in a minor range. I'd suppose to add a lock nut underneath the gantry to the end of the screws as well after tramming the bed though.  
   
 Keep in mind that the silicone spacers (I used 18mm long ones shown below) compress when tramming the bed. Therefore it *might* happen that you'll get into trouble because the position of the whole bedplate will be lowered a bit, so make sure that the bedplate doesn't somehow hit the motor mount at the back of the y-axis. *Especially when adding insulation to the underside of the bed, you'll need to raise the bedplate a bit, so I highly recommend using the abovementioned 25mm springs in that case anyway!*   
   
+!!! warning "Mind The Gap!"
+
+    When using adjustable spacers, it's extremely important to keep an eye on the clearing underneath the bed while tramming the bed and therefore adjusting the height of the whole bedplate itself. You don't want to get the bed too low so that it hits or scratches the bracket of the y-axis motor mount!  
+    This is extremely important when using silicone spacers as they most likely come in about the same height (18mm) of the regular stock spacers but will compress while tramming the bed!  
+    Also when adding insulation to the underside of the bed, the clearance has to be checked!      
     
 ### Insulating The Bed
 What I personally can highly recommend is to insulate the underside of the bed.  
@@ -207,13 +225,21 @@ The first screenshot shows the bed temperature (blue graph) before the insulatio
 ![Bed PID before insulating](../assets/images/bed_pre-insulation_PID.jpg)   
 ![Bed PID after insulating](../assets/images/bed_post-insulation_PID.jpg)  
   
-After adding the insulation, the temperature didn't fluctuate anymore at all during a print, even when I opened the window from time to time - the graph was just a straight line. So I'm highly satisfied with this actually and can strongly recommend insulating the bedplate.     
+After adding the insulation, the temperature didn't fluctuate anymore at all during a print, even when I opened the window from time to time - the graph was just a straight line. So I'm actually highly satisfied with this and can strongly recommend insulating the bedplate.  
+However, I have to mention that I didn't print with higher bed temperatures than 60-70°C yet, so I don't know how good the insulation will stay in place when printing with bedtemps like ~100°, but I hope it'll still work out fine..      
+
+!!! warning "Mind The Gap!"
+
+    When adding insulation, it's extremely important to keep an eye on the clearing underneath the bed!  
+    You don't want to risk the insulation hitting the bracket of the y-axis motor mount, so pay attention to that!  
 
 ??? example "Adding The Insulation"  
 
-    Before I'll go into the steps about how to apply the insulation, I have to mention that *you'll need longer spacers and screws due to the thickness of the insulation (which is about 9-10mm most of the time)!*  
-    *You'll need to raise the whole bedplate to avoid contact between the insulation and the motor mount at the back of the construction.* If you use the beforementioned springs, you'll be fine as they are longer then the stock spacers anyway. If you'll use the stock spacers or silicone spacers of about the same size, you can add bolt nuts underneath to raise the bed.  
-    *It's also advisable to have Kapton tape on hand to cover the whole underside of the bedplate with it (before you actually apply the insulation) and to secure the edges and sides of the insulation (after applying the insulation).*     
+    Before I'll go into the steps about how to apply the insulation, I have to point out a few things first:  
+    
+    - *You'll need longer spacers and screws due to the thickness of the insulation (which is about 9-10mm most of the time)!*  
+    - *You'll need to raise the whole bedplate to avoid contact between the insulation and the motor mount at the back of the construction.* If you use the beforementioned 25mm springs and longer screws, you should be fine as they are longer then the stock spacers anyway. If you'll use the stock spacers or silicone spacers of about the same size, you can add bolt nuts underneath to raise the bed.  
+    - *It's also advisable to have Kapton tape on hand to cover the whole underside of the bedplate with it (before you actually apply the insulation) and to secure the edges and sides of the insulation (after applying the insulation)!*     
     
     - For adding the insulation, you need to dismount the bedplate from the gantry by taking out the four screws (remove the PEI coated plate first tho). Be careful with the wires when moving the plate. Put the plate onto the insulation (but don't peel off the protective layer of the adhesive yet!), align it and mark the four holes of the screws.  
     - Then place the bed upside down on a flat and clean surface - wipe the surface beforehand tho to make sure that there's no dirt or even metal chips which would press into or stick onto the magnetic surface. Now use IPA or (which I prefer) silicone remover to wipe the underside of the bed where the insulation should be applied to and clean off any dirt or grease from your fingers.  
