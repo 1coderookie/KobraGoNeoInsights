@@ -287,6 +287,8 @@ This is how it looks like in total from the front. I took the picture with the c
 
 ![Construction frontview full](../assets/images/bed_frontview-complete_tilted_web.jpg)
 
+Right now I still have to take off the PEI plate (or at least lift the left front corner) for accessing and adjusting the screw for the pitch (because that one is still screwed into the thread of the gantry), the screw for the roll I can access from underneath the bed though which makes it easy to adjust. I'll probably end up changing the setup for the screw of the pitch as well. 
+
 I then continued with a rough tramming, adjusting only the 'pitch' and then the 'roll' after having the reference set to the desired height.  
 After that, I excetuted the probing for a bedmesh (7x7 grid using Klipper) with the bed being cold - the result looked promising.  
 
@@ -395,7 +397,26 @@ So: enter the settings in your slicer and search the place where this section is
 
 ---
     
-## Tramming The Bed
+## Tramming The Bed  
+
+!!! warning "'Tramming' vs. 'Leveling' The Bed"  
+
+    Because I got attacked, harrassed, insulted and called names for using the correct term "tramming" instead of the misleading and technically wrong term "leveling", let me make something clear at this point.  
+    
+    What we do here is a procedure called "tramming". 
+    We (try) to get the machine and certain parts of it aligned perfectly, like axes and parts being suqare, parallel, perpendicular and equidistant *towards each other*.  
+    For example, we try to set up the frame being mounted perfectly square, the z-axis frame being perpendicular to the base frame, the x-axis gantry being perpendicular to the z-axis frame and the bed being parallel and equidistant to the x-axis gantry and the printhead/nozzle.  
+    It's a technical term which is also used at CNC machines for example and this is the correct nomenclature. And as a matter of fact, this is also the case with 3d printers. Point.  
+    
+    "Leveling" though is the process of bringing something like a shelf, a table or a framed picture hanging at the wall into the position that it's *perpendicular to gravity* so to say. Most of the time you do so by taking a bubble level or a self-leveling laser. But this is NOT how you 'level' the bed of your 3d printer for example.  
+    Yes, I'm highly aware of the fact that the majority of the 3d printing community uses the term 'leveling', that people say "Level your bed!" and that the marketing guys and gals of the companies even use the (even more misleading!) term "Automatic Bed Leveling" (which is even worse as it suggests that the process will actually 'level' the bed itself - which it obviously doesn't).  
+    So besides the fact that this isn't the correct nomenclature (seriously, I'm not the grammar police - I'm a German guy who speaks a little bit of English..), my 'problem' with this term is that it's just really misleading!  
+    How many beginners are pulling out their bubble level, put it on the bed to check if it's leveled and maybe even shim out the table the printer stands on - just to come to the conclusion that their bed is leveled? Believe it or not: many - whether you came across those users while trying to help them or not. You can use a 3d printer on a tilted table - if the printer is trammed, it'll still print fine.   
+
+    So to all those haters out there: yes, I will continue to use the correct term "tramming", no matter how much you'll attack and try to insult me.  
+    And no, I don't do it because I want to show the world that I know the correct term, I do it because I want to avoid that beginners become frustrated because they just get it wrong.  
+    
+
 Even though "tramming" the bed isn't really possible when using the rigid stock spacers of the bedplate these printers come with, there is something one can and should do though: check if those spacers are all of the same height. *This is really important, so better don't skip this step!*   
 
 If you're using [adjustable spacers](#different-spacers), then you'll be able to actually tram the bed itself.  
