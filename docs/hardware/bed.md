@@ -18,7 +18,7 @@ Anycubic states in the official specs that the *size* is 220x220mm as well - whi
 The temperature of the bed should reach about ≤230°F/110°C maximum and therefore it's possible to successfully print e.g. ABS, PETG and TPU (by using a housing though) besides PLA.  
 However, it seems to be advisable to not exceed 80° bedtemp if possible, as everything above is said to be a critical temperature for the glue of the magnetic foil.   
 
-Both printers offer a 25-point automatic bed leveling which is called ["Anycubic LeviQ"](#anycubic-leviq).  
+Both printers offer a 25-point automatic bed leveling which is called ["Anycubic LeviQ"](#anycubic-leviq-automatic-bed-leveling-function).  
 
 In the following I'll go into the details of each part of the whole bed construction.  
 
@@ -62,7 +62,7 @@ The thermistor is a 100k NTC type which is soldered onto the PCB. According to t
 
 ??? tip "Execute PID Tuning For The Bed"
 
-    To make sure the heating algorithm can work as expected and keeps the fluctuation of the temperature as low as possible, execute a PID tuning. You can find information about how to do that in the section ["PID Tuning"](calibration.md#pid-tuning). 
+    To make sure the heating algorithm can work as expected and keeps the fluctuation of the temperature as low as possible, execute a PID tuning for the bed. You can find information about how to do that in the section ["PID Tuning"](../calibration.md#pid-tuning). 
 
 ---
 
@@ -265,7 +265,7 @@ Afaik, the best method to tram a rigid and flat surface is by using three points
 - The third point at the (opposite) side which is located in 'between' those first two mounting points is then used to adjust the tilt along that axis being perpendicular towards the first one (so in this example along the x-axis). This point is referred to as "roll".
 So when attempting to tram/level that surface then, you only have to adjust the pitch first and then adjust the roll. By doing so, you (should) end up with a perfectly trammed/leveled surface.
 
-So seeing all those bedslingers having the bed mounted to the gantry using four mounting points, one in each corner, I actually really got confused and started doubting and thinking about what I learned in the past. So I did a bit of a research and thankfully discovered a [website where exactly this circumstance is being described and explained](https://drmrehorst.blogspot.com/2017/07/3-point-print-bed-leveling-vs-4-point.html). I highly recommend reading it!  
+So seeing all those bedslingers having the bed mounted to the gantry using four mounting points, one in each corner, I actually really got confused and started doubting and thinking about what I learned in the past. So I did a bit of a research and thankfully discovered an [article where exactly this circumstance is being described and explained](https://drmrehorst.blogspot.com/2017/07/3-point-print-bed-leveling-vs-4-point.html). I highly recommend reading it!  
 
 So, long story short: I decided trying to mod my printer's gantry and bedmount to a 3 point system.  
 I gathered through my workshop and found an aluminum pofile which seemed to be useful for this attempt. I cut two pieces and drilled the belonging holes: one at each end for mounting the bedplate onto it, and one in the exact middle for the screw which then would be my 'roll' mounting point. The holes in the middle had to have a bit of an offset to each other as I used L-shaped aluminum profiles for better stability.    
@@ -287,14 +287,14 @@ This is how it looks like in total from the front. I took the picture with the c
 
 ![Construction frontview full](../assets/images/bed_frontview-complete_tilted_web.jpg)
 
-Right now I still have to take off the PEI plate (or at least lift the left front corner) for accessing and adjusting the screw for the pitch (because that one is still screwed into the thread of the gantry), the screw for the roll I can access from underneath the bed though which makes it easy to adjust. I'll probably end up changing the setup for the screw of the pitch as well. 
+Right now I still have to take off the PEI plate (or at least lift the left front corner) for accessing and adjusting the screw for the pitch (because that one is still screwed into the thread of the gantry) which I chose the front left screw should be (the back left screw is my reference), the screw for the roll (which is now the screw in the middle at the right side) I can access from underneath the bed though which makes it easy to adjust. I'll probably end up changing the setup for the screw of the pitch as well. 
 
-I then continued with a rough tramming, adjusting only the 'pitch' and then the 'roll' after having the reference set to the desired height.  
-After that, I excetuted the probing for a bedmesh (7x7 grid using Klipper) with the bed being cold - the result looked promising.  
+I then continued with a rough tramming without the PEI plate being applied, adjusting only the 'pitch' and then the 'roll' after having the 'reference' set to the desired height.  
+After that, I put on the pEI plate and excetuted the probing for a bedmesh (7x7 grid using Klipper) with the bed being cold - the result looked promising.  
 
 ![Bedmesh 3point cold](../assets/images/bedmesh_3pt_cold_web.jpg)
 
-Then I heated up the bed and *immediately* did a new bedmesh - and I was actually kinda shocked, as I've never seen a heavily warped bed like that before. The promising thing though was, that the warp was somewhat consistent - it looked like a wave instead of a crooked pillow.  
+Then I heated up the bed and *immediately* did a new bedmesh - and I was actually kinda shocked, as I've never seen a heavily warped bed like that before. The promising thing though was, that the warp was somewhat consistent - it looked like a wave instead of a crooked pillow like before when being mounted at the 4 points.  
 
 ![Bedmesh 3point just heated up](../assets/images/bedmesh_3pt_just-heated-up_web.jpg)
 
@@ -302,10 +302,10 @@ I then let it settle for about 10-15min before executing another probing sequenc
 
 ![Bedmesh 3point settled](../assets/images/bedmesh_3pt_settled_web.jpg)
 
-As you can see, there is still some room for finetuning, like lowering the front by adjusting the pitch and adding some Kapton tape to certain spots as well for getting the bed as lat as possible overall, but as I was too lazy at that point and had stuff to print, I didn't do that at that point.  
+As you can see, there is still some room for finetuning, like lowering the front by adjusting the pitch and adding some Kapton tape to certain spots as well for getting the bed as flat as possible overall, but as I was too lazy at that point and had stuff to print, I didn't do it then.  
 
 Conclusion: so, will I do this mod at my second Neo as well and can I recommend it? Yes, absolutely.  
-I might try to get a gantry from the aftermarket which already offers the option for this kind of 3 point mounting system and which is (hopefully) more rigid overall though, as the whole gantry itself really appears pretty flimsy to me. I'm not sure about that yet though, as I like to tinker and modify it with spending the less money I can - but if I'll end up buying such a gantry, I'll add pictures here.  
+I might try to get a gantry from the aftermarket which already offers the option for this kind of 3 point mounting system and which is (hopefully) more rigid overall though, as the whole gantry itself really appears pretty flimsy to me. I'm not sure about that yet though, as I like to tinker and modify it with spending the less money I can - but if I'll end up buying such a gantry, I'll add pictures here and let you know how it went.  
 
   
 ---    
