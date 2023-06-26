@@ -1,3 +1,5 @@
+***If you like this work, please consider starring it.***  
+  
 ## Please visit the GitHub pages:  
 # [KobraGoNeo Insights](https://1coderookie.github.io/KobraGoNeoInsights/)
 
