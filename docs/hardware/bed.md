@@ -113,8 +113,8 @@ If you choose a foil from the aftermarket, make sure to get the correct size. Th
 
 The following picture shows the magnetic foil that Anycubic shipped together with a replacement bedplate.  
 
-| Magnetic Foil Spare Part |
-|:----------|:-------------|
+| Magnetic Foil (Spare Part) | Backside |
+|----------|-------------|
 | ![Magnetic foil](../assets/images/bed_magnetic-foil_web.jpeg) | ![Magnetic foil underside](../assets/images/bed_magnetic-foil-underside_web.jpeg) |
 
 
@@ -409,7 +409,7 @@ So: enter the settings in your slicer and search the place where this section is
     It's a technical term which is also used at CNC machines for example and this is the correct nomenclature. And as a matter of fact, this is also the case with 3d printers. Point.  
     
     "Leveling" though is the process of bringing something like a shelf, a table or a framed picture hanging at the wall into the position that it's *perpendicular to gravity* so to say. Most of the time you do so by taking a bubble level or a self-leveling laser. But this is NOT how you 'level' the bed of your 3d printer for example.  
-    Yes, I'm highly aware of the fact that the majority of the 3d printing community uses the term 'leveling', that people say "Level your bed!" and that the marketing guys and gals of the companies even use the (even more misleading!) term "Automatic Bed Leveling" (which is even worse as it suggests that the process will actually 'level' the bed itself - which it obviously doesn't).  
+    Yes, I'm highly aware of the fact that the majority of the 3d printing community uses the term 'leveling', that people say "Level your bed!" and that the marketing guys and gals of the companies even use the (even more misleading!) term "Automatic Bed Leveling" (which is even worse as it suggests that the process will actually 'level' the bed itself - which it obviously doesn't). But that doesn't mean that I have to follow that misleading road.    
     So besides the fact that this isn't the correct nomenclature (seriously, I'm not the grammar police - I'm a German guy who speaks a little bit of English..), my 'problem' with this term is that it's just really misleading!  
     How many beginners are pulling out their bubble level, put it on the bed to check if it's leveled and maybe even shim out the table the printer stands on - just to come to the conclusion that their bed is leveled? Believe it or not: many - whether you came across those users while trying to help them or not. You can use a 3d printer on a tilted table - if the printer is trammed, it'll still print fine.   
 
