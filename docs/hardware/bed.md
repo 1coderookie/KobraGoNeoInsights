@@ -253,9 +253,9 @@ The y-axis limit switch is being triggered by the gantry when it's moving comple
 
 ---
 
-### 3-point Bed Mount (Mod)
+### 3 Point Bed Mount (Mod)
 
-I did a bit of tinkering and modded the bedmount to a 3-point mount instead of the classic 4-point mount.  
+I did a bit of tinkering and modded the bedmount to a 3 point bed mount instead of the classic 4 point mount.  
 
 The reason for that is simple, but let me explain it a bit.  
 When I started with 3d printing and noticed how the bedplates are mounted to the gantry using 4 mounting points, I was actually a bit irritated. I got even more irritated after I discovered that this seems to be a common method at bedslingers, even when they offer manual bed tramming like at an Ender 3 for example.  
@@ -265,10 +265,12 @@ Afaik, the best method to tram a rigid and flat surface is by using three points
 - The third point at the (opposite) side which is located in 'between' those first two mounting points is then used to adjust the tilt along that axis being perpendicular towards the first one (so in this example along the x-axis). This point is referred to as "roll".
 So when attempting to tram/level that surface then, you only have to adjust the pitch first and then adjust the roll. By doing so, you (should) end up with a perfectly trammed/leveled surface.
 
-So seeing all those bedslingers having the bed mounted to the gantry using four mounting points, one in each corner, I actually really got confused and started doubting and thinking about what I learned in the past. So I did a bit of a research and thankfully discovered an [article where exactly this circumstance is being described and explained](https://drmrehorst.blogspot.com/2017/07/3-point-print-bed-leveling-vs-4-point.html). I highly recommend reading it!  
+So seeing all those bedslingers having the bed mounted to the gantry using four mounting points, one in each corner, I actually got really confused and started doubting and thinking about what I've learned in the past before I started to get my hands on a 3d printer.  
+Maybe it was a 4 point mounting because of the bed being heated up? Maybe it was because the plate was pretty thin? But then the effect of heating it up and tramming it by tightening 4 screws in a somewhat 'pattern' must result in a weird warped surface withe the effect and outcome would be pretty much unpredictable!?  
+So I did a bit of a research and thankfully discovered an [article where exactly this circumstance is being described and explained](https://drmrehorst.blogspot.com/2017/07/3-point-print-bed-leveling-vs-4-point.html) for 3d printers. *I highly recommend reading it!*  
 
 So, long story short: I decided trying to mod my printer's gantry and bedmount to a 3 point system.  
-I gathered through my workshop and found an aluminum pofile which seemed to be useful for this attempt. I cut two pieces and drilled the belonging holes: one at each end for mounting the bedplate onto it, and one in the exact middle for the screw which then would be my 'roll' mounting point. The holes in the middle had to have a bit of an offset to each other as I used L-shaped aluminum profiles for better stability.    
+I gathered through my workshop and found an aluminum pofile which seemed to be useful for this attempt. I cut two pieces and drilled the belonging holes (the distance was about 164mm and I used a 5mm drill which gave me a bit of a play while installing it): one at each end for mounting the profiles to the bedplate and the gantry using the existing holes and threads, and one in the exact middle for the screw which then would be my 'roll' mounting point. The holes in the middle had to have a bit of an offset to each other as I used L-shaped aluminum profiles for better stability, so that the profiles won't hit each other when lowering the bed.    
 
 ![Aluminum parts](../assets/images/bed_3pt-parts_web.jpg)  
 
