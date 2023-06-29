@@ -60,9 +60,9 @@ Make sure that you built and set up the printer correctly. This is the most impo
 - Set up the frame correctly!  
   Means, check if the baseframe is mounted square, if the the z-axis aluminum parts are really mounted perpendicular onto the baseframe and so on.  
 - Check the [axes](hardware/axes.md)!  
-  Means, check the whole z-axis lead screw system for being assembled correctly and vertically aligned. Make sure you cleaned the old oil off from the lead screw and applied fresh grease, assemble the anti-backlash nut correctly and so on.  
+  Means, check the whole z-axis lead screw system for being assembled correctly and vertically aligned. Make sure you cleaned the old sticky 'oil' (or whatever that nasty stuff should be) off from the lead screw and applied fresh grease, assemble the anti-backlash nut correctly and so on.  
   Make sure that you have all wheels positioned correctly and that the belts of the x- and y-axis aren't too sloppy or too tight.  
-- Check if everything moves smooth while the printer is switched off!°  
+- Check if everything moves smoothly while the printer is switched off!  
   Means, *slowly* move the bed and the printhead manually across the whole range of motion and turn the lead screw by hand (across the whole range of motion as well) and check if you feel any unusual resistance in certain areas.  
   Parts shouldn't wiggle as well (never mind the top of the z-axis lead screw though - it's fine that it might wiggle a bit, as it isn't and shouldn't be fixated at the top).  
   When everything looks and feels good, you can move the bed, the printhead and the position of the x-axis gantry to about the middle of the range of motion, then turn on the printer and home all axes using the control unit to see if the endstops are working.
