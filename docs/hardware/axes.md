@@ -334,7 +334,7 @@ Unfortunately, when using the stock mainboard (which only has one stepper driver
 ---
 
 #### Driven By A Timing Belt
-["chiz"](https://www.printables.com/de/@chiz_m) remixed the abovementioned solution from DrumsticknDrumstick and came up with a [timing belt driven dual z-axis](https://www.printables.com/de/model/462038-anycubic-kobra-go-dual-z-mod-with-timing-belt).  
+User ["chiz"](https://www.printables.com/de/@chiz_m) remixed the abovementioned solution from DrumsticknDrumstick and came up with a [timing belt driven dual z-axis](https://www.printables.com/de/model/462038-anycubic-kobra-go-dual-z-mod-with-timing-belt).  
 In this case the stock lead screw is driven by that one motor only, the second lead screw will then be driven by a timing belt.    
       
 ---
