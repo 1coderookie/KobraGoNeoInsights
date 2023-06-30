@@ -50,7 +50,8 @@ If you want to **contribute** an e.g. modification (aka "mod") you did or an imp
     - Thanks to reddit member **[I_Sells_Drugs](https://www.reddit.com/user/I_Sells_Drugs/)** for taking pictures of his sheared off heatbreak!
     - Thanks to reddit member **[mowerheimen](https://www.reddit.com/user/mowerheimen)** for allowing me to use the picture of the crooked x-axis gantry!
     - Thanks to reddit member **[Sad-Lie8181](https://www.reddit.com/user/Sad-Lie8181)** for taking a picture of his dual z-driven Neo!  
-    - Thanks to reddit member **[the-transponster](https://www.reddit.com/user/the-transponster)** for allowing me to use the picture of his clumped hotend! 
+    - Thanks to reddit member **[the-transponster](https://www.reddit.com/user/the-transponster)** for allowing me to use the picture of his clumped hotend!
+    - Thanks to reddit member **[zimmystor](https://www.reddit.com/user/zimmystor)** for taking pictures of his MicroSwiss bowden drive upgrade at his Go!
     
     
 !!! warning "Disclaimer"
