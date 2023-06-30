@@ -6,17 +6,13 @@ The printer comes with a 400W power supply unit which can take 110V and 230V as 
 ![Sticker power supply front](../assets/images/powersupply_label_web.jpg)
 ![Sticker power supply itself](../assets/images/psu_label_web.jpg)  
   
-The powerswitch and the plug are located at the left hand corner in the back at the side of the frame.  
+The powerswitch and the plug are located at the left hand corner in the back at the side of the frame. There is also a fuse integrated in the powerswitch box which you can pull out and exchange if necessary. 
 
-![Powerswitch](../assets/images/powerswitch_web.jpg)
+![Powerswitch and fuse location](../assets/images/printer_fuse_web.jpg)  
   
 !!! danger 
 
     Before plugging in the cable and switching on the printer, make sure that you set the little switch for choosing the voltage to the correct value! You can access it from the back of the printer and either set it to 110V or 230V - so make sure everything is set correctly first! <br> ![Voltage switch](../assets/images/powersupply_voltage-switch_web.jpg)  
-
-There is a fuse integrated in the powerswitch box which you can pull out and exchange if necessary.  
-
-![Fuse location](../assets/images/printer_fuse_web.jpg)
   
 The housing of the power supply unit is mounted at the back of the base frame underneath the bed. You can spot it from the front when you move the bed completely to the back as the following picture shows.  
 
