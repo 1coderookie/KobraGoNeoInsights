@@ -155,6 +155,23 @@ The gear is about 9.2mm outer diameter, approximately 11mm thick and has 31 teet
     The filament should be fed reliably, which especially comes into account while retracting. So keep an eye on the shaft of the motor by looking at the back of the motor - if you notice that it's slipping while retracting, you definitely need to increase the tension.  
     As a rule of thumb you can keep in mind that the pressure should be higher when using hard filament like PLA and lower when using soft filament like TPU.    
 
+---
+
+#### MOD: Bowden Drive Upgrade
+
+As the stock extruder/feeder system is mounted onto the extruder motor directly, it's possible to upgrade to a better one. The following pictures show a MicroSwiss bowden drive feeder system.  
+
+| ![MicroSwiss 1](../assets/images/head_GO_MicroSwissBowden1_web.jpeg) | ![MicroSwiss 2](../assets/images/head_GO_MicroSwissBowden2_web.jpeg) |
+
+
+---
+
+#### MOD: Direct Drive
+
+Reddit member [xpeng121](https://www.reddit.com/user/xpeng121/) posted his modification for the Kobra **Go** to a ***direct drive extruder***: [Kobra Go direct drive mod. Yes it's Neo now...](https://www.reddit.com/r/anycubic/comments/10howol/kobra_go_direct_drive_mod_yes_its_neo_now/)  
+
+
+
 ---  
   
 ### Neo
@@ -645,9 +662,6 @@ It's advisable to (at least) print them from PETG if you're able to do that. If 
 - [MW-Mechanical](https://www.printables.com/de/social/455820-mw-mechanical) created an [Upgraded fan duct (exposed print head setup) for Anycubic Kobra Go](https://www.printables.com/de/model/338244-upgraded-fan-duct-exposed-print-head-setup-for-any) which is supposed to achieve better part cooling.
 - [Gallapagos](https://www.thingiverse.com/gallapagos/designs) created a [Monomonster](https://www.thingiverse.com/thing:5741047) for the **Go** using a 5015 style blower fan.
 
-#### Direct Drive  
-
-- Reddit member [xpeng121](https://www.reddit.com/user/xpeng121/) posted his modification for the Kobra **Go** to a ***direct drive extruder***: [Kobra Go direct drive mod. Yes it's Neo now...](https://www.reddit.com/r/anycubic/comments/10howol/kobra_go_direct_drive_mod_yes_its_neo_now/)  
   
 ---  
     
