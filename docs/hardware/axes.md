@@ -375,7 +375,9 @@ Unfortunately, when using the stock mainboard (which only has one stepper driver
 
 #### Driven By A Timing Belt
 User ["chiz"](https://www.printables.com/de/@chiz_m) remixed the abovementioned solution from DrumsticknDrumstick and came up with a [timing belt driven dual z-axis](https://www.printables.com/de/model/462038-anycubic-kobra-go-dual-z-mod-with-timing-belt).  
-In this case the stock lead screw is driven by that one motor only, the second lead screw will then be driven by a timing belt.    
+In this case the stock lead screw is driven by that one motor only, the second lead screw will then be driven by a timing belt.  
+
+If you go with this solution, I'd highly recommend to use an "Oldham Coupler" an the left bracket of the x-axis gantry where the anti-backlash nut is mounted to. The reason is simple: At that side the lead screw is fixated at three points: the top, the bottom and the middle (which is moving). So if the lead screw is slightly bent or any vertical misalignment is given, problems like a jammed axis and artefacts in the prints (like z-banding) might occur. 
       
 
 
