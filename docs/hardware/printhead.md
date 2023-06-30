@@ -161,6 +161,8 @@ The gear is about 9.2mm outer diameter, approximately 11mm thick and has 31 teet
 
 As the stock extruder/feeder system is mounted onto the extruder motor directly, it's possible to upgrade to a better one. The following pictures show a MicroSwiss bowden drive feeder system.  
 
+| MicroSwiss frontview | MicroSwiss sideview |
+|:---------------------|:---------------------|
 | ![MicroSwiss 1](../assets/images/head_GO_MicroSwissBowden1_web.jpeg) | ![MicroSwiss 2](../assets/images/head_GO_MicroSwissBowden2_web.jpeg) |
 
 
