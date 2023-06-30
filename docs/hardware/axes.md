@@ -299,26 +299,9 @@ The top end of the rod is completely unguided, in between it's guided and secure
     
         If you find one that fits, you can mount an Oldham coupler additionally between the nut and the holder of the frame. That'll allow horizontal movement of the rod which avoids jamming, stuttering or banding caused by the z-axis.  
   
-      
 ---
-
-## Endstop Switches
-The endstop switches are located at the *minimum* endposition of each axis and are triggered when either axis reaches its limit. The switches of the x- and y-axes are mechanical switches, the one at the z-axis is an optical switch.    
-So if you notice that e.g. the motor of the y-axis doesn't stop when the bed reaches the end then you should check if the belonging switch is faulty. 
-
-??? example "Checking The Switches (And Cables)"
-
-    You can check if the switch really isn't working by triggering it manually while e.g. the bed is moving. If the bed doesn't stop, turn off your printer. Check the connectors at the switch and the mainboard if they're still in place.  
-    If everything looks fine here, then it's most likey that either a cable is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the cables. When measuring the cables, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
-    If the cable is broken, fix it or install a new one. If the limit switch itself is broken, disassemble the switch from the frame and put in a new one. Wire everything up again and try again triggering it manually to see if it works now.   
   
----
-
-## Mods
-
-The following mods should fit both the **Go** and the **Neo** due to the mostly identical design of the printer itself. So I'm just listing them without any distinction.  
-  
-### Z-Axis: Bearing Block At The Top 
+### Bearing Block At The Top (MOD)
 Some users stabilize the rod of the Z-axis by adding a bearing block at the top. That's basically a holder/aligner with a ball bearing in the center which sits on top of the lead screw and mount the holder to the gantry to eliminate wobbling of the lead screw. For doing so, they print a construction and add a ball bearing, there are different STL files available for this solution.  
   However, as much as it may seem useful at first sight, I personally vote against this. In my opinion it's better if the top of the lead screw can move freely to avoid putting extra pressure on the lead screw, the frame and associated parts - especially in this case where we don't have a high precision type of construction and parts. If the guidance at the top doesn't allow at least minimal movement, then this could result in shear forces and even in bending the lead screw itself which would cause jamming or banding caused by the z-axis, also the anti-backlash nut will mist likely wear out earlier.  
   
@@ -333,9 +316,40 @@ Some users stabilize the rod of the Z-axis by adding a bearing block at the top.
     Now you and your friend still hold the cue at these positions, but both of you allow a tiny bit of movement, like you allow to move your arms just a tiny bit, following the movement of the cue. Again your friend rotates the cue at the bottom while the top of the cue can still wiggle around in the air. What will happen? Exactly, you as the 'anti-backlash nut' guy won't feel pretty much any forces or stuttering anymore.  
     I know, using analogies isn't always a good idea to explain things, but I hope it became at least a bit more clear to you why (imho) the end of the lead screw shouldn't be rigidly fixed and why I suppose to use a flexible coupler at the bottom and an Oldham coupler in the middle where the anti-backlash nut is mounted to the frame.   
   
+---
     
-### Z-Axis: Dual Driven Z-Axis 
+### Dual Driven Z-Axis (MOD)
+The following mods show possibilities of adding a second lead screw and therefore avoid the potential sagging/lagging of the right part of the x-axis gantry as much as possible.  
+
+--
+
+#### Driven By Two Z-Steppers
 Reddit member [DrumsticknDrumstick](https://www.reddit.com/user/DrumsticknDrumstick/) upgraded the z-axis of his **Neo** to a dual drive, the solution fits both the **Go** and the **Neo**: [Kobra neo/go dual Z mod](https://www.reddit.com/r/anycubic/comments/1083sr2/kobra_neogo_dual_z_mod/)  
   Due to the pretty much same construction of the frame, you should also be able to use mod kits that fit the Creality Ender 3 for example, but here a user mentioned that the lead screw appears to not be the same like at the **Go** or the **Neo**. I can't judge this as I didn't get myself such a kit and didn't compare them.  
-  However, as much as I personally appreciate this mod and like this idea in general, I'm not sure if it really is a good idea as both motors and rods have to work *absolutely* simulataneously and have to be in sync. I once tried a similar mod with my cheap little CNC machine and problems occured as soon as the movement wasn't absolutely identical anymore. However, looking at it at a 3D printer compared to a CNC of similar building architecture, I might be wrong with my concerns as there isn't any pressure applied to the printhead from the bottom side like it is when a router of a CNC machine hits the surface and cuts out material.  
-  There are also solutions to find where both lead screws are driven by that one motor only, using a gear and a belt that connects those three parts (motor and lead screws). As long as you can't drive each stepper motor with it's own stepper driver and therefore could use the G-Code command G34 Z steppers auto-alignment, this belt solution somehow looks more appealing to me personally.  
+
+![Neo dual z](../assets/images/axes_NeoDualZ_web.JPG)
+
+Unfortunately, when using the stock mainboard (which only has one stepper driver for the z-axis) you can't drive each stepper motor with it's own stepper driver and therefore can't use the G-Code command "G34 - Z steppers auto-alignment".  
+
+---
+
+#### Driven By A Timing Belt
+["chiz"](https://www.printables.com/de/@chiz_m) remixed the abovementioned solution from DrumsticknDrumstick and came up with a [timing belt driven dual z-axis](https://www.printables.com/de/model/462038-anycubic-kobra-go-dual-z-mod-with-timing-belt).  
+In this case the stock lead screw is driven by that one motor only, the second lead screw will then be driven by a timing belt.    
+      
+---
+
+## Endstop Switches
+The endstop switches are located at the *minimum* endposition of each axis and are triggered when either axis reaches its limit. The switches of the x- and y-axes are mechanical switches, the one at the z-axis is an optical switch.    
+So if you notice that e.g. the motor of the y-axis doesn't stop when the bed reaches the end then you should check if the belonging switch is faulty. 
+
+??? example "Checking The Switches (And Cables)"
+
+    You can check if the switch really isn't working by triggering it manually while e.g. the bed is moving. If the bed doesn't stop, turn off your printer. Check the connectors at the switch and the mainboard if they're still in place.  
+    If everything looks fine here, then it's most likey that either a cable is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the cables. When measuring the cables, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
+    If the cable is broken, fix it or install a new one. If the limit switch itself is broken, disassemble the switch from the frame and put in a new one. Wire everything up again and try again triggering it manually to see if it works now.   
+  
+
+
+
+
