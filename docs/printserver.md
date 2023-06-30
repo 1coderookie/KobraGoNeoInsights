@@ -15,7 +15,7 @@ So let's have a look what might be an interesting and reasonable priced solution
   
 ## Hardware  
   
-### Raspberry Pi
+### Raspberry Pi 
 When you start looking around for a system the desired software should run on, the first thing you'll come across surely will be the Raspberry Pi (in the following named as "RPi").  
 The RPi is a little computer which became pretty famous since it entered the market.  
 It's a Broadcom SoC 64bit ARM system with LAN (and WiFi within the newer versions) and a microSD card reader onboard which keeps the desired OS. It offers GPIOs to directly connect hardware like sensors to it and it draws only a little amount of power.  
@@ -50,6 +50,10 @@ So does that mean you shouldn't use a RPi? No, not at all, it works absolutely f
     - If you're already using a RPi3/4 with a RPi cam and don't have a sufficient housing for that yet, have a look at the thing from [A_Leh](https://www.thingiverse.com/A_Leh): [Anycubic Vyper/ Kobra Raspberry 4b (+3b) housing with camera attachment](https://www.thingiverse.com/thing:4994599)
     - Last but not least: make sure you're using a good and fast microSD card and a good USB cable which connects the RPi to the printer.
 
+### RPi Zero (2) W
+Instead of using the regular Raspberry Pi, you could also get yourself the RPi Zero (2) W. If you want to use it for KLipper, I'd recommend to get the Zero **2** W as it's quadcore CPU is more powerful.  
+However, as it seems to be quite difficult to get in these tiomes, you could try running Klipper with the older single core Zero W as well - it just might be that it's not powerful enough to run the webcam stream. I've heard that it might not even be capable of running Input Shaper, but I'm not sure if this is true or nt, so maybe do a little rersearch on your own before you buy it.  
+
 ### Other SBC
 If you can't or don't want to get an RPi but still want to stick to one of those tiny tinker SBC (single board computer) units, you can check out the market what's available and comparable to a RPi, like an "Orange Pi", a "Le Potato" or so on.  
 However, I'm not going into further details here as I personally don't use them and therefore can't give reliable pieces of information about which boards exactly might be a good substitue to a RPi.  
@@ -71,6 +75,11 @@ However, it should be mentioned here that it seems to be a bit like gambling to 
 
     - I'd like to mention one of the probably biggest issues you might encouter: charging the device while having it connected to the printer at the same time. <br> While it shouldn't be a problem if you're having a device with a separate power plug or wireless charging, it might become a problem if you'd have to use some kind of solution which splits up the line for USB charging and OTG - not all devices work with that. <br> Additionally, I personally would be concerned about probably harming the printers mainboard due to a faulty cable or whatever. 
     - What also should be mentioned here as a **warning** is the fact that devices which are connected 24/7 to the charger might be a huge hazard as the battery could catch fire or even blow up. So keep that in mind if you're tempted to go this way.
+
+### AndroidTV Boxes
+You could also use one of those AndroidTV boxes like those T95 models and install Linux/Armbian onto them. These devices often come with 2GB RAM & 16GB flash or 4GB RAM and 32GB flash and use different kinds of quadcore CPUs. As there are many different versions which using different CPUs out there, you'll have to do a little bit of a research on your own how to install a Linux OS onto the belonging AndroidTV box regarding the chip being used.   
+
+If you're living in the US, you can also have a look at the [Inovato Quadra](https://inovato.com/) - it's a T95 AndroidTV box which comes with a LinuxOS already being installed and it's about 35$. 
   
 ### Old "Regular" Hardware 
 If you have old hardware laying around like a laptop or so, you can also use that. Don't worry - even if it's pretty old in most of the cases it still would be sufficient. Install a Linux OS onto it and then install the desired software.   
@@ -81,6 +90,7 @@ It might not really come into account if your prints last only a few hours and a
 ### Thin Clients
 Now - get ready for the real deal: Thin Clients!  
 Ok, might be a bit exxagerated, but I really *love* those fellas.  
+*Especially if you want a host for running Klipper on, Thin Clients are my number one recommendation.*
   
 If you've never heard of them, let me give you a quick introduction:  
 Thin Clients are computers which are often used by companies for e.g. setting up workstations for their employees or to have some kind of information desk or screen running somewhere.  
