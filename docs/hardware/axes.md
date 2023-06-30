@@ -361,7 +361,7 @@ Some users stabilize the rod of the Z-axis by adding a bearing block at the top.
 ### MOD: Dual Driven Z-Axis 
 The following mods show possibilities of adding a second lead screw and therefore avoid the potential sagging/lagging of the right part of the x-axis gantry as much as possible.  
 
---
+---
 
 #### Driven By Two Z-Steppers
 Reddit member [DrumsticknDrumstick](https://www.reddit.com/user/DrumsticknDrumstick/) upgraded the z-axis of his **Neo** to a dual drive, the solution fits both the **Go** and the **Neo**: [Kobra neo/go dual Z mod](https://www.reddit.com/r/anycubic/comments/1083sr2/kobra_neogo_dual_z_mod/)  
