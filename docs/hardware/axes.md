@@ -6,23 +6,26 @@ Both the **Go** and the **Neo** are so called 'bed slingers'. Means, the bed mov
 The printhead moves along the x-axis (left and right) and is attached to the x-axis gantry.  
 The x-axis gantry moves along the z-axis (up and down).  
 
+The endstop/limit switches of the axes are located at the *minimum* endposition of each axis and are triggered when either axis reaches its limit. The switches of the x- and y-axes are mechanical switches, the one at the z-axis is an optical switch.    
+So if you notice that e.g. the motor of the y-axis doesn't stop when the bed reaches the end then you should check if the belonging switch is faulty. 
+
+??? example "Checking The Switches (And Cables)"
+
+    You can check if the switch really isn't working by triggering it manually while e.g. the bed is moving. If the bed doesn't stop, turn off your printer. Check the connectors at the switch and the mainboard if they're still in place.  
+    If everything looks fine here, then it's most likey that either a cable is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the cables. When measuring the cables, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
+    If the cable is broken, fix it or install a new one. If the limit switch itself is broken, disassemble the switch from the frame and put in a new one. Wire everything up again and try again triggering it manually to see if it works now.   
+  
+
+---
+
 ## X-Axis
-The x-axis of both the **Go** and the **Neo** is belt driven, the motor which drives the belt (6mm wide, GT-2 type) is located at the left side.   
+The x-axis of both the **Go** and the **Neo** is represented by the printhead moving along the x-axis gantry. The moving bracket (where the printed is mounted onto) is belt driven, the motor which drives the belt (6mm wide, GT-2 type) is located at the left side.   
 You can adjust the tension of the belt by using the knob at the right side of the aluminum profile where the printhead is guided onto.  
   
 ![X-axis knob](../assets/images/x-axis_knob_web.jpg)
-  
-The limit switch is located inside of the blue plastic cover at the left hand side (where the motor is mounted at as well).   
 
-![X-axis limit switch frontview](../assets/images/axes_x-limit-switch_web.jpg)  
-  
-![X-axis limit switch backview](../assets/images/axes_x-axis-limit-switch_web.jpg)  
-  
-??? example "Limit Switch Problem"
+---
 
-    If you encounter the problem that the limit switch won't be hit sufficiently for being triggered sucessfully, move the printhead manually against it (with the blue plastic cover of the printhead removed) and observe what might cause the problem. Try to adjust the position of the limit switch, so that it can be triggered sucessfully.  
-    When using a **Neo**, pay attention to the metal lever of the switch itself as well as to the nut of the left wheel of the gantry. See both areas marked in the following picture. <br> ![Problematic limit switch](../assets/images/axes_x-limit-switch_problematic_web.jpg) <br> It might be the case that the nut hits the y-shaped metal bracket of the x-axis gantry before the edge of the metal bracket triggers the limit switch. In this case you might want to try to move the limit switch a bit more to the right. If that doesn't work, you probably would have to grind away a bit of the metal of the y-shaped bracket.   
-  
 ### Belt Tension
 It's kinda difficult to explain the correct belt tension, so you'd have to experiment a bit with that.  
 Generally speaking, the belt shouldn't be too tightened up and shouldn't be too loose either.  
@@ -36,9 +39,12 @@ If you can 'bend' the belt down a bit by putting a some pressure with your finge
     - Check if you can see any cracks at the belt. 
     - Check the gear wheels of the motors which are driving the belts. Are they also looking ok? Did they become loose on the motor shaft somehow?  
 
+---
+
 ### V-Slot Wheels Position
 The wheels are leading the printhead onto the aluminum profile of the x-axis. They are mounted onto a metal plate where the printhead itself is mounted onto. The wheels run in the V-slot of the profile and therefore they should sit in a good position.    
-You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile. 
+You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile.  
+However, you probably have to adjust the position of the brackets itself, so check out the section [Tramming The X-Axis Gantry](#tramming-the-x-axis-gantry).
 
   
 ??? tip "Adjusting The Position Of The V-Slot Wheels"
@@ -58,10 +64,27 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
         Do yourself a favour and *never* use WD-40 for *lubrication* as it's *not* a lubricant and will harm your POM wheels by time!  
         People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
         As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait..   
+
+---
+
+### Limit Switch 
+
+The limit switch is located inside of the blue plastic cover at the left hand side (where the motor is mounted at as well).   
+
+![X-axis limit switch frontview](../assets/images/axes_x-limit-switch_web.jpg)  
+  
+![X-axis limit switch backview](../assets/images/axes_x-axis-limit-switch_web.jpg)  
+  
+??? example "Limit Switch Problem"
+
+    If you encounter the problem that the limit switch won't be hit sufficiently for being triggered sucessfully, move the printhead manually against it (with the blue plastic cover of the printhead removed) and observe what might cause the problem. Try to adjust the position of the limit switch, so that it can be triggered sucessfully.  
+    When using a **Neo**, pay attention to the metal lever of the switch itself as well as to the nut of the left wheel of the gantry. See both areas marked in the following picture. <br> ![Problematic limit switch](../assets/images/axes_x-limit-switch_problematic_web.jpg) <br> It might be the case that the nut hits the y-shaped metal bracket of the x-axis gantry before the edge of the metal bracket triggers the limit switch. In this case you might want to try to move the limit switch a bit more to the right. If that doesn't work, you probably would have to grind away a bit of the metal of the y-shaped bracket.   
   
 ---
 
 ## X-Axis Gantry
+The x-axis gantry is the aluminum profile (plus the corresponding parts) where the printhead is actually running onto.  
+ 
 
 ### V-Slot Wheels Position
 The x-axis gantry is moved along the z-axis aluminum profile driven by the z-axis lead screw, guided by v-slot wheels. They run in the v-slot of the z-axis profiles and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
@@ -80,9 +103,7 @@ So if you need to adjust the position of the wheels using the eccentric nuts, yo
 Whatever you'll try with the eccentric nut of the wheel of the inside (because there's only this one), you won't be able to achieve that all of the three wheels touch the aluminum and sit in the slot like they should, as the eccentric nut only changes the position of the inner wheel towards the frame.  
 So - what to do?  
 Well, there's a trick, which directly leads us to the process of [tramming the x-axis gantry](#tramming-the-x-axis-gantry).   
-
-              
-
+          
 ??? example "V-Slot Wheels Maintenance"  
 
     - As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
@@ -95,6 +116,8 @@ Well, there's a trick, which directly leads us to the process of [tramming the x
         Do yourself a favour and *don't* use WD-40 for *lubrication* as it's *not* a lubricant and will harm your POM wheels by time!  
         People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
         As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait.. 
+
+---
 
 ### Tramming The X-Axis Gantry
 
@@ -177,20 +200,17 @@ Please see the expandable textbox below for further instructions about how to tr
 
 ## Y-Axis
 The y-axis of both the **Go** and the **Neo** is belt driven (GT-2 type, 6mm wide).  
+The motor which drives the belt is positioned at the back of the printer.  
+  
+![Y-axis motor](../assets/images/y-axis_motor_web.jpg)
+
 You can adjust the tension of the belt by using the knob at the front side of the aluminum profile where the bed is guided onto.   
 The x-shaped plate for the bedmount itself has v-slot wheels which are running in the v-slot of the aluminum profile.  
 The following picture shows the aluminum profile of the y-axis with the knob for adjusting the belt tension at the front.   
   
 ![Y-axis knob](../assets/images/y-axis_knob_web.jpg)
   
-The motor which drives the belt is positioned at the back of the printer.  
-  
-![Y-axis motor](../assets/images/y-axis_motor_web.jpg)
-
-The limit switch for the y-axis is mounted at the back right before the motor, the gantry triggers the switch when moved completely to the back.  
-
-![Y-axis limit switch](../assets/images/axes_y-endstop_web.jpg)
-
+---
 
 ### Belt Tension
 It's kinda difficult to explain the correct belt tension, so you'd have to experiment a bit with that.  
@@ -204,6 +224,8 @@ If you can 'bend' the belt down a bit by putting a some pressure with your finge
     - Check the teeth of the belt if they are still good looking or if they're worn out or if even some teethe are missing.
     - Check if you can see any cracks at the belt. 
     - Check the gear wheels of the motors which are driving the belts. Are they also looking ok? Did they become loose on the motor shaft somehow?      
+
+---
     
 ### V-Slot Wheels Position
 The wheels are leading the bed onto the aluminum profile in the middle. They run in the V-slot of the long profile in the middle underneath the bed and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
@@ -228,6 +250,14 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
         Do yourself a favour and *never* use WD-40 for *lubrication* as it's *not* a lubricant and will harm your POM wheels by time!  
         People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
         As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait..    
+
+---
+
+### Limit Switch
+
+The limit switch for the y-axis is mounted at the back right before the motor, the gantry triggers the switch when moved completely to the back.  
+
+![Y-axis limit switch](../assets/images/axes_y-endstop_web.jpg)
 
 ---
 
@@ -300,8 +330,18 @@ The top end of the rod is completely unguided, in between it's guided and secure
         If you find one that fits, you can mount an Oldham coupler additionally between the nut and the holder of the frame. That'll allow horizontal movement of the rod which avoids jamming, stuttering or banding caused by the z-axis.  
   
 ---
+
+### Limit Switch
+
+The optical limit switch of the z-axis is located at the bottom of the left z-axis aluminum profile.  
+
+![z-axis limit switch](../assets/images/axes_z-limitswitch_web.jpeg)  
+
+The little metal lever that triggers the switch is mounted to the left bracket of the x-axis gantry. When the gantry moves down, the lever slides into that slot of the optical switch and triggers it.   
+
+---
   
-### Bearing Block At The Top (MOD)
+### MOD: Bearing Block At The Top 
 Some users stabilize the rod of the Z-axis by adding a bearing block at the top. That's basically a holder/aligner with a ball bearing in the center which sits on top of the lead screw and mount the holder to the gantry to eliminate wobbling of the lead screw. For doing so, they print a construction and add a ball bearing, there are different STL files available for this solution.  
   However, as much as it may seem useful at first sight, I personally vote against this. In my opinion it's better if the top of the lead screw can move freely to avoid putting extra pressure on the lead screw, the frame and associated parts - especially in this case where we don't have a high precision type of construction and parts. If the guidance at the top doesn't allow at least minimal movement, then this could result in shear forces and even in bending the lead screw itself which would cause jamming or banding caused by the z-axis, also the anti-backlash nut will mist likely wear out earlier.  
   
@@ -318,7 +358,7 @@ Some users stabilize the rod of the Z-axis by adding a bearing block at the top.
   
 ---
     
-### Dual Driven Z-Axis (MOD)
+### MOD: Dual Driven Z-Axis 
 The following mods show possibilities of adding a second lead screw and therefore avoid the potential sagging/lagging of the right part of the x-axis gantry as much as possible.  
 
 --
@@ -337,18 +377,8 @@ Unfortunately, when using the stock mainboard (which only has one stepper driver
 User ["chiz"](https://www.printables.com/de/@chiz_m) remixed the abovementioned solution from DrumsticknDrumstick and came up with a [timing belt driven dual z-axis](https://www.printables.com/de/model/462038-anycubic-kobra-go-dual-z-mod-with-timing-belt).  
 In this case the stock lead screw is driven by that one motor only, the second lead screw will then be driven by a timing belt.    
       
----
 
-## Endstop Switches
-The endstop switches are located at the *minimum* endposition of each axis and are triggered when either axis reaches its limit. The switches of the x- and y-axes are mechanical switches, the one at the z-axis is an optical switch.    
-So if you notice that e.g. the motor of the y-axis doesn't stop when the bed reaches the end then you should check if the belonging switch is faulty. 
 
-??? example "Checking The Switches (And Cables)"
-
-    You can check if the switch really isn't working by triggering it manually while e.g. the bed is moving. If the bed doesn't stop, turn off your printer. Check the connectors at the switch and the mainboard if they're still in place.  
-    If everything looks fine here, then it's most likey that either a cable is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the cables. When measuring the cables, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
-    If the cable is broken, fix it or install a new one. If the limit switch itself is broken, disassemble the switch from the frame and put in a new one. Wire everything up again and try again triggering it manually to see if it works now.   
-  
 
 
 
