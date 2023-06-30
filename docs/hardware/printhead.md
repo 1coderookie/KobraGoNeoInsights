@@ -294,6 +294,8 @@ Both printers use an E3D **V5** compatible heater block.
 Both the thermistor and the cartidge heater have to be plugged into the specific holes and should be fixed with at tiny grub screw (HEX 1.5).  
   
 ![Heater block V5](../assets/images/head_block-screws-close_web.jpg)  
+
+*It's (imho) advisable to exchange the stock aluminum heater block and replace it with a plated copper one.* If you do so, remember to do a PID tuning for the extruder then.  
   
 !!! warning  
 
@@ -301,7 +303,9 @@ Both the thermistor and the cartidge heater have to be plugged into the specific
       
 ??? info "Spare Part Heater Block"
 
-    If you need a new heater block, you can just get yourself a regular V5 compatible one. It might be smart to not get the cheapest one available as they sometimes lack of precision and therefore may cause problems with leaking filament. Usually the heater blocks are made of aluminum, but you can also get them made of plated copper as shown in the following picture. <br> ![V5 plated copper](../assets/images/head_heaterblock-v5-copper_web.jpg)  
+    If you need a new heater block, you can just get yourself a regular V5 compatible one. It might be smart to not get the cheapest one available as they sometimes lack of precision and therefore may cause problems with leaking filament.  
+    Usually the heater blocks are made of aluminum, but you can also get them made of plated copper (which I personally use and highly recommend) as shown in the following picture. <br> ![V5 plated copper](../assets/images/head_heaterblock-v5-copper_web.jpg)  
+    Remember to do a PID tuning for the extruder every time you changed parts at your hotend.
 
 ---   
   
