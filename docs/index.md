@@ -46,7 +46,7 @@ If you want to **contribute** an e.g. modification (aka "mod") you did or an imp
     - Thanks to **Anthony** for disassembling the printhead of the **Go** and the feeder gear system of the **Neo** and taking those pictures!  
     - Thanks to reddit member **[BlackSunBeast](https://www.reddit.com/user/BlackSunBeast)** for taking pictures of the feeder gear of the **Go** and the **Go** itself!  
     - Thanks to reddit member **[Darth_Kram](https://www.reddit.com/user/Darth_Kram)** for disassembling the feeder gear box of the **Go**, taking those pics and measuring the dimensions of those parts!  
-    - Thanks to reddit member **[GruesomeJeans](https://www.reddit.com/user/GruesomeJeans)** for taking pictures of the spare parts of the bed and the magnetic foil!  
+    - Thanks to reddit member **[GruesomeJeans](https://www.reddit.com/user/GruesomeJeans)** for taking pictures of the spare parts of the bed, the magnetic foil and the z-axis limit switch!  
     - Thanks to reddit member **[I_Sells_Drugs](https://www.reddit.com/user/I_Sells_Drugs/)** for taking pictures of his sheared off heatbreak!
     - Thanks to reddit member **[mowerheimen](https://www.reddit.com/user/mowerheimen)** for allowing me to use the picture of the crooked x-axis gantry!
     - Thanks to reddit member **[Sad-Lie8181](https://www.reddit.com/user/Sad-Lie8181)** for taking a picture of his dual z-driven Neo!  
