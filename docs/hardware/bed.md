@@ -79,7 +79,7 @@ The thermistor is a 100k NTC type which is soldered onto the PCB. According to t
 
 ---
 
-### Insulating The Bedplate (MOD)
+### MOD: Insulating The Bedplate 
 What I personally can highly recommend is to insulate the underside of the bed.  
 You can get special insulation mats for 3d printers which meet the requirements for this (like being suited for higher temperatures and being flame retardant) for a few bucks. See the expandable textblock below for some tips about the installation.    
 Make sure you order the correct size (preferrably a bit bigger) which is 230x230mm as that's the size of the bedplate itself.  
