@@ -1,6 +1,16 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # Bed
+
+| Specifications |
+|:---------------|
+| Bedplate: 230x230mm, 3mm thick aluminum plate with PCB heating coil |
+| Magnetic foil: 230x230mm |
+| PEI plate: 230x230mm, spring steel |
+| Thermistor: 24V, 100K NTC "EPCOS" type, 22AWG wire |
+| Heating coil: 24V, ~180W, ~3.2Ohm resistance, 14AWG wire |
+| Bedmount: 9x18mm rigid spacers/bushings, 4x25mm countersunk head screws |
+
 Both printers use the same heated bed (it's actually the same bedplate which is used at the regular Kobra as well).  
 The bed consists of a 3mm aluminum [bedplate](#bedplate) with the heating coil being attached to the underside as a PCB. On the top surface there's a [magnetic foil](#magnetic-foil) glued onto it which then holds the [PEI plate](#pei-plate) in place.  
 The following picture shows the components.  
@@ -54,6 +64,22 @@ Don't remove that piece of foam as it protects and insulates the thermistor of t
 ![Bed thermistor](../assets/images/bed_thermistor_web.jpeg)
 
 The thermistor is a 100k NTC type which is soldered onto the PCB. According to the settings of the firmware, it's an EPCOS type.  
+
+??? info "What Is A "100K NTC" Thermistor" And How To Check If It's Working"
+
+    A "NTC" thermistor is an electronical components that's changing its resistance when temperature changes occur. "NTC" stands for Negative Temperature Coefficient, which means that the resistance becomes lower when temperature rises.    
+    "100K" NTC thermistor means that at a defined temperature of 25°C the resistance is 100K Ohm. The hotter the thermistor gets, the lower the resistance value will be; the colder the thermistor gets, the bigger the resistance will be. So at e.g. 20°C bed temperature the resistance will be ~125K Ohm, at 30°C it'll be ~81K Ohm.  
+    There are general data sheets for this kind of thermistor to find with list the different resistance values at given temperatures. However, these values can slightly vary, depending on the manufacturer and the type of the 100K thermistor (e.g.: EPCOS vs. ATC 102 vs. General 3950).   
+
+
+??? example "Measuring / Checking The Thermistor"  
+
+    You can check if a thermistor is working or if it's broken by measuring the resistance of it using a multimeter. As described above, at a temperature of 25°C the resistance should be ~100K Ohm. If the temperature is lower, the resistance value will be higher; if the temperature is higher, the resistance value will be lower.  
+
+        If you don't know how to measure resistance, you can read [this article](https://www.fluke.com/en-us/learn/blog/digital-multimeters/how-to-measure-resistance) for example which describes the process.  
+    
+    You can measure by probing the belonging wires at the plug of the mainboard (unplug it!), that would be the white connector labeled as "T1" with the green and blue cable (see the chapter ["Mainboard" -> "TriGorilla V_3.0.6 (Stock)"](mainboard.md#trigorilla-v_306-stock) for a picture of the location). Keep in mind though that by doing so you also measure the wiring itself. Means, if there are e.g. broken wires, the thermistor won't work even if the thermistor itself is still fine. For avoiding this, you could measure at the soldering joints right at the bed - in this case you also check the conductor path of the PCB itself. If you really want to *only* measure the thermistor itself (which is advisable if you're in doubt and are thinking about changing the thermistor), then you'd have to pull off the little foamy piece in the middle of the underside of the bed and measure the resistance right at the soldering joints or legs of the thermistor itself.  
+    
 
 ??? example "Changing The Thermistor Of The Bed"
 
@@ -188,7 +214,7 @@ You could also try to shim it out of course, but especially if the differences a
 
 ---
 
-### Adjustable Spacers (Mod)
+### Adjustable Spacers (MOD)
 
 Because you can't tram the bed itself due to this rigid construction, you may want to replaced the stock spacers with springs or silicone spacers which allows tramming of the bed itself.  
 It's advisable to make sure that the bolt can't turn itself loose due to the vibration, so add some sort of nut acting as a lock nut (like a nylon lock nut, a regular counter nut, a wingnut or so) to the tip of the screw underneath the bed gantry as well.  
@@ -204,7 +230,7 @@ The following picture shows the stock spacers on the left, springs in the middle
 
 ---
         
-#### Springs  
+#### Springs (MOD) 
 Mounting springs instead of rigid spacers allows you to tram the bed itself. You'd have to get yourself some longer M4 type screws as well as the stock ones will be too short.  
 Get yourself some nylon washers as well which you place between the underside of the bed and the springs to prevent scratching the surface.  
 Add a lock nut / counter nut underneath the gantry to the end of the screws as well after tramming the bed.    
@@ -220,7 +246,7 @@ I personally used 8x25mm springs (the yellow ones shown above) and M4x40mm count
 
 ---
 
-#### Silicone Spacers  
+#### Silicone Spacers (MOD) 
 You could also use silicone spacers of about the same length as the stock spacers for being able to use the stock screws and still being able to tram the bed. They are adjustable as well due to the flexible material and they don't expand and shrink with changing temperatures like metal springs will do in a minor range. I'd suppose to add a lock nut underneath the gantry to the end of the screws as well after tramming the bed though.  
   
 Keep in mind that the silicone spacers (I used 18mm long ones shown below) compress when tramming the bed. Therefore it *might* happen that you'll get into trouble because the position of the whole bedplate will be lowered a bit, so make sure that the bedplate doesn't somehow hit the motor mount at the back of the y-axis. *Especially when adding insulation to the underside of the bed, you'll need to raise the bedplate a bit, so I highly recommend using the abovementioned 25mm springs in that case anyway!*   
@@ -253,7 +279,7 @@ The y-axis limit switch is being triggered by the gantry when it's moving comple
 
 ---
 
-### 3 Point Bed Mount (Mod)
+### 3 Point Bed Mount (MOD)
 
 I did a bit of tinkering and modded the bedmount to a 3 point bed mount instead of the classic 4 point mount.  
 
