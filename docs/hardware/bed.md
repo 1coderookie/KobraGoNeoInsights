@@ -567,9 +567,10 @@ If you encounter a **faulty wiring, either of the 24V line or the thermistor,** 
       The following picture shows one of those connectors - note that it shows the biggest one though, coded with a yellow stripe, which isn't suitable as it's too big (I just didn't had smaller ones for taking a picture).  
       ![Shrinkable solder connector](../assets/images/shrinkable_solder_connector_web.jpg)  
     - However, as the cables of the thermistor are pretty thin, you might won't be able to find and use proper shrinkable solder connectors (they DO exist for thin wires though!). In that case you might also use special WAGO clamps to connect the cables as shown in the pictures below. As mentioned before, pay special attention to a proper strain relief!   
-      | WAGO 221-2411 & 211-412 | WAGO 221-412 assembled |
-      |:------------------------|:-----------------------|
-      | ![WAGO clamps](../assets/images/wago_clamps_web.jpg) | ![WAGO 221-412 assembled](../assets/images/wago_clamp-assembled_web.jpg) |
+      The following picture shows WAGO clamps of the type 221-2411 (at the top) and 221-412 (at the bottom). The difference between these two is that at the 221-2411 the cables will be inserted facing each other, at the 221-412 the cables are installed running parallel to each other. Both type of clamps connect the wires and close the electrical circuit.   
+      ![WAGO clamps](../assets/images/wago_clamps_web.jpg)  
+      The following picture shows a WAGO clamp of the type 221-412 with two wires assembled.  
+      ![WAGO 221-412 assembled](../assets/images/wago_clamp-assembled_web.jpg) 
 
 
    
