@@ -67,11 +67,11 @@ Don't remove that piece of foam as it protects and insulates the thermistor of t
 
 The thermistor is a 100k NTC type which is soldered onto the PCB. According to the settings of the firmware, it's an EPCOS type.  
 
-??? info "What Is A "100K NTC" Thermistor?"
+??? info "What Is A "100k NTC" Thermistor?"
 
     A "NTC" thermistor is an electronical components that's changing its resistance when temperature changes occur. "NTC" stands for Negative Temperature Coefficient, which means that the resistance becomes lower when temperature rises.    
-    "100K" NTC thermistor means that at a defined temperature of 25°C the resistance is 100K Ohm. The hotter the thermistor gets, the lower the resistance value will be; the colder the thermistor gets, the bigger the resistance will be. So at e.g. 20°C bed temperature the resistance will be ~125K Ohm, at 30°C it'll be ~81K Ohm.  
-    There are general data sheets for this kind of thermistor to find with list the different resistance values at given temperatures. However, these values can slightly vary, depending on the manufacturer and the type of the 100K thermistor (e.g.: EPCOS vs. ATC 102 vs. General 3950).   
+    "100k" NTC thermistor means that at a defined temperature of 25°C the resistance is 100k Ohm. The hotter the thermistor gets, the lower the resistance value will be; the colder the thermistor gets, the bigger the resistance will be. So at e.g. 20°C bed temperature the resistance will be ~125k Ohm, at 30°C it'll be ~81k Ohm.  
+    There are general data sheets for this kind of thermistor to find with list the different resistance values at given temperatures. However, these values can slightly vary, depending on the manufacturer and the type of the 100k thermistor (e.g.: EPCOS vs. ATC 104 vs. General 3950).   
 
 ??? tip "Execute PID Tuning For The Bed"
 
@@ -510,7 +510,7 @@ The following expandable textboxes will give you some basic instructions what yo
 
 ??? example "Measuring / Checking The Thermistor"  
 
-    You can check if a thermistor is working or if it's broken by measuring the resistance of it using a multimeter. As described above, at a temperature of 25°C the resistance should be ~100K Ohm. If the temperature is lower, the resistance value will be higher; if the temperature is higher, the resistance value will be lower.  
+    You can check if a thermistor is working or if it's broken by measuring the resistance of it using a multimeter. As described above, at a temperature of 25°C the resistance should be ~100k Ohm. If the temperature is lower, the resistance value will be higher; if the temperature is higher, the resistance value will be lower.  
     
     You can measure by probing the belonging wires at the plug of the mainboard (unplug it!), that would be the white connector labeled as "T1" with the green and blue cable (see the chapter ["Mainboard" -> "TriGorilla V_3.0.6 (Stock)"](mainboard.md#trigorilla-v_306-stock) for a picture of the location). Keep in mind though that by doing so you also measure the wiring itself. Means, if there are e.g. broken wires, the thermistor won't work even if the thermistor itself is still fine. For avoiding this, you could measure at the soldering joints right at the bed - in this case you also check the conductor path of the PCB itself. If you really want to *only* measure the thermistor itself (which is advisable if you're in doubt and are thinking about changing the thermistor), then you'd have to pull off the little foamy piece in the middle of the underside of the bed and measure the resistance right at the soldering joints or legs of the thermistor itself.  
 
@@ -524,7 +524,7 @@ The following expandable textboxes will give you some basic instructions what yo
 
 ### How To Fix 
 
-If you encounter a **faulty thermistor of the bed**, you can replace it with a new one. Pay attention to get yoursefl the correct type though, it's a 100K NTC "EPCOS" type glass bead sensor.  
+If you encounter a **faulty thermistor of the bed**, you can replace it with a new one. Pay attention to get yourself the correct type though, it's a 100k NTC "EPCOS" type glass bead sensor.  
 
 ??? example "Replacing The Thermistor"
 
