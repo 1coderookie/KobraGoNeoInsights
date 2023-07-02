@@ -201,7 +201,7 @@ You could also try to shim it out of course, but especially if the differences a
 
 ---
 
-### Adjustable Spacers (MOD)
+### MOD: Adjustable Spacers 
 
 Because you can't tram the bed itself due to this rigid construction, you may want to replaced the stock spacers with springs or silicone spacers which allows tramming of the bed itself.  
 It's advisable to make sure that the bolt can't turn itself loose due to the vibration, so add some sort of nut acting as a lock nut (like a nylon lock nut, a regular counter nut, a wingnut or so) to the tip of the screw underneath the bed gantry as well.  
@@ -217,7 +217,7 @@ The following picture shows the stock spacers on the left, springs in the middle
 
 ---
         
-#### Springs (MOD) 
+#### MOD: Springs  
 Mounting springs instead of rigid spacers allows you to tram the bed itself. You'd have to get yourself some longer M4 type screws as well as the stock ones will be too short.  
 Get yourself some nylon washers as well which you place between the underside of the bed and the springs to prevent scratching the surface.  
 Add a lock nut / counter nut underneath the gantry to the end of the screws as well after tramming the bed.    
@@ -233,7 +233,7 @@ I personally used 8x25mm springs (the yellow ones shown above) and M4x40mm count
 
 ---
 
-#### Silicone Spacers (MOD) 
+#### MOD: Silicone Spacers 
 You could also use silicone spacers of about the same length as the stock spacers for being able to use the stock screws and still being able to tram the bed. They are adjustable as well due to the flexible material and they don't expand and shrink with changing temperatures like metal springs will do in a minor range. I'd suppose to add a lock nut underneath the gantry to the end of the screws as well after tramming the bed though.  
   
 Keep in mind that the silicone spacers (I used 18mm long ones shown below) compress when tramming the bed. Therefore it *might* happen that you'll get into trouble because the position of the whole bedplate will be lowered a bit, so make sure that the bedplate doesn't somehow hit the motor mount at the back of the y-axis. *Especially when adding insulation to the underside of the bed, you'll need to raise the bedplate a bit, so I highly recommend using the abovementioned 25mm springs in that case anyway!*   
@@ -266,7 +266,7 @@ The y-axis limit switch is being triggered by the gantry when it's moving comple
 
 ---
 
-### 3 Point Bed Mount (MOD)
+### MOD: 3 Point Bed Mount 
 
 I did a bit of tinkering and modded the bedmount to a 3 point bed mount instead of the classic 4 point mount.  
 
