@@ -536,11 +536,13 @@ If you encounter a **faulty thermistor of the bed**, you can replace it with a n
 
 If you encounter a **faulty wiring, either of the 24V line or the thermistor,** you can replace the broken cables.  
     
-*Notes:*  
+!!! warning   
     
-- *If you don't know how to solder, it's advisable to consultate someone who is capable of doing so. It's important that the soldering will be done properly!*  
-- *A faulty soldering like cold solder joints can not only induce problems like unreliable working parts, it can also cause severe damage if it's located at the 24V heating circuit line!*    
-- If you have problems heating up the solder joints because the plate acts as a conductor and draws the heat of the soldering iron, heat up the bedplate first - but don't heat it up too much, you don't want to burn yourself! Make sure to switch off the bed then, switch off the whole printer and unplug it from the power outlet. Unplug the wiring from the mainboard as well then before starting to solder.
+    - *If you don't know how to solder, it's advisable to consultate someone who is capable of doing so. It's important that the soldering will be done properly!*  
+    
+    - *A faulty soldering like cold solder joints can not only induce problems like unreliable working parts, it can also cause severe damage if it's located at the 24V heating circuit line!*    
+    
+    - If you have problems heating up the solder joints because the plate acts as a conductor and draws the heat of the soldering iron, heat up the bedplate first - but don't heat it up too much, you don't want to burn yourself! Make sure to switch off the bed then, switch off the whole printer and unplug it from the power outlet. Unplug the wiring from the mainboard as well then before starting to solder.
 
 
 ??? example "Replacing The Cables Of The 24V Heating Circuit"  
