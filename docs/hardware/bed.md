@@ -4,12 +4,12 @@
 
 | Specifications |
 |:---------------|
-| Bedplate: 230x230mm, 3mm thick aluminum plate with PCB heating coil |
-| Magnetic foil: 230x230mm |
-| PEI plate: 230x230mm, spring steel (single side coated at the **Go**, double side coated at the **Neo**) |
-| Thermistor: 24V, 100k NTC "EPCOS" type, AWG22 wire, two pinned JST XH 2.54 connector |
-| PCB heating coil: 24V, ~180W, ~3.2Ohm resistance, AWG14 wire |
-| Bedmount: 9x18mm rigid spacers/bushings, 4x25mm countersunk head screws |
+| **Bedplate**: 230x230mm, 3mm thick aluminum plate with PCB heating coil |
+| **Magnetic foil**: 230x230mm |
+| **PEI plate**: 230x230mm, spring steel (single side coated at the **Go**, double side coated at the **Neo**) |
+| **Thermistor**: 24V, 100k NTC "EPCOS" type, AWG22 wire, two pinned JST XH 2.54 connector |
+| **PCB heating coil**: 24V, ~180W, ~3.2Ohm resistance, AWG14 wire |
+| **Bedmount**: 9x18mm rigid spacers/bushings, 4x25mm countersunk head screws |
 
 ---
 
@@ -501,7 +501,7 @@ The following expandable textboxes will give you some basic instructions what yo
     However, *it's advisable to measure the resistance, even though your multimeter offers the function of probing for continuity,* because it might be the case that a cable still passes the check for continuity, but that individual strands of the wire are broken. This causes problems if those strands lose contact permanently or during movement of the bed, as it leads to a higher resistance.  
     
     - At the 24V cables this can lead to the circumstance that the cable will get hot at that spot, that the insulation will melt, that a shortcut might occur and it might even occur that it causes a fire.   
-    - At the thermistor cables this can cause the [ERR: MINTEMP](../troubleshooting.md#err-mintempmaxtempthermal-runaway) error message. When the problem of breaking strands starts to occur, you'll experience the upcoming of this error message when the bed is moving and reaches a certain position. In that case those broken strands lose contact, which leads to a suddenly chaning resistance value. As the temperature is interpreted by the reisistance value of the NTC of the bed, a suddenly changing resistance is interpreted as a sudden change in the temperature. If this change is 'big' enough, the belonging error message will be triggered.     
+    - At the thermistor cables this can cause the [ERR: MINTEMP](../troubleshooting.md#err-mintempmaxtempthermal-runaway) error message. When the problem of breaking strands starts to occur, you'll experience the upcoming of this error message when the bed is moving and reaches a certain position. In that case those broken strands lose contact, which leads to a suddenly changing resistance value. As the temperature is interpreted by the reisistance value of the bed's thermistor, a suddenly changing resistance is interpreted as a sudden change in the temperature. If this change is 'big' enough, the belonging error message will be triggered.     
     
     **Procedure:**  
     
