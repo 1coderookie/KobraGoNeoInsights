@@ -4,11 +4,11 @@
 
 | Specifications |
 |:---------------|
-| Input voltage: 110V and 230V AC |
-| Output voltage: 24V DC |
-| Power: 400W, 17A max. |
-| Fuse: glass tube type, replaceable, located between the power plug and the power switch |
-| Fan: 24V, 0.10A, 60x60x15mm, model "Cheng Liang CHA6024RL-15B" |  
+| **Input voltage**: 110V and 230V AC |
+| **Output voltage**: 24V DC |
+| **Power**: 400W, 17A max. |
+| **Fuse**: glass tube type, replaceable, located between the power plug and the power switch |
+| **Fan**: 24V, 0.10A, 60x60x15mm, model "Cheng Liang CHA6024RL-15B" |  
 
 ---
 
