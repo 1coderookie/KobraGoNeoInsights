@@ -514,6 +514,12 @@ The following expandable textboxes will give you some basic instructions what yo
     
     If the circuit is ok, continuity will be given and a resistance of about 3.2Ohm should be reported.  
 
+---
+
+### How To Fix 
+
+If you encounter a **faulty thermistor of the bed**, you can replace it with a new one. Pay attention to get yoursefl the correct type though, it's a 100K NTC "EPCOS" type glass bead sensor.  
+
 ??? example "Changing The Thermistor Of The Bed"
 
     If you need to change the thermistor, you should be able to do so by pulling off the piece of foam for being able to access it. You can then unsolder it and replace it with a new one.  
@@ -522,9 +528,7 @@ The following expandable textboxes will give you some basic instructions what yo
     
     - If you have problems heating up the solder joints because the plate acts as a conductor and draws the heat of the soldering iron, heat up the bedplate first - but don't heat it up too much, you don't want to burn yourself! Make sure to switch off the bed then, switch off the whole printer and unplug it from the power outlet. Unplug the wiring from the mainboard as well then before starting to solder.  
 
-### How To Fix 
-
-If you encounter a faulty wiring, either of the 24V line or the thermistor, you can replace the broken cables.  
+If you encounter a **faulty wiring, either of the 24V line or the thermistor,** you can replace the broken cables.  
     
 *Notes:*  
     
