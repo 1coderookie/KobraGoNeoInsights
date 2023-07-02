@@ -6,8 +6,8 @@
 |:---------------|
 | **Go**: Bowden Drive |
 | **Neo**: Direct Drive |
-| Thermistor: 24V, 100k NTC, ATC Semitec 104GT-2/104NT-4-R025H42G type, capsuled, dimensions 3x6mm, ~150cm cable length |
-| Heater cartridge: 24V, 40W, ~14.5Ohm, dimensions 6x18mm, ~150cm cable length |
+| Thermistor: 24V, 100k NTC, ATC Semitec 104GT-2/104NT-4-R025H42G type, capsuled, dimensions 3x6mm, ~150cm cable length, two pinned JST XH 2.54 connector |
+| Heater cartridge: 24V, 40W, ~14.5Ohm, dimensions 6x18mm, ~150cm cable length (need2add: connector type) |
 | Nozzle: E3D V6 type |
 | Heater block: E3D V5 type |
 | Heatbreak: M6 thread (to fit in the V5 heater block), overall length ~24.6mm, outer diameter 7mm, inner diameter ~4mm |
