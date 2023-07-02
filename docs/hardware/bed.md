@@ -544,7 +544,7 @@ If you encounter a faulty wiring, either of the 24V line or the thermistor, you 
     - There are shrinkable solder connectors available on the market, where you insert the stripped ends of the cables at each end of the connector and then you heat up the soldered area of the connector, which then melts and connects both ends of those wires.  
       *Attention: Make sure to get yourself the correct size for the specific wire thickness you're using! Don't use soldering connectors which are too big!*  
 
-??? example "Replacing The Cables Of The Thermistor Wiring**  
+??? example "Replacing The Cables Of The Thermistor Wiring"  
     
     - If you need to replace the wiring of the thermistor of the bed, use highly flexible cable with many thin strands and a silicone insulation! *Don't* use a cable with a PVC insulation!  
     - Use at least AWG22 cable, preferrably thicker.  
