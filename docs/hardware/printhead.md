@@ -6,12 +6,12 @@
 |:---------------|
 | **Go**: Bowden Drive |
 | **Neo**: Direct Drive |
-| Thermistor: 24V, 100k NTC, ATC Semitec 104GT-2/104NT-4-R025H42G type, capsuled, dimensions 3x6mm, ~150cm cable length, two pinned JST XH 2.54 connector |
-| Heater cartridge: 24V, 40W, ~14.5Ohm, dimensions 6x18mm, ~150cm cable length (need2add: connector type) |
-| Nozzle: E3D V6 type |
-| Heater block: E3D V5 type |
-| Heatbreak: M6 thread (to fit in the V5 heater block), overall length ~24.6mm, outer diameter 7mm, inner diameter ~4mm |
-| Silicone sock: E3D V5 type |
+| **Thermistor**: 24V, 100k NTC, ATC Semitec 104GT-2/104NT-4-R025H42G type, capsuled, dimensions 3x6mm, ~150cm cable length, two pinned JST XH 2.54 connector |
+| **Heater cartridge**: 24V, 40W, ~14.5Ohm, dimensions 6x18mm, ~150cm cable length (need2add: connector type) |
+| **Nozzle**: E3D V6 type |
+| **Heater block**: E3D V5 type |
+| **Heatbreak**: M6 thread (to fit in the V5 heater block), overall length ~24.6mm, outer diameter 7mm, inner diameter ~4mm |
+| **Silicone sock**: E3D V5 type |
 
 ---
 
@@ -743,9 +743,12 @@ The following expandable textboxes will give you some basic instructions what yo
   
 ??? example "Measuring / Checking The Wiring"  
 
-    Before attempting any measurements, do a visual check if the insulation of both the thermistor and the cartridge heater is still intact.  
+    Before attempting any measurements, do a visual check if the insulation of both the thermistor and the cartridge heater is still intact. 
+    
     *If you can see bare wire shing through due to a melted and/or displaced insulation, change the part immediately!*  
-    Don't try to cover it up with some kind of insulation, even though Kapton tape should stand the heat. Yuo'll risk a shortcut which then will harm your motherboard and might even cause more svere damage!  
+    
+    Don't try to cover it up with some kind of insulation, even though Kapton tape should stand the heat. You'll risk a shortcut which then will harm your motherboard and might even cause more severe damage!  
+    
     Just to show you that I'm not exxagerating at all, the following picture shows my mainboard with a blewn up component due to a shortcut.  
     ![Melted D4](../assets/images/mainboard_melted-D4_web.jpg)
     
@@ -754,16 +757,11 @@ The following expandable textboxes will give you some basic instructions what yo
     However, *it's advisable to measure the resistance, even though your multimeter offers the function of probing for continuity,* because it might be the case that a cable still passes the check for continuity, but that individual strands of the wire are broken. This causes problems if those strands lose contact permanently or during movement of the bed, as it leads to a higher resistance.  
     
     - At the 24V cables this can lead to the circumstance that the cable will get hot at that spot, that the insulation will melt, that a shortcut might occur and it might even occur that it causes a fire.   
-    - At the thermistor cables this can cause the [ERR: MINTEMP](../troubleshooting.md#err-mintempmaxtempthermal-runaway) error message. When the problem of breaking strands starts to occur, you'll experience the upcoming of this error message when the bed is moving and reaches a certain position. In that case those broken strands lose contact, which leads to a suddenly chaning resistance value. As the temperature is interpreted by the reisistance value of the NTC of the bed, a suddenly changing resistance is interpreted as a sudden change in the temperature. If this change is 'big' enough, the belonging error message will be triggered.     
-    
-    **Procedure:**  
-    
-    - Unplug the belonging connector and check the belonging cable(s) by probing at the beginning and the end of the cable. So place one probe of the multimeter at the connector and the other probe at the solder joint of the cable you want to check.  
-    - If continuity is given and/or no or a *very* small resistance (it should be *really* close to zero resistance though!) is measured, start bending the cable slowly and pay attention to the measured resistance. Take a few iterations when doing so, bend the cable in different radii, at different speed, at different spots. If at one point the resistance suddenly changes, the problematic and broken part of the wire is detected.  
+    - At the thermistor cables this can cause the [ERR: MINTEMP](../troubleshooting.md#err-mintempmaxtempthermal-runaway) error message. When the problem of breaking strands starts to occur, you'll experience the upcoming of this error message when the head is moving and reaches a certain position. In that case those broken strands lose contact, which leads to a suddenly changing resistance value. As the temperature is interpreted by the reisistance value of the thermistor, a suddenly changing resistance is interpreted as a sudden change in the temperature. If this change is 'big' enough, the belonging error message will be triggered.      
 
 ??? example "Measuring / Checking The Thermistor"  
 
-    You can check if a thermistor is working or if it's broken by measuring the resistance of it using a multimeter. As described above, at a temperature of 25°C the resistance should be ~100K Ohm. If the temperature is lower, the resistance value will be higher; if the temperature is higher, the resistance value will be lower.  
+    You can check if a thermistor is working or if it's broken by measuring the resistance of it using a multimeter. As described above, at a temperature of 25°C the resistance should be ~100k Ohm. If the temperature is lower, the resistance value will be higher; if the temperature is higher, the resistance value will be lower.  
     
     You can measure by probing the belonging wires at the plug of the mainboard (unplug it!), that would be the black connector labeled as "T0" with the two white cables (see the chapter ["Mainboard" -> "TriGorilla V_3.0.6 (Stock)"](mainboard.md#trigorilla-v_306-stock) for a picture of the location). Keep in mind though that by doing so you also measure the wiring itself. Means, if there are e.g. broken wires, the thermistor won't work even if the thermistor itself is still fine.   
 
