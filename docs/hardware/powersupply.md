@@ -7,7 +7,7 @@
 | Input voltage: 110V and 230V AC |
 | Output voltage: 24V DC |
 | Power: 400W |
-| Fan: 60x60x15mm, 24V, 0.10A (Cheng Liang CHA6024RL-15B) type |  
+| Fan: 24V, 0.10A, 60x60x15mm, model "Cheng Liang CHA6024RL-15B" |  
 
 ---
 
