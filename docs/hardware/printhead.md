@@ -746,7 +746,7 @@ If you need to replace the cartridge heater and/or the thermistor of the hotend,
 
 *Of course always turn off the printer and unplug it from the power outlet first and then unplug the belonging connector at the mainboard before attempting replacing either component.*  
 
-??? example "Replacing The Thermistor Of The Hotend"
+??? example "Replacing The Thermistor"
 
     If you need to change the thermistor, you should be able to do so by loosening the tiny set screw / grub screw in the heater block which holds it in place. As the screw and the thread might be blocked by hardened filament, heat up the hotend first to get it soft. Turn off the printer then and pay attention to not burn yourself when approaching to change it.  
 
