@@ -686,5 +686,78 @@ However, you might also want to have a look at some steps I mentioned in the exp
     7. Reassemble the fan and the plastic cover.   
 -->
 
+---
+
+## Checking The Cartridge Heater And The Thermistor 
+
+If problems occur with the electric circuit or the thermistor, you can check each of them for localizing the cause of the error.  
+You'll need a [multimeter](../tools.md#multimeter) for doing so.  
+Basic knowledge of how to use a multimeter is sufficient - if you don't know how to use a multimeter, please do a web research. If you don't know how to measure resistance, you can start by reading [this article](https://www.fluke.com/en-us/learn/blog/digital-multimeters/how-to-measure-resistance) for example which describes the process.    
+
+!!! warning "Turn Off The Printer And Unplug The AC Connection"
+
+    Before attempting any measurements, *turn off the printer and unplug the AC connector first!*  
+
+!!! danger "Electrical Shock And Severe Damage Possible"
+
+    It's possible to experience an electrical shock and cause severe damage to your printer if you do measurements with the unit being powered on!  
+    
+    Unless you *have to have the printer powered* on because you need to check certain functions (e.g. if the power supply is working and delivering the belonging 24V for driving the components), *always* turn off the printer and unplug the AC connector first!  
+    
+    *Doing measurements with the unit being powered on should only be done if you ***really*** know what you're doing!*  
+
+---
+
+### How To Check
+
+The following expandable textboxes will give you some basic instructions what you can do to check the electric circuits of the 24V catridge heater and the thermistor wirings.  
+  
+??? example "Measuring / Checking The Wiring"  
+
+    You can check the wiring of both the 24V line and the thermistor by measuring the electrical continuity of the cables. If your multimeter doesn't have this function, you can measure the resistance instead.  
+    
+    However, *it's advisable to measure the resistance, even though your multimeter offers the function of probing for continuity,* because it might be the case that a cable still passes the check for continuity, but that individual strands of the wire are broken. This causes problems if those strands lose contact permanently or during movement of the bed, as it leads to a higher resistance.  
+    
+    - At the 24V cables this can lead to the circumstance that the cable will get hot at that spot, that the insulation will melt, that a shortcut might occur and it might even occur that it causes a fire.   
+    - At the thermistor cables this can cause the [ERR: MINTEMP](../troubleshooting.md#err-mintempmaxtempthermal-runaway) error message. When the problem of breaking strands starts to occur, you'll experience the upcoming of this error message when the bed is moving and reaches a certain position. In that case those broken strands lose contact, which leads to a suddenly chaning resistance value. As the temperature is interpreted by the reisistance value of the NTC of the bed, a suddenly changing resistance is interpreted as a sudden change in the temperature. If this change is 'big' enough, the belonging error message will be triggered.     
+    
+    **Procedure:**  
+    
+    - Unplug the belonging connector and check the belonging cable(s) by probing at the beginning and the end of the cable. So place one probe of the multimeter at the connector and the other probe at the solder joint of the cable you want to check.  
+    - If continuity is given and/or no or a *very* small resistance (it should be *really* close to zero resistance though!) is measured, start bending the cable slowly and pay attention to the measured resistance. Take a few iterations when doing so, bend the cable in different radii, at different speed, at different spots. If at one point the resistance suddenly changes, the problematic and broken part of the wire is detected.  
+
+??? example "Measuring / Checking The Thermistor"  
+
+    You can check if a thermistor is working or if it's broken by measuring the resistance of it using a multimeter. As described above, at a temperature of 25°C the resistance should be ~100K Ohm. If the temperature is lower, the resistance value will be higher; if the temperature is higher, the resistance value will be lower.  
+    
+    You can measure by probing the belonging wires at the plug of the mainboard (unplug it!), that would be the black connector labeled as "T0" with the two white cables (see the chapter ["Mainboard" -> "TriGorilla V_3.0.6 (Stock)"](mainboard.md#trigorilla-v_306-stock) for a picture of the location). Keep in mind though that by doing so you also measure the wiring itself. Means, if there are e.g. broken wires, the thermistor won't work even if the thermistor itself is still fine.   
+
+??? example "Checking The 24V Heating Circuit Of The Catridge Heater"  
+
+    You can also check the 24V heating circuit of the cartridge heater itself. Besides inspecting it closely if any visible damages like scratches or abraded spots are visible, you can measure the continuity and resistance of the circuit as well.  
+    
+    If the circuit and the cartridge heater is ok, continuity will be given and a resistance of about 14.5Ohm should be reported.  
+
+---
+
+### How To Replace
+
+If you need to replace the cartridge heater and/or the thermistor of the hotend, see the expandable textboxes below for further instructions.  
+
+*Of course always turn off the printer and unplug it from the power outlet first and then unplug the belonging connector at the mainboard before attempting replacing either component.*  
+
+??? example "Replacing The Thermistor Of The Hotend"
+
+    If you need to change the thermistor, you should be able to do so by loosening the tiny set screw / grub screw in the heater block which holds it in place. As the screw and the thread might be blocked by hardened filament, heat up the hotend first to get it soft. Turn off the printer then and pay attention to not burn yourself when approaching to change it.  
+
+    If the screw is unscrewed enough and doesn't hold the thermistor in place anymore, you should be able to pull it out of the heater block. If it doesn't seem to move, carefully grab the metal part with a small pair of pliers, twist it a bit and try to pull it out.  
+    Then insert the new thermistor until it won't slide into the belonging hole anymore and carefully tighten up the grub screw. Don't overtighten it though as you don't want to harm the thermistor.  
+    
+??? example "Replacing The Cartridge Heater"  
+
+    If you need to change the cartridge heater, you should be able to do so by loosening the tiny set screw / grub screw in the heater block which holds it in place. As the screw and the thread might be blocked by hardened filament, heat up the hotend first to get it soft. Turn off the printer then and pay attention to not burn yourself when approaching to change it.  
+
+    If the screw is unscrewed enough and doesn't hold the cartridge heater in place anymore, you should be able to pull it out of the heater block. If it doesn't seem to move, carefully grab the metal part with a small pair of pliers, twist it a bit and try to pull it out.  
+    Then insert the new cartridge heater, so that it's placed completely inside of the belonging hole and carefully tighten up the grub screw. Don't overtighten it though as you don't want to harm the cartridge heater. 
 
   
