@@ -191,8 +191,7 @@ It might happen that either a **wrong temperature will be read** or that the **w
 | Err: MINTEMP | Err: MAXTEMP | Err: THERMAL RUNAWAY |
 |--------------|--------------|----------------------|
 | ![Err: MINTEMP: Bed](assets/images/controlunit_err_bed-min-temp_web.jpg)   | ![Err: MAXTEMP: E1](assets/images/controlunit_err_e1-max-temp_web.jpg) | ![Err: THERMAL RUNAWAY: E1](assets/images/controlunit_thermal-runaway_e1_web.jpg) |  
-  
-Before going into details here, I have to mention that I personally only came across the warnings "Err: MAXTEMP: E1" and "Err: MINTEMP: Bed". I might be wrong of course, but looking at the underlying reasons for these kind of errors, I *assume* that it's also possible to get the warnings "Err: MINTEMP: E1" and "Err: MAXTEMP: Bed". Therefore I'll write the next sections assuming and regarding that both type of messages may occur for either the extruder or the bed. So please keep that in mind when reading further..   
+    
   
 - **MINTEMP** and **THERMAL RUNAWAY** errors:  
   These kind of errors are called "thermal runaway errors" (*Attention: I'm not sure about the MINTEMP error yet though!*) and they are triggered by a function called "thermal runaway protection".  
@@ -221,7 +220,7 @@ Before going into details here, I have to mention that I personally only came ac
 - It also might happen that just an **obviously wrong temperature** or even a **negative temperature** will be reported. This is most likely the case when a lot of the thin wires of the cable inside of the insulation broke and lost contact and only a few wires are still ok. In that case the resistance raises which leads to a faulty temperature reading.  
   This is also one of the most common reasons which cause the MINTEMP error due to a fluctuating resistance and temperature reading while the e.g. bed and therefore the cable moves (which then causes lost contacts of the broken wires in certain positions), but it'll be mentioned as one of the possible reasons further down below as well. There were just some users who reported a negative temperature reading of the actual bed temperature but they didn't had the red 'locked' screen, so I wanted to mention this scenario already here as well.    
 
-In the following sections I'll go over these messages for noth the extruder and the bed and what the reasons and possible solutions might be.  
+In the following sections I'll go over these messages for both the extruder and the bed and what the reasons and possible solutions might be.  
 
 ---
 
@@ -256,6 +255,7 @@ If the error pops up right away when you turn on the printer, then it's most lik
 
 The solution depends on the underlying problem of course.  
 If you face a hardware issue of the thermistor part (like a partially or completely broken sensor cable or a faulty thermistor which you could determine by using a multimeter as well), just get yourself a new thermistor and replace the broken one.  
+See the section ["Checking The Cartridge Heater And The Thermistor"](hardware/printhead.md#checking-the-cartridge-heater-and-the-thermistor) of the chapter "Printhead" for further instructions.   
   
 If that doesn't solve the issue, I'd suppose to take a magnifying glass and inspect the SMD parts of the mainboard. You probably won't be able to spot a faulty part as not every defect will be visible, but it might happen that you'll spot a melted part like I did when I faced the "Err: MAXTEMP: E1" issue as the following picture shows. <br> ![Melted D4](assets/images/mainboard_melted-D4_web.jpg)  
 
@@ -293,8 +293,9 @@ If the error pops up while the printer is moving or printing, then it's most lik
 It's actually *most likely that you're dealing with broken wires* - that's a pretty common issue, as they are made of poor quality and tend to brake over time due to the movement. In this case broken wires of the cables (inside of the insulation) temporary lose contact due to the movement of the bed and cables and therefore the resistance fluctuates, which results in a fluctuating temperature reading. The more wires break and the more permament this 'gap' between the broken wires will be, the more 'permanent' this problem will be until to the point that all wires broke and the signal won't be transmitted anymore at all. At this stage the error message will pop up right away when you turn on the printer.    
 
 The solution depends on the underlying problem of course.  
-If you face a hardware issue like a partially or completely broken sensor cable, you can replace the sensor cables. I'll add more specific information about how to do so soon.  
-If you face a hardware issue of the thermistor part (which you could determine by using a multimeter), you can get yourself new thermistor 100K NTC thermistor and replace the broken one - but as mentioned before, this is (imho) pretty unlikely, it's more likely that the cables cause the problem.   
+If you face a hardware issue like a partially or completely broken sensor cable, you can replace the sensor cables. 
+If you face a hardware issue of the thermistor part (which you could determine by using a multimeter), you can get yourself new thermistor 100K NTC thermistor and replace the broken one - but as mentioned before, this is (imho) pretty unlikely, it's more likely that the cables cause the problem.  
+See the section [Checking And Fixing The Electric Circuit And The Thermistor](hardware/bed.md#checking-and-fixing-the-electric-circuit-and-the-thermistor) of the chapter "Bed" for further instructions.  
   
 If that doesn't solve the issue, I'd suppose to take a magnifying glass and inspect the SMD parts of the mainboard. You probably won't be able to spot a faulty part as not every defect will be visible, but it might happen that you'll spot a melted part like I did when I faced the "Err: MAXTEMP: E1" issue as the following picture shows. <br> ![Melted D4](assets/images/mainboard_melted-D4_web.jpg)  
 
