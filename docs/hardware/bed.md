@@ -520,9 +520,9 @@ The following expandable textboxes will give you some basic instructions what yo
 
 If you encounter a **faulty thermistor of the bed**, you can replace it with a new one. Pay attention to get yoursefl the correct type though, it's a 100K NTC "EPCOS" type glass bead sensor.  
 
-??? example "Changing The Thermistor Of The Bed"
+??? example "Replacing The Thermistor Of The Bed"
 
-    If you need to change the thermistor, you should be able to do so by pulling off the piece of foam for being able to access it. You can then unsolder it and replace it with a new one.  
+    If you need to replace the thermistor, you should be able to do so by pulling off the piece of foam for being able to access it. You can then unsolder it and replace it with a new one.  
     
     *Note:*  
     
