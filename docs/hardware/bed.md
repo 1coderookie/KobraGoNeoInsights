@@ -466,9 +466,11 @@ I'll describe the belonging process for each case in the following.
     
     In case you're using Klipper like me, you can use the macro ["screws_tilt_adjust with the command SCREWS_TILT_CALCULATE"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe) to finetune the tramming of the bed if necessary.  
     
-## Checking The Electric Circuit And Electronic Components 
+## Checking And Fixing The Electric Circuit And The Thermistor 
 
-If problems occur with the electric circuit or the electronic components, you can check each of them for localizing the cause of the error. You'll need a [multimeter](../tools.md#multimeter) for doing so. Basic knowledge of how to use a multimeter is sufficient - if you don't know how to use a multimeter, please do a web research.  
+If problems occur with the electric circuit or the thermistor, you can check each of them for localizing the cause of the error.  
+You'll need a [multimeter](../tools.md#multimeter) for doing so.  
+Basic knowledge of how to use a multimeter is sufficient - if you don't know how to use a multimeter, please do a web research. If you don't know how to measure resistance, you can start by reading [this article](https://www.fluke.com/en-us/learn/blog/digital-multimeters/how-to-measure-resistance) for example which describes the process.    
 
 !!! warning "Turn Off The Printer And Unplug The AC Connection"
 
@@ -482,18 +484,21 @@ If problems occur with the electric circuit or the electronic components, you ca
     
     *Doing measurements with the unit being powered on should only be done if you ***really*** know what you're doing!*  
 
-The following expandable textboxes will give you some basic instructions what you can do to check and fix certain components.  
+### How To Check
 
-If you don't know how to measure resistance, you can read [this article](https://www.fluke.com/en-us/learn/blog/digital-multimeters/how-to-measure-resistance) for example which describes the process.  
+The following expandable textboxes will give you some basic instructions what you can do to check the electric circuits of the 24V and the thermistor wirings.  
   
 ??? example "Measuring / Checking The Wiring"  
 
     You can check the wiring of both the 24V line and the thermistor by measuring the electrical continuity of the cables. If your multimeter doesn't have this function, you can measure the resistance instead.  
+    
     However, *it's advisable to measure the resistance, even though your multimeter offers the function of probing for continuity,* because it might be the case that a cable still passes the check for continuity, but that individual strands of the wire are broken. This causes problems if those strands lose contact permanently or during movement of the bed, as it leads to a higher resistance.  
+    
     - At the 24V cables this can lead to the circumstance that the cable will get hot at that spot, that the insulation will melt, that a shortcut might occur and it might even occur that it causes a fire.   
     - At the thermistor cables this can cause the [ERR: MINTEMP](../troubleshooting.md#err-mintempmaxtempthermal-runaway) error message. When the problem of breaking strands starts to occur, you'll experience the upcoming of this error message when the bed is moving and reaches a certain position. In that case those broken strands lose contact, which leads to a suddenly chaning resistance value. As the temperature is interpreted by the reisistance value of the NTC of the bed, a suddenly changing resistance is interpreted as a sudden change in the temperature. If this change is 'big' enough, the belonging error message will be triggered.     
     
     **Procedure:**  
+    
     - Unplug the belonging connector and check the belonging cable(s) by probing at the beginning and the end of the cable. So place one probe of the multimeter at the connector and the other probe at the solder joint of the cable you want to check.  
     - If continuity is given and/or no or a *very* small resistance (it should be *really* close to zero resistance though!) is measured, start bending the cable slowly and pay attention to the measured resistance. Take a few iterations when doing so, bend the cable in different radii, at different speed, at different spots. If at one point the resistance suddenly changes, the problematic and broken part of the wire is detected.  
 
@@ -506,22 +511,55 @@ If you don't know how to measure resistance, you can read [this article](https:/
 ??? example "Checking The 24V Heating Circuit Of The PCB"  
 
     You can also check the 24V heating circuit of the PCB itself. Besides inspecting it closely if any visible damages like scratches or abraded spots are visible, you can measure the continuity and resistance of the circuit as well.  
+    
     If the circuit is ok, continuity will be given and a resistance of about 3.2Ohm should be reported.  
 
 ??? example "Changing The Thermistor Of The Bed"
 
     If you need to change the thermistor, you should be able to do so by pulling off the piece of foam for being able to access it. You can then unsolder it and replace it with a new one.  
     
-    If you have problems heating up the solder joints because the plate acts as a conductor and draws the heat of the soldering iron, heat up the bedplate first - but don't heat it up too much, you don't want to burn yourself! Make sure to switch off the bed then, switch off the whole printer and unplug it from the power outlet. Unplug the wiring from the mainboard as well then before starting to solder.  
+    *Note:*  
+    
+    - If you have problems heating up the solder joints because the plate acts as a conductor and draws the heat of the soldering iron, heat up the bedplate first - but don't heat it up too much, you don't want to burn yourself! Make sure to switch off the bed then, switch off the whole printer and unplug it from the power outlet. Unplug the wiring from the mainboard as well then before starting to solder.  
 
-??? example "Changing The Wiring Of The Bed"  
+### How To Fix 
 
-    If you encounter a faulty wiring, either of the 24V line or the thermistor, you can replace the broken cables.  
-    *If you don't know how to solder, it's advisable to consultate someone who is capable of doing so. It's important that the soldering will be done properly! A faulty soldering like cold solder joints can not only induce problems like unreliable working parts, it can also cause severe damage if it's located at the 24V heating circuit line!*    
+If you encounter a faulty wiring, either of the 24V line or the thermistor, you can replace the broken cables.  
+    
+*Notes:*  
+    
+- *If you don't know how to solder, it's advisable to consultate someone who is capable of doing so. It's important that the soldering will be done properly!*  
+- *A faulty soldering like cold solder joints can not only induce problems like unreliable working parts, it can also cause severe damage if it's located at the 24V heating circuit line!*    
+- If you have problems heating up the solder joints because the plate acts as a conductor and draws the heat of the soldering iron, heat up the bedplate first - but don't heat it up too much, you don't want to burn yourself! Make sure to switch off the bed then, switch off the whole printer and unplug it from the power outlet. Unplug the wiring from the mainboard as well then before starting to solder.
 
-    If you have problems heating up the solder joints because the plate acts as a conductor and draws the heat of the soldering iron, heat up the bedplate first - but don't heat it up too much, you don't want to burn yourself! Make sure to switch off the bed then, switch off the whole printer and unplug it from the power outlet. Unplug the wiring from the mainboard as well then before starting to solder.
 
+??? example "Replacing The Cables Of The 24V Heating Circuit"  
 
+    - If you need to replace the wiring of the 24V heater circuit of the bed, use highly flexible cable with many thin strands and a silicone insulation! *Don't* use a cable with a PVC insulation!  
+    - Use at least AWG14 cable, preferrably thicker.  
+    - Pay attention to proper soldering! Avoid any shortcuts, cold solder joints etc.  
+    - If you can't solder and you *absolutely* don't have any other possibility to have the soldering done by someone who is experienced in this, you might use special connectors.  
+    - In that case you leave e.g. an inch of the original wiring at the bed (assuming that the faulty spot isn't located there - check that beforehand!) and then connect the new cable with the existing one.  
+    - If you do so, pay special attention to add a proper strain relief - no strain or movement *at all* should occur at the fixed part of the cable!  
+    - There are shrinkable solder connectors available on the market, where you insert the stripped ends of the cables at each end of the connector and then you heat up the soldered area of the connector, which then melts and connects both ends of those wires.  
+      *Attention: Make sure to get yourself the correct size for the specific wire thickness you're using! Don't use soldering connectors which are too big!*  
+
+??? example "Replacing The Cables Of The Thermistor Wiring**  
+    
+    - If you need to replace the wiring of the thermistor of the bed, use highly flexible cable with many thin strands and a silicone insulation! *Don't* use a cable with a PVC insulation!  
+    - Use at least AWG22 cable, preferrably thicker.  
+    - Pay attention to proper soldering! Avoid any shortcuts, cold solder joints etc.  
+    - If you can't solder and you *absolutely* don't have any other possibility to have the soldering done by someone who is experienced in this, you might use special connectors.  
+    - If you want to do so, leave e.g. an inch of the original wiring at the bed (assuming that the faulty spot isn't located there - check that beforehand!) and then connect the new cable with the existing one.  
+    - *If you do so, pay special attention to add a proper strain relief - no strain or movement at all should occur at the fixed part of the cable!*   
+    - There are shrinkable solder connectors available on the market, where you insert the stripped ends of the cables at each end of the connector and then you heat up the soldered area of the connector, which then melts and connects both ends of those wires.  
+      *Attention: Make sure to get yourself the correct size for the specific wire thickness you're using! Don't use soldering connectors which are too big!*  
+      The following picture shows one of those connectors - note that it shows the biggest one though, coded with a yellow stripe, which isn't suitable as it's too big (I just didn't had smaller ones for taking a picture).  
+      ![Shrinkable solder connector](../assets/images/shrinkable_solder_connector_web.jpg)  
+    - However, as the cables of the thermistor are pretty thin, you might won't be able to find and use proper shrinkable solder connectors (they DO exist for thin wires though!). In that case you might also use special WAGO clamps to connect the cables as shown in the pictures below. As mentioned before, pay special attention to a proper strain relief!   
+      | WAGO 221-2411 & 211-412 | WAGO 221-412 assembled |
+      |:------------------------|:-----------------------|
+      | ![WAGO clamps](../assets/images/wago_clamps_web.jpg) | ![WAGO 221-412 assembled](../assets/images/wago_clamp-assembled_web.jpg) |
 
 
    
