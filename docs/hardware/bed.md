@@ -11,6 +11,8 @@
 | Heating coil: 24V, ~180W, ~3.2Ohm resistance, 14AWG wire |
 | Bedmount: 9x18mm rigid spacers/bushings, 4x25mm countersunk head screws |
 
+---
+
 Both printers use the same heated bed (it's actually the same bedplate which is used at the regular Kobra as well).  
 The bed consists of a 3mm aluminum [bedplate](#bedplate) with the heating coil being attached to the underside as a PCB. On the top surface there's a [magnetic foil](#magnetic-foil) glued onto it which then holds the [PEI plate](#pei-plate) in place.  
 The following picture shows the components.  
@@ -465,6 +467,8 @@ I'll describe the belonging process for each case in the following.
     Also remember to check your z-offset as it'll most likely has to be adjusted.  
     
     In case you're using Klipper like me, you can use the macro ["screws_tilt_adjust with the command SCREWS_TILT_CALCULATE"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe) to finetune the tramming of the bed if necessary.  
+
+---
     
 ## Checking And Fixing The Electric Circuit And The Thermistor 
 
@@ -483,6 +487,8 @@ Basic knowledge of how to use a multimeter is sufficient - if you don't know how
     Unless you *have to have the printer powered* on because you need to check certain functions (e.g. if the power supply is working and delivering the belonging 24V for driving the components), *always* turn off the printer and unplug the AC connector first!  
     
     *Doing measurements with the unit being powered on should only be done if you ***really*** know what you're doing!*  
+
+---
 
 ### How To Check
 
