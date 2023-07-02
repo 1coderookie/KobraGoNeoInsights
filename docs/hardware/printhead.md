@@ -1,6 +1,19 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # Printhead
+
+| Specifications |
+|:---------------|
+| **Go**: Bowden Drive |
+| **Neo**: Direct Drive |
+| Thermistor: 24V, 100K NTC, ATC Semitec 104GT-2/104NT-4-R025H42G type, capsuled, dimensions 3x6mm, ~150cm cable length |
+| Heater cartridge: 24V, 40W, ~14.5Ohm, dimensions 6x18mm, ~150cm cable length |
+| Nozzle: E3D V6 type |
+| Heater block: E3D V5 type |
+| Heatbreak: M6 thread (to fit in the V5 heater block), overall length ~24.6mm, outer diameter 7mm, inner diameter ~4mm |
+| Silicone sock: E3D V5 type |
+
+
 The printheads of the **Go** and the **Neo** aren't identical because of the different type of extruder they're using:  
 
 - the **Go** uses a bowden drive feeder system while 
@@ -333,6 +346,8 @@ The diameter is 3mm, the length should be minimum 6mm as that is the depth of th
 
 Based on the setting of the firmware it's an ATC Semitec 104GT-2/104NT-4-R025H42G (4.7k pullup). You should be able to find and use a compatible item from the aftermarket (which I successfully did - you just have to pay attention to the wire length actually).  
 The following picture shows the thermistor from the aftermarket I used and the specific plug which is necessary to fit in the belonging socket at the mainboard.  
+  
+![Thermistor and plug](../assets/images/head_plug-therm_web.jpg)  
 
 ??? info "What Is A 100k NTC Thermistor?"
 
@@ -346,9 +361,7 @@ The following picture shows the thermistor from the aftermarket I used and the s
     On the other hand, if some kind of a shortcut will appears, the resistance will become smaller and therefore the temperature will be reported higher. This will most likely cause the ["MAXTEMP" error](../troubleshooting.md#err-mintempmaxtempthermal-runaway).  
     So by looking at the kind of error being reported, you can already guess what might be the issue.    
     
-  
-![Thermistor and plug](../assets/images/head_plug-therm_web.jpg)  
-  
+
 The **cartidge heater** which is used is a **24V 40W** element. The diameter is 6mm, the length of the original part is about 18mm, the length of the wire is about 150cm.  
 However, a cartridge heater from the aftermarket with a length of about 21mm is just fine, it just sticks out at both sides of the heater block at the end which shouldn't be a problem. It seems that it's is a typical dimension for V5/V6 heater blocks. The following picture shows the original part on the left side and a compatible part from the aftermarket I used at the right side.  
   
@@ -359,9 +372,10 @@ The following picture shows the specific plug which is necessary to fit into the
 ![Specific plug of the cartridge heater](../assets/images/head_cart-plug_web.jpg)
   
 
-!!! warning  
+!!! warning "Replacing The Cartridge Heater / Thermistor" 
 
     If you need to replace the thermistor and/or the cartridge heater, *make sure you don't overtighten the screws as it could harm both the thermistor and the heater cartridge!* Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo**. <br> ![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)    
+    See the section ["Checking The Cartridge Heater And The Thermistor"](#checking-the-cartridge-heater-and-the-thermistor) at the end of this chapter for further instructions about how to check and replace those components. 
    
 ??? tip "General Tips" 
 
@@ -382,7 +396,7 @@ Anycubic ships the printheads with a 0.4mm **E3D V6 type** brass nozzle for 1.75
 So if you're looking for replacement nozzles, make sure to get yourself the correct type!  
 I highly recommend to only use high quality nozzles, like the [**original E3D V6 nozzles**](https://e3d-online.com/products/v6-nozzles) (see the infobox below as well)!  
     
-!!! warning  
+!!! warning "Nozzles: Handle With Care!" 
 
     - *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with at brass brush or the wrench!* <br> You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. 
     - If you want to change the nozzle (*check out the expandable admonition below!*) and need to grab the heater block with a wrench, make sure you really just grab the heater block and never get any wires up in between - preferably grab the heater block from that sides where the wires don't come out.   
@@ -643,6 +657,17 @@ After removing the cover of the gear box, you'll then be able to access the meta
 
 - In case you dropped something tiny like a screw or so in the wholes at the top of the feeder or if you need to check the feeder gear system due to problems, it's probably sufficient to disassemble the system from the metal backplate by taking out the three hexagon socket screws and shake the whole thing around a bit. There are enough holes and openings at the back where you also could try to reach the lost thing using a pair of tweezers. If that doesn't work, proceed with the next step.   
 - There is a metal part with cooling fins underneath the 'big' fan at the right side, this is the heatsink. <br> ![Metal plate with cooling fins](../assets/images/head_neo_cooling-fins_web.jpg) <br> This heatsink is secured by three screws as you can see at the following picture. <br> ![The three screws holding the metal plate](../assets/images/head_neo_screws-cooling-plate_marked_web.jpg) <br> If you unscrew those three hexagon socket screws and take the heatsink off, you can get a closer look at the gears of the feeder system. <br> ![Neo feeder gear system](../assets/images/head_neo_feeder-inside_web.jpg)  
+
+??? info "Dimensions Of The Spring"
+
+    As the question arised about the dimensions of the spring being used which applies the tension to the feeder gear (in case you lost it and need to find a suitable replacement), here are the dimensions of it:  
+    
+    - overall length: ~12-12.5mm
+    - length completely compressed: hard to tell as it's pretty stiff, I'd say around 6-7mm
+    - spring steel thickness: 1mm
+    - windings (except the 'closed' loops at both ends): 4
+    - outer diameter: ~7.1mm
+    - inner diameter: ~5.1mm
   
 ---  
   
