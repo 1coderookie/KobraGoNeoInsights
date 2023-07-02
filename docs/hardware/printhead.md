@@ -13,6 +13,7 @@
 | Heatbreak: M6 thread (to fit in the V5 heater block), overall length ~24.6mm, outer diameter 7mm, inner diameter ~4mm |
 | Silicone sock: E3D V5 type |
 
+---
 
 The printheads of the **Go** and the **Neo** aren't identical because of the different type of extruder they're using:  
 
