@@ -375,7 +375,6 @@ The following picture shows the specific plug which is necessary to fit into the
 
 !!! warning "Replacing The Cartridge Heater / Thermistor" 
 
-    If you need to replace the thermistor and/or the cartridge heater, *make sure you don't overtighten the screws as it could harm both the thermistor and the heater cartridge!* Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo**. <br> ![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)    
     See the section ["Checking The Cartridge Heater And The Thermistor"](#checking-the-cartridge-heater-and-the-thermistor) at the end of this chapter for further instructions about how to check and replace those components. 
    
 ??? tip "General Tips" 
@@ -771,6 +770,9 @@ The following expandable textboxes will give you some basic instructions what yo
 If you need to replace the cartridge heater and/or the thermistor of the hotend, see the expandable textboxes below for further instructions.  
 
 *Of course always turn off the printer and unplug it from the power outlet first and then unplug the belonging connector at the mainboard before attempting replacing either component.*  
+
+When replacing the thermistor and/or the cartridge heater, *make sure you don't overtighten the tiny grub screws / set screws which hold them in place as it could harm both the thermistor and the heater cartridge!*  
+Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo**. <br> ![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)   
 
 ??? example "Replacing The Thermistor"
 
