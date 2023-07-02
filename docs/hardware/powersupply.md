@@ -1,7 +1,17 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>  
   
 # Power Supply Unit
-The printer comes with a 400W power supply unit which can take 110V and 230V as well.  
+
+| Specifications |
+|:---------------|
+| Input voltage: 110V and 230V AC |
+| Output voltage: 24V DC |
+| Power: 400W |
+| Fan: 60x60x15mm, 24V, 0.10A (Cheng Liang CHA6024RL-15B) type |  
+
+---
+
+The printer comes with a 400W power supply unit which can take 110V and 230V AC as well.  
 
 ![Sticker power supply front](../assets/images/powersupply_label_web.jpg)
 ![Sticker power supply itself](../assets/images/psu_label_web.jpg)  
