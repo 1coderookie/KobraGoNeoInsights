@@ -65,26 +65,11 @@ Don't remove that piece of foam as it protects and insulates the thermistor of t
 
 The thermistor is a 100k NTC type which is soldered onto the PCB. According to the settings of the firmware, it's an EPCOS type.  
 
-??? info "What Is A "100K NTC" Thermistor" And How To Check If It's Working"
+??? info "What Is A "100K NTC" Thermistor?"
 
     A "NTC" thermistor is an electronical components that's changing its resistance when temperature changes occur. "NTC" stands for Negative Temperature Coefficient, which means that the resistance becomes lower when temperature rises.    
     "100K" NTC thermistor means that at a defined temperature of 25°C the resistance is 100K Ohm. The hotter the thermistor gets, the lower the resistance value will be; the colder the thermistor gets, the bigger the resistance will be. So at e.g. 20°C bed temperature the resistance will be ~125K Ohm, at 30°C it'll be ~81K Ohm.  
     There are general data sheets for this kind of thermistor to find with list the different resistance values at given temperatures. However, these values can slightly vary, depending on the manufacturer and the type of the 100K thermistor (e.g.: EPCOS vs. ATC 102 vs. General 3950).   
-
-
-??? example "Measuring / Checking The Thermistor"  
-
-    You can check if a thermistor is working or if it's broken by measuring the resistance of it using a multimeter. As described above, at a temperature of 25°C the resistance should be ~100K Ohm. If the temperature is lower, the resistance value will be higher; if the temperature is higher, the resistance value will be lower.  
-
-        If you don't know how to measure resistance, you can read [this article](https://www.fluke.com/en-us/learn/blog/digital-multimeters/how-to-measure-resistance) for example which describes the process.  
-    
-    You can measure by probing the belonging wires at the plug of the mainboard (unplug it!), that would be the white connector labeled as "T1" with the green and blue cable (see the chapter ["Mainboard" -> "TriGorilla V_3.0.6 (Stock)"](mainboard.md#trigorilla-v_306-stock) for a picture of the location). Keep in mind though that by doing so you also measure the wiring itself. Means, if there are e.g. broken wires, the thermistor won't work even if the thermistor itself is still fine. For avoiding this, you could measure at the soldering joints right at the bed - in this case you also check the conductor path of the PCB itself. If you really want to *only* measure the thermistor itself (which is advisable if you're in doubt and are thinking about changing the thermistor), then you'd have to pull off the little foamy piece in the middle of the underside of the bed and measure the resistance right at the soldering joints or legs of the thermistor itself.  
-    
-
-??? example "Changing The Thermistor Of The Bed"
-
-    If you need to change the thermistor, you should be able to do so by pulling off the piece of foam for being able to access it. You can then unsolder it and replace it with a new one.  
-    If you have problems heating up the solder joints because the plate acts as a conductor and draws the heat of the soldering iron, heat up the bedplate first. Make sure to switch off the bed then, switch off the whole printer and unplug it from the power outlet. The best would be to unplug it from the mainboard as well then before starting to solder.     
 
 ??? tip "Execute PID Tuning For The Bed"
 
@@ -92,7 +77,7 @@ The thermistor is a 100k NTC type which is soldered onto the PCB. According to t
 
 ---
 
-### Insulating The Bedplate (Mod)
+### Insulating The Bedplate (MOD)
 What I personally can highly recommend is to insulate the underside of the bed.  
 You can get special insulation mats for 3d printers which meet the requirements for this (like being suited for higher temperatures and being flame retardant) for a few bucks. See the expandable textblock below for some tips about the installation.    
 Make sure you order the correct size (preferrably a bit bigger) which is 230x230mm as that's the size of the bedplate itself.  
@@ -481,6 +466,61 @@ I'll describe the belonging process for each case in the following.
     
     In case you're using Klipper like me, you can use the macro ["screws_tilt_adjust with the command SCREWS_TILT_CALCULATE"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe) to finetune the tramming of the bed if necessary.  
     
+## Checking The Electric Circuit And Electronic Components 
+
+If problems occur with the electric circuit or the electronic components, you can check each of them for localizing the cause of the error. You'll need a [multimeter](../tools.md#multimeter) for doing so. Basic knowledge of how to use a multimeter is sufficient - if you don't know how to use a multimeter, please do a web research.  
+
+!!! warning "Turn Off The Printer And Unplug The AC Connection"
+
+    Before attempting any measurements, *turn off the printer and unplug the AC connector first!*  
+
+!!! danger "Electrical Shock And Severe Damage Possible"
+
+    It's possible to experience an electrical shock and cause severe damage to your printer if you do measurements with the unit being powered on!  
+    
+    Unless you *have to have the printer powered* on because you need to check certain functions (e.g. if the power supply is working and delivering the belonging 24V for driving the components), *always* turn off the printer and unplug the AC connector first!  
+    
+    *Doing measurements with the unit being powered on should only be done if you ***really*** know what you're doing!*  
+
+The following expandable textboxes will give you some basic instructions what you can do to check and fix certain components.  
+
+If you don't know how to measure resistance, you can read [this article](https://www.fluke.com/en-us/learn/blog/digital-multimeters/how-to-measure-resistance) for example which describes the process.  
+  
+??? example "Measuring / Checking The Wiring"  
+
+    You can check the wiring of both the 24V line and the thermistor by measuring the electrical continuity of the cables. If your multimeter doesn't have this function, you can measure the resistance instead.  
+    However, *it's advisable to measure the resistance, even though your multimeter offers the function of probing for continuity,* because it might be the case that a cable still passes the check for continuity, but that individual strands of the wire are broken. This causes problems if those strands lose contact permanently or during movement of the bed, as it leads to a higher resistance.  
+    - At the 24V cables this can lead to the circumstance that the cable will get hot at that spot, that the insulation will melt, that a shortcut might occur and it might even occur that it causes a fire.   
+    - At the thermistor cables this can cause the [ERR: MINTEMP](../troubleshooting.md#err-mintempmaxtempthermal-runaway) error message. When the problem of breaking strands starts to occur, you'll experience the upcoming of this error message when the bed is moving and reaches a certain position. In that case those broken strands lose contact, which leads to a suddenly chaning resistance value. As the temperature is interpreted by the reisistance value of the NTC of the bed, a suddenly changing resistance is interpreted as a sudden change in the temperature. If this change is 'big' enough, the belonging error message will be triggered.     
+    
+    **Procedure:**  
+    - Unplug the belonging connector and check the belonging cable(s) by probing at the beginning and the end of the cable. So place one probe of the multimeter at the connector and the other probe at the solder joint of the cable you want to check.  
+    - If continuity is given and/or no or a *very* small resistance (it should be *really* close to zero resistance though!) is measured, start bending the cable slowly and pay attention to the measured resistance. Take a few iterations when doing so, bend the cable in different radii, at different speed, at different spots. If at one point the resistance suddenly changes, the problematic and broken part of the wire is detected.  
+
+??? example "Measuring / Checking The Thermistor"  
+
+    You can check if a thermistor is working or if it's broken by measuring the resistance of it using a multimeter. As described above, at a temperature of 25°C the resistance should be ~100K Ohm. If the temperature is lower, the resistance value will be higher; if the temperature is higher, the resistance value will be lower.  
+    
+    You can measure by probing the belonging wires at the plug of the mainboard (unplug it!), that would be the white connector labeled as "T1" with the green and blue cable (see the chapter ["Mainboard" -> "TriGorilla V_3.0.6 (Stock)"](mainboard.md#trigorilla-v_306-stock) for a picture of the location). Keep in mind though that by doing so you also measure the wiring itself. Means, if there are e.g. broken wires, the thermistor won't work even if the thermistor itself is still fine. For avoiding this, you could measure at the soldering joints right at the bed - in this case you also check the conductor path of the PCB itself. If you really want to *only* measure the thermistor itself (which is advisable if you're in doubt and are thinking about changing the thermistor), then you'd have to pull off the little foamy piece in the middle of the underside of the bed and measure the resistance right at the soldering joints or legs of the thermistor itself.  
+
+??? example "Checking The 24V Heating Circuit Of The PCB"  
+
+    You can also check the 24V heating circuit of the PCB itself. Besides inspecting it closely if any visible damages like scratches or abraded spots are visible, you can measure the continuity and resistance of the circuit as well.  
+    If the circuit is ok, continuity will be given and a resistance of about 3.2Ohm should be reported.  
+
+??? example "Changing The Thermistor Of The Bed"
+
+    If you need to change the thermistor, you should be able to do so by pulling off the piece of foam for being able to access it. You can then unsolder it and replace it with a new one.  
+    
+    If you have problems heating up the solder joints because the plate acts as a conductor and draws the heat of the soldering iron, heat up the bedplate first - but don't heat it up too much, you don't want to burn yourself! Make sure to switch off the bed then, switch off the whole printer and unplug it from the power outlet. Unplug the wiring from the mainboard as well then before starting to solder.  
+
+??? example "Changing The Wiring Of The Bed"  
+
+    If you encounter a faulty wiring, either of the 24V line or the thermistor, you can replace the broken cables.  
+    *If you don't know how to solder, it's advisable to consultate someone who is capable of doing so. It's important that the soldering will be done properly! A faulty soldering like cold solder joints can not only induce problems like unreliable working parts, it can also cause severe damage if it's located at the 24V heating circuit line!*    
+
+    If you have problems heating up the solder joints because the plate acts as a conductor and draws the heat of the soldering iron, heat up the bedplate first - but don't heat it up too much, you don't want to burn yourself! Make sure to switch off the bed then, switch off the whole printer and unplug it from the power outlet. Unplug the wiring from the mainboard as well then before starting to solder.
+
 
 
 
