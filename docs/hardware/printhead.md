@@ -6,7 +6,7 @@
 |:---------------|
 | **Go**: Bowden Drive |
 | **Neo**: Direct Drive |
-| Thermistor: 24V, 100K NTC, ATC Semitec 104GT-2/104NT-4-R025H42G type, capsuled, dimensions 3x6mm, ~150cm cable length |
+| Thermistor: 24V, 100k NTC, ATC Semitec 104GT-2/104NT-4-R025H42G type, capsuled, dimensions 3x6mm, ~150cm cable length |
 | Heater cartridge: 24V, 40W, ~14.5Ohm, dimensions 6x18mm, ~150cm cable length |
 | Nozzle: E3D V6 type |
 | Heater block: E3D V5 type |
@@ -311,14 +311,14 @@ Both the thermistor and the cartidge heater have to be plugged into the specific
 
 *It's (imho) advisable to exchange the stock aluminum heater block and replace it with a plated copper one.* If you do so, remember to do a PID tuning for the extruder then.  
   
-!!! warning  
-
-    If you need to replace the thermistor and/or the cartridge heater, *make sure you don't overtighten the screws as it could harm both the thermistor and the heater cartridge!* Note the dent from the screw and the deformed thermistor due to an overtightened screw from the manufacturer at my **Neo**. <br> ![Deformed thermistor due to an overtightened screw](../assets/images/head_therm-cart-broken_web.jpg)  
-      
 ??? info "Spare Part Heater Block"
 
     If you need a new heater block, you can just get yourself a regular V5 compatible one. It might be smart to not get the cheapest one available as they sometimes lack of precision and therefore may cause problems with leaking filament.  
+    
     Usually the heater blocks are made of aluminum, but you can also get them made of plated copper (which I personally use and highly recommend) as shown in the following picture. <br> ![V5 plated copper](../assets/images/head_heaterblock-v5-copper_web.jpg)  
+    
+    There are also ceramic heater blocks on the market which come with M6 threads - those ones can be used as well. However, as they come with an inbuilt heating element (24V, 55W) and an inbuilt thermistor (100k, most likely a "Generous 3950" type) and usually cables which aren't long enough for these printers and lack the belonging plugs as well, further tinkering is necessary to get these ones installed.  
+    
     Remember to do a PID tuning for the extruder every time you changed parts at your hotend.
 
 ---   
@@ -381,6 +381,10 @@ The following picture shows the specific plug which is necessary to fit into the
 
     - If you need to install a new thermistor and/or cartridge heater, you have to unstrip the wires from the cable conduit. You can just unroll the conduit, pull out the wires from the old part while tugging in the wires of the new part. Be careful to not pull too hard to not harm any thin wires which might be wrapped around the wires of the old part. <br> ![Stripping in the new wires](../assets/images/stripping_in_wires_web.jpg)    
     - When installing the parts at the heater block and putting back on the plastic cap of the printhead, I personally avoided to bend the thin wires as it was done within the original installation. I just guided the wires along outside the plastic cover. By doing so, you minimize the risk of getting a shortcut due to a harmed or melted wire isolation at the part where the wires are bent and twisted originally. The following picture shows my new installed thermistor and cartridge heater with the wires running outside of the plastic cap. <br> ![Wires running outside of the plastic cap](../assets/images/head_neo_new-sen-therm_web.jpg)  
+
+??? info "Ceramic Heater Block With Inbuilt Heating Element"
+
+    There are ceramic heater blocks on the market which come with M6 threads and an inbuilt heating element (24V, 55W) and a thermistor (100k, most likely it's a "Generous 3950" type). The cables usually aren't long enough for these printers and lack the belonging plugs as well, so further tinkering is necessary to get these ones installed.  
 
 ??? tip "Execute PID Tuning"      
     
@@ -739,6 +743,12 @@ The following expandable textboxes will give you some basic instructions what yo
   
 ??? example "Measuring / Checking The Wiring"  
 
+    Before attempting any measurements, do a visual check if the insulation of both the thermistor and the cartridge heater is still intact.  
+    *If you can see bare wire shing through due to a melted and/or displaced insulation, change the part immediately!*  
+    Don't try to cover it up with some kind of insulation, even though Kapton tape should stand the heat. Yuo'll risk a shortcut which then will harm your motherboard and might even cause more svere damage!  
+    Just to show you that I'm not exxagerating at all, the following picture shows my mainboard with a blewn up component due to a shortcut.  
+    ![Melted D4](../assets/images/mainboard_melted-D4_web.jpg)
+    
     You can check the wiring of both the 24V line and the thermistor by measuring the electrical continuity of the cables. If your multimeter doesn't have this function, you can measure the resistance instead.  
     
     However, *it's advisable to measure the resistance, even though your multimeter offers the function of probing for continuity,* because it might be the case that a cable still passes the check for continuity, but that individual strands of the wire are broken. This causes problems if those strands lose contact permanently or during movement of the bed, as it leads to a higher resistance.  
