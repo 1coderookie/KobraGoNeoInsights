@@ -547,6 +547,7 @@ If you encounter a **faulty wiring, either of the 24V line or the thermistor,** 
 
     - If you need to replace the wiring of the 24V heater circuit of the bed, use highly flexible cable with many thin strands and a silicone insulation! *Don't* use a cable with a PVC insulation!  
     - Use at least AWG14 cable, preferrably thicker.  
+    - Add [ferrules] to the end of the cables which connects to the screw terminals of the mainboard!
     - Pay attention to proper soldering! Avoid any shortcuts, cold solder joints etc.  
     - If you can't solder and you *absolutely* don't have any other possibility to have the soldering done by someone who is experienced in this, you might use special connectors.  
     - In that case you leave e.g. an inch of the original wiring at the bed (assuming that the faulty spot isn't located there - check that beforehand!) and then connect the new cable with the existing one.  
@@ -571,6 +572,7 @@ If you encounter a **faulty wiring, either of the 24V line or the thermistor,** 
       ![WAGO clamps](../assets/images/wago_clamps_web.jpg)  
       The following picture shows a WAGO clamp of the type 221-412 with two wires assembled.  
       ![WAGO 221-412 assembled](../assets/images/wago_clamp-assembled_web.jpg) 
+    - Keep in mind that you need to add the belonging connector (JST XH 2.54) to the end of the cable for being able to plug it into the mainboard! If you don't have the belonging crimping tool and can't solder a piece of the old cable to the end of the new cable, you can use the beforementioned connectors as well.  
 
 
    
