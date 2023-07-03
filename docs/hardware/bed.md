@@ -141,12 +141,12 @@ The following picture shows the magnetic foil that Anycubic shipped together wit
     
     To make sure that everything *really* is clean, I'd suggest to wear disposable gloves, use paper towels and do more than one cleaning routine. Also make sure that no dust or anything else is left on the plate when attempting to attach the magnetic foil then.  
     
-    When applying the magnetic foil, start with one side of the bedplate. Peel off about an inch of the protective film of the glued side of the foil and position the foil at one edge/side of the bedplate.  
+    When applying the magnetic foil, peel off about an inch of the protective film of the glued side of the foil and position the foil along one of the edges of the bedplate.  
     *Avoid touching the glued side!*  
-    Make sure to position the foil correctly at the first attempt as you don't want to put yourself in the position where you have to pull off the foil again. I personally likke to bend the foil a bit, so that I can start attaching it at the middle of that 'stripe'. Then wipe along that stripe from the middle to the outer edge with slight pressure. Pay attention to get the foil onto the bed smooth and even - there shouldn't be any bubbles of trapped air or even 'wrinkles' of the foil!  
-    If everything worked out well for that first stripe, slowly pull off the protective foil of the glued side while attaching it in the described way - means, wipe from the center to the sides for avoiding trapped air.  
+    Make sure to position the foil correctly at the first attempt as you don't want to put yourself in the position where you have to pull off the foil again. Bend the foil a bit and then wipe along that stripe you already put on the bed from the middle to the outer edges with slight pressure. Pay attention to get the foil onto the bed smooth and even - there shouldn't be any bubbles of trapped air or even 'wrinkles' of the foil!  
+    If everything worked out well for that first stripe, slowly pull off the protective film while applying the foil onto the bedplate in the described way. Means, go slowly in small increments and always apply pressure by wiping from the center to the sides for avoiding trapped air.  
     
-    Once you're done, wipe from the center of the bedplate to the sides once again while applying a bit of more pressure. Then heat up the bed to about 40-50°C (so that it's still safe for you to touch it without burning yourself) and let it sit for about 5min like that. Then wipe over it once again while applying pressure to make sure the foil is properly attached. Pay attention to the egdes and sides all along the bedplate, so that the foil really is attached well there.  
+    Once you're done, wipe from the center of the bedplate to the sides once again while applying a bit of more pressure. Then heat up the bed to about 40-50°C (so that it's still safe for you to touch it without burning yourself) and let it sit for about 5min like that. Then wipe over it once again while applying pressure to make sure the foil is properly attached. Pay special attention to the egdes and long corners and make sure the foil really is attached well there.  
     
     If you bought a 235x235mm or even bigger foil, cut off the protruding parts by using a scalpel or sharp knife.   
 
