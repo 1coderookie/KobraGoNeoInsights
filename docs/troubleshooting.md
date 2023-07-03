@@ -138,7 +138,7 @@ Also check the belonging sections in the chapter ["Printhead"](hardware/printhea
 ---
 
 ## Wrong Temperature Is Read
-If an obviously wrong temperature is read (like e.g. 10° for the bed when you have 25° room temperature or even a negative temperature when it's obvously not *that* cold), then it's most likely that you face a faulty cable. The wires inside of the cables tend to break due to the movement and poor quality, and when only a few wires are left, the resistance becomes bigger - which results in an obviously faulty reading.  
+If an obviously wrong temperature is read (like e.g. 10° for the bed when you have 25° room temperature or even a negative temperature when it's obvously not *that* cold), then it's most likely that you face a faulty wire. The wires inside of the wires tend to break due to the movement and poor quality, and when only a few wires are left, the resistance becomes bigger - which results in an obviously faulty reading.  
 See the section ["Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY"](#err-mintempmaxtempthermal-runaway) and the reasons listed there as well as the possible solutions for further information.   
 
 ---
@@ -148,10 +148,10 @@ See the section ["Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY"](#err-mintempmaxtempther
 If you face **homing problems** of  
 
 - the **x- or y-axis**, like the printhead crashes into the limit switch and doesn't seem to stop trying to move (which most likely makes an awful sound as well), please see the section ["Homing Failed: X/Y](#homing-failed-xy).
-- the **z-axis**, then it's most likely either a wiring problem (like a broken cable or a loose or unplugged connector) or a faulty switch. Of course the mainboard might be defective as well, but this is more unlikely (imho) if you didn't create a shortcut or so.  
+- the **z-axis**, then it's most likely either a wiring problem (like a broken wire or a loose or unplugged connector) or a faulty switch. Of course the mainboard might be defective as well, but this is more unlikely (imho) if you didn't create a shortcut or so.  
   So first of all check if the little metal piece at the x-axis gantry which triggers the switch really is in the correct position to trigger the switch.  
   Check if the wiring of the switch is correct and if the connectors are plugged in at both the limit switch as well as at the mainboard.  
-  You can also measure the cable with a multimeter to see if you face a broken cable.  
+  You can also measure the wire with a multimeter to see if you face a broken wire.  
   If you know how to use a multimeter correctly, you can also measure the voltage coming from the mainboard to the switch itself, it should be around 3.3V DC. If that's the case, then it's most likely that the limit switch itself is faulty.
   
 If you face **movement problems** of    
@@ -163,7 +163,7 @@ If you face **movement problems** of
   Everything should move smooth. Check out the chapter ["Axes"](hardware/axes.md) for further information.  
   *If no movement occurs at all*, check if the belonging motor is working.  
   Check if the wiring is correct and if the connectors are plugged in at the motor and the mainboard correctly.  
-  If that's the case, you could measure the cables using a multimeter to check if there's a broken cable maybe.  
+  If that's the case, you could measure the wires using a multimeter to check if there's a broken wire maybe.  
 - the **z-axis**, check the belonging wheels of the x-axis gantry which run along the z-axis aluminum frame.  
   Are the wheels in the perfect position, can they turn how they're supposed to?  
   Is the lead screw system assembled correctly?  
@@ -172,11 +172,11 @@ If you face **movement problems** of
   If no movement occurs at all, check if the coupler between the motor and the lead screw is tight and mounted correctly.  
   Check if the belonging motor is working.  
   Check if the wiring is correct and if the connectors are plugged in at the motor and the mainboard correctly.  
-  If that's the case, you could measure the cables using a multimeter to check if there's a broken cable maybe.  
+  If that's the case, you could measure the wires using a multimeter to check if there's a broken wire maybe.  
   *Another problem might be the z-axis limit switch.* This is an optical type of switch. So if the z-axis only move a tiny bit upwards or if it doesn't move downwards while homing, then it might be that the problem is caused by the limit switch system here.  
   So first of all check if the little metal piece at the x-axis gantry which triggers the switch really is in the correct position to trigger the switch.  
   Check if the wiring of the switch is correct and if the connectors are plugged in at both the limit switch as well as at the mainboard.  
-  You can also measure the cable with a multimeter to see if you face a broken cable.  
+  You can also measure the wire with a multimeter to see if you face a broken wire.  
   If you know how to use a multimeter correctly, you can also measure the voltage coming from the mainboard to the switch itself, it should be around 3.3V DC. If that's the case, then it's most likely that the limit switch itself is faulty.    
 
 ---
@@ -217,8 +217,8 @@ It might happen that either a **wrong temperature will be read** or that the **w
   #define BED_MAXTEMP      120  // max target temp-10=110
   ``` 
   
-- It also might happen that just an **obviously wrong temperature** or even a **negative temperature** will be reported. This is most likely the case when a lot of the thin wires of the cable inside of the insulation broke and lost contact and only a few wires are still ok. In that case the resistance raises which leads to a faulty temperature reading.  
-  This is also one of the most common reasons which cause the MINTEMP error due to a fluctuating resistance and temperature reading while the e.g. bed and therefore the cable moves (which then causes lost contacts of the broken wires in certain positions), but it'll be mentioned as one of the possible reasons further down below as well. There were just some users who reported a negative temperature reading of the actual bed temperature but they didn't had the red 'locked' screen, so I wanted to mention this scenario already here as well.    
+- It also might happen that just an **obviously wrong temperature** or even a **negative temperature** will be reported. This is most likely the case when a lot of the thin wires of the wire inside of the insulation broke and lost contact and only a few wires are still ok. In that case the resistance raises which leads to a faulty temperature reading.  
+  This is also one of the most common reasons which cause the MINTEMP error due to a fluctuating resistance and temperature reading while the e.g. bed and therefore the wire moves (which then causes lost contacts of the broken wires in certain positions), but it'll be mentioned as one of the possible reasons further down below as well. There were just some users who reported a negative temperature reading of the actual bed temperature but they didn't had the red 'locked' screen, so I wanted to mention this scenario already here as well.    
 
 In the following sections I'll go over these messages for both the extruder and the bed and what the reasons and possible solutions might be.  
 
@@ -242,19 +242,19 @@ Reasons that can cause this might vary from being easy to fix to a real hardware
 
 - The printer is exposed to cold air and therefore the temperature drops rapidly. This might be caused by e.g. a window or door you opened. So make sure to prevent the printer being exposed to an area where (cold) air ventilates too much. Also use the printer in a room which isn't too cold in general.  
 - The blue [silicone sock](hardware/printhead.md#silicone-sock) of the heater block came off (or isn't present because you took it off) and the part cooling fan blows at the heater block instead of blowing at the printed part. So make sure to add a silicone sock and adjust the airflow of the part cooling fan.  
-- *The wires of the thermistor cable are broken (inside of the insulation) and they're losing contact due to movement that occurs.*  
-- The insulation of the thermistor cable is harmed and the blank wires of both cables are touching each other.  
-- The thermistor cable is completely broken or ripped off.  
+- *Idividual strands of the thermistor wire are broken (inside of the insulation) and they're losing contact due to movement that occurs.*  
+- The insulation of the thermistor wire is harmed and the unprotected strands of both wires are touching each other.  
+- The thermistor wire is completely broken or ripped off.  
 - The thermistor itself is faulty.  
-- The plug of the thermistor cable at the mainboard somehow came off.  
+- The plug of the thermistor wire at the mainboard somehow came off.  
 - An electronic component of the mainboard is broken (e.g. due to a shortcut).   
 
 If the error pops up while the printer is moving or printing, then it's most likely one of the first two things I mentioned above.  
-It might also be the third point as a broken wire loses contact due to movements and therefore the resistance becomes bigger (if just a few wires of the cable are broken inside of the insulation) or the signal won't be transmitted anymore at all (if the wire is completely broken).  
+It might also be the third point as a broken wire loses contact due to movements and therefore the resistance becomes bigger (if just a few strands of the wire are broken inside of the insulation) or the signal won't be transmitted anymore at all (if the wire is completely broken).  
 If the error pops up right away when you turn on the printer, then it's most likely one of the other problems.  
 
 The solution depends on the underlying problem of course.  
-If you face a hardware issue of the thermistor part (like a partially or completely broken sensor cable or a faulty thermistor which you could determine by using a multimeter as well), just get yourself a new thermistor and replace the broken one.  
+If you face a hardware issue of the thermistor part (like a partially or completely broken sensor wire or a faulty thermistor which you could determine by using a multimeter as well), just get yourself a new thermistor and replace the broken one.  
 See the section ["Checking The Cartridge Heater And The Thermistor"](hardware/printhead.md#checking-the-cartridge-heater-and-the-thermistor) of the chapter "Printhead" for further instructions.   
   
 If that doesn't solve the issue, I'd suppose to take a magnifying glass and inspect the SMD parts of the mainboard. You probably won't be able to spot a faulty part as not every defect will be visible, but it might happen that you'll spot a melted part like I did when I faced the "Err: MAXTEMP: E1" issue as the following picture shows. <br> ![Melted D4](assets/images/mainboard_melted-D4_web.jpg)  
@@ -282,19 +282,19 @@ Reasons that can cause this might vary from being easy to fix to a real hardware
 
 - The printer is exposed to cold air and therefore the temperature drops rapidly. This might be caused by e.g. a window or door you opened. So make sure to prevent the printer being exposed to an area where (cold) air ventilates too much. Also use the printer in a room which isn't too cold in general.  
   
-- *The wires of the thermistor cable are broken (inside of the insulation) and they're losing contact due to movement that occurs.*  
-- The insulation of the thermistor cable is harmed and the blank wires of both cables are touching each other.  
-- The thermistor cable is completely broken or ripped off.  
+- *Individual strands of the thermistor wire are broken (inside of the insulation) and they're losing contact due to movement that occurs.*  
+- The insulation of the thermistor wire is harmed and the unprotected strands of both wires are touching each other.  
+- The thermistor wire is completely broken or ripped off.  
 - The thermistor itself is faulty.  
-- The plug of the thermistor cable at the mainboard somehow came off.  
+- The plug of the thermistor wire at the mainboard somehow came off.  
 - An electronic component of the mainboard is broken (e.g. due to a shortcut).   
 
 If the error pops up while the printer is moving or printing, then it's most likely one of the first two things I mentioned above.    
-It's actually *most likely that you're dealing with broken wires* - that's a pretty common issue, as they are made of poor quality and tend to brake over time due to the movement. In this case broken wires of the cables (inside of the insulation) temporary lose contact due to the movement of the bed and cables and therefore the resistance fluctuates, which results in a fluctuating temperature reading. The more wires break and the more permament this 'gap' between the broken wires will be, the more 'permanent' this problem will be until to the point that all wires broke and the signal won't be transmitted anymore at all. At this stage the error message will pop up right away when you turn on the printer.    
+It's actually *most likely that you're dealing with broken wires* - that's a pretty common issue, as they are made of poor quality and tend to brake over time due to the movement. In this case broken strands of the wires (inside of the insulation) temporary lose contact due to the movement of the bed and wires and therefore the resistance fluctuates, which results in a fluctuating temperature reading. The more wires break and the more permament this 'gap' between the broken wires will be, the more 'permanent' this problem will be until to the point that all wires broke and the signal won't be transmitted anymore at all. At this stage the error message will pop up right away when you turn on the printer.    
 
 The solution depends on the underlying problem of course.  
-If you face a hardware issue like a partially or completely broken sensor cable, you can replace the sensor cables. 
-If you face a hardware issue of the thermistor part (which you could determine by using a multimeter), you can get yourself new thermistor 100K NTC thermistor and replace the broken one - but as mentioned before, this is (imho) pretty unlikely, it's more likely that the cables cause the problem.  
+If you face a hardware issue like a partially or completely broken sensor wire, you can replace the sensor wires. 
+If you face a hardware issue of the thermistor part (which you could determine by using a multimeter), you can get yourself new thermistor 100k NTC thermistor and replace the broken one - but as mentioned before, this is (imho) pretty unlikely, it's more likely that the wires cause the problem.  
 See the section [Checking And Fixing The Electric Circuit And The Thermistor](hardware/bed.md#checking-and-fixing-the-electric-circuit-and-the-thermistor) of the chapter "Bed" for further instructions.  
   
 If that doesn't solve the issue, I'd suppose to take a magnifying glass and inspect the SMD parts of the mainboard. You probably won't be able to spot a faulty part as not every defect will be visible, but it might happen that you'll spot a melted part like I did when I faced the "Err: MAXTEMP: E1" issue as the following picture shows. <br> ![Melted D4](assets/images/mainboard_melted-D4_web.jpg)  
@@ -312,7 +312,7 @@ When trying to home the x- and/or y-axis, the error message "Homing Failed: X/Y 
 This occurs when either  
 
 - the belonging switch isn't installed correctly and therefore can't be properly triggered by the belonging part of the head or the bed, 
-- the wiring is faulty (e.g. a loose connector either at the belonging switch or at the mainboard, a broken cable),
+- the wiring is faulty (e.g. a loose connector either at the belonging switch or at the mainboard, a broken wire),
 - the limit switch itself is faulty, 
 - the mainboard is damaged (which ususally is pretty unlikely if you didn't somehow create a shortcut or so).  
 
