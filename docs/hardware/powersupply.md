@@ -23,7 +23,7 @@ The powerswitch and the plug are located at the left hand corner in the back at 
   
 !!! danger 
 
-    Before plugging in the cable and switching on the printer, make sure that you set the little switch for choosing the voltage to the correct value! You can access it from the back of the printer and either set it to 110V or 230V - so make sure everything is set correctly first! <br> ![Voltage switch](../assets/images/powersupply_voltage-switch_web.jpg)  
+    Before plugging in the powercord and switching on the printer, make sure that you set the little switch for choosing the voltage to the correct value! You can access it from the back of the printer and either set it to 110V or 230V - so make sure everything is set correctly first! <br> ![Voltage switch](../assets/images/powersupply_voltage-switch_web.jpg)  
   
 The housing of the power supply unit is mounted at the back of the base frame underneath the bed. You can spot it from the front when you move the bed completely to the back as the following picture shows.  
 
