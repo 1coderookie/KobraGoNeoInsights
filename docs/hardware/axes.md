@@ -5,7 +5,11 @@
 
 | Specifications |
 |:---------------|
-| ..will be added soon.. ;) |
+| **Belt**: GT-2, 6mm width, length between crimped ends: x-axis =  ...mm ; y-axis = ...mm |
+| **V-Slot wheels**: POM, ~24x10.2mm with 6mm width at the tip of the "V", 625 type ball bearing with 5mm inner diameter |
+| **Lead screw**: T8x8 (8mm diameter, 8mm lead, 2mm pitch, 4 starts), 350mm length  |
+| **Anti-backlash nut**: POM, spring loaded, 8mm inner diameter, 20mm distance between mounting screws (18mm will fit as well tho due to elongated holes at the bracket!) |
+| **Limit switches**: x- & y-axis: mechanical, NO ; z-axis: optical, NC |
 
 ---
 
