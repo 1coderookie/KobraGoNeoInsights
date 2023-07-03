@@ -6,8 +6,8 @@
 |:---------------|
 | **Go**: Bowden Drive |
 | **Neo**: Direct Drive |
-| **Thermistor**: 24V, 100k NTC, ATC Semitec 104GT-2/104NT-4-R025H42G type, capsuled, dimensions 3x6mm, ~150cm cable length, two pinned JST XH 2.54 connector |
-| **Heater cartridge**: 24V, 40W, ~14.5Ohm, dimensions 6x18mm, ~150cm cable length (need2add: connector type) |
+| **Thermistor**: 24V, 100k NTC, ATC Semitec 104GT-2/104NT-4-R025H42G type, capsuled, dimensions 3x6mm, ~150cm wire length, two pinned JST XH 2.54 connector |
+| **Heater cartridge**: 24V, 40W, ~14.5Ohm, dimensions 6x18mm, ~150cm wire length (need2add: connector type) |
 | **Nozzle**: E3D V6 type |
 | **Heater block**: E3D V5 type |
 | **Heatbreak**: M6 thread (to fit in the V5 heater block), overall length ~24.6mm, outer diameter 7mm, inner diameter ~4mm |
@@ -317,7 +317,7 @@ Both the thermistor and the cartidge heater have to be plugged into the specific
     
     Usually the heater blocks are made of aluminum, but you can also get them made of plated copper (which I personally use and highly recommend) as shown in the following picture. <br> ![V5 plated copper](../assets/images/head_heaterblock-v5-copper_web.jpg)  
     
-    There are also ceramic heater blocks on the market which come with M6 threads - those ones can be used as well. However, as they come with an inbuilt heating element (24V, 55W) and an inbuilt thermistor (100k, most likely a "Generous 3950" type) and usually cables which aren't long enough for these printers and lack the belonging plugs as well, further tinkering is necessary to get these ones installed.  
+    There are also ceramic heater blocks on the market which come with M6 threads - those ones can be used as well. However, as they come with an inbuilt heating element (24V, 55W) and an inbuilt thermistor (100k, most likely a "Generous 3950" type) and usually wires which aren't long enough for these printers and lack the belonging plugs as well, further tinkering is necessary to get these ones installed.  
     
     Remember to do a PID tuning for the extruder every time you changed parts at your hotend.
 
@@ -358,7 +358,7 @@ The following picture shows the thermistor from the aftermarket I used and the s
     Therefore you can measure the functionality of the thermistor by measuring the given resistance with a multimeter.  
     
     So when you get false readings or error reports on the temperature, check the thermistor itself (measuring directly at the contacts of the thermistor at the undersie of the bed) as well as the wiring (and the connections in general of course).  
-    The cables are made out of many single thin wires which are then covered by the insulation. If wires now start breaking due to the repeated movement at a certain spot and therefore they lose contact, the resistance will become higher in that moment - which then results in a lower temperature being read. If this occurs spontaneously while e.g. the bed is moving, the firmware will read a spontaneous drop or shift in the temperature and will most likely report a ["MINTEMP" or "thermal runaway protection" error](../troubleshooting.md#err-mintempmaxtempthermal-runaway).  
+    The wires are made out of many single thin wires which are then covered by the insulation. If wires now start breaking due to the repeated movement at a certain spot and therefore they lose contact, the resistance will become higher in that moment - which then results in a lower temperature being read. If this occurs spontaneously while e.g. the bed is moving, the firmware will read a spontaneous drop or shift in the temperature and will most likely report a ["MINTEMP" or "thermal runaway protection" error](../troubleshooting.md#err-mintempmaxtempthermal-runaway).  
     On the other hand, if some kind of a shortcut will appears, the resistance will become smaller and therefore the temperature will be reported higher. This will most likely cause the ["MAXTEMP" error](../troubleshooting.md#err-mintempmaxtempthermal-runaway).  
     So by looking at the kind of error being reported, you can already guess what might be the issue.    
     
@@ -379,12 +379,12 @@ The following picture shows the specific plug which is necessary to fit into the
    
 ??? tip "General Tips" 
 
-    - If you need to install a new thermistor and/or cartridge heater, you have to unstrip the wires from the cable conduit. You can just unroll the conduit, pull out the wires from the old part while tugging in the wires of the new part. Be careful to not pull too hard to not harm any thin wires which might be wrapped around the wires of the old part. <br> ![Stripping in the new wires](../assets/images/stripping_in_wires_web.jpg)    
+    - If you need to install a new thermistor and/or cartridge heater, you have to unstrip the wires from the wire conduit. You can just unroll the conduit, pull out the wires from the old part while tugging in the wires of the new part. Be careful to not pull too hard to not harm any thin wires which might be wrapped around the wires of the old part. <br> ![Stripping in the new wires](../assets/images/stripping_in_wires_web.jpg)    
     - When installing the parts at the heater block and putting back on the plastic cap of the printhead, I personally avoided to bend the thin wires as it was done within the original installation. I just guided the wires along outside the plastic cover. By doing so, you minimize the risk of getting a shortcut due to a harmed or melted wire isolation at the part where the wires are bent and twisted originally. The following picture shows my new installed thermistor and cartridge heater with the wires running outside of the plastic cap. <br> ![Wires running outside of the plastic cap](../assets/images/head_neo_new-sen-therm_web.jpg)  
 
 ??? info "Ceramic Heater Block With Inbuilt Heating Element"
 
-    There are ceramic heater blocks on the market which come with M6 threads and an inbuilt heating element (24V, 55W) and a thermistor (100k, most likely it's a "Generous 3950" type). The cables usually aren't long enough for these printers and lack the belonging plugs as well, so further tinkering is necessary to get these ones installed.  
+    There are ceramic heater blocks on the market which come with M6 threads and an inbuilt heating element (24V, 55W) and a thermistor (100k, most likely it's a "Generous 3950" type). The wires usually aren't long enough for these printers and lack the belonging plugs as well, so further tinkering is necessary to get these ones installed.  
 
 ??? tip "Execute PID Tuning"      
     
@@ -752,18 +752,18 @@ The following expandable textboxes will give you some basic instructions what yo
     Just to show you that I'm not exxagerating at all, the following picture shows my mainboard with a blewn up component due to a shortcut.  
     ![Melted D4](../assets/images/mainboard_melted-D4_web.jpg)
     
-    You can check the wiring of both the 24V line and the thermistor by measuring the electrical continuity of the cables. If your multimeter doesn't have this function, you can measure the resistance instead.  
+    You can check the wiring of both the 24V line and the thermistor by measuring the electrical continuity of the wires. If your multimeter doesn't have this function, you can measure the resistance instead.  
     
-    However, *it's advisable to measure the resistance, even though your multimeter offers the function of probing for continuity,* because it might be the case that a cable still passes the check for continuity, but that individual strands of the wire are broken. This causes problems if those strands lose contact permanently or during movement of the bed, as it leads to a higher resistance.  
+    However, *it's advisable to measure the resistance, even though your multimeter offers the function of probing for continuity,* because it might be the case that a wire still passes the check for continuity, but that individual strands of the wire are broken. This causes problems if those strands lose contact permanently or during movement of the bed, as it leads to a higher resistance.  
     
-    - At the 24V cables this can lead to the circumstance that the cable will get hot at that spot, that the insulation will melt, that a shortcut might occur and it might even occur that it causes a fire.   
-    - At the thermistor cables this can cause the [ERR: MINTEMP](../troubleshooting.md#err-mintempmaxtempthermal-runaway) error message. When the problem of breaking strands starts to occur, you'll experience the upcoming of this error message when the head is moving and reaches a certain position. In that case those broken strands lose contact, which leads to a suddenly changing resistance value. As the temperature is interpreted by the reisistance value of the thermistor, a suddenly changing resistance is interpreted as a sudden change in the temperature. If this change is 'big' enough, the belonging error message will be triggered.      
+    - At the 24V wires this can lead to the circumstance that the wire will get hot at that spot, that the insulation will melt, that a shortcut might occur and it might even occur that it causes a fire.   
+    - At the thermistor wires this can cause the [ERR: MINTEMP](../troubleshooting.md#err-mintempmaxtempthermal-runaway) error message. When the problem of breaking strands starts to occur, you'll experience the upcoming of this error message when the head is moving and reaches a certain position. In that case those broken strands lose contact, which leads to a suddenly changing resistance value. As the temperature is interpreted by the reisistance value of the thermistor, a suddenly changing resistance is interpreted as a sudden change in the temperature. If this change is 'big' enough, the belonging error message will be triggered.      
 
 ??? example "Measuring / Checking The Thermistor"  
 
     You can check if a thermistor is working or if it's broken by measuring the resistance of it using a multimeter. As described above, at a temperature of 25°C the resistance should be ~100k Ohm. If the temperature is lower, the resistance value will be higher; if the temperature is higher, the resistance value will be lower.  
     
-    You can measure by probing the belonging wires at the plug of the mainboard (unplug it!), that would be the black connector labeled as "T0" with the two white cables (see the chapter ["Mainboard" -> "TriGorilla V_3.0.6 (Stock)"](mainboard.md#trigorilla-v_306-stock) for a picture of the location). Keep in mind though that by doing so you also measure the wiring itself. Means, if there are e.g. broken wires, the thermistor won't work even if the thermistor itself is still fine.   
+    You can measure by probing the belonging wires at the plug of the mainboard (unplug it!), that would be the black connector labeled as "T0" with the two white wires (see the chapter ["Mainboard" -> "TriGorilla V_3.0.6 (Stock)"](mainboard.md#trigorilla-v_306-stock) for a picture of the location). Keep in mind though that by doing so you also measure the wiring itself. Means, if there are e.g. broken wires, the thermistor won't work even if the thermistor itself is still fine.   
 
 ??? example "Checking The 24V Heating Circuit Of The Catridge Heater"  
 
