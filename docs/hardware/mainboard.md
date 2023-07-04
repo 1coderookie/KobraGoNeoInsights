@@ -36,6 +36,6 @@ The following picture shows the fan of the mainboard. It's a "Coolcox CC7015M24S
   
 ---
   
-## Other Boards (Mod)
+## MOD: Other Boards 
 It's possible to replace the stock mainboard with a different type of board, like one from BigTreeTech (SKR) or whatever. You just have to pay attention that it provides 24V DC as well. Depending on the type of the board, you might have to use a different ABL sensor and (most likely) a different type of control unit as well though.  
 However, as nobody reached out to me yet with a description of different boards being used, I can't give you any further information at this point.  
