@@ -485,7 +485,28 @@ If you need to change the nozzle, mind the warnings from above and check out the
     - Then carefully tighten up the nozzle, but don't overtighten it though. However, you need to make sure that it's tight enough (about 1.5NM) and that it really touches the heatbreak! There shouldn't be any gap between the heatbreak and the nozzle inside of the heater block!  
     - Don't get irritated by the fact that there's a little gap between the head of the nozzle and the heater block oncce you installed everything correctly - that's totally fine and it's supposed to be like that as the following picture shows. <br> ![Mounted nozzle](../assets/images/head_nozzle-mounted_web.jpg)     
              
----  
+---
+
+## Part Cooling Fan  
+
+The part cooling fans of the **Go** and the **Neo** are different.  
+
+---
+
+### Go
+
+The **Go** uses a 24V, 0.08A, 40x40x10mm fan, model "Coolcox BF4010H24S".  
+
+(add pic)
+
+---
+
+### Neo
+The **Neo** uses a 24V, 0.08A, 45x45x10 fan, model "Coolcox BF4510H24S".  
+
+![Neo: Coolcox BF4510H24S](../assets/images/head_neo_fan-parts_web.jpg)
+
+---
 
 ## Fan Duct
 
@@ -493,7 +514,6 @@ As the stock fan ducts aren't very good in doing their job of part cooling, it's
 Due to the way better part cooling then, it'll massively improve the quality of the printed parts as well as puts you into position to successfully print stronger materials like PETG.  
 
 *For the final fan duct it's highly advisable to print them with PETG due to the higher temperature resistance.*
-
 
 ---  
   
@@ -518,6 +538,13 @@ It's advisable to (at least) print them from PETG if you're able to do that. If 
   He also created a [fan duct for a 5015 radial fan](https://www.printables.com/en/model/426167-kobra-neo-fan-duct-for-5015-fan/files) which replaces the stock parts.  
 - [Marius Avasiloaie](https://www.printables.com/de/@MariusAvasiloaie) created a [360° circular fan duct](https://www.printables.com/de/model/498457-anycubic-kobra-neo-fan-duct) as a replacement of the original fan duct.
 - [Kaan Okcu](https://www.printables.com/de/@KaanOkcu_682657) created a [180° fan duct](https://www.printables.com/de/model/470004-anycubic-kobra-neo-fan-duct) which replaces the stock fan duct.  
+
+---
+
+## Heatsink Cooling Fan  
+Both printers use the same type of heatsink/coldend cooling fan: 24V, 0.03A, 40x40x10mm, model "Coolcox CC4010L24S".  
+
+![Coolcox CC4010L24S](../assets/images/head_neo_fan-heatsink_web.jpg)
 
 
 ---
