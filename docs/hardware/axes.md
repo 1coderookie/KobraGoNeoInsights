@@ -5,11 +5,14 @@
 
 | Specifications |
 |:---------------|
-| **Belt**: GT-2, 6mm width, length between crimped ends: x-axis =  ...mm ; y-axis = ...mm |
-| **V-Slot wheels**: POM, ~24x10.2mm with 6mm width at the tip of the "V", 625 type ball bearing with 5mm inner diameter |
-| **Lead screw**: T8x8 (8mm diameter, 8mm lead, 2mm pitch, 4 starts), 350mm length  |
-| **Anti-backlash nut**: POM, spring loaded, 8mm inner diameter, 20mm distance between mounting screws (18mm will fit as well tho due to elongated holes at the bracket!) |
-| **Limit switches**: x- & y-axis: mechanical, NO ; z-axis: optical, NC |
+| **X- & Y-Axis Belt**: GT-2, 6mm width, length between crimped ends ~767mm |
+| **Belt Tensioner Pulley (X&Y)**: 16mm OD / 3mm ID / 20 teeth (for 6mm wide belt) | 
+| **Z-Axis Lead Screw**: T8x8 (8mm diameter, 8mm lead, 2mm pitch, 4 starts), 350mm length  |
+| **Anti-Backlash Nut**: POM, spring loaded, 8mm inner diameter, 20mm distance between mounting screws (18mm will fit as well tho due to elongated holes at the bracket!) |
+| **V-Slot Wheels**: POM, ~24x10.2mm with 6mm width at the tip of the "V", 625 type ball bearing with 5mm inner diameter |
+| **X- & Y-Axis Motor**: 42x34 Nema17, 1.8°, 200 steps, 5mm shaft with 16 OD / 5mm ID / 20 teeth pulley attached (for 6mm wide belt) |
+| **Z-Axis Motor**: 42x34 Nema17, 1.8°, 200 steps, 5mm shaft |
+| **Limit Switches**: x- & y-axis = mechanical, NO ; z-axis = optical, NC |
 
 ---
 
