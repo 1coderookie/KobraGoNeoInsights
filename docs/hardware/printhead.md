@@ -20,7 +20,7 @@
 The printheads of the **Go** and the **Neo** aren't identical because of the different type of extruder they're using:  
 
 - the **Go** uses a bowden drive feeder system while 
-- the **Neo** is using a direct drive feeder system.   
+- the **Neo** uses a direct drive feeder system.   
   
 If you look at both printheads from the front and compare their size, you'll notice that the one of the **Go** is a bit smaller (and lighter) and more square than the wider (and heavier) and more rectangular shaped one of the **Neo**.  
   
