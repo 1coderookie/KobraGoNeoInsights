@@ -4,8 +4,10 @@
 
 ## TriGorilla V_3.0.6 (Stock) 
   
-The stock mainboard of both the **Go** and the **Neo** is the "TriGorilla V_3.0.6" (it's the same board, it's just flashed with the respective fimware of either model).  
-It is a 32bit 24V mainboard with a Huada HC32F460 KCTA ARM Cortex-M4 with 192KB SRAM and 512KB Flash. The speed  of the ARM chip is listed as 200MHz by the manufacturer, Klipper states 168MHz though.  
+The stock mainboard of both the **Go** and the **Neo** is the "TriGorilla V_3.0.6" - it's the same board, it's just flashed with the respective fimware of either model.  
+
+It is a 32bit 24V mainboard with a Huada HC32F460 KCTA ARM Cortex-M4 with 192KB SRAM and 512KB Flash.  
+The speed  of the ARM chip is listed as 200MHz by the manufacturer, Klipper states 168MHz though.  
 The mainboard comes with TMC2208 silent stepper drivers soldered onto the board.  
 It offers a microSD card reader, a USB-C connector and a 10 pin connector for adding the control unit.    
   
