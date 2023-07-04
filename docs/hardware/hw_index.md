@@ -8,7 +8,7 @@ If I found mods which seem meaningful to me and which fit in the certain area wh
 Mods or STL files which don't fit in a special 'area' of the printer that I made a subchapter about can be found in the subchapter "Other" (like e.g. raisers for the whole printer to stand higher).  
   
 Because you're entering the hardware part right now, there is something I really want to recommend to you and I cannot emphasize it enough: 
-*before you even start printing anything, check the construction first. Check all screws, bolts, belts, wheels, electrical connectors - really just everything. And (really important): also disassemble the lead screw system, clean it and lubricate it.*   
+*before you even start printing anything, check the whole construction first. Check the whole frame if everything is square, rectangular and perpendicular, check all screws, bolts, belts, wheels, electrical connectors - really just everything. And (really important): also disassemble the lead screw system, clean it and lubricate it and pay attention to vertical alignment when reassembling.*   
   
 You might think now "Why should I waste my time with that? I assembled the **Go** by myself / I got the preassembled **Neo** and why should I even disassemble the lead screw system?!?" - and I understand that.  
 Sure, you want to dive right into the beautiful ocean of 3D printing. And you will. But as with jumping into the unknown ocean from a cliff high above, you need to assure that everything is safe. And in this case with your new 3D printer it's actually not only that.  
