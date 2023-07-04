@@ -4,7 +4,7 @@
 
 | Specifications |
 |:---------------|
-| **Input Voltage**: 115V and 230V AC |
+| **Input Voltage**: 115V and 230V AC (choose the correct voltage by setting a switch before turning on the printer!) |
 | **Output Voltage**: 24V DC |
 | **Power Rating**: 400W, 17A max. |
 | **Fuse**: glass tube type, replaceable, located between the power plug and the power switch |
