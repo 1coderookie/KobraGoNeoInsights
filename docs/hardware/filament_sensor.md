@@ -34,7 +34,7 @@ After you connected and mounted the sensor, you lead the filament through it. If
   
 ??? info "False Positive Detections" 
 
-    Many users report and complain about false positive detections and therefore paused prints even though there was filament loaded.  
+    Some users reported and complained about false positive detections and therefore paused prints even though there was filament loaded.  
     This might just be a small problem which probably could easily be fixed by bending the little lever of the switch inside of the sensorbox so that there's more pressure onto the filament, but I personally didn't install my sensor yet and didn't check that.  
     
     
