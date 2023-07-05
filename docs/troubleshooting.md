@@ -255,7 +255,7 @@ If the error pops up right away when you turn on the printer, then it's most lik
 
 The solution depends on the underlying problem of course.  
 If you face a hardware issue of the thermistor part (like a partially or completely broken sensor wire or a faulty thermistor which you could determine by using a multimeter as well), just get yourself a new thermistor and replace the broken one.  
-See the section ["Checking The Cartridge Heater And The Thermistor"](hardware/printhead.md#checking-the-cartridge-heater-and-the-thermistor) of the chapter "Printhead" for further instructions.   
+**See the section ["Checking The Cartridge Heater And The Thermistor"](hardware/printhead.md#checking-the-cartridge-heater-and-the-thermistor) of the chapter "Printhead" for further instructions.**   
   
 If that doesn't solve the issue, I'd suppose to take a magnifying glass and inspect the SMD parts of the mainboard. You probably won't be able to spot a faulty part as not every defect will be visible, but it might happen that you'll spot a melted part like I did when I faced the "Err: MAXTEMP: E1" issue as the following picture shows. <br> ![Melted D4](assets/images/mainboard_melted-D4_web.jpg)  
 
@@ -295,7 +295,7 @@ It's actually *most likely that you're dealing with broken wires* - that's a pre
 The solution depends on the underlying problem of course.  
 If you face a hardware issue like a partially or completely broken sensor wire, you can replace the sensor wires. 
 If you face a hardware issue of the thermistor part (which you could determine by using a multimeter), you can get yourself new thermistor 100k NTC thermistor and replace the broken one - but as mentioned before, this is (imho) pretty unlikely, it's more likely that the wires cause the problem.  
-See the section [Checking And Fixing The Electric Circuit And The Thermistor](hardware/bed.md#checking-and-fixing-the-electric-circuit-and-the-thermistor) of the chapter "Bed" for further instructions.  
+**See the section [Checking And Fixing The Electric Circuit And The Thermistor](hardware/bed.md#checking-and-fixing-the-electric-circuit-and-the-thermistor) of the chapter "Bed" for further instructions.**  
   
 If that doesn't solve the issue, I'd suppose to take a magnifying glass and inspect the SMD parts of the mainboard. You probably won't be able to spot a faulty part as not every defect will be visible, but it might happen that you'll spot a melted part like I did when I faced the "Err: MAXTEMP: E1" issue as the following picture shows. <br> ![Melted D4](assets/images/mainboard_melted-D4_web.jpg)  
 
