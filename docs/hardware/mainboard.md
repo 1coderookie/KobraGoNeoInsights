@@ -28,9 +28,12 @@ The following picture shows the fan of the mainboard. It's a "Coolcox CC7015M24S
     You can also use a thin screwdriver to lift up a part of that stuff and then use some tweezers to grab it.    
     
     However, be *very careful* to  
+    
     - not harm the mainboard by slipping off with the screwdriver or tweezer!  
     - not overheat the mainboards of parts of it when heating up that red glue!  
-    - not rip off the heatsinks of the stepper drivers! This can happen really quick as they're just glued onto the stepper drivers with some thermal paste and the red glue is usually spread across the fins of the heatsinks as well! So *if* you have to pull off that stuff from those connectors of the motor wiring, then make sure that you press down the heatsink with your finger when trying to pull that stuff off!  
+    - not rip off the heatsinks of the stepper drivers!  
+      This can happen really quick as they're just glued onto the stepper drivers with some thermal paste and the red glue is usually spread across the fins of the heatsinks as well!  
+      So *if* you have to pull off that stuff from those connectors of the motor wiring, then *make sure that you press down the heatsink with your finger when trying to pull that stuff off!*  
   
 ??? tip "Need To Get A New Mainboard?" 
   
