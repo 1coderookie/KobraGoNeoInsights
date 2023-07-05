@@ -24,7 +24,8 @@ The following picture shows the fan of the mainboard. It's a "Coolcox CC7015M24S
 
 ??? info "Red Glue Across All Connectors"
 
-    When you look at the mainboard, you'll see some red glue spread across all connectors. That's just for securing the connnection. You can get that stuff off by carefully pulling it off. It works better if you heat up that stuff *a little bit*, a hair dryer is good for that. It then becomes a bit softer and easier to be pulled off. You can also use a thin screwdriver to lift up a part of that stuff and then use some tweezers to grab it.    
+    When you look at the mainboard, you'll see some red glue spread across all connectors. That's just for securing the connnection. You can get that stuff off by carefully pulling it off. It works better if you warm up that stuff *a little bit* for making it more flexible, a hair dryer is good for that. It then becomes a bit softer and easier to be pulled off. Don't heat it up too much though as it'll become too soft then!  
+    You can also use a thin screwdriver to lift up a part of that stuff and then use some tweezers to grab it.    
     
     However, be *very careful* to  
     - not harm the mainboard by slipping off with the screwdriver or tweezer!  
