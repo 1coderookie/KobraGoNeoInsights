@@ -8,7 +8,7 @@ It is pretty much plug&play as it comes with the specific wires and plugs.
 
 ![Filament runout sensor](../assets/images/fil_sensor_web.jpg)  
 
-After stripping in the wires and lead them down to the mainboard, you then have to plug it in the corresponding socket which is this green two pinned one in the following picture. It's easy to find as it's the only one available.  
+After stripping in the wires and lead them down to the mainboard, you then have to plug it into the corresponding socket which is this green two pinned one in the following picture. It's easy to find as it's the only one available.  
 
 ![Connector for the filament sensor](../assets/images/filament_sensor_mb-socket_web.jpg)  
 
