@@ -59,6 +59,7 @@ After the plastic cover is gone, you can see the fan and the fanduct inside the 
   
 ![Head no cover](../assets/images/head_go_no-cover_web.jpg)   
   
+*You'll find further disassembling instructions for the ABL sensor, the feeder gear system and the hotend in the specific sections.*  
   
 ---  
   
@@ -74,7 +75,7 @@ The following picture shows a close up view of the printhead of the **Neo** from
 
 ---
 
-## Disassembling
+### Disassembling
   
 Disassembling the printhead isn't really complicated. Just make sure you're careful and put the screws in a place and order that makes it easy for you to reassemble everything later. The following steps are just a rough guide through so that you know what you'll be confrontated with. I'd recommend to take a picture of each step, so that you can look at them later when reassembling - just in case you don't know how to proceed at a certain point or if you're not sure where certain screws belong.    
   
@@ -113,6 +114,8 @@ Looking at the head from the bottom right side, you can see the fan outlet on th
 The following picture shows the whole metal plate where the feeder construction (the marked tips of the three screws on the right side) and the bracket of the ABL sensor (the two marked screws on the left side) is mounted onto - I took these pictures when the head wasn't mounted to the carrier of the x-axis so you can have a better look at the deatails.   
   
 ![Backside view metal plate](../assets/images/head_neo_backplate_marked_web.jpg)
+
+*You'll find further disassembling instructions for the ABL sensor, the feeder gear system and the hotend in the specific sections.*  
   
 ---
 
