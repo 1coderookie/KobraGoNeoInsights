@@ -224,14 +224,14 @@ You can access the inside of the feeder system by dismounting the heatsink, whic
   
 ---  
   
-## Hotend & Heatbreak
+## Hotend 
 In the following, the specific hotends will be shown. Before jumping to the specific section, mind the notes in the expandable textboxes as well.  
   
 !!! warning
 
     - Too high temperatures may harm the PTFE tube - it may become deformed!   
     - If you dismounted the hotend and you put it back into the printhead, make sure you check and adjust the position of the ABL sensor in relation to the nozzle and that you check and set your new z-offset afterwards!  
-    - If you replaced your old hotend with a new one (regardless of whether you also replaced the thermistor and/or cartridge heater with a new one or keep using the existing ones), execute a PID tuning afterwards!
+    - If you replaced your old hotend or parts of it with (a) new one(s) (regardless of whether you also replaced the thermistor and/or cartridge heater with a new one or keep using the existing ones), execute a PID tuning afterwards!
   
 ??? tip "Can't Load New Filament?!"
 
@@ -243,11 +243,7 @@ In the following, the specific hotends will be shown. Before jumping to the spec
     If you need a new PTFE bowden tube, I'd recommend to get the 4mm "Capricorn XS" tube for 1.75mm filament at the length of 1m. Then just cut the belonging length and replace the old bowden tube. You can also get it in a set with a cutter.  
     However, make sure you make a clean and perpendicular cut at a 90° angle to avoid any small gaps between the nozzle and the end of the tube! You can use a special cutter that comes in certain sets from Capricorn, print one of the many available cutting guides or just cut along the end of the heatbreak, using it as a guide for the knife. <br> ![Capricorn XS](../assets/images/head_capricornXS_web.jpg)     
     
-??? info "Spare Part Heatbreak"
 
-    If you need a new heatbreak, you should be able to use whichever V5 compatible heatbreak you'd like to use, you just have to pay attention to the dimensions. It should be about the same length as the stock one, so don't buy anything significantly shorter or longer. Make sure to pay attention to the surface at the top part - that should be even and smooth, so don't get yourself the ones with the thread on the outside.   
-    Some people 'upgraded' to an all-metal heatbreak, which one should avoid though if only printing PLA as it may cause and increase clogging problems. So up to me always go with a heatbreak that uses a PTFE inliner all the way down to the nozzle in case you're only or mostly printing PLA.   
-    The following picture shows such a heatbreak from a third party manufacturer which I use in my **Neo**, it's about 27mm long and works just fine. Due to the slightly bigger length than the stock one, the nozzle is a bit further down though, so I had to adjust the position of the printed part cooling fan duct I'm using. I chose the 'regular' version with the additional PTFE tube instead of an all-metal one as I'm only PLA right now. <br> ![3rd party heatbreak](../assets/images/head_3rdparty-heatbreak_web.jpg)  
   
 ??? example "Large Clump Of Melted Filament Built Up"
 
@@ -275,54 +271,137 @@ In the following, the specific hotends will be shown. Before jumping to the spec
    
 ### Go
   
-The hotend of the **Go** is shown in the next pictures. The bowden tube is about 38-40cm long. In the second picture you can see the heatbreak screwed into the block but dismounted from the aluminum cooling element.  
+The hotend of the **Go** is shown in the next pictures. The bowden tube is about 38-40cm long. The first picture shows the hotend completely assembled as it comes as a spare part (I don't own the **Go**, so I had to buy a spare part hotend for taking these pictures), the second picture shows the hotend being dismounted from the aluminum heatsink.  
 
 ![Hotend](../assets/images/head_go_hotend_web.jpg)  
   
 ![Hotend disassembled](../assets/images/head_go_hotend-dis_web.jpg)
+
+---
+
+#### MOD: Different Hotend
+
+As nobody reached out to me yet, I can't show or suggest any solutions of alternative hotends for the **Go** - sorry about that. From my perspective (I don't own the **Go** though!) it should be possible to replace the existing hotend with one from the aftermarket though, if you pay attention to the specific dimensions as well as to the positions of the holes for mounting it.  
   
 ---  
   
 ### Neo  
   
-The hotend of the **Neo** is shown in the following picture. It's plugged into the heatsink and secured by two screws. The outer diameter of the heatbreak is 7mm at the thick part (top and bottom), at the smaller part between it's 6mm. The inner diameter is about 4.2mm. The length measured from the top until the 'stop ring' before the thread is 15.5mm and the length in total is about 24.6mm. 
+The hotend of the **Neo** is shown in the following picture.  
   
-![Hotend](../assets/images/head_neo_block-hotend-disass_web.jpg)  
-  
-Additionally there is a little PTFE-tube inside of it, which is about 4cm long and 4mm thick with a 2mm hole inside of it to guide the 1.75mm filament.  
-  
-![Hotend mounted with block and tube](../assets/images/head_neo_block-hotend-tube-used_web.jpg)    
-  
+![Hotend](../assets/images/head_neo_hotend-new_web.jpg)  
+    
+
 ??? info "Spare Part Hotend"
 
-    - If you need a new hotend because your heater block or the heatbreak needs to be changed, you can get yourself the spare part hotend for the regular *Kobra*. If you look at the picture of it and compare it with the ones I've shown above, you'll notice that the shape of the heatbreak is the same. So up to me it'll fit perfectly.   
-    - If the old thermistor and/or cartridge heater are still good and the wires aren't harmed, you don't have to fiddle around to use the new ones! Just take the existing ones out of the old heater block and install them in the new one.   
-    - Besides that, the hotend for the *Kobra* comes with a cartridge heater and a thermistor which are also compatible with the ones from the **Go** and **Neo** - at least from a technical side of view. So you'd have them as a spare part also. <br> However, the wires of these parts are way too short though, so you wont't be able to connect them directly! So in case you have to use them, you probably could either just cut the plug and the old part and solder the wires together or (if you have the tools for that) crimp the specific socket for the plug to the old wire to just connect them this way. Polarity doesn't seem to matter here, so just connect the wires.  
-    - *Remember to execute a PID tuning after changing the thermistor and/or the cartridge heater!*  
+    - If you need a new hotend because your heater block or the heatbreak needs to be changed, you can get yourself the spare part hotend for the regular *Kobra* as shown in the picture below. <br> ![Hotend Kobra](../assets/images/head_hotend-kobra-sparepart_web.jpg) <br> If you look at the picture of it and compare it with the one from the **Neo** I've shown above, you'll notice that the shape of the heatbreak is the same. <br> You can *not* use the thermistor and the cartridge heater that come with it thought, as the wires aren't long enough - at least not without tinkering.   
+    - If the old thermistor and/or cartridge heater are still good and the wires aren't harmed, you don't have to look around for getting new ones! Just take the existing ones out of the old heater block and install them into the new one.    
     - However, scroll down and check out the "Disassembling" section below to see how to dis- and reassemble it. *Maybe you don't need new parts, so try to clean up everything first and reassemble it before ordering new parts right away.*  
+
+---
     
-    Besides the stock hotend you can also just get or build yourself a hotend by using a V5 compatible heatbreak and heater block which fits just fine. The following picture shows a hotend I built myself from third party manufacturer parts: a regular heatbreak for V5 compatible heater blocks where the PTFE inliner moves all the way down to the nozzle (so it's *not* a full-metal heatbreak as I use to print PLA/PLA+ only right now), a V5 compatible heater block made of plated copper and a Capricorn XS PTFE tube. <br> ![3rd party hotend](../assets/images/head_3rdparty-hotend_web.jpg)  
-      
+#### MOD: Different Hotend 
+Besides the stock hotend you can also just get or build yourself your own hotend by using a V5 compatible heatbreak and heater block which fits just fine. When doing so, pay attention to the dimensions though, as e.g. a lower position of the nozzle due to a longer heatbreak requires adaptation of the position of the part cooling fan duct!  
+
+Genereally speaking, it's also possible to upgrade to a completely different system, like a V6, a Volcano or a MK8 - if you're willing and capable of tinkering. In that case I assume you already know what you should pay attention to, so I won't go deeper into this.  
+
+The following pictures show two hotends I built myself from third party manufacturer parts. In both cases I used an original E3D V6 nozzle, a plated copper V5 heater block, a Capricorn XS PTFE tube for 1.75mm filament. Then I used a heatbreak for V5 compatible heater blocks where the PTFE tube goes all the way down to the nozzle for printing PLA, and a bi-metal heatbreak where the PTFE tube only sticks into the top of the heatbreak for ~4mm for printing PETG and other material which needs higher temperatures.  
+
+![3rd party hotend](../assets/images/head_neo_hotend-3rdparty-complete_web.jpg)  
+
+![Bi-metal 3rd party hotend](../assets/images/head_neo_bimetal-hotend_complete_web.jpg)
+
+The following pictures show each hotend being disassembled. You can clearly see the shorter PTFE tube of the hotend with the bi-metal heatbreak.  
+
+![3rd party hotend disassembled](../assets/images/head_neo_hotend-3rdparty-disassembled_web.jpg)  
+
+![Bi-metal 3rd party hotend disassembled](../assets/images/head_neo_bimetal-hotend_disassembled_web.jpg)
+     
 ---  
+
+## Heatbreak
+
+The stock heatbreaks aren't the worst out there, but they aren't the best either. So you might reach the point that you want to upgrade to one from the aftermarket.  
+
+??? info "Spare Part Heatbreak"
+
+    If you need a new heatbreak, you should be able to use whichever V5 compatible heatbreak you'd like to use, you just have to *pay attention to the dimensions*. It should be about the same length as the stock one, so don't buy anything significantly shorter or longer. Make sure to pay attention to the surface at the top part - that should be even and smooth, so don't get yourself the ones with the thread on the outside.   
+
+---
+
+### Go
+
+The heatbreak of the **Go** is plugged into the heatsink and secured by two screws.  
+It has a M6 thread to fit the V5 type heater block.  
+As I didn't diasassemble yet the only spare part hotend of the **Go** I got myself for taking these pictures, I can't tell you the overall length. However, the length from that 'ring' until the end of it is ~17mm. 
+The outer diameter diameter is 6mm.  
+
+The following picture shows the heatbreak of the **Go** as it's screwed into the heater block.  
+
+![Heatbreak Go](../assets/images/head_go_stock-heatbreak_web.jpg)
+
+---
+
+### Neo
+
+The heatbreak of the **Neo** is plugged into the heatsink of the direct drive and secured by two screws.  
+To fit the V5 type heater block, it has an M6 thread.  
+The outer diameter of the heatbreak is 7mm at the thick part (top and bottom), at the smaller part between it's 6mm. The inner diameter is about 4.2mm.  
+The length measured from the top until the 'stop ring' before the thread is 15.5mm and the length in total is about 24.6mm.
+As this isn't a bi-metal/full metal heatbreak, there is a little PTFE-tube inside of it which goes all the way down to the nozzle, which is about 4cm long and 4mm thick with a 2mm hole inside of it to guide the 1.75mm filament.  
+
+![Neo stock heatbreak](../assets/images/head_neo_stock-heatbreak_web.jpg)
+
+---
+
+#### MOD: Different Heatbreak
+
+The following picture shows two heatbreaks next to the stock one from third party manufacturers which I use in my **Neo**.  
+The steel one is about 27mm long, the copper bi-metal one is about 27.5mm long (overall). Due to the slightly bigger length than the stock one, the position of the nozzle is a bit further down though, so I had to adjust the position of the printed part cooling fan ducts I'm using. So if you want to avoid that, pay attention to the length of the heatbreak when looking out for a different one!  
+
+![3 heatbreaks](../assets/images/head_neo_3heatbreaks_web.jpg)
+
+![3 heatbreaks top view](../assets/images/head_neo_3heatbreaks_top_web.jpg)
+
+![3 heatbreaks bottom view](../assets/images/head_neo_3heatbreaks_bottom_web.jpg)
+
+
+!!! warning "Bi-Metal/All-Metal Heatbreak And PLA"
+
+    When using a bi-metal or all-metal heatbreak, it may cause and increase clogging problems when printing PLA. So up to me always go with a heatbreak that uses a PTFE inliner all the way down to the nozzle in case you're only or mostly printing PLA.  
+    If you've changed the PTFE tube to a Capricorn one, then you still can print PETG, as those Capricorn tubes can take slightly higher temperatures than the cheap ones. 
+
+---
   
 ## Heater Block
-Both printers use an E3D **V5** compatible heater block.  
+Both printers use an E3D **V5** type heater block.  
 Both the thermistor and the cartidge heater have to be plugged into the specific holes and should be fixed with at tiny grub screw (HEX 1.5).  
   
 ![Heater block V5](../assets/images/head_block-screws-close_web.jpg)  
 
-*It's (imho) advisable to exchange the stock aluminum heater block and replace it with a plated copper one.* If you do so, remember to do a PID tuning for the extruder then.  
-  
-??? info "Spare Part Heater Block"
+---
 
-    If you need a new heater block, you can just get yourself a regular V5 compatible one. It might be smart to not get the cheapest one available as they sometimes lack of precision and therefore may cause problems with leaking filament.  
-    
-    Usually the heater blocks are made of aluminum, but you can also get them made of plated copper (which I personally use and highly recommend) as shown in the following picture. <br> ![V5 plated copper](../assets/images/head_heaterblock-v5-copper_web.jpg)  
-    
-    There are also ceramic heater blocks on the market which come with M6 threads - those ones can be used as well. However, as they come with an inbuilt heating element (24V, 55W) and an inbuilt thermistor (100k, most likely a "Generous 3950" type) and usually wires which aren't long enough for these printers and lack the belonging plugs as well, further tinkering is necessary to get these ones installed.  
-    
-    Remember to do a PID tuning for the extruder every time you changed parts at your hotend.
+### MOD: Different Heater Block
 
+!!! warning "Execute A PID Tuning"
+
+    Whenever you change something at your hotend setup, remember to execute a PID tuning.  
+
+
+You can pick any V5 type of heater block you want if you have to exchange or want to mod/upgrade your existing hotend.  
+However, it might be smart to not get the cheapest one available as they sometimes lack of precision and therefore may cause problems with leaking filament.  
+
+Usually the heater blocks are made of aluminum, but you can also get them made of plated copper (which I personally use and highly recommend) as shown in the following picture.  
+
+![V5 plated copper](../assets/images/head_heaterblock-v5-copper_web.jpg)
+
+    
+There are also ceramic heater blocks on the market which come with M6 threads - those ones can be used as well.  
+However, as they come with an inbuilt heating element and an inbuilt thermistor, make sure to get yourself the correct type.  
+Also pay attention to the length of the wires of these units and the connectors they're coming with - it might be necessary to do a bit of a tinkering to get these ones installed.  
+Last but not least check the height of these units and compare it to the V5 heater block setup - it might be necessary to adjust the position of your fan duct.   
+ 
+    
 ---   
   
 ## Silicone Sock
@@ -343,14 +422,23 @@ Additionaly, the ones from the aftermarket also cover and therefore insulate the
   
 ---  
   
-## Thermistor & Cartridge Heater
-The **thermistor** which is used is a capsuled **NTC 100k**.  
+## Thermistor 
+The thermistor which is used is a capsuled NTC 100k. Based on the setting of the firmware it's an ATC Semitec 104GT-2/104NT-4-R025H42G (4.7k pullup).  
 The diameter is 3mm, the length should be minimum 6mm as that is the depth of the hole in the heater block and the length of the wire is about 150cm.   
 
-Based on the setting of the firmware it's an ATC Semitec 104GT-2/104NT-4-R025H42G (4.7k pullup). You should be able to find and use a compatible item from the aftermarket (which I successfully did - you just have to pay attention to the wire length actually).  
-The following picture shows the thermistor from the aftermarket I used and the specific plug which is necessary to fit in the belonging socket at the mainboard.  
-  
-![Thermistor and plug](../assets/images/head_plug-therm_web.jpg)  
+The following picture shows the stock thermistor being used.  
+
+![Stock thermistor](../assets/images/head_thermistor_stock_web.jpg)
+
+The following picture shows the connector being used, it's a regular two pin JST XH-2.54 type.  
+
+![Thermistor connector](../assets/images/head_thermistor-plug.png)
+
+??? info "Spare Part Thermistor"  
+
+    You should be able to find and use a compatible item from the aftermarket (which I successfully did - you just have to pay attention to the wire length actually).  
+    The following picture shows the thermistor from the aftermarket I used and the specific plug which is necessary to fit in the belonging socket at the mainboard.  
+    ![Thermistor and plug](../assets/images/head_plug-therm_web.jpg)  
 
 ??? info "What Is A 100k NTC Thermistor?"
 
@@ -364,15 +452,27 @@ The following picture shows the thermistor from the aftermarket I used and the s
     On the other hand, if some kind of a shortcut will appears, the resistance will become smaller and therefore the temperature will be reported higher. This will most likely cause the ["MAXTEMP" error](../troubleshooting.md#err-mintempmaxtempthermal-runaway).  
     So by looking at the kind of error being reported, you can already guess what might be the issue.    
     
+---
 
-The **cartidge heater** which is used is a **24V 40W** element. The diameter is 6mm, the length of the original part is about 18mm, the length of the wire is about 150cm.  
-However, a cartridge heater from the aftermarket with a length of about 21mm is just fine, it just sticks out at both sides of the heater block at the end which shouldn't be a problem. It seems that it's is a typical dimension for V5/V6 heater blocks. The following picture shows the original part on the left side and a compatible part from the aftermarket I used at the right side.  
-  
-![Cartridge heaters](../assets/images/head_cart-heater_web.jpg)  
-  
+## Cartridge Heater
+
+The cartidge heater which is used is a **24V 40W** element.  
+The diameter is 6mm, the length of the original part is about 18mm, the length of the wire is about 150cm.  
+
+The following picture shows the stock cartridge heater being used.  
+
+![Stock catridge heater](../assets/images/head_cart-heater_stock_web.jpg)
+
 The following picture shows the specific plug which is necessary to fit into the socket at the mainboard.  
 
 ![Specific plug of the cartridge heater](../assets/images/head_cart-plug_web.jpg)
+  
+
+??? info "Spare Part Cartridge Heater" 
+
+    You can find suitable cartridge heaters on the aftermarket. You'll probably only find some which are about 21mm long as it seems that it's a typical dimension for V5/V6 heater blocks, but that's fine, it just sticks out at both sides of the heater block at the end which shouldn't be a problem. The following picture shows the original part on the left side and a compatible part from the aftermarket I used at the right side.  
+  
+    ![Cartridge heaters](../assets/images/head_cart-heater_web.jpg)  
   
 
 !!! warning "Replacing The Cartridge Heater / Thermistor" 
