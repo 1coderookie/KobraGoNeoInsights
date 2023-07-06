@@ -376,7 +376,7 @@ The hotend of the **Go** is shown in the next pictures. The bowden tube is about
 
 ---
 
-### Disassembling The Hotend
+#### Disassembling The Hotend
 If you need to dismount the hotend from the printhead to change it or if you need to disassemble it, check out the expandable textbox below for further instructions. 
 
 !!! warning  
