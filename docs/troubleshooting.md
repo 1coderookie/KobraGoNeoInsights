@@ -255,7 +255,7 @@ If the error pops up right away when you turn on the printer, then it's most lik
 
 The solution depends on the underlying problem of course.  
 If you face a hardware issue of the thermistor part (like a partially or completely broken sensor wire or a faulty thermistor which you could determine by using a multimeter as well), just get yourself a new thermistor and replace the broken one.  
-**See the section ["Checking And Replacing The Thermistor"](hardware/printhead.md#checking-and-replacing-thermistor) of the chapter "Printhead" for further instructions.**   
+**See the section ["Checking And Replacing The Thermistor"](hardware/printhead.md#checking-and-replacing-the-thermistor) of the chapter "Printhead" for further instructions.**   
   
 If that doesn't solve the issue, I'd suppose to take a magnifying glass and inspect the SMD parts of the mainboard. You probably won't be able to spot a faulty part as not every defect will be visible, but it might happen that you'll spot a melted part like I did when I faced the "Err: MAXTEMP: E1" issue as the following picture shows. <br> ![Melted D4](assets/images/mainboard_melted-D4_web.jpg)  
 
