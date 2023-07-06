@@ -245,7 +245,7 @@ Don't overtighten the screws though - as my father (R.I.P.) used to say: "After 
        
 ---  
   
-## Extruder / Feeder
+## Extruder / Feeder Gear System
 The **Go** uses a bowden drive extruder/feeder, while the **Neo** is using a direct drive extruder/feeder.  
   
 ---
