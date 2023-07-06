@@ -10,7 +10,7 @@
 | **Heater Cartridge**: 24V, 40W, ~14.5Ohm, dimensions 6x18mm, ~150cm wire length (need2add: connector type) |
 | **Nozzle**: E3D V6 type |
 | **Heater Block**: E3D V5 type |
-| **Heatbreak**: M6 thread (to fit in the V5 heater block), overall length ~24.6mm, 7mm OD / 4mm ID, PTFE tube |
+| **Heatbreak**: <br> **Go**: M6 thread (to fit in the V5 heater block), overall length ??mm, 6mm OD / 4mm ID, PTFE tube <br> **Neo**: M6 thread (to fit in the V5 heater block), overall length ~24.6mm, 7mm OD / 4mm ID, PTFE tube |
 | **Silicone Sock**: E3D V5 type |
 | **Part Cooling Fan**: <br> - **Go**: 24V, 0.08A, 40x40x10mm, model "Coolcox BF4010H24S" <br> - **Neo**: 24V, 0.08A, 45x45x10mm, model "Coolcox BF4510H24S" |
 | **Heatsink Cooling Fan**: 24V, 0.03A, 40x40x10mm, model "Coolcox CC4010L24S" (both printer models)  |
