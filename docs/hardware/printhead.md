@@ -236,8 +236,8 @@ See the expandable textbox below for further instructions.
     
 ??? example "Remounting Procedure"
 
-For remounting, just follow the steps of dismounting in reverse. Make sure you're using the right screws and don't forget any of them.  
-Don't overtighten the screws though - as my father (R.I.P.) used to say: "After tight comes loose!" (roughly translated ;) ).  
+    For remounting, just follow the steps of dismounting in reverse. Make sure you're using the right screws and don't forget any of them.  
+    Don't overtighten the screws though - as my father (R.I.P.) used to say: "After tight comes loose!" (roughly translated ;) ).  
 
 !!! warning "Attention"
 
