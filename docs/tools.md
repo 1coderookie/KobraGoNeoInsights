@@ -13,10 +13,14 @@ When it comes down to tinkering, the fun factor and the results raise and fall w
 ## Multimeter
 Get yourself a multimeter. You don't have to get a professional one, a cheap multimeter will do the job just fine. You'll need a multimeter to measure voltage and current and to measure if maybe a wire is broken somewhere. You can also measure if your limit switch is faulty or if a sensor or a thermistor is working correct.  
 
+(add image)
+
 ---
 
 ## Allen Keys 
 You already got some of them with the printer I guess, but it's probably a good idea to get yourself some quality ones.  
+
+(add image)
 
 ---
 
@@ -76,7 +80,9 @@ Using a hot glue gun allows you to add a small spot of molten glue onto the conn
 ---
 
 ## Silicone Mat 
-Speaking about soldering irons and hot air guns, I personally use a silicone mat to put it on the table to protect the surface.  
+Speaking about soldering irons and hot air guns, I personally use a silicone mat to put it on the table for protecting the surface.  
+
+![Silicone mat](assets/images/silicone-mat_web.jpg)
 
 ---
 
@@ -109,9 +115,11 @@ Get yourself a small brass brush for cleaning the outside of the nozzle and the 
 ## Tweezers
 Get yourself some long handled tweezers, preferably a few different ones with different shaped and bent tips.  
 
+![Tweezers](assets/images/tweezers_web.jpg)
+
 ---
 
-## Ferrules & Specific Pliers
+## Ferrules & Crimping Tool
 Being able to add ferrules to the end of wires is just great. You can get them as a set with the specific pliers for that and it's not even expensive.  
 
 ![Ferrules set](assets/images/crimping_set_ferrules_web.jpg)
@@ -124,8 +132,24 @@ The results will be much better than the ones that just use two brackets. Especi
 
 ---
 
+## JST XH 2.54 Connectors & Crimping Tool
+Most of the connectors being used are JST XH 2.54 ones, so when tinkering, sooner or later you'll need the equipment for being able to crimp those connectors yourself.  
+
+(add image)
+
+---
+
+## Infrared Thermometer
+An infrared thermometer allows you to measure higher temperatures without touching the part you want to measure. It comes in handy when you want to check the temperature of the bed a t diffferent spots or when you want to check the temperature of the stepper motors.  
+
+![Infrared thermometer](assets/images/infrared-thermometer_web.jpg)
+
+---
+
 ## Cable Ties
-Get yourself some of those small cable ties, it's always good to have some of them laying around in your toolbox. 
+Get yourself some of those small cable ties, it's always good to have some of them laying around in your toolbox. Most likely you'll need smaller ones, but as you can get them in cheap sets of different sizes, maybe just get yourself one of those.  
+
+![Cable ties](assets/images/cableties_web.jpg)
 
 ---
 
@@ -133,6 +157,13 @@ Get yourself some of those small cable ties, it's always good to have some of th
 A set of heat shrink tubings is always good to have, as they allow you to insulate soldered wires and other parts.  
 
 ![Heat shrink tubings](assets/images/heat-shrink-tubings_web.jpg)
+
+---
+
+## Blow Torch
+A small blow torch comes in handy when you need to heat up disassembled parts.  
+
+![Blow torch](assets/images/blowtorch_web.jpg)
 
 ---
 
@@ -161,4 +192,5 @@ I'd recommend to get yourself some feeler gauges. Those are thin metal sheets in
 ---
 
 ## Height Gauge for ABL Sensor
-Well, even though this isn't a 'tool' you can buy, you probably want to print out the [height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic to make the leveling opration of the ABL sensor a bit easier. You have to make sure though that you're printer already works fine to print it to not mess up the height ratio of the tool. It's not necessary to print this though, as you can just use the big two-sided open end wrench that came with the printer.
+Well, even though this isn't a 'tool' you can buy, you probably want to print out the [height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic to make the leveling opration of the ABL sensor a bit easier. You have to make sure though that you're printer already works fine to print it to not mess up the height ratio of the tool.  
+It's not necessary to print this though, as you can just use the big two-sided open end wrench that came with the printer.
