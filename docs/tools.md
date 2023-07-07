@@ -15,7 +15,7 @@ Get yourself a multimeter. You don't have to get a professional one, a cheap mul
 
 ---
 
-## Hexagon Socket Tools 
+## Allen Keys 
 You already got some of them with the printer I guess, but it's probably a good idea to get yourself some quality ones.  
 
 ---
@@ -31,6 +31,13 @@ For the nozzle you can also use a socket wrench and for the heater block you cou
 The following picture shows a small adjustable wrench I like to use to hold the heater block in place.  
 
 ![Adjustable wrench](assets/images/adjustable_wrench_web.jpg)
+
+---
+
+## Side Cutter
+A sharp side cutter is always good to have.  
+
+![Side cutter](assets/images/cutting_pliers_web.jpg)
 
 ---
 
@@ -137,7 +144,7 @@ You can use it to e.g. secure insulation of the heated bed, equalize dents or ce
 
 ---
 
-## Slide Gauge / Caliper
+## Caliper
 A slide gauge comes in handy if you want to measure accuracy of e.g. your printed test cubes. I'd recommend to get a digital one as it's easier to read the measured value and it's more precise as well.   
 
 ![Slide gauge](assets/images/caliper_web.jpg)
