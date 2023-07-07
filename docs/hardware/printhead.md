@@ -370,6 +370,9 @@ If that doesn't work, see the expandable textbox below for further instructions 
     - There is a metal part with cooling fins underneath the 'big' fan at the right side, this is the heatsink. <br> ![Metal plate with cooling fins](../assets/images/head_neo_cooling-fins_web.jpg)  
     - This heatsink is secured by three screws as you can see at the following picture. <br> ![The three screws holding the metal plate](../assets/images/head_neo_screws-cooling-plate_marked_web.jpg)  
     - If you unscrew those three hexagon socket screws and take the heatsink off, you can get a closer look at the gears of the feeder system. <br> ![Neo feeder gear system](../assets/images/head_neo_feeder-inside_web.jpg)  
+    - The following picture shows the feeder gear properly assembled. <br> ![Feeder gear assembled](../assets/images/head_neo_feedergear-assembled_web.jpg)  
+    - The following picture shows the feeder gear being completely disassembled with the parts arranged at their (approximately) position where they belong. <br> ![Feeder gear disassembled](../assets/images/head_neo_feedergear-disass_web.jpg)  
+    - The following picture shows the disassembled feeder gear, the heatsink fan and the ABL sensor next to each other with the belonging screws placed at the (roughly) belonging position of the components. <br> ![Feeder gear and parts](../assets/images/head_neo_feeder-and-parts_web.jpg) <br> So from right to left this is how it'll look when you disassemble the belonging parts. The two little screws below the heatsink are the ones which hold the heatbreak in place. Mind the three long screws for that heatsink - the two longer ones are used at the left side, the slightly shorter one is used in the bottom right corner.
 
     ??? info "Dimensions Of The Spring"
 
