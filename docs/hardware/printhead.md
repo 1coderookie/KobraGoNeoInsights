@@ -562,7 +562,7 @@ The following pictures show each hotend being disassembled. You can clearly see 
      
 ---  
 
-### Heatbreak
+## Heatbreak
 
 The stock heatbreaks aren't the worst out there, but they aren't the best either. So you might reach the point that you want to upgrade to one from the aftermarket.  
 
@@ -572,7 +572,7 @@ The stock heatbreaks aren't the worst out there, but they aren't the best either
 
 ---
 
-#### Go
+### Go
 
 The heatbreak of the **Go** is plugged into the heatsink and secured by two screws.  
 It has a M6 thread to fit the V5 type heater block.  
@@ -590,7 +590,7 @@ As nobody reached out to me yet, I can't show or suggest any solutions of altern
 
 ---
 
-#### Neo
+### Neo
 
 The heatbreak of the **Neo** is plugged into the heatsink of the direct drive and secured by two screws.  
 To fit the V5 type heater block, it has an M6 thread.  
@@ -602,7 +602,7 @@ As this isn't a bi-metal/full metal heatbreak, there is a little PTFE-tube insid
 
 ---
 
-##### MOD: Different Heatbreak
+#### MOD: Different Heatbreak
 
 The following picture shows two heatbreaks next to the stock one from third party manufacturers which I use in my **Neo**.  
 The steel one is about 27mm long, the copper bi-metal one is about 27.5mm long (overall). Due to the slightly bigger length than the stock one, the position of the nozzle is a bit further down though, so I had to adjust the position of the printed part cooling fan ducts I'm using. So if you want to avoid that, pay attention to the length of the heatbreak when looking out for a different one!  
@@ -621,7 +621,7 @@ The steel one is about 27mm long, the copper bi-metal one is about 27.5mm long (
 
 ---
   
-### Heater Block
+## Heater Block
 Both printers use an E3D **V5** type heater block.  
 Both the thermistor and the cartidge heater have to be plugged into the specific holes and should be fixed with at tiny grub screw (HEX 1.5).  
   
@@ -629,7 +629,7 @@ Both the thermistor and the cartidge heater have to be plugged into the specific
 
 ---
 
-#### MOD: Different Heater Block
+### MOD: Different Heater Block
 
 !!! warning "Execute A PID Tuning"
 
@@ -652,7 +652,7 @@ Last but not least check the height of these units and compare it to the V5 heat
     
 ---   
   
-### Silicone Sock
+## Silicone Sock
 The silicone sock that comes with the hotend insulates the heater block. Therefore it should stay in place and shouldn't come off, as it *might* cause the "thermal runaway" error.  
   
 The following pictures shows a V5 heater block compatible silicone sock from the aftermarket on the left side and the stock sock on the right side.     
@@ -670,7 +670,7 @@ Additionaly, the ones from the aftermarket also cover and therefore insulate the
   
 ---  
   
-### Thermistor 
+## Thermistor 
 The thermistor which is used is a capsuled NTC 100k. Based on the setting of the firmware it's an ATC Semitec 104GT-2/104NT-4-R025H42G (4.7k pullup).  
 The diameter is 3mm, the length should be minimum 6mm as that is the depth of the hole in the heater block and the length of the wire is about 150cm.   
 
@@ -702,7 +702,7 @@ The following picture shows the connector being used, it's a regular two pin JST
 
 ---
 
-#### Checking And Replacing The Thermistor 
+### Checking And Replacing The Thermistor 
 
 If problems occur with the electric circuit or the thermistor, you can check each of them for localizing the cause of the error.  
 You'll need a [multimeter](../tools.md#multimeter) for doing so.  
@@ -770,7 +770,7 @@ Note the dent from the screw and the deformed thermistor due to an overtightened
 
 ---
 
-### Cartridge Heater
+## Cartridge Heater
 
 The cartidge heater which is used is a **24V 40W** element.  
 The diameter is 6mm, the length of the original part is about 18mm, the length of the wire is about 150cm.  
@@ -810,7 +810,7 @@ The following picture shows the specific plug which is necessary to fit into the
     
 ---
 
-#### Checking And Replacing The Cartridge Heater 
+### Checking And Replacing The Cartridge Heater 
 
 If problems occur with the electric circuit or the thermistor, you can check each of them for localizing the cause of the error.  
 You'll need a [multimeter](../tools.md#multimeter) for doing so.  
@@ -878,7 +878,7 @@ Note the dent from the screw and the deformed thermistor due to an overtightened
   
 ---  
   
-### Nozzle
+## Nozzle
 Anycubic ships the printheads with a 0.4mm **E3D V6 type** brass nozzle for 1.75mm filament.  
   
 ![E3D nozzle](../assets/images/head_nozzle-e3d_web.jpg)  
@@ -922,7 +922,7 @@ I highly recommend to only use high quality nozzles, like the [**original E3D V6
   
 ---  
   
-#### Cleaning The Nozzle
+### Cleaning The Nozzle
 If you need to clean the nozzle during the printing procedure to take off excessive amount of melted filament or if the nozzle is clogged, mind the warnings from above and check out the following steps in the expandable block below.  
   
 However, keep in mind that nozzles are consumables though, they won't last forever. So get yourself some good quality nozzles right away so that you can easily replace a nozzle which is too clogged or where the tip may already be harmed.  
@@ -947,7 +947,7 @@ A harmed tip or worn out nozzle may also cause artefacts like stringing for exam
   
 ---  
        
-#### Changing The Nozzle
+### Changing The Nozzle
 If you need to change the nozzle, mind the warnings from above and check out the following steps in the expandable block below.
      
 !!! warning  
@@ -971,13 +971,13 @@ If you need to change the nozzle, mind the warnings from above and check out the
              
 ---
 
-### Part Cooling Fan  
+## Part Cooling Fan  
 
 The part cooling fans of the **Go** and the **Neo** are different.  
 
 ---
 
-#### Go
+### Go
 
 The **Go** uses a 24V, 0.08A, 40x40x10mm fan, model "Coolcox BF4010H24S".  
 
@@ -985,14 +985,14 @@ The **Go** uses a 24V, 0.08A, 40x40x10mm fan, model "Coolcox BF4010H24S".
 
 ---
 
-#### Neo
+### Neo
 The **Neo** uses a 24V, 0.08A, 45x45x10 fan, model "Coolcox BF4510H24S".  
 
 ![Neo: Coolcox BF4510H24S](../assets/images/head_neo_fan-parts_web.jpg)
 
 ---
 
-### Fan Duct
+## Fan Duct
 
 As the stock fan ducts aren't very good in doing their job of part cooling, it's highly recommended to print a better one. This can be done as soon as you can print - you don't need to look out for perfect quality at this point yet. If you're only printing PLA right now, also that is ok for using it for the first enhanced fan duct.  
 Due to the way better part cooling then, it'll massively improve the quality of the printed parts as well as puts you into position to successfully print stronger materials like PETG.  
@@ -1001,7 +1001,7 @@ Due to the way better part cooling then, it'll massively improve the quality of 
 
 ---  
   
-#### Go  
+### Go  
 
 ***I highly recommend to print one of the fan ducts which replace the stock fan duct. It's a huge improvement!***  
 It's advisable to (at least) print them from PETG if you're able to do that. If not, printing them from PLA is better than not printing them at all of course. It might happen though that a fan duct printed from PLA will sooner or later sag or deform due to the heat it's being exposed to. This shouldn't be much of an issue as long as you're printing PLA with e.g. a bed temperature of 60°, but if you're about to print PETG for axample, using a bed temperature of 80° (plus a higher hotend temperature), the fan duct will most like start to deform and sag.
@@ -1012,7 +1012,7 @@ It's advisable to (at least) print them from PETG if you're able to do that. If 
   
 ---  
     
-#### Neo  
+### Neo  
 
 ***I highly recommend to print one of the fan ducts which replace the stock fan duct. It's a huge improvement!***  
 It's advisable to (at least) print them from PETG if you're able to do that. If not, printing them from PLA is better than not printing them at all of course. It might happen though that a fan duct printed from PLA will sooner or later sag or deform due to the heat it's being exposed to. This shouldn't be much of an issue as long as you're printing PLA with e.g. a bed temperature of 60°, but if you're about to print PETG for axample, using a bed temperature of 80° (plus a higher hotend temperature), the fan duct will most like start to deform and sag.  
@@ -1025,7 +1025,7 @@ It's advisable to (at least) print them from PETG if you're able to do that. If 
 
 ---
 
-### Heatsink Cooling Fan  
+## Heatsink Cooling Fan  
 Both printers use the same type of heatsink/coldend cooling fan: 24V, 0.03A, 40x40x10mm, model "Coolcox CC4010L24S".  
 
 ![Coolcox CC4010L24S](../assets/images/head_neo_fan-heatsink_web.jpg)
