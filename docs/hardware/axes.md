@@ -378,7 +378,7 @@ The following mods show possibilities of adding a second lead screw and therefor
 ---
 
 #### Driven By Two Z-Steppers
-Reddit member [DrumsticknDrumstick](https://www.reddit.com/user/DrumsticknDrumstick/) upgraded the z-axis of his **Neo** to a dual drive, the solution fits both the **Go** and the **Neo**: [Kobra neo/go dual Z mod](https://www.reddit.com/r/anycubic/comments/1083sr2/kobra_neogo_dual_z_mod/)  
+Reddit member [DrumsticknDrumstick](https://www.reddit.com/user/DrumsticknDrumstick/) upgraded the z-axis of his **Neo** to a dual drive, the solution fits both the **Go** and the **Neo**. Check out his [reddit post: "Kobra neo/go dual Z mod"](https://www.reddit.com/r/anycubic/comments/1083sr2/kobra_neogo_dual_z_mod/) and the [files plus discussion at printables.com](https://www.printables.com/de/model/364889-anycubic-kobra-neogo-dual-z-mod).  
 
 Due to the pretty much same construction of the frame, you should also be able to use mod kits that fit the Creality Ender 3 for example, but here a user mentioned that the lead screw appears to not be the same like at the **Go** or the **Neo**. I can't judge this as I didn't get myself such a kit and didn't compare them.  
 
