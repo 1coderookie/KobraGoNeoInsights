@@ -321,7 +321,9 @@ As the stock extruder/feeder system is mounted onto the extruder motor directly,
 
 #### MOD: Direct Drive
 
-- Reddit member [xpeng121](https://www.reddit.com/user/xpeng121/) posted his modification for the Kobra **Go** to a ***direct drive extruder*** using the stock parts: [Kobra Go direct drive mod. Yes it's Neo now...](https://www.reddit.com/r/anycubic/comments/10howol/kobra_go_direct_drive_mod_yes_its_neo_now/)  
+- Reddit member [xpeng121](https://www.reddit.com/user/xpeng121/) posted his mod for the Kobra **Go** to a ***direct drive extruder*** using the stock parts: [Kobra Go direct drive mod. Yes it's Neo now...](https://www.reddit.com/r/anycubic/comments/10howol/kobra_go_direct_drive_mod_yes_its_neo_now/)
+- The belonging bracket designed by user [Clay_47](https://www.printables.com/de/@Clay_47_396870) can be found here: [DIRECT Extruder Anycubic Kobra Go](https://www.printables.com/de/model/366079-anycubic-kobra-go)
+- Note: imho consider using a smaller pancake stepper to reduce the weight and print the bracket from PETG for a better heat resistance in case the motor gets too warm for PLA.  
 
 - User [Justad](https://www.thingiverse.com/Justad) made a [mount for a Bondtech BMG BMG-M](https://www.thingiverse.com/thing:5954007).
 
