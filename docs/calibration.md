@@ -199,8 +199,8 @@ However, there is a rule of thumb though one should be aware of: if you're using
   
 For finding out the correct retraction distance setting, you can print retraction distance towers, where different retraction distance values are applied at certain heights (kinda the same like when printing temperature towers). Before doing so, you should have figured out the correct printing temperature though. I'd suppose to start with the following settings as *maximum* retraction distance values:  
 
-- **Go** as a bowden drive system: max. 6mm retraction distance
-- **Neo** as a direct drive system: max. 1mm retraction distance  
+- **Go** as a bowden drive system: 6mm retraction distance
+- **Neo** as a direct drive system: 1mm retraction distance  
     
 ---
 
