@@ -65,6 +65,11 @@ If you don't have the space for it or want to keep the spool being attached at t
     | ![Empty Y](../assets/images/Empty_Y.png) |
 
 ---
+
+## Filament Dryer
+(will come soon)
+
+---
     
 ## Filament Storage  
 
@@ -86,7 +91,7 @@ You could also drill a hole in the container to feed the filament right out of t
 ---
 
 ## Printer Enclosure
-
+(will come soon)
 
 ---
   
