@@ -25,7 +25,7 @@ The [Huada HC32F460 MCU](https://github.com/Klipper3d/klipper/commit/72b6bd7efa1
   
 ## Requirements
 If you want to use Klipper with your printer, you'll need additional hardware for having a host running Moonraker and Mainsail/Fluidd/Octoprint on, which then gets connected to the printer (which has to be flashed with the Klipper firmware of course). This doesn't has to be a RaspberryPi, pretty much every device you could run Linux on is suitable. Just use the [KIAUH](https://github.com/th33xitus/kiauh) script for an easy installation of the belonging software like Moonraker and e.g. Mainsail.   
-Please see the chapter ["Printserver"](../printserver.md) for some hardware I listed which you could use for that.  
+**Please see the chapter ["Printserver"](../printserver.md) for some hardware I listed which you could use for that.**  
 
 I'd like to mention that you don't necessarily need a host with a (touch) screen though, as the host is connected to your network and you'll access the UI of e.g. Mainsail through your browser (or by using an additional app on your smartphone or tablet, there are many ways to get in touch with your printer actually).  
 So just to make it clear: let's assume you have an old laptop laying around with maybe a broken screen, or you only have a limited amount of space and no place to put your old laptop with a working screen - you could use both ones just fine. Just connect the device to a power outlet, to your network and to your printer, put it somewhere on a shelf or wherever it suits you and you're good.    
@@ -161,6 +161,8 @@ BED_MESH_PROFILE LOAD=default
 If you chose individual names for different bed meshs (e.g. "mesh1"), you need to name the specific one you want to be loaded then in the abovementioned command (e.g. `BED_MESH_PROFILE LOAD=mesh1`).  
 If you saved the mesh using the "default" name like it's being suggested by the UI, enter the name "default" as shown above.    
 
+You can create different bedmeshs for e.g. different bed temperatures by using different names and load them automagically using e.g. the belonging name of the filament type being set in the Slicer. Means, you set the filament type in your Slicer and add a certain entry in the start g-code section of the Slicer, so that the filament type will be written into the generated g-code file. In addition to that you then write a macro for Klipper which then loads the belonging bedmesh for the type of filament being used, like the bedmesh you did at 60°C bed temperature for printing PLA or the one you did at 80°C for printing PETG.    
+
 You can configure the ABL procedure within your `printer.cfg` as well so that it fits your needs.  
 Means, you can change the amount and location of probing points, the probing speed and the amount of probes for each probing point. You can also choose between different probe algorithms. 
 
@@ -177,7 +179,11 @@ algorithm: lagrange
 ```  
 Please see the [configuration reference for the bed mesh](https://www.klipper3d.org/Config_Reference.html#bed_mesh) for more detailed information.  
 
-There's even an [approach which probes the specific area you're going to print on](https://gist.github.com/ChipCE/95fdbd3c2f3a064397f9610f915f7d02) before starting the print. 
+There are also solutions to do a bedmesh before every print which probe the specific area you're going to print on. So instead of probing the whole bedplate, only the belonging area will be probed:   
+
+- [Klipper Adaptive Meshing & Purging](https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging) 
+- [Klipper mesh on print area only install guide](https://gist.github.com/ChipCE/95fdbd3c2f3a064397f9610f915f7d02)
+
   
 Besides that, you can also use manual bed leveling in addition to the ABL, see the belonging description in the official Klipper documentation [here](https://www.klipper3d.org/Manual_Level.html).  
 This is especially useful for people who replaced the stock spacers of the bed with [adjustable spacers](../hardware/bed/#different-spacers) for being able to tram the bed itself as well.  
