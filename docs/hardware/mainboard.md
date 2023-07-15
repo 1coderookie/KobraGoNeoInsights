@@ -58,5 +58,15 @@ The following picture shows the fan of the mainboard. It's a "Coolcox CC7015M24S
 ---
   
 ## MOD: Other Boards 
-It's possible to replace the stock mainboard with a different type of board, like one from BigTreeTech (SKR) or whatever. You just have to pay attention that it provides 24V DC as well. Depending on the type of the board, you might have to use a different ABL sensor and (most likely) a different type of control unit as well though.  
-However, as nobody reached out to me yet with a description of different boards being used, I can't give you any further information at this point.  
+It's possible to replace the stock mainboard with a different type of board, like e.g. a board from BigTreeTech (BTT). You just have to pay attention that it uses and provides 24V DC as well, as the PSU and the components like the fans etc. are running on 24V. Depending on the type of the board, you might have to use a different ABL sensor (and most likely a different type of control unit as well though, but I assume you'll run Klipper on it then anyway).  
+
+---
+
+### BTT SKR Pico
+Reddit user [sutabi](https://www.reddit.com/user/sutabi/) uses a BTT SKR Pico in his **Go**. You can find his post about it here: [Anycubic Kobra Go - BTT SKR Pico](https://www.reddit.com/r/anycubic/comments/13xozgu/anycubic_kobra_go_btt_skr_pico/).  
+He also offers his `printer.cfg` for the Pico in my [Klipper4KobraGoNeo repository](https://github.com/1coderookie/Klipper4KobraGoNeo) - many thanks for that!  
+
+---
+
+### BTT Manta M4P + CB1
+Reddit user [Jurai_Probs](https://www.reddit.com/user/Jurai_Props/) uses a BTT Manta MP4 + CB1 in his **Go**. You can find his post about it here: [Kobra Go Klipper](https://www.reddit.com/r/anycubic/comments/14zf6m6/kobra_go_klipper/).  
