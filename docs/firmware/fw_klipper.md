@@ -43,7 +43,7 @@ Referring to the beforementioned post of xpeng121, you need to
 during the setup process for creating the `klipper.bin` file.  
 For further information about the installation steps please read the chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official Klipper documentation.  
 
-??? tip "Compiled `klipper.bin` Available"
+!!! warning "Compiled `klipper.bin` Available"
 
     I set up a repository where you can download the compiled `klipper.bin` (aka `firmware.bin`): [Klipper4KobraGoNeo](https://github.com/1coderookie/Klipper4KobraGoNeo)  
     Thanks to @[cringegnere](https://github.com/cringegnere) for making the file available!  
@@ -73,10 +73,12 @@ Now you should be able to connect OctoPrint/Mainsail/.. with the printer. If an 
 ## Configuration  
 Besides the `firmware.bin` of Klipper (aka `klipper.bin`) you also need a file named `printer.cfg` which contains the specific settings for your model. Please refer to the official Klipper documentation about [configuring Klipper](https://www.klipper3d.org/Installation.html#configuring-klipper).  
 
-You can find preconfigured `printer.cfg` files for both the **Go** and the **Neo** in the belonging repository I set up for this: [Klipper4KobraGoNeo](https://github.com/1coderookie/Klipper4KobraGoNeo).  
-For the **Go** you also find a preconfigured file named [`printer-anycubic-kobra-go-2022.cfg`](https://github.com/Klipper3d/klipper/blob/master/config/printer-anycubic-kobra-go-2022.cfg) within the official Klipper repository.  
+!!! warning "Preconfigured printer.cfg Files Available"
+
+    You can find preconfigured `printer.cfg` files for both the **Go** and the **Neo** in the belonging repository I set up for this: [Klipper4KobraGoNeo](https://github.com/1coderookie/Klipper4KobraGoNeo).  
+    For the **Go** you also find a preconfigured file named [`printer-anycubic-kobra-go-2022.cfg`](https://github.com/Klipper3d/klipper/blob/master/config/printer-anycubic-kobra-go-2022.cfg) within the official Klipper repository.  
   
-Before you can start with the beforementioned tests to see if anything works correctly, you should check and adjust the settings in the file `printer.cfg` if necessary. *Don't start to print right away!*    
+    Before you can start with the beforementioned tests to see if anything works correctly, you should check and adjust the settings in the file `printer.cfg` if necessary. *Don't start to print right away!*    
   
 I won't mention and explain all the settings here as you can just use the official documentation of Klipper to see what each setting means.   
 
