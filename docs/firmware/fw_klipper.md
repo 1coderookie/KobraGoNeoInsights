@@ -181,7 +181,7 @@ algorithm: lagrange
 ```  
 Please see the [configuration reference for the bed mesh](https://www.klipper3d.org/Config_Reference.html#bed_mesh) for more detailed information.  
 
-When you did everything correct, you can observe the ABL compensation working, as you can see in the following screencast of the Mainsail UI.  
+When you did everything correct, you can observe the ABL compensation working, as you can see in the following screencast of the Mainsail UI. Look at the changing value in those square brackets of the Z axis, right above the "Z 4.480" value.  
 ![Working ABL](../assets/images/abl-working-klipper.gif)  
 
 
