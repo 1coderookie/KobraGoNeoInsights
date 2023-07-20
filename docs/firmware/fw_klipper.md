@@ -181,6 +181,10 @@ algorithm: lagrange
 ```  
 Please see the [configuration reference for the bed mesh](https://www.klipper3d.org/Config_Reference.html#bed_mesh) for more detailed information.  
 
+When you did everything correct, you can observe the ABL compensation working, as you can see in the following screencast of the Mainsail UI.  
+![Working ABL](../assets/images/abl-working-klipper.gif)  
+
+
 There are also solutions to do a bedmesh before every print which probe the specific area you're going to print on. So instead of probing the whole bedplate, only the belonging area will be probed:   
 
 - [Klipper Adaptive Meshing & Purging](https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging) 
@@ -191,7 +195,8 @@ Besides that, you can also use manual bed leveling in addition to the ABL, see t
 This is especially useful for people who replaced the stock spacers of the bed with [adjustable spacers](../hardware/bed/#different-spacers) for being able to tram the bed itself as well.  
 
 I'd suppose to also read the description of the function ["screws_tilt_adjust" with the command "SCREWS_TILT_CALCULATE"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe), which tells you exactly how much and in which direction you have to turn each screw to tram the bed (after configuring it for your printer) by using the probe.  
-  
+
+
   
 ### Pressure Advance
 By using Klipper you can take advantage of using a feature called "Pressure Advance".    
