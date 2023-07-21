@@ -93,9 +93,10 @@ You also should level the ABL sensor in relation to the nozzle, so that you have
 See the belonging section for your specific model in the section ["ABL Sensor"](hardware/printhead.md#abl-sensor) for further information and instructions about how to do so.  
 
 #### Activate The ABL Function
-To make the measured values of the ABL come into account later when it comes down to printing, you'll need to add a certain g-code command to the start g-code section of your slicer. So enter the settings in your slicer and search the place where this section is located.  
-Then add the command `M420 S1` in a new line *after* the last `G28` command (which is the homing command) being in there.  
-This will load the specific mesh values from the printer's EEPROM and activate the function of the ABL, so that minor height variations of the bed's surface will be compensated while printing.  
+The ABL function should already be active, even though you might came across the fact that it's often said that you have to add the `M420 S1` after the last `G28` command in the start g-code of your slicer to activate it and have the bedmesh loaded. In the firmware there's the setting `#define ENABLE_LEVELING_AFTER_G28`, which activates the ABL after G28 (homing) was called. This will load the specific mesh values from the printer's EEPROM and activate the function of the ABL, so that minor height variations of the bed's surface will be compensated while printing. So there should be no need to add the `M420 S1` command. As a matter of fact, adding it might even cause irregularities.  
+
+However, it seems that sometimes it *is* necessary to add that command to the start g-code though. In that case you can try if it really makes a change if you add it, or if it might even cause problems (like a wrong compensation). In that case enter your slicer's configuration settings, search for the start g-code section and add the command `M420 S1` in a new line right after the last `G28` command (which is the homing command) being in there.  
+
 
 ---
 
@@ -125,11 +126,11 @@ The z-offset is the distance between the nozzle and the bed/plate you're printin
 If the nozzle is too far up above the plate, you'll experience that the print doesn't stay onto the bed or (if it's way too far up) that it'll just produce 'spaghetti' while printing up in the air.  
 If it's too close to the plate and therefore the filament will be squished into the plate too much, then it'll either be difficult to remove the object or (if the nozzle is way too close) it'll provoke clogging as the filament won't be able to come out of the nozzle. Worst case would be that the nozzle scrapes across the plate and that you damage the hardware itself.  
   
-To determine the perfect first layer, I'd recommend to have a look at [this handy guide](https://i.imgur.com/hIcGr8U.png) from [Billie Ruben](https://www.billieruben.info/) first to get an impression how you can judge if the first layer (and therefore the z-offset) is good or not and how it should look like.  
+*To determine the perfect first layer, I'd recommend to have a look at [this handy guide](https://i.imgur.com/hIcGr8U.png) from [Billie Ruben](https://www.billieruben.info/) first to get an impression how you can judge if the first layer (and therefore the z-offset) is good or not and how it should look like.*  
     
 !!! warning "Proceed An ABL Sequence Before, Not After Setting The Z-Offset"  
 
-    Before adjusting the z-offset, I recommend to execute an ABL sequence first - with an already [leveled ABL sensor](hardware/printhead.md) in relation to the nozzle height as well as an already [trammed x-axis gantry](hardware/axes.md#x-axis-gantry) (and 'trammed' bed as well).  
+    Before adjusting the z-offset, I recommend to execute an ABL sequence first - with an already [leveled ABL sensor](hardware/printhead.md#abl-sensor) as well as an already [trammed x-axis gantry](hardware/axes.md#tramming-the-x-axis-gantry) and [trammed bed](hardware/bed.md#tramming-the-bed).  
     If you execute an ABL *after* you dialed in your z-offset, then you'll have to set the z-offset *again* as it seems that the ABL procedure somehow 'resets' the setting.  
     
 When it comes down to describe the actual process of how to determine and set the z-offset correctly, I have to mention that right now the following step-by-step instruction here about how to proceed is written from my memory how I did it when using the stock firmware. I'm using Klipper now and probably don't remember 100% how I proceeded when using the stock firmware, so please keep that in mind.   
@@ -144,6 +145,15 @@ However, from what I do remember right now you (roughly) do it this way:
 
 Then start a print job and verify that the first layer came out perfect. Compare the look of it with the abovementioned poster from Billie Ruben to check if it really is perfect or if you need a bit of adjustment.  
 If you need to adjust the height, you don't need to execute an ABL sequence again, just correct the z-offset setting. You can also adjust it 'on the fly' while printing a (larger) first layer and look at the outcome - this is often even better as you'll see the effect right away.    
+
+??? info "Don't Rely On The "Paper Method""
+
+    Using the abovementioned feeler gauge or a sheet of paper (which people usually recommend - using a feeler gauge is more precise though) for dialing in your z-offset is only an *approach* to get in the right area of your z-offset. The *optimal* z-offset for printing a perfect first layer depends on various factors like e.g. layer height and type of filament being used. So *always* check the first layer while printing it and dial in your z-offset on the fly while printing it.   
+
+??? info "Print A Skirt"  
+
+    I personally recommend adding a skirt to the models you're printing. You activate that setting in your slicer, there you can also determine the width of the skirt and the distance to the model. When printing a skirt you print a few lines outside the area the model will be printed. This serves as a purge line (I personally don't use a purge line because I use a skirt) and you can check if the z-offset is set correctly. If not, you can adjust in on the fly.  
+    You could also add a brim in addition to a skirt or even instead of a skirt - a brim is connected to the model though (which helps keeping the model stuck on the bed) which isn't always wanted.   
   
 ---
 
