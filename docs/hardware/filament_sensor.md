@@ -2,7 +2,17 @@
 
 # Filament Sensor
 
+| Specifications |
+|:---------------|
+| Switch: NO (normally open) |
+| Voltage: 24VDC |
+| Connector: JST-XH 2.54 (male, 2 pins) |  
+
+
 The filament runout / break detection sensor available from Anycubic is optional, it doesn't come with the printer right away.  
+
+The sensor is basically a switch inside a housing, which will be triggered and closes the contact when filament is fed through.  
+The switch is NO (normally open) and the connector for plugging it into the mainboard's connector is a JST-XH2.54 (male, 2 pins).  
 
 It is pretty much plug&play as it comes with the specific wires and plugs.   
 
@@ -16,8 +26,14 @@ After stripping in the wires and lead them down to the mainboard, you then have 
 
 See the chapter ["Mainboard"](mainboard.md#trigorilla-v_306-stock) for a picture of the whole mainboard for getting a better overview where the connector is located.  
 
-After you connected and mounted the sensor, you lead the filament through it. If the filament runs out because it broke or the spool is empty, the printer will pause. 
+After you connected and mounted the sensor, you lead the filament through it which then closes the switch and the electrical circuit. If the filament runs out because it broke or the spool is empty, the switch will open and the printer will pause.  
 
+Anycubic has a more detailed installation instruction on their blog available:  
+
+- [Installation at the **Go**](https://www.anycubic.com/blogs/3d-printing-guides/how-to-install-filament-runout-sensor-for-anycubic-kobra-go)  
+- [Installation at the **Neo**](https://www.anycubic.com/blogs/3d-printing-guides/filament-sensor-upgrade-for-anycubic-kobra-neo)  
+
+  
 ??? info "Red Glue Across All Connectors"
 
     When you look at the mainboard, you'll see some red glue spread across all connectors. That's just for securing the connnection. You can get that stuff off by carefully pulling it off. It works better if you warm up that stuff *a little bit* for making it more flexible, a hair dryer is good for that. It then becomes a bit softer and easier to be pulled off. Don't heat it up too much though as it'll become too soft then!  
