@@ -22,6 +22,8 @@ The [Huada HC32F460 MCU](https://github.com/Klipper3d/klipper/commit/72b6bd7efa1
 ??? info "Discussion Thread About Klipper"
 
     I opened a [discussion thread about Klipper](https://github.com/1coderookie/KobraGoNeoInsights/discussions/6) just in case any further questions arise or in case you want to comment on certain things without doing so by sending me an email. Keep in mind though that I'm not an expert at all, so if you do have specific questions about Klipper, please refer to the [official documentation of Klipper](https://www.klipper3d.org/Overview.html), the [Klipper discourse group](https://klipper.discourse.group/) and/or ask in a special forum like e.g. the [Klipper subreddit](https://www.reddit.com/r/klippers/).  
+
+---
   
 ## Requirements
 If you want to use Klipper with your printer, you'll need additional hardware for having a host running Moonraker and Mainsail/Fluidd/Octoprint on, which then gets connected to the printer (which has to be flashed with the Klipper firmware of course). This doesn't has to be a RaspberryPi, pretty much every device you could run Linux on is suitable. Just use the [KIAUH](https://github.com/th33xitus/kiauh) script for an easy installation of the belonging software like Moonraker and e.g. Mainsail.   
@@ -30,23 +32,26 @@ If you want to use Klipper with your printer, you'll need additional hardware fo
 I'd like to mention that you don't necessarily need a host with a (touch) screen though, as the host is connected to your network and you'll access the UI of e.g. Mainsail through your browser (or by using an additional app on your smartphone or tablet, there are many ways to get in touch with your printer actually).  
 So just to make it clear: let's assume you have an old laptop laying around with maybe a broken screen, or you only have a limited amount of space and no place to put your old laptop with a working screen - you could use both ones just fine. Just connect the device to a power outlet, to your network and to your printer, put it somewhere on a shelf or wherever it suits you and you're good.    
 However, there are options to e.g. add a touchscreen to your host or use an old android device with e.g [Klipper Screen](https://klipperscreen.readthedocs.io/en/latest/) running and place it close to your printer, so that you have a control unit at the printer itself as well. But that absolutely isn't mandatory.  
+
+---
   
 ## Installation
 *Credits to reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) who initially posted how to get Klipper running on the **Go** and the **Neo**: [Install Klipper on Kobra Go or Neo](https://www.reddit.com/r/anycubic/comments/10cwm16/install_klipper_on_kobra_go_or_neo/).*  
   
-Basically you need to clone the Klipper repository and compile the necessary `klipper.bin` file (aka `firmware.bin`) which you flash onto the mainboard then. Please watch out for some dedicated tutorials about this procedure, as I don't offer a step by step guide here (yet) about these basic procedures.  
-Referring to the beforementioned post of [xpeng121](https://www.reddit.com/user/xpeng121/) and the note of [u/Applepie1928](https://www.reddit.com/user/Applepie1928/) about recent changes of this procedure, you need to  
+Basically you need to clone the Klipper repository and compile the necessary `klipper.bin` file (aka `firmware.bin`) which you flash onto the mainboard then. Please watch out for some dedicated tutorials about this procedure, as I don't offer a step by step guide here (yet) about it.  
+For further information about the installation steps please read the chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official Klipper documentation.  
 
-- change the MCU to "HC32F460" and 
-- the communication interface to "Serial (PA3 & PA2)"  
+To build the correct firmware, use the following configuration during the setup process for creating the `klipper.bin` file:  
 
-during the setup process for creating the `klipper.bin` file.  
+- Micro-controller: Huada Semiconductor HC32F460
+- Communication interface: Serial (PA3 & PA2) - Anycubic  
+  
 You also now have two more options to choose from, the clock speed and the app address: 
 
-- The 200MHz option was recently added, see [hc32f460: Revert default clock back to 200MHz](https://github.com/klipper3d/klipper/pull/6291). I mentioned at the mainboard chapter that the speed of the MCU is 200MHz (which I found while searching around for that chip in the past), but that Klipper reports 168MHz instead. So it seems that we may use the 200MHz instead as well now. If the MCU *really* is 200MHz - well, I'm not 100% sure about it, but that's what I found. So I assume it should be safe to choose the 200MHz clock speed here.  
-- About the app address option: also that was recently added, but it's for the Kobra 2, so it's *not* for us (Go/Neo) and therefore nothing should be changed here. See [hc32f460: Add app address 0x10000](https://github.com/klipper3d/klipper/pull/6269).
+- The 200MHz option was added in June 2023, see [hc32f460: Revert default clock back to 200MHz](https://github.com/klipper3d/klipper/pull/6291). I mentioned at the mainboard chapter that the speed of the MCU is 200MHz (which I found while searching around for that chip in the past), but that Klipper reports 168MHz instead. So it seems that we may use the 200MHz instead as well now. If the MCU *really* is 200MHz - well, I'm not 100% sure about it, but that's what I found. So I assume it should be safe to choose the 200MHz clock speed here.  
+- About the app address option: also that was added in June 2023, *but it's for the Kobra 2*, so it's **not** for us (Go/Neo) and therefore nothing should be changed here. See [hc32f460: Add app address 0x10000](https://github.com/klipper3d/klipper/pull/6269).
 
-For further information about the installation steps please read the chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official Klipper documentation.  
+
 
 !!! warning "Compiled `klipper.bin` Available"
 
