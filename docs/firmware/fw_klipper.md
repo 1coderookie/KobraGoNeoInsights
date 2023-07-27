@@ -1,6 +1,6 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
-# Klipper (Mod)  
+# Klipper (MOD)  
   
 Can you run [Klipper](https://www.klipper3d.org/) on the stock mainboard of the **Go** and **Neo**?  
 Oh yes, you can!  
@@ -271,16 +271,16 @@ However, there's a ["Klipper Settings Plugin"](https://github.com/jjgraphix/Klip
 
 ---
  
-### PrusaSlicer and SuperSlicer 
-My personal favourites after using Cura for some time. In both slicers you can set the G-code flavor depending on the firmware of the printer (menu "Printer Settings") as shown in the screenshot of SuperSlicer below, so it's already everything set up correctly within the G-code of the sliced files.  
+### PrusaSlicer, SuperSlicer, OrcaSlicer 
+PrusaSlicer and it derivates like SuperSlicer and OrcaSlicer are my personal favourites after using Cura for some time.  
+You can set the G-code flavor depending on the firmware of the printer (menu "Printer Settings") to "Klipper" as shown in the screenshot of SuperSlicer below, so it's already everything set up correctly within the G-code of the sliced files.  
   
 ![SuperSlicer firmware](../assets/images/klipperfw_superslicer-flavor.png)
   
-Both slicers have many functionalities to finetune and control the output - you can even choose between different patterns for the top layer finish. They're both pretty identical overall, yet they differ in certain functions. One of them being worth mentioned is a *handy set of calibration tools that comes with SuperSlicer*. This function actually guides you step by step through the calibration process and allows you to generate calibration models like temperature or retraction towers with individual settings by just a few clicks.  
+Of course all slicers have many functionalities to finetune and control the output - you can even choose between different patterns for the top layer finish. They're all pretty identical overall, yet they differ in certain functions. One of them being worth mentioned is a *handy set of calibration tools that comes with SuperSlicer and OrcaSlicer*. This function actually guides you step by step through the calibration process and allows you to generate calibration models like temperature or retraction towers with individual settings by just a few clicks.  
 
 *I personally would suppose to use the "Arachne Edition" of SuperSlicer (already implemented in the recent version of PrusaSlicer) and enable that function (Print Settings -> Perimeters) as it improves the quality of the printed parts.* 
 
-I can't go into all the possibilities of SuperSlicer and PrusaSlicer deeper though as it's just too complex, so just do a research on it. I'd recommend to give both Slicers a try tho if you're using Cura right now. Especially the calibration tools of SuperSlicer really are worth a try.   
 
 ---
 
