@@ -34,18 +34,23 @@ However, there are options to e.g. add a touchscreen to your host or use an old 
 ## Installation
 *Credits to reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) who initially posted how to get Klipper running on the **Go** and the **Neo**: [Install Klipper on Kobra Go or Neo](https://www.reddit.com/r/anycubic/comments/10cwm16/install_klipper_on_kobra_go_or_neo/).*  
   
-Basically you need to clone the Klipper repository and compile the necessary `klipper.bin` file (aka `firmware.bin`) which you flash onto the mainboard then.  
-Referring to the beforementioned post of xpeng121, you need to  
+Basically you need to clone the Klipper repository and compile the necessary `klipper.bin` file (aka `firmware.bin`) which you flash onto the mainboard then. Please watch out for some dedicated tutorials about this procedure, as I don't offer a step by step guide here (yet) about these basic procedures.  
+Referring to the beforementioned post of [xpeng121](https://www.reddit.com/user/xpeng121/) and the note of [u/Applepie1928](https://www.reddit.com/user/Applepie1928/) about recent changes of this procedure, you need to  
 
 - change the MCU to "HC32F460" and 
-- the serial to "Anycubic Kobra"  
+- the communication interface to "Serial (PA3 & PA2)"  
 
 during the setup process for creating the `klipper.bin` file.  
+You also now have two more options to choose from, the clock speed and the app address: 
+
+- The 200MHz option was recently added, see [hc32f460: Revert default clock back to 200MHz](https://github.com/klipper3d/klipper/pull/6291). I mentioned at the mainboard chapter that the speed of the MCU is 200MHz (which I found while searching around for that chip in the past), but that Klipper reports 168MHz instead. So it seems that we may use the 200MHz instead as well now. If the MCU *really* is 200MHz - well, I'm not 100% sure about it, but that's what I found. So I assume it should be safe to choose the 200MHz clock speed here.  
+- About the app address option: also that was recently added, but it's for the Kobra 2, so it's *not* for us (Go/Neo) and therefore nothing should be changed here. See [hc32f460: Add app address 0x10000](https://github.com/klipper3d/klipper/pull/6269).
+
 For further information about the installation steps please read the chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official Klipper documentation.  
 
 !!! warning "Compiled `klipper.bin` Available"
 
-    I set up a repository where you can download the compiled `klipper.bin` (aka `firmware.bin`): [Klipper4KobraGoNeo](https://github.com/1coderookie/Klipper4KobraGoNeo)  
+    I set up a repository where you can download the compiled `klipper.bin` (aka `firmware.bin`): [Klipper4KobraGoNeo](https://github.com/1coderookie/Klipper4KobraGoNeo). As this is still the file from the very first beginning of the time when Klipper became available for the Go/Neo, it's still the one which is using the 168MHz clock speed.    
     Thanks to @[cringegnere](https://github.com/cringegnere) for making the file available!  
     **USE AT YOUR OWN RISK!**
 
