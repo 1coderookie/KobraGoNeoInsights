@@ -48,7 +48,8 @@ To build the correct firmware, use the following configuration during the setup 
   
 You also now have two more options to choose from, the clock speed and the app address: 
 
-- The 200MHz option was added in June 2023, see [hc32f460: Revert default clock back to 200MHz](https://github.com/klipper3d/klipper/pull/6291). I mentioned at the mainboard chapter that the speed of the MCU is 200MHz (which I found while searching around for that chip in the past), but that Klipper reports 168MHz instead. So it seems that we may use the 200MHz instead as well now. If the MCU *really* is 200MHz - well, I'm not 100% sure about it, but that's what I found. So I assume it should be safe to choose the 200MHz clock speed here.  
+- The 200MHz option was added in June 2023, see [hc32f460: Revert default clock back to 200MHz](https://github.com/klipper3d/klipper/pull/6291).  
+  I mentioned at the mainboard chapter that the speed of the MCU is 200MHz (which I found while searching around for that chip in the past), but that Klipper reports 168MHz instead. So it seems that we may use the 200MHz instead as well now. If the MCU *really* is 200MHz - well, I'm not 100% sure about it, but that's what I found. So I assume it should be safe to choose the 200MHz clock speed here.  
 - About the app address option: also that was added in June 2023, *but it's for the Kobra 2*, so it's **not** for us (Go/Neo) and therefore nothing should be changed here. See [hc32f460: Add app address 0x10000](https://github.com/klipper3d/klipper/pull/6269).
 
 
@@ -79,6 +80,8 @@ Now you should be able to connect OctoPrint/Mainsail/.. with the printer. If an 
     - Keep in mind that even though the stock mainboard of the **Go** and the **Neo** is the same, you have to adjust certain settings of the file `printer.cfg` depending on your specific model *before* starting to print or calibrate the printer! So don't try to start printing right away!    
     - Proceed with the [configuration checks](https://www.klipper3d.org/Config_checks.html) before you're trying to print anything!      
     - Make sure to adjust the offsets for both the [z-endstop (command `Z_ENDSTOP_CALIBRATE`)](https://www.klipper3d.org/Manual_Level.html#calibrating-a-z-endstop) and the [probe (command `PROBE_CALIBRATE`)](https://www.klipper3d.org/Probe_Calibrate.html#calibrating-probe-z-offset) as well - those are two independent steps and need to be done prior to printing!  
+
+---
   
 ## Configuration  
 Besides the `firmware.bin` of Klipper (aka `klipper.bin`) you also need a file named `printer.cfg` which contains the specific settings for your model. Please refer to the official Klipper documentation about [configuring Klipper](https://www.klipper3d.org/Installation.html#configuring-klipper).  
@@ -109,10 +112,12 @@ However, there is one thing I'd like to point out right now as it's causing trou
     cycle_time: 0.000050
     ```
     
-    
+---    
     
 ## Special Functions   
 In the following I'll list some of the special functions which make Klipper so interesting and outstanding compared to the stock firmware, besides the fact that you can adjust the firmware settings to your own needs.  
+
+---
   
 ### G-Codes & Macros
 Klipper uses **extended g-codes**. Therefore one has to be aware of the fact that not all of the 'regular' G-code commands are known and useable within Klipper. See the [g-codes chapter](https://www.klipper3d.org/G-Codes.html) of the official Klipper documentation for an overview of the specific commands.  
@@ -130,6 +135,8 @@ As I can't go into further details here, I'd highly recommend to read around abo
 - The article ["Voidtrance Klipper Macros Beginners Guide](https://docs.vorondesign.com/community/howto/voidtrance/Klipper_Macros_Beginners_Guide.html) of the Voron Design community.
 - The ["Macro Creation Tutorial"](https://klipper.discourse.group/t/macro-creation-tutorial/30) at Klipper's discourse group.
 - The [collection of Klipper macros](https://github.com/jschuh/klipper-macros) by [Justin Schuh](https://github.com/jschuh). 
+
+---
  
 ### Include Additional.cfg 
 You can include additional config files from the main printer config file as well by adding this command line to the start of the `printer.cfg` file: `[include additional.cfg]`, where "additional" will be replaced with the specific filename then. In this "additional" config file you can list certain macros you created or you can list certain settings which will be loaded during the startup of Klipper.  
@@ -151,7 +158,7 @@ If you *don't* do this and try to boot Klipper without the Pico being connected,
     
     So whenever you use a printer config file from someone else, check if any `[include whatever.cfg]` lines are existent. If so, either delete those lines, 'deactivate' them by adding a hashtag right before that square bracket like this: `#[include whatever.cfg]` or lookout for / create the belonging config file.  
 
-
+---
   
 ### ABL and Manual Bed Leveling
 Of course Klipper supports both ABL and manual bed leveling as well. Please see the official Klipper documentation for more detailed information about this topic, I'll only mention some notes about it here in the following. So before you continue to read here, maybe check out the official Klipper documentation first and read the chapters ["Bed Level Support"](https://www.klipper3d.org/Config_Reference.html#bed-level-support) and ["Bed Level"](https://www.klipper3d.org/Bed_Level.html).  
@@ -206,7 +213,7 @@ This is especially useful for people who replaced the stock spacers of the bed w
 
 I'd suppose to also read the description of the function ["screws_tilt_adjust" with the command "SCREWS_TILT_CALCULATE"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe), which tells you exactly how much and in which direction you have to turn each screw to tram the bed (after configuring it for your printer) by using the probe.  
 
-
+---
   
 ### Pressure Advance
 By using Klipper you can take advantage of using a feature called "Pressure Advance".    
@@ -216,12 +223,16 @@ This feature (called "Linear Advance" at Marlin firmware) can't be successfully 
 
 Please refer to the official Klipper documentation of [Pressure Advance](https://www.klipper3d.org/Pressure_Advance.html) about how to calibrate and use it.  
 
+---
+
 ### Resonance Compensation: Input Shaping
 By using Klipper you can take advantage of using Resonance Compensation and a feature called "Input Shaping".  
 This function compensates certain resonances (after provoking them while measuring the x and y axis), which avoids artefacts of the printed model called 'ringing' and 'ghosting'. This is especially useful when printing at higher speeds.  
 You can calibrate it manually or by using additional hardware like ADXL345 acceleration sensors (recommended).  
 
 Please refer to the official Klipper documentation of [Resonance Compensation](https://www.klipper3d.org/Resonance_Compensation.html#resonance-compensation) about how to calibrate and use it.
+
+---
   
 ## Stock Control Unit
 The stock control unit of both the **Go** and the **Neo** *don't* work with Klipper. So is that going to be an issue? Actually I thought the same initially and that was the only reason which was holding me back switching to Klipper right away at the beginning. Now that I did switch, I can say that I don't really miss the control unit. 
@@ -239,10 +250,14 @@ However, if you really do miss the option to control the printer right at that p
   I also set it up, printed a holder for it and mounted it where the original control unit was as shown in the picture below. <br> ![KlipperScreen Smartphone](../assets/images/KlipperScreen-smartphone_web.jpg) <br> Actually I unplugged the phone again as I just control the printer via my computer and the mainsail.local page anyway though. It also kinda bothers me that I have to boot up the phone all the time as I don't leave the printer on 24/7, so I'll probably go with the next solution I'll mention.   
 - If you have a Raspberry Pi or other hardware you could connect a touchscreen to (e.g. by using a HMDI port) running for hosting Mainsail, you can add a touchscreen to that and use [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/). It's the same UI like using a smartphone or tablet.   
   This is actually a quite handy solution if you're using a RPi as you can set everything up in a dedicated case. I'll probably do that as well, just for the pure comfort of not having to take care about switching the smartphone on and off as the display is powered by the RPi. I just didn't want to spend money again when trying Klipper initially, that's why I used an old smartphone in first place.    
+
+---
        
 ## Slicers
 Due to the fact that Klipper uses extended G-code and macros, there are a few things to be aware of when using certain slicers like Cura, PrusaSlicer, SuperSlicer etc.  
 In the following I'll just go over them really quick as it would be too much to discuss the slicers in detail. You'll find many resources online though where yuo'll find more information about them.    
+
+---
 
 ### Cura  
 Even though Cura and Klipper work perfectly together, there are a few things to be aware of.  
@@ -253,6 +268,8 @@ Also there are a few functions of Cura which should improve the print quality wh
 You'll find a good overview of what to be aware of in the tutorial from [All3DP: Cura & Klipper: How to Make Them Work Together](https://www.all3dp.com/2/cura-klipper-tutorial).  
  
 However, there's a ["Klipper Settings Plugin"](https://github.com/jjgraphix/KlipperSettingsPlugin) available which adds a category to Cura called "Klipper Settings" and offers Klipper specific settings and features.  
+
+---
  
 ### PrusaSlicer and SuperSlicer 
 My personal favourites after using Cura for some time. In both slicers you can set the G-code flavor depending on the firmware of the printer (menu "Printer Settings") as shown in the screenshot of SuperSlicer below, so it's already everything set up correctly within the G-code of the sliced files.  
@@ -265,13 +282,19 @@ Both slicers have many functionalities to finetune and control the output - you 
 
 I can't go into all the possibilities of SuperSlicer and PrusaSlicer deeper though as it's just too complex, so just do a research on it. I'd recommend to give both Slicers a try tho if you're using Cura right now. Especially the calibration tools of SuperSlicer really are worth a try.   
 
+---
+
 ## OctoPrint, Mainsail or Fluidd?
 To find out what's the best solution for you, either do a little research on that, watch some YouTube videos or just get another mSD card for your RPi, install e.g. MainsailOS onto it and then just give it a try.  
 Due to the fact that I personally use and recommend Mainsail, I'll always refer to it when it comes down to describe or show certain things in this chapter.  
 
+---
+
 ### OctoPrint
 OctoPrint is mentioned and referred to at the Klipper page, so you can use it just fine.  
 You'd need to SSH to the host (e.g. the RPi) to upload edited files like the `printer.cfg` though - if there isn't a plugin for that which allows you to do so within the interface of OctoPrint (I don't know actually).  
+
+---
   
 ### Mainsail
 I personally prefer to use Mainsail with Klipper as it's tailored for the usage of/with Klipper and gives you more tools made for Klipper right away.  
@@ -283,6 +306,8 @@ Just to mention a few here:
 - There's also a G-Code viewer already built in.   
 - You have the possibilty to create custom macros and add scripts for e.g. executing backups and activate them with one click.   
 - And much more..   
+
+---
   
 ### Fluidd
 Fluidd is kinda similar to Mainsail, so it's a great alternative if you don't want to use Mainsail. I personally never had a closer look at it though, so I can't say anything more about it. So maybe just do a bit of a research by your own.  
