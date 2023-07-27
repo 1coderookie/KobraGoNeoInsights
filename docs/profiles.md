@@ -33,8 +33,10 @@ The following list links to the specific profiles from [Anycubic's firmware page
 
 ### Custom Profiles 
 
-Unfortunately, there aren't any profiles for the **Go** being offered by users that I'm aware of.  
-However, there seems to be one tip I'd like to share with you: Ender 3/V2 profiles. Even though this is not a profile provided by a specific user, I want to mention that it seems that people got good results in using the Ender 3/V2 profile of Cura for the **Go**. So if nothing seems to work out, maybe give that a try.  
+The following list links to profiles provided by users which I became aware of:  
+
+- @[natur3kid](https://github.com/natur3kid) offers profile for PrusaSlicer for the Kobra **Go**: [https://github.com/natur3kid/PrusaSlicer_KobraGo](https://github.com/natur3kid/PrusaSlicer_KobraGo) 
+
 
 ---
 
