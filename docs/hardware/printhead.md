@@ -895,8 +895,15 @@ Anycubic ships the printheads with a 0.4mm **E3D V6 type** brass nozzle for 1.75
   
 ![E3D nozzle](../assets/images/head_nozzle-e3d_web.jpg)  
 
-So if you're looking for replacement nozzles, make sure to get yourself the correct type!  
+So if you're looking for replacement nozzles, make sure to get yourself the correct type: it's a E3D **V6** type of nozzle!  
 I highly recommend to only use high quality nozzles, like the [**original E3D V6 nozzles**](https://e3d-online.com/products/v6-nozzles) (see the infobox below as well)!  
+
+!!! warning "MK8 Nozzles DON'T Fit!"
+
+    Because some people in various forums and in Youtube videos obviously claim that it's a MK8 nozzle which is being used, I wanna point this out once again: **MK8 is NOT the correct type of nozzle!**  
+    Even though MK8 nozzles have a M6 thread and therefore fit in the heater block, the thread is too short! The end of the nozzle won't touch the heatbreak as it's supposed to - and this will create severe problems.  
+    So just get yourself the correct type of nozzle, which is an E3D **V6** type!  
+    
     
 !!! warning "Nozzles: Handle With Care!" 
 
