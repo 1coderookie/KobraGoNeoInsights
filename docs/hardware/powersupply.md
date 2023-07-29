@@ -47,7 +47,7 @@ The fan is a 60x60x15mm, 24V, 0.10A (Cheng Liang CHA6024RL-15B) type.
 
 ---
 
-### Add A Fuse (MOD)
+## Add A Fuse (MOD)
 
 It is highly recommended to add a fuse or a fusebox to each of the 24V lines. Pay attention to choose the correct 'size' of the fuse for the belonging part (ampere rating).  
 Doing so can save you from burning down your house if components fail or if the wires somehow overheat and start to burn due to broken strands (which causes a higher resistance) or a shortcut.  
