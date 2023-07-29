@@ -121,7 +121,7 @@ The following picture shows the whole metal plate where the feeder construction 
 
 ## ABL Sensor
 Both printers come with an inductive proximity sensor for automatic bed levelling (ABL).  
-The ABL sensor is the part with that round orange tip, you can see a picture of it in the following sections for the specific printer model.  
+The ABL sensor is the part with that round orange tip, you can see a picture of it in the following sections for the specific printer model. At the **Go** it's located at the left hand side of the hotend, at the **Neo** it's located at the right hand side of the hotend when looking at the printhead from the front.  
 
 The position of the sensor (the height) should be adjusted in relation to the nozzle.  
 Therefore you can either use the ABL height gauge which sometimes comes with the printer or you can use the bigger one of the two-sided open ended wrench that comes in the toolset.  
