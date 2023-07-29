@@ -44,5 +44,34 @@ The following picture shows the PCB of the PSU - the fan isn't plugged in, the b
 The fan is a 60x60x15mm, 24V, 0.10A (Cheng Liang CHA6024RL-15B) type.  
   
 ![PSU fan](../assets/images/psu_fan_web.jpg) 
- 
+
+---
+
+### Add A Fuse (MOD)
+
+It is highly recommended to add a fuse or a fusebox to each of the 24V lines. Pay attention to choose the correct 'size' of the fuse for the belonging part (ampere rating).  
+Doing so can save you from burning down your house if components fail or if the wires somehow overheat and start to burn due to broken strands (which causes a higher resistance) or a shortcut.  
+
+(..need to add pic..)
+
+---
+
+## How To Add A Step-Down Converter For Using 12V Fans (MOD)
+
+When you want to add components which need a different voltage than the 24VDC the PSU offers, you can do so by using a step-down converter (or a step-up converter if you need a higher voltage than 24VDC). Simply connect the IN of the converter to one of the free 24VDC connectors of the PSU, dial in the voltage you need and then connect the belonging part to the OUT of the converter.  
+
+!!! warning "Add A Fuse"
+
+    It is highly recommended to add a suitable fuse to the 24V line, right after the connector of the PSU. If your additional parts like the converter will fail, the fuse will melt - which can save you from burning down your house.  
+
+However, when you want to use e.g. 12V fans which speeds are usually controlled by PWM of the mainboard, you have to connect them differently. The following drawing shows how to proceed in that case, so that the PWM will still work.  
+
+!!! warning 
+
+    The following circuit diagram about how to connect a step-down converter wasn't tested by me yet. It's assumed that the mainboard controls the PWM of the fans by switching the belonging GND of the connector.  
+
+![Step-down converter wiring diagram](../assets/images/stepdown-wiring.png)  
+
+---
+
 
