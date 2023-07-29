@@ -43,7 +43,7 @@ If you want to **contribute** an e.g. modification (aka "mod") you did or an imp
   
 ??? info "Thanks To The Contributers!"
 
-    - Thanks to **Anthony** for disassembling the printhead of the **Go** and the feeder gear system of the **Neo** and taking those pictures!  
+    - *Thanks a lot to **Anthony** for donating a spare part printhead of the **Go** and the **Neo**!*  
     - Thanks to reddit member **[Balambao](https://www.reddit.com/user/Balambao)** for taking a picture of the ceramic heater block!  
     - Thanks to reddit member **[BlackSunBeast](https://www.reddit.com/user/BlackSunBeast)** for taking pictures of the feeder gear of the **Go** and the **Go** itself!  
     - Thanks to reddit member **[Darth_Kram](https://www.reddit.com/user/Darth_Kram)** for disassembling the feeder gear box of the **Go**, taking those pics and measuring the dimensions of those parts!  
