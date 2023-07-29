@@ -120,13 +120,18 @@ The following picture shows the whole metal plate where the feeder construction 
 ---
 
 ## ABL Sensor
-Both printers come with a proximity sensor for automatic bed levelling (ABL) which is (afaik) the same model.  
-The ABL sensor at the **Go** is mounted pretty much straight behind the heater block, where at the **Neo** it's located a few centimeters to the right side next to the heater block.  
-  
-??? tip "Sensor Position"  
+Both printers come with an inductive proximity sensor for automatic bed levelling (ABL).  
+The ABL sensor is the part with that round orange tip, you can see a picture of it in the following sections for the specific printer model.  
 
-    Most of the time users have to adjust the postion of the ABL sensor, even when the printer is brandnew and came straight from the factory. The steps of the procedure are described within the section of the specific model.     
+The position of the sensor (the height) should be adjusted in relation to the nozzle.  
+Therefore you can either use the ABL height gauge which sometimes comes with the printer or you can use the bigger one of the two-sided open ended wrench that comes in the toolset.  
+The following picture shows the height gauge that sometimes comes with the printer - if you don't have it and don't want to use the mentioned wrench, you can download [the gcode file](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic's support page and print it.  
+
+![ABL height gauge](../assets/images/abl-gauge_web.jpg)
+
+The procedure about how to adjust the position will be described for the specific printer model in the following sections as well. 
   
+
 ---  
   
 ### Go
@@ -274,7 +279,7 @@ The *red* circle marks the position of the screw for adjusting the feeder gear (
 
 The following picture shows the dimensions of the gear box and the lever itself, just in case one wants to get a replacement from a different manufacturer (like a metal gear box).  
 
-![Gear box dimesnions](../assets/images/head_Go_gearbox_dimensions_web.jpg)  
+![Gear box dimensions](../assets/images/head_Go_gearbox_dimensions_web.jpg)  
 
 The gear is about 9.2mm outer diameter, approximately 11mm thick and has 31 teeth. There are two set screws for holding it in place when mounted onto the 5mm motor shaft, which therefore is flatted on one side.   
 
@@ -656,10 +661,13 @@ Usually the heater blocks are made of aluminum, but you can also get them made o
 ![V5 plated copper](../assets/images/head_heaterblock-v5-copper_web.jpg)
 
     
-There are also ceramic heater blocks on the market which come with M6 threads - those ones can be used as well.  
-However, as they come with an inbuilt heating element and an inbuilt thermistor, make sure to get yourself the correct type.  
+There are also ceramic heater blocks on the market which come with M6 threads - those ones can be used as well. The following picture shows one of these already being mounted.  
+
+![Ceramic block](../assets/images/head_neo_ceramic-heaterblock_web.jpeg)
+
+However, as they come with an inbuilt heating element and an inbuilt thermistor, make sure to get yourself the correct type regarding the specs.  
 Also pay attention to the length of the wires of these units and the connectors they're coming with - it might be necessary to do a bit of a tinkering to get these ones installed.  
-Last but not least check the height of these units and compare it to the V5 heater block setup - it might be necessary to adjust the position of your fan duct.   
+Last but not least check the height of these units and compare it to the V5 heater block setup - most likely it will be necessary to adjust the position of your fan duct and the settings as well.   
  
     
 ---   
