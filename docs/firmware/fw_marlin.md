@@ -870,3 +870,8 @@ There are a few compiled versions and also mods of the original firmwares availa
 - @[sjorge](https://github.com/sjorge) offers a [modified Kobra **Neo** firmware](https://github.com/sjorge/Kobra_Neo_Fw)  
 - @[TheUnlimited64](https://github.com/TheUnlimited64) offers a [modified Kobra **Neo** firmware with activated *Linear Advance*](https://github.com/TheUnlimited64/Kobra_Neo_Firmware).  
   *Attention: It has to be mentioned though that Linear Advance doesn't seem to work reliably as the extruder stops extruding randomly, so it's not safe to use! If you want to take advantage of this kind of feature, I'd suggest to use [Klipper](firmware/fw_klipper.md) which offers Pressure Advance (and resonance compensation aka "Input Shaper" as well).* 
+
+
+---
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate some treats for my cats', '#e08d28', 'U6U5NPB51');kofiwidget2.draw();</script> 
