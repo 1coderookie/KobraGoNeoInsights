@@ -70,3 +70,8 @@ He also offers his `printer.cfg` for the Pico in my [Klipper4KobraGoNeo reposito
 
 ### BTT Manta M4P + CB1
 Reddit user [Jurai_Probs](https://www.reddit.com/user/Jurai_Props/) uses a BTT Manta MP4 + CB1 in his **Go**. You can find his post about it here: [Kobra Go Klipper](https://www.reddit.com/r/anycubic/comments/14zf6m6/kobra_go_klipper/).  
+
+
+---
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate some treats for my cats', '#e08d28', 'U6U5NPB51');kofiwidget2.draw();</script> 
