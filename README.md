@@ -1,9 +1,16 @@
 ***If you like this work, please consider starring it.***  
 
+
+#### You could also donate some treats for my cats if you like to support my work! ;)  
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
+
 ---  
 
 ## Please visit the GitHub pages:  
 # [KobraGoNeo Insights](https://1coderookie.github.io/KobraGoNeoInsights/)
+
+---
+
 
 <!---
 
