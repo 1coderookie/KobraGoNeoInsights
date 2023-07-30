@@ -21,4 +21,8 @@ Not only will you get to know your printer better, it'll most likely save you he
 So - lean back, read the specific chapters and then grab your tools. Sooner or later you'll have to tinker anyway and by doing it right at the beginning of your journey you'll most likely be able to fix any possible hardware problem that occurs by yourself. No need to call Anycubic's warranty service to ask for a spare hotend because your nozzle is clogged or whatever (yes, I know, but people really do that..). No weeks of waiting until the part finally arrives and you realize that somebody has to take care of the tinkering part also.  
   
 Get to know this machine and give it some love, then it'll pay you back with reliability and beautiful prints.    
-  
+
+
+---
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate some treats for my cats', '#e08d28', 'U6U5NPB51');kofiwidget2.draw();</script>   
