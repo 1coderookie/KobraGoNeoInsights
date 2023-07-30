@@ -577,7 +577,10 @@ If you encounter a **faulty wiring, either of the 24V line or the thermistor,** 
     - Keep in mind that you need to add the belonging connector (JST XH 2.54) to the end of the wire for being able to plug it into the mainboard! If you don't have the belonging crimping tool and can't solder a piece of the old wire to the end of the new wire, you can use the beforementioned connectors as well.  
 
 
-   
+
+---
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate some treats for my cats', '#e08d28', 'U6U5NPB51');kofiwidget2.draw();</script>    
     
 
     
