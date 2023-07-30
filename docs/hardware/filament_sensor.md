@@ -53,5 +53,9 @@ Anycubic has a more detailed installation instruction on their blog available:
     Some users reported and complained about false positive detections and therefore paused prints even though there was filament loaded.  
     This might just be a small problem which probably could easily be fixed by bending the little lever of the switch inside of the sensorbox so that there's more pressure onto the filament, but I personally didn't install my sensor yet and didn't check that.  
     
-    
+
+
+---
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate some treats for my cats', '#e08d28', 'U6U5NPB51');kofiwidget2.draw();</script>     
 
