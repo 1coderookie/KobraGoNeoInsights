@@ -1,3 +1,10 @@
+
+
+## Please visit the GitHub pages:  
+# [KobraGoNeo Insights](https://1coderookie.github.io/KobraGoNeoInsights/)
+
+---
+
 ***If you like this work, please consider starring it.***  
 
 
@@ -5,12 +12,6 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
 
 ---  
-
-## Please visit the GitHub pages:  
-# [KobraGoNeo Insights](https://1coderookie.github.io/KobraGoNeoInsights/)
-
----
-
 
 <!---
 
