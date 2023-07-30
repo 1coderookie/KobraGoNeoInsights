@@ -65,3 +65,6 @@ If you want to **contribute** an e.g. modification (aka "mod") you did or an imp
     - All information, tips, instructions, suggestions, mods and so on which could be found here should be considered as a base for your own further research! 
     - Neither am I resposible for any content that I've linked to, it's just meant to be a further source of information to make the start of your own research a bit easier! 
 
+---
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate some treats for my cats', '#e08d28', 'U6U5NPB51');kofiwidget2.draw();</script> 
