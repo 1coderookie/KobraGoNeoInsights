@@ -6,3 +6,8 @@ Here you'll find further information about the [stock firmware](fw_marlin.md) of
 However, you might want to give [Klipper](fw_klipper.md) a try though, as it offers additional features like Pressure Advance and Input Shaping and offers much more possibilities to customize your firmware settings.  
 It also keeps the z-offset (yes, also *after* proceeding an ABL sequence) and doesn't suffer from this special kind of "z-offset dementia" like the stock firmware sometimes does.    
 I personally switched to Klipper and can highly recommend it.  
+
+
+---
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate some treats for my cats', '#e08d28', 'U6U5NPB51');kofiwidget2.draw();</script> 
