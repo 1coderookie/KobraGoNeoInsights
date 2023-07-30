@@ -23,3 +23,6 @@ The display also displays error messages if any severe errors occur. See the sec
     However, you mght find this function activated within a modified version of the stock firmware, made by users. See the section ["Mods"](../firmware/fw_marlin.md#mods) in the chapter ["Stock Firmware (Marlin Based)"](../firmware/fw_marlin.md) for some links.    
   
 
+---
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate some treats for my cats', '#e08d28', 'U6U5NPB51');kofiwidget2.draw();</script> 
