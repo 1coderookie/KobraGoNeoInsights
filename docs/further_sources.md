@@ -35,3 +35,7 @@ Some of the following pages offer direct downloads (DD), others are search engin
 - https://www.stlfinder.com/ (SE)
 - https://www.yeggi.com/ (SE)
 - https://3dmdb.com/ (SE)
+
+---
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate some treats for my cats', '#e08d28', 'U6U5NPB51');kofiwidget2.draw();</script> 
