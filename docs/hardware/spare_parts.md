@@ -41,7 +41,10 @@ So if you're looking for parts like v-slot wheels, belts, anti-backlash nuts, no
 Same goes for the hotend actually: as it's an E3D V5 compatible one, you don't need to necessarily buy a hotend from Anycubic if you need a new heater block or nozzle or whatever.    
 Have a look at the spare part you need and do a little research if it really is something 'special' that pretty much only Anycubic or authorized sellers are offering (like the mainboard), or if that's a 'regular' component and therefore could be found easily.  
      
-  
+
+---
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate some treats for my cats', '#e08d28', 'U6U5NPB51');kofiwidget2.draw();</script> 
 
   
 
