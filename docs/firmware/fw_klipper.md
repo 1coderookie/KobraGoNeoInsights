@@ -313,3 +313,6 @@ Just to mention a few here:
 Fluidd is kinda similar to Mainsail, so it's a great alternative if you don't want to use Mainsail. I personally never had a closer look at it though, so I can't say anything more about it. So maybe just do a bit of a research by your own.  
     
 
+---
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate some treats for my cats', '#e08d28', 'U6U5NPB51');kofiwidget2.draw();</script> 
