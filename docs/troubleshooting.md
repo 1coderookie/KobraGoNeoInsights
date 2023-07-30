@@ -336,3 +336,8 @@ This error will be reported when the printer somehow doesn't recognize the [micr
 Try to reformat the card as FAT32 (full format, not fast format). If that still doesn't solve the issue, try different cards (always formatted as FAT32!). The card that came with the printer is 8GB, but cards up to 32GB should work.  
 
 However, it might happen that you'll have to try more than one card, as the printer somehow seems to be a bit picky - I personally had to try five(!) different cards, until it finally accepted one. The reason for this is unknown to me..  
+
+
+---
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate some treats for my cats', '#e08d28', 'U6U5NPB51');kofiwidget2.draw();</script> 
