@@ -72,6 +72,7 @@ However, when you want to use e.g. 12V fans which speeds are usually controlled 
 
 ![Step-down converter wiring diagram](../assets/images/stepdown-wiring.png)  
 
+
 ---
 
-
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate some treats for my cats', '#e08d28', 'U6U5NPB51');kofiwidget2.draw();</script> 
