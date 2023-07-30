@@ -15,3 +15,8 @@ The stock firmware is based on Marlin v2.0.x. You can find a complete G-code com
   
 ## Klipper 
 Besides most of the standard G-code Klipper does support (Attention: it doesn't support *all* of the standard commands!), Klipper uses so called "extended" G-code commands and scripts/macros for general status and configuration. These extended commands start with a command which may be followed by one or more parameters. You can find the whole reference at the [Klipper documentation page about G-codes](https://www.klipper3d.org/G-Codes.html).   
+
+
+---
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate some treats for my cats', '#e08d28', 'U6U5NPB51');kofiwidget2.draw();</script> 
