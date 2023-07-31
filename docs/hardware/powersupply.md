@@ -56,6 +56,12 @@ Doing so can save you from burning down your house if components fail or if the 
 
 ---
 
+## Add A MOSFET (MOD) 
+
+(...)
+
+---
+
 ## How To Add A Step-Down Converter For Using 12V Fans (MOD)
 
 When you want to add components which need a different voltage than the 24VDC the PSU offers, you can do so by using a step-down converter (or a step-up converter if you need a higher voltage than 24VDC). Simply connect the IN of the converter to one of the free 24VDC connectors of the PSU, dial in the voltage you need and then connect the belonging part to the OUT of the converter.  
@@ -75,4 +81,4 @@ However, when you want to use e.g. 12V fans which speeds are usually controlled 
 
 ---
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support my work', '#e08d28', 'U6U5NPB51');kofiwidget2.draw();</script> 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
