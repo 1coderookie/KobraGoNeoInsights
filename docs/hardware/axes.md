@@ -269,6 +269,19 @@ You adjust the tension of the belt by turning it clockwise for increasing the te
     Then slide the whole setup back ino place where it belongs, hook up the belt to the bedgantry again and screw in the two screws which hold the blue plastic cap into place.  
     Once everything is done, adjust the belt tension again by turning the knob clockwise.  
 
+---
+
+### Y-Axis Motor
+The motor of the y-axis is a 42-34 Nema 17 stepper motor with a 20 teeth pulley being attached to the 5mm motor shaft. It seems to be a regular 1.8° stepper, which means the shaft turns 1.8° at each steps, and therefore it's doing 200 steps for one full 360° rotation.  
+
+As there aren't any specifications and replacement motors from Anycubic being available, you can either use a motor with the beforementioned specs or get yourself a motor from a Creality Ender 3 (or one that's advertised to fit that printer). The following picture shows the original stepper motor being mounted and the belonging Creality model laying next to it at the right hand side.  
+
+![Stock vs Creality y-motor](../assets/images/axes_y-motor_stock-creality_web.jpg)  
+
+!!! warning "Attention When Connecting The 'Creality'-Type Motor!"  
+
+    As the connections of the stock vs a 'Creality'-type motor are different due to different pinouts of the coils, you need to make sure you connect it correctly! Therefore you need to switch the position of two wires, best would be to check the coils with a mulitimeter first!  
+    **I'll add a picture with the connections being marked as well as a little description aout how to actually probe the coils with a multimeter soon!**
 
 ---
     
