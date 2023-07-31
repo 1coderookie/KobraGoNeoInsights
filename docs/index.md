@@ -44,7 +44,7 @@ If you want to **contribute** an e.g. modification (aka "mod") you did or an imp
 ??? info "Thanks To The Supporters And Contributers!"
 
     - *Thanks a lot to **Anthony** for donating a spare part printhead of the **Go** and the **Neo**!*  
-    - *Thanks a lot to **Lingfei** and to **[SaintIsaiah](https://www.reddit.com/user/SaintIsaiah)** for supporting my work with a donation on [my ko-fi account](https://ko-fi.com/U6U5NPB51)!*
+    - *Thanks a lot to **Lingfei** and to **[SaintIsaiah](https://www.reddit.com/user/SaintIsaiah)** for supporting my work with a donation at [my ko-fi account](https://ko-fi.com/U6U5NPB51)!*
     - Thanks to **[Balambao](https://www.reddit.com/user/Balambao)** for taking a picture of the ceramic heater block!  
     - Thanks to **[BlackSunBeast](https://www.reddit.com/user/BlackSunBeast)** for taking pictures of the feeder gear of the **Go** and the **Go** itself!  
     - Thanks to **[Darth_Kram](https://www.reddit.com/user/Darth_Kram)** for disassembling the feeder gear box of the **Go**, taking those pics and measuring the dimensions of those parts!  
