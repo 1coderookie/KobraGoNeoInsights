@@ -67,6 +67,6 @@ If you want to **contribute** an e.g. modification (aka "mod") you did or an imp
     - Neither am I resposible for any content that I've linked to, it's just meant to be a further source of information to make the start of your own research a bit easier! 
 
 ---
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support my work', '#e08d28', 'U6U5NPB51');kofiwidget2.draw();</script> 
