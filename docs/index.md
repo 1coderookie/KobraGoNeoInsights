@@ -32,19 +32,27 @@ Depending on the color of the box, it's either a tip, information, instruction, 
 !!! danger "Danger"
 
     Textboxes which contain a warning about a dangerous circumstance will be displayed extended already to make sure the warning won't be overseen.
+
  
-*So please take your time and read attentively.*    
+**Please take your time and read attentively.**    
   
-If you want to **contribute** an e.g. modification (aka "mod") you did or an important information you found, feel free to send me an email (address can be found in the footer). 
+***Happy tinkering and printing!***  
+
+---
   
-***If you find this page useful, please consider recommending it to others. This will make the community aware of this page and help other users.***    
+- *If you want to ***contribute*** an e.g. modification (aka "MOD") you did or an important information you found, feel free to send me an email (address can be found in the footer). Thanks!* 
   
-*Happy tinkering and printing!*   
+- *If you find this page useful, please consider ***recommending it*** to others. This will make the community aware of this page and help other users. Thanks!*  
+
+- *If you want to ***support my work***, maybe consider ***starring*** [this repository at GitHub](https://github.com/1coderookie/KobraGoNeoInsights) (if you do have a GitHub account) and ***donating*** a small amount to [my ko-fi account](https://ko-fi.com/U6U5NPB51). Thanks!*  
+
+---
+ 
   
 ??? info "Thanks To The Supporters And Contributers!"
 
     - *Thanks a lot to **Anthony** for donating a spare part printhead of the **Go** and the **Neo**!*  
-    - *Thanks a lot to **Lingfei** and to **[SaintIsaiah](https://www.reddit.com/user/SaintIsaiah)** for supporting my work with a donation at [my ko-fi account](https://ko-fi.com/U6U5NPB51)!*
+    - *Thanks a lot to **Lingfei** and to **[SaintIsaiah](https://www.reddit.com/user/SaintIsaiah)** for supporting my work with a donation to [my ko-fi account](https://ko-fi.com/U6U5NPB51)!*
     - Thanks to **[Balambao](https://www.reddit.com/user/Balambao)** for taking a picture of the ceramic heater block!  
     - Thanks to **[BlackSunBeast](https://www.reddit.com/user/BlackSunBeast)** for taking pictures of the feeder gear of the **Go** and the **Go** itself!  
     - Thanks to **[Darth_Kram](https://www.reddit.com/user/Darth_Kram)** for disassembling the feeder gear box of the **Go**, taking those pics and measuring the dimensions of those parts!  
@@ -57,6 +65,7 @@ If you want to **contribute** an e.g. modification (aka "mod") you did or an imp
     - Thanks to **[the-transponster](https://www.reddit.com/user/the-transponster)** for allowing me to use the picture of his clumped hotend!
     - Thanks to **[zimmystor](https://www.reddit.com/user/zimmystor)** for taking pictures of his MicroSwiss bowden drive upgrade at his Go!
     
+---
     
 !!! warning "Disclaimer"
 
