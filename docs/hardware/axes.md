@@ -229,7 +229,7 @@ The following picture shows the aluminum profile of the y-axis with the knob for
 ### Belt Tension
 It's kinda difficult to explain the correct belt tension, so you'd have to experiment a bit with that.  
 Generally speaking, the belt shouldn't be too tightened up and shouldn't be too loose either.  
-If it's too tight, too much pressure will be put onto the motor shaft - if it's too loose though, the belt might slip.  
+If it's too tight, too much pressure will be put onto the motor shaft - if it's too loose though, the belt might slip.    
 If you can 'bend' the belt down a bit by putting a some pressure with your finger onto it but you still feel an amount of resistance, then it's a good sign that you're in the right area of tension.      
     
 ??? example "Belt Maintenance"
@@ -238,6 +238,37 @@ If you can 'bend' the belt down a bit by putting a some pressure with your finge
     - Check the teeth of the belt if they are still good looking or if they're worn out or if even some teethe are missing.
     - Check if you can see any cracks at the belt. 
     - Check the gear wheels of the motors which are driving the belts. Are they also looking ok? Did they become loose on the motor shaft somehow?      
+
+---
+
+### Belt Tensioner
+
+The following picture shows the belt tensioner located at the front of the y-axis aluminum frame.  
+
+![Y-axis knob](../assets/images/y-axis_knob_web.jpg)
+
+You adjust the tension of the belt by turning it clockwise for increasing the tension and turning it counter-clockwise for decreasing it.  
+
+??? example "Disassembling The Belt Tensioner"
+
+    It might happen that you have to disassemble the tensioner in order to replace a broken belt or a broken (part of the) tensioner.  
+    In that case turn the knob counter-clockwise until the belt completely sags. Then unhook one end of the belt from the bedgantry (I suggest to unhook it in the front of the bed gantry). Unscrew the two screws you can see at the blue plastic cap of the belt tensioner and carefully pull it off the frame. You might have to turn the knob even more counter-clockwise if it doesn't come off right away.  
+    Once you've pulled it off, you'll see the parts as shown in the picture below.  
+
+    ![Belt tensioner unmounted](../assets/images/axes_y-tensioner_dis2_web.jpg)
+
+    If you have to replace certain parts, you can easily disassemble the pulley by pushing out that little shaft to one side, so that you'll have all the parts laying in front of you each by their own.  
+
+    ![Belt tensioner disassembled](../assets/images/axes_y-tensioner_dis2_web.jpg)
+
+??? example "Reassembling The Belt Tensioner"
+
+    For reassembling, just put the pulley back into place and stick that little shaft back to where it belongs.  
+    Then route the belt through that bracket - make sure the belt isn't somehow twisted and that the teeth are gripping onto the pulley - the smooth side of the belt needs to face you when you look at it from above.  
+    Stick the setup back into the blue plastic cap and stick the screw of that knob into the belonging hole at the front. Turn the knob a few times clockwise to make the thread grip the bracket.  
+    Then slide the whole setup back ino place where it belongs, hook up the belt to the bedgantry again and screw in the two screws which hold the blue plastic cap into place.  
+    Once everything is done, adjust the belt tension again by turning the knob clockwise.  
+
 
 ---
     
@@ -271,7 +302,8 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
 
 The limit switch for the y-axis is mounted at the back right before the motor, the gantry triggers the switch when moved completely to the back.  
 
-![Y-axis limit switch](../assets/images/axes_y-endstop_web.jpg)
+![Y-axis limit switch](../assets/images/axes_y-endstop_web.jpg)  
+
 
 ---
 
@@ -352,6 +384,15 @@ The optical limit switch of the z-axis is located at the bottom of the left z-ax
 ![z-axis limit switch](../assets/images/axes_z-limitswitch_web.jpeg)  
 
 The little metal lever that triggers the switch is mounted to the left bracket of the x-axis gantry. When the gantry moves down, the lever slides into that slot of the optical switch and triggers it.   
+
+The following pictures show the disassembled limit switch, just in case you're looking out for a suitable third party manufactured replacement.  
+
+![z-axis limit switch open](../assets/images/axes_z-limit_open_web.jpg)  
+
+![z-axis limit switch, sideview](../assets/images/axes_z-limit_sideview-bare_web.jpg)  
+
+![z-axis limit switch, size](../assets/images/axes_z-limit-size-bare_web.jpg)  
+
 
 ---
   
