@@ -287,17 +287,29 @@ As there aren't any specifications and replacement motors from Anycubic being av
 ??? example "Identifying The Coils And Connections"  
 
     When you want to use a different motor than the stock ones, it's most likely the case that the coils are connected to different pins of the 6 pin connector of the motor.  
-    The best would be if you take a multimeter and probe the pins to see which ones belong to a coil. So let me go over this procedure really quick - don't worry, you can't harm the motor by doing the following. 
+    The best would be if you take a multimeter and probe the pins to see which ones belong to a coil. So let me go over this procedure really quick - don't worry, you can't harm the motor by doing the following.  
+    
     Take your multimeter and set it either to continuity measurement or to resistance measurement. Either one will work - if you have the option for continuity measurements, choose that one though as they often offer a little buzzer which makes a sound when continuity is given.  
-    Unplug the motor (of course) and hold one of the two probes of the multimeter to one of the pins of the 6 pin connector of the motor. I personally like to start at the left side, so hold one probe onto the very left pin. Then use the other probe and touch the other pins - one after another. Make sure that both tips of your probes really make contact to the desired pins. Once you found the corresponding pin for the very left sided pin you placed your first probe onto, mark that. Then move the probe to the next pin and repeat the process.  
+    
+    Unplug the motor (of course) and hold one of the two probes of the multimeter to one of the pins of the 6 pin connector of the motor. I personally like to start at the left side, so hold one probe onto the very left pin.  
+    Then use the other probe and touch the other pins - one after another.  
+    Make sure that both tips of your probes really make contact to the desired pins. Once you found the corresponding pin for the very left sided pin you placed your first probe onto, mark that.  
+    Then move the probe to the next pin and repeat the process.  
     In the end you'll come up with having two 'paired' pins identified - each pair belongs to one coil.  
+    
     Now look at the following picture and compare your findings with the marked pins of the two coils of the upper "Stock Motor".  
 
     ![Marked motor pins](../assets/images/axes_y-motor_stock-creality_pinout-marked_web.jpg)  
     
     If the pairing of your probed pins is the same - fine, you can connect the motor right away.  
-    If the pairing is different, like at the Creality motor shown in the picture, you need to pull out two wires of the connector of the motor cable (one wire of one coil each!), switch them accordingly and insert them back in the connector housing. At the shown example with the stock vs. the Creality motor, you'd just switch the position of the two inner wires here.  
-    You can pull out the wires (inclduing the attached metal contacts) by pressing down a tiny metal latch of that contact. Take something like a needle or a tiny screwdriver for that. Gently press that latch down and slightly pull on the wire - the wire with the contact being attached will come out. Once you put it into the correct position, just push it back into the belonging hole - but mind the orientation! You might hear a little "click" sound, but check if the wire really got into position by looking after that latch and by pulling at the wire - it shouldn't come out.
+    
+    If the pairing is different, like at the Creality motor shown in the picture, you need to pull out two wires of the connector of the motor cable (one wire of one coil each!), switch them accordingly and insert them back in the connector housing.  
+    At the shown example with the stock vs. the Creality motor, you'd just switch the position of the two inner wires here.  
+    
+    You can pull out the wires (inclduing the attached metal contacts) by pressing down a tiny metal latch of that contact.  
+    Take something like a needle or a tiny screwdriver for that. Gently press that latch down and slightly pull on the wire - the wire with the contact being attached will come out.  
+    Once you put it into the correct position, just push it back into the belonging hole - but mind the orientation! You might hear a little "click" sound, but check if the wire really got into position by looking after that latch and by pulling at the wire - it shouldn't come out.  
+    
     After a final check if everything is still ok, connect the motor - it should work now.  
     
     If it happens that the polarity of the coils/wiring is wrong, you'll experience a stuttering and probably noise-making motor. In that case proceed as above and switch the wiring accordingly.  
