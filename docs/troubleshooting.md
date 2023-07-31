@@ -83,15 +83,16 @@ Best would be to not print from the SD card and use an [extra host](printserver.
 
 ---
 
-## 'Rough' Look, Uneven And 'Bubbly' Surface
-This is mostly caused by moist filament. When the filament gets heated up in the hotend and gets extruded, the water 'boils' up and the damp releases which results in a pretty 'rough' look. Even tho PLA isn't *that* sensitive to moisture like e.g. Nylon, it still may be moist - even a fresh and sealed spool can be moist (due to the production procedure).  
+## 'Rough' Look, Uneven And 'Bubbly' Surface Or Lines
+This is mostly caused by moist filament. When the filament gets heated up in the hotend and gets extruded, the water 'boils' up and the damp releases which results in a pretty 'rough' look. Even tho PLA isn't *that* sensitive to moisture like e.g. PETG, TPU or Nylon, it still may be moist - even a fresh and sealed spool can be moist (due to the production procedure). The following picture shows a comparison of PETG - the left 'weird' looking skirt is fresh and therefore moist filament right out of the package how it came from the manufacturer, the right skirt shows the same spool after being dried.  
 
-It's actually kinda difficult for me to describe the look of the surface to give you an exact impression, so I'll keep my eyes open for a good picture I might use to illustrate it.  
-You can check if the filament is (way) too moist by extruding with the nozzle up in the air. Watch the string of melted filament which comes out of the hotend, right at the nozzle. Does it seem to be 'bubbly'? Do those bubbles even pop? If so, then it's definitely too moist.  
+![Wet vs dry filament](assets/images/wet-filament_web.jpg)  
+
+You can also check if the filament is (way) too moist by extruding with the nozzle up in the air. Watch the string of melted filament which comes out of the hotend, right at the nozzle. Does it seem to be 'bubbly'? Do those bubbles even pop? If so, then it's definitely too moist.  
 
 The solution for this would be to dry your filament. You can either get yourself one of those (imho overpriced) filament dryers, put the spool in the oven in your kitchen (don't go over 50°C for PLA tho!) or use a food dehydrator. I personally don't use any of that - I just use the well-controlled solution we all already have: the heated bed! Just lay your spool flat onto the bed, cover it with e.g. a cardboard box or so and heat it up to about 45°C. Then let it sit for a few hours.  
 
-When storing your filament, use e.g. some vaccum sealed bags and add dessicant.  
+When storing your filament, use e.g. some vaccum sealed bags or containers and add dessicant. You can see the solution I personally am using [here](hardware/other.md#filament-storage). 
 
 ---
 
@@ -110,8 +111,14 @@ The solution here would be to do some cold pulls first to get as much filament o
 ---
 
 ## Layer Shifts / Pushed Off Prints / Stuck Axes
+As a rule of thumb one would say:  
+
 - If you're experiencing layer shifts or stuck movements at either the x- or y-axis, check the position of the wheels and the belt tension.  
 - If you're experiencing problems in the height or if your prints get pushed off the bed because the nozzle hit them at a certain height, check the wheels of the x-axis gantry which run along the aluminum frame of the z-axis as well as the lead screw, the anti-backlash nut, the alignment and the complete assembly of the whole z-axis.  
+
+But it's actually better to check all axes (not only the y-axis for example) for being set up and tuned in correctly. Check the position of the wheels (they should touch but they shouldn't be too tight) and if they roll smooth and nice (or if you feel any hiccups due to bad bearings). Check the belt tension - it shouldn't be loose but it shouldn't be too tight as well (ppl always say "tighten your belts", but it's not always that simple..).
+With the printer being switched off, move the parts at different speeds by hand and feel if it's a smooth movement or if you feel any kind of 'weird' and unusual resistance or hiccups during the movements. At the same time, everything should be 'stable' as well and there shouldn't be any kind of wobble.
+Also check your z-axis setup as well, as that sometimes can also cause problems like layer shifts on the x-&y-axes - if the nozzle hits the bed due to a wrong movement of z, then that causes layer shifts as well.
 
 Generally speaking, everything should run smooth when you move it manually by hand. If you feel some kind of resistance or a jam at certain spots, check the belonging axis and the involved parts. Deformed and/or too tight wheels can cause 'similar' problems like a misaligned z-axis for example. See the chapter ["Axes"](hardware/axes.md) for further information.  
 
