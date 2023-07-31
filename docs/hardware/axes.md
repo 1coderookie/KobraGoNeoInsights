@@ -255,7 +255,7 @@ You adjust the tension of the belt by turning it clockwise for increasing the te
     In that case turn the knob counter-clockwise until the belt completely sags. Then unhook one end of the belt from the bedgantry (I suggest to unhook it in the front of the bed gantry). Unscrew the two screws you can see at the blue plastic cap of the belt tensioner and carefully pull it off the frame. You might have to turn the knob even more counter-clockwise if it doesn't come off right away.  
     Once you've pulled it off, you'll see the parts as shown in the picture below.  
 
-    ![Belt tensioner unmounted](../assets/images/axes_y-tensioner_dis2_web.jpg)
+    ![Belt tensioner unmounted](../assets/images/axes_y-tensioner_dis1_web.jpg)
 
     If you have to replace certain parts, you can easily disassemble the pulley by pushing out that little shaft to one side, so that you'll have all the parts laying in front of you each by their own.  
 
