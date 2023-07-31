@@ -252,6 +252,10 @@ The bedplate itself is mounted to the bed gantry which runs along the y-axis sho
 
 ![Bed gantry](../assets/images/bed_gantry_web.jpg)
 
+The v-slot wheels that run along the aluminum y-axis frame are mounted to the underside as the following picture shows.  
+
+![Bed gantry underside](../assets/images/bed_gantry-bare_web.jpg)  
+
 The gantry is made of 2.5mm steel - which unfortunately seems to be pretty flimsy to me. If I touch one of those arms of that X-shaped gantry and apply pressure with a finger, I can easily make it wiggle up and down a bit.  
 The screws that hold the bedplate are screwed into 4mm threads of the gantry.   
 
