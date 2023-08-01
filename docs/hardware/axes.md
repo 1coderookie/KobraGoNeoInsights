@@ -29,7 +29,7 @@ So if you notice that e.g. the motor of the y-axis doesn't stop when the bed rea
 
 Before going into the details of each axis, let me emphasize how important it is to set up and tram the whole frame correctly and check everything twice before you proceed with assembling the rest of the printer and actually using it.  
 
-To give you a first impression, let me show you how the y-axis of one of Neos looked like when it came preassembled from the manufacturer.  
+To give you a first impression, let me show you how the y-axis of one of my Neos looked like when it came preassembled from the manufacturer.  
 
 ![Y-axis crooked from manufacturer](../assets/images/axes_y-axis-crooked_web.jpg)  
 
@@ -45,10 +45,13 @@ I didn't take a picture of it yet, but it's also possible to mount the aluminum 
 
 So now imagine a frame that is mounted crooked and you're trying to get almost perfect prints out of it. No matter how much you tweak settings, adjust the belt tensions, adjust the v-slot wheel positions - you won't be able to get the desired outcome.  
 
-Hopefully you realize how important it is to start with the most important part of the whole printer first - the base frame. This is the construction everything else relies on. If the base frame is already mounted crooked, if parts aren't perpendicular, parallel and equidistant to each other - how should everything else that is running along these structures or is built upon them work as intended?  
+Hopefully you realize how important it is to start with the most important part of the whole printer first - the base frame.  
+*This is the construction everything else relies on.*  
+If the base frame is already mounted crooked, if parts aren't perpendicular, parallel and/or equidistant to each other - how should everything else that is running along these structures or is built upon them work as intended?  
 
-So, please, grab the sufficient tools, take some time and pay close attention when building up the printer. If you got yourself the Neo, don't trust the preassembled parts, disassemble them and reassemble them in the correct way - at least check if everything is set up as it should be.  
-Once you've done all that, you not only know your printer much better already, but you also created the fundament for a reliably working machine.  
+So, please, grab the sufficient tools, take some time and pay close attention when building up the printer.  
+If you got yourself the Neo, don't trust the preassembled parts, disassemble them and reassemble them in the correct way - at least check if everything is set up as it should be.  
+Once you've done all that, you'll not only know your printer much better already, but you also created the fundament for a reliably working machine.  
 
 ---
 
