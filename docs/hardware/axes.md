@@ -492,7 +492,7 @@ The motor of the y-axis is a 42-34 Nema 17 stepper motor with a 5mm motor shaft.
 
 Pay attention to the mounting of the motor. It's only mounted with that little bracket using two screws - the back and the base of the motor are actually not supported as the following picture shows.  
 
-![Z stepper mounting](axes_z-stepper-mounting_web.jpg)
+![Z stepper mounting](../assets/images/axes_z-stepper-mounting_web.jpg)
 
 That most likely leads to the fact that the whole motor can bend a little bit due to the axial load of the lead screw system, so it's a good idea to actually support the motor by putting something sufficient underneath and/or between the motor and the aluminum frame where it's actually mounted to. I personally added a big/wide nylon shim underneath it.   
 
