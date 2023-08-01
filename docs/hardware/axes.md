@@ -55,6 +55,82 @@ If you can 'bend' the belt down a bit by putting a some pressure with your finge
 
 ---
 
+### Belt Tensioner
+
+The following picture shows the belt tensioner located at the front of the y-axis aluminum frame.  
+
+![X-axis knob](../assets/images/x-axis_knob_web.jpg)
+
+You adjust the tension of the belt by turning it clockwise for increasing the tension and turning it counter-clockwise for decreasing it.  
+
+??? example "Disassembling The Belt Tensioner"
+
+    It might happen that you have to disassemble the tensioner in order to replace a broken belt or a broken (part of the) tensioner.  
+    In that case turn the knob counter-clockwise until the belt completely sags. Then unhook one end of the belt from the bedgantry (I suggest to unhook it in the front of the bed gantry). Unscrew the two screws you can see at the blue plastic cap of the belt tensioner and carefully pull it off the frame. You might have to turn the knob even more counter-clockwise if it doesn't come off right away.  
+    Once you've pulled it off, you'll see the parts as shown in the picture below (right now the picture shows the disassembled y-axis tensioner, but besides a slightly different shaped plastic cap, the interior looks the same - I'll add a belonging picture of the x-axis tensioner soo though).  
+
+    ![Belt tensioner unmounted](../assets/images/axes_y-tensioner_dis1_web.jpg)
+
+    If you have to replace certain parts, you can easily disassemble the pulley by pushing out that little shaft to one side, so that you'll have all the parts laying in front of you each by their own.  
+
+    ![Belt tensioner disassembled](../assets/images/axes_y-tensioner_dis2_web.jpg)
+
+??? example "Reassembling The Belt Tensioner"
+
+    For reassembling, just put the pulley back into place and stick that little shaft back to where it belongs.  
+    Then route the belt through that bracket - make sure the belt isn't somehow twisted and that the teeth are gripping onto the pulley - the smooth side of the belt needs to face you when you look at it from above.  
+    Stick the setup back into the blue plastic cap and stick the screw of that knob into the belonging hole at the front. Turn the knob a few times clockwise to make the thread grip the bracket.  
+    Then slide the whole setup back ino place where it belongs, hook up the belt to the bedgantry again and screw in the two screws which hold the blue plastic cap into place.  
+    Once everything is done, adjust the belt tension again by turning the knob clockwise.  
+
+---
+
+### X-Axis Motor
+The motor of the x-axis is a 42-34 Nema 17 stepper motor with a 20 teeth pulley being attached to the 5mm motor shaft. It seems to be a regular 1.8° stepper, which means the shaft turns 1.8° at each steps, and therefore it's doing 200 steps for one full 360° rotation.  
+
+As there aren't any specifications and replacement motors from Anycubic being available, you can either use a motor with the beforementioned specs or get yourself a motor from a Creality Ender 3 (or one that's advertised to fit that printer). The following picture shows the original stepper motor being mounted and the belonging Creality model laying next to it at the right hand side (right now the following picture shows the y-axis motor compared to the Creality motor, but the motors are actually the same - I'll add the belonging picture of the x-axis motor soon though).  
+
+![Stock vs Creality y-motor](../assets/images/axes_y-motor_stock-creality_web.jpg)  
+
+!!! warning "Attention When Connecting The 'Creality'-Type Motor!"  
+
+    As the connections of the stock vs a 'Creality'-type motor are different due to different pinouts of the coils, you need to make sure you connect it correctly!  
+    Therefore you need to switch the position of two wires, best would be to check the coils with a multimeter first!  
+    Please read the expandable textbox below for further information.
+
+??? example "Identifying The Coils And Connections"  
+
+    When you want to use a different motor than the stock ones, it's most likely the case that the coils are connected to different pins of the 6 pin connector of the motor.  
+    The best would be if you take a multimeter and probe the pins to see which ones belong to a coil. So let me go over this procedure really quick - don't worry, you can't harm the motor by doing the following.  
+    
+    Take your multimeter and set it either to continuity measurement or to resistance measurement. Either one will work - if you have the option for continuity measurements, choose that one though as they often offer a little buzzer which makes a sound when continuity is given.  
+    
+    Unplug the motor (of course) and hold one of the two probes of the multimeter to one of the pins of the 6 pin connector of the motor. I personally like to start at the left side, so hold one probe onto the very left pin.  
+    Then use the other probe and touch the other pins - one after another.  
+    Make sure that both tips of your probes really make contact to the desired pins. Once you found the corresponding pin for the very left sided pin you placed your first probe onto, mark that.  
+    Then move the probe to the next pin and repeat the process.  
+    In the end you'll come up with having two 'paired' pins identified - each pair belongs to one coil.  
+    
+    Now look at the following picture and compare your findings with the marked pins of the two coils of the upper "Stock Motor" (right now the following picture shows the y-axis motor compared to the Creality motor, but the motors, pinouts and the procedure of probing are actually the same).  
+
+    ![Marked motor pins](../assets/images/axes_y-motor_stock-creality_pinout-marked_web.jpg)  
+    
+    If the pairing of your probed pins is the same - fine, you can connect the motor right away.  
+    
+    If the pairing is different, like at the Creality motor shown in the picture, you need to pull out two wires of the connector of the motor cable (one wire of one coil each!), switch them accordingly and insert them back in the connector housing.  
+    At the shown example with the stock vs. the Creality motor, you'd just switch the position of the two inner wires here.  
+    
+    You can pull out the wires (inclduing the attached metal contacts) by pressing down a tiny metal latch of that contact.  
+    Take something like a needle or a tiny screwdriver for that. Gently press that latch down and slightly pull on the wire - the wire with the contact being attached will come out.  
+    Once you put it into the correct position, just push it back into the belonging hole - but mind the orientation! You might hear a little "click" sound, but check if the wire really got into position by looking after that latch and by pulling at the wire - it shouldn't come out.  
+    
+    After a final check if everything is still ok, connect the motor - it should work now.  
+    
+    If it happens that the polarity of the coils/wiring is wrong, you'll experience a stuttering and probably noise-making motor. In that case proceed as above and switch the wiring accordingly.  
+    
+
+---
+
 ### V-Slot Wheels Position
 The wheels are leading the printhead onto the aluminum profile of the x-axis. They are mounted onto a metal plate where the printhead itself is mounted onto. The wheels run in the V-slot of the profile and therefore they should sit in a good position.    
 You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile.  
@@ -351,41 +427,216 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
 
 ### Limit Switch
 
-The limit switch for the y-axis is mounted at the back right before the motor, the gantry triggers the switch when moved completely to the back.  
+The limit switch for the y-axis is mounted at the back, right on front of the motor. The bed gantry triggers the switch when moved completely to the back.  
 
-![Y-axis limit switch](../assets/images/axes_y-endstop_web.jpg)  
+![Y-axis limit switch](../assets/images/axes_Y-limit-switch_mounted_web.jpg)  
+
+![Y-axis limit switch front](../assets/images/axes_Y-limit-switch_bare_front_web.jpg)  
+
+![Y-axis limit switch back](../assets/images/axes_Y-limit-switch_bare_back_web.jpg)  
 
 
 ---
 
 ## Z-Axis
-The z-axis of both the **Go** and the **Neo** is driven by a single lead screw. The lead screw has 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts and has a length of 350mm (it's actually the kind of lead screw which is used pretty much everywhere in these kind of machines).  
-This rod is mounted to the 5mm shaft of the motor by a coupler at the bottom.  
-The top end of the rod is completely unguided, in between it's guided and secured by a POM anti-backlash nut which you can see at the following picture -  it's the black plastic part mounted to the black steel bracket.  
+The z-axis of both the **Go** and the **Neo** is driven by a single lead screw.  
+The lead screw has 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts and has a length of 350mm (it's actually the kind of lead screw which is used pretty much everywhere in these kind of machines).  
+This rod is mounted to the 5mm shaft of the motor by a rigid coupler at the bottom.  
+The top end of the rod is completely unguided. In between it's guided and secured by a spring loaded POM anti-backlash nut which you can see at the following picture -  it's the black plastic part mounted to the black steel bracket.  
   
-![Z-axis views](../assets/images/z-axis_neo_web.jpg)
-   
-??? example "Dis- and Reassembling The Z-Axis Lead Screw System"   
+![Z-axis views](../assets/images/z-axis_neo_web.jpg)  
 
-    If you need to dis- and reassemble assemble the z-axis lead screw system, there are a few things that one should be aware of. Besides that, the necessary steps are pretty easy and self-explaing, so I'll go over them just really quick.  
+!!! warning "Z-Axis Drives X-Axis Gantry"  
+
+    **The lead screw drives the x-axis gantry up and down along the z-axis aluminum frame parts, so check the section [x-axis gantry](#x-axis-gantry) as well for adjusting the position of the brackets the v-slot wheels are mounted to as well as for adjusting the position of the wheels!**  
+
+---
+
+
+### Z-Axis Motor
+The motor of the y-axis is a 42-34 Nema 17 stepper motor with a 5mm motor shaft. It seems to be a regular 1.8° stepper, which means the shaft turns 1.8° at each steps, and therefore it's doing 200 steps for one full 360° rotation.  
+
+As there aren't any specifications and replacement motors from Anycubic being available, you can either use a motor with the beforementioned specs or get yourself a motor from a Creality Ender 3 (or one that's advertised to fit that printer). The following picture shows the original stepper motor being mounted and the belonging Creality model laying next to it at the right hand side (right now it shows the y-axis motor, I'll add the belonging picture soon).  
+
+![Stock vs Creality y-motor](../assets/images/axes_y-motor_stock-creality_web.jpg)  
+
+!!! warning "Attention When Connecting The 'Creality'-Type Motor!"  
+
+    As the connections of the stock vs a 'Creality'-type motor are different due to different pinouts of the coils, you need to make sure you connect it correctly!  
+    Therefore you need to switch the position of two wires, best would be to check the coils with a multimeter first!  
+    Please read the expandable textbox below for further information.
+
+??? example "Identifying The Coils And Connections"  
+
+    When you want to use a different motor than the stock ones, it's most likely the case that the coils are connected to different pins of the 6 pin connector of the motor.  
+    The best would be if you take a multimeter and probe the pins to see which ones belong to a coil. So let me go over this procedure really quick - don't worry, you can't harm the motor by doing the following.  
     
-    **Disassembling:**  
-    - First, you should somehow fixate the gantry of the x-axis to get the load off of the lead screw. You can do so by e.g. putting two soupcans onto the bed, each on one side (left/right) and then lower the gantry until it rests onto them. Or you can move the gantry up and fixate it with some velcro straps or cable ties as shown in the picture below. <br> ![Parked x-axis gantry](../assets/images/axes_x-gantry-cableties_web.jpg)  
-    - Now unplug the wire from the stepper motor, just to be on the safe side. The printer itself is also switched off of course.  
-    - Loosen the two screws at the coupler which conects the motor shaft and the lead screw. 
-    - Now you can turn the lead screw by hand to screw it out of the anti-backlash nut. After you completely took it out, dismount the anti-backlash nut from the holder at the frame as well.  
-      If you fixated the x-axis gantry at the top like shown in the picture above, you can also just screw the lead screw a bit higher into the anti-backlash nut so that it comes out of the coupler and then you just dismount the anti-backlash nut from the holder at the frame. After that you can take out the lead screw with the nut still on and take off the nut then.  
-    - Take off the coupler from the motor shaft as well for being able to inspect everything.  
+    Take your multimeter and set it either to continuity measurement or to resistance measurement. Either one will work - if you have the option for continuity measurements, choose that one though as they often offer a little buzzer which makes a sound when continuity is given.  
     
-    **Reassembling:**  
-    - To reassemble everything, just follow your steps backwards.   
-    However, there are a few things you should pay attention to now:  
-    - Make sure the motor shaft and the bottom tip of the lead screw are free of oil or grease to avoid slipping of the coupler.  
-    - Mount the coupler to the bottom of the lead screw first and tighten the screw. Then put it onto the motor shaft and tighten the screw. The coupler should not move or wiggle on either part.    
-    - When installing the *anti-backlash nut*, make sure you *press it together* firmly while inserting the lead screw, so that the spring inside these two parts of the anti-backlash nut is completely compressed and loaded. 
-    - Before finally installing the lead screw, loosen up the screws of the motor holder a bit so that the motor itself can move a bit on the horizontal plane. Then install the lead screw, align everything, screw the anti-backlash nut to the belonging holder and align the motor once again. Then finally tighten up the screws of the motor mount. By doing so you do the best you can to get the parts vertically aligned as much as possible.  
-   
-??? example "Lead Screw Maintenance"
+    Unplug the motor (of course) and hold one of the two probes of the multimeter to one of the pins of the 6 pin connector of the motor. I personally like to start at the left side, so hold one probe onto the very left pin.  
+    Then use the other probe and touch the other pins - one after another.  
+    Make sure that both tips of your probes really make contact to the desired pins. Once you found the corresponding pin for the very left sided pin you placed your first probe onto, mark that.  
+    Then move the probe to the next pin and repeat the process.  
+    In the end you'll come up with having two 'paired' pins identified - each pair belongs to one coil.  
+    
+    Now look at the following picture and compare your findings with the marked pins of the two coils of the upper "Stock Motor" (mind that the picture shows the motor of the y-axis right now, but it's actually the same pinout and probing procedure at the z-axis motor).  
+
+    ![Marked motor pins](../assets/images/axes_y-motor_stock-creality_pinout-marked_web.jpg)  
+    
+    If the pairing of your probed pins is the same - fine, you can connect the motor right away.  
+    
+    If the pairing is different, like at the Creality motor shown in the picture, you need to pull out two wires of the connector of the motor cable (one wire of one coil each!), switch them accordingly and insert them back in the connector housing.  
+    At the shown example with the stock vs. the Creality motor, you'd just switch the position of the two inner wires here.  
+    
+    You can pull out the wires (inclduing the attached metal contacts) by pressing down a tiny metal latch of that contact.  
+    Take something like a needle or a tiny screwdriver for that. Gently press that latch down and slightly pull on the wire - the wire with the contact being attached will come out.  
+    Once you put it into the correct position, just push it back into the belonging hole - but mind the orientation! You might hear a little "click" sound, but check if the wire really got into position by looking after that latch and by pulling at the wire - it shouldn't come out.  
+    
+    After a final check if everything is still ok, connect the motor - it should work now.  
+    
+    If it happens that the polarity of the coils/wiring is wrong, you'll experience a stuttering and probably noise-making motor. In that case proceed as above and switch the wiring accordingly.  
+    
+    
+---
+
+### Limit Switch
+
+The optical limit switch of the z-axis is located at the bottom of the left z-axis aluminum profile.  
+
+![z-axis limit switch](../assets/images/axes_z-limitswitch_web.jpeg)  
+
+The little metal lever that triggers the switch is mounted to the left bracket of the x-axis gantry. When the gantry moves down, the lever slides into that slot of the optical switch and triggers it.   
+
+The following pictures show the disassembled limit switch, just in case you're looking out for a suitable third party manufactured replacement.  
+
+![z-axis limit switch open](../assets/images/axes_z-limit_open_web.jpg)  
+
+![z-axis limit switch, sideview](../assets/images/axes_z-limit_sideview-bare_web.jpg)  
+
+![z-axis limit switch, size](../assets/images/axes_z-limit-size-bare_web.jpg)  
+
+---
+
+### MOD: Z-Axis Upgrades 
+
+I personally recommend to do some small modifications to the whole z-axis lead screw system.  
+Start with swapping out the stock coupler and adding an Oldham Coupler as that'll already be a huge improvement.   
+You can always upgrade a second lead screw for example, but the beforementioned parts will be useful in that case as well.  
+
+---
+  
+#### MOD: Changing The Coupler
+
+It's a good idea to change the 'rigid' coupler to a somewhat flexible one, as the one which comes with the printer doesn't compensate any misalignement of the motor shaft and the lead screw. So if they aren't in a perfect vertical alignment, it will result in shear forces, increased wear of the anti-backlash nut and even may cause jamming.  
+The following picture shows the stock coupler that is mounted.  
+    
+![Coupler](../assets/images/axes_stock-coupler_web.jpg)   
+    
+Here is a picture of a flexible coupler I replaced the stock coupler with, there are other designs of flexible coupler on the market as well though (so called 'spider coupler').   
+    
+![Flex coupler](../assets/images/axes_flexcoupler_web.jpg)   
+    
+When mounting the flexible coupler shown above, I put a ball of a ball bearing between the motorshaft and the lead screw, so that it won't be pushed together by the weight of the z-axis. I'll add a picture of that soon.    
+I also added ball bearings underneath the flexcoupler to keep the main load off of the motorshaft and transfer it to the motorhousing.  
+Additionally, I also added a nylon washer of the correct thickness underneath the motor itself as it was hanging in the air, only held by the two screws of the motormount at the z-axis aluminum profile.      
+    
+If you want to change the coupler, you'll need to get a coupler which suits 5mm on one side and 8mm on the other side as the motor shaft is 5mm and the rod is 8mm in diameter.  
+Make sure you *don't* get a coupler which uses a grub screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwn onto, same goes for the lead screw itself - so a clamping mechanism will just work better holding everything in place.  
+Besides that, using a clamp mechanism makes sure that the shaft and the lead screw are as centered as possible in the coupler - when using a coupler which uses grub screws / set screws, you most likely will end up with a coupler being mounted slightly off-center.      
+
+---
+    
+#### MOD: Changing The Anti-Backlash Nut  
+
+If the anti-backlash nut that came with the printer is worn out like shown in the picture below, you should look out for a new one.   
+    
+![Worn out nut](../assets/images/axes_worn-nut_web.jpg)  
+    
+The nut shown at the picture above is still useable though as it still sits tight on the rod.  
+However, sooner or later the debris will come off again and stick on the rod which may causes jams or stuttering of the z-axis movement.   
+These stock anti-backlash nuts used by Anycubic are pretty hard to find as a spare part though - and *if* you find them, they're most likely ridiculously overpriced.  
+    
+There are spring loaded anti-backlash nuts made of brass and POM for this kind of lead screw available as well, you can also use them.  
+    
+(..add pic..)  
+    
+However, the distance of the threads of the stock anti-backlash nut is 20mm, the ones of the 'regular' ones being available are either 16mm or 18mm - at least I personally didn't find any of them with 20mm distance. The 16mm obviously won't fit, but as the holes of the bracket where you actually mount this nut to are a bit of 'longholes', nuts with a thread distance of 18mm do actually fit.  
+    
+Whichever spring loaded anti-backlash nut you (re-)install, make sure that you press both parts together when putting the lead screw in. There's a little spring between the upper and the lower part of the nut which is there to prevent the backlash. This spring needs to be pushed together during the installation, so that there's tension and both parts of that nut system are being pushed away from each other when installed.  
+
+---        
+    
+#### MOD: Add An Oldham Coupler
+    
+I highly recommend adding a so called "Oldham Coupler". An Oldham Coupler allows horizontal movement of the rod which avoids jamming, stuttering or banding caused by the z-axis not being perfectly aligned vertically.  
+
+(.. add pic..)  
+    
+It needs to be mounted between the bracket which holds the anti-backlash nut and the anti-backlash nut itself. So it's *not replacing* any part, it's an addition to the whole setup.  
+
+(..add pic..)
+    
+You can look out for Oldham Couplers with a 18mm mounting hole distance (often they're advertised for being compatible with a Creality Ender 3) - BUT you'd have to swap out the stock anti-backlash nut and use one of the 'regular' spring loaded anti-backlash nuts with 18mm hole distance as the ones mentioned and shown in the expandable textbox "Changing The Anti-Backlash Nut" above (as the stock nut has 20mm distance between the holes which obviously doesn't match the 18mm of the Oldham Coupler).  
+
+---
+
+#### MOD: Bearing Block At The Top 
+Some users stabilize the rod of the Z-axis by adding a bearing block at the top. That's basically a holder/aligner with a ball bearing in the center which sits on top of the lead screw and mount the holder to the gantry to eliminate wobbling of the lead screw. For doing so, they print a construction and add a ball bearing, there are different STL files available for this solution.  
+  
+However, as much as it may seem useful at first sight, I personally *vote against this*.  
+In my opinion it's better if the top of the lead screw can move freely to avoid putting extra pressure on the lead screw, the frame and associated parts - especially in this case where we don't have a high precision type of construction and parts. If the guidance at the top doesn't allow at least minimal movement, then this could result in shear forces and even in bending the lead screw itself which would cause jamming or banding caused by the z-axis, also the anti-backlash nut will mist likely wear out earlier.  
+  
+??? note "Analogy To Fixed Vs. Free End Of The Z-Axis"
+  
+    The reason for this is quite simple, yet it seems that people aren't aware of it, so I'll try to explain it with an analogy.  
+    Think of the z-axis lead screw like it's a pool cue which is curved like the really bad ones you have to play with in certain bars. So when you put the cue on the table and roll it - what happens? It'll bump and stutter, there won't be a smooth movement, right?  
+    So now imagine a friend is holding the top and the bottom of it in place while you're holding it somewhere at the middle for example. Your friend here is the coupler and the holder at the top of the lead screw, you're the anti-backlash nut.  
+    So when your friend tries to turn the cue by rotatin it at the bottom while both of you still hold the other two spots - what happens? Will you as the 'anti-backlash nut' feel the wiggle and the forces or will it turn smooth? Exactly, you'll feel it - depending on how much the cue is bent and where exactly you placed your hand you'll either feel it stronger or weaker.  
+    So now let's place this cue on the edge of the table, so that only the bottom part lays on it. Again you place your hand somewhere in the middle and hold the cue tight, the end of the cue is just in the air.  
+    So when your friend rotates the cue again at the bottom - what will happen? Exactly, the end of the cue will wiggle around and you won't feel the forces that strong anymore like before.  
+    Now you and your friend still hold the cue at these positions, but both of you allow a tiny bit of movement, like you allow to move your arms just a tiny bit, following the movement of the cue. Again your friend rotates the cue at the bottom while the top of the cue can still wiggle around in the air. What will happen? Exactly, you as the 'anti-backlash nut' guy won't feel pretty much any forces or stuttering anymore.  
+    I know, using analogies isn't always a good idea to explain things, but I hope it became at least a bit more clear to you why (imho) the end of the lead screw shouldn't be rigidly fixed and why I suppose to use a flexible coupler at the bottom and an Oldham coupler in the middle where the anti-backlash nut is mounted to the frame.   
+  
+---
+    
+#### MOD: Dual Driven Z-Axis 
+The following mods show possibilities of adding a second lead screw and therefore avoid the potential sagging/lagging of the right part of the x-axis gantry as much as possible.  
+
+---
+
+##### Driven By Two Z-Steppers
+Reddit member [DrumsticknDrumstick](https://www.reddit.com/user/DrumsticknDrumstick/) upgraded the z-axis of his **Neo** to a dual drive, the solution fits both the **Go** and the **Neo**. Check out his [reddit post: "Kobra neo/go dual Z mod"](https://www.reddit.com/r/anycubic/comments/1083sr2/kobra_neogo_dual_z_mod/) and the [files plus discussion at printables.com](https://www.printables.com/de/model/364889-anycubic-kobra-neogo-dual-z-mod).  
+
+Due to the pretty much same construction of the frame, you should also be able to use mod kits that fit the Creality Ender 3 for example, but here a user mentioned that the lead screw appears to not be the same like at the **Go** or the **Neo**. I can't judge this as I didn't get myself such a kit and didn't compare them.  
+
+However, depending on the stepper motor you're using, it might be necessary to switch two wires for making the motor move.   
+
+![Neo dual z](../assets/images/axes_NeoDualZ_web.JPG)
+
+Unfortunately, when using the stock mainboard (which only has one stepper driver for the z-axis) you can't drive each stepper motor with it's own stepper driver and therefore can't use the G-Code command "G34 - Z steppers auto-alignment".  
+
+---
+
+##### Driven By A Timing Belt
+User ["chiz"](https://www.printables.com/de/@chiz_m) remixed the abovementioned solution from DrumsticknDrumstick and came up with a [timing belt driven dual z-axis](https://www.printables.com/de/model/462038-anycubic-kobra-go-dual-z-mod-with-timing-belt).  
+In this case the stock lead screw is driven by that one motor only, the second lead screw will then be driven by a timing belt.  
+
+If you go with this solution, I'd highly recommend to use an "Oldham Coupler" an the left bracket of the x-axis gantry where the anti-backlash nut is mounted to. The reason is simple: At that side the lead screw is fixated at three points: the top, the bottom and the middle (which is moving). So if the lead screw is slightly bent or any vertical misalignment is given, problems like a jammed axis and artefacts in the prints (like z-banding) might occur. 
+      
+---
+
+### Z-Axis System: Maintenance   
+
+Maintenance of the whole z-axis system (means, the whole lead screw setup *and* the belonging parts of the x-axis gantry) is crucial for a well operating printer.  
+Especially the initial cleaning (getting rid of the old and sticky 'oil') and lubrification plus the necessary vertical alignment of the lead screw system is *really* important!  
+
+In the following expandable textboxes you'll find some notes and instructions about how to care of the lead screw system.  
+
+!!! warning "Z-Axis Drives X-Axis Gantry"  
+
+    **The lead screw drives the x-axis gantry up and down along the z-axis aluminum frame parts, so check the section [x-axis gantry](#x-axis-gantry) as well for adjusting the position of the brackets the v-slot wheels are mounted to as well as for adjusting the position of the wheels!**  
+
+??? example "Lead Screw System Maintenance"
 
     - Make sure the coupler is mounted correctly.    
       Check from time to time that the coupler didn't come loose somehow. 
@@ -410,87 +661,34 @@ The top end of the rod is completely unguided, in between it's guided and secure
         It's perfectly fine for washing off old oil from the threaded rod, but it's *not* a sufficient lubrification!  
         People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
         As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait..  
-  
-??? example "Changing The Coupler"
+   
+??? example "Disassembling The Lead Screw System"   
 
-    It might be a good idea to change the coupler as the one which comes with the printer doesn't compensate any misalignement of the motor shaft and the lead screw. So if they aren't in a perfect vertical alignment, it will result in shear forces, increased wear of the anti-backlash nut and even may cause jamming. The following picture shows the stock coupler that is mounted. <br> ![Coupler](../assets/images/axes_stock-coupler_web.jpg) <br> Here is a picture of a flex coupler I replaced the stock coupler with. <br> ![Flex coupler](../assets/images/axes_flexcoupler_web.jpg) <br> When mounting it, I put a ball of a ball bearing between the motorshaft and the lead screw, so that the flexcoupler won't be pushed together by the weight of the z-axis. I also added ball bearings underneath the flexcoupler to keep the main load off of the motorshaft and transfer it to the motorhousing. Additionally, I also added a nylon washer of the correct thickness underneath the motor itself as it was hanging in the air, only held by the two screws of the motormount at the z-axis aluminum profile.      
-    If you want to change the coupler, you'll need to get a coupler which suits 5mm on one side and 8mm on the other side as the motor shaft is 5mm and the rod is 8mm in diameter. Make sure you *don't* get a coupler which uses a grub screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwn onto. Same goes for the lead screw itself.    
+    If you need to disassemble the z-axis lead screw system, there are a few things that one should be aware of. Besides that, the necessary steps are pretty easy and self-explaing, so I'll go over them just really quick.  
     
-??? example "Changing The Anti-Backlash Nut"  
+    - First, you should somehow fixate the gantry of the x-axis to get the load off of the lead screw. You can do so by e.g. putting two soupcans onto the bed, each on one side (left/right) and then lower the gantry until it rests onto them. Or you can move the gantry up and fixate it with some velcro straps or cable ties as shown in the picture below. <br> ![Parked x-axis gantry](../assets/images/axes_x-gantry-cableties_web.jpg)  
+    - Now unplug the wire from the stepper motor, just to be on the safe side. The printer itself is also switched off of course.  
+    - Loosen the two screws at the coupler which conects the motor shaft and the lead screw. 
+    - Now you can turn the lead screw by hand to screw it out of the anti-backlash nut. After you completely took it out, dismount the anti-backlash nut from the holder at the frame as well.  
+      If you fixated the x-axis gantry at the top like shown in the picture above, you can also just screw the lead screw a bit higher into the anti-backlash nut so that it comes out of the coupler and then you just dismount the anti-backlash nut from the holder at the frame. After that you can take out the lead screw with the nut still on and take off the nut then.  
+    - Take off the coupler from the motor shaft as well for being able to inspect everything.  
 
-    If the anti-backlash nut that came with the printer is worn out like shown in the picture below, you should look out for a new one. <br> ![Worn out nut](../assets/images/axes_worn-nut_web.jpg) <br> The nut shown at the picture above is still useable though as it still sits tight on the rod. However, sooner or later the debris will come off again and stick on the rod which may causes jams or stuttering of the z-axis movement.     
-    If you find a spring tensioned anti-backlash nut made of brass, you can also use that. However, until now I didn't find one which fits the distance of the holes though.  
-    When you (re-)install the anti-backlash nut, make sure that you press both parts together when putting the lead screw in. There's a little spring between the upper and the lower part of the nut which is there to prevent the backlash. This spring needs to be pushed together during the installation, so that there's tension and both parts of that nut system are being pushed away from each other when installed.  
-        
-    !!! tip "Oldham Coupler"
+??? example "Reassembling The Lead Screw System"   
+
+    If you need to resassemble the z-axis lead screw system, there are a few things that one should be aware of. Besides that, the necessary steps are pretty easy and self-explaing, so I'll go over them just really quick.  
     
-        If you find one that fits, you can mount an Oldham coupler additionally between the nut and the holder of the frame. That'll allow horizontal movement of the rod which avoids jamming, stuttering or banding caused by the z-axis.  
-  
----
+    - To reassemble everything, just follow your steps backwards.   
+    However, there are a few things you should pay attention to now:  
+    - Make sure the motor shaft and the bottom tip of the lead screw are free of oil or grease to avoid slipping of the coupler.  
+    - Mount the coupler to the bottom of the lead screw first and tighten the screw. Then put it onto the motor shaft and tighten the screw. The coupler should not move or wiggle on either part.    
+    - When installing the *anti-backlash nut*, make sure you *press it together* firmly while inserting the lead screw, so that the spring inside these two parts of the anti-backlash nut is completely compressed and loaded. 
+    - Before finally installing the lead screw, loosen up the screws of the motor holder a bit so that the motor itself can move a bit on the horizontal plane.  
+    Then install the lead screw, *align everything*, screw the anti-backlash nut (attention: don't forget to really press it together!) to the belonging holder and align the motor once again.  
+    Then finally tighten up the screws of the motor mount.  
+    By doing so you do the best you can to get the parts vertically aligned as much as possible.  
 
-### Limit Switch
+---  
 
-The optical limit switch of the z-axis is located at the bottom of the left z-axis aluminum profile.  
-
-![z-axis limit switch](../assets/images/axes_z-limitswitch_web.jpeg)  
-
-The little metal lever that triggers the switch is mounted to the left bracket of the x-axis gantry. When the gantry moves down, the lever slides into that slot of the optical switch and triggers it.   
-
-The following pictures show the disassembled limit switch, just in case you're looking out for a suitable third party manufactured replacement.  
-
-![z-axis limit switch open](../assets/images/axes_z-limit_open_web.jpg)  
-
-![z-axis limit switch, sideview](../assets/images/axes_z-limit_sideview-bare_web.jpg)  
-
-![z-axis limit switch, size](../assets/images/axes_z-limit-size-bare_web.jpg)  
-
-
----
-  
-### MOD: Bearing Block At The Top 
-Some users stabilize the rod of the Z-axis by adding a bearing block at the top. That's basically a holder/aligner with a ball bearing in the center which sits on top of the lead screw and mount the holder to the gantry to eliminate wobbling of the lead screw. For doing so, they print a construction and add a ball bearing, there are different STL files available for this solution.  
-  However, as much as it may seem useful at first sight, I personally vote against this. In my opinion it's better if the top of the lead screw can move freely to avoid putting extra pressure on the lead screw, the frame and associated parts - especially in this case where we don't have a high precision type of construction and parts. If the guidance at the top doesn't allow at least minimal movement, then this could result in shear forces and even in bending the lead screw itself which would cause jamming or banding caused by the z-axis, also the anti-backlash nut will mist likely wear out earlier.  
-  
-??? note "Analogy To Fixed vs Free End Of The Z-Axis"
-  
-    The reason for this is quite simple, yet it seems that people aren't aware of it, so I'll try to explain it with an analogy.  
-    Think of the z-axis lead screw like it's a pool cue which is curved like the really bad ones you have to play with in certain bars. So when you put the cue on the table and roll it - what happens? It'll bump and stutter, there won't be a smooth movement, right?  
-    So now imagine a friend is holding the top and the bottom of it in place while you're holding it somewhere at the middle for example. Your friend here is the coupler and the holder at the top of the lead screw, you're the anti-backlash nut.  
-    So when your friend tries to turn the cue by rotatin it at the bottom while both of you still hold the other two spots - what happens? Will you as the 'anti-backlash nut' feel the wiggle and the forces or will it turn smooth? Exactly, you'll feel it - depending on how much the cue is bent and where exactly you placed your hand you'll either feel it stronger or weaker.  
-    So now let's place this cue on the edge of the table, so that only the bottom part lays on it. Again you place your hand somewhere in the middle and hold the cue tight, the end of the cue is just in the air.  
-    So when your friend rotates the cue again at the bottom - what will happen? Exactly, the end of the cue will wiggle around and you won't feel the forces that strong anymore like before.  
-    Now you and your friend still hold the cue at these positions, but both of you allow a tiny bit of movement, like you allow to move your arms just a tiny bit, following the movement of the cue. Again your friend rotates the cue at the bottom while the top of the cue can still wiggle around in the air. What will happen? Exactly, you as the 'anti-backlash nut' guy won't feel pretty much any forces or stuttering anymore.  
-    I know, using analogies isn't always a good idea to explain things, but I hope it became at least a bit more clear to you why (imho) the end of the lead screw shouldn't be rigidly fixed and why I suppose to use a flexible coupler at the bottom and an Oldham coupler in the middle where the anti-backlash nut is mounted to the frame.   
-  
----
-    
-### MOD: Dual Driven Z-Axis 
-The following mods show possibilities of adding a second lead screw and therefore avoid the potential sagging/lagging of the right part of the x-axis gantry as much as possible.  
-
----
-
-#### Driven By Two Z-Steppers
-Reddit member [DrumsticknDrumstick](https://www.reddit.com/user/DrumsticknDrumstick/) upgraded the z-axis of his **Neo** to a dual drive, the solution fits both the **Go** and the **Neo**. Check out his [reddit post: "Kobra neo/go dual Z mod"](https://www.reddit.com/r/anycubic/comments/1083sr2/kobra_neogo_dual_z_mod/) and the [files plus discussion at printables.com](https://www.printables.com/de/model/364889-anycubic-kobra-neogo-dual-z-mod).  
-
-Due to the pretty much same construction of the frame, you should also be able to use mod kits that fit the Creality Ender 3 for example, but here a user mentioned that the lead screw appears to not be the same like at the **Go** or the **Neo**. I can't judge this as I didn't get myself such a kit and didn't compare them.  
-
-However, depending on the stepper motor you're using, it might be necessary to switch two wires for making the motor move.   
-
-![Neo dual z](../assets/images/axes_NeoDualZ_web.JPG)
-
-Unfortunately, when using the stock mainboard (which only has one stepper driver for the z-axis) you can't drive each stepper motor with it's own stepper driver and therefore can't use the G-Code command "G34 - Z steppers auto-alignment".  
-
----
-
-#### Driven By A Timing Belt
-User ["chiz"](https://www.printables.com/de/@chiz_m) remixed the abovementioned solution from DrumsticknDrumstick and came up with a [timing belt driven dual z-axis](https://www.printables.com/de/model/462038-anycubic-kobra-go-dual-z-mod-with-timing-belt).  
-In this case the stock lead screw is driven by that one motor only, the second lead screw will then be driven by a timing belt.  
-
-If you go with this solution, I'd highly recommend to use an "Oldham Coupler" an the left bracket of the x-axis gantry where the anti-backlash nut is mounted to. The reason is simple: At that side the lead screw is fixated at three points: the top, the bottom and the middle (which is moving). So if the lead screw is slightly bent or any vertical misalignment is given, problems like a jammed axis and artefacts in the prints (like z-banding) might occur. 
-      
-
-
----
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
 
