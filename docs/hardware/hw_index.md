@@ -17,13 +17,15 @@ Sure, you want to dive right into the beautiful ocean of 3D printing. And you wi
 The point is: even if you got the preassembled **Neo**, not everything might be assembled and mounted correctly. Some bolts or screws might not be tight enough or might be overtightened. The wheels might be too loose or too tight, same with the belts.  
 And about the lead screw: just touch it. Does it feel kinda wet and oily, or does it feel more sticky and resinous instead? I'd bet it's more the last. And especially this will lead to a pretty quick wear out (in this case of the anti-backlash nut) and weird artifacts on your prints (due to the inconsistent movement) which will drive you crazy after hours of calibration prints.  
 
-Just to show you what I'm talking about, look at the following pictures of the Y axis frame. There you can see that even when using the 'precut' mounting areas, you still have a *huge* amount of play and you can actually mount the frame completely crooked.  
+Just to show you what I'm talking about, look at the following pictures of the Y axis frame.  
+There you can see the *huge* amount of play you have and you can actually mount the frame completely crooked.  
 The first two pictures I took for showing you the maximum deviations which are possible.  
-The third picture shows you the y-axis how it came *preassembled* from the manufacturer - now imagine me trying to get an almost perfect print out it..  
 
 ![Y-axis crooked 1](../assets/images/baseframe_y-crooked1_web.jpg)  
 
 ![Y-axis crooked 2](../assets/images/baseframe_y-crooked2_web.jpg)  
+
+The following picture shows you the y-axis how it came *preassembled* at one of my Neos from the manufacturer - now imagine me trying to get an almost perfect print out it if I wouldn't have checked on it..  
 
 ![Y-axis crooked from manufacturer](../assets/images/axes_y-axis-crooked_web.jpg)  
 
