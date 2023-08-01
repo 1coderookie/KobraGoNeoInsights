@@ -23,12 +23,32 @@ The x-axis gantry moves along the z-axis (up and down).
 The endstop/limit switches of the axes are located at the *minimum* endposition of each axis and are triggered when either axis reaches its limit. The switches of the x- and y-axes are mechanical switches, the one at the z-axis is an optical switch.    
 So if you notice that e.g. the motor of the y-axis doesn't stop when the bed reaches the end then you should check if the belonging switch is faulty. 
 
-??? example "Checking The Switches (And Wires)"
-
-    You can check if the switch really isn't working by triggering it manually while e.g. the bed is moving. If the bed doesn't stop, turn off your printer. Check the connectors at the switch and the mainboard if they're still in place.  
-    If everything looks fine here, then it's most likey that either a wire is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the wires. When measuring the wires, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
-    If the wire is broken, fix it or install a new one. If the limit switch itself is broken, disassemble the switch from the frame and put in a new one. Wire everything up again and try again triggering it manually to see if it works now.   
+--- 
   
+## Frame And Axes
+
+Before going into the details of each axis, let me emphasize how important it is to set up and tram the whole frame correctly and check everything twice before you proceed with assembling the rest of the printer and actually using it.  
+
+To give you a first impression, let me show you how the y-axis of one of Neos looked like when it came preassembled from the manufacturer.  
+
+![Y-axis crooked from manufacturer](../assets/images/axes_y-axis-crooked_web.jpg)  
+
+I think that picture speaks for itself.  
+
+The next two pictures show you the amount of play you have when actually mounting the frame. I tilted the y-axis to the maximum possible positions, the inner aluminum frame part where the y-axis is mounted to rotates along those two screwholes of the side frames.  
+
+![Y-axis crooked 1](../assets/images/baseframe_y-crooked1_web.jpg)  
+
+![Y-axis crooked 2](../assets/images/baseframe_y-crooked2_web.jpg)  
+
+I didn't take a picture of it yet, but it's also possible to mount the aluminum frame of the z-axis tilted, even though there are precut areas where the parts should rest in.  
+
+So now imagine a frame that is mounted crooked and you're trying to get almost perfect prints out of it. No matter how much you tweak settings, adjust the belt tensions, adjust the v-slot wheel positions - you won't be able to get the desired outcome.  
+
+Hopefully you realize how important it is to start with the most important part of the whole printer first - the base frame. This is the construction everything else relies on. If the base frame is already mounted crooked, if parts aren't perpendicular, parallel and equidistant to each other - how should everything else that is running along these structures or is built upon them work as intended?  
+
+So, please, grab the sufficient tools, take some time and pay close attention when building up the printer. If you got yourself the Neo, don't trust the preassembled parts, disassemble them and reassemble them in the correct way - at least check if everything is set up as it should be.  
+Once you've done all that, you not only know your printer much better already, but you also created the fundament for a reliably working machine.  
 
 ---
 
@@ -164,11 +184,17 @@ The limit switch is located inside of the blue plastic cover at the left hand si
 ![X-axis limit switch frontview](../assets/images/axes_x-limit-switch_web.jpg)  
   
 ![X-axis limit switch backview](../assets/images/axes_x-axis-limit-switch_web.jpg)  
+
+??? example "Checking The Switches (And Wires)"
+
+    You can check if the switch really isn't working by triggering it manually while the belonging axis is moving. If the movement doesn't stop, turn off your printer. Check the connectors at the switch and the mainboard if they're still in place.  
+    If everything looks fine here, then it's most likey that either a wire is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the wires. When measuring the wires, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
+    If the wire is broken, fix it or install a new one. If the limit switch itself is broken, disassemble the switch from the frame and put in a new one. Wire everything up again and try again triggering it manually to see if it works now.  
   
 ??? example "Limit Switch Problem"
 
-    If you encounter the problem that the limit switch won't be hit sufficiently for being triggered sucessfully, move the printhead manually against it (with the blue plastic cover of the printhead removed) and observe what might cause the problem. Try to adjust the position of the limit switch, so that it can be triggered sucessfully.  
-    When using a **Neo**, pay attention to the metal lever of the switch itself as well as to the nut of the left wheel of the gantry. See both areas marked in the following picture. <br> ![Problematic limit switch](../assets/images/axes_x-limit-switch_problematic_web.jpg) <br> It might be the case that the nut hits the y-shaped metal bracket of the x-axis gantry before the edge of the metal bracket triggers the limit switch. In this case you might want to try to move the limit switch a bit more to the right. If that doesn't work, you probably would have to grind away a bit of the metal of the y-shaped bracket.   
+    If you encounter the problem that the limit switch won't be hit sufficiently for being triggered sucessfully, move the printhead manually against it (with the blue plastic cover of the printhead removed) and observe what might cause the problem. Most of the cases the whole blue plastic cap isn't in the correct position, so check that and try to adjust the position, so that it can be triggered sucessfully.  
+    When using a **Neo**, pay attention to the metal lever of the switch itself as well as to the nut of the left wheel of the gantry. See both areas marked in the following picture. <br> ![Problematic limit switch](../assets/images/axes_x-limit-switch_problematic_web.jpg) <br> It might be the case that the nut hits the y-shaped metal bracket of the x-axis gantry before the edge of the metal bracket triggers the limit switch.    
   
 ---
 
@@ -435,7 +461,12 @@ The limit switch for the y-axis is mounted at the back, right on front of the mo
 
 ![Y-axis limit switch back](../assets/images/axes_Y-limit-switch_bare_back_web.jpg)  
 
+??? example "Checking The Switches (And Wires)"
 
+    You can check if the switch really isn't working by triggering it manually while the belonging axis is moving. If the movement doesn't stop, turn off your printer. Check the connectors at the switch and the mainboard if they're still in place.  
+    If everything looks fine here, then it's most likey that either a wire is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the wires. When measuring the wires, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
+    If the wire is broken, fix it or install a new one. If the limit switch itself is broken, disassemble the switch from the frame and put in a new one. Wire everything up again and try again triggering it manually to see if it works now.  
+    
 ---
 
 ## Z-Axis
@@ -514,6 +545,12 @@ The following pictures show the disassembled limit switch, just in case you're l
 ![z-axis limit switch, sideview](../assets/images/axes_z-limit_sideview-bare_web.jpg)  
 
 ![z-axis limit switch, size](../assets/images/axes_z-limit-size-bare_web.jpg)  
+
+??? example "Checking The Switches (And Wires)"
+
+    You can check if the switch really isn't working by triggering it manually while the belonging axis is moving. If the movement doesn't stop, turn off your printer. Check the connectors at the switch and the mainboard if they're still in place.  
+    If everything looks fine here, then it's most likey that either a wire is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the wires. When measuring the wires, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
+    If the wire is broken, fix it or install a new one. If the limit switch itself is broken, disassemble the switch from the frame and put in a new one. Wire everything up again and try again triggering it manually to see if it works now.  
 
 ---
 
