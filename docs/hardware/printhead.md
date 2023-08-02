@@ -576,6 +576,13 @@ The following pictures show each hotend being disassembled. You can clearly see 
 ![3rd party hotend disassembled](../assets/images/head_neo_hotend-3rdparty-disassembled_web.jpg)  
 
 ![Bi-metal 3rd party hotend disassembled](../assets/images/head_neo_bimetal-hotend_disassembled_web.jpg)
+
+!!! warning "Adjust The Position Of The Part Cooling Fan"  
+
+    If you're going to use a heatbreak which is longer than the stock one, pay attention to the part cooling fan duct / fan duct outlet. As the whole hotend setup will be slightly longer and the nozzle will be positioned a bit lower, you need to adjust the position of the fan duct (outlet), so that it doesn't point the airstream onto the nozzle, but onto the printed part.  
+    As the fan duct models being available at Thingiverse, Printables etc are made for the stock setup, you'll have to modify the design, so that the outlet will come lower.  
+    I did this for two models, but as I want to finetune that a bit and don't have an account there yet, I didn't put those modified version online yet. Once I did that, I'll link to them, so that you can just print them without the need of extra modification.  
+
      
 ---  
 
@@ -621,8 +628,8 @@ As this isn't a bi-metal/full metal heatbreak, there is a little PTFE-tube insid
 
 #### MOD: Different Heatbreak
 
-The following picture shows two heatbreaks next to the stock one from third party manufacturers which I use in my **Neo**.  
-The steel one is about 27mm long, the copper bi-metal one is about 27.5mm long (overall). Due to the slightly bigger length than the stock one, the position of the nozzle is a bit further down though, so I had to adjust the position of the printed part cooling fan ducts I'm using. So if you want to avoid that, pay attention to the length of the heatbreak when looking out for a different one!  
+The following picture shows two heatbreaks next to the stock one from third party manufacturers which I use in my **Neos**.  
+The steel one is about 27mm long, the copper bi-metal one is about 27.5mm long (overall).      
 
 ![3 heatbreaks](../assets/images/head_neo_3heatbreaks_web.jpg)
 
@@ -630,6 +637,11 @@ The steel one is about 27mm long, the copper bi-metal one is about 27.5mm long (
 
 ![3 heatbreaks bottom view](../assets/images/head_neo_3heatbreaks_bottom_web.jpg)
 
+!!! warning "Adjust The Position Of The Part Cooling Fan Duct (Outlet)"  
+
+    If you're going to use a heatbreak which is longer than the stock one, pay attention to the part cooling fan duct / fan duct outlet. As the whole hotend setup will be slightly longer and the nozzle will be positioned a bit lower, you need to adjust the position of the fan duct (outlet), so that it doesn't point the airstream onto the nozzle, but onto the printed part.  
+    As the fan duct models being available at Thingiverse, Printables etc are made for the stock setup, you'll have to modify the design, so that the outlet will come lower.  
+    I did this for two models, but as I want to finetune that a bit and don't have an account there yet, I didn't put those modified version online yet. Once I did that, I'll link to them, so that you can just print them without the need of extra modification.  
 
 !!! warning "Bi-Metal/All-Metal Heatbreak And PLA"
 
