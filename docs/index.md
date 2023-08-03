@@ -56,8 +56,8 @@ Depending on the color of the box, it's either a tip, information, instruction, 
     - Thanks to **[Balambao](https://www.reddit.com/user/Balambao)** for taking a picture of the ceramic heater block!  
     - Thanks to **[BlackSunBeast](https://www.reddit.com/user/BlackSunBeast)** for taking pictures of the feeder gear of the **Go** and the **Go** itself!  
     - Thanks to **[Darth_Kram](https://www.reddit.com/user/Darth_Kram)** for disassembling the feeder gear box of the **Go**, taking those pics and measuring the dimensions of those parts!  
-    - Thanks to **[felixna](https://forum.drucktipps3d.de/user/6880-felixna/)** of the German [drucktipps3d.de forum](https://forum.drucktipps3d.de/forum/) for allowing me to use his circuit drawing of how to add a step-down converter for PWM controlled fans!  
-    - Thanks to reddit member **[GruesomeJeans](https://www.reddit.com/user/GruesomeJeans)** for taking pictures of the spare parts of the bed, the magnetic foil and the z-axis limit switch!  
+    - Thanks to **[felixna](https://forum.drucktipps3d.de/user/6880-felixna/)** for allowing me to use his circuit drawing of how to add a step-down converter for PWM controlled fans!  
+    - Thanks to **[GruesomeJeans](https://www.reddit.com/user/GruesomeJeans)** for taking pictures of the spare parts of the bed, the magnetic foil and the mounted z-axis limit switch!  
     - Thanks to **[I_Sells_Drugs](https://www.reddit.com/user/I_Sells_Drugs/)** for taking pictures of his sheared off heatbreak!
     - Thanks to **[mowerheimen](https://www.reddit.com/user/mowerheimen)** for allowing me to use the picture of the crooked x-axis gantry!
     - Thanks to **[Sad-Lie8181](https://www.reddit.com/user/Sad-Lie8181)** for taking a picture of his dual z-driven Neo!  
