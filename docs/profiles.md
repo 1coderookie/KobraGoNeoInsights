@@ -1,5 +1,47 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
+
+# Slicers  
+In the following you'll find some short notes about the most common Slicers: Cura, PrusaSlicer, SuperSlicer, OrcaSlicer.  
+
+A slicer is a program you open your STL file with, adjust the settings for how the printer should print the model (like speed, temperature etc.) and then you "slice" the model for getting the gcode-file generated, which then will be taken by the printer.  
+
+So no matter if you're using the stock firmware of the printer or if you're using Klipper, you always need a slicer.
+
+However, due to the fact that Klipper uses extended G-code and macros, there are a few things to be aware of.  
+In the following I'll just go over the abovementioned slicers really quick as it would be too much to discuss the slicers in detail. You'll find many resources online though where you'll find more information about them.    
+
+---
+
+## Cura  
+Cura is probably the most commonly known slicer. If you check support page of Anycubic or if you have a look at the content of the microSD card that was shipped with the printer, you'll find an *outdated* version of Cura and some printer profiles for it. My suggestion would be: *don't* use that outdated Cura version and *don't* use the profiles Anycubic offers, at least not without inspecting them (especially Neo users!). You can find more notes on the profiles further down below.  
+
+Even though Cura and Klipper work perfectly together, there are a few things to be aware of.  
+Certain classic G-code commands aren't directly supported by Klipper as it uses extended G-code and scripts for certain things. As an example the G-code command `M0` (unconditional stop) isn't recognized by Klipper, you'd have to use the extended G-code command `PAUSE` for that.  
+
+Also there are a few functions of Cura which should improve the print quality which interfere with Klipper's own approaches for that (like Pressure Advance or Input Shaping).  
+
+You'll find a good overview of what to be aware of in the tutorial from [All3DP: Cura & Klipper: How to Make Them Work Together](https://www.all3dp.com/2/cura-klipper-tutorial).  
+ 
+The latest version of Cura also offers the option to now set the G-code flavor to Klipper.   
+However, there's also a ["Klipper Settings Plugin"](https://github.com/jjgraphix/KlipperSettingsPlugin) available which adds a category to Cura called "Klipper Settings" and offers Klipper specific settings and features.  
+ 
+
+---
+ 
+## PrusaSlicer, SuperSlicer, OrcaSlicer 
+PrusaSlicer and it derivates like SuperSlicer and OrcaSlicer are my personal favourites after using Cura for some time.  
+
+You can set the G-code flavor depending on the firmware of the printer (menu "Printer Settings") to "Klipper" as shown in the screenshot of SuperSlicer below, so it's already everything set up correctly within the G-code of the sliced files.  
+  
+![SuperSlicer firmware](../assets/images/klipperfw_superslicer-flavor.png)
+  
+Of course all slicers have many functionalities to finetune and control the output - you can even choose between different patterns for the top layer finish. They're all pretty identical overall, yet they differ in certain functions. One of them being worth mentioned is a *handy set of calibration tools that comes with SuperSlicer and OrcaSlicer*. This function actually guides you step by step through the calibration process and allows you to generate calibration models like temperature or retraction towers with individual settings by just a few clicks.  
+
+Make sure to enable the optional "Arachne Engine" (Print Settings -> Perimeters) as it improves the quality of the printed parts. 
+
+---
+
 # Printer Profiles
 
 The microSD card shipped with your printer should contain Cura profiles. If you don't have them, you can download them at [Anycubic's support page](https://www.anycubic.com/pages/firmware-software) but I'll list and link to them further below also.  
