@@ -103,7 +103,8 @@ You adjust the tension of the belt by turning it clockwise for increasing the te
     For reassembling, just put the pulley back into place and stick that little shaft back to where it belongs.  
     Then route the belt through that bracket - make sure the belt isn't somehow twisted and that the teeth are gripping onto the pulley - the smooth side of the belt needs to face you when you look at it from above.  
     Stick the setup back into the blue plastic cap and stick the screw of that knob into the belonging hole at the front. Turn the knob a few times clockwise to make the thread grip the bracket.  
-    Then slide the whole setup back ino place where it belongs, hook up the belt to the bedgantry again and screw in the two screws which hold the blue plastic cap into place.  
+    Then slide the whole setup back into place where it belongs and screw in the two screws which hold the blue plastic cap into place.  
+    finally hook up the ends of the belt to those notches at the metal mounting plate of the printhead again.     
     Once everything is done, adjust the belt tension again by turning the knob clockwise.  
 
 ---
@@ -376,7 +377,8 @@ You adjust the tension of the belt by turning it clockwise for increasing the te
     For reassembling, just put the pulley back into place and stick that little shaft back to where it belongs.  
     Then route the belt through that bracket - make sure the belt isn't somehow twisted and that the teeth are gripping onto the pulley - the smooth side of the belt needs to face you when you look at it from above.  
     Stick the setup back into the blue plastic cap and stick the screw of that knob into the belonging hole at the front. Turn the knob a few times clockwise to make the thread grip the bracket.  
-    Then slide the whole setup back ino place where it belongs, hook up the belt to the bedgantry again and screw in the two screws which hold the blue plastic cap into place.  
+    Then slide the whole setup back into place where it belongs and screw in the two screws which hold the blue plastic cap into place.  
+    Finally hook up the end of the belt to that notch at the bedgantry again.   
     Once everything is done, adjust the belt tension again by turning the knob clockwise.  
 
 ---
