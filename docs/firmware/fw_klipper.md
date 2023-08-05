@@ -253,37 +253,6 @@ However, if you really do miss the option to control the printer right at that p
 
 ---
        
-## Slicers
-Due to the fact that Klipper uses extended G-code and macros, there are a few things to be aware of when using certain slicers like Cura, PrusaSlicer, SuperSlicer etc.  
-In the following I'll just go over them really quick as it would be too much to discuss the slicers in detail. You'll find many resources online though where yuo'll find more information about them.    
-
----
-
-### Cura  
-Even though Cura and Klipper work perfectly together, there are a few things to be aware of.  
-Certain classic G-code commands aren't directly supported by Klipper as it uses extended G-code and scripts for certain things. As an example the G-code command `M0` (unconditional stop) isn't recognized by Klipper, you'd have to use the extended G-code command `PAUSE` for that.  
-
-Also there are a few functions of Cura which should improve the print quality which interfere with Klipper's own approaches for that (like Pressure Advance or Input Shaping).  
-
-You'll find a good overview of what to be aware of in the tutorial from [All3DP: Cura & Klipper: How to Make Them Work Together](https://www.all3dp.com/2/cura-klipper-tutorial).  
- 
-However, there's a ["Klipper Settings Plugin"](https://github.com/jjgraphix/KlipperSettingsPlugin) available which adds a category to Cura called "Klipper Settings" and offers Klipper specific settings and features.  
-
----
- 
-### PrusaSlicer, SuperSlicer, OrcaSlicer 
-PrusaSlicer and it derivates like SuperSlicer and OrcaSlicer are my personal favourites after using Cura for some time.  
-You can set the G-code flavor depending on the firmware of the printer (menu "Printer Settings") to "Klipper" as shown in the screenshot of SuperSlicer below, so it's already everything set up correctly within the G-code of the sliced files.  
-  
-![SuperSlicer firmware](../assets/images/klipperfw_superslicer-flavor.png)
-  
-Of course all slicers have many functionalities to finetune and control the output - you can even choose between different patterns for the top layer finish. They're all pretty identical overall, yet they differ in certain functions. One of them being worth mentioned is a *handy set of calibration tools that comes with SuperSlicer and OrcaSlicer*. This function actually guides you step by step through the calibration process and allows you to generate calibration models like temperature or retraction towers with individual settings by just a few clicks.  
-
-*I personally would suppose to use the "Arachne Edition" of SuperSlicer (already implemented in the recent version of PrusaSlicer) and enable that function (Print Settings -> Perimeters) as it improves the quality of the printed parts.* 
-
-
----
-
 ## OctoPrint, Mainsail or Fluidd?
 To find out what's the best solution for you, either do a little research on that, watch some YouTube videos or just get another mSD card for your RPi, install e.g. MainsailOS onto it and then just give it a try.  
 Due to the fact that I personally use and recommend Mainsail, I'll always refer to it when it comes down to describe or show certain things in this chapter.  
