@@ -141,11 +141,10 @@ nav:
     - Introduction: 'firmware/introduction.md'
     - Stock Firmware (Marlin Based): 'firmware/fw_marlin.md'
     - Klipper (MOD): 'firmware/fw_klipper.md'
-  - Printer Profiles: 'profiles.md'
+  - Slicers & Profiles: 'profiles.md'
   - Calibration: 'calibration.md'
   - Troubleshooting: 'troubleshooting.md'
   - Printserver: 'printserver.md'
   - Tools: 'tools.md'
-  - G-Code Documentation: 'gcode_doc.md'
   - Further Sources: 'further_sources.md'
         
