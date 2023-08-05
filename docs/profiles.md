@@ -1,10 +1,12 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 
-# Slicers  
-In the following you'll find some short notes about the most common Slicers: Cura, PrusaSlicer, SuperSlicer, OrcaSlicer.  
+# Slicers  & Printer Profiles
 
-A slicer is a program you open your STL file with, adjust the settings for how the printer should print the model (like speed, temperature etc.) and then you "slice" the model for getting the gcode-file generated, which then will be taken by the printer.  
+In the following you'll find some short notes on the most common Slicers Cura, PrusaSlicer, SuperSlicer and OrcaSlicer and some notes on printer profiles for these slicers.  
+
+A slicer is a program you open your STL file with and which needs to be set up with a profile which contain the specific settings for your printer.  
+When you open the STL file of the model you want to print, you then adjust some settings for how the printer should print the model (like speed, temperature etc.) and then you "slice" the model for getting the `.gcode` file generated, which then will be taken and processed by the printer.   
 
 So no matter if you're using the stock firmware of the printer or if you're using Klipper, you always need a slicer.
 
@@ -13,7 +15,11 @@ In the following I'll just go over the abovementioned slicers really quick as it
 
 ---
 
-## Cura  
+## Slicers  
+
+---
+
+### Cura  
 Cura is probably the most commonly known slicer. If you check support page of Anycubic or if you have a look at the content of the microSD card that was shipped with the printer, you'll find an *outdated* version of Cura and some printer profiles for it. My suggestion would be: *don't* use that outdated Cura version and *don't* use the profiles Anycubic offers, at least not without inspecting them (especially Neo users!). You can find more notes on the profiles further down below.  
 
 Even though Cura and Klipper work perfectly together, there are a few things to be aware of.  
@@ -29,7 +35,7 @@ However, there's also a ["Klipper Settings Plugin"](https://github.com/jjgraphix
 
 ---
  
-## PrusaSlicer, SuperSlicer, OrcaSlicer 
+### PrusaSlicer, SuperSlicer, OrcaSlicer 
 PrusaSlicer and it derivates like SuperSlicer and OrcaSlicer are my personal favourites after using Cura for some time.  
 
 You can set the G-code flavor depending on the firmware of the printer (menu "Printer Settings") to "Klipper" as shown in the screenshot of SuperSlicer below, so it's already everything set up correctly within the G-code of the sliced files.  
@@ -42,7 +48,7 @@ Make sure to enable the optional "Arachne Engine" (Print Settings -> Perimeters)
 
 ---
 
-# Printer Profiles
+## Printer Profiles
 
 The microSD card shipped with your printer should contain Cura profiles. If you don't have them, you can download them at [Anycubic's support page](https://www.anycubic.com/pages/firmware-software) but I'll list and link to them further below also.  
 
@@ -59,11 +65,11 @@ You can always set up your own custom profile in your slicer. Just pay attention
   
 ---  
   
-## Go 
+### Go 
 
 ---
 
-### Official Profiles
+#### Official Profiles
 
 The following list links to the specific profiles from [Anycubic's firmware page](https://www.anycubic.com/pages/firmware-software):
  
@@ -73,20 +79,20 @@ The following list links to the specific profiles from [Anycubic's firmware page
   
 ---
 
-### Custom Profiles 
+#### Custom Profiles 
 
 The following list links to profiles provided by users which I became aware of:  
 
-- @[natur3kid](https://github.com/natur3kid) offers profile for PrusaSlicer for the Kobra **Go**: [https://github.com/natur3kid/PrusaSlicer_KobraGo](https://github.com/natur3kid/PrusaSlicer_KobraGo) 
+- @[natur3kid](https://github.com/natur3kid) offers a profile for PrusaSlicer for the Kobra **Go**: [https://github.com/natur3kid/PrusaSlicer_KobraGo](https://github.com/natur3kid/PrusaSlicer_KobraGo) 
 
 
 ---
 
-## Neo 
+### Neo 
 
 ---
 
-### Official Profiles
+#### Official Profiles
 
 The following list links to the specific profiles from [Anycubic's firmware page](https://www.anycubic.com/pages/firmware-software): 
  
@@ -107,11 +113,11 @@ The following list links to the specific profiles from [Anycubic's firmware page
     
 ---
 
-### Custom Profiles  
+#### Custom Profiles  
   
 The following list links to profiles provided by users which I became aware of: 
 
- - @[sclebo05](https://github.com/sclebo05) offers his profiles for different slicers for the Kobra **Neo**: [https://github.com/sclebo05/KobraNeoProfiles](https://github.com/sclebo05/KobraNeoProfiles)
+ - @[sclebo05](https://github.com/sclebo05) offers profiles for different slicers for the Kobra **Neo**: [https://github.com/sclebo05/KobraNeoProfiles](https://github.com/sclebo05/KobraNeoProfiles)
 
 
 ---
