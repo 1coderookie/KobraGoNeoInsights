@@ -16,6 +16,8 @@ In the following I'll just go over the abovementioned slicers really quick as it
 ---
 
 ## Slicers  
+In the following you'll find some short notes on the most common Slicers Cura, PrusaSlicer, SuperSlicer and OrcaSlicer.  
+If I find the time, I'll add some screenshots as well, but I suggest to read around the web a bit for further information for the specific slicer you want to use or you're interested in. There are many comprehensive YouTube videos out there about this topic as well.
 
 ---
 
