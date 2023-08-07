@@ -74,7 +74,7 @@ It offers a microSD card reader, a USB-C connector and a 10 pin connector for ad
 
 ### Mainboard Fan
   
-The following picture shows the fan of the mainboard. It's a "Coolcox CC7015M24S" (70x70x15mm, 24V).  
+The following picture shows the fan of the mainboard. It's a 70x70x15mm, 24V, 0.08A type ("Coolcox CC7015M24S").  
 
 ![MCU fan](../assets/images/fan-mainboard_web.jpg)  
 
