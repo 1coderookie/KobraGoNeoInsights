@@ -468,13 +468,6 @@ The first picture shows the hotend completely assembled as it comes as a spare p
   
 ![Hotend disassembled](../assets/images/head_go_hotend-dis_web.jpg)
 
-!!! danger "Check The Grub Screws From Time To Time"
-
-    Check the grub screws/set screws of the heater block and the position of the cartridge heater and the thermistor from time to time!  
-    Due to expansion and contraction of the aluminum heater block and the vibrations that occur, those screws can come loose - which then can result in a part being slipped out!  
-    *This is a serious potential of a fire hazard!*    
-    See the following picture of a user where the cartridge heater slipped out of the heater block.  
-    ![Slipped out cartridge heater](../assets/images/head_glowing-cartridge_web.jpg)  
 
 ---
 
@@ -530,14 +523,6 @@ The hotend of the **Neo** is shown in the following picture.
   
 ![Hotend](../assets/images/head_neo_hotend-new_web.jpg)  
     
-!!! danger "Check The Grub Screws From Time To Time"
-
-    Check the grub screws/set screws of the heater block and the position of the cartridge heater and the thermistor from time to time!  
-    Due to expansion and contraction of the aluminum heater block and the vibrations that occur, those screws can come loose - which then can result in a part being slipped out!  
-    *This is a serious potential of a fire hazard!*    
-    See the following picture of a user where the cartridge heater slipped out of the heater block.  
-    ![Slipped out cartridge heater](../assets/images/head_glowing-cartridge_web.jpg)  
-
 
 ??? info "Spare Part Hotend"
 
@@ -690,6 +675,15 @@ Both the thermistor and the cartidge heater have to be plugged into the specific
   
 ![Heater block V5](../assets/images/head_block-screws-close_web.jpg)  
 
+!!! danger "Check The Grub Screws From Time To Time"
+
+    Check the grub screws/set screws of the heater block and the position of the cartridge heater and the thermistor from time to time!  
+    Due to expansion and contraction of the aluminum heater block and the vibrations that occur, those screws can come loose - which then can result in a part being slipped out!  
+    *This is a serious potential of a fire hazard!*    
+    See the following picture of a user where the cartridge heater slipped out of the heater block.  
+    ![Slipped out cartridge heater](../assets/images/head_glowing-cartridge_web.jpg)  
+
+
 ---
 
 ### MOD: Different Heater Block
@@ -747,6 +741,15 @@ The following picture shows the stock thermistor being used.
 The following picture shows the connector being used, it's a regular two pin JST XH-2.54 type.  
 
 ![Thermistor connector](../assets/images/head_thermistor-plug.png)
+
+!!! danger "Check The Grub Screws From Time To Time"
+
+    Check the grub screws/set screws of the heater block and the position of the cartridge heater and the thermistor from time to time!  
+    Due to expansion and contraction of the aluminum heater block and the vibrations that occur, those screws can come loose - which then can result in a part being slipped out!  
+    *This is a serious potential of a fire hazard!*    
+    See the following picture of a user where the cartridge heater slipped out of the heater block.  
+    ![Slipped out cartridge heater](../assets/images/head_glowing-cartridge_web.jpg)  
+
 
 ??? info "Spare Part Thermistor"  
 
@@ -848,6 +851,14 @@ The following picture shows the stock cartridge heater being used.
 The following picture shows the specific plug which is necessary to fit into the socket at the mainboard.  
 
 ![Specific plug of the cartridge heater](../assets/images/head_cart-plug_web.jpg)
+
+!!! danger "Check The Grub Screws From Time To Time"
+
+    Check the grub screws/set screws of the heater block and the position of the cartridge heater and the thermistor from time to time!  
+    Due to expansion and contraction of the aluminum heater block and the vibrations that occur, those screws can come loose - which then can result in a part being slipped out!  
+    *This is a serious potential of a fire hazard!*    
+    See the following picture of a user where the cartridge heater slipped out of the heater block.  
+    ![Slipped out cartridge heater](../assets/images/head_glowing-cartridge_web.jpg)  
   
 
 ??? info "Spare Part Cartridge Heater" 
