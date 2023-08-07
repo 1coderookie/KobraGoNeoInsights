@@ -415,11 +415,14 @@ In the following, the specific hotends will be shown. Before jumping to the spec
     - Too high temperatures may harm the PTFE tube - it may become deformed!   
     - If you dismounted the hotend and you put it back into the printhead, make sure you check and adjust the position of the ABL sensor in relation to the nozzle and that you check and set your new z-offset afterwards!  
     - If you replaced your old hotend or parts of it with (a) new one(s) (regardless of whether you also replaced the thermistor and/or cartridge heater with a new one or keep using the existing ones), execute a PID tuning afterwards!  
-    - Check the grub screws/set screws of the heater block and the position of the cartridge heater and the thermistor from time to time!  
-      Due to expansion and contraction of the aluminum heater block and the vibrations that occur, those screws can come loose - which then can result in a part being slipped out!  
-      *This is a serious potential of a fire hazard!*    
-      See the following picture of a user where the cartridge heater slipped out of the heater block.  
-      ![Slipped out cartridge heater](../assets/images/head_glowing-cartridge_web.jpg)  
+
+!!! danger "Check The Gurb Screws From Time To Time"
+
+    Check the grub screws/set screws of the heater block and the position of the cartridge heater and the thermistor from time to time!  
+    Due to expansion and contraction of the aluminum heater block and the vibrations that occur, those screws can come loose - which then can result in a part being slipped out!  
+    *This is a serious potential of a fire hazard!*    
+    See the following picture of a user where the cartridge heater slipped out of the heater block.  
+    ![Slipped out cartridge heater](../assets/images/head_glowing-cartridge_web.jpg)  
   
 ??? tip "Can't Load New Filament?!"
 
@@ -464,6 +467,14 @@ The first picture shows the hotend completely assembled as it comes as a spare p
 ![Hotend](../assets/images/head_go_hotend_web.jpg)  
   
 ![Hotend disassembled](../assets/images/head_go_hotend-dis_web.jpg)
+
+!!! danger "Check The Grub Screws From Time To Time"
+
+    Check the grub screws/set screws of the heater block and the position of the cartridge heater and the thermistor from time to time!  
+    Due to expansion and contraction of the aluminum heater block and the vibrations that occur, those screws can come loose - which then can result in a part being slipped out!  
+    *This is a serious potential of a fire hazard!*    
+    See the following picture of a user where the cartridge heater slipped out of the heater block.  
+    ![Slipped out cartridge heater](../assets/images/head_glowing-cartridge_web.jpg)  
 
 ---
 
@@ -519,6 +530,14 @@ The hotend of the **Neo** is shown in the following picture.
   
 ![Hotend](../assets/images/head_neo_hotend-new_web.jpg)  
     
+!!! danger "Check The Grub Screws From Time To Time"
+
+    Check the grub screws/set screws of the heater block and the position of the cartridge heater and the thermistor from time to time!  
+    Due to expansion and contraction of the aluminum heater block and the vibrations that occur, those screws can come loose - which then can result in a part being slipped out!  
+    *This is a serious potential of a fire hazard!*    
+    See the following picture of a user where the cartridge heater slipped out of the heater block.  
+    ![Slipped out cartridge heater](../assets/images/head_glowing-cartridge_web.jpg)  
+
 
 ??? info "Spare Part Hotend"
 
