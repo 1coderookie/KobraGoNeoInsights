@@ -59,6 +59,7 @@ Depending on the color of the box, it's either a tip, information, instruction, 
     - Thanks to **[felixna](https://forum.drucktipps3d.de/user/6880-felixna/)** for allowing me to use his circuit drawing of how to add a step-down converter for PWM controlled fans!  
     - Thanks to **[GruesomeJeans](https://www.reddit.com/user/GruesomeJeans)** for taking pictures of the spare parts of the bed, the magnetic foil and the mounted z-axis limit switch!  
     - Thanks to **[I_Sells_Drugs](https://www.reddit.com/user/I_Sells_Drugs/)** for taking pictures of his sheared off heatbreak!
+    - Thanks to **[Jaximus](https://www.reddit.com/user/Jaximus)** for allowing me to use the picture of the slipped out cartridge heater!  
     - Thanks to **[mowerheimen](https://www.reddit.com/user/mowerheimen)** for allowing me to use the picture of the crooked x-axis gantry!
     - Thanks to **[Sad-Lie8181](https://www.reddit.com/user/Sad-Lie8181)** for taking a picture of his dual z-driven Neo!  
     - Thanks to **[simpleman118](https://www.reddit.com/user/simpleman118)** for taking a picture of the ABL height gauge!  
