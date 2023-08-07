@@ -47,7 +47,7 @@ It offers a microSD card reader, a USB-C connector and a 10 pin connector for ad
 
     However, you don't *have* to spend money on this item, as there are other ways to interrupt the 5V power line. For example, you can cut the 5V wire of your USB cable, you can solder a male and a female USB connector onto a little PCB and avoid making the 5V line connection or you can simply use some electric or Kapton tape and cover the belonging pin at the USB connector of the cable like shown in the following picture.  
 
-    ![USB pin tape attached](USB_taped5V_web.jpg)  
+    ![USB pin tape attached](../assets/images/USB_taped5V_web.jpg)  
 
     Keep in mind though that you have to pay attention that you *only* cover the 5V pin and that you have to make sure that the tape is still in place every time you plug in the cable after you unplugged it.  
     
