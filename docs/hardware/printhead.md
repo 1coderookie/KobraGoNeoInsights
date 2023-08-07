@@ -416,7 +416,7 @@ In the following, the specific hotends will be shown. Before jumping to the spec
     - If you dismounted the hotend and you put it back into the printhead, make sure you check and adjust the position of the ABL sensor in relation to the nozzle and that you check and set your new z-offset afterwards!  
     - If you replaced your old hotend or parts of it with (a) new one(s) (regardless of whether you also replaced the thermistor and/or cartridge heater with a new one or keep using the existing ones), execute a PID tuning afterwards!  
 
-!!! danger "Check The Gurb Screws From Time To Time"
+!!! danger "Check The Grub Screws From Time To Time"
 
     Check the grub screws/set screws of the heater block and the position of the cartridge heater and the thermistor from time to time!  
     Due to expansion and contraction of the aluminum heater block and the vibrations that occur, those screws can come loose - which then can result in a part being slipped out!  
