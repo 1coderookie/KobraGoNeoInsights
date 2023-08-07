@@ -33,9 +33,11 @@ The following picture shows the location of the PSU (in the back) and the mainbo
 
 ![Location PSU](../assets/images/neo_underside_mb-psu_web.jpg)  
   
-The following picture shows the connectors of the PSU with the three 230VAC wires on the right side (L = brown, N = blue, earth = yellow/green) and the 24VDC on the left side (V+ = red and V- = black).  
+The following picture shows the connectors of the PSU with the three 115V/230V AC wires on the right side (L = brown, N = blue, earth = yellow/green) and the 24VDC on the left side (V+ = red and V- = black).  
 
 ![Connectors PSU](../assets/images/psu_connectors_web.jpg)  
+
+On the very left side you can see a green LED and right next to it a white potentiometer. With this potentiometer you can adjust the output voltage - so if you measure the voltage at the 24V DC connectors and you don't have 24V there, you can adjust the voltage to the correct value.  
 
 The following picture shows the PCB of the PSU - the fan isn't plugged in, the belonging connector is the white two-pin connector in the upper left edge area of the board.    
 
