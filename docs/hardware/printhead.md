@@ -414,7 +414,12 @@ In the following, the specific hotends will be shown. Before jumping to the spec
 
     - Too high temperatures may harm the PTFE tube - it may become deformed!   
     - If you dismounted the hotend and you put it back into the printhead, make sure you check and adjust the position of the ABL sensor in relation to the nozzle and that you check and set your new z-offset afterwards!  
-    - If you replaced your old hotend or parts of it with (a) new one(s) (regardless of whether you also replaced the thermistor and/or cartridge heater with a new one or keep using the existing ones), execute a PID tuning afterwards!
+    - If you replaced your old hotend or parts of it with (a) new one(s) (regardless of whether you also replaced the thermistor and/or cartridge heater with a new one or keep using the existing ones), execute a PID tuning afterwards!  
+    - Check the grub screws/set screws of the heater block and the position of the cartridge heater and the thermistor from time to time!  
+      Due to expansion and contraction of the aluminum heater block and the vibrations that occur, those screws can come loose - which then can result in a part being slipped out!  
+      *This is a serious potential of a fire hazard!*    
+      See the following picture of a user where the cartridge heater slipped out of the heater block.  
+      ![Slipped out cartridge heater](../assets/images/head_glowing-cartridge_web.jpg)  
   
 ??? tip "Can't Load New Filament?!"
 
@@ -452,7 +457,9 @@ In the following, the specific hotends will be shown. Before jumping to the spec
    
 ### Go
   
-The hotend of the **Go** is shown in the next pictures. The bowden tube is about 38-40cm long. The first picture shows the hotend completely assembled as it comes as a spare part (I don't own the **Go**, so I had to buy a spare part hotend for taking these pictures), the second picture shows the hotend being dismounted from the aluminum heatsink.  
+The hotend of the **Go** is shown in the next pictures.  
+The bowden tube from the feeder gear to the hotend is about 40cm long.  
+The first picture shows the hotend completely assembled as it comes as a spare part (I don't own the **Go**, so I had to buy a spare part hotend for taking these pictures), the second picture shows the hotend being dismounted from the aluminum heatsink.  
 
 ![Hotend](../assets/images/head_go_hotend_web.jpg)  
   
