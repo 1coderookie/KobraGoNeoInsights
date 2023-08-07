@@ -47,7 +47,7 @@ The following picture shows the PCB of the PSU - the fan isn't plugged in, the b
 
 ## PSU Fan
 
-The fan is a 60x60x15mm, 24V, 0.10A (Cheng Liang CHA6024RL-15B) type.  
+The fan is a 60x60x15mm, 24V, 0.10A type ("Cheng Liang CHA6024RL-15B").  
   
 ![PSU fan](../assets/images/psu_fan_web.jpg) 
 
