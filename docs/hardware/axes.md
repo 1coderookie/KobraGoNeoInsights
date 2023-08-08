@@ -635,9 +635,12 @@ It's a good idea to change the 'rigid' coupler to a somewhat flexible one, as th
 The following picture shows the stock coupler that is mounted.  
     
 ![Coupler](../assets/images/axes_stock-coupler_web.jpg)   
-    
-Here is a picture of a flexible coupler I replaced the stock coupler with, there are other designs of flexible coupler on the market as well though (so called 'spider coupler').   
-    
+
+It's adviseable to swap out the rigid stock couplers and use flexible couplers instead. Those allow to compensate a minor misalignment of the z-axis lead screw setup.  
+There are mainly two different types available: so called spider couplers and flexible couplers. Spider couplers are made out of two metal parts with an elastic part in between, the classic flexible coupler is shaped like a spring. The following pictures show both types, first the spider coupler and then the flex coupler.  
+
+![Spider coupler](../assets/images/axes_spider-coupler_web.jpg)
+        
 ![Flex coupler](../assets/images/axes_flexcoupler_web.jpg)   
     
 When mounting the flexible coupler shown above, I put a ball of a ball bearing between the motorshaft and the lead screw, so that it won't be pushed together by the weight of the z-axis. I'll add a picture of that soon.    
