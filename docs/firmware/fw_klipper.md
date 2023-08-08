@@ -164,8 +164,9 @@ If you *don't* do this and try to boot Klipper without the Pico being connected,
 
 Before I go into further details here, let me mention one or two of the (imho) most important advantages of Klipper compared to the stock firmware when it comes down to the ABL functionality:  
 
-- You can set the offset of the ABL sensor!
-  In the stock firmware, the offset of the probe's location isn't set correctly. As an example: the probe is located 37.5mm to the right and 4mm to the back in relation to the nozzle at the **Neo** (when looking at the printhead from the front). In the stock firmware, there's only the x-offset being set, the y-offset is not. That leads to the circumstance that the printer assumes that the nozzle and the probe are actually llined up - therefore the corrections being applied while compensating during printing just don't fit as much as they could, because the printer is compensating for a value which is 4mm off to the actual location of the nozzle.  
+- You can set the offset of the ABL sensor!  
+  In the stock firmware, the offset of the probe's location isn't set correctly, therefore the compensation while printing isn't actually as precise as possible.
+  As an example: the probe is located 37.5mm to the right and 4mm to the back in relation to the nozzle at the **Neo** (when looking at the printhead from the front). In the stock firmware, there's only the x-offset being set, the y-offset is not. That leads to the circumstance that the printer assumes that the nozzle and the probe are actually llined up - therefore the corrections being applied while compensating during printing just don't fit as much as they could, because the printer is compensating for a value which is 4mm off to the actual location of the nozzle.  
 - You can set the amount of probed points as well as the algorithm of the probing, so you don't have to stick with the 5x5 grid.
 - You can set the area where the probing should occur in general.
 - You can even use certain macros which allow you to only probe the area you're going to print at before each print you're attempting.
