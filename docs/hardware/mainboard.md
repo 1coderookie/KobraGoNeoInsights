@@ -19,7 +19,7 @@ It offers a microSD card reader, a USB-C connector and a 10 pin connector for ad
 
 The microSD card reader slot and the USB-C connector can be accessed from the front of the printer, you find them at the right hand side of that black plastic aperture of the frame as shown in the picture below.  
 
-![microSd card slot and USB-C connector](../assets/images/printer_slot-USBc.jpg)  
+![microSd card slot and USB-C connector](../assets/images/printer_slot-USBc_web.jpg)  
 
 !!! danger "Add Ferrules To The 24V Wires!" 
 
