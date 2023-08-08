@@ -193,7 +193,13 @@ However, you probably have to adjust the position of the brackets itself, so che
   
 ??? tip "Adjusting The Position Of The V-Slot Wheels"
 
-    - The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in there pretty tight, but they should be able to roll and move freely - so they shouldn't sit too tight though (sorry, it's kinda hard to explain). On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability. The printhead shouldn't wiggle but it has to be able to move freely.   
+    The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in the slot well and they should be able to move smoothly.  
+    Make sure they're assembled correctly and line up with the slot as well - if they're out of alignment and don't run correctly in the slot, you'll experience a massive wear and tear. Same goes for the wheels being too tight. See the following picture where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage.   
+
+    ![Wheels wear & tear](../assets/images/axes_wheels-weartear_web.jpeg)
+    
+    This isn't 'normal' as it's too much. So if you encounter this grade of wear & tear, check once again if the wheels are properly aligned with the slot and if you put too much pressure on the wheels by adjusting their position to a point where they're too tight.    
+    On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability. The printhead shouldn't wiggle but it has to be able to move freely.   
     
   
 ??? example "V-Slot Wheels Maintenance"  
@@ -253,6 +259,16 @@ So if you need to adjust the position of the wheels using the eccentric nuts, yo
 Whatever you'll try with the eccentric nut of the wheel of the inside (because there's only this one), you won't be able to achieve that all of the three wheels touch the aluminum and sit in the slot like they should, as the eccentric nut only changes the position of the inner wheel towards the frame.  
 So - what to do?  
 Well, there's a trick, which directly leads us to the process of [tramming the x-axis gantry](#tramming-the-x-axis-gantry).   
+
+??? tip "Adjusting The Position Of The V-Slot Wheels"
+
+    The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in the slot well and they should be able to move smoothly.  
+    Make sure they're assembled correctly and line up with the slot as well - if they're out of alignment and don't run correctly in the slot, you'll experience a massive wear and tear. Same goes for the wheels being too tight. See the following picture of the wheels of a printhead gantry where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage.   
+
+    ![Wheels wear & tear](../assets/images/axes_wheels-weartear_web.jpeg)
+    
+    This isn't 'normal' as it's too much. So if you encounter this grade of wear & tear, check once again if the wheels are properly aligned with the slot and if you put too much pressure on the wheels by adjusting their position to a point where they're too tight.    
+    On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability. The brackets shouldn't wiggle but they have to be able to move freely up and down along the rails of the z-axis frame.   
           
 ??? example "V-Slot Wheels Maintenance"  
 
@@ -499,6 +515,16 @@ You can adjust the roller tension by turning the eccentric nut which moves the w
 
     - Check if the screws are all tightened up. Be careful though to not overtighten the screws of the Bedplate as you would compress the little spacers underneath it and therefore the plate may become warped. On the other hand, if you see that your bed is warped somehow or that the bed is much more off in certain areas or at one side, you can check if the screws in that area might be too tightened up.  
     - Check if the bedplate itself is somehow wobbling. Not only sideways/horizontally, but also up and down/vertically. If so, not only check the v-slot wheels and maybe adjust their fitting using the eccentric nuts, also check if the screws of the gantry of the bed where the wheels are mounted to are tightened up. As an example: at my **Neo** the bed was wobbling up and down in one certain area - after checking the screws and tighten them up everything was sturdy as it should be.         
+
+??? tip "Adjusting The Position Of The V-Slot Wheels"
+
+    The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in the slot well and they should be able to move smoothly.  
+    Make sure they're assembled correctly and line up with the slot as well - if they're out of alignment and don't run correctly in the slot, you'll experience a massive wear and tear. Same goes for the wheels being too tight. See the following picture of the wheels of a printhead gantry where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage.   
+
+    ![Wheels wear & tear](../assets/images/axes_wheels-weartear_web.jpeg)
+    
+    This isn't 'normal' as it's too much. So if you encounter this grade of wear & tear, check once again if the wheels are properly aligned with the slot and if you put too much pressure on the wheels by adjusting their position to a point where they're too tight.    
+    On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability. The gantry of the bed shouldn't wiggle but it has to be able to move freely.   
    
 ??? example "V-Slot Wheels Maintenance"  
 
