@@ -162,7 +162,7 @@ If you *don't* do this and try to boot Klipper without the Pico being connected,
   
 ### ABL and Manual Bed Leveling
 
-Before I go into further details here, let me mention one or two of the (imho) most important advantages of Klipper compared to the stock firmware when it comes down to the ABL functionality:  
+Before I go into further details here, let me mention some of the (imho) most important advantages of Klipper compared to the stock firmware when it comes down to the ABL functionality:  
 
 - You can set the offset of the ABL sensor!  
   In the stock firmware, the offset of the probe's location isn't set correctly, therefore the compensation while printing isn't actually as precise as possible.
