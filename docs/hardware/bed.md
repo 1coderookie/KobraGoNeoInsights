@@ -477,6 +477,40 @@ I'll describe the belonging process for each case in the following.
     In case you're using Klipper like me, you can use the macro ["screws_tilt_adjust with the command SCREWS_TILT_CALCULATE"](https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe) to finetune the tramming of the bed if necessary.  
 
 ---
+
+## Common Issue: Broken Wiring
+
+There's a common issue which is worth getting it's own section: breaking wires of the bed's wiring.  
+There are two types of wires at the bed: the thin ones which are the wires for the bed's thermistor and the thicker ones which are the wires for supplying the 24V DC to the coil at the underside of the bed for heating up the bed.  
+Due to repetive motion and the design, these wires start to break over time.  
+To be more precise: the thin strands of the wires inside of the insulation start to break. Therefore the resistance of those wires will increase until the point is reached that all of the strands are broken and there's no contact given anymore.  
+
+In the beginning you'll most likely notice this when you have an error message ["ERR: MINTEMP Bed"](troubleshooting.md#err-mintempmaxtempthermal-runaway-bed) appearing. Even though you can fix this issue by replacing the wires of the thermistor as described in the next sections, sooner or later this will also happen with the thicker wires. And even though this can be fixed as well by replacing the wires, it's not as easy 'detectable' as with the wring of the thermistor, as there won't be an error message if strands of the 24V wires start to break and therefore the resistance becomes bigger.  
+Unfortunately this is a potential risk of a fire hazard though, as the wire will heat up at that particular spot where it starts to break - due to the increasing resistance and the higher current running through these wires compared to the wires of the thermistor. The more the wires break and the higher the resistance will become here, the hotter the wire will become as well - until the insulation might melt and (worst case) the whole wire starts catching fire.      
+
+So, besides keeping an eye on that during the regular maintenance you're doing, there are two things you can already do right away to at least lower the potential risk of breaking wires at two particular spots.  
+The first thing is to cut the cable tie which ties down the wiring to the base frame. You can see it when looking at the left hand back side of the printer. The following picture shows the cable tie I'm talking about.  
+
+![Cable tie bed frame](../assets/images/bed_cabletie_web.jpg)  
+
+Cut that one, so that the wires can move a bit and here and won't be bent at exactly that spot over and over again.  
+
+The second spot is at the black plastic cap at the left hand back side of the bed plate shown in the picture below.   
+
+![Bed cap strain relief](../assets/images/bed_connector_side_web.jpg)  
+
+This cap acts as a strain relief, but as a matter of fact, the wires will be bent again and again at the spot right behind that plastic cap.   
+
+I don't have a final solution right now as I'm still experimenting with different mods at my Neos for testing what might help here.  
+Right now three simple 'hacks' seem to work - at least a bit, as I didn't run into the problem of broken wires here yet (..knock on wood..).  
+The first one is by just wrapping some tape around the plastic cap and the fist inch or two of the wiring. By doing so, you'll stiffen up the wires a bit in that first section right behind the cap, avoiding the punctual bending. You need to make sure that the whole construction won't be too stiff as it should still be able to bend overall though, otherwise you'll provoke the same issue right after the attached tape.  
+The second and third option is actually kinda similar, but instead of using tape I used a semi-stiff spring at one of my Neos and a semi-stiff (silicone) tubing at the other one. Each of them I dragged acorss the whole wiring and attached it to the plastic cap. As with the tape method, both of these solutions still allow a slight bending of the wires, but they protect the wires of being bent right at the spot after that plastic cap.  
+For now and for the sake of simplicity, I'd suggest to go with the tape method though.   
+
+If you have to replace the wirings, I'd suggest to use slightly longer (and thicker) high-flex wires, as that'll allow a slightly bigger range of motion, assuming that it'll have a positive effect on the overall bending as well. In that case you might also think about routing the wires differently.  
+Some people add wire chains, and even though it seems to be a good idea in general, you should pay attention to the bending radius of the chain as well as to the size of the chain itself. You don't want to squish the wires in there and you don't want to make them rub against each other or against the chain too much as well.  
+
+---
     
 ## Checking And Fixing The Electric Circuit And The Thermistor 
 
