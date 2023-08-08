@@ -161,6 +161,17 @@ If you *don't* do this and try to boot Klipper without the Pico being connected,
 ---
   
 ### ABL and Manual Bed Leveling
+
+Before I go into further details here, let me mention one or two of the (imho) most important advantages of Klipper compared to the stock firmware when it comes down to the ABL functionality:  
+
+- You can set the offset of the ABL sensor!
+  In the stock firmware, the offset of the probe's location isn't set correctly. As an example: the probe is located 37.5mm to the right and 4mm to the back in relation to the nozzle at the **Neo** (when looking at the printhead from the front). In the stock firmware, there's only the x-offset being set, the y-offset is not. That leads to the circumstance that the printer assumes that the nozzle and the probe are actually llined up - therefore the corrections being applied while compensating during printing just don't fit as much as they could, because the printer is compensating for a value which is 4mm off to the actual location of the nozzle.  
+- You can set the amount of probed points as well as the algorithm of the probing, so you don't have to stick with the 5x5 grid.
+- You can set the area where the probing should occur in general.
+- You can even use certain macros which allow you to only probe the area you're going to print at before each print you're attempting.
+- You can create different bedmeshes for e.g. different bed temperatures which you can then load when printing different types of filament (like one bedmesh done at 60°C bedtemp for PLA and one done at 80°C bedtemp for PETG and so on).
+- You can do a bedmesh at any time without the need of setting the z-offset again (of yourse only in case you didn't change anything that had an impact on the z-offset, like tramming the bed or so).    
+
 Of course Klipper supports both ABL and manual bed leveling as well. Please see the official Klipper documentation for more detailed information about this topic, I'll only mention some notes about it here in the following. So before you continue to read here, maybe check out the official Klipper documentation first and read the chapters ["Bed Level Support"](https://www.klipper3d.org/Config_Reference.html#bed-level-support) and ["Bed Level"](https://www.klipper3d.org/Bed_Level.html).  
 
 After executing an ABL sequence, you need to save those results for having them written to your `printer.cfg` file - they *won't* be saved automatically!  
