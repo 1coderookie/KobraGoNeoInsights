@@ -107,7 +107,7 @@ The 24V of the bed's connector of the mainboard will then be connected to the be
 
 ![MOSFET HW-300](../assets/images/MOSFET_connectors1_web.jpg)  
 
-If you're using this kind (or a different kind) of MOSFET, you should check if the manufacturer actually added some thermal paste between the MOSFET and the heatsink - it wasn't the case at the ones I got, so that actually completely counteracts the whole installation.  
+If you're using this kind (or a different kind) of MOSFET, you should check if the manufacturer actually added some thermal paste between the MOSFET and the heatsink - it wasn't the case at the ones I got as shown in the picture below, so that actually completely counteracts the whole installation and makes it obsolete.  
 
 ![MOSFET disassembled](../assets/images/PSU_MOSFET_disassembled_web.jpg)
 
