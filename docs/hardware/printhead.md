@@ -36,6 +36,9 @@ The following picture shows a close up view of the printhead of the **Go** from 
   
 ![Go printhead front view](../assets/images/head_go_front_web.jpg)    
   
+The following picture shows the head of **Go** from the backside.  
+
+![Go printhead backside view](../assets/images/head_go_back_web.jpg)  
 
 ---
 
