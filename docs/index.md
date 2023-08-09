@@ -40,11 +40,11 @@ Depending on the color of the box, it's either a tip, information, instruction, 
 
 ---
   
-- *If you want to ***contribute*** an e.g. modification (aka "MOD") you did or an important information you found, feel free to send me an email (address can be found in the footer). Thanks!* 
+*If you want to ***contribute*** an e.g. modification (aka "MOD") you did or an important information you found, feel free to send me an email (address can be found in the footer). Thanks!* 
   
-- *If you find this page useful, please consider ***recommending it*** to others. This will make the community aware of this page and help other users. Thanks!*  
+*If you find this page useful, please consider ***recommending it*** to others. This will make the community aware of this page and help other users. Thanks!*  
 
-- *If you want to ***support my work***, maybe consider ***starring*** [this repository at GitHub](https://github.com/1coderookie/KobraGoNeoInsights) (if you do have a GitHub account) and ***donating*** a small amount to [my ko-fi account](https://ko-fi.com/U6U5NPB51). Thanks!*  
+*If you want to ***support my work***, maybe consider ***starring*** [this repository at GitHub](https://github.com/1coderookie/KobraGoNeoInsights) (if you do have a GitHub account) and ***donating*** a small amount to [my ko-fi account](https://ko-fi.com/U6U5NPB51). Thanks!*  
 
 ---
  
@@ -53,6 +53,7 @@ Depending on the color of the box, it's either a tip, information, instruction, 
 
     - *Thanks a lot to **Anthony** for donating a spare part printhead of the **Go** and the **Neo** for further investigations!*  
     - *Thanks a lot to **Lingfei**, **SaintIsaiah** and **Zim** for supporting my work with a donation to [my ko-fi account](https://ko-fi.com/U6U5NPB51)!*
+    - *Thanks to all the **stargazers** at GitHub for starring this repository!*
     - Thanks to **[Balambao](https://www.reddit.com/user/Balambao)** for taking a picture of the ceramic heater block!  
     - Thanks to **[BlackSunBeast](https://www.reddit.com/user/BlackSunBeast)** for taking pictures of the feeder gear of the **Go** and the **Go** itself!  
     - Thanks to **[Darth_Kram](https://www.reddit.com/user/Darth_Kram)** for disassembling the feeder gear box of the **Go**, taking those pics and measuring the dimensions of those parts!  
