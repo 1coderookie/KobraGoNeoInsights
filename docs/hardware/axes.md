@@ -689,9 +689,9 @@ The nut shown at the picture above is still useable though as it still sits tigh
 However, sooner or later the debris will come off again and stick on the rod which may causes jams or stuttering of the z-axis movement.   
 These stock anti-backlash nuts used by Anycubic are pretty hard to find as a spare part though - and *if* you find them, they're most likely ridiculously overpriced.  
     
-There are spring loaded anti-backlash nuts made of brass and POM for this kind of lead screw available as well, you can also use them.  
+There are spring loaded anti-backlash nuts made of brass and POM for this kind of lead screw available as well, you can also use them. The following picture shows the stock anti-backlash nut at the left side, a spring loaded brass one in the middle and a spring loaded POM one on the right side.    
     
-(..add pic..)  
+![Anti-backlash nuts](../assets/images/axes_ab-nuts_web.jpg)  
     
 However, the distance of the threads of the stock anti-backlash nut is 20mm, the ones of the 'regular' ones being available are either 16mm or 18mm - at least I personally didn't find any of them with 20mm distance. The 16mm obviously won't fit, but as the holes of the bracket where you actually mount this nut to are a bit elongated, so nuts with a thread distance of 18mm do actually fit as the following picture shows.  
 
@@ -699,13 +699,19 @@ However, the distance of the threads of the stock anti-backlash nut is 20mm, the
     
 Whichever spring loaded anti-backlash nut you (re-)install, make sure that you press both parts together when putting the lead screw in. There's a little spring between the upper and the lower part of the nut which is there to prevent the backlash. This spring needs to be pushed together during the installation, so that there's tension and both parts of that nut system are being pushed away from each other when installed.  
 
+If you installed a regular nut like in the picture shown below instead of an anti-backlash nut, I suggest to use a anti-backlash nut as the ones shown above instead.  
+
+![Regular nut](../assets/images/axes_regular-nut_web.jpg)  
+
 ---        
     
 #### MOD: Add An Oldham Coupler
     
-I highly recommend adding a so called "Oldham Coupler". An Oldham Coupler allows horizontal movement of the rod which avoids jamming, stuttering or banding caused by the z-axis not being perfectly aligned vertically.  
+I highly recommend adding a so called "Oldham Coupler". An Oldham Coupler is made out of three individual parts and it allows horizontal movement of the lead screw which avoids jamming, stuttering or banding caused by the z-axis not being perfectly aligned vertically.  
 
-(.. add pic..)  
+The following picture shows an assembled Oldham Coupler at the left side. The one at the right side isn't completely taken apart, I just moved the parts for illustrating how it looks and works.  
+
+![Oldham coupler](../assets/images/axes_oldhamcoupler_web.jpg)  
     
 It needs to be mounted between the bracket which holds the anti-backlash nut and the anti-backlash nut itself. So it's *not replacing* any part, it's an addition to the whole setup.  
 
