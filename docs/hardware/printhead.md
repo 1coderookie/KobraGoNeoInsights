@@ -7,7 +7,7 @@
 | **Go**: Bowden Drive |
 | **Neo**: Direct Drive |
 | **Thermistor**: 24V, 100k NTC, ATC Semitec 104GT-2/104NT-4-R025H42G type, capsuled, dimensions 3x6mm, ~150cm wire length, two pinned JST XH 2.54 connector |
-| **Heater Cartridge**: 24V, 40W, ~14.5Ohm, dimensions 6x18mm, ~150cm wire length (need2add: connector type) |
+| **Heater Cartridge**: 24V, 40W, ~14.5Ohm, dimensions 6x18mm, ~150cm wire length, two pinned JST VH 3.96 connector |
 | **Nozzle**: E3D V6 type |
 | **Heater Block**: E3D V5 type |
 | **Heatbreak**: <br> **Go**: M6 thread (to fit in the V5 heater block), overall length ??mm, 6mm OD / 4mm ID, PTFE tube <br> **Neo**: M6 thread (to fit in the V5 heater block), overall length ~24.6mm, 7mm OD / 4mm ID, PTFE tube |
@@ -860,7 +860,7 @@ The following picture shows the stock cartridge heater being used.
 
 ![Stock catridge heater](../assets/images/head_cart-heater_stock_web.jpg)
 
-The following picture shows the specific plug which is necessary to fit into the socket at the mainboard.  
+The following picture shows the JST VH 3.96 connector which is necessary to fit into the socket at the mainboard.  
 
 ![Specific plug of the cartridge heater](../assets/images/head_cart-plug_web.jpg)
 
