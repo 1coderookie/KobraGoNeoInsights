@@ -87,7 +87,9 @@ The following picture shows the stock cover plate and the 'custom' one (yes, the
 
 ![Stock vs custom lid](../assets/images/PSU_covers_web.jpg)  
 
-The effect of changing the cover was actually massive, the noise reduction is tremendous - even with the stock fan being used.  
+The effect of changing the cover was actually massive, the noise reduction is tremendous - even with the stock fan being used. Suddenly I was able to clearly hear the part cooling fan kicking in when printing, I could barely notice that one before.    
+I put a smartphone with an app for measuring the noise on the x-axis part of the baseframe, with the microphone facing the direction of the mounted PSU, then I turned on the printer (so that only the fan of the PSU was actually running). With the stock metal lid being installed it measured 66dB, with the modification it measured 49dB!  
+
 The following picture shows the PSU mounted again.   
 
 ![Modded PSU mounted](../assets/images/PSU_altcover-mounted_web.jpg)  
