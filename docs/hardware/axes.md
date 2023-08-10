@@ -126,7 +126,11 @@ You adjust the tension of the belt by turning it clockwise for increasing the te
 
     If you have to replace certain parts, you can easily disassemble the pulley by pushing out that little shaft to one side, so that you'll have all the parts laying in front of you each by their own.  
 
-    ![Belt tensioner disassembled](../assets/images/axes_y-tensioner_dis2_web.jpg)
+    ![Belt tensioner disassembled](../assets/images/axes_y-tensioner_dis2_web.jpg)  
+
+    The following picture shows the 20 teeth pulley which is used in this assembly.  
+
+    ![20 teeth pulley](../assets/images/axes_20teeth-pulley_web.jpg)    
 
 ??? example "Reassembling The Belt Tensioner"
 
@@ -255,10 +259,13 @@ Here you can see clearly that only the inner wheel on the left side in the follo
 ![](../assets/images/x-axis_knob_nut_web.jpg)
   
 However, you might face the problem that you just can't get all of the three wheels at each side to touch the aluminum frame as they should.  
-So if you need to adjust the position of the wheels using the eccentric nuts, you might encouter the problem that e.g. the inner wheel and the lower wheel on the outside may sit in the v-slot really nice, but that the third wheel (the upper one on the outside in this example) isn't even touching the aluminum and can be spinned in the air. This also leads to a wobbly x-axis gantry, as you'll most likely be able to move the right part (the side without the lead screw) up and down a bit.   
+So if you need to adjust the position of the wheels using the eccentric nuts, you might encouter the problem that e.g. the inner wheel and the lower wheel on the outside may sit in the v-slot really nice, but that the third wheel (the upper one on the outside in this example) isn't even touching the aluminum and can be spinned in the air. This also leads to a wobbly and sagging/lagging x-axis gantry at the unsupported right side, as you'll most likely be able to move the right part (the side without the lead screw) up and down a bit.   
 Whatever you'll try with the eccentric nut of the wheel of the inside (because there's only this one), you won't be able to achieve that all of the three wheels touch the aluminum and sit in the slot like they should, as the eccentric nut only changes the position of the inner wheel towards the frame.  
 So - what to do?  
-Well, there's a trick, which directly leads us to the process of [tramming the x-axis gantry](#tramming-the-x-axis-gantry).   
+Well, there's a 'trick': you need to align those Y-shaped metal brackets where the wheels are mounted to - which directly leads us to the process of [tramming the x-axis gantry](#tramming-the-x-axis-gantry).   
+Let me show you a picture of that Y-shaped brackets I'm referring to first though. They're mounted to each end of the x-axis gantry, but I took it off so that you can see it clearly.  
+
+![Y-shaped bracket](../assets/images/axes_Y-bracket_web.jpg)  
 
 ??? example "Adjusting The Position Of The V-Slot Wheels"
 
@@ -447,6 +454,10 @@ You adjust the tension of the belt by turning it clockwise for increasing the te
 
     ![Belt tensioner disassembled](../assets/images/axes_y-tensioner_dis2_web.jpg)
 
+    The following picture shows the 20 teeth pulley which is used in this assembly.  
+
+    ![20 teeth pulley](../assets/images/axes_20teeth-pulley_web.jpg)   
+
 ??? example "Reassembling The Belt Tensioner"
 
     For reassembling, just put the pulley back into place and stick that little shaft back to where it belongs.  
@@ -578,6 +589,8 @@ The top end of the rod is completely unguided. In between it's guided and secure
 The motor of the y-axis is a 42-34 Nema 17 stepper motor with a 5mm motor shaft. It seems to be a regular 1.8° stepper, which means the shaft turns 1.8° at each steps, and therefore it's doing 200 steps for one full 360° rotation.  
 
 ![Z stepper mounting](../assets/images/axes_z-stepper-mounting_web.jpg)
+
+![Z- stepper underside](../assets/images/axes_Z-motor_underside_web.jpg)  
 
 Pay attention to the mounting of the motor. It's only mounted with that little bracket using two screws - the back and the base of the motor are actually not supported as you can see in the picture above.  
 That most likely leads to the fact that the whole motor can bend a little bit due to the axial load of the lead screw system, so it's a good idea to actually support the motor by putting something sufficient underneath and/or between the motor and the aluminum frame where it's actually mounted to. I personally added a big/wide nylon shim underneath it.   
@@ -743,18 +756,30 @@ In my opinion it's better if the top of the lead screw can move freely to avoid 
 #### MOD: Dual Driven Z-Axis 
 The following mods show possibilities of adding a second lead screw and therefore avoid the potential sagging/lagging of the right part of the x-axis gantry as much as possible.  
 
+Whichever solution (belt driven or two motors) you prefer, you need a different Y-shaped bracket than the one being installed for mounting the anti-backlash nut of the second lead screw to it, which then drives the x-axis gantry.  
+You can either print a bracket, buy a set where the bracket is already a part of it or make your own from a piece of metal.  
+
+As I personally don't like using printed parts for mechanical components and already had another lead screw and other parts laying around (and therefore didn't need to get a set), I just made a bracket from a 1.5mm steel plate myself.  
+If you want to do so as well, just unmount the existing bracket from your printer, place it on the piece of metal and mark the outlines and holes accordingly. Keep in mind that you'll need to drill the holes for mounting the anti-backlash nut at a 18mm distance (unless you want to use one of those stock anti-backlash nuts with 20mm hole distance) - or, even better, drill some elongated holes.  
+Then cut and drill everything as need and bend over that part where the anti-backlash nut will be mounted to - pay attention to bend it to the right direction in a correct 90° angle though.  
+When you're done, deburr everything and spray-paint it for a nice look.  
+
+![Bracket raw plate](../assets/images/axes_z-bracket-raw_web.jpg)  
+
+![Bracket handmade vs stock](../assets/images/axes_z-bracket-done_web.jpg)  
+
 ---
 
 ##### Driven By Two Z-Steppers
 Reddit member [DrumsticknDrumstick](https://www.reddit.com/user/DrumsticknDrumstick/) upgraded the z-axis of his **Neo** to a dual drive, the solution fits both the **Go** and the **Neo**. Check out his [reddit post: "Kobra neo/go dual Z mod"](https://www.reddit.com/r/anycubic/comments/1083sr2/kobra_neogo_dual_z_mod/) and the [files plus discussion at printables.com](https://www.printables.com/de/model/364889-anycubic-kobra-neogo-dual-z-mod).  
 
-Due to the pretty much same construction of the frame, you should also be able to use mod kits that fit the Creality Ender 3 for example, but here a user mentioned that the lead screw appears to not be the same like at the **Go** or the **Neo**. I can't judge this as I didn't get myself such a kit and didn't compare them.  
+Due to the pretty much same construction of the frame, users reported that it's possible to use mod kits that fit the Creality Ender 3 for.  
 
-However, depending on the stepper motor you're using, it might be necessary to switch two wires for making the motor move.   
+However, depending on the stepper motor you're using, it might be necessary to switch two wires for making the motor move. See the belonging sections about how to probe the coils and how to switch the wires accordingly.  
 
 ![Neo dual z](../assets/images/axes_NeoDualZ_web.JPG)
 
-Unfortunately, when using the stock mainboard (which only has one stepper driver for the z-axis) you can't drive each stepper motor with it's own stepper driver and therefore can't use the G-Code command "G34 - Z steppers auto-alignment".  
+Unfortunately, when using the stock mainboard (which only has one stepper driver for the z-axis) you can't drive each stepper motor with it's own stepper driver and therefore can't use the G-Code command "G34 - Z steppers auto-alignment" or the Klipper command "Z_TILT_ADJUST".  
 
 ---
 
@@ -762,7 +787,8 @@ Unfortunately, when using the stock mainboard (which only has one stepper driver
 User ["chiz"](https://www.printables.com/de/@chiz_m) remixed the abovementioned solution from DrumsticknDrumstick and came up with a [timing belt driven dual z-axis](https://www.printables.com/de/model/462038-anycubic-kobra-go-dual-z-mod-with-timing-belt).  
 In this case the stock lead screw is driven by that one motor only, the second lead screw will then be driven by a timing belt.  
 
-If you go with this solution, I'd highly recommend to use an "Oldham Coupler" an the left bracket of the x-axis gantry where the anti-backlash nut is mounted to. The reason is simple: At that side the lead screw is fixated at three points: the top, the bottom and the middle (which is moving). So if the lead screw is slightly bent or any vertical misalignment is given, problems like a jammed axis and artefacts in the prints (like z-banding) might occur. 
+If you go with this solution, I'd highly recommend to use an "Oldham Coupler" at least at the left bracket of the x-axis gantry where the anti-backlash nut is mounted to.  
+The reason is simple: At that side the lead screw is fixated at three points: the top, the bottom and the middle (which is moving). So if the lead screw is slightly bent or any vertical misalignment is given, problems like a jammed axis and artifacts in the prints (like z-banding) might occur.   
       
 ---
 
