@@ -773,7 +773,7 @@ When you're done, deburr everything and spray-paint it for a nice look.
 ##### Driven By Two Z-Steppers
 Reddit member [DrumsticknDrumstick](https://www.reddit.com/user/DrumsticknDrumstick/) upgraded the z-axis of his **Neo** to a dual drive, the solution fits both the **Go** and the **Neo**. Check out his [reddit post: "Kobra neo/go dual Z mod"](https://www.reddit.com/r/anycubic/comments/1083sr2/kobra_neogo_dual_z_mod/) and the [files plus discussion at printables.com](https://www.printables.com/de/model/364889-anycubic-kobra-neogo-dual-z-mod).  
 
-Due to the pretty much same construction of the frame, users reported that it's possible to use mod kits that fit the Creality Ender 3 for.  
+Due to the pretty much same construction of the frame, users reported that it's possible to use mod kits that fit the Creality Ender 3.  
 
 However, depending on the stepper motor you're using, it might be necessary to switch two wires for making the motor move. See the belonging sections about how to probe the coils and how to switch the wires accordingly.  
 
