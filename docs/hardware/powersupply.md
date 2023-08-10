@@ -55,29 +55,6 @@ The fan is a 60x60x15mm, 24V, 0.10A type ("Cheng Liang CHA6024RL-15B").
 
 ---
 
-### How To Add A Step-Down Converter For Using 12V Fans (MOD)
-
-When you want to add components which need a different voltage than the 24VDC the PSU offers, you can do so by using a step-down converter (or a step-up converter if you need a higher voltage than 24VDC). Simply connect the IN of the converter to one of the free 24VDC connectors of the PSU, dial in the voltage you need and then connect the belonging part to the OUT of the converter.  
-The following picture shows a typical "LM2596S" type step-down converter which can be used.  
-
-![Step-down](../assets/images/PSU_StepDown_web.jpg)
- 
-
-However, when you want to use e.g. 12V fans which speeds are usually controlled by PWM of the mainboard, you have to connect them differently. The following drawing shows how to proceed in that case, so that the PWM will still work.  
-
-!!! warning 
-
-    The following circuit diagram about how to connect a step-down converter wasn't tested by me yet. It's assumed that the mainboard controls the PWM of the fans by switching the belonging GND of the connector.  
-
-![Step-down converter wiring diagram](../assets/images/stepdown-wiring.png)  
-
-
-!!! warning "Add An Additional Fuse"
-
-    It is highly recommended to add a suitable fuse to the 24V line, right after the connector of the PSU. If your additional parts like the converter will fail, the fuse will melt - which can save you from burning down your house. 
-
----
-
 ## Change The Cover Of The PSU Housing (MOD)
 
 The fan of the PSU is pretty loud, so one of the first things one wants to change is probably to mount a different fan. The fan itself isn't actually that loud though, the noise is mostly created by the way the cover of the PSU housing inhibits the airflow.  
@@ -97,6 +74,28 @@ The following picture shows the PSU mounted again.
 As this lid sticks out a few milimeters and the clearance is already pretty low with the stock setup, I raised the printer a bit by mounting slightly taller feet I had laying around. You can also print some risers which can be plugged onto the existing feet.  
 If you do so and you're using Klipper and resonance compensation (aka Input Shaping), keep in mind that the vibrational behaviour will change and you therefore should execute a new resonance measurement. 
 
+--- 
+
+## How To Add A Step-Down Converter For Using 12V Fans (MOD)
+
+When you want to add components which need a different voltage than the 24VDC the PSU offers, you can do so by using a step-down converter (or a step-up converter if you need a higher voltage than 24VDC). Simply connect the IN of the converter to one of the free 24VDC connectors of the PSU, dial in the voltage you need and then connect the belonging part to the OUT of the converter.  
+The following picture shows a typical "LM2596S" type step-down converter which can be used.  
+
+![Step-down](../assets/images/PSU_StepDown_web.jpg)
+ 
+
+However, when you want to use e.g. 12V fans which speeds are usually controlled by PWM of the mainboard, you have to connect them differently. The following drawing shows how to proceed in that case, so that the PWM will still work.  
+
+!!! warning 
+
+    The following circuit diagram about how to connect a step-down converter wasn't tested by me yet. It's assumed that the mainboard controls the PWM of the fans by switching the belonging GND of the connector.  
+
+![Step-down converter wiring diagram](../assets/images/stepdown-wiring.png)  
+
+
+!!! warning "Add An Additional Fuse"
+
+    It is highly recommended to add a suitable fuse to the 24V line, right after the connector of the PSU. If your additional parts like the converter will fail, the fuse will melt - which can save you from burning down your house. 
 
 ---
 
