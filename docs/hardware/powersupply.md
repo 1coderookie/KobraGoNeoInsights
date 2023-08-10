@@ -59,7 +59,7 @@ The fan is a 60x60x15mm, 24V, 0.10A type ("Cheng Liang CHA6024RL-15B").
 
 The fan of the PSU is pretty loud, so one of the first things one wants to change is probably to mount a different fan. The fan itself isn't actually that loud though, the noise is mostly created by the way the cover of the PSU housing inhibits the airflow.  
 
-I found a [model](https://www.printables.com/de/model/483191-kobra-go-psu-chengliang-p400w24v-hex-cover-for-noc) for a different cover, which was actually made for using a different (bigger) fan. I modified the STL, closed that cutout and used the stock fan instead. For making sure that nothing will get through those bigger holes, I hot-glued a piece of mosquito net to it from the inside. Instead of drilling holes for the stock fan, I just used two of the existing holes and added some washers for making the screws clampt the fan to the cover.  
+I found a [model](https://www.printables.com/de/model/483191-kobra-go-psu-chengliang-p400w24v-hex-cover-for-noc) for a different cover, which was actually made for using a different (bigger) fan. I modified the STL, closed that cutout and used the stock fan instead. For making sure that nothing will get through those bigger holes, I hot-glued a piece of mosquito net to it from the inside. Instead of drilling holes for the stock fan, I just used two of the existing holes and added some washers for making the screws clamp the fan to the cover.  
 The following picture shows the stock cover plate and the 'custom' one (yes, they are the same size, it just doesn't look like that on the picture).  
 
 ![Stock vs custom lid](../assets/images/PSU_covers_web.jpg)  
