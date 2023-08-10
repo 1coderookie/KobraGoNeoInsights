@@ -775,7 +775,7 @@ Reddit member [DrumsticknDrumstick](https://www.reddit.com/user/DrumsticknDrumst
 
 Due to the pretty much same construction of the frame, users reported that it's possible to use mod kits that fit the Creality Ender 3.  
 
-However, depending on the stepper motor you're using, it might be necessary to switch two wires for making the motor move. See the belonging sections about how to probe the coils and how to switch the wires accordingly.  
+However, depending on the stepper motor you're using, it might be necessary to switch two wires for making the motor move. See the expandable textbox in the "Motor" section about how to probe the coils and how to switch the wires accordingly.  
 
 ![Neo dual z](../assets/images/axes_NeoDualZ_web.JPG)
 
