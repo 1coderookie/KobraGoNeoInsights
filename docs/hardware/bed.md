@@ -611,11 +611,13 @@ If you encounter a **faulty wiring, either of the 24V line or the thermistor,** 
       *Attention: Make sure to get yourself the correct size for the specific wire thickness you're using! Don't use soldering connectors which are too big!*  
       The following picture shows one of those connectors - note that it shows the biggest one though, coded with a yellow stripe, which isn't suitable as it's too big (I just didn't had smaller ones for taking a picture).  
       ![Shrinkable solder connector](../assets/images/shrinkable_solder_connector_web.jpg)  
-    - However, as the wires of the thermistor are pretty thin, you might won't be able to find and use proper shrinkable solder connectors (they DO exist for thin wires though!). In that case you might also use special WAGO clamps to connect the wires as shown in the pictures below. As mentioned before, pay special attention to a proper strain relief!   
+    - However, as the wires of the thermistor are pretty thin, you might won't be able to find and use proper shrinkable solder connectors (they DO exist for thin wires though!). In that case you might also use special WAGO clamps to connect the wires as shown in the pictures below. As mentioned before, pay special attention to a proper strain relief, especially because here the wires can come out again due to just being clamped!   
       The following picture shows WAGO clamps of the type 221-2411 (at the top) and 221-412 (at the bottom). The difference between these two is that at the 221-2411 the wires will be inserted facing each other, at the 221-412 the wires are installed running parallel to each other. Both type of clamps connect the wires and close the electrical circuit.   
       ![WAGO clamps](../assets/images/wago_clamps_web.jpg)  
       The following picture shows a WAGO clamp of the type 221-412 with two wires assembled.  
-      ![WAGO 221-412 assembled](../assets/images/wago_clamp-assembled_web.jpg) 
+      ![WAGO 221-412 assembled](../assets/images/wago_clamp-assembled_web.jpg)  
+    - There are small, gel-filled button-like wire connectors to find as well, where you just stick the two ends in and then clamp/crimp it together, those one should work as well. You need to try though as the product pages say that you can use them for wires of 0.4-0.7mm² diameter, but the thermistor wires are AWG22/~0.32mm². So keep an eye on that and measure the connection after you installed them.  
+      ![Button wire connector](../assets/images/button-wire-connectors_web.jpg)
     - Keep in mind that you need to add the belonging connector (JST XH 2.54) to the end of the wire for being able to plug it into the mainboard! If you don't have the belonging crimping tool and can't solder a piece of the old wire to the end of the new wire, you can use the beforementioned connectors as well.  
 
 
