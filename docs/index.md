@@ -40,7 +40,7 @@ Depending on the color of the box, it's either a tip, information, instruction, 
 
 ---
   
-*If you want to ***contribute*** an e.g. modification (aka "MOD") you did or an important information you found, please send me an email (address can be found in the footer) - please don't use Pull Requests for that! Thanks!* 
+*If you want to ***contribute*** an e.g. modification (aka "MOD") you did or an important information you found, please send me an [email](mailto:3dneo@quantentunnel.de) - please don't use Pull Requests for that! Thanks!* 
   
 *If you find this page useful, please consider ***recommending it*** to others. This will make the community aware of this page and help other users. Thanks!*  
 
