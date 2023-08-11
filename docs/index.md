@@ -40,11 +40,11 @@ Depending on the color of the box, it's either a tip, information, instruction, 
 
 ---
   
-*If you want to ***contribute*** an e.g. modification (aka "MOD") you did or an important information you found, feel free to send me an email (address can be found in the footer). Thanks!* 
+*If you want to ***contribute*** an e.g. modification (aka "MOD") you did or an important information you found, please send me an email (address can be found in the footer) - please don't use Pull Requests for that! Thanks!* 
   
 *If you find this page useful, please consider ***recommending it*** to others. This will make the community aware of this page and help other users. Thanks!*  
 
-*If you want to ***support my work***, maybe consider ***starring*** [this repository at GitHub](https://github.com/1coderookie/KobraGoNeoInsights) (if you do have a GitHub account) and ***donating*** a small amount to [my ko-fi account](https://ko-fi.com/U6U5NPB51). Thanks!*  
+*If you want to ***support my work***, please consider ***starring*** [this repository at GitHub](https://github.com/1coderookie/KobraGoNeoInsights) (if you do have a GitHub account) and ***donating*** a small amount to [my ko-fi account](https://ko-fi.com/U6U5NPB51). Thanks!*  
 
 ---
  
