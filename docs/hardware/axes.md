@@ -190,13 +190,16 @@ As there aren't any specifications and replacement motors from Anycubic being av
 ---
 
 ### V-Slot Wheels Position
-The wheels are leading the printhead onto the aluminum profile of the x-axis. They are mounted onto a metal plate where the printhead itself is mounted onto. The wheels run in the V-slot of the profile and therefore they should sit in a good position.    
-You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile.  
-However, you probably have to adjust the position of the brackets itself, so check out the section [Tramming The X-Axis Gantry](#tramming-the-x-axis-gantry).
+The wheels of the printhead's mounting plate are leading the printhead along the aluminum profile of the x-axis (the so-called "x-axis gantry").  
+The wheels run in the V-slot of the profile and therefore they should sit in an optimal position.    
+
+*You can adjust the position and therefore the overall pressure of the wheels against the aluminum profile of only ***one*** wheel by turning the eccentric nut which moves the wheel either towards or away from the aluminum profile. The wheel whose position can be adjusted is the one located at the ***bottom*** - the two wheels at the top which are running across the upper side of the x-axis gantry can't be adjusted as there aren't any eccentric nuts mounted!* 
 
 The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in the slot well and they should be able to move smoothly. On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability. The printhead shouldn't wiggle but it has to be able to move freely.   
     
-Make sure they're assembled correctly and line up with the slot as well - if they're out of alignment and don't run correctly in the slot, you'll experience a massive wear and tear. Same goes for the wheels being too tight. See the following picture where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage - which is absolutely *not* "normal".   
+Make sure they're assembled correctly and line up with the slot as well - if they're out of alignment and don't run correctly in the slot, you'll experience a massive wear and tear. Same goes for the wheels being too tight.  
+
+See the following picture where you can clearly see a *heavy* wear and tear. According to the user who took this picture, this is the state after three days of usage - which is absolutely *not* "normal"!   
 
 ![Wheels wear & tear](../assets/images/axes_wheels-weartear_web.jpeg)
       
@@ -248,7 +251,7 @@ The x-axis gantry is the aluminum profile (plus the corresponding parts) where t
 The x-axis gantry is moved along the z-axis aluminum profile driven by the z-axis lead screw, guided by v-slot wheels. They run in the v-slot of the z-axis profiles and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
 
 You can adjust the roller tension by turning the eccentric nut of the wheel which moves the wheels either towards or away from the aluminum profile.  
-Not all of the wheels have eccentric nuts though as the following picture shows, only the two wheels (one at each side) which are facing the inner side of the frame (towards the bed) do have an eccentric nut.  
+*Not all of the wheels have eccentric nuts though as the following picture shows, only the two wheels (one at each side) which are facing the inner side of the frame (towards the bed) do have an eccentric nut.*  
     
 ![](../assets/images/x-axis_left-side-nut_web.jpg)
   
@@ -506,7 +509,8 @@ As there aren't any specifications and replacement motors from Anycubic being av
     
 ### V-Slot Wheels Position
 The wheels are leading the bed onto the aluminum profile in the middle. They run in the V-slot of the long profile in the middle underneath the bed and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
-You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though as you might be able to see at the following picture.  
+
+*You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though, only two of the four wheels have them as you might be able to see at the following picture.*  
   
 ![Bedmount](../assets/images/y-axis_gantry_web.jpg)
 
