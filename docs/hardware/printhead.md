@@ -709,10 +709,18 @@ Both printers use a PTFE tube for 1.75mm filament. The outer diameter is ~4mm, t
 ### Go  
 The PTFE tube at the **Go** is about 400mm long as it's a bowden drive system.  
 
+When installing a new bowden tube or cutting off a bit at the end to get rid of a deformed and/or clogged part, make sure to always cut it perpendicular and that it reaches all the way down to the nozzle.  
+
 ---
 
 ### Neo
 The PTFE tube at the **Neo** is about 41-44mm long as it's a direct drive system. Here the PTFE tube only is an inliner for the heatbreak.  
+
+*At all of the eight printheads with the stock hotends I examined, the PTFE tubes not only were too short, they also were all of a different length and none of them was cut perpendicular which will cause clogging issues later when printing.* So pay attention to that.  
+
+The one replacement tube for the stock hotend setup I cut with the heatbreak being pushed into the heatsink completely was about ~43.7mm long. As I replaced the stock hotend parts right away, I only made a few prints with that setup for test purposes though.  
+
+When you need to cut a new inliner and you're not sure about the correct length, the best would be to actually disassemble the hotend, so that you can install the heatbreak only. Push it into the heatsink as far as you can. Then push the replacement tube into the heatbreak from the bottom, until you can't stick it in any further. Then either cut along the end of the heatbreak or mark that spot and cut it perpendicular afterwards. Then the length should fit - at least it should fit better than the stock inliner.  
 
 ---
   
