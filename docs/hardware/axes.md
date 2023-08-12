@@ -193,7 +193,8 @@ As there aren't any specifications and replacement motors from Anycubic being av
 The wheels of the printhead's mounting plate are leading the printhead along the aluminum profile of the x-axis (the so-called "x-axis gantry").  
 The wheels run in the V-slot of the profile and therefore they should sit in an optimal position.    
 
-*You can adjust the position and therefore the overall pressure of the wheels against the aluminum profile of only ***one*** wheel by turning the eccentric nut which moves the wheel either towards or away from the aluminum profile. The wheel whose position can be adjusted is the one located at the ***bottom*** - the two wheels at the top which are running across the upper side of the x-axis gantry can't be adjusted as there aren't any eccentric nuts mounted!* 
+*You can adjust the position and therefore the overall pressure of the wheels against the aluminum profile of only ***one*** wheel by turning the eccentric nut which moves the wheel either towards or away from the aluminum profile.*   
+*The wheel whose position can be adjusted is the one located at the ***bottom*** - the two wheels at the top which are running across the upper side of the x-axis gantry can't be adjusted as there aren't any eccentric nuts mounted!* 
 
 The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in the slot well and they should be able to move smoothly. On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability. The printhead shouldn't wiggle but it has to be able to move freely.   
     
