@@ -194,30 +194,27 @@ The wheels are leading the printhead onto the aluminum profile of the x-axis. Th
 You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile.  
 However, you probably have to adjust the position of the brackets itself, so check out the section [Tramming The X-Axis Gantry](#tramming-the-x-axis-gantry).
 
+The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in the slot well and they should be able to move smoothly. On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability. The printhead shouldn't wiggle but it has to be able to move freely.   
+    
+Make sure they're assembled correctly and line up with the slot as well - if they're out of alignment and don't run correctly in the slot, you'll experience a massive wear and tear. Same goes for the wheels being too tight. See the following picture where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage - which is absolutely *not* "normal".   
+
+![Wheels wear & tear](../assets/images/axes_wheels-weartear_web.jpeg)
+      
+    
+---
   
-??? example "Adjusting The Position Of The V-Slot Wheels"
+### V-Slot Wheels Maintenance  
 
-    The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in the slot well and they should be able to move smoothly.  
-    Make sure they're assembled correctly and line up with the slot as well - if they're out of alignment and don't run correctly in the slot, you'll experience a massive wear and tear. Same goes for the wheels being too tight. See the following picture where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage.   
+As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
 
-    ![Wheels wear & tear](../assets/images/axes_wheels-weartear_web.jpeg)
-    
-    This isn't 'normal' as it's too much. So if you encounter this grade of wear & tear, check once again if the wheels are properly aligned with the slot and if you put too much pressure on the wheels by adjusting their position to a point where they're too tight.    
-    On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability. The printhead shouldn't wiggle but it has to be able to move freely.   
-    
-  
-??? example "V-Slot Wheels Maintenance"  
+If you see debris building up pretty quick, it's most likely because the wheels are running too tight in the v-slot of the aluminum and therefore it's too much friction which leads to a quick wearout.  
+Another factor is a possible misalignment here, so that they aren't running well along in the slot, so check the position of the wheels as well.  
 
-    - As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
-    - After that, add some sythetic grease like white lithium grease or silicone grease (e.g. "Super Lube" from Loctite) onto the aluminum profile where the wheels are running to reduce friction. 
-    - *Make sure you're not using WD-40 or grease which has graphite or MoS2 added!* 
-    - If you see debris building up pretty quick, it's most likely because the wheels are too close to the aluminum and therefore it's too much friction which leads to a quick wearout. So make sure the wheels are touching the aluminum but they shouldn't be too tight.
-    
-    !!! warning "Don't Use WD-40 for Lubrication"
-    
-        Do yourself a favour and *never* use WD-40 for *lubrication* as it's *not* a lubricant and will harm your POM wheels by time!  
-        People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
-        As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait..   
+See the following picture where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage - which is absolutely *not* "normal".   
+
+![Wheels wear & tear](../assets/images/axes_wheels-weartear_web.jpeg)
+          
+
 
 ---
 
@@ -245,6 +242,7 @@ The limit switch is located inside of the blue plastic cover at the left hand si
 ## X-Axis Gantry
 The x-axis gantry is the aluminum profile (plus the corresponding parts) where the printhead is actually running onto.  
  
+---
 
 ### V-Slot Wheels Position
 The x-axis gantry is moved along the z-axis aluminum profile driven by the z-axis lead screw, guided by v-slot wheels. They run in the v-slot of the z-axis profiles and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
@@ -266,30 +264,20 @@ Well, there's a 'trick': you need to align those Y-shaped metal brackets where t
 Let me show you a picture of that Y-shaped brackets I'm referring to first though. They're mounted to each end of the x-axis gantry, but I took it off so that you can see it clearly.  
 
 ![Y-shaped bracket](../assets/images/axes_Y-bracket_web.jpg)  
-
-??? example "Adjusting The Position Of The V-Slot Wheels"
-
-    The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in the slot well and they should be able to move smoothly.  
-    Make sure they're assembled correctly and line up with the slot as well - if they're out of alignment and don't run correctly in the slot, you'll experience a massive wear and tear. Same goes for the wheels being too tight. See the following picture of the wheels of a printhead gantry where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage.   
-
-    ![Wheels wear & tear](../assets/images/axes_wheels-weartear_web.jpeg)
-    
-    This isn't 'normal' as it's too much. So if you encounter this grade of wear & tear, check once again if the wheels are properly aligned with the slot and if you put too much pressure on the wheels by adjusting their position to a point where they're too tight.    
-    On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability. The brackets shouldn't wiggle but they have to be able to move freely up and down along the rails of the z-axis frame.   
           
-??? example "V-Slot Wheels Maintenance"  
+---
+  
+### V-Slot Wheels Maintenance  
 
-    - As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
-    - After that, add some sythetic grease like white lithium grease or silicone grease (e.g. "Super Lube" from Loctite) onto the aluminum profile where the wheels are running to reduce friction. 
-    - *Make sure you're not using WD-40 or grease which has graphite or MoS2 added!* 
-    - If you see debris building up pretty quick, it's most likely because the wheels are too close to the aluminum and therefore it's too much friction which leads to a quick wearout. So make sure the wheels are touching the aluminum but they shouldn't be too tight.
-    
-    !!! warning "Don't Use WD-40 for Lubrication"
-    
-        Do yourself a favour and *don't* use WD-40 for *lubrication* as it's *not* a lubricant and will harm your POM wheels by time!  
-        People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
-        As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait.. 
+As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
 
+If you see debris building up pretty quick, it's most likely because the wheels are running too tight in the v-slot of the aluminum and therefore it's too much friction which leads to a quick wearout.  
+Another factor is a possible misalignment here, so that they aren't running well along in the slot, so check the position of the wheels as well.  
+
+See the following picture where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage - which is absolutely *not* "normal".   
+
+![Wheels wear & tear](../assets/images/axes_wheels-weartear_web.jpeg)
+          
 ---
 
 ### Tramming The X-Axis Gantry
@@ -521,35 +509,33 @@ The wheels are leading the bed onto the aluminum profile in the middle. They run
 You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though as you might be able to see at the following picture.  
   
 ![Bedmount](../assets/images/y-axis_gantry_web.jpg)
+
+The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in the slot well and they should be able to move smoothly. On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability. The bedgantry shouldn't wiggle but it has to be able to move freely.   
+    
+Make sure they're assembled correctly and line up with the slot as well - if they're out of alignment and don't run correctly in the slot, you'll experience a massive wear and tear. Same goes for the wheels being too tight. See the following picture where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage - which is absolutely *not* "normal".   
+
+![Wheels wear & tear](../assets/images/axes_wheels-weartear_web.jpeg)
+      
    
 ??? tip "Check The Screws Of The Bedplate And The Gantry Of The Bed"
 
     - Check if the screws are all tightened up. Be careful though to not overtighten the screws of the Bedplate as you would compress the little spacers underneath it and therefore the plate may become warped. On the other hand, if you see that your bed is warped somehow or that the bed is much more off in certain areas or at one side, you can check if the screws in that area might be too tightened up.  
     - Check if the bedplate itself is somehow wobbling. Not only sideways/horizontally, but also up and down/vertically. If so, not only check the v-slot wheels and maybe adjust their fitting using the eccentric nuts, also check if the screws of the gantry of the bed where the wheels are mounted to are tightened up. As an example: at my **Neo** the bed was wobbling up and down in one certain area - after checking the screws and tighten them up everything was sturdy as it should be.         
 
-??? example "Adjusting The Position Of The V-Slot Wheels"
-
-    The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in the slot well and they should be able to move smoothly.  
-    Make sure they're assembled correctly and line up with the slot as well - if they're out of alignment and don't run correctly in the slot, you'll experience a massive wear and tear. Same goes for the wheels being too tight. See the following picture of the wheels of a printhead gantry where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage.   
-
-    ![Wheels wear & tear](../assets/images/axes_wheels-weartear_web.jpeg)
     
-    This isn't 'normal' as it's too much. So if you encounter this grade of wear & tear, check once again if the wheels are properly aligned with the slot and if you put too much pressure on the wheels by adjusting their position to a point where they're too tight.    
-    On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability. The gantry of the bed shouldn't wiggle but it has to be able to move freely.   
-   
-??? example "V-Slot Wheels Maintenance"  
+---
+  
+### V-Slot Wheels Maintenance  
 
-    - As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
-    - After that, add some sythetic grease like white lithium grease or silicone grease (e.g. "Super Lube" from Loctite) onto the aluminum profile where the wheels are running to reduce friction. 
-    - *Make sure you're not using WD-40 or grease which has graphite or MoS2 added!* 
-    - If you see debris building up pretty quick, it's most likely because the wheels are too close to the aluminum and therefore it's too much friction which leads to a quick wearout. So make sure the wheels are touching the aluminum but they shouldn't be too tight.
-    
-    !!! warning "Don't Use WD-40 for Lubrication"
-    
-        Do yourself a favour and *never* use WD-40 for *lubrication* as it's *not* a lubricant and will harm your POM wheels by time!  
-        People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
-        As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait..    
+As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
 
+If you see debris building up pretty quick, it's most likely because the wheels are running too tight in the v-slot of the aluminum and therefore it's too much friction which leads to a quick wearout.  
+Another factor is a possible misalignment here, so that they aren't running well along in the slot, so check the position of the wheels as well.  
+
+See the following picture where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage - which is absolutely *not* "normal".   
+
+![Wheels wear & tear](../assets/images/axes_wheels-weartear_web.jpeg)
+          
 ---
 
 ### Limit Switch
