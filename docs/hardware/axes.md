@@ -662,7 +662,7 @@ The following picture shows the stock coupler that is mounted.
 ![Coupler](../assets/images/axes_stock-coupler_web.jpg)   
 
 It's adviseable to swap out the rigid stock couplers and use flexible couplers instead. Those allow to compensate a minor misalignment of the z-axis lead screw setup.  
-There are mainly two different types available: so called spider couplers and flexible couplers. Spider couplers are made out of two metal parts with an elastic part in between, the classic flexible coupler is shaped like a spring. The following pictures show both types, first the spider coupler and then the flex coupler.  
+There are mainly two different types widely available: so called spider couplers and flexible couplers. Spider couplers are made out of two metal parts with an elastic part in between, the classic flexible coupler is shaped like a spring. The following pictures show both types, first the spider coupler and then the flex coupler.  
 
 ![Spider coupler](../assets/images/axes_spider-coupler_web.jpg)
         
@@ -671,6 +671,9 @@ There are mainly two different types available: so called spider couplers and fl
 When mounting the flexible coupler shown above, I put a ball of a ball bearing between the motorshaft and the lead screw, so that it won't be pushed together by the weight of the z-axis. I'll add a picture of that soon.    
 I also added ball bearings underneath the flexcoupler to keep the main load off of the motorshaft and transfer it to the motorhousing.  
 Additionally, I also added a nylon washer of the correct thickness underneath the motor itself as it was hanging in the air, only held by the two screws of the motormount at the z-axis aluminum profile.      
+
+There's also another type of coupler available, the so called "Diaphragm Coupling".  
+Unfortunately I couldn't get my hands on them yet so I can't give a recommendation for using them or not, so if it happens that you get yourself one of those, I'd highly appreciate it if you'd reach out and send me a picture for displaying it here!  
     
 If you want to change the coupler, you'll need to get a coupler which suits 5mm on one side and 8mm on the other side as the motor shaft is 5mm and the rod is 8mm in diameter.  
 Make sure you *don't* get a coupler which uses a grub screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwn onto, same goes for the lead screw itself - so a clamping mechanism will just work better holding everything in place.  
