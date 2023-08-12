@@ -10,7 +10,8 @@
 | **Heater Cartridge**: 24V, 40W, ~14.5Ohm, dimensions 6x18mm, ~150cm wire length, two pinned JST VH 3.96 connector |
 | **Nozzle**: E3D V6 type |
 | **Heater Block**: E3D V5 type |
-| **Heatbreak**: <br> **Go**: M6 thread (to fit in the V5 heater block), overall length ??mm, 6mm OD / 4mm ID, PTFE tube <br> **Neo**: M6 thread (to fit in the V5 heater block), overall length ~24.6mm, 7mm OD / 4mm ID, PTFE tube |
+| **Heatbreak**: <br> **Go**: M6 thread (to fit in the V5 heater block), overall length ??mm, 6mm OD / 4mm ID, PTFE tube <br> **Neo**: M6 thread (to fit in the V5 heater block), overall length ~24.6mm, 7mm OD / 4mm ID, PTFE tube |  
+| **PTFE tube**: <br> **Go**: ~400mm bowden, ~4mm OD / ~2mm ID bore <br> **Neo**: ~41-44mm inliner for the heatbreak, ~4mm OD / ~2mm ID bore <br> *The PTFE tube at both printers can/should be repaced with a "Capricorn XS" tube (for 1.75mm filament).* |  
 | **Silicone Sock**: E3D V5 type |
 | **Part Cooling Fan**: <br> **Go**: 24V, 0.08A, 40x40x10mm, model "Coolcox BF4010H24S" <br> **Neo**: 24V, 0.08A, 45x45x10mm, model "Coolcox BF4510H24S" |
 | **Heatsink Cooling Fan**: 24V, 0.03A, 40x40x10mm, model "Coolcox CC4010L24S" (both printer models)  |
@@ -438,14 +439,12 @@ In the following, the specific hotends will be shown. Before jumping to the spec
   
 ??? tip "Can't Load New Filament?!"
 
-    If you can't load new filament, first of all check if you pulled the lever on the feeder gear.
-    If you did so and were able to insert the filament but it seems that it's getting stuck lower down in the hotend, then it's most likely that the PTFE tube inside of the hotend is clogged or deformed or that you have a clog in or above the nozzle somewhere. To clean, inspect and maintain it, you need to disassemble the hotend. Check the section ["Disassembling The Hotend"](#disassembling-the-hotend) further down below for more information.     
+    For loading new filament, you need to have the hotend heated up to the belonging temperature first - you can't load filament in a cold hotend, as it won't melt in there.  
     
-??? info "Spare Part PTFE Bowden Tube"
-
-    If you need a new PTFE bowden tube, I'd recommend to get the 4mm "Capricorn XS" tube for 1.75mm filament at the length of 1m. Then just cut the belonging length and replace the old bowden tube. You can also get it in a set with a cutter.  
-    However, make sure you make a clean and perpendicular cut at a 90° angle to avoid any small gaps between the nozzle and the end of the tube! You can use a special cutter that comes in certain sets from Capricorn, print one of the many available cutting guides or just cut along the end of the heatbreak, using it as a guide for the knife. <br> ![Capricorn XS](../assets/images/head_capricornXS_web.jpg)     
-     
+    If you can't load new filament, first of all check if you pulled the lever on the feeder gear.
+    If you did so and were able to insert the filament but it seems that it's getting stuck lower down in the hotend, then you might hit the end of the nozzle with an edge of your filament. It helps when you cut the filament in a 45° angle and bend the part you're manually feeding into the hotend so that it's pretty straight.  
+    If you still can't get your filament loaded, it's most likely that the PTFE tube inside of the hotend is clogged or deformed or that you have a clog in or above the nozzle somewhere. To clean, inspect and maintain it, you need to disassemble the hotend. Check the section ["Disassembling The Hotend"](#disassembling-the-hotend) further down below for more information.     
+         
 ??? example "Large Clump Of Melted Filament Built Up"
 
     Sometimes it may happen that melted filament builds up on top of the heater block to a large clump. The reason for that is that the heatbreak isn't screwed into the heater block tight enough so that the melted fiolament can squeeze out. It also may be caused by bad and cheap parts where the thread isn't just as good as it should be. <br> ![Blob](../assets/images/head_blob_web.jpg) <br> So if you encouter this problem, here is what I recommend to do (based on my own experience with this dilemma).  
@@ -626,7 +625,7 @@ The stock heatbreaks aren't the worst out there, but they aren't the best either
 
 The heatbreak of the **Go** is plugged into the heatsink and secured by two screws.  
 It has a M6 thread to fit the V5 type heater block.  
-As I didn't diasassemble yet the only spare part hotend of the **Go** I got myself for taking these pictures, I can't tell you the overall length. However, the length from that 'ring' until the end of it is ~17mm. 
+As I didn't disassemble yet the only spare part hotend of the **Go** I got myself for taking these pictures, I can't tell you the overall length. However, the length from that 'ring' until the end of it is ~17mm. 
 The outer diameter diameter is 6mm.  
 
 The following picture shows the heatbreak of the **Go** as it's screwed into the heater block.  
@@ -678,6 +677,33 @@ The steel one is about 27mm long, the copper bi-metal one is about 27.5mm long (
 
     When using a bi-metal or all-metal heatbreak, it may cause and increase clogging problems when printing PLA. So up to me always go with a heatbreak that uses a PTFE inliner all the way down to the nozzle in case you're only or mostly printing PLA.  
     If you've changed the PTFE tube to a Capricorn one, then you still can print PETG, as those Capricorn tubes can take slightly higher temperatures than the cheap ones. 
+
+---
+
+## PTFE tube  
+Both printers use a PTFE tube for 1.75mm filament. The outer diameter is ~4mm, the inner diameter of the stock tube is ~2mm.  
+
+!!! warning "Pay Attention When Installing A New PTFE Tube" 
+
+    When installing a new PTFE tube (either at the **Go** as a bowden or at the **Neo** as an inliner for the heatbreak), make sure it runs down through the heat break to the end of the nozzle and touches it.  
+    *Pay special attention to make a clean and perpendicular cut at a 90° angle to avoid any small gaps between the nozzle and the end of the tube!*  
+    You can use a special cutter that comes in certain sets with a Capricorn XS tube, print one of the many available cutting guides or just cut along the end of the heatbreak, using it as a guide for the knife.  
+      
+
+??? info "Spare Part PTFE Bowden Tube"
+
+    If you need a new PTFE bowden tube, I'd recommend to get the 4mm "Capricorn XS" tube for 1.75mm filament at the length of 1m. Then just cut the belonging length and replace the old bowden tube. You can also get it in a set with a cutter.  
+    ![Capricorn XS](../assets/images/head_capricornXS_web.jpg)    
+
+---
+
+### Go  
+The PTFE tube at the **Go** is about 400mm long as it's a bowden drive system.  
+
+---
+
+### Neo
+The PTFE tube at the **Neo** is about 41-44mm long as it's a direct drive system. Here the PTFE tube only is an inliner for the heatbreak.  
 
 ---
   
