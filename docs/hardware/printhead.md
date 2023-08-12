@@ -25,6 +25,8 @@ The printheads of the **Go** and the **Neo** aren't identical because of the dif
 - the **Neo** uses a direct drive feeder system.   
   
 If you look at both printheads from the front and compare their size, you'll notice that the one of the **Go** is a bit smaller (and lighter) and more square than the wider (and heavier) and more rectangular shaped one of the **Neo**.  
+
+The printhead itself is running along the [x-axis gantry](axes.md#x-axis-gantry).  
   
 ---  
   
