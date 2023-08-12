@@ -265,6 +265,15 @@ See the expandable textbox below for further instructions.
   
 ## Extruder / Feeder Gear System
 The **Go** uses a bowden drive extruder/feeder, while the **Neo** is using a direct drive extruder/feeder.  
+The main difference here (from a hardware perspective) is that at the the **Go** the feeder gearbox and the extruder motor are mounted to the left side of the x-axis gantry and are connected to the printhead/hotend with a PTFE bowden tube which leads the filament, while at the **Neo** these components are part of the whole printhead.  
+
+??? tip "Can't Load New Filament?!"
+
+    For loading new filament, you need to have the hotend heated up to the belonging temperature first - you can't load filament in a cold hotend, as it won't melt in there.  
+    
+    If you can't load new filament, first of all check if you pulled the lever on the feeder gear.
+    If you did so and were able to insert the filament but it seems that it's getting stuck lower down in the hotend, then you might hit the end of the nozzle with an edge of your filament. It helps when you cut the filament in a 45° angle and bend the part you're manually feeding into the hotend so that it's pretty straight.  
+    If you still can't get your filament loaded, it's most likely that the PTFE tube inside of the hotend is clogged or deformed or that you have a clog in or above the nozzle somewhere. To clean, inspect and maintain it, you need to disassemble the hotend. Check the section ["Disassembling The Hotend"](#disassembling-the-hotend) further down below for more information.   
   
 ---
   
