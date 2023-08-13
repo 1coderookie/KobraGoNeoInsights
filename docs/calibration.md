@@ -71,9 +71,7 @@ So, please read through the hardware chapters if you didn't do it yet.
 In the following I'll list the most crucial points.  
 
 - Set up the frame correctly!  
-  Means, check if the baseframe is mounted being square, if the the z-axis aluminum parts are really mounted perpendicular onto the baseframe and so on. 
-
-  **As everything else relies on this, the proper alignment of the frame is the most important step!**  
+  Means, check if the baseframe is mounted being square, if the the z-axis aluminum parts are really mounted perpendicular onto the baseframe and so on. **As everything else relies on this, the proper alignment of the frame is the most important step!**  
   So, once again: **Set up your frame and your axes. Everything should be square, perpendicular and equidistant.**  
 - Check the [axes](hardware/axes.md)!  
   Means, check the whole z-axis lead screw system for being assembled correctly and vertically aligned. Make sure you cleaned the old sticky 'oil' (or whatever that nasty stuff should be) off from the lead screw and applied fresh grease, assemble the anti-backlash nut correctly and so on.  
