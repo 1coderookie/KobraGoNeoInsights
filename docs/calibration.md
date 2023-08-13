@@ -40,7 +40,7 @@ Using certain tools makes it easier to calibrate your printer. It'll allow you t
   You'll follow the proposed order and generate the specific 3d models for your specific needs with just one click, like temperature towers, retraction towers and so on.  
   After that, you just print them and don't have to take care about additional code sections (e.g. like applying temperature or retraction distance changes at layer xy) which is necessary when using Cura and the Calibration Shapes plugin.  
 
-- **OrcaSlicer**
+- **OrcaSlicer**  
   OrcaSlicer also comes with a set of inbuilt calibration tools. As I don't use OrcaSlicer (yet), I can't show you a screenshot right now, but it might be worth having a look at it.  
 
 - **Cura**  
@@ -58,10 +58,13 @@ The following steps should be done first to ensure that you set up your printer 
 ---
 
 ### Correct Assembly
-Make sure that you built and set up the printer correctly. This is the most important and crucial thing, as you'll only be able to get good prints if the hardware itself is set up correctly. This also should be checked if you're using the **Neo** which comes pre-assembled, as you shouldn't rely on the assumption that the manufacturere built everything correctly. Read through the hardware chapters if you didn't do it yet. In the following I'll list the most crucial points.  
+Make sure that you built and set up the printer correctly and that it's trammed as best as you can.  
+**This is the most important and crucial thing, as you'll only be able to get good prints if the hardware itself is set up correctly.**   
+
+This also should be checked if you're using the **Neo** which comes pre-assembled, as you shouldn't rely on the assumption that the manufacturere built everything correctly. Read through the hardware chapters if you didn't do it yet. In the following I'll list the most crucial points.  
 
 - Set up the frame correctly!  
-  Means, check if the baseframe is mounted square, if the the z-axis aluminum parts are really mounted perpendicular onto the baseframe and so on.  
+  Means, check if the baseframe is mounted being square, if the the z-axis aluminum parts are really mounted perpendicular onto the baseframe and so on.  
 - Check the [axes](hardware/axes.md)!  
   Means, check the whole z-axis lead screw system for being assembled correctly and vertically aligned. Make sure you cleaned the old sticky 'oil' (or whatever that nasty stuff should be) off from the lead screw and applied fresh grease, assemble the anti-backlash nut correctly and so on.  
   Make sure that you have all wheels positioned correctly and that the belts of the x- and y-axis aren't too sloppy or too tight.  
