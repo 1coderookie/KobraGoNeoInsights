@@ -61,16 +61,26 @@ The following steps should be done first to ensure that you set up your printer 
 Make sure that you built and set up the printer correctly and that it's trammed as best as you can.  
 **This is the most important and crucial thing, as you'll only be able to get good prints if the hardware itself is set up correctly.**   
 
-This also should be checked if you're using the **Neo** which comes pre-assembled, as you shouldn't rely on the assumption that the manufacturere built everything correctly. Read through the hardware chapters if you didn't do it yet. In the following I'll list the most crucial points.  
+This also should be checked if you're using the **Neo** which comes pre-assembled, as you shouldn't rely on the assumption that the manufacturere built everything correctly. Just to show you *how* important that is, look at the following picture of the y-axis frame of one of my Neos how it came preassembled from the manufacturer.  
+
+![Neo crooked y-axis](assets/images/axes_y-axis-crooked_web.jpg)  
+
+
+So, please read through the hardware chapters if you didn't do it yet.  
+  
+In the following I'll list the most crucial points.  
 
 - Set up the frame correctly!  
-  Means, check if the baseframe is mounted being square, if the the z-axis aluminum parts are really mounted perpendicular onto the baseframe and so on.  
+  Means, check if the baseframe is mounted being square, if the the z-axis aluminum parts are really mounted perpendicular onto the baseframe and so on. 
+
+  **As everything else relies on this, the proper alignment of the frame is the most important step!**  
+  So, once again: **Set up your frame and your axes. Everything should be square, perpendicular and equidistant.**  
 - Check the [axes](hardware/axes.md)!  
   Means, check the whole z-axis lead screw system for being assembled correctly and vertically aligned. Make sure you cleaned the old sticky 'oil' (or whatever that nasty stuff should be) off from the lead screw and applied fresh grease, assemble the anti-backlash nut correctly and so on.  
-  Make sure that you have all wheels positioned correctly and that the belts of the x- and y-axis aren't too sloppy or too tight.  
+  Make sure that you have all wheels positioned correctly, that you don't have bad ball bearings which cause hiccups and irregular movements and that the belts of the x- and y-axis aren't too sloppy or too tight.  
 - Check if everything moves smoothly while the printer is switched off!  
-  Means, *slowly* move the bed and the printhead manually across the whole range of motion and turn the lead screw by hand (across the whole range of motion as well) and check if you feel any unusual resistance in certain areas.  
-  Parts shouldn't wiggle as well (never mind the top of the z-axis lead screw though - it's fine that it might wiggle a bit, as it isn't and shouldn't be fixated at the top).  
+  Means, *slowly* move the bed and the printhead manually across the whole range of motion and turn the lead screw by hand (across the whole range of motion as well) and check if you feel any unusual resistance in certain areas. alter the movement speeds then and see if everything still feels well.   
+  Parts being attached to the axes and running along them like the printhead and the bed shouldn't wiggle as well (never mind the top of the z-axis lead screw though - it's fine that it might wiggle a bit, as it isn't and shouldn't be fixated at the top).  
   When everything looks and feels good, you can move the bed, the printhead and the position of the x-axis gantry to about the middle of the range of motion, then turn on the printer and home all axes using the control unit to see if the endstops are working.
 
 ---
