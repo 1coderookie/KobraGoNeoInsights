@@ -147,6 +147,22 @@ Also check the belonging sections in the chapter ["Printhead"](hardware/printhea
 
 ---
 
+## Debris On The V-Slot Wheels And Rails  
+Debris of the wheels is normal - *to a certain degree*.  
+
+As these wheels are made of POM and as they're running along the slots of the rails, wear and tear does occur. So if you see that some *fine dust* is building up, consider it being normal - wipe it off the wheels and rails, inspect the wheels if you can see any irregularities and you should be good to go again.  
+
+*But: if you see heavy wear and tear like 'flakes' of debris instead of fine dust like shown at the picture below, consider it as **not** being normal.*  
+
+![Heavy wear&tear of wheels](assets/images/axes_wheels-weartear_web.jpeg)  
+
+If you encounter *this* degree of wear and tear, especially after only a short time of usage, you should check the position of the wheels.  
+Most likely you are running them with *too much pressure* against the rails, means, you need to slightly adjust the position using the eccentric nuts and turn the belonging wheels a tiny bit away from the rail.  
+The other possible cause is a misalignment of the wheels. As the wheels are running along that v-slot, heavy wear and tear occurs if they aren't positioned correctly and if they're running a bit slanted in the slots. This can happen if something went wrong when installing them initially. In that case inspect the position as well and check if the bolts, spacers and eccentric nuts are mounted correctly.  
+
+
+---
+
 ## Wrong Temperature Is Read
 If an obviously wrong temperature is read (like e.g. 10° for the bed when you have 25° room temperature or even a negative temperature when it's obvously not *that* cold), then it's most likely that you face a faulty wire. The wires inside of the wires tend to break due to the movement and poor quality, and when only a few wires are left, the resistance becomes bigger - which results in an obviously faulty reading.  
 See the section ["Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY"](#err-mintempmaxtempthermal-runaway) and the reasons listed there as well as the possible solutions for further information.   
