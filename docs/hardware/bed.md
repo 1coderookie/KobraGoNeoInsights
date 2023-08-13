@@ -510,6 +510,8 @@ For now and for the sake of simplicity, I'd suggest to go with the tape method t
 If you have to replace the wirings, I'd suggest to use slightly longer (and thicker) high-flex wires, as that'll allow a slightly bigger range of motion, assuming that it'll have a positive effect on the overall bending as well. In that case you might also think about routing the wires differently.  
 Some people add wire chains, and even though it seems to be a good idea in general, you should pay attention to the bending radius of the chain as well as to the size of the chain itself. You don't want to squish the wires in there and you don't want to make them rub against each other or against the chain too much as well.  
 
+See the following sections for how to fix this problem.  
+
 ---
     
 ## Checking And Fixing The Electric Circuit And The Thermistor 
