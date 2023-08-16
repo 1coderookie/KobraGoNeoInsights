@@ -361,8 +361,12 @@ As the stock extruder/feeder system is mounted onto the extruder motor directly,
 
 - User [Justad](https://www.thingiverse.com/Justad) made a [mount for a Bondtech BMG BMG-M](https://www.thingiverse.com/thing:5954007).
 
-- Reddit member [OriginalNames687](https://www.reddit.com/user/OriginalName687/) posted his solution for mounting a MicroSwiss NG Direct Drive here: [Micro Swiss NG Direct Drive Extruder on Kobra Go (Instructions in comments)](https://www.reddit.com/r/anycubic/comments/14ucd09/micro_swiss_ng_direct_drive_extruder_on_kobra_go/) 
+- Reddit member [OriginalNames687](https://www.reddit.com/user/OriginalName687/) posted his solution for mounting a **MicroSwiss NG Direct Drive** here: [Micro Swiss NG Direct Drive Extruder on Kobra Go (Instructions in comments)](https://www.reddit.com/r/anycubic/comments/14ucd09/micro_swiss_ng_direct_drive_extruder_on_kobra_go/) 
 
+- Reddit member [MeckeMecke](https://www.reddit.com/user/MeckeMecke) posted his solution of using an **E3D Revo CR hotend** plus an **Orbiter V.2** pancake motor here: [Kobra Go with E3D Revo CR & Orbiter V.2](https://www.reddit.com/r/anycubic/comments/15s44m7/kobra_go_with_e3d_revo_cr_orbiter_v2/)  
+  The following picture shows this impressive mod:  
+  ![Revo Orbiter DD mod](../assets/images/head_go_dd-mod-revo_web.jpeg)
+  
 ---  
   
 ### Neo
