@@ -13,7 +13,7 @@
 | **Heatbreak**: <br> **Go**: M6 thread (to fit in the V5 heater block), overall length ??mm, 6mm OD / 4mm ID, PTFE tube <br> **Neo**: M6 thread (to fit in the V5 heater block), overall length ~24.6mm, 7mm OD / 4mm ID, PTFE tube |  
 | **PTFE tube**: <br> **Go**: ~400mm bowden, ~4mm OD / ~2mm ID bore <br> **Neo**: ~41-44mm inliner for the heatbreak, ~4mm OD / ~2mm ID bore <br> *The PTFE tube at both printers can/should be repaced with a "Capricorn XS" tube (for 1.75mm filament).* |  
 | **Silicone Sock**: E3D V5 type |
-| **Part Cooling Fan**: <br> **Go**: 24V, 0.08A, 40x40x10mm, model "Coolcox BF4010H24S" <br> **Neo**: 24V, 0.08A, 45x45x10mm, model "Coolcox BF4510H24S" |
+| **Part Cooling Fan**: <br> **Go**: 24V, 0.08A, 40x40x10mm, model "Coolcox BF4010H24S" <br> **Neo**: <br> - older versions: 24V, 0.08A, 45x45x10mm, model "Coolcox BF4510H24S" <br> - newer versions: 24V, 0.10A, 45x45x10mm, model "HSC BCY4510D24E" |
 | **Heatsink Cooling Fan**: 24V, 0.03A, 40x40x10mm, model "Coolcox CC4010L24S" (both printer models)  |
 | **ABL sensor**: PNP-NO type (imho!), connection: brown = VCC 24VDC; blue = GND; black = LEVEL/signal |  
 
