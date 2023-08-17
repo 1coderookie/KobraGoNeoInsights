@@ -123,6 +123,12 @@ The following picture shows the whole metal plate where the feeder construction 
 ![Backside view metal plate](../assets/images/head_neo_backplate_marked_web.jpg)
 
 *You'll find further disassembling instructions for the ABL sensor, the feeder gear system and the hotend in the specific sections.*  
+
+---
+
+### MOD: Voron StealthBurner
+
+[Zdeněk Krupička](https://www.printables.com/de/@ZdenekKrupick_612132) remixed an adapter for being able to use a [Voron StealthBurner](https://vorondesign.com/voron_stealthburner) printhead at the **Neo** while still using the stock ABL sensor: [Voron StealthBurner adapter for Anycubic Kobra Neo ](https://www.printables.com/de/model/553841-voron-stealthburner-adapter-for-anycubic-kobra-neo).  
   
 ---
 
@@ -348,9 +354,9 @@ As the stock extruder/feeder system is mounted onto the extruder motor directly,
 
 ---
 
-#### MOD: Direct Drive
+#### MOD: Direct Drive Conversion
 
-??? note "General Advice When Modding To A Direct Drive"
+??? note "General Advice When Converting To A Direct Drive"
 
     If you're going to mod to a direct drive using the stock hardware, consider using a pancake stepper motor then (if it's not already being used at the **Go**, I'm not sure about that right now) for reducing the weight.  
     Also keep in mind to lower your retraction distance then!  
@@ -539,7 +545,9 @@ If you need to dismount the hotend from the printhead to change it or if you nee
 
 #### MOD: Different Hotend
 
-As nobody reached out to me yet, I can't show or suggest any solutions of alternative hotends for the **Go** - sorry about that. From my perspective (I don't own the **Go** though!) it should be possible to replace the existing hotend with one from the aftermarket though, if you pay attention to the specific dimensions as well as to the positions of the holes for mounting it.  
+- Reddit member [MeckeMecke](https://www.reddit.com/user/MeckeMecke) used an **E3D Revo CR** as a drop-in replacement before he made his direct drive conversion mod for using an **E3D Revo CR hotend** plus an **Orbiter V.2** pancake motor. See his comments here: [Kobra Go with E3D Revo CR & Orbiter V.2](https://www.reddit.com/r/anycubic/comments/15s44m7/kobra_go_with_e3d_revo_cr_orbiter_v2/)  
+
+ 
   
 ---  
   
@@ -1131,9 +1139,20 @@ The **Go** uses a 24V, 0.08A, 40x40x10mm fan, model "Coolcox BF4010H24S".
 ---
 
 ### Neo
-The **Neo** uses a 24V, 0.08A, 45x45x10 fan, model "Coolcox BF4510H24S".  
+The **Neo** uses a 24V, 0.08A (early versions) or 0.10A (later versions), 45x45x10 type of fan.  
 
-![Neo: Coolcox BF4510H24S](../assets/images/head_neo_fan-parts_web.jpg)
+The first versions of the **Neo** have been supplied with the model "Coolcox BF4510H24S", which draws 0.08A.  
+
+![Neo: Coolcox BF4510H24S](../assets/images/head_neo_fan-parts_web.jpg)  
+
+At the newer versions of the **Neo**, it seems that Anycubic changed the model of the fan being used. The change probably took place somewhat in the middle of 2023.  
+The fan which is now being used is a "HSC BCY4510D24E", which draws 0.10A.  
+
+![Neo: HSC BCY4510D24E](../assets/images/head_partcoolingfan_HSC_web.jpg)  
+
+!!! warning "Issues With The PWM Control"  
+
+    It seems that the newer version of the fan, the HSC one, does have some issues with PWM control. At least when using Klipper, it has been reported that the fan didn't work properly using lower speed settings that 100%. This topic is still being discussed (discussion starts [here](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2#discussioncomment-6734784)).  
 
 ---
 
