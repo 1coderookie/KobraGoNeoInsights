@@ -49,9 +49,12 @@ To build the correct firmware, use the following configuration during the setup 
 You also now have two more options to choose from, the clock speed and the app address: 
 
 - The 200MHz option was added in June 2023, see [hc32f460: Revert default clock back to 200MHz](https://github.com/klipper3d/klipper/pull/6291).  
-  I mentioned at the mainboard chapter that the speed of the MCU is 200MHz (which I found while searching around for that chip in the past), but that Klipper reports 168MHz instead. So it seems that we may use the 200MHz instead as well now. If the MCU *really* is 200MHz - well, I'm not 100% sure about it, but that's what I found. So I assume it should be safe to choose the 200MHz clock speed here.  
-- About the app address option: also that was added in June 2023, *but it's for the Kobra 2*, so it's **not** for us (Go/Neo) and therefore nothing should be changed here. See [hc32f460: Add app address 0x10000](https://github.com/klipper3d/klipper/pull/6269).
+  Due to @jokubasver findings described [here](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2#discussioncomment-6771797) it doesn't seem to be advisable to use the 200MHz setting right now.    
+- About the app address option: also that was added in June 2023. The option "0x10000" is for the Kobra 2 though, so it's **not** for us (Go/Neo) (see [hc32f460: Add app address 0x10000](https://github.com/klipper3d/klipper/pull/6269)) - use the option "0x008000".
 
+The following screenshot provided by @jokubasver shows the settings that should be used when choosing the options for compiling the `klipper.bin` file.  
+
+![Klipper compile settings](../assets/images/klipper-compile-settings.png)  
 
 
 !!! warning "Compiled `klipper.bin` Available"
