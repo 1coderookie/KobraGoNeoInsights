@@ -1161,7 +1161,12 @@ The fan which is now being used is a "HSC BCY4510D24E", which draws 0.10A.
 As the stock fan ducts aren't very good in doing their job of part cooling, it's highly recommended to print a better one. This can be done as soon as you can print - you don't need to look out for perfect quality at this point yet. If you're only printing PLA right now, also that is ok for using it for the first enhanced fan duct.  
 Due to the way better part cooling then, it'll massively improve the quality of the printed parts as well as puts you into position to successfully print stronger materials like PETG.  
 
+Signs of improper cooling are e.g. weird molten-like patterns and prints that don't come out well in a specific area on one side of the model, mostly at the side which is opposite to the direction the stock fan duct is being positioned.   
+
 *For the final fan duct it's highly advisable to print them with PETG due to the higher temperature resistance.*
+
+In the following I'll list some of the fan duct models for the **Go** and the **Neo** I came across.  
+The list is kinda outdated right now tho, I need to look around and add the models that were made since I searched the last time. Until then, maybe just do a little research on your own at Thingiverse and Printables.. ;)
 
 ---  
   
