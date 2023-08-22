@@ -1134,7 +1134,9 @@ The part cooling fans of the **Go** and the **Neo** are different.
 
 The **Go** uses a 24V, 0.08A, 40x40x10mm fan, model "Coolcox BF4010H24S".  
 
-(add pic)
+| Coolcox front side | Coolcox backside label |
+|:-------------------|:-----------------------|
+| ![Go: Coolcox BF4010H24S front](../assets/images/head_go_part-cooling-fan-front_web.jpg) | ![Go: Coolcox BF4010H24S label](../assets/images/head_go_part-cooling-fan-coolcox_web.jpg) |  
 
 ---
 
