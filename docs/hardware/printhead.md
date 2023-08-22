@@ -1143,16 +1143,22 @@ The **Neo** uses a 24V, 0.08A (early versions) or 0.10A (later versions), 45x45x
 
 The first versions of the **Neo** have been supplied with the model "Coolcox BF4510H24S", which draws 0.08A.  
 
-![Neo: Coolcox BF4510H24S](../assets/images/head_neo_fan-parts_web.jpg)  
+| Coolcox front side | Coolcox backside label |
+|:-------------------|:-----------------------|
+| ![Neo: Coolcox BF4510H24S front](../assets/images/head_neo_part-fan-coolcox-front_web.jpg) | ![Neo: Coolcox BF4510H24S label](../assets/images/head_neo_fan-parts_web.jpg) |  
 
 At the newer versions of the **Neo**, it seems that Anycubic changed the model of the fan being used. The change probably took place somewhat in the middle of 2023.  
 The fan which is now being used is a "HSC BCY4510D24E", which draws 0.10A.  
 
-![Neo: HSC BCY4510D24E](../assets/images/head_partcoolingfan_HSC_web.jpg)  
+| HSC front side | HSC backside label |
+|:-------------------|:-----------------------|
+| ![Neo: HSC BCY4510D24E](../assets/images/head_neo_part-fan-HSC-front_web.jpg) | ![Neo: HSC BCY4510D24E](../assets/images/head_partcoolingfan_HSC_web.jpg) |  
+
+  
 
 !!! warning "Issues With The PWM Control"  
 
-    It seems that the newer version of the fan, the HSC one, does have some issues with PWM control. At least when using Klipper, it has been reported that the fan didn't work properly using lower speed settings that 100%. This topic is still being discussed (discussion starts [here](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2#discussioncomment-6734784)).  
+    It seems that the newer version of the fan, the HSC one, does have some issues with PWM control. It has been reported by @ProXinous that the fan doesn't work properly using lower speed settings that 100%. The both of us then did several tests and investigated this problem further, and it seems that this type of fan just isn't capable of working being PWM controlled. We're still investigating this issue, but for now there doesn't seem to be a solution other than swapping out that fan and using a different model. I'll update this warning note as soon as new insights have been gathered.    
 
 ---
 
