@@ -178,9 +178,11 @@ The following picture shows a sensor that should/has to be leveled (don't mind t
 
 ![This sensor needs to be leveld](../assets/images/head_neo_ABL2level_web.jpg)  
 
-As I didn't get the plastic heihght gauge from Anycubic with my printers, I used the bigger one of those two-sided open ended wrenches. Check the parts that came with your printer, maybe you got the gauge shown in te following picture.  
+As I didn't get the plastic heihght gauge from Anycubic with my printers, I used the bigger one of those two-sided open ended wrenches. Check the parts that came with your printer, maybe you got the gauge shown in the following picture.  
 
 ![ABL height gauge](../assets/images/abl-gauge_web.jpg)
+
+If you didn't get this tool, you can also print yourself one: [ABL height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312).  
 
 See the expandable textbox below for further instructions about the leveling procedure.  
 
@@ -242,9 +244,11 @@ The following picture shows a sensor that should/has to be leveled (don't mind t
 
 ![This sensor needs to be leveld](../assets/images/head_neo_ABL2level_web.jpg)
 
-As I didn't get the plastic heihght gauge from Anycubic with my printers, I used the bigger one of those two-sided open ended wrenches. Check the parts that came with your printer, maybe you got the gauge shown in te following picture.  
+As I didn't get the plastic heihght gauge from Anycubic with my printers, I used the bigger one of those two-sided open ended wrenches. Check the parts that came with your printer, maybe you got the gauge shown in the following picture.  
 
 ![ABL height gauge](../assets/images/abl-gauge_web.jpg)
+
+If you didn't get this tool, you can also print yourself one: [ABL height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312).  
 
 See the expandable textbox below for further instructions.  
 
