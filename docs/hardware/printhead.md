@@ -174,14 +174,22 @@ Check if you need to level your ABL sensor in relation to the nozzle (which shou
 
     After adjusting the height of the ABL sensor, adjust your Z offset before starting to print!  
 
-The following picture shows a sensor that should/has to be leveled (don't mind the tiny rest of filament at the tip of the nozzle which touches the paper instead of the nozzle itself though, I chipped it away before leveling everything).      
-![This sensor needs to be leveld](../assets/images/head_neo_ABL2level_web.jpg)
+The following picture shows a sensor that should/has to be leveled (don't mind the tiny rest of filament at the tip of the nozzle which touches the paper instead of the nozzle itself though, I chipped it away before leveling everything).        
 
-See the expandable textbox below for further instructions.  
+![This sensor needs to be leveld](../assets/images/head_neo_ABL2level_web.jpg)  
+
+As I didn't get the plastic heihght gauge from Anycubic with my printers, I used the bigger one of those two-sided open ended wrenches. Check the parts that came with your printer, maybe you got the gauge shown in te following picture.  
+
+![ABL height gauge](../assets/images/abl-gauge_web.jpg)
+
+See the expandable textbox below for further instructions about the leveling procedure.  
 
 ??? example "Leveling Procedure"
 
-    - Take the [height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic. <br> If you don't have the height gauge, take a sheet of paper and the bigger two-sided open-end wrench that came with your printer. <br> If you also don't have that, take something with a flat surface that is 1.95mm thick as this is the thickness of the wrench that came with the printer (2mm will be fine also I guess).
+    - Take the [height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic.  
+      ![ABL height gauge](../assets/images/abl-gauge_web.jpg)  
+      If you don't have the height gauge, take a sheet of paper and the bigger two-sided open-end wrench that came with your printer.  
+      If you also don't have that, take something with a flat surface that is 1.95mm thick as this is the thickness of the wrench that came with the printer (2mm will be fine also I guess).
     - Put on the spring steel plate on the heater bed and place the printhead about the center of the bed.
     - If you're using the height gauge, put it under the printhead and lower the head by turning the z axis rod manually. The nozzle should then touch the lower/thinner part of the gauge while the proximity sensor should touch the higher/thicker part of it. 
     - If you don't have/use the height gauge, place a sheet of paper under the printhead now. Then lower the head to make the nozzle touch the sheet of paper. You should still be able to move the paper but you should feel a minimum amount of resistance as a sign that the nozzle is touching it. <br> Now place the wrench flat under the ABL sensor. The sensor should touch the wrench.  
@@ -231,14 +239,22 @@ Check if you need to level your ABL sensor in relation to the nozzle (which shou
     After adjusting the height of the ABL sensor, adjust your Z offset before starting to print!  
 
 The following picture shows a sensor that should/has to be leveled (don't mind the tiny rest of filament at the tip of the nozzle which touches the paper instead of the nozzle itself though, I chipped it away before leveling everything).      
+
 ![This sensor needs to be leveld](../assets/images/head_neo_ABL2level_web.jpg)
+
+As I didn't get the plastic heihght gauge from Anycubic with my printers, I used the bigger one of those two-sided open ended wrenches. Check the parts that came with your printer, maybe you got the gauge shown in te following picture.  
+
+![ABL height gauge](../assets/images/abl-gauge_web.jpg)
 
 See the expandable textbox below for further instructions.  
 
 ??? example "Leveling Procedure"  
 
-    - To adjust the height of the ABL sensor and level it, check out the video from Anycubic ["Leveling Operation for Anycubic Kobra Neo"](https://www.youtube.com/watch?v=25x84AaiUpQ) how to do so. However, I'll also list the steps in the following. 
-    - Take the [height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic. <br> If you don't have the height gauge, take a sheet of paper and the bigger two-sided open-end wrench that came with your printer. <br> If you also don't have that, take something with a flat surface that is 1.95mm thick as this is the thickness of the wrench that came with the printer (2mm will be fine also I guess).
+    - To adjust the height of the ABL sensor and level it, check out the video from Anycubic ["Leveling Operation for Anycubic Kobra Neo"](https://www.youtube.com/watch?v=25x84AaiUpQ) how to do so. However, I'll also list the steps in the following.  
+    - Take the [height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic.  
+      ![ABL height gauge](../assets/images/abl-gauge_web.jpg)  
+      If you don't have the height gauge, take a sheet of paper and the bigger two-sided open-end wrench that came with your printer.  
+      If you also don't have that, take something with a flat surface that is 1.95mm thick as this is the thickness of the wrench that came with the printer (2mm will be fine also I guess).
     - Put on the spring steel plate on the heater bed and place the printhead about the center of the bed.
     - If you're using the height gauge, put it under the printhead and lower the head by turning the z axis rod manually. The nozzle should then touch the lower/thinner part of the gauge while the proximity sensor should touch the higher/thicker part of it. 
     - If you don't have/use the height gauge, place a sheet of paper under the printhead now. Then lower the head to make the nozzle touch the sheet of paper. You should still be able to move the paper but you should feel a minimum amount of resistance as a sign that the nozzle is touching it. <br> Now place the wrench flat under the ABL sensor. The sensor should touch the wrench.  
