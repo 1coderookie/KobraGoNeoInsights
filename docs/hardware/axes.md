@@ -194,7 +194,15 @@ The wheels of the printhead's mounting plate are leading the printhead along the
 The wheels run in the V-slot of the profile and therefore they should sit in an optimal position.    
 
 *You can adjust the position and therefore the overall pressure of the wheels against the aluminum profile of only ***one*** wheel by turning the eccentric nut which moves the wheel either towards or away from the aluminum profile.*   
-*The wheel whose position can be adjusted is the one located at the ***bottom*** - the two wheels at the top which are running across the upper side of the x-axis gantry can't be adjusted as there aren't any eccentric nuts mounted!* 
+The following picture shows an eccentric nut which I painted to make the special shape of it more visible.  
+
+![Eccentric nut](../assets/images/eccentric-nut_web.jpg)   
+
+As you hopefully can see, the bolt isn't centered - so if you turn that eccentric nut while being mounted, the position of the bolt and therefore the whole wheel will be changed, either towards or away from the v-slot of the rail it's sitting at. 
+
+*The wheel whose position can be adjusted is the one located at the ***bottom*** - the two wheels at the top which are running across the upper side of the x-axis gantry can't be adjusted as there aren't any eccentric nuts mounted!*  
+
+![Eccentric nut at printhead mounting plate](../assets/images/eccentric-nut_mounted_web.jpg)  
 
 The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in the slot well and they should be able to move smoothly. On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability. The printhead shouldn't wiggle but it has to be able to move freely.   
     
@@ -251,8 +259,14 @@ The x-axis gantry is the aluminum profile (plus the corresponding parts) where t
 ### V-Slot Wheels Position
 The x-axis gantry is moved along the z-axis aluminum profile driven by the z-axis lead screw, guided by v-slot wheels. They run in the v-slot of the z-axis profiles and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
 
-You can adjust the roller tension by turning the eccentric nut of the wheel which moves the wheels either towards or away from the aluminum profile.  
-*Not all of the wheels have eccentric nuts though as the following picture shows, only the two wheels (one at each side) which are facing the inner side of the frame (towards the bed) do have an eccentric nut.*  
+*You can adjust the roller tension by turning the eccentric nut of the wheel which moves the wheels either towards or away from the aluminum profile.*    
+The following picture shows an eccentric nut which I painted to make the special shape of it more visible.  
+
+![Eccentric nut](../assets/images/eccentric-nut_web.jpg)   
+
+As you hopefully can see, the bolt isn't centered - so if you turn that eccentric nut while being mounted, the position of the bolt and therefore the whole wheel will be changed, either towards or away from the v-slot of the rail it's sitting at. 
+
+*Not all of the wheels have eccentric nuts though as the following picture shows, only the two wheels (one at each side) which are facing the inner side of the frame (towards the bed) do have an eccentric nut.* 
     
 ![](../assets/images/x-axis_left-side-nut_web.jpg)
   
@@ -370,6 +384,9 @@ Please see the expandable textbox below for further instructions about how to tr
       
     - Now adjust the position of the inner wheels by turning the eccentric nuts in the correct position. You want to achieve that all three wheels touch the frame. Make sure to not position those inner wheels too tight against that rail - it should sit good in that v-slot, but you don't want to tighten them up too much which would cause too much resistance and unnecessary wear and tear.  
       Do this for both sides.  
+      The following picture shows an eccentric nut which I painted to make the special shape of it more visible.  
+      ![Eccentric nut](../assets/images/eccentric-nut_web.jpg)   
+      As you hopefully can see, the bolt isn't centered - so if you turn that eccentric nut while being mounted, the position of the bolt and therefore the whole wheel will be changed, either towards or away from the v-slot of the rail it's sitting at. 
         
     - After you did this, pay attention to the rail of the x-axis gantry again once again - you want it to rest completely equal on both cans.  
       
@@ -532,7 +549,14 @@ As there aren't any specifications and replacement motors from Anycubic being av
 ### V-Slot Wheels Position
 The wheels are leading the bed onto the aluminum profile in the middle. They run in the V-slot of the long profile in the middle underneath the bed and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
 
-*You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile. Not all of the wheels have eccentric nuts though, only two of the four wheels have them as you might be able to see at the following picture.*  
+*You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile.*   
+The following picture shows an eccentric nut which I painted to make the special shape of it more visible.  
+
+![Eccentric nut](../assets/images/eccentric-nut_web.jpg)   
+
+As you hopefully can see, the bolt isn't centered - so if you turn that eccentric nut while being mounted, the position of the bolt and therefore the whole wheel will be changed, either towards or away from the v-slot of the rail it's sitting at. 
+
+*Not all of the wheels have eccentric nuts though, only two of the four wheels have them as you might be able to see at the following picture.*  
   
 ![Bedmount](../assets/images/y-axis_gantry_web.jpg)
 
