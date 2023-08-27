@@ -10,6 +10,31 @@ When it comes down to tinkering, the fun factor and the results raise and fall w
 
 ---
 
+## Height Gauge for ABL Sensor
+Well, even though this isn't a 'tool' you can buy, you probably want to print out the [height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic to make the leveling opration of the ABL sensor a bit easier. You have to make sure though that you're printer already works fine to print it to not mess up the height ratio of the tool.  
+It's not necessary to print this though, as you can just use the big two-sided open end wrench that came with the printer.  
+Maybe you even already got it with your printer though, so check if you have this little plastic tool shown in the picture picture below.  
+
+![ABL height gauge](assets/images/abl-gauge_web.jpg)  
+
+---
+
+## Feeler Gauge
+I'd recommend to get yourself some feeler gauges. Those are thin metal sheets in different thicknesses. They come in handy when e.g. setting the z-offset, as their thickness doesn't vary like paper does.  
+
+![Feeler gauge](assets/images/feeler_gauge_web.jpg)  
+
+---
+
+## Caliper
+A slide gauge comes in handy if you want to measure accuracy of e.g. your printed test cubes. I'd recommend to get a digital one as it's easier to read the measured value and it's more precise as well.   
+
+![Slide gauge](assets/images/caliper_web.jpg)
+
+However, keep in mind that these slide gauges (especially the cheap ones one usually buys) also have a measuring and a manufacturing tolerance - so don't go crazy about 0.05mm or so. 
+
+---
+
 ## Multimeter
 Get yourself a multimeter. You don't have to get a professional one, a cheap multimeter will do the job just fine. You'll need a multimeter to measure voltage and current and to measure if maybe a wire is broken somewhere. You can also measure if your limit switch is faulty or if a sensor or a thermistor is working correct.  
 
@@ -172,31 +197,6 @@ Get yourself some Kapton tape. This tape is kinda heat resistant and has silicon
 You can use it to e.g. secure insulation of the heated bed, equalize dents or certain areas of the bed for achieving a flat surface and so on.  
 
 ![Kapton tape](assets/images/kapton_tape_web.jpg)
-
----
-
-## Caliper
-A slide gauge comes in handy if you want to measure accuracy of e.g. your printed test cubes. I'd recommend to get a digital one as it's easier to read the measured value and it's more precise as well.   
-
-![Slide gauge](assets/images/caliper_web.jpg)
-
-However, keep in mind that these slide gauges (especially the cheap ones one usually buys) also have a measuring and a manufacturing tolerance - so don't go crazy about 0.05mm or so. 
-
----
-
-## Feeler Gauge
-I'd recommend to get yourself some feeler gauges. Those are thin metal sheets in different thicknesses. They come in handy when e.g. setting the z-offset, as their thickness doesn't vary like paper does.  
-
-![Feeler gauge](assets/images/feeler_gauge_web.jpg)
-
----
-
-## Height Gauge for ABL Sensor
-Well, even though this isn't a 'tool' you can buy, you probably want to print out the [height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic to make the leveling opration of the ABL sensor a bit easier. You have to make sure though that you're printer already works fine to print it to not mess up the height ratio of the tool.  
-It's not necessary to print this though, as you can just use the big two-sided open end wrench that came with the printer.  
-Maybe you even already got it with your printer though, so check if you have this little plastic tool shown in the picture picture below.  
-
-![ABL height gauge](assets/images/abl-gauge_web.jpg)  
 
 
 ---
