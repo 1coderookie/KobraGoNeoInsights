@@ -718,12 +718,21 @@ There are mainly two different types widely available: so called spider couplers
         
 ![Flex coupler](../assets/images/axes_flexcoupler_web.jpg)   
     
-When mounting the flexible coupler shown above, I put a ball of a ball bearing between the motorshaft and the lead screw, so that it won't be pushed together by the weight of the z-axis. I'll add a picture of that soon.    
-I also added ball bearings underneath the flexcoupler to keep the main load off of the motorshaft and transfer it to the motorhousing.  
+When mounting the flexible coupler shown above, I put a 7mm ball of a ball bearing between the motorshaft and the lead screw, so that it won't be pushed together by the weight of the z-axis components. At the following picture you can see the 7mm ball of a ball bearing being put into the bigger hole.  
+
+![Spring coupler plus ball](../assets/images/axes_spring-coupler+ball_web.jpg)  
+
+The lead screw then rests on top of it while the hole assembly rests on the shaft of the motor.  
+The following picture demonstrates that setup.  
+
+![Spring coupler setup](../assets/images/axes_spring-coupler-setup_web.jpg)  
+
+I also added ball bearings underneath the flexcoupler to keep the main load off of the motorshaft and transfer it to the motorhousing, just to support the whole system a bit and take off as much vertical load from the motor shaft as possible.    
 Additionally, I also added a nylon washer of the correct thickness underneath the motor itself as it was hanging in the air, only held by the two screws of the motormount at the z-axis aluminum profile.      
 
-There's also another type of coupler available, the so called "Diaphragm Coupling".  
-Unfortunately I couldn't get my hands on them yet so I can't give a recommendation for using them or not, so if it happens that you get yourself one of those, I'd highly appreciate it if you'd reach out and send me a picture for displaying it here!  
+There's also another type of coupler available, the so called "Diaphragm Coupling".  This one is bigger and is supposed to compensate misalignments even better. I personally didn't use this type yet, so I can't really say anything further about it. The following picture shows this type of coupler - for comaring the size, the spider coupler mentioned above is put next to it.  
+
+![Diaphragm Coupler vs Spider Coupler](../assets/images/axes_diaphragm-coupler_web.jpg)  
     
 If you want to change the coupler, you'll need to get a coupler which suits 5mm on one side and 8mm on the other side as the motor shaft is 5mm and the rod is 8mm in diameter.  
 Make sure you *don't* get a coupler which uses a grub screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwn onto, same goes for the lead screw itself - so a clamping mechanism will just work better holding everything in place.  
