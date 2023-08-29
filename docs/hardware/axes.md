@@ -711,14 +711,27 @@ The following picture shows the stock coupler that is mounted.
     
 ![Coupler](../assets/images/axes_stock-coupler_web.jpg)   
 
-It's adviseable to swap out the rigid stock couplers and use flexible couplers instead. Those allow to compensate a minor misalignment of the z-axis lead screw setup.  
-There are mainly two different types widely available: so called spider couplers and flexible couplers. Spider couplers are made out of two metal parts with an elastic part in between, the classic flexible coupler is shaped like a spring. The following pictures show both types, first the spider coupler and then the flex coupler.  
+It's adviseable to swap out the rigid stock couplers and use flexible couplers instead. Those allow to compensate a minor misalignment of the z-axis lead screw setup.   
+
+If you want to change the coupler, you'll need to get a coupler which suits 5mm on one side and 8mm on the other side as the motor shaft is 5mm and the rod is 8mm in diameter.  
+Make sure you *don't* get a coupler which uses a grub/set screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwn onto, same goes for the lead screw itself - so a clamping mechanism will just work better holding everything in place.  
+Besides that, using a clamp mechanism makes sure that the shaft and the lead screw are as centered as possible in the coupler - when using a coupler which uses grub/set screws that tighten against the shaft and the rod, you'll most likely end up with a coupler being mounted slightly off-center. 
+
+---
+
+##### Spider Coupler  
+Spider couplers are made out of two metal parts with an elastic part in between as you can see at the following picture.  
 
 ![Spider coupler](../assets/images/axes_spider-coupler_web.jpg)
+
+---
+
+##### Spring(y) Coupler
+The next picture shows the type of coupler you probably com earound instantly when searching for "flex coupler" - I call it "spring(y) coupler" as it's shaped like a spring and it actually behaves like one as well.   
         
 ![Flex coupler](../assets/images/axes_flexcoupler_web.jpg)   
     
-When mounting the flexible coupler shown above, I put a 7mm ball of a ball bearing between the motorshaft and the lead screw, so that it won't be pushed together by the weight of the z-axis components. At the following picture you can see the 7mm ball of a ball bearing being put into the bigger hole.  
+When mounting this type of flexible coupler, I put a 7mm ball of a ball bearing between the motorshaft and the lead screw, so that it won't be pushed together by the weight of the z-axis components. At the following picture you can see the 7mm ball of a ball bearing being put into the bigger hole.  
 
 ![Spring coupler plus ball](../assets/images/axes_spring-coupler+ball_web.jpg)  
 
@@ -730,14 +743,18 @@ The following picture demonstrates that setup.
 I also added ball bearings underneath the flexcoupler to keep the main load off of the motorshaft and transfer it to the motorhousing, just to support the whole system a bit and take off as much vertical load from the motor shaft as possible.    
 Additionally, I also added a nylon washer of the correct thickness underneath the motor itself as it was hanging in the air, only held by the two screws of the motormount at the z-axis aluminum profile.      
 
-There's also another type of coupler available, the so called "Diaphragm Coupling".  This one is bigger and is supposed to compensate misalignments even better. I personally didn't use this type yet, so I can't really say anything further about it. The following picture shows this type of coupler - for comaring the size, the spider coupler mentioned above is put next to it.  
+---
+
+##### Diaphragm Coupler 
+
+There's also another type of coupler available, the so called "Diaphragm Coupling".  This one is bigger and is supposed to compensate misalignments even better.  
+However, it seems like that some additional dampening occurs, which usually isn't adviseable for the z-axis (there are motor dampeners available on the market which you mount between the motors and the frame to dampen vibrations - those ones shouldn't be added to the z-axis motor though), but I personally didn't use this type yet, so I can't really say anything further about it.  
+
+The following picture shows this type of coupler - for comaring the size, the spider coupler mentioned above is put next to it.  
 
 ![Diaphragm Coupler vs Spider Coupler](../assets/images/axes_diaphragm-coupler_web.jpg)  
     
-If you want to change the coupler, you'll need to get a coupler which suits 5mm on one side and 8mm on the other side as the motor shaft is 5mm and the rod is 8mm in diameter.  
-Make sure you *don't* get a coupler which uses a grub screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwn onto, same goes for the lead screw itself - so a clamping mechanism will just work better holding everything in place.  
-Besides that, using a clamp mechanism makes sure that the shaft and the lead screw are as centered as possible in the coupler - when using a coupler which uses grub screws / set screws, you most likely will end up with a coupler being mounted slightly off-center.      
-
+     
 ---
     
 #### MOD: Changing The Anti-Backlash Nut  
