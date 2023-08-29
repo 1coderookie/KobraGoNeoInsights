@@ -52,16 +52,18 @@ Depending on the color of the box, it's either a tip, information, instruction, 
 ??? info "Thanks To The Supporters And Contributers!"
 
     - *Thanks a lot to **Anthony** for donating a spare part printhead of the **Go** and the **Neo** for further investigations!*  
-    - *Thanks a lot to **Lingfei**, **SaintIsaiah** and **Zim** for supporting my work with a donation to [my ko-fi account](https://ko-fi.com/U6U5NPB51)!*
+    - *Thanks a lot to **Harry**, **Lingfei**, **quarrelsome_napkin**, **SaintIsaiah** and **Zim** for supporting my work with a donation to [my ko-fi account](https://ko-fi.com/U6U5NPB51)!*
     - *Thanks to all the **stargazers** at GitHub for starring this repository!*
     - Thanks to **[Balambao](https://www.reddit.com/user/Balambao)** for taking a picture of the ceramic heater block!  
     - Thanks to **[BlackSunBeast](https://www.reddit.com/user/BlackSunBeast)** for taking pictures of the feeder gear of the **Go** and the **Go** itself!  
     - Thanks to **[Darth_Kram](https://www.reddit.com/user/Darth_Kram)** for disassembling the feeder gear box of the **Go**, taking those pics and measuring the dimensions of those parts!  
+    - Thanks to **[Due-Telephone-6817](https://www.reddit.com/user/Due-Telephone-6817)** for taking those pictures of the spider coupler and the diaphragm coupler!**  
     - Thanks to **[felixna](https://forum.drucktipps3d.de/user/6880-felixna/)** for allowing me to use his circuit drawing of how to add a step-down converter for PWM controlled fans!  
     - Thanks to **[GruesomeJeans](https://www.reddit.com/user/GruesomeJeans)** for taking pictures of the spare parts of the bed, the magnetic foil and the mounted z-axis limit switch!  
     - Thanks to **[Imaginary_Gift_8533](https://www.reddit.com/user/Imaginary_Gift_8533/)** for allowing me to use his picture of the wear & tear of his wheels!  
     - Thanks to **[I_Sells_Drugs](https://www.reddit.com/user/I_Sells_Drugs/)** for taking pictures of his sheared off heatbreak!
     - Thanks to **[Jaximus](https://www.reddit.com/user/Jaximus)** for allowing me to use the picture of the slipped out cartridge heater!  
+    - Thanks to **[jokubasver](https://github.com/jokubasver)** for making that screenshot of the config settings for compiling the klipper.bin!**  
     - Thanks to **[MeckeMecke](https://www.reddit.com/user/MeckeMecke/)** for allowing me to use the picture of his direct drive mod for the Go using a Revo CR an an Orbiter V.2!
     - Thanks to **[mowerheimen](https://www.reddit.com/user/mowerheimen)** for allowing me to use the picture of the crooked x-axis gantry!
     - Thanks to **[Sad-Lie8181](https://www.reddit.com/user/Sad-Lie8181)** for taking a picture of his dual z-driven Neo!  
