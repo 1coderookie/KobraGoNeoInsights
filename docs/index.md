@@ -52,7 +52,7 @@ Depending on the color of the box, it's either a tip, information, instruction, 
 ??? info "Thanks To The Supporters And Contributers!"
 
     - *Thanks a lot to **Anthony** for donating a spare part printhead of the **Go** and the **Neo** for further investigations!*  
-    - *Thanks a lot to **Harry**, **Lingfei**, **Nostrilhar**, **quarrelsome_napkin**, **SaintIsaiah** and **Zim** for supporting my work with a donation to [my ko-fi account](https://ko-fi.com/U6U5NPB51)!*
+    - *Thanks a lot to **Harry**, **karwin**, **Lingfei**, **Nostrilhar**, **quarrelsome_napkin**, **SaintIsaiah** and **Zim** for supporting my work with a donation to [my ko-fi account](https://ko-fi.com/U6U5NPB51)!*
     - *Thanks to all the **stargazers** at GitHub for starring this repository!*
     - Thanks to **[Balambao](https://www.reddit.com/user/Balambao)** for taking a picture of the ceramic heater block!  
     - Thanks to **[BlackSunBeast](https://www.reddit.com/user/BlackSunBeast)** for taking pictures of the feeder gear of the **Go** and the **Go** itself!  
