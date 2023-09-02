@@ -99,8 +99,52 @@ You could also drill a hole in the container to feed the filament right out of t
 ---
 
 ## Printer Enclosure
-(will come soon)
 
+Using an enclosure has clear advantages and is even necessary for succesfully print certain types of filament.  
+However, it might cause some problems as well.  
+So here are a few things I'd like to mention about enclosures in general.   
+
+Let's talk about the downsides first, as there are only a few:   
+
+- When you're only printing PLA, an enclosure which traps the heat might be counterproductive. PLA needs a proper cooling, therefore a heated chamber can cause some thermal issues like insufficient cooling of the printed parts. So when you're printing PLA and using an enclosure, it's best if you leave the enclosure as open as possible.  
+- An enclosure usually takes more space than the printer itself just standing somewhere. You need additional space in the enclosure for being able to reach certain parts of the hardware comfortably.  
+- The trapped heat in an enclosure puts some additional thermal stress on the printer itself. The active cooling of parts like the mainboard, the PSU, the heatsink and the printed part itself won't be as sufficient as if the the printer won't be trapped in a heated chamber. Besides that, motors might get hotter and parts like the POM wheels and the belts might be negatively affected by the heat as well. Depending on the design and size of the enclosure and the temperatures of the bed and the hotend being used for printing, the temperature inside of an enclosure can easily reach 40°C.  
+- The risk of a fire hazard might be higher. Especially when using flammable material for building the enclosure.  
+
+The upsides though can clearly make up the beforementioned issues:  
+
+- Your machine is protected from dust, pet hair and so on.  
+- Depending on the design of the enclosure, you'll achieve a reduction of the noises and the fumes.  
+- Printing certain types of filament will not only become easier (like PETG for example which is already pretty sensitive to a cool airstream hitting the bed), some even require the usage of an enclosure, like ABS for example.  
+- You can integrate certain security functions like a smoke detector and even a fire distinguisher, which can reduce the risk of a fire hazard massively. This is highly dependant on the material the enclosure is built from though - if you're using highly flammable material for insulating the inner parts of the enclosure of if you're building the enclosure from wood, then of course the whole enclosure itself will increase the risk as mentioned above. So make sure you're using proper material.  
+
+When thinking about using an enclosure, you'd have to think about the design itself, the size and the materials. If you have no idea to start from, you can find countless solutions as an inspiration across the web. There are also prebuilt enclosures available as well as enclosures which I personally call "tent style enclosures" (or just "tents").  
+
+I personally ended up with getting myself two of those tent style enclosures, just because I like the idea of being able to fold it together and put it in the closet if I don't need it anymore.  
+There are quite a few of these tents available, when taking a closer look at the various offers you'll see that most of them are actually the same, just being branded differently. I call them "generic" ones. Only some of the tents available on the market seem to really differ from those "generic" ones, here the ones from Creality and SainSmart have to be mentioned as you'll most likely come across them when you're searching for these tent style enclosures.  
+I got myself one of those "generic" ones which was branded by Sunlu and one from SainSmart which I'll show in the following and mention some pros and cons I personally consider worth mentioning (pictures will be added soon).  
+I didn't get the one fromm Creality as it was the smallest among those offers (width ~47.5cm) - even though it would be sufficient and the Go&Neo would fit in there, I personally like a bit of additional space as I often get my hands on the hardware anyway and therefore don't need to always take the printer out of the enclosure.  
+
+**Sunlu (imho "generic")** 
+The size of this generic tent style enclosure one is ......
+When looking at the generic tent which in my case was branded by Sunlu, it hits the eye right away how thin the material is. The 'aluminum' is applied as some sort of sprayed on layer, there is no insulation between the outer material and the aluminum foil at the inside as there's just one layer of material. If you place a lamp inside the housing, you can see the light shine through the material - I think this already speaks for itself. As expected, the insulating effect on noise, temperatures and fumes therefore is only small.  
+The zipper isn't covered in any way and it doesn't appear to be made of a high quality anyway.  
+The rods are made from fibreglas, the parts where the rods are being stuck into are made from plastic.  
+You can open that front door completely all across the top. There's an additional opening at the left side which allows accessing the machine or feeding filament from outside - keep in mind though that this will lead to the fact that the heat won't be trapped inside anymore and airstreams could hit the bedplate. On the right side some bags for storing smaller parts are applied.   
+I personally use this enclosure for my Neo I use for printing PLA. When printing, I completely open it. When not printing, this enclosure acts as a nice protection against dust and hairs of my cats.  
+
+**SainSmart "Upgraded Large Volume 3D Printer Enclosure"**   
+The size of this tent style enclosure from SainSmart one is 20.9" x 24.2" x 28.9", so it's about ... cm. 
+When looking at the tent, you can tell the much better quality right away. The material itself isn't only thicker and more dense, it also consists different layers. There is the outer material, then you have some sort of foam insulation and an aluminum foil covering the inside. This results in a much better reduction of the noise and fumes and traps the heat inside the enclosure better as well. The risk of a fire hazard should be reduced much more significantly than at the generic tent, as we have a 'real' aluminum layer here instead of just some sort of sprayed-on aluminum-looking substance.   
+The zippers seem to be made of a better quality as well and they're somewhat covered.  
+The rods of the frame are made from metal, the pieces where the rods get stuck in are plastic as well though.   
+The front door can be opened all across the top as well. An additional opening at the top and at the right side lets you access the machine or allows feeding filament from outside - keep in mind though that this will lead to the fact that the heat won't be trapped inside anymore and airstreams could hit the bedplate. On the left side some bags for storing smaller parts are applied as well as some belts for e.g. hanging up filament spools.  
+I personally use this tent for my Neo which prints anything else than PLA.  
+
+My bottom line here would be: if you plan to use the tent for printing and not just like a better dust protection cover, then I highly recommend getting the one from SainSmart. The difference in quality compared to the "generic" one from Sunlu shown above is like day and night. The enclosure from SainSmart usually is a bit more expensive that the cheapest generic ones you could get, but the much better quality is worth every buck.  
+Sure, the generic one also works, and I used it for printing PETG as well as it was the first tent I got myself. When I then got the one from SainSmart and the difference in quality became obvious, I kinda did regret spending the money on the generic one though as it was only 20€ less than the one from SainSmart.  
+Judging by the product images being available, I *assume* the quality of the enclosure from Creality is comparable to the one from SainSmart, but as mentioned before the slightly smaller size of it made me not buying it.    
+  
 ---
   
 ## Mods
