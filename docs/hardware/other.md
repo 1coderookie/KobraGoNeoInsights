@@ -69,6 +69,10 @@ If you don't have the space for it or want to keep the spool being attached at t
 ## Filament Dryer
 (will come soon)
 
+??? info "Types Of Filament"  
+
+    The following article gives you a nice overview of the different types of filament available and what they're being used for: [Best 3D Printer Filament: The Main Types in 2023](https://all3dp.com/1/3d-printer-filament-types-3d-printing-3d-filament/)
+
 ---
     
 ## Filament Storage  
@@ -87,6 +91,10 @@ The following picture shows a setup like that.
 ![Container filament storage](../assets/images/other_spool-container_web.jpg)
 
 You could also drill a hole in the container to feed the filament right out of the box and even add a ball bearing mount for holding the spool. If you don't have any other feeding system, then I'd suggest to modify one of those containers for this purpose. You can also find guides about this solution and find models for printing different mounting solutions. For permanent storage I wouldn't recommend to do this with all of the containers though, as moisture will more likely get inside (even with a little cap for the hole or tube system you'll probably use).    
+
+??? info "Types Of Filament"  
+
+    The following article gives you a nice overview of the different types of filament available and what they're being used for: [Best 3D Printer Filament: The Main Types in 2023](https://all3dp.com/1/3d-printer-filament-types-3d-printing-3d-filament/)
 
 ---
 
