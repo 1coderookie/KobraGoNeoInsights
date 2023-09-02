@@ -125,7 +125,7 @@ There are quite a few of these tents available, when taking a closer look at the
 I got myself one of those "generic" ones which was branded by Sunlu and one from SainSmart which I'll show in the following and mention some pros and cons I personally consider worth mentioning (pictures will be added soon).  
 I didn't get the one fromm Creality as it was the smallest among those offers (width ~47.5cm) - even though it would be sufficient and the Go&Neo would fit in there, I personally like a bit of additional space as I often get my hands on the hardware anyway and therefore don't need to always take the printer out of the enclosure.  
 
-**Sunlu (imho "generic")** 
+**Sunlu (imho "generic")**  
 The size of this generic tent style enclosure one is ......
 When looking at the generic tent which in my case was branded by Sunlu, it hits the eye right away how thin the material is. The 'aluminum' is applied as some sort of sprayed on layer, there is no insulation between the outer material and the aluminum foil at the inside as there's just one layer of material. If you place a lamp inside the housing, you can see the light shine through the material - I think this already speaks for itself. As expected, the insulating effect on noise, temperatures and fumes therefore is only small.  
 The zipper isn't covered in any way and it doesn't appear to be made of a high quality anyway.  
@@ -141,8 +141,8 @@ The rods of the frame are made from metal, the pieces where the rods get stuck i
 The front door can be opened all across the top as well. An additional opening at the top and at the right side lets you access the machine or allows feeding filament from outside - keep in mind though that this will lead to the fact that the heat won't be trapped inside anymore and airstreams could hit the bedplate. On the left side some bags for storing smaller parts are applied as well as some belts for e.g. hanging up filament spools.  
 I personally use this tent for my Neo which prints anything else than PLA.  
 
-My bottom line here would be: if you plan to use the tent for printing and not just like a better dust protection cover, then I highly recommend getting the one from SainSmart. The difference in quality compared to the "generic" one from Sunlu shown above is like day and night. The enclosure from SainSmart usually is a bit more expensive that the cheapest generic ones you could get, but the much better quality is worth every buck.  
-Sure, the generic one also works, and I used it for printing PETG as well as it was the first tent I got myself. When I then got the one from SainSmart and the difference in quality became obvious, I kinda did regret spending the money on the generic one though as it was only 20€ less than the one from SainSmart.  
+My bottom line here about these two types of tent style enclosures would be: if you plan to use the enclosure for *printing* more demanding types of filament like ABS for example and not just like using it as a better dust protection cover, then I highly recommend getting the one from SainSmart. The difference in quality compared to the "generic" one from Sunlu shown above is like day and night. The enclosure from SainSmart usually is a bit more expensive that the cheapest generic ones you could get, but the much better quality is worth every buck.  
+Sure, the generic one also works, and I used it for printing PETG as well (where using an enclosure isn't necessary, but it helps) as it was the first tent I got myself. When I then got the one from SainSmart and the difference in quality became obvious, I kinda did regret spending the money on the generic one though as it was only 20€ less than the one from SainSmart.  
 Judging by the product images being available, I *assume* the quality of the enclosure from Creality is comparable to the one from SainSmart, but as mentioned before the slightly smaller size of it made me not buying it.    
   
 ---
