@@ -162,8 +162,33 @@ If you *don't* do this and try to boot Klipper without the Pico being connected,
     So whenever you use a printer config file from someone else, check if any `[include whatever.cfg]` lines are existent. If so, either delete those lines, 'deactivate' them by adding a hashtag right before that square bracket like this: `#[include whatever.cfg]` or lookout for / create the belonging config file.  
 
 ---
+
+### Z-Offset
+
+There are *two* z-offsets you need to set:  
+
+- the probe's z-offset and
+- the z-offset in relation to the z-endstop (which is the z-offset you already know from setting at the the stock firmware).  
+
+For doing so, you have to execute two different commands while you're proceeding the [configuration checks](https://www.klipper3d.org/Config_checks.html):  
+
+- [`PROBE_CALIBRATE`](https://www.klipper3d.org/Probe_Calibrate.html#calibrating-probe-z-offset) for setting the z-offset of the probe and
+- [`Z_ENDSTOP_CALIBRATE`](https://www.klipper3d.org/Manual_Level.html#calibrating-a-z-endstop) for setting the z-offset for the initial layer.
+
+Please click on the links and read the official documentation about these commands and how to proceed.  
+I'll just give you a short overview about these two kinds of z-offset to show you what the differences are and why you need to set both of them:  
+
+- The z-offset during [`PROBE_CALIBRATE`](https://www.klipper3d.org/Probe_Calibrate.html#calibrating-probe-z-offset) is the z-offset of the probe to the bed. It doesn't have an influence on the initial layer, but it's needed for e.g. the correct visual output of the graphical bedmesh later. So here you let Klipper know how far the probe is away from the plate.
+- With [`Z_ENDSTOP_CALIBRATE`](https://www.klipper3d.org/Manual_Level.html#calibrating-a-z-endstop) you set the z-offset of the nozzle to the bed in relation to the endstop, which is actually the one that comes into account when starting a print. It tells your Klipper which distance needs to be between the nozzle and triggering the endstop for printing the initial layer. So *this* z-offset is the one which comes into account when printing the initial layer - you know this one from using the stock firmware and setting the z-offset there.
   
-### ABL and Manual Bed Leveling
+  *If you adjust your z-offset on the fly while printing your ***initial layer***, you need to save that value to the ***endstop*** (not to the probe!) for having it applied the next times.*  
+  At the Mainsail UI for example there's a little button you can use for saving the changes you made while adjusting the offset on the fly. It shows a floppy disk symbol next to "SAVE" and a small arrow next to it. When you click on that arrow, a context menu opens up and you can choose whether to save your changes to the probe or the endstop as the following screenshot shows.   
+  ![Mainsail UI save offset button](../assets/images/mainsail_save-z-offset.jpg)  
+  So when doing so, choose "TO ENDSTOP" for saving the new z-offset value for printing your perfect first layer next time.  
+  
+---
+  
+### ABL, Bed Leveling, Bed Mesh 
 
 Before I go into further details here, let me mention some of the (imho) most important advantages of Klipper compared to the stock firmware when it comes down to the ABL functionality:  
 
