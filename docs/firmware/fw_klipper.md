@@ -198,7 +198,7 @@ I'll just give you a short overview about these two kinds of z-offset to show yo
   
 ---
   
-### ABL, Bed Leveling, Bed Mesh 
+### ABL, Bed Mesh, Manual Bed Leveling 
 
 Before I go into further details here, let me mention some of the (imho) most important advantages of Klipper compared to the stock firmware when it comes down to the ABL functionality:  
 
@@ -251,6 +251,9 @@ Please see the [configuration reference for the bed mesh](https://www.klipper3d.
 When you did everything correct, you can observe the ABL compensation working, as you can see in the following screencast of the Mainsail UI. Look at the changing value in those square brackets of the Z axis, right above the "Z 4.480" value.  
 ![Working ABL](../assets/images/abl-working-klipper.gif)  
 
+??? tip "Probe Count And Mesh Min/Max"  
+
+    As we have an inductive proximity sensor which has some sort of 'wide' probe surface and not a pointy one like a BL-Touch probe for example, it's advisable to not probe too close to the bed's borders and to not use too many probe counts, so that the probing will be reliable.   
 
 There are also solutions to do a bedmesh before every print which probe the specific area you're going to print on. So instead of probing the whole bedplate, only the belonging area will be probed:   
 
