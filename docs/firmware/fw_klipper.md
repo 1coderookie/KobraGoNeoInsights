@@ -185,6 +185,16 @@ I'll just give you a short overview about these two kinds of z-offset to show yo
   At the Mainsail UI for example there's a little button you can use for saving the changes you made while adjusting the offset on the fly. It shows a floppy disk symbol next to "SAVE" and a small arrow next to it. When you click on that arrow, a context menu opens up and you can choose whether to save your changes to the probe or the endstop as the following screenshot shows.   
   ![Mainsail UI save offset button](../assets/images/mainsail_save-z-offset.jpg)  
   So when doing so, choose "TO ENDSTOP" for saving the new z-offset value for printing your perfect first layer next time.  
+
+??? tip "Using The Probe As A Virtual Endstop"
+
+    As mentioned, we have two different z-offsets here, due to the fact that we do have a probe and a z-axis limit switch. Therefore you have to set two different z-offsets as explained above.  
+    Some users prefer to only set one z-offset value and use the probe as a virtual endstop for the z-axis and not using the z-axis limit switch at all. You can do so by adding the following line in the section `[stepper_z]` of your `printer.cfg`:  
+    `endstop_pin: probe:z_virtual_endstop`  
+    
+    *I personally wouldn't recommend to do so though.*   
+    The reason is simple: users already reported faulty probes, mostly due to broken wirings being caused by cableties being too tight. Imho it's also more likely that the probe is getting somehow defective than the z-axis limit switch, as the probe is mounted to a moving part (the printhead). In that case the printer would drive the nozzle into the bed not only when executing an ABL measurement / bed mesh, but also when homing or starting a print. So keep that in mind and consider that risk when thinking about using the probe as a virtual z-endstop. 
+
   
 ---
   
