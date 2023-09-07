@@ -329,10 +329,18 @@ Just to mention a few here:
 - You have the possibilty to create custom macros and add scripts for e.g. executing backups and activate them with one click.   
 - And much more..   
 
+Please see the [official documentation site](https://docs.mainsail.xyz/) for further information.  
+
+(add screenshot)
+
 ---
   
 ### Fluidd
-Fluidd is kinda similar to Mainsail, so it's a great alternative if you don't want to use Mainsail. I personally never had a closer look at it though, so I can't say anything more about it. So maybe just do a bit of a research by your own.  
+Fluidd is kinda similar to Mainsail, so it's a great alternative if you don't want to use Mainsail. Please see the [official documentation site](https://docs.fluidd.xyz/) for further information.  
+
+The following screenshot shows the dashboard overview of Fluidd (without a camera for monitoring the printer being used).  
+
+![Fluid UI](../assets/images/fluidd_screenshot.png)
     
 
 ---
