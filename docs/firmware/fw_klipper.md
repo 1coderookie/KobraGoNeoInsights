@@ -319,7 +319,7 @@ You'd need to SSH to the host (e.g. the RPi) to upload edited files like the `pr
 ---
   
 ### Mainsail
-I personally prefer to use Mainsail with Klipper as it's tailored for the usage of/with Klipper and gives you more tools made for Klipper right away.  
+I personally prefer to use Mainsail with Klipper as it's tailored for Klipper and gives you more tools made for Klipper right away.  
 Just to mention a few here: 
 
 - You can edit the `printer.cfg` and every other file just directly within Mainsail and don't have to SSH to the Raspberry Pi.   
