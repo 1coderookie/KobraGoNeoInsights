@@ -1052,10 +1052,20 @@ Anycubic ships the printheads with a 0.4mm **E3D V6 type** brass nozzle for 1.75
 So if you're looking for replacement nozzles, make sure to get yourself the correct type: it's a E3D **V6** type of nozzle!  
 I highly recommend to only use high quality nozzles, like the [**original E3D V6 nozzles**](https://e3d-online.com/products/v6-nozzles) (see the infobox below as well)!  
 
+If you're about to print *highly abrasive* types of filament, like "wood" or "glow in the dark" PLA for example, get yourself a hardened steel nozzle or a tungsten carbide nozzle, as regular brass nozzles will be worn out in no time. The following picture shows an "E3D Nozzle X" hardened steel nozzle.  
+
+![E3D Nozzle X](../assets/images/V6_nozzleX_web.jpg)  
+
+If you're planning on printing on much higher speeds and need a higher flowrate than a regular nozzle can offer in this stock hotend setup, you can get yourself a "CHT high flow" nozzle. These ones have a special designed copper inlet in the shaft of the nozzle, which splits up the filament in three parts which then results in a much higher flowrate. The following picture shows this kind of design at a cheap CHT nozzle clone.  
+
+![CHT clone](../assets/images/V6_CHTclone_web.jpg)  
+
+*Whichever kind of nozzle you decide to get - always make sure to choose an E3D ***V6*** type of nozzle!*  
+
 !!! warning "MK8 Nozzles DON'T Fit!"
 
     Because some people in various forums and in Youtube videos obviously claim that it's a MK8 nozzle which is being used, I wanna point this out once again: **MK8 is NOT the correct type of nozzle!**  
-    Even though MK8 nozzles have a M6 thread and therefore fit in the heater block, the thread is too short! The end of the nozzle won't touch the heatbreak as it's supposed to - and this will create severe problems.  
+    Even though MK8 nozzles have a M6 thread and therefore fit in the heater block, the thread is too short! The end of the nozzle won't touch the heatbreak as it's supposed to - and this will create severe problems (e.g.: clogs, burnt filament, leaking filament out of the threads of the heater block).  
     So just get yourself the correct type of nozzle, which is an E3D **V6** type!  
     
     
