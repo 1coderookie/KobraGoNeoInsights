@@ -49,7 +49,7 @@ After using the filament runout sensor for a certain time, it may happen that yo
 This might just be a small problem which probably could easily be fixed by bending the little lever of the switch inside of the sensorbox a bit more outwards, so that there's more pressure onto the filament.  
 If you do so, make sure that you only bend it slightly and that the lever still triggers the switch when you lead filament through it - you don't want to bend it too much and in a way that it won't be able to trigger the switch anymore.   
 
-You can open the case with a small flathead screwdriver or a knife. Be careful and patience when doing so though, as there's some glue applied which needs some time to come off.  
+You can open the case with a small flathead screwdriver or a knife. Be careful and patient when doing so though, as there's some glue applied which needs some time to come off.  
 The following picture shows the inside of the sensor so that you can see the little metallic lever of the switch.  
     
 ![Filament runout sensor opened](../assets/images/fil-sensor_open_web.jpg)  
