@@ -69,6 +69,7 @@ Depending on the color of the box, it's either a tip, information, instruction, 
     - Thanks to **[Sad-Lie8181](https://www.reddit.com/user/Sad-Lie8181)** for taking a picture of his dual z-driven Neo!  
     - Thanks to **[simpleman118](https://www.reddit.com/user/simpleman118)** for taking a picture of the ABL height gauge!  
     - Thanks to **[the-transponster](https://www.reddit.com/user/the-transponster)** for allowing me to use the picture of his clumped hotend!
+    - Thanks to **[Yoriko_Rayne_](https://www.reddit.com/user/Yoriko_Rayne_)** for allowing me to use the picture of how to use the ABL height gauge!  
     - Thanks to **[zimmystor](https://www.reddit.com/user/zimmystor)** for taking pictures of his MicroSwiss bowden drive upgrade at his Go!
     
 ---
