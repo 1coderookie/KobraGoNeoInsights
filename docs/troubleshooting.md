@@ -90,7 +90,10 @@ This is mostly caused by moist filament. When the filament gets heated up in the
 
 You can also check if the filament is (way) too moist by extruding with the nozzle up in the air. Watch the string of melted filament which comes out of the hotend, right at the nozzle. Does it seem to be 'bubbly'? Do those bubbles even pop? If so, then it's definitely too moist.  
 
-The solution for this would be to dry your filament. You can either get yourself one of those (imho overpriced) filament dryers, put the spool in the oven in your kitchen (don't go over 50°C for PLA tho!) or use a food dehydrator. I personally don't use any of that - I just use the well-controlled solution we all already have: the heated bed! Just lay your spool flat onto the bed, cover it with e.g. a cardboard box or so and heat it up to about 45°C. Then let it sit for a few hours.  
+The solution for this would be to dry your filament. You can either get yourself one of those (imho overpriced) filament dryers or use a food dehydrator.  
+If you don't have any of them, you can use the well-controlled solution we all already have: the heated bed! Just lay your spool flat onto the bed (maybe put it on some small wooden pieces or so to raise it up a bit) and cover it with e.g. a cardboard box where you poked in some small holes and which you also placed onto some small objects to raise it up a bit and create a small gap between the box and the bedplate for a better circulation. Then heat up the bed to the specific temp you need for drying the type of filament you want to dry. Let it sit for a few hours.  
+
+*Don't use your kitchen oven for drying filament, as those are often not capable of heating at lower temperatures (many ovens start to heat at 50°C, which is already close to the glass transition temperature of PLA, which is around 55°-60°C!) - you can end up with a big clump of a melted spool and filament!*   
 
 When storing your filament, use e.g. some vaccum sealed bags or containers and add dessicant. You can see the solution I personally am using [here](hardware/other.md#filament-storage). 
 
