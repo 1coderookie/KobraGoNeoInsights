@@ -561,27 +561,31 @@ The following expandable textboxes will give you some basic instructions what yo
     |:-----------------:|:-----------------------------:|
     | 14° | 157kΩ |
     | 20° | 125kΩ |
-    |** 25° **| **100kΩ** |
+    |**25°**| **100kΩ** |
     | 30° |  81kΩ |
     | 35° |  65kΩ |
 
-    Set your multimeter to resistance testing for a higher Ohm range - in most cases the multimeters have different settings, usually 200/2000/20K/200K/20M -> use the setting "200K" here.  
+    *Set your multimeter to resistance testing for a higher Ohm range - in most cases the multimeters have different settings, usually 200/2000/20K/200K/20M -> use the setting "200K" here.*  
     
     You can measure by probing the belonging wires at the plug of the mainboard (unplug it!), that would be the white connector labeled as "T1" with the green and blue wire (see the chapter ["Mainboard" -> "TriGorilla V_3.0.6 (Stock)"](mainboard.md#trigorilla-v_306-stock) for a picture of the location).  
     
     
     - Keep in mind though that by probing at the connector, you also measure the wiring itself, which would be needed if you want to check if you maybe have a broken wiring. Means, if there are e.g. broken wires, the thermistor won't work even if the thermistor itself is still fine.  
-    - If you don't want to check the wiring, you could measure at the soldering joints right at the bed - in this case you also check the conductor path of the PCB itself.  
+    - If you don't want to check the wiring, you could measure at the soldering joints right at the bed - in this case you also check the conductor path of the PCB itself (keep in mind that some glue across the solder pad area might prevent a successful measurement, so make sure you really make contact to the solder joints!).  
     - If you really want to *only* measure the thermistor itself (which is advisable if you're in doubt and are thinking about changing the thermistor), then you'd have to pull off the little foamy piece in the middle of the underside of the bed and measure the resistance right at the soldering joints or legs of the thermistor itself.  
 
 ??? example "Checking The 24V Heating Circuit Of The PCB"  
 
     You can also check the 24V heating circuit of the PCB itself, like when the bed doesn't heat up (in this case make sure to also measure if 24V are coming from the belonging screw terminal for the heated bed at the mainboard!).    
-    Besides inspecting it closely if any visible damages like scratches or abraded spots are visible, you can measure the continuity and resistance of the circuit as well.  
+    Besides inspecting it closely if any visible damages like scratches or abraded spots are visible, measure the continuity and resistance of the 24V circuit as well.  
+
+    *Then set your multimeter to resistance testing for a low Ohm range (in most cases the multimeters have different settings, usually 200/2000/20K/200K/20M -> use the setting "200" here).* 
     
     For checking the 24V heating circuit, disconnect the wires from the mainboard's screw terminal.  
-    Then set your multimeter to resistance testing for a low Ohm range (in most cases the multimeters have different settings, usually 200/2000/20K/200K/20M -> use the setting "200" here).  
-    If the circuit is ok, continuity will be given and a resistance of about 3.2Ω should be reported.  
+    Then probe at the ends of the wires (which connect to the screw terminals) - by doing so, you also check the wiring as well.  
+    Double-check and probe at the solder joints right at the bed as well (keep in mind that some glue across the solder pad area might prevent a successful measurement, so make sure you really make contact to the solder joints!).  
+     
+    If the circuit is ok, continuity will be given and a resistance of about **3.2Ω** should be reported.  
 
 ---
 
