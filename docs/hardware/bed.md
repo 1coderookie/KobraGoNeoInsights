@@ -554,15 +554,34 @@ The following expandable textboxes will give you some basic instructions what yo
 
 ??? example "Measuring / Checking The Thermistor"  
 
-    You can check if a thermistor is working or if it's broken by measuring the resistance of it using a multimeter. As described above, at a temperature of 25°C the resistance should be ~100k Ohm. If the temperature is lower, the resistance value will be higher; if the temperature is higher, the resistance value will be lower.  
+    You can check if a thermistor is working or if it's broken by measuring the resistance of it using a multimeter. As described above, at a temperature of 25°C the resistance should be ~100k Ohm (nominal restistance: R<sup>25°C</sup> = 100 kΩ ± 1%). If the temperature is lower, the resistance value will be higher; if the temperature is higher, the resistance value will be lower.  
+    The following table gives you some typical resistance values of a 100K thermistor type 3950 (generic) for temperatures around room temperature. The values might slightly vary from the one you'll get, but they should be pretty close.  
     
-    You can measure by probing the belonging wires at the plug of the mainboard (unplug it!), that would be the white connector labeled as "T1" with the green and blue wire (see the chapter ["Mainboard" -> "TriGorilla V_3.0.6 (Stock)"](mainboard.md#trigorilla-v_306-stock) for a picture of the location). Keep in mind though that by doing so you also measure the wiring itself. Means, if there are e.g. broken wires, the thermistor won't work even if the thermistor itself is still fine. For avoiding this, you could measure at the soldering joints right at the bed - in this case you also check the conductor path of the PCB itself. If you really want to *only* measure the thermistor itself (which is advisable if you're in doubt and are thinking about changing the thermistor), then you'd have to pull off the little foamy piece in the middle of the underside of the bed and measure the resistance right at the soldering joints or legs of the thermistor itself.  
+    | Temperature in °C | Resistance in kΩ (kilo Ohm) |  
+    |:-----------------:|:-----------------------------:|
+    | 14° | 157kΩ |
+    | 20° | 125kΩ |
+    |** 25° **| **100kΩ** |
+    | 30° |  81kΩ |
+    | 35° |  65kΩ |
+
+    Set your multimeter to resistance testing for a higher Ohm range - in most cases the multimeters have different settings, usually 200/2000/20K/200K/20M -> use the setting "200K" here.  
+    
+    You can measure by probing the belonging wires at the plug of the mainboard (unplug it!), that would be the white connector labeled as "T1" with the green and blue wire (see the chapter ["Mainboard" -> "TriGorilla V_3.0.6 (Stock)"](mainboard.md#trigorilla-v_306-stock) for a picture of the location).  
+    
+    
+    - Keep in mind though that by probing at the connector, you also measure the wiring itself, which would be needed if you want to check if you maybe have a broken wiring. Means, if there are e.g. broken wires, the thermistor won't work even if the thermistor itself is still fine.  
+    - If you don't want to check the wiring, you could measure at the soldering joints right at the bed - in this case you also check the conductor path of the PCB itself.  
+    - If you really want to *only* measure the thermistor itself (which is advisable if you're in doubt and are thinking about changing the thermistor), then you'd have to pull off the little foamy piece in the middle of the underside of the bed and measure the resistance right at the soldering joints or legs of the thermistor itself.  
 
 ??? example "Checking The 24V Heating Circuit Of The PCB"  
 
-    You can also check the 24V heating circuit of the PCB itself. Besides inspecting it closely if any visible damages like scratches or abraded spots are visible, you can measure the continuity and resistance of the circuit as well.  
+    You can also check the 24V heating circuit of the PCB itself, like when the bed doesn't heat up (in this case make sure to also measure if 24V are coming from the belonging screw terminal for the heated bed at the mainboard!).    
+    Besides inspecting it closely if any visible damages like scratches or abraded spots are visible, you can measure the continuity and resistance of the circuit as well.  
     
-    If the circuit is ok, continuity will be given and a resistance of about 3.2Ohm should be reported.  
+    For checking the 24V heating circuit, disconnect the wires from the mainboard's screw terminal.  
+    Then set your multimeter to resistance testing for a low Ohm range (in most cases the multimeters have different settings, usually 200/2000/20K/200K/20M -> use the setting "200" here).  
+    If the circuit is ok, continuity will be given and a resistance of about 3.2Ω should be reported.  
 
 ---
 
