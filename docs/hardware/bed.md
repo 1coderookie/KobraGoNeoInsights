@@ -559,11 +559,11 @@ The following expandable textboxes will give you some basic instructions what yo
     
     | Temperature in °C | Resistance in kΩ (kilo Ohm) |  
     |:-----------------:|:-----------------------------:|
-    | 14° | 157kΩ |
-    | 20° | 125kΩ |
-    |**25°**| **100kΩ** |
-    | 30° |  81kΩ |
-    | 35° |  65kΩ |
+    | 15° | ~157 kΩ |
+    | 20° | ~125 kΩ |
+    |**25°**| **~100 kΩ** |
+    | 30° |  ~81 kΩ |
+    | 35° |  ~65 kΩ |
 
     *Set your multimeter to resistance testing for a higher Ohm range - in most cases the multimeters have different settings, usually 200/2000/20K/200K/20M -> use the setting "200K" here.*  
     
@@ -585,7 +585,7 @@ The following expandable textboxes will give you some basic instructions what yo
     Then probe at the ends of the wires (which connect to the screw terminals) - by doing so, you also check the wiring as well.  
     Double-check and probe at the solder joints right at the bed as well (keep in mind that some glue across the solder pad area might prevent a successful measurement, so make sure you really make contact to the solder joints!).  
      
-    If the circuit is ok, continuity will be given and a resistance of about **3.2Ω** should be reported.  
+    If the circuit is ok, continuity will be given and a resistance of about **3.2 Ω** should be reported.  
 
 ---
 
