@@ -160,7 +160,14 @@ The results will be much better than the ones that just use two brackets. Especi
 ## JST XH 2.54 Connectors & Crimping Tool
 Most of the connectors being used are JST XH 2.54 ones, so when tinkering, sooner or later you'll need the equipment for being able to crimp those connectors yourself.  
 
-(add image)
+I personally am using the "IWISS iCrimp SN-2549" which works really well. This specific SN-2549 type of crimping tool also comes from other manufacturers, but I personally found the jaws of this particular one being made pretty well for a still reasonable price.  
+![IWISS iCrimp SN-2549](assets/images/tools_iwiss-crimpingtool_web.jpg)  
+
+Then just get yourself one of those sets which contain connectors for soldering and crimping and you're good to go.  
+![Connector set](assets/images/tools_xh254set_web.jpg)  
+
+Before attempting to crimp wires for your printer, I highly recommend to make some test crimps beforehand for getting used to the procedure.  
+Make sure the crimp went well and to plug in the crimped contacts into the correct holes of the connector housings then when attempting the crimps for the printer's wiring.  
 
 ---
 
