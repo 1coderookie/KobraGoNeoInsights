@@ -1,6 +1,6 @@
 # Frame 
 
-As already mentioned in the introduction of this hardwrae section, **I strongly recommend to check and tram the whole construction of the printer's frame first.**  
+As already mentioned in the introduction of this hardware section, **I strongly recommend to check and tram the whole construction of the printer's frame first.**  
 
 *Check the whole frame if everything is square, rectangular and perpendicular, check all screws, bolts, belts, wheels, electrical connectors - literally everything.* This will save you a lot of hassle, frustration and headaches later..  
 
