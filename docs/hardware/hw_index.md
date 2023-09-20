@@ -17,26 +17,14 @@ Sure, you want to dive right into the beautiful ocean of 3D printing. And you wi
 The point is: even if you got the preassembled **Neo**, not everything might be assembled and mounted correctly. Some bolts or screws might not be tight enough or might be overtightened. The wheels might be too loose or too tight, same with the belts.  
 And about the lead screw: just touch it. Does it feel kinda wet and oily, or does it feel more sticky and resinous instead? I'd bet it's more the last. And especially this will lead to a pretty quick wear out (in this case of the anti-backlash nut) and weird artifacts on your prints (due to the inconsistent movement) which will drive you crazy after hours of calibration prints.  
 
-Just to show you what I'm talking about, look at the following pictures of the Y axis frame.  
-There you can see the *huge* amount of play you have and you can actually mount the frame completely crooked.  
-The first two pictures I took for showing you the maximum deviations which are possible.  
-
-![Y-axis crooked 1](../assets/images/baseframe_y-crooked1_web.jpg)  
-
-![Y-axis crooked 2](../assets/images/baseframe_y-crooked2_web.jpg)  
-
-The following picture shows you the y-axis how it came *preassembled* at one of my Neos from the manufacturer - now imagine me trying to get an almost perfect print out it if I wouldn't have checked on it..  
-
-![Y-axis crooked from manufacturer](../assets/images/axes_y-axis-crooked_web.jpg)  
-
-
-*Seriously, I can't encourage you enough to do a complete check-up and maintenance of your printer before you even try to print the first time.*    
-Not only will you get to know your printer better, it'll most likely save you headaches and many hours of fiddling around trying to find the perfect print settings - just to despair of weird artifacts showing up on prints just when you thought you found the perfect settings because they were caused by a sticky and partially clogged lead screw thread or so.  
-
-So - lean back, read the specific chapters and then grab your tools. Sooner or later you'll have to tinker anyway and by doing it right at the beginning of your journey you'll most likely be able to fix any possible hardware problem that occurs by yourself. No need to call Anycubic's warranty service to ask for a spare hotend because your nozzle is clogged or whatever (yes, I know, but people really do that..). No weeks of waiting until the part finally arrives and you realize that somebody has to take care of the tinkering part also.  
+So - lean back, read the specific chapters and then grab your tools.  
+Sooner or later you'll have to tinker anyway and by doing it right at the beginning of your journey you'll most likely be able to fix any possible hardware problem that occurs by yourself.  
+No need to call Anycubic's warranty service to ask for a spare hotend because your nozzle is clogged or whatever (yes, I know, but people really do that..).  
+No weeks of waiting until the part finally arrives and you realize that somebody has to take care of the tinkering part also.  
   
 Get to know this machine and give it some love, then it'll pay you back with reliability and beautiful prints.    
 
+Happy tinkering! 
 
 ---
 
