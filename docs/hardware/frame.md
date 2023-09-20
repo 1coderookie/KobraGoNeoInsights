@@ -1,7 +1,8 @@
 # Frame 
 
-As already mentioned in the introduction of this hardwrae section, I *strongly recommend to check and tram the whole construction of the printer's frame first.*  
-*Check the whole frame if everything is square, rectangular and perpendicular, check all screws, bolts, belts, wheels, electrical connectors - really just everything.*  
+As already mentioned in the introduction of this hardwrae section, **I strongly recommend to check and tram the whole construction of the printer's frame first.**  
+
+*Check the whole frame if everything is square, rectangular and perpendicular, check all screws, bolts, belts, wheels, electrical connectors - literally everything.* This will save you a lot of hassle, frustration and headaches later..  
 
 Just to show you what I'm talking about why it's really important to do so, look at the following pictures of the Y axis frame.  
 There you can see the *huge* amount of play you have and you can actually mount the frame completely crooked.  
