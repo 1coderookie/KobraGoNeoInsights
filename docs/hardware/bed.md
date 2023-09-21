@@ -418,7 +418,7 @@ So: enter the settings in your slicer and search the place where this section is
     
 ## Tramming The Bed  
 
-!!! warning "'Tramming' vs. 'Leveling' The Bed"  
+??? warning "'Tramming' vs. 'Leveling' The Bed"  
 
     Because I got attacked, harrassed, insulted and called names for using the correct term "tramming" instead of the misleading and technically wrong term "leveling", let me make something clear at this point.  
     
