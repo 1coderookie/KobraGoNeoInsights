@@ -300,7 +300,7 @@ See the following picture where you can clearly see a heavy wear and tear. Accor
 
 ### Tramming The X-Axis Gantry
 
-!!! warning "'Tramming' vs. 'Leveling' The Gantry"  
+??? warning "'Tramming' vs. 'Leveling' The Gantry"  
 
     Because I got attacked, harrassed, insulted and called names for using the correct term "tramming" instead of the misleading and technically wrong term "leveling", let me make something clear at this point.  
     
