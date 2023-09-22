@@ -14,11 +14,12 @@ The mainboard comes with TMC2208 silent stepper drivers *soldered* onto the boar
 ??? info "GC6609 stepper drivers being used as well!"  
 
     It seems that Anycubic changed the stepper drivers from original TMC2208 to cheap 2208/2209 clones, called "GC6609".  
-    This is how they look (you'd need to take off the heatsink to identify which specific type was being used at your mainboard):  
+    When exactly this change took place and whether it's a permanent solution or if only a certain batch of these mainboards have been populated with these kind of stepper drivers is unknown.  
+    However, the following picture shows this stepper driver (you'd have to take off the heatsink to identify which specific type was being used at your mainboard - which I wouldn't recommend to do if you're just curious to know which one you have..).    
     
     ![GC6609](../assets/images/board_GC6609-stepperdrivers_web.jpeg)  
     
-    I personally don't know anything about these dirvers, but @aspiringnobody shared his knowledge and findings in [this discussion](https://github.com/1coderookie/KobraGoNeoInsights/discussions/13). If you know anything more, please reach out and contribute to the discussion!  
+    I personally don't know anything about these drivers, but @aspiringnobody shared his knowledge and findings in [this discussion](https://github.com/1coderookie/KobraGoNeoInsights/discussions/13). If you know anything more, please reach out and contribute to the discussion!  
     
     Thanks again to @aspiringnobody who came across this and reported it!  
 
