@@ -54,6 +54,7 @@ Depending on the color of the box, it's either a tip, information, instruction, 
     - *Thanks a lot to **Anthony** for donating a spare part printhead of the **Go** and the **Neo** for further investigations!*  
     - *Thanks a lot to **Harry**, **karwin**, **Lingfei**, **Nostrilhar**, **quarrelsome_napkin**, **SaintIsaiah** and **Zim** for supporting my work with a donation to [my ko-fi account](https://ko-fi.com/U6U5NPB51)!*
     - *Thanks to all the **stargazers** at GitHub for starring this repository!*
+    - Thanks to **[aspiringnobody](https://github.com/aspiringnobody)** for reporting and providing the picture of the GC6609 stepper drivers being used!
     - Thanks to **[Balambao](https://www.reddit.com/user/Balambao)** for taking a picture of the ceramic heater block!  
     - Thanks to **[BlackSunBeast](https://www.reddit.com/user/BlackSunBeast)** for taking pictures of the feeder gear of the **Go** and the **Go** itself!  
     - Thanks to **[Darth_Kram](https://www.reddit.com/user/Darth_Kram)** for disassembling the feeder gear box of the **Go**, taking those pics and measuring the dimensions of those parts!  
