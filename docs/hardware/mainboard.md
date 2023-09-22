@@ -8,7 +8,7 @@ The stock mainboard of both the **Go** and the **Neo** is the "TriGorilla V_3.0.
 
 It is a 32bit 24V mainboard with a Huada HC32F460 KCTA ARM Cortex-M4 with 192KB SRAM and 512KB Flash.  
 The speed  of the ARM chip is listed as 200MHz by the manufacturer.  
-The mainboard comes with TMC2208 silent stepper drivers *soldered* onto the board (they can't be swapped out!).  
+The mainboard comes with TMC2208 silent stepper drivers *soldered* onto the board (they can't be swapped out!).  At least some motherboards are known to use the GC6609 clone driver.  It is not currently known if any motherboards use genuine TMC drivers.
 It offers a microSD card reader, a USB-C connector and a 10 pin connector for adding the control unit.    
   
 ![Mainboard TriGorilla front](../assets/images/mainboard_front_web.jpg)  
