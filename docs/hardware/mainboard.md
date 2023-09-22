@@ -8,8 +8,20 @@ The stock mainboard of both the **Go** and the **Neo** is the "TriGorilla V_3.0.
 
 It is a 32bit 24V mainboard with a Huada HC32F460 KCTA ARM Cortex-M4 with 192KB SRAM and 512KB Flash.  
 The speed  of the ARM chip is listed as 200MHz by the manufacturer.  
-The mainboard comes with TMC2208 silent stepper drivers *soldered* onto the board (they can't be swapped out!).  
 It offers a microSD card reader, a USB-C connector and a 10 pin connector for adding the control unit.    
+The mainboard comes with TMC2208 silent stepper drivers *soldered* onto the board (so they can't be just swapped out!). 
+
+??? info "GC6609 stepper drivers being used as well!"  
+
+    It seems that Anycubic changed the stepper drivers from original TMC2208 to cheap 2208/2209 clones, called "GC6609".  
+    This is how they look (you'd need to take off the heatsink to identify which specific type was being used at your mainboard):  
+    
+    ![GC6609](../assets/images/board_GC6609-stepperdrivers_web.jpeg)  
+    
+    I personally don't know anything about these dirvers, but @aspiringnobody shared his knowledge and findings in [this discussion](https://github.com/1coderookie/KobraGoNeoInsights/discussions/13). If you know anything more, please reach out and contribute to the discussion!  
+    
+    Thanks again to @aspiringnobody who came across this and reported it!  
+
   
 ![Mainboard TriGorilla front](../assets/images/mainboard_front_web.jpg)  
   
