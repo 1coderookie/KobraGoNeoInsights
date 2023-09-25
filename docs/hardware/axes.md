@@ -23,35 +23,19 @@ The x-axis gantry moves along the z-axis (up and down).
 The endstop/limit switches of the axes are located at the *minimum* endposition of each axis and are triggered when either axis reaches its limit. The switches of the x- and y-axes are mechanical switches, the one at the z-axis is an optical switch.    
 So if you notice that e.g. the motor of the y-axis doesn't stop when the bed reaches the end then you should check if the belonging switch is faulty. 
 
---- 
-  
-## Frame And Axes
+??? warning "Check And Tram The Frame!"  
 
-Before going into the details of each axis, let me emphasize how important it is to set up and tram the whole frame correctly and check everything twice before you proceed with assembling the rest of the printer and actually using it.  
+    Before going into the details of each axis, let me emphasize once again how important it is to set up and tram the whole [frame](frame.md) correctly and check everything twice before you proceed with assembling the rest of the printer and actually using it.  
 
-To give you a first impression, let me show you how the y-axis of one of my Neos looked like when it came preassembled from the manufacturer.  
+    Imagine a frame that is mounted crooked as shown in the section ["Frame"](frame.md) and you're trying to get almost perfect prints or at least somewhat good prints out of it. No matter how much you tweak settings, adjust the belt tensions, adjust the v-slot wheel positions - you won't be able to get the desired outcome.  
 
-![Y-axis crooked from manufacturer](../assets/images/axes_y-axis-crooked_web.jpg)  
+    Hopefully you realize how important it is to start with the most important part of the whole printer first - the base frame.  
+    *This is the construction everything else relies on.*  
+    If the base frame is already mounted crooked, if parts aren't perpendicular, parallel and/or equidistant to each other - how should everything else that is running along these structures or is built upon them work as intended?  
 
-I think that picture speaks for itself.  
-
-The next two pictures show you the amount of play you have when actually mounting the frame. I tilted the y-axis to the maximum possible positions, the inner aluminum frame part where the y-axis is mounted to rotates along those two screwholes of the side frames.  
-
-![Y-axis crooked 1](../assets/images/baseframe_y-crooked1_web.jpg)  
-
-![Y-axis crooked 2](../assets/images/baseframe_y-crooked2_web.jpg)  
-
-I didn't take a picture of it yet, but it's also possible to mount the aluminum frame of the z-axis tilted, even though there are precut areas where the parts should rest in.  
-
-So now imagine a frame that is mounted crooked and you're trying to get almost perfect prints out of it. No matter how much you tweak settings, adjust the belt tensions, adjust the v-slot wheel positions - you won't be able to get the desired outcome.  
-
-Hopefully you realize how important it is to start with the most important part of the whole printer first - the base frame.  
-*This is the construction everything else relies on.*  
-If the base frame is already mounted crooked, if parts aren't perpendicular, parallel and/or equidistant to each other - how should everything else that is running along these structures or is built upon them work as intended?  
-
-So, please, grab the sufficient tools, take some time and pay close attention when building up the printer.  
-If you got yourself the Neo, don't trust the preassembled parts, disassemble them and reassemble them in the correct way - at least check if everything is set up as it should be.  
-Once you've done all that, you'll not only know your printer much better already, but you also created the fundament for a reliably working machine.  
+    So, please, grab the sufficient tools, take some time and pay close attention when building up the printer.  
+    If you got yourself the Neo, don't trust the preassembled parts, disassemble them and reassemble them in the correct way - at least check if everything is set up as it should be.  
+    Once you've done all that, you'll not only know your printer much better already, but you also created the fundament for a reliably working machine.  
 
 ---
 
