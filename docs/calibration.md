@@ -122,7 +122,7 @@ Even though this isn't really a 'calibration', let me mention it at this point w
 The stock fan ducts of both the **Go** and the **Neo**, which are only cooling from one side, are (imho) actually pretty bad. So I highly recommend to print a better one as soon as you're able to somehow print.  
 This first one doesn't have to be perfect yet, but it'll most likely already have a big impact on the outcome, which allows you to tune in the settings even better and therefore finally print another fan duct.  
   
-I linked to some STL files for both the **Go** and the **Neo** in the section ["Mods"](hardware/printhead.md#mods) of the chapter "Printhead", but you'll probably find other models as well. 
+I linked to some STL files for both the **Go** and the **Neo** in the section ["Fan Duct"](hardware/printhead.md#fan-duct) of the chapter "Printhead", but search around at e.g. Thingiverse and Printables as well as the list isn't up to date and you'll probably find other models as well.  
   
 If you're printing PETG, then this would be the material you want to end up using for this as it's more heat resistant than PLA.  
 If you're only printing PLA (yet), then at least give it a try and see if it lasts or if it deforms due to the heat of the hotend or the bed. If you're only printing PLA with 60°C bed temperature, you'll most likely will be able to use a fan duct printed from PLA, but as soon as you raise the bed temperature, it'll most likely start to deform and sag.   
