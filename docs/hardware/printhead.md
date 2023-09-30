@@ -10,7 +10,7 @@
 | **Heater Cartridge**: 24V, 40W, ~14.5Ohm, dimensions 6x18mm, ~150cm wire length, two pinned JST VH 3.96 connector |
 | **Nozzle**: E3D V6 type |
 | **Heater Block**: E3D V5 type |
-| **Heatbreak**: <br> **Go**: M6 thread (to fit in the V5 heater block), overall length ??mm, 6mm OD / 4mm ID, PTFE tube <br> **Neo**: M6 thread (to fit in the V5 heater block), overall length ~24.6mm, 7mm OD / 4mm ID, PTFE tube |  
+| **Heatbreak**: <br> **Go**: M6 thread (to fit in the V5 heater block), overall length ~26mm, 6mm OD / 4mm ID, PTFE tube <br> **Neo**: M6 thread (to fit in the V5 heater block), overall length ~24.6mm, 7mm OD / 4mm ID, PTFE tube |  
 | **PTFE tube**: <br> **Go**: ~400mm bowden, ~4mm OD / ~2mm ID bore <br> **Neo**: ~41-44mm inliner for the heatbreak, ~4mm OD / ~2mm ID bore <br> *The PTFE tube at both printers can/should be repaced with a "Capricorn XS" tube (for 1.75mm filament).* |  
 | **Silicone Sock**: E3D V5 type |
 | **Part Cooling Fan**: <br> **Go**: 24V, 0.08A, 40x40x10mm, model "Coolcox BF4010H24S" <br> **Neo**: <br> - older versions: 24V, 0.08A, 45x45x10mm, model "Coolcox BF4510H24S" <br> - newer versions: 24V, 0.10A, 45x45x10mm, model "HSC BCY4510D24E" |
@@ -668,8 +668,8 @@ The stock heatbreaks aren't the worst out there, but they aren't the best either
 
 The heatbreak of the **Go** is plugged into the heatsink and secured by two screws.  
 It has a M6 thread to fit the V5 type heater block.  
-As I didn't disassemble yet the only spare part hotend of the **Go** I got myself for taking these pictures, I can't tell you the overall length. However, the length from that 'ring' until the end of it is ~17mm. 
-The outer diameter diameter is 6mm.  
+The overall length is about ~26mm; the length from that 'ring' until the end of the heatbreak is ~17mm.  
+The outer diameter is 6mm.  
 
 The following picture shows the heatbreak of the **Go** as it's screwed into the heater block.  
 
