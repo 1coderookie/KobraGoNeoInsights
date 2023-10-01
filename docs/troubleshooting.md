@@ -361,11 +361,16 @@ If the movement still doesn't stop, *turn off the printer immediately to avoid t
 ---
 
 ### SD Init Fail
-This error will be reported when the printer somehow doesn't recognize the [micro SD card](hardware/other.md#microsd-card).  
-Try to reformat the card as FAT32 (full format, not fast format). If that still doesn't solve the issue, try different cards (always formatted as FAT32!). The card that came with the printer is 8GB, but cards up to 32GB should work.  
+This error will be reported when the printer somehow doesn't recognize the [micro SD card](hardware/other.md#microsd-card).   
+
+This most likely is caused by a harmed filesystem. When printing from the SD card with having the power loss saving feature enabled, the machine is constantly writing to the card to save the progress of the print.  
+It can also be that the card itself is comletely damaged, but this is actually more the rare case - in most of the cases the card was still accessable when using a computer.  
+
+For solving this issue, try to reformat the card as FAT32 (do a full format though, not a fast format). If that still doesn't solve the issue, try different cards (always formatted as FAT32!). The card that came with the printer is 8GB, but cards up to 32GB should work.  
 
 However, it might happen that you'll have to try more than one card, as the printer somehow seems to be a bit picky - I personally had to try five(!) different cards, until it finally accepted one. The reason for this is unknown to me..  
 
+Once you found a working card, you can find the belonging files from Anycubic that were on the card initially (if you need them) at [Anycubic's support page]( https://www.anycubic.com/pages/firmware-software).  
 
 ---
 
