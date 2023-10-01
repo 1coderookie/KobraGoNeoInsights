@@ -325,8 +325,8 @@ where `M303` is the PID tune, `E0` is the extruder, `S220` is the temperature of
     
     The following command turns on the part cooling fan with the fan speed of 100%: `M106 E0 S255`  
     The value 255 means 255 PWM cycles, which is 100% fan speed.  
-    If you want to run the fan at a different fan speed, like 50% for example, you have to calculate the belonging value you have to use (instead of 255) by multiplying its value by 2.55.  
-    So as an example: let's assume you want to run the fan at 50% as you use to run the part cooling fan at 50% when printing PETG. Therefore you want to do the PID tuning with the part cooling fan running at 50% as well. Now calculate 50*2.55=127.5 which is then rounded up to 128 - which then is the value you need to use: `M106 E0 S128` = the part cooling fan runs at 50% fan speed for the PID tuning.   
+    If you want to run the fan at a different fan speed, like 50% for example, you have to calculate the belonging binary value you have to use (instead of 255) by multiplying the desired speed value by 2.55.  
+    So as an example: let's assume you want to run the fan at 50% as you use to run the part cooling fan at 50% when printing PETG. Therefore you want to do the PID tuning with the part cooling fan running at 50% as well. Now calculate 50*2.55=127.5 which is then rounded up to 128 - which then is the binary value you need to use: `M106 E0 S128` = the part cooling fan runs at 50% fan speed for the PID tuning.   
     
       
 After sending this command, the printer will reply and start the process:  
