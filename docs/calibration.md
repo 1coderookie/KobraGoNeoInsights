@@ -302,7 +302,11 @@ Also after you changed something at the hotend (like installed a new nozzle or h
   
 The best way to execute a PID tuning is by simply using certain G-code commands and send them to your printer. To do so, I'll show you an example of how to do it using OctoPrint - but you can do it with any other program that allows you to send G-code commands directly also.  
   
-PID tuning needs to be done in two steps: one for the extruder and one for the bed.
+PID tuning needs to be done in two steps: one for the extruder and one for the bed.  
+
+??? info "Add PID Tuning Values To Your Start G-Code"  
+
+    
 
 ---
 
@@ -313,6 +317,17 @@ I want the printer to execute seven cycles - the more the better the result will
 The belonging G-code is  
 `M303 E0 S220 C7`  
 where `M303` is the PID tune, `E0` is the extruder, `S220` is the temperature of 220°C and `C7` means seven cycles.  
+
+??? info "Turn On The Part Cooling Fan Beforehand"  
+
+    It's advisable to turn on the part cooling fan before doing the PID tuning for the hotend to take a possible effect of it into account.  
+    If you do so, it might be smart to use the fan speed you're going to use later for printing - by doing so, you could also create PID tuning values for different types of filament which require a different fan speed, like PLA, PETG, TPU and so on and add the specific values to the start g-code of your slicer's profiles for these specific types of filament.   
+    
+    The following command turns on the part cooling fan with the fan speed of 100%: `M106 E0 S255`  
+    The value 255 means 255 PWM cycles, which is 100% fan speed.  
+    If you want to run the fan at a different fan speed, like 50% for example, you have to calculate the belonging value you have to use (instead of 255) by multiplying its value by 2.55.  
+    So as an example: let's assume you want to run the fan at 50% as you use to run the part cooling fan at 50% when printing PETG. Therefore you want to do the PID tuning with the part cooling fan running at 50% as well. Now calculate 50*2.55=127.5 which is then rounded up to 128 - which then is the value you need to use: `M106 E0 S128` = the part cooling fan runs at 50% fan speed for the PID tuning.   
+    
       
 After sending this command, the printer will reply and start the process:  
 ```
