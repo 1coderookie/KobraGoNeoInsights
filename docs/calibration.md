@@ -303,10 +303,7 @@ Also after you changed something at the hotend (like installed a new nozzle or h
 The best way to execute a PID tuning is by simply using certain G-code commands and send them to your printer. To do so, I'll show you an example of how to do it using OctoPrint - but you can do it with any other program that allows you to send G-code commands directly also.  
   
 PID tuning needs to be done in two steps: one for the extruder and one for the bed.  
-
-??? info "Add PID Tuning Values To Your Start G-Code"  
-
-    
+   
 
 ---
 
