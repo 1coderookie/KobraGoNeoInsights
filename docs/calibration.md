@@ -394,6 +394,15 @@ To check if everything got applied, you can now execute a `M503`, which reports 
 
 That's it!  
 Congratulations, you just did the PID tuning for your extruder!
+
+??? tip "Create PID Tuning Values For Different Types Of Filament And Add The Values To Your Slicer"
+
+    It might be smart to do PID tunings with different fan speeds for certain kind of filament, as the fanspeed might affect the PID tuning.  
+    So let's assume you have a profile for PETG where you run the part cooling fan at 50%, use the according command to turn on the fan with 50% speed before executing the PID tuning. See the expandable textbox above for further information about how to do so.  
+    
+    You can then add the specific PID values to the start g-code of your slicer. So let's assume you made a PID tuning with 50% fan speed for PETG and got the values P20.84 I1.86 D58.26, then you add the line `M301 P20.84 I1.86 D58.26` to your slicer's start g-code.  
+
+    Mind that you *probably* have to create multiple *printer* profiles for being able to do so though (iirc this is/was the case when using Cura) as it might be that it's not possible to add this to the profiles of the filaments.  
     
 ---    
     
