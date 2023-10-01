@@ -372,6 +372,11 @@ Send: M500
 Recv: echo:Settings Stored (735 bytes; crc 9159)
 Recv: ok
 ```
+
+You can/should now also execute a `M501` command which restores/loads all saved settings from the EEPROM to the volatile memory. Now the printer has access to the settings you have saved previously.  
+
+To check if everything got applied, you can now execute a `M503`, which reports the current settings loaded on the volatile memory.   
+
 That's it!  
 Congratulations, you just did the PID tuning for your extruder!
     
@@ -404,6 +409,11 @@ Send: M500
 Recv: echo:Settings Stored (735 bytes; crc 54612)
 Recv: ok
 ```
+
+You can/should now also execute a `M501` command which restores/loads all saved settings from the EEPROM to the volatile memory. Now the printer has access to the settings you have saved previously.  
+
+To check if everything got applied, you can now execute a `M503`, which reports the current settings loaded on the volatile memory.   
+
 That's it!  
 Congratulations, you just did the PID tuning for your bed!
 
