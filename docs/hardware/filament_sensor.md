@@ -44,10 +44,10 @@ You don't have to get this sensor directly from Anycubic (which is about 15 to 2
   
 ## False Positive Detections And How To Fix Them 
 
-After using the filament runout sensor for a certain time, it may happen that you'll face false positive detections and therefore paused prints even though there was filament loaded.  
+After using the filament runout sensor for a certain time, it may happen that you'll face false positive detections and therefore paused prints even though there was filament loaded. Imho this might be caused by slight variances in the filament's diameter, so that the lever doesn't trigger the switch suffienctly when the diameter of the filament partially becomes smaller.   
    
 This might just be a small problem which probably could easily be fixed by bending the *top part* of the little lever of the switch (inside of the sensorbox) a bit more outwards, so that there's more pressure onto the filament.  
-If you do so, make sure that you only bend it slightly and that the lever still triggers the switch when you lead filament through it - you don't want to bend it too much and in a way that it won't be able to trigger the switch anymore.   
+If you do so, make sure that you only bend it slightly *at the upper part* and that the lever still triggers the switch when you lead filament through it - you don't want to bend it too much and in a way that it won't be able to trigger the switch anymore.   
 
 You can open the case with a small flathead screwdriver or a knife. Be careful and patient when doing so though, as there's some glue applied which needs some time to come off.  
 The following picture shows the inside of the sensor so that you can see the little metallic lever of the switch.  
