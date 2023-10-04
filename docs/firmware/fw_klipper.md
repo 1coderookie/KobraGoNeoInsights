@@ -283,26 +283,36 @@ By using Klipper you can take advantage of using Resonance Compensation and a fe
 This function compensates certain resonances (after provoking them while measuring the x and y axis), which avoids artefacts of the printed model called 'ringing' and 'ghosting'. This is especially useful when printing at higher speeds.  
 You can calibrate it manually or by using additional hardware like ADXL345 acceleration sensors (recommended).  
 
+(..add images of ADXL solutions..)
+
 Please refer to the official Klipper documentation of [Resonance Compensation](https://www.klipper3d.org/Resonance_Compensation.html#resonance-compensation) about how to calibrate and use it.
 
 ---
   
 ## Stock Control Unit
-The stock control unit of both the **Go** and the **Neo** *don't* work with Klipper. So is that going to be an issue? Actually I thought the same initially and that was the only reason which was holding me back switching to Klipper right away at the beginning. Now that I did switch, I can say that I don't really miss the control unit. 
+The stock control unit of both the **Go** and the **Neo** *don't* work with Klipper, means, you can't use it for *controlling* the printer.  
+So is that going to be an issue? Actually I thought the same initially and that was the only reason which was holding me back switching to Klipper right away at the beginning. Now that I did switch, I can say that I don't really miss the control unit. 
 
 Just as an example:  
 
 - Klipper *keeps* the z-offset, so you don't have to fiddle arount at the control unit for that before each and every print because the stcok-fw forgot your settings once again.   
 - Setting temps for e.g. heating up the hotend to change a nozzle or load/unload filament can be done by using Mainsail.  
-- Initiating the ABL procedure is also be done thru Mainsail, just like everything else.  
+- Initiating the ABL procedure is also be done through Mainsail, just like everything else.  
 
-However, if you really do miss the option to control the printer right at that place later, you have several options to do so:  
+However, if you really do miss the option to *control the printer* right at that place later, you have several options to do so:  
 
 - You can use your smartphone, tablet or laptop to just open the mainsail.local page at your browser and use the regular Mainsail frontend (which might be a bit 'uncomfortable' when using a smartphone though).  
 - You can use an old smartphone or tablet and install [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/) onto it, which then gives you a nice adapted UI with control buttons.   
   I also set it up, printed a holder for it and mounted it where the original control unit was as shown in the picture below. <br> ![KlipperScreen Smartphone](../assets/images/KlipperScreen-smartphone_web.jpg) <br> Actually I unplugged the phone again as I just control the printer via my computer and the mainsail.local page anyway though. It also kinda bothers me that I have to boot up the phone all the time as I don't leave the printer on 24/7, so I'll probably go with the next solution I'll mention.   
 - If you have a Raspberry Pi or other hardware you could connect a touchscreen to (e.g. by using a HMDI port) running for hosting Mainsail, you can add a touchscreen to that and use [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/). It's the same UI like using a smartphone or tablet.   
   This is actually a quite handy solution if you're using a RPi as you can set everything up in a dedicated case. I'll probably do that as well, just for the pure comfort of not having to take care about switching the smartphone on and off as the display is powered by the RPi. I just didn't want to spend money again when trying Klipper initially, that's why I used an old smartphone in first place.    
+
+*There is another use case for the stock control unit though: @jokusbasver managed to use the stock control unit as a screen!*  
+You need to wire it up to your RPi and have KlipperScreen running. As the stock control unit isn't a touchscreen and the knob isn't supported in KlipperScreen for operating/controlling Klipper, the unit only acts as a pure display, but at least you'll be able to use it and have the advantage of having certain status information present. The following picture shows this solution.  
+
+![Stock unit for KlipperScreen](../assets/images/stock-display_klipperscreen_jokubasver_web.jpg)  
+
+You can find his solution in the following GitHub repository: [https://github.com/jokubasver/Anycubic-Kobra-Go-Neo-LCD-Driver](https://github.com/jokubasver/Anycubic-Kobra-Go-Neo-LCD-Driver)  
 
 ---
        
