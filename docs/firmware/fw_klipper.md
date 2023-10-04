@@ -307,7 +307,7 @@ However, if you really do miss the option to *control the printer* right at that
 - If you have a Raspberry Pi or other hardware you could connect a touchscreen to (e.g. by using a HMDI port) running for hosting Mainsail, you can add a touchscreen to that and use [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/). It's the same UI like using a smartphone or tablet.   
   This is actually a quite handy solution if you're using a RPi as you can set everything up in a dedicated case. I'll probably do that as well, just for the pure comfort of not having to take care about switching the smartphone on and off as the display is powered by the RPi. I just didn't want to spend money again when trying Klipper initially, that's why I used an old smartphone in first place.    
 
-*There is another use case for the stock control unit though: @jokusbasver managed to use the stock control unit as a screen!*  
+*There is another use case for the stock control unit though: @[jokubasver](https://github.com/jokubasver) managed to use the stock control unit as a screen!*  
 You need to wire it up to your RPi and have KlipperScreen running. As the stock control unit isn't a touchscreen and the knob isn't supported in KlipperScreen for operating/controlling Klipper, the unit only acts as a pure display, but at least you'll be able to use it and have the advantage of having certain status information present. The following picture shows this solution.  
 
 ![Stock unit for KlipperScreen](../assets/images/stock-display_klipperscreen_jokubasver_web.jpg)  
