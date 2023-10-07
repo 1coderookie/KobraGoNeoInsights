@@ -696,18 +696,20 @@ As this isn't a bi-metal/full metal heatbreak, there is a little PTFE-tube insid
 
 #### MOD: Different Heatbreak
 
-The following picture shows two heatbreaks next to the stock one from third party manufacturers which I use in my **Neos**.  
-The steel one is about 27mm long, the copper bi-metal one is about 27.5mm long (overall).      
+The following picture shows three heatbreaks next to the stock one from third party manufacturers which I use in my **Neos**.  
+At the very left hand side the stock heatbreak is shown. Next to it is a ~27mm heatbreak from the aftermarket which takes a PTFE tube as an inliner just like the stock one does. Next to it, you see a 24mm long version and a 27.5mm long version of a copper bi-metal heatbreak.  
 
-![3 heatbreaks](../assets/images/head_neo_3heatbreaks_web.jpg)
 
-![3 heatbreaks top view](../assets/images/head_neo_3heatbreaks_top_web.jpg)
+![4 heatbreaks](../assets/images/head_neo_heatsinks_web.jpg)
 
-![3 heatbreaks bottom view](../assets/images/head_neo_3heatbreaks_bottom_web.jpg)
+![4 heatbreaks top view](../assets/images/head_neo_heatsinks-topview_web.jpg)
+
+
+*You can use all of them due to the same outer diameter of the heatbreak's throat which is 7mm, but you have to adjust the position of the fan duct outlet accordingly.*  
 
 !!! warning "Adjust The Position Of The Part Cooling Fan Duct (Outlet)"  
 
-    If you're going to use a heatbreak which is longer than the stock one, pay attention to the part cooling fan duct / fan duct outlet. As the whole hotend setup will be slightly longer and the nozzle will be positioned a bit lower, you need to adjust the position of the fan duct (outlet), so that it doesn't point the airstream onto the nozzle, but onto the printed part.  
+    If you're going to use a heatbreak which is longer than the stock one, pay attention to the part cooling fan duct / fan duct outlet. As the whole hotend setup will be slightly longer (or shorter if you use the 24mm heatbreak) and the nozzle will be positioned a bit lower (or higher if you use the 24mm heatbreak), you need to adjust the position of the fan duct (outlet), so that it doesn't point the airstream onto the nozzle, but onto the printed part.  
     As the fan duct models being available at Thingiverse, Printables etc are made for the stock setup, you'll have to modify the design, so that the outlet will come lower.  
     I did this for two models, but as I want to finetune that a bit and don't have an account there yet, I didn't put those modified version online yet. Once I did that, I'll link to them, so that you can just print them without the need of extra modification.  
 
