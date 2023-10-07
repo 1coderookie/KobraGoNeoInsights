@@ -35,6 +35,8 @@ Depending on the color of the box, it's either a tip, information, instruction, 
 
  
 **Please take your time and read attentively.**    
+
+Also mind the icon located at the very top for toggling between the bright and the dark mode of this site and mind the search field as well - it might come in handy.  
   
 ***Happy tinkering and printing!***  
 
