@@ -54,7 +54,7 @@ Also mind the icon located at the very top for toggling between the bright and t
 ??? info "Thanks To The Supporters And Contributers!"
 
     - *Thanks a lot to **Anthony** for donating a spare part printhead of the **Go** and the **Neo** for further investigations!*  
-    - *Thanks a lot to **Harry**, **karwin**, **Lingfei**, **Nostrilhar**, **quarrelsome_napkin**, **SaintIsaiah** and **Zim** for supporting my work with a donation to [my ko-fi account](https://ko-fi.com/U6U5NPB51)!*
+    - *Thanks a lot to **Harry**, **karwin**, **Lingfei**, **minorite**, **Nostrilhar**, **quarrelsome_napkin**, **SaintIsaiah** and **Zim** for supporting my work with a donation to [my ko-fi account](https://ko-fi.com/U6U5NPB51)!*
     - *Thanks to all the **stargazers** at GitHub for starring this repository!*
     - Thanks to **[aspiringnobody](https://github.com/aspiringnobody)** for reporting and providing the picture of the GC6609 stepper drivers being used!
     - Thanks to **[Balambao](https://www.reddit.com/user/Balambao)** for taking a picture of the ceramic heater block!  
