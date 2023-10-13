@@ -96,7 +96,7 @@ See the section ["Tramming The Bed"](hardware/bed.md#tramming-the-bed) for furth
 ### Tram The X-Axis Gantry
 Tramming the x-axis gantry (aka 'leveling' the gantry) is a really important step as well as it will ensure that the x-axis gantry either is parallel to the bed (when using the rigid stock spacers) or to the baseframe (when using adjustable spacers).  
 
-See the section [Tramming The X-Axis Gantry](hardware/axes.md#tramming-the-x-axis-gantry) in the belonging hardware chapter for further information and instructions about how to do so.  
+See the section ["Tramming The X-Axis Gantry"](hardware/axes.md#tramming-the-x-axis-gantry) in the belonging hardware chapter for further information and instructions about how to do so.  
 
 ---
 
