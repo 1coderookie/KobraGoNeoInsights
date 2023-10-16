@@ -58,29 +58,6 @@ However, as it seems to be quite difficult to get in these tiomes, you could try
 If you can't or don't want to get an RPi but still want to stick to one of those tiny tinker SBC (single board computer) units, you can check out the market what's available and comparable to a RPi, like an "Orange Pi", a "Le Potato" or so on.  
 However, I'm not going into further details here as I personally don't use them and therefore can't give reliable pieces of information about which boards exactly might be a good substitue to a RPi.  
 
-### Old Android Devices
-Yes, you've read correct: certain software could also be installed onto your old Android device like your smartphone or your tablet. Namely especially OctoPrint has to be mentioned here.  
-I won't go deeper here though due to my lack of experience with this solution - you'll find many information about this around the web. One of those sources of information I'd like to mention though is the video of [Thomas Sanladerer: How to run OctoPrint on your phone!](https://www.youtube.com/watch?v=74xdib_-X38) and the GitHub repository of [feelfreelinux: octo4a](https://github.com/feelfreelinux/octo4a).  
-  
-Besides the possibilty to use your old android device as a printserver, you can also use it as an additional screen for software like OctoPrint. That means that you don't install e.g. OctoPrint itself on the android device - you install an app which connects with the running instance of OctoPrint and gives you a nice UI on your smartphone. By doing so you could mount your old phone at the printer and interact with OctoPrint using your touchscreen or just have certain information displayed at the screen.  
-
-However, it should be mentioned here that it seems to be a bit like gambling to find the right device which connects with the USB chip being used at the printers mainboard and that can be charged parallel to being connected to the printer as well. It might even occur that the mainboard might get affected somehow if one applies 5V to it through the USB-C connector. 
-
-??? tip "KlipperScreen On An Old Android Device" 
-
-    Especially when you flashed the Klipper firmware onto your mainboard, using an old Android device as an additional screen mounted to the printer is a cheap solution for still being able to execute direct commands or having status information visible while sitting in front of your printer as the regular control unit doesn't work with the Klipper firmware anymore. Just install [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/) and you're good to go.  
-    You can see a picture of how it looks like on an old Samsung Galaxy SII in [this section](../firmware/fw_klipper.md#stock-control-unit).    
-  
-??? tip "USB OTG"
-
-    - I'd like to mention one of the probably biggest issues you might encouter: charging the device while having it connected to the printer at the same time. <br> While it shouldn't be a problem if you're having a device with a separate power plug or wireless charging, it might become a problem if you'd have to use some kind of solution which splits up the line for USB charging and OTG - not all devices work with that. <br> Additionally, I personally would be concerned about probably harming the printers mainboard due to a faulty cable or whatever. 
-    - What also should be mentioned here as a **warning** is the fact that devices which are connected 24/7 to the charger might be a huge hazard as the battery could catch fire or even blow up. So keep that in mind if you're tempted to go this way.
-
-### AndroidTV Boxes
-You could also use one of those AndroidTV boxes like those T95 models and install Linux/Armbian onto them. These devices often come with 2GB RAM & 16GB flash or 4GB RAM and 32GB flash and use different kinds of quadcore CPUs. As there are many different versions which using different CPUs out there, you'll have to do a little bit of a research on your own how to install a Linux OS onto the belonging AndroidTV box regarding the chip being used.   
-
-If you're living in the US, you can also have a look at the [Inovato Quadra](https://inovato.com/) - it's a T95 AndroidTV box which comes with a LinuxOS already being installed and it's about 35$. 
-  
 ### Old "Regular" Hardware 
 If you have old hardware laying around like a laptop or so, you can also use that. Don't worry - even if it's pretty old in most of the cases it still would be sufficient. Install a Linux OS onto it and then install the desired software.   
   
@@ -110,13 +87,44 @@ Anyway - even if they're usually available for a fair price, I want to mention t
 ### NAS / Server
 If you have a NAS or a server up and running already, you could also install the printing software onto that. In this case I'd assume that you already know what you're doing and that you don't need any advise though.   
  
-
 ### Sonic Pad
-This is a nice and handy solution for the Klipper users. The Creality Sonic Pad comes with Klipper preinstalled and offers features like WiFi, a touchscreen and so on. User [@mackmind](https://github.com/mackmind) was so kind to write down some [instructions about how to proceed](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/7) for getting a Sonic Pad to work with the Go/Neo.  
+This is a nice and handy solution for the **Klipper** users. The Creality Sonic Pad comes with Klipper preinstalled and offers features like WiFi, a touchscreen and so on. User [@mackmind](https://github.com/mackmind) was so kind to write down some [instructions about how to proceed](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/7) for getting a Sonic Pad to work with the Go/Neo.  
+
+There are also other kind of pads available for the special usage with Klipper, like the one from BTT and so on.  
+
+### Old Android Devices
+Yes, you've read correct: certain software could also be installed onto your old Android device like your smartphone or your tablet. Namely especially OctoPrint has to be mentioned here.  
+I personally would *not* recommend it as a host for Klipper though - you can use an old Android device as a KlipperScreen though.  
+
+I won't go deeper here though due to my lack of experience with this solution - you'll find many information about this around the web. One of those sources of information I'd like to mention though is the video of [Thomas Sanladerer: How to run OctoPrint on your phone!](https://www.youtube.com/watch?v=74xdib_-X38) and the GitHub repository of [feelfreelinux: octo4a](https://github.com/feelfreelinux/octo4a).  
+  
+Besides the possibilty to use your old android device as a printserver, you can also use it as an additional screen for software like OctoPrint. That means that you don't install e.g. OctoPrint itself on the android device - you install an app which connects with the running instance of OctoPrint and gives you a nice UI on your smartphone. By doing so you could mount your old phone at the printer and interact with OctoPrint using your touchscreen or just have certain information displayed at the screen.  
+
+However, it should be mentioned here that it seems to be a bit like gambling to find the right device which connects with the USB chip being used at the printers mainboard and that can be charged parallel to being connected to the printer as well. It might even occur that the mainboard might get affected somehow if one applies 5V to it through the USB-C connector. 
+
+??? tip "KlipperScreen On An Old Android Device" 
+
+    Especially when you flashed the Klipper firmware onto your mainboard, using an old Android device as an additional screen mounted to the printer is a cheap solution for still being able to execute direct commands or having status information visible while sitting in front of your printer as the regular control unit doesn't work with the Klipper firmware anymore. Just install [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/) and you're good to go.  
+    You can see a picture of how it looks like on an old Samsung Galaxy SII in [this section](../firmware/fw_klipper.md#stock-control-unit).    
+  
+??? tip "USB OTG"
+
+    - I'd like to mention one of the probably biggest issues you might encouter: charging the device while having it connected to the printer at the same time. <br> While it shouldn't be a problem if you're having a device with a separate power plug or wireless charging, it might become a problem if you'd have to use some kind of solution which splits up the line for USB charging and OTG - not all devices work with that. <br> Additionally, I personally would be concerned about probably harming the printers mainboard due to a faulty cable or whatever. 
+    - What also should be mentioned here as a **warning** is the fact that devices which are connected 24/7 to the charger might be a huge hazard as the battery could catch fire or even blow up. So keep that in mind if you're tempted to go this way.
+
+### AndroidTV Boxes
+You could also use one of those AndroidTV boxes like those T95 models and install Linux/Armbian onto them. These devices often come with 2GB RAM & 16GB flash or 4GB RAM and 32GB flash and use different kinds of quadcore CPUs. As there are many different versions which using different CPUs out there, you'll have to do a little bit of a research on your own how to install a Linux OS onto the belonging AndroidTV box regarding the chip being used.   
+
+If you're living in the US, you can also have a look at the [Inovato Quadra](https://inovato.com/) - it's a T95 AndroidTV box which comes with a LinuxOS already being installed and it's about 35$. 
+
 
 ## Software
+When it comes down to the software that should run on the printserver, you can choose between different solutions. It also depends a bit which kind of firmware you're running.  
+My personal opinion on this:  
+- If you're running the stock one which is Marlin based, just go with OctoPrint.  
+- If you're using Klipper firmware, you can stick to OctoPrint, I'd recommend the usage of Mainsail or Fluidd though, as they're basically made for Klipper.  
 
-When it comes down to the software that should run on the printserver, you can choose between different solutions. It also depends a bit which kind of firmware you're running. My personal opinion on this: if you're running the stock one which is Marlin based, just go with OctoPrint. If you're using Klipper firmware, you can stick to OctoPrint or use Marlin (or Fluidd, as they're basically made for Klipper). Yes, you could also look out for different software, but because those programs are commonly used you'll find a lot of information about them and also many plugins for enhancing the capability even more. I'd recommend to do a little websearch on that, you might want to start with this article though: [Ocbico: Mainsail vs. Fluidd vs. Octoprint - A Comparison](https://www.obico.io/blog/mainsail-vs-fluidd-vs-octoprint/)
+Yes, you could also look out for different software, but because the abovementioned programs are commonly used you'll find a lot of information about them and also many plugins for enhancing the capability even more. I'd recommend to do a little websearch on that, you might want to start with this article though: [Ocbico: Mainsail vs. Fluidd vs. Octoprint - A Comparison](https://www.obico.io/blog/mainsail-vs-fluidd-vs-octoprint/)
   
 
 ## How To Install
@@ -127,9 +135,11 @@ So in case you want to use hardware like the abovementioned Thin Clients, you pr
   - Check out [KIAUH](https://github.com/th33xitus/kiauh) as it isn't an installation script that makes everything a lot easier only for Klipper but also for OctoPrint, Mainsail, Fluidd and so on.     
 
 ## Camera
-As mentioned in the RPi section, if you connect a webcam directly to your printserver, I'd suggest to use a webcam which only offers a low resolution like 480p (640x480) as you don't need 4K for monitoring the printing process. Of course a more powerful hardware can also handle a higher resolution though.  
+As mentioned in the RPi section, if you connect a webcam directly to your printserver, I'd suggest to use a webcam which only offers a low resolution like 480p (640x480) as you don't need 4K for monitoring the printing process. Of course a more powerful hardware can also handle a higher resolution though. Even though you can use 720p or even 1080p as well most of the times, I personally think 480p is totally sufficient when it's just about monitoring the print process.  
+
 Preferably use a cam with a wide angle view and a fixed focus, so that you can see the whole area of the bed and there's no autofocus which gets irritated by the movement.  
-If you want to create a time lapse video from your printing process, keep in mind that it's a pretty resource consuming task (CPU power, RAM and storage usage). So also here using a low resolution like 480p is adviseable.    
+
+If you want to create a time lapse video from your printing process, keep in mind that it's a pretty resource consuming task (CPU power, RAM and storage usage). So also here using a low resolution like 480p is adviseable, but might not fulfill your needs if you want high resolution videos.    
   
 However, I also would like to mention or even recommend general IP cameras (WiFi/LAN) which you could use. Also here it doesn't have to be a cam for a hundret bucks - a cheap one will do the job just fine. They often already come with the option to create time lapse videos and store it onto a microSD card also.  
 If you like to tinker a bit, maybe get yourself a cheap ESP32-CAM module.  
