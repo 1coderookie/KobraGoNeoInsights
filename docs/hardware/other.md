@@ -11,6 +11,27 @@ The printers are shipped with a 8GB microSD card. If you need to replace that ca
 It might happen though that several cards won't be accepted and the error message "SD init fail" will be reported. In that case, try to completely format it again (full format, not fast format) as FAT32. If that still doesn't solve the problem, try a different card. I personally had to try five(!) different cards of different sizes until the printer finally accepted one (actually the oldest 4GB I had laying around).  
 
 ---
+
+## Filament Spool & Amount Of Filament Left 
+Ever wondered how much filament might be left on your spool?  
+If you'd know the weight of the empty spool, you could (more or less precise) calculate the amount in meters left on the spool by just putting the spool on a kitchen scale.  
+
+So if you have a favoured brand and an empty spool already, measure the weight of it and keep it in mind (or on a Post-It note ;) ).  
+But what if you don't have an empty spool you could measure? In that case I have your back covered - check out [this Wiki](https://3dprintingwiki.mywikis.wiki/wiki/Spool_weight) which lists many brands and the weights of the belonging spools. (If your specific type isn't listed, please reach out to the creators of that Wiki once your spool is empty and you were able to get the specific weight!)  
+
+??? example "Calculating The Amoung Of Filament"  
+
+    It's said that a regular 1kg spool of 1.75mm filament contains about 330m of filament.  
+    To be on the safe side, I personally calculate with 300m per 1kg. That means 1000g = 300m, 100g = 30m and 10g = 1m.  
+    So when you wanna roughly calculate the amount of filament left on the spool before or even while printing, put the spool on a kitchen scale and read the weight. Then substract the spool's weight and you have the amount of filament left in grams. Convert that to meters and you'll get an idea if you're on the safe side or if you should have a new spool on hand.  
+    
+    Example:  
+    I'm using AzureFilm filament which comes with the newer spool design, those black ones with the holes. The spool's weight is 220g.  
+    The actual spool's weight with some filament left on there is 390g.  
+    So we can do the math: 390-220=170 - ok, so I have 170g filament on there.  
+    How many meters are that now? 100g of filament is about 30m, 10g about 3m. So: 30+(7*3)=51 - means, I have about 51m filament left on the spool, which would allow me to start my 3hrs print which uses 27m without the need to worry if I'll run out of filament. 
+
+---
   
 ## Spool Holder
 The spool holder of both models is mounted to the top frame.  
