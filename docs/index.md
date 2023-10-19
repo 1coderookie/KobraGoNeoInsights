@@ -65,6 +65,7 @@ Also mind the icon located at the very top for toggling between the bright and t
     - Thanks to **[GruesomeJeans](https://www.reddit.com/user/GruesomeJeans)** for taking pictures of the spare parts of the bed, the magnetic foil and the mounted z-axis limit switch!  
     - Thanks to **[Imaginary_Gift_8533](https://www.reddit.com/user/Imaginary_Gift_8533/)** for allowing me to use his picture of the wear & tear of his wheels!  
     - Thanks to **[I_Sells_Drugs](https://www.reddit.com/user/I_Sells_Drugs/)** for taking pictures of his sheared off heatbreak!
+    - Thanks to **[Island-Strange](https://www.reddit.com/user/Island-Strange/)** for taking a picture of his shortcut bed!  
     - Thanks to **[Jaximus](https://www.reddit.com/user/Jaximus)** for allowing me to use the picture of the slipped out cartridge heater!  
     - Thanks to **[jokubasver](https://github.com/jokubasver)** for making that screenshot of the config settings for compiling the klipper.bin and for allowing me to use his picture of the stock control unit being used for KlipperScreen!**  
     - Thanks to **[MeckeMecke](https://www.reddit.com/user/MeckeMecke/)** for allowing me to use the picture of his direct drive mod for the Go using a Revo CR an an Orbiter V.2!
