@@ -752,11 +752,20 @@ When installing a new bowden tube or cutting off a bit at the end to get rid of 
 ### Neo
 The PTFE tube at the **Neo** is about 41-44mm long as it's a direct drive system. Here the PTFE tube only is an inliner for the heatbreak.  
 
+![Hotend](../assets/images/head_neo_hotend-new_web.jpg)  
+
 *At all of the eight printheads with the stock hotends I examined, the PTFE tubes not only were too short, they also were all of a different length and none of them was cut perpendicular which will cause clogging issues later when printing.* So pay attention to that.  
 
 The one replacement tube for the stock hotend setup I cut with the heatbreak being pushed into the heatsink completely was about ~43.7mm long. As I replaced the stock hotend parts right away, I only made a few prints with that setup for test purposes though.  
 
 When you need to cut a new inliner and you're not sure about the correct length, the best would be to actually disassemble the hotend, so that you can install the heatbreak only. Push it into the heatsink as far as you can. Then push the replacement tube into the heatbreak from the bottom, until you can't stick it in any further. Then either cut along the end of the heatbreak or mark that spot and cut it perpendicular afterwards. Then the length should fit - at least it should fit better than the stock inliner.  
+
+!!! warning "Check The PTFE Tube"  
+
+    The stock PTFE tube which acts as an inliner for the heatbreak isn't the best quality. It will deform, burn and melt at certain temperatures. These inliners can also clog and especially the stock one adds friction to the whole filament feeding system.  
+    So it's adivsable to check the state of this inliner from time to time to make sure everything is fine here. If you notice that the quality of your prints decreases, that you have to run higher retraction settings or that more stringing occurs, you might face a deformed or clogged inliner.  
+
+    I personally can highly recommend using Capricorn XS tube instead of the stock one, as those can stand higher temperatures as well as the surface itself is smoother and therefore friction is lowered.  
 
 ---
   
