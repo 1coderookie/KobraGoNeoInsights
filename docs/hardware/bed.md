@@ -211,9 +211,15 @@ The following picture shows the stock spacers on the left, springs in the middle
 
 !!! warning "Mind The Gap!"
 
-    When using adjustable spacers, it's extremely important to keep an eye on the clearing underneath the bed while tramming the bed and therefore adjusting the height of the whole bedplate itself. You don't want to get the bed too low so that it hits or scratches the bracket of the y-axis motor mount!  
-    This is extremely important when using silicone spacers as they most likely come in about the same height (18mm) of the regular stock spacers but will compress while tramming the bed!  
-    Also when adding insulation to the underside of the bed, the clearance has to be checked!  
+    When using adjustable spacers, it's extremely important to keep an eye on the clearing underneath the bed while tramming the bed and therefore adjusting the height of the whole bedplate itself!  
+    You don't want to get the bed too low so that it hits or scratches the bracket of the y-axis motor mount!  
+     
+    The following pictures show the result of a bed which as been adjusted too low, so that the metal bracket of the y-axis motor mount scratched the underside of the bed. The heating coils got harmed and a shortcut occured. Not only will you have to get yourself a new bed in this case, this can also destroy the mainboard or do even more severe harm!  
+
+    ![Bed PCB shortcut](../assets/images/bed_shortcut_wide_web.jpeg)  
+    ![Bed PCB shortcut closeup](../assets/images/bed_shortcut_web.jpeg)
+   
+    Also when adding insulation to the underside of the bed, the clearance has to be checked to avoid that the mounting plate will tear off the insulation!  
 
 ---
         
@@ -225,11 +231,17 @@ However, as springs are made from metal which underlies the temperature changes 
   
 I personally used 8x25mm springs (the yellow ones shown above) and M4x40mm countersunk head screws as that allowed me to add some bigger lock nut knobs I had laying around. So if you go with regular M4 lock nuts, 35mm (or *maybe* even 30mm) screws should be fine as well I guess. Those springs were part of a bundle from Capricorn, they came together with 1m of the Capricorn tube and a cutter (and a sticker) for a really fair price (about 11€ for everything together).  
 
-!!! warning "Mind The Gap!"
+??? warning "Mind The Gap!"
 
-    When using adjustable spacers, it's extremely important to keep an eye on the clearing underneath the bed while tramming the bed and therefore adjusting the height of the whole bedplate itself. You don't want to get the bed too low so that it hits or scratches the bracket of the y-axis motor mount!  
-    This is extremely important when using silicone spacers as they most likely come in about the same height (18mm) of the regular stock spacers but will compress while tramming the bed!  
-    Also when adding insulation to the underside of the bed, the clearance has to be checked!  
+    When using adjustable spacers, it's extremely important to keep an eye on the clearing underneath the bed while tramming the bed and therefore adjusting the height of the whole bedplate itself!  
+    You don't want to get the bed too low so that it hits or scratches the bracket of the y-axis motor mount!  
+     
+    The following pictures show the result of a bed which as been adjusted too low, so that the metal bracket of the y-axis motor mount scratched the underside of the bed. The heating coils got harmed and a shortcut occured. Not only will you have to get yourself a new bed in this case, this can also destroy the mainboard or do even more severe harm!  
+
+    ![Bed PCB shortcut](../assets/images/bed_shortcut_wide_web.jpeg)  
+    ![Bed PCB shortcut closeup](../assets/images/bed_shortcut_web.jpeg)
+   
+    Also when adding insulation to the underside of the bed, the clearance has to be checked to avoid that the mounting plate will tear off the insulation!    
 
 ---
 
@@ -238,11 +250,17 @@ You could also use silicone spacers of about the same length as the stock spacer
   
 Keep in mind that the silicone spacers (I used 18mm long ones shown below) compress when tramming the bed. Therefore it *might* happen that you'll get into trouble because the position of the whole bedplate will be lowered a bit, so make sure that the bedplate doesn't somehow hit the motor mount at the back of the y-axis. *Especially when adding insulation to the underside of the bed, you'll need to raise the bedplate a bit, so I highly recommend using the abovementioned 25mm springs in that case anyway!*   
   
-!!! warning "Mind The Gap!"
+??? warning "Mind The Gap!"
 
-    When using adjustable spacers, it's extremely important to keep an eye on the clearing underneath the bed while tramming the bed and therefore adjusting the height of the whole bedplate itself. You don't want to get the bed too low so that it hits or scratches the bracket of the y-axis motor mount!  
-    This is extremely important when using silicone spacers as they most likely come in about the same height (18mm) of the regular stock spacers but will compress while tramming the bed!  
-    Also when adding insulation to the underside of the bed, the clearance has to be checked!   
+    When using adjustable spacers, it's extremely important to keep an eye on the clearing underneath the bed while tramming the bed and therefore adjusting the height of the whole bedplate itself!  
+    You don't want to get the bed too low so that it hits or scratches the bracket of the y-axis motor mount!  
+     
+    The following pictures show the result of a bed which as been adjusted too low, so that the metal bracket of the y-axis motor mount scratched the underside of the bed. The heating coils got harmed and a shortcut occured. Not only will you have to get yourself a new bed in this case, this can also destroy the mainboard or do even more severe harm!  
+
+    ![Bed PCB shortcut](../assets/images/bed_shortcut_wide_web.jpeg)  
+    ![Bed PCB shortcut closeup](../assets/images/bed_shortcut_web.jpeg)
+   
+    Also when adding insulation to the underside of the bed, the clearance has to be checked to avoid that the mounting plate will tear off the insulation!       
 
 ---    
 
