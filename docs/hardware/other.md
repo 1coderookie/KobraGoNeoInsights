@@ -145,15 +145,18 @@ The upsides though can clearly make up the beforementioned issues:
 - Printing certain types of filament will not only become easier (like PETG for example which is already pretty sensitive to a cool airstream hitting the bed), some even require the usage of an enclosure, like ABS for example.  
 - You can integrate certain security functions like a smoke detector and even a fire distinguisher, which can reduce the risk of a fire hazard massively. This is highly dependant on the material the enclosure is built from though - if you're using highly flammable material for insulating the inner parts of the enclosure of if you're building the enclosure from wood, then of course the whole enclosure itself will increase the risk as mentioned above. So make sure you're using proper material.  
 
-When thinking about using an enclosure, you'd have to think about the design itself, the size and the materials. If you have no idea to start from, you can find countless solutions as an inspiration across the web. There are also prebuilt enclosures available as well as enclosures which I personally call "tent style enclosures" (or just "tents").  
+When thinking about using an enclosure, you'd have to think about the design itself, the size and the materials.  
+If you have no idea to start from, you can find countless solutions as an inspiration across the web (a pretty popular and easy to build solution is the "IKEA Lack enclosure").  
+There are also prebuilt enclosures available as well as enclosures which I personally call "tent style enclosures" (or just "tents").  
 
 I personally ended up with getting myself two of those tent style enclosures, just because I like the idea of being able to fold it together and put it in the closet if I don't need it anymore.  
-There are quite a few of these tents available, when taking a closer look at the various offers you'll see that most of them are actually the same, just being branded differently. I call them "generic" ones. Only some of the tents available on the market seem to really differ from those "generic" ones, here the ones from Creality and SainSmart have to be mentioned as you'll most likely come across them when you're searching for these tent style enclosures.  
+There are quite a few of these tents available, but when taking a closer look at the various offers you'll see that most of them are actually the same, just being branded differently. I call them "generic" ones.  
+Only some of the tents available on the market seem to really differ from those "generic" ones, here the ones from Creality and SainSmart have to be mentioned as you'll most likely come across them when you're searching for these tent style enclosures.  
 I got myself one of those "generic" ones which was branded by Sunlu and one from SainSmart which I'll show in the following and mention some pros and cons I personally consider worth mentioning (pictures will be added soon).  
 I didn't get the one fromm Creality as it was the smallest among those offers (width ~47.5cm) - even though it would be sufficient and the Go and Neo would fit in there, I personally like a bit of additional space as I often get my hands on the hardware anyway and therefore don't need to always take the printer out of the enclosure.  
 
 **Sunlu (imho "generic")**  
-The size of this generic tent style enclosure one is ......  
+The size of this generic tent style enclosure one is about 55x64x74cm.  
 Due to it's height, the enclosure allows the usage of the filament spool holder mounted to the top of the frame.    
 
 | Sunlu closed | Sunlu open |  
@@ -182,7 +185,7 @@ The following picture shows the left side of the enclosure with the part which c
 I personally use this enclosure for the Kobra Neo I use for printing PLA. When printing, I completely open it. When not printing, this enclosure acts as a nice protection against dust and hairs of my cats.  
 
 **SainSmart "Upgraded Large Volume 3D Printer Enclosure"**   
-The size of this tent style enclosure from SainSmart one is 20.9" x 24.2" x 28.9", so it's about ... cm.  
+The size of this tent style enclosure from SainSmart one is about 54x62x72cm.  
 Due to it's height, the enclosure allows the usage of the filament spool holder mounted to the top of the frame.  
 
 | SainSmart closed | SainSmart open |
@@ -208,7 +211,7 @@ On the right side there's an additional oopening as well which allows you to acc
 |:---------:|:--------:|:----------:|
 | ![Left side](../assets/images/enclosure_SainSmart_left-side_web.jpg) | ![Top side](../assets/images/enclosure_SainSmart_top-lid_web.jpg) | ![Right side](../assets/images/enclosure_SainSmart_right-side_web.jpg) |
 
-I personally use this tent for my Neo which prints anything else than PLA.  
+I personally use this tent for my Neo which prints other types of filament than PLA.  
 
 **Final thoughts on tent style enclosures**  
 My bottom line here about these two types of tent style enclosures would be: if you plan to use the enclosure for *printing* more demanding types of filament like ABS for example and not just like using it as a better dust protection cover, then I highly recommend getting the one from SainSmart.  
