@@ -70,6 +70,13 @@ The fan is a 60x60x15mm, 24V, 0.10A type ("Cheng Liang CHA6024RL-15B").
 
 ## Change The Cover Of The PSU Housing (MOD)
 
+!!! warning "Warning: Don't Open The PSU - And IF So, Don't Touch Any Parts Inside"  
+
+    It must be said at this point that you shouldn't open the PSU.  
+    However, *if* you have to do so, make sure to *not touch* any parts on the inside!  
+    **There are capacitors built in which can give you severe eletrical shocks even if the machine isn't plugged in or switched on as they store electricity!** 
+
+
 The fan of the PSU is pretty loud, so one of the first things one wants to change is probably to mount a different fan. The fan itself isn't actually that loud though, the noise is mostly created by the way the cover of the PSU housing inhibits the airflow.  
 
 I found a model for a different cover, which was actually made for using a different (bigger) fan. I remixed it and closed that cutout for using the stock fan instead.  
