@@ -32,12 +32,25 @@ The housing of the power supply unit is mounted at the back of the base frame un
 The following picture shows the location of the PSU (in the back, without the metal cover) and the mainboard (in the front, without the plastic cover) at the **Neo**.  
 
 ![Location PSU](../assets/images/neo_underside_mb-psu_web.jpg)  
-  
+
+
+!!! warning "Warning: Turn Off And Unplug The Machine Before Accessing The Connectors"  
+
+    It must be said at this point that you shouldn't access the PSU's connectors.  
+    However, *if* you have to do so, make sure that you switched it off AND that you have *unplugged it*!  
+
 The following picture shows the connectors of the PSU with the three 115V/230V AC wires on the right side (L = brown, N = blue, earth = yellow/green) and the 24VDC on the left side (V+ = red and V- = black).  
 
-![Connectors PSU](../assets/images/psu_connectors_web.jpg)  
+![Connectors PSU](../assets/images/PSU_connectors_labeled_web.jpg)  
 
 On the very left side you can see a green LED and right next to it a white potentiometer. With this potentiometer you can adjust the output voltage - so if you measure the voltage at the 24V DC connectors and you don't have 24V there, you can adjust the voltage to the correct value.  
+
+
+!!! warning "Warning: Don't Open The PSU - And IF So, Don't Touch Any Parts Inside"  
+
+    It must be said at this point that you shouldn't open the PSU.  
+    However, *if* you have to do so, make sure to *not touch* any parts on the inside!  
+    **There are capacitors built in which can give you severe eletrical shocks even if the machine isn't plugged in or switched on as they store electricity!** 
 
 The following picture shows the PCB of the PSU - the fan isn't plugged in, the belonging connector is the white two-pin connector in the upper left edge area of the board.    
 
