@@ -24,11 +24,11 @@ The mainboard comes with TMC2208 silent stepper drivers *soldered* onto the boar
     Thanks again to @aspiringnobody who came across this and reported it!  
 
   
-![Mainboard TriGorilla front](../assets/images/mainboard_K2Pro_frontside_web.jpg)  
+![Mainboard TriGorilla front](../assets/images/mainboard_front_web.jpg)  
   
-![Mainboard TriGorilla back](../assets/images/mainboard_K2Pro_backside_web.jpg)  
+![Mainboard TriGorilla back](../assets/images/mainboard_back_web.jpg)    
 
-![Mainboard labeled](../assets/images/mainboard_K2Pro_plain_labeled_web.jpg)
+![Mainboard labeled](../assets/images/mainboard_complete_labeled_web.jpg)
 
 The microSD card reader slot and the USB-C connector can be accessed from at front of the printer, you find them at the right hand side of that black plastic aperture of the frame as shown in the picture below.  
 
