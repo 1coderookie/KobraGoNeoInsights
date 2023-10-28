@@ -89,7 +89,7 @@ The microSD card reader slot and the USB-C connector can be accessed from at fro
 
 ---
 
-### Mainboard Fan
+### Mainboard Cooling Fan
   
 The following picture shows the fan of the mainboard. It's a 70x70x15mm, 24V, 0.08A type ("Coolcox CC7015M24S").  
 
@@ -97,7 +97,7 @@ The following picture shows the fan of the mainboard. It's a 70x70x15mm, 24V, 0.
 
 ---
   
-## MOD: Other Mainboards 
+## MOD: Different Mainboard 
 It's possible to replace the stock mainboard with a different type of board, like e.g. a board from BigTreeTech (BTT). You just have to pay attention that it uses and provides 24V DC as well, as the PSU and the components like the fans etc. are running on 24V. Depending on the type of the board, you might have to use a different ABL sensor (and most likely a different type of control unit as well though, but I assume you'll run Klipper on it then anyway).  
 
 ---
