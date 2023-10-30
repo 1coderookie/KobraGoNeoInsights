@@ -106,7 +106,7 @@ However, there is one thing I'd like to point out right now as it's causing trou
     There is one specific setting I'd like to mention here though as it may cause problems if you don't adjust that. It's the setting `[fan]` for the part cooling fan.  
     So, in the file `printer.cfg` there is a section for the settings of the fans. Klipper is using software PWM by default, the default frequency here seems to be 100Hz.  
     However, users reported dying part cooling fans shortly after switching to Klipper (you can find one of the discussions [here](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2)). This problem seems to be related to the default PWM frequency.  
-    After investiganting the problem it seems that [the fan runs at 20kHz](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2#discussioncomment-5626026) when using the stock firmware as [@xiaopeng12138](https://github.com/xiaopeng12138) found out. So I'd recommend to change the belonging setting for the part cooling fan to the specific "cycle_time" value "0.000050" which is 20kHz.  
+    After investiganting the problem it seems that [the fan runs at 20kHz](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2#discussioncomment-5626026) when using the stock firmware as [@xiaopeng12138](https://github.com/xiaopeng12138) found out. So I'd recommend to change the belonging setting for the part cooling fan to the specific "cycle_time" value "0.000050" which is 20kHz if it's not already set in the specific `printer.cfg` you're using.  
    
     This is the belonging section and the setting for the part cooling fan:  
     ```
@@ -168,7 +168,7 @@ If you *don't* do this and try to boot Klipper without the Pico being connected,
 There are *two* z-offsets you need to set:  
 
 - the probe's z-offset and
-- the z-offset in relation to the z-endstop (which is the z-offset you already know from setting at the the stock firmware).  
+- the z-offset in relation to the z-endstop, which is the z-offset you already know from setting at the the stock firmware and which comes into account when printing the initial layer.  
 
 For doing so, you have to execute two different commands while you're proceeding the [configuration checks](https://www.klipper3d.org/Config_checks.html):  
 
@@ -176,15 +176,42 @@ For doing so, you have to execute two different commands while you're proceeding
 - [`Z_ENDSTOP_CALIBRATE`](https://www.klipper3d.org/Manual_Level.html#calibrating-a-z-endstop) for setting the z-offset for the initial layer.
 
 Please click on the links and read the official documentation about these commands and how to proceed.  
-I'll just give you a short overview about these two kinds of z-offset to show you what the differences are and why you need to set both of them:  
 
-- The z-offset during [`PROBE_CALIBRATE`](https://www.klipper3d.org/Probe_Calibrate.html#calibrating-probe-z-offset) is the z-offset of the probe to the bed. It doesn't have an influence on the initial layer, but it's needed for e.g. the correct visual output of the graphical bedmesh later. So here you let Klipper know how far the probe is away from the plate.
-- With [`Z_ENDSTOP_CALIBRATE`](https://www.klipper3d.org/Manual_Level.html#calibrating-a-z-endstop) you set the z-offset of the nozzle to the bed in relation to the endstop, which is actually the one that comes into account when starting a print. It tells your Klipper which distance needs to be between the nozzle and triggering the endstop for printing the initial layer. So *this* z-offset is the one which comes into account when printing the initial layer - you know this one from using the stock firmware and setting the z-offset there.
+!!! warning "Wait For The Printhead Being Moved"
+
+    When executing the abovementioned commands, you need to move the *probe* to the center of the bed by typing in the specific X and Y coordinates. As an example, I have to move my head to X=72.5 and Y=106 for having the *probe* right above the center of the bed.  
+    Once done with that, you then type in the belonging command for starting the actual calibration process. The head will move down a bit until the probe detects the PEI plate.  
+    Once the surface has been detected, a little window will pop up (referring to the Mainsail UI here) which allows you to change the Z position.  
+    **BUT - and this is CRUCIAL! - the head will start to slowly move sidewards in this moment to position the nozzle right above the point where the probe has been located!**  
+    ***You need to WAIT for this movement to be done!***  
+    **So inspect the head and wait until it doesn't move anymore before adjusting the actual height!**
+    
+
+In the follwing, I'll just give you a short overview about these two kinds of z-offset to show you what the differences are and why you need to set both of them.    
+
+---
+
+#### Probe's Z-Offset
+The z-offset during [`PROBE_CALIBRATE`](https://www.klipper3d.org/Probe_Calibrate.html#calibrating-probe-z-offset) is the z-offset of the probe to the bed.  
+It doesn't have an influence on the initial layer, but it's needed for e.g. the correct visual output of the graphical bedmesh later. So here you let Klipper know how far the probe is away from the plate.
+
+*Once done, click on "ACCEPT" - and just to be on the safe side, send a `SAVE_CONFIG` command as well.* 
+
+---
+
+#### Endstop's Z-Offset  
+With [`Z_ENDSTOP_CALIBRATE`](https://www.klipper3d.org/Manual_Level.html#calibrating-a-z-endstop) you set the z-offset of the nozzle to the bed in relation to the endstop, which is actually the one that comes into account when starting a print.  
+It tells your Klipper which distance needs to be between the nozzle and triggering the endstop for printing the initial layer.  
+So *this* z-offset is the one which comes into account when printing the initial layer - you know this one from using the stock firmware and setting the z-offset there.
+
+*Once done, click on "ACCEPT" - and just to be on the safe side, send a `SAVE_CONFIG` command as well.* 
   
-  *If you adjust your z-offset on the fly while printing your ***initial layer***, you need to save that value to the ***endstop*** (not to the probe!) for having it applied the next times.*  
-  At the Mainsail UI for example there's a little button you can use for saving the changes you made while adjusting the offset on the fly. It shows a floppy disk symbol next to "SAVE" and a small arrow next to it. When you click on that arrow, a context menu opens up and you can choose whether to save your changes to the probe or the endstop as the following screenshot shows.   
-  ![Mainsail UI save offset button](../assets/images/mainsail_save-z-offset.jpg)  
-  So when doing so, choose "TO ENDSTOP" for saving the new z-offset value for printing your perfect first layer next time.  
+!!! warning "Attention When Adjusting The Z-Offset On The Fly"  
+
+    *If you adjust your z-offset on the fly while printing your ***initial layer***, you need to save that value to the ***endstop*** (not to the probe!) for having it applied the next times.*  
+    At the Mainsail UI for example there's a little button you can use for saving the changes you made while adjusting the offset on the fly. It shows a floppy disk symbol next to "SAVE" and a small arrow next to it. When you click on that arrow, a context menu opens up and you can choose whether to save your changes to the probe or the endstop as the following screenshot shows.   
+    ![Mainsail UI save offset button](../assets/images/mainsail_save-z-offset.jpg)  
+    So when doing so, choose "TO ENDSTOP" for saving the new z-offset value for printing your perfect first layer next time.  
 
 ??? tip "Using The Probe As A Virtual Endstop"
 
@@ -193,7 +220,8 @@ I'll just give you a short overview about these two kinds of z-offset to show yo
     `endstop_pin: probe:z_virtual_endstop`  
     
     *I personally wouldn't recommend to do so though.*   
-    The reason is simple: users already reported faulty probes, mostly due to broken wirings being caused by cableties being too tight. Imho it's also more likely that the probe is getting somehow defective than the z-axis limit switch, as the probe is mounted to a moving part (the printhead). In that case the printer would drive the nozzle into the bed not only when executing an ABL measurement / bed mesh, but also when homing or starting a print. So keep that in mind and consider that risk when thinking about using the probe as a virtual z-endstop. 
+    The reason is simple: users already reported faulty probes, mostly due to broken wirings being caused by cableties being too tight.  
+    Imho it's also more likely that the probe is getting somehow defective than the z-axis limit switch, as the probe is mounted to a moving part (the printhead). In that case the printer would drive the nozzle into the bed not only when executing an ABL measurement / bed mesh, but also when homing or starting a print. So keep that in mind and consider that risk when thinking about using the probe as a virtual z-endstop. 
 
   
 ---
