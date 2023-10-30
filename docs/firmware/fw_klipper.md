@@ -172,8 +172,8 @@ There are *two* z-offsets you need to set:
 
 For doing so, you have to execute two different commands while you're proceeding the [configuration checks](https://www.klipper3d.org/Config_checks.html):  
 
-- [`PROBE_CALIBRATE`](https://www.klipper3d.org/Probe_Calibrate.html#calibrating-probe-z-offset) for setting the z-offset of the probe and
-- [`Z_ENDSTOP_CALIBRATE`](https://www.klipper3d.org/Manual_Level.html#calibrating-a-z-endstop) for setting the z-offset for the initial layer.
+- [`PROBE_CALIBRATE` for setting the z-offset of the probe](https://www.klipper3d.org/Probe_Calibrate.html#calibrating-probe-z-offset) and
+- [`Z_ENDSTOP_CALIBRATE` for setting the z-offset for the initial layer](https://www.klipper3d.org/Manual_Level.html#calibrating-a-z-endstop).
 
 Please click on the links and read the official documentation about these commands and how to proceed.  
 
@@ -182,9 +182,7 @@ Please click on the links and read the official documentation about these comman
     When executing the abovementioned commands, you need to move the *probe* to the center of the bed by typing in the specific X and Y coordinates. As an example, I have to move my head to X=72.5 and Y=106 for having the *probe* right above the center of the bed.  
     Once done with that, you then type in the belonging command for starting the actual calibration process. The head will move down a bit until the probe detects the PEI plate.  
     Once the surface has been detected, a little window will pop up (referring to the Mainsail UI here) which allows you to change the Z position.  
-    **BUT - and this is CRUCIAL! - the head will start to slowly move sidewards in this moment to position the nozzle right above the point where the probe has been located!**  
-    ***You need to WAIT for this movement to be done!***  
-    **So inspect the head and wait until it doesn't move anymore before adjusting the actual height!**
+    **BUT - and this is CRUCIAL! - the head will start to slowly move sidewards in this moment to position the nozzle right above the point where the probe has been located!** ***You need to WAIT for this movement to be done!*** **So inspect the head and wait until it doesn't move anymore before adjusting the actual height!**
     
 
 In the follwing, I'll just give you a short overview about these two kinds of z-offset to show you what the differences are and why you need to set both of them.    
@@ -192,17 +190,32 @@ In the follwing, I'll just give you a short overview about these two kinds of z-
 ---
 
 #### Probe's Z-Offset
-The z-offset during [`PROBE_CALIBRATE`](https://www.klipper3d.org/Probe_Calibrate.html#calibrating-probe-z-offset) is the z-offset of the probe to the bed.  
+The z-offset during [`PROBE_CALIBRATE` is the z-offset of the probe to the bed](https://www.klipper3d.org/Probe_Calibrate.html#calibrating-probe-z-offset).  
 It doesn't have an influence on the initial layer, but it's needed for e.g. the correct visual output of the graphical bedmesh later. So here you let Klipper know how far the probe is away from the plate.
+
+??? warning "Wait For The Printhead Being Moved"
+
+    When executing the abovementioned commands, you need to move the *probe* to the center of the bed by typing in the specific X and Y coordinates. As an example, I have to move my head to X=72.5 and Y=106 for having the *probe* right above the center of the bed.  
+    Once done with that, you then type in the belonging command for starting the actual calibration process. The head will move down a bit until the probe detects the PEI plate.  
+    Once the surface has been detected, a little window will pop up (referring to the Mainsail UI here) which allows you to change the Z position.  
+    **BUT - and this is CRUCIAL! - the head will start to slowly move sidewards in this moment to position the nozzle right above the point where the probe has been located!** ***You need to WAIT for this movement to be done!*** **So inspect the head and wait until it doesn't move anymore before adjusting the actual height!**
 
 *Once done, click on "ACCEPT" - and just to be on the safe side, send a `SAVE_CONFIG` command as well.* 
 
 ---
 
 #### Endstop's Z-Offset  
-With [`Z_ENDSTOP_CALIBRATE`](https://www.klipper3d.org/Manual_Level.html#calibrating-a-z-endstop) you set the z-offset of the nozzle to the bed in relation to the endstop, which is actually the one that comes into account when starting a print.  
+With [`Z_ENDSTOP_CALIBRATE` you set the z-offset of the nozzle to the bed in relation to the endstop](https://www.klipper3d.org/Manual_Level.html#calibrating-a-z-endstop), which is the one that comes into account when starting a print.  
 It tells your Klipper which distance needs to be between the nozzle and triggering the endstop for printing the initial layer.  
-So *this* z-offset is the one which comes into account when printing the initial layer - you know this one from using the stock firmware and setting the z-offset there.
+
+***This*** **z-offset is the one which comes into account when printing the initial layer** - you know this one from using the stock firmware and setting the z-offset there.
+
+??? warning "Wait For The Printhead Being Moved"
+
+    When executing the abovementioned commands, you need to move the *probe* to the center of the bed by typing in the specific X and Y coordinates. As an example, I have to move my head to X=72.5 and Y=106 for having the *probe* right above the center of the bed.  
+    Once done with that, you then type in the belonging command for starting the actual calibration process. The head will move down a bit until the probe detects the PEI plate.  
+    Once the surface has been detected, a little window will pop up (referring to the Mainsail UI here) which allows you to change the Z position.  
+    **BUT - and this is CRUCIAL! - the head will start to slowly move sidewards in this moment to position the nozzle right above the point where the probe has been located!** ***You need to WAIT for this movement to be done!*** **So inspect the head and wait until it doesn't move anymore before adjusting the actual height!**
 
 *Once done, click on "ACCEPT" - and just to be on the safe side, send a `SAVE_CONFIG` command as well.* 
   
