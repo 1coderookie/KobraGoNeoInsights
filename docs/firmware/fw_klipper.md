@@ -167,8 +167,8 @@ If you *don't* do this and try to boot Klipper without the Pico being connected,
 
 There are *two* z-offsets you need to set:  
 
-- the probe's z-offset and
-- the z-offset in relation to the z-endstop, which is the z-offset you already know from setting at the the stock firmware and which comes into account when printing the initial layer.  
+- the probe's z-offset (distance of the probe to the PEI plate) and
+- the z-offset in relation to the z-endstop, which is the z-offset you already know from setting at the the stock firmware and **which comes into account when printing the initial layer**.  
 
 For doing so, you have to execute two different commands while you're proceeding the [configuration checks](https://www.klipper3d.org/Config_checks.html):  
 
@@ -205,10 +205,8 @@ It doesn't have an influence on the initial layer, but it's needed for e.g. the 
 ---
 
 #### Endstop's Z-Offset  
-With [`Z_ENDSTOP_CALIBRATE` you set the z-offset of the nozzle to the bed in relation to the endstop](https://www.klipper3d.org/Manual_Level.html#calibrating-a-z-endstop), which is the one that comes into account when starting a print.  
+With [`Z_ENDSTOP_CALIBRATE` you set the z-offset of the nozzle to the bed in relation to the endstop](https://www.klipper3d.org/Manual_Level.html#calibrating-a-z-endstop), **which is the one that comes into account when starting a print.**  
 It tells your Klipper which distance needs to be between the nozzle and triggering the endstop for printing the initial layer.  
-
-***This*** **z-offset is the one which comes into account when printing the initial layer** - you know this one from using the stock firmware and setting the z-offset there.
 
 ??? warning "Wait For The Printhead Being Moved"
 
@@ -218,7 +216,12 @@ It tells your Klipper which distance needs to be between the nozzle and triggeri
     **BUT - and this is CRUCIAL! - the head will start to slowly move sidewards in this moment to position the nozzle right above the point where the probe has been located!** ***You need to WAIT for this movement to be done!*** **So inspect the head and wait until it doesn't move anymore before adjusting the actual height!**
 
 *Once done, click on "ACCEPT" - and just to be on the safe side, send a `SAVE_CONFIG` command as well.* 
-  
+
+
+!!! warning "This Is The Z-Offset For The Initial Layer!"  
+
+    ***This*** **z-offset is the one which comes into account when printing the initial layer** - you know this one from using the stock firmware and setting the z-offset there.  
+      
 !!! warning "Attention When Adjusting The Z-Offset On The Fly"  
 
     *If you adjust your z-offset on the fly while printing your ***initial layer***, you need to save that value to the ***endstop*** (not to the probe!) for having it applied the next times.*  
