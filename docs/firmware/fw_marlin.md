@@ -770,8 +770,6 @@ So in case you want or need to set this value higher (do at your own risk though
         
     Now you can start trying to find the best retraction speed that may be above 25mm/s by printing retraction towers. 
 
-#### Babystepping Z-Axis
-As we can see from above, the babysteps for manual controling the z-axis using the control unit are 0.025mm. That means that e.g. if we want to set the offset using the control unit, each step will be *displayed* as 0.02mm but *in fact* it is 0.025mm! Means, that e.g. you lower the z-axis or the z-axis offset two steps, it will be displayed as 0.04mm but in fact it will be 0.05mm. This might not appear important at first sight, but as that sums up the higher the value becomes which you set using the control unit, the higher the deviation will be.  
 
 #### Linear Advance  
 The useful function "Linear Advance" is NOT activated!  
@@ -838,15 +836,22 @@ So in case you want or need to set this value higher (do at your own risk though
        
     Now you can start trying to find the best retraction speed that may be above 25mm/s by printing retraction towers. 
     
-       
-#### Babystepping Z-Axis
-As we can see from above, the babysteps for manual controling the z-axis using the control unit are 0.025mm. That means that e.g. if we want to set the offset using the control unit, each step will be *displayed* as 0.02mm but *in fact* it is 0.025mm! Means, that e.g. you lower the z-axis or the z-axis offset two steps, it will be displayed as 0.04mm but in fact it will be 0.05mm. This might not appear important at first sight, but as that sums up the higher the value becomes which you set using the control unit, the higher the deviation will be.  
-
-
-  
+         
 #### Linear Advance  
 The useful function "Linear Advance" is NOT activated!  
 This seems to be due to the fact that (afaik) there's some kind of problem with Marlin firmware versions before v2.1 and TMC2208 stepper drivers. 
+
+#### Probe's Offset
+The setting for the Y-coordinate of the probe's offset is wrong.  
+It's set to "0" in the stock firmware, but it's actually located behind the nozzle, so "4" would be a value that should be correct.  
+This is the setting which is being used:  
+`#define NOZZLE_TO_PROBE_OFFSET { 37.5,0, 0 } // Probe to RIGHT of the Nozzle has a Positive X offset`  
+
+However, it should be `#define NOZZLE_TO_PROBE_OFFSET { 37.5,4, 0 }` though. This value (4mm) is from a first and quick measurement being taken in the past, so I might end up measuring again in the somewhat future, but for now this is at least much more accurate than the stock setting.  
+
+If you're using e.g. OctoPrint or Pronterface and can send g-code commands directly to the printer, you can change this setting using the ["`M851` - XYZ Probe Offset" command](https://marlinfw.org/docs/gcode/M851.html).  
+So `M851 Y4.0` should do the job.  
+
    
 ---  
   
