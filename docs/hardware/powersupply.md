@@ -167,6 +167,11 @@ If you're using this kind (or a different kind) of MOSFET, you should check if t
 
     It is highly recommended to add a suitable fuse to the 24V line, right after the connector of the PSU. If your additional parts like the converter will fail, the fuse will melt - which can save you from burning down your house.  
     
+The following picture shows the MOSFET being mounted to the rear left-hand side of the frame. I made an extension wire for the thermistor wires as well. 
+  
+As an additional benefit, now that it's mounted back there, the problem with the bed's wires being too short isn't given anymore.  
+
+![MOSFET mounted](../assets/images/psu_mosfet-mounted_web.jpg)  
 
     
 ---
