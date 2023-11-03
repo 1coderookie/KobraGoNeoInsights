@@ -177,10 +177,13 @@ As there aren't any specifications and replacement motors from Anycubic being av
 
 ---
 
-### V-Slot Wheels Position
+### V-Slot Wheels 
 The wheels of the printhead's mounting plate are leading the printhead along the aluminum profile of the x-axis (the so-called "x-axis gantry").  
 The wheels run in the V-slot of the profile and therefore they should sit in an optimal position.    
 
+---
+
+#### Position
 *You can adjust the position and therefore the overall pressure of the wheels against the aluminum profile of only ***one*** wheel by turning the eccentric nut which moves the wheel either towards or away from the aluminum profile.*   
 The following picture shows an eccentric nut which I painted to make the special shape of it more visible.  
 
@@ -203,7 +206,7 @@ See the following picture where you can clearly see a *heavy* wear and tear. Acc
     
 ---
   
-### V-Slot Wheels Maintenance  
+#### Maintenance  
 
 As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
 
@@ -244,9 +247,12 @@ The x-axis gantry is the aluminum profile (plus the corresponding parts) where t
  
 ---
 
-### V-Slot Wheels Position
+### V-Slot Wheels 
 The x-axis gantry is moved along the z-axis aluminum profile driven by the z-axis lead screw, guided by v-slot wheels. They run in the v-slot of the z-axis profiles and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
 
+---
+
+#### Position
 *You can adjust the roller tension by turning the eccentric nut of the wheel which moves the wheels either towards or away from the aluminum profile.*    
 The following picture shows an eccentric nut which I painted to make the special shape of it more visible.  
 
@@ -273,7 +279,7 @@ Let me show you a picture of that Y-shaped brackets I'm referring to first thoug
           
 ---
   
-### V-Slot Wheels Maintenance  
+#### Maintenance  
 
 As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
 
@@ -537,9 +543,12 @@ As there aren't any specifications and replacement motors from Anycubic being av
 
 ---
     
-### V-Slot Wheels Position
+### V-Slot Wheels 
 The wheels are leading the bed onto the aluminum profile in the middle. They run in the V-slot of the long profile in the middle underneath the bed and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
 
+---
+
+#### Position  
 *You can adjust the roller tension by turning the eccentric nut which moves the wheels either towards or away from the aluminum profile.*   
 The following picture shows an eccentric nut which I painted to make the special shape of it more visible.  
 
@@ -566,7 +575,7 @@ Make sure they're assembled correctly and line up with the slot as well - if the
     
 ---
   
-### V-Slot Wheels Maintenance  
+#### Maintenance  
 
 As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
 
