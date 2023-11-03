@@ -545,13 +545,13 @@ I don't have *that* one and only final solution right now as I'm still experimen
 However, right now three simple 'hacks' seem to work - at least a bit, as I didn't run into the problem of broken wires here yet (..knock on wood..).  
 To keep this section as short as possible, I'll go over each of them in an expandable textbox as usual.  
 
-??? experiment "Duct-Tape"  
+??? example "Duct-Tape"  
 
     The first 'hack' is to actually just wrap some layers of duct tape around the plastic cap and the first inch or two of the wiring.  
     By doing so, you'll stiffen up the wires a bit in that first section right behind the cap, avoiding the punctual bending. You need to make sure that the whole construction won't be too stiff as it should still be able to bend overall though, otherwise you'll provoke the same issue right after the attached tape.  
     As I'm using my printers in an enclosure, this solution didn't last long though. The heat inside the enclosure made the glue of the tape warm and it lost contact to the black plastic cap. So I personally can't recommend this one.  
 
-??? experiment "Self-Sealing/Welding Tape"  
+??? example "Self-Sealing/Welding Tape"  
 
     The second 'hack' is actually kind of the same like the duct tape method, but instead of wrapping the self-sealing tape around the outside of the plastic cap, you wrap it around the wires.  
     I forgot to take a picture of it, but it's fairly simple, so let me explain it a bit.  
@@ -564,7 +564,7 @@ To keep this section as short as possible, I'll go over each of them in an expan
     For the sake of simplicity, I'd recommend this solution as it's easy to apply, even with the stock setup.  
     If you don't know or have self-sealing / self-welding tape yet, give it a try. It's really great and comes in handy in several cases.   
 
-??? experiment "Self-Sealing/Welding Tape And A Silicone Tube"
+??? example "Self-Sealing/Welding Tape And A Silicone Tube"
 
     The third option I tried is actually kind of similar to the one being previously mentioned, but instead of only using self-sealing tape, I used a piece of silicone tube in addition.   
     - First, I cut the cabletie which holds the whole wire 'package' to the black plastic cap.  
@@ -575,7 +575,7 @@ To keep this section as short as possible, I'll go over each of them in an expan
 
     I have to admit though that I probably exxagerated it as the additional silicone tube made it quite stiff. So if you want to go with this solution, keep an eye on the thickness and stiffness of the tube as well as how many layers of tape you apply.    
 
-??? experiment "Spring And Heat Shrink Tubings"
+??? example "Spring And Heat Shrink Tubings"
 
     The last method I'd like to mention is the one using a semi-stiff spring and some heat shrink tubings.  
 
