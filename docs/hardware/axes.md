@@ -45,9 +45,48 @@ You can adjust the tension of the belt by using the knob at the right side of th
   
 ![X-axis knob](../assets/images/x-axis_knob_web.jpg)
 
+
 ---
 
-### Belt Tension
+### Belt Tensioner
+
+The following picture shows the belt tensioner located at the right hand side of the x-axis gantry.  
+
+![X-axis knob](../assets/images/x-axis_knob_web.jpg)
+
+You adjust the tension of the belt by turning it clockwise for increasing the tension and turning it counter-clockwise for decreasing it.  
+
+Inside the plastic cap is a pulley where the belt runs across. The pulley has the following specs: 16mm OD / 3mm ID / 20 teeth (for 6mm wide belt).  
+See the following expandable textboxes for some notes on how to dis- and reassemble the tensioners in case you need to do so.  
+
+??? example "Disassembling The Belt Tensioner"
+
+    It might happen that you have to disassemble the tensioner in order to replace a broken belt or a broken (part of the) tensioner.  
+    In that case turn the knob counter-clockwise until the belt completely sags. Then unhook one end of the belt from the bedgantry (I suggest to unhook it in the front of the bed gantry). Unscrew the two screws you can see at the blue plastic cap of the belt tensioner and carefully pull it off the frame. You might have to turn the knob even more counter-clockwise if it doesn't come off right away.  
+    Once you've pulled it off, you'll see the parts as shown in the picture below (right now the picture shows the disassembled y-axis tensioner, but besides a slightly different shaped plastic cap, the interior looks the same - I'll add a belonging picture of the x-axis tensioner soo though).  
+
+    ![Belt tensioner unmounted](../assets/images/axes_y-tensioner_dis1_web.jpg)
+
+    If you have to replace certain parts, you can easily disassemble the pulley by pushing out that little shaft to one side, so that you'll have all the parts laying in front of you each by their own.  
+
+    ![Belt tensioner disassembled](../assets/images/axes_y-tensioner_dis2_web.jpg)  
+
+    The following picture shows the 20 teeth pulley which is used in this assembly.  
+
+    ![20 teeth pulley](../assets/images/axes_20teeth-pulley_web.jpg)    
+
+??? example "Reassembling The Belt Tensioner"
+
+    For reassembling, just put the pulley back into place and stick that little shaft back to where it belongs.  
+    Then route the belt through that bracket - make sure the belt isn't somehow twisted and that the teeth are gripping onto the pulley - the smooth side of the belt needs to face you when you look at it from above.  
+    Stick the setup back into the blue plastic cap and stick the screw of that knob into the belonging hole at the front. Turn the knob a few times clockwise to make the thread grip the bracket.  
+    Then slide the whole setup back into place where it belongs and screw in the two screws which hold the blue plastic cap into place.  
+    finally hook up the ends of the belt to those notches at the metal mounting plate of the printhead again.     
+    Once everything is done, adjust the belt tension again by turning the knob clockwise.  
+
+---
+
+#### Belt Tension
 It's kinda difficult to explain the correct belt tension, so you'd have to experiment a bit with that.  
 Generally speaking, the belt shouldn't be too tightened up and shouldn't be too loose either. If it's too tight, too much pressure will be put onto the motor shaft which will do harm, the belt can snap etc. - if it's too loose though, the belt might even slip. Either state (too tensioned and too loose) can cause artifacts.   
 
@@ -89,41 +128,6 @@ My 'rule of thumb' here is: if you can bend the belt down a bit by applying some
     Install the belt by disassembling the belonging parts like the belt tensioners (see the notes on how to do so in the belonging sections).  
     Pay attention to route the belt in the correct way and not being twisted and adjust the tension of the belt once everything is reassembled.  
     
-
----
-
-### Belt Tensioner
-
-The following picture shows the belt tensioner located at the front of the y-axis aluminum frame.  
-
-![X-axis knob](../assets/images/x-axis_knob_web.jpg)
-
-You adjust the tension of the belt by turning it clockwise for increasing the tension and turning it counter-clockwise for decreasing it.  
-
-??? example "Disassembling The Belt Tensioner"
-
-    It might happen that you have to disassemble the tensioner in order to replace a broken belt or a broken (part of the) tensioner.  
-    In that case turn the knob counter-clockwise until the belt completely sags. Then unhook one end of the belt from the bedgantry (I suggest to unhook it in the front of the bed gantry). Unscrew the two screws you can see at the blue plastic cap of the belt tensioner and carefully pull it off the frame. You might have to turn the knob even more counter-clockwise if it doesn't come off right away.  
-    Once you've pulled it off, you'll see the parts as shown in the picture below (right now the picture shows the disassembled y-axis tensioner, but besides a slightly different shaped plastic cap, the interior looks the same - I'll add a belonging picture of the x-axis tensioner soo though).  
-
-    ![Belt tensioner unmounted](../assets/images/axes_y-tensioner_dis1_web.jpg)
-
-    If you have to replace certain parts, you can easily disassemble the pulley by pushing out that little shaft to one side, so that you'll have all the parts laying in front of you each by their own.  
-
-    ![Belt tensioner disassembled](../assets/images/axes_y-tensioner_dis2_web.jpg)  
-
-    The following picture shows the 20 teeth pulley which is used in this assembly.  
-
-    ![20 teeth pulley](../assets/images/axes_20teeth-pulley_web.jpg)    
-
-??? example "Reassembling The Belt Tensioner"
-
-    For reassembling, just put the pulley back into place and stick that little shaft back to where it belongs.  
-    Then route the belt through that bracket - make sure the belt isn't somehow twisted and that the teeth are gripping onto the pulley - the smooth side of the belt needs to face you when you look at it from above.  
-    Stick the setup back into the blue plastic cap and stick the screw of that knob into the belonging hole at the front. Turn the knob a few times clockwise to make the thread grip the bracket.  
-    Then slide the whole setup back into place where it belongs and screw in the two screws which hold the blue plastic cap into place.  
-    finally hook up the ends of the belt to those notches at the metal mounting plate of the printhead again.     
-    Once everything is done, adjust the belt tension again by turning the knob clockwise.  
 
 ---
 
@@ -252,11 +256,11 @@ As you hopefully can see, the bolt isn't centered - so if you turn that eccentri
 
 *Not all of the wheels have eccentric nuts though as the following picture shows, only the two wheels (one at each side) which are facing the inner side of the frame (towards the bed) do have an eccentric nut.* 
     
-![](../assets/images/x-axis_left-side-nut_web.jpg)
+![ecc nut left side](../assets/images/x-axis_left-side-nut_web.jpg)
   
 Here you can see clearly that only the inner wheel on the left side in the following picture has an eccentric nut, the red circle at the outer wheel on the right side marks the round spacer.  
 
-![](../assets/images/x-axis_knob_nut_web.jpg)
+![ecc nut right side](../assets/images/x-axis_knob_nut_web.jpg)
   
 However, you might face the problem that you just can't get all of the three wheels at each side to touch the aluminum frame as they should.  
 So if you need to adjust the position of the wheels using the eccentric nuts, you might encouter the problem that e.g. the inner wheel and the lower wheel on the outside may sit in the v-slot really nice, but that the third wheel (the upper one on the outside in this example) isn't even touching the aluminum and can be spinned in the air. This also leads to a wobbly and sagging/lagging x-axis gantry at the unsupported right side, as you'll most likely be able to move the right part (the side without the lead screw) up and down a bit.   
@@ -404,7 +408,45 @@ The following picture shows the aluminum profile of the y-axis with the knob for
   
 ---
 
-### Belt Tension
+### Belt Tensioner
+
+The following picture shows the belt tensioner located at the front of the y-axis aluminum frame.  
+
+![Y-axis knob](../assets/images/y-axis_knob_web.jpg)
+
+You adjust the tension of the belt by turning it clockwise for increasing the tension and turning it counter-clockwise for decreasing it.  
+
+Inside the plastic cap is a pulley where the belt runs across. The pulley has the following specs: 16mm OD / 3mm ID / 20 teeth (for 6mm wide belt).  
+See the following expandable textboxes for some notes on how to dis- and reassemble the tensioners in case you need to do so.  
+
+??? example "Disassembling The Belt Tensioner"
+
+    It might happen that you have to disassemble the tensioner in order to replace a broken belt or a broken (part of the) tensioner.  
+    In that case turn the knob counter-clockwise until the belt completely sags. Then unhook one end of the belt from the bedgantry (I suggest to unhook it in the front of the bed gantry). Unscrew the two screws you can see at the blue plastic cap of the belt tensioner and carefully pull it off the frame. You might have to turn the knob even more counter-clockwise if it doesn't come off right away.  
+    Once you've pulled it off, you'll see the parts as shown in the picture below.  
+
+    ![Belt tensioner unmounted](../assets/images/axes_y-tensioner_dis1_web.jpg)
+
+    If you have to replace certain parts, you can easily disassemble the pulley by pushing out that little shaft to one side, so that you'll have all the parts laying in front of you each by their own.  
+
+    ![Belt tensioner disassembled](../assets/images/axes_y-tensioner_dis2_web.jpg)
+
+    The following picture shows the 20 teeth pulley which is used in this assembly.  
+
+    ![20 teeth pulley](../assets/images/axes_20teeth-pulley_web.jpg)   
+
+??? example "Reassembling The Belt Tensioner"
+
+    For reassembling, just put the pulley back into place and stick that little shaft back to where it belongs.  
+    Then route the belt through that bracket - make sure the belt isn't somehow twisted and that the teeth are gripping onto the pulley - the smooth side of the belt needs to face you when you look at it from above.  
+    Stick the setup back into the blue plastic cap and stick the screw of that knob into the belonging hole at the front. Turn the knob a few times clockwise to make the thread grip the bracket.  
+    Then slide the whole setup back into place where it belongs and screw in the two screws which hold the blue plastic cap into place.  
+    Finally hook up the end of the belt to that notch at the bedgantry again.   
+    Once everything is done, adjust the belt tension again by turning the knob clockwise.  
+
+---
+
+#### Belt Tension
 It's kinda difficult to explain the correct belt tension, so you'd have to experiment a bit with that.  
 Generally speaking, the belt shouldn't be too tightened up and shouldn't be too loose either. If it's too tight, too much pressure will be put onto the motor shaft which will do harm, the belt can snap etc. - if it's too loose though, the belt might even slip. Either state (too tensioned and too loose) can cause artifacts.   
 
@@ -446,41 +488,6 @@ My 'rule of thumb' here is: if you can bend the belt down a bit by applying some
     Install the belt by disassembling the belonging parts like the belt tensioners (see the notes on how to do so in the belonging sections).  
     Pay attention to route the belt in the correct way and not being twisted and adjust the tension of the belt once everything is reassembled.  
     
----
-
-### Belt Tensioner
-
-The following picture shows the belt tensioner located at the front of the y-axis aluminum frame.  
-
-![Y-axis knob](../assets/images/y-axis_knob_web.jpg)
-
-You adjust the tension of the belt by turning it clockwise for increasing the tension and turning it counter-clockwise for decreasing it.  
-
-??? example "Disassembling The Belt Tensioner"
-
-    It might happen that you have to disassemble the tensioner in order to replace a broken belt or a broken (part of the) tensioner.  
-    In that case turn the knob counter-clockwise until the belt completely sags. Then unhook one end of the belt from the bedgantry (I suggest to unhook it in the front of the bed gantry). Unscrew the two screws you can see at the blue plastic cap of the belt tensioner and carefully pull it off the frame. You might have to turn the knob even more counter-clockwise if it doesn't come off right away.  
-    Once you've pulled it off, you'll see the parts as shown in the picture below.  
-
-    ![Belt tensioner unmounted](../assets/images/axes_y-tensioner_dis1_web.jpg)
-
-    If you have to replace certain parts, you can easily disassemble the pulley by pushing out that little shaft to one side, so that you'll have all the parts laying in front of you each by their own.  
-
-    ![Belt tensioner disassembled](../assets/images/axes_y-tensioner_dis2_web.jpg)
-
-    The following picture shows the 20 teeth pulley which is used in this assembly.  
-
-    ![20 teeth pulley](../assets/images/axes_20teeth-pulley_web.jpg)   
-
-??? example "Reassembling The Belt Tensioner"
-
-    For reassembling, just put the pulley back into place and stick that little shaft back to where it belongs.  
-    Then route the belt through that bracket - make sure the belt isn't somehow twisted and that the teeth are gripping onto the pulley - the smooth side of the belt needs to face you when you look at it from above.  
-    Stick the setup back into the blue plastic cap and stick the screw of that knob into the belonging hole at the front. Turn the knob a few times clockwise to make the thread grip the bracket.  
-    Then slide the whole setup back into place where it belongs and screw in the two screws which hold the blue plastic cap into place.  
-    Finally hook up the end of the belt to that notch at the bedgantry again.   
-    Once everything is done, adjust the belt tension again by turning the knob clockwise.  
-
 ---
 
 ### Y-Axis Motor
