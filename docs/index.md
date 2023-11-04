@@ -9,6 +9,7 @@ I created this site to make it easier for users of these printers to get started
 ---
   
 A few tips for browsing this site:    
+
 Please make sure to **mind the (expandable) textboxes** as they contain valuable information!  
 Depending on the color of the box, it's either a tip, information, instruction, question or warning you'll find in there:    
 
