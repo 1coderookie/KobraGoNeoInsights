@@ -48,7 +48,7 @@ Last but not least:
 
 *If you want to ***contribute*** an e.g. modification (aka "MOD") you did or an important information you found, please send me an [email](mailto:3dneo@quantentunnel.de) - please don't open Pull Requests!*  
 
-*If you find this infosite useful, please consider ***recommending it*** to others. This will make the community aware of this page and help other users.*  
+*If you find this infosite useful, please consider ***recommending it*** to others. This will make the community aware of this site and help other users.*  
 
 *Thank you!* 
 
