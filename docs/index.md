@@ -27,11 +27,11 @@ Depending on the color of the box, it's either a tip, information, instruction, 
 
 !!! warning "Warning"
 
-    Textboxes which contain a warning will (usually) be displayed extended already to make sure the warning won't be overseen.
+    Textboxes which contain a warning will often be displayed being already extended to make sure the warning won't be overseen.
     
 !!! danger "Danger"
 
-    Textboxes which contain a warning about a dangerous circumstance will be displayed extended already to make sure the warning won't be overseen.
+    Textboxes which contain a warning about a dangerous circumstance will often be displayed being already extended to make sure the warning won't be overseen.
 
  
 **Please take your time and read attentively.**    
