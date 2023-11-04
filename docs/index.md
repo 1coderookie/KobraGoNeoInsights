@@ -42,12 +42,15 @@ Last but not least:
 
 ---
   
-*If you want to ***support my work***, you can do so by ***donating*** a small amount to [my ko-fi account](https://ko-fi.com/U6U5NPB51). Thanks!*  
+*If you want to ***support my work***, you can do so by ***donating*** to [my ko-fi account](https://ko-fi.com/U6U5NPB51).*  
 
-*If you find this infosite useful, please consider ***recommending it*** to others. This will make the community aware of this page and help other users. If you own a GitHub account, please consider ***starring*** [this repository](https://github.com/1coderookie/Kobra2ProInsights). Thanks!* 
+*If you own a GitHub account, please consider ***starring*** [this repository](https://github.com/1coderookie/Kobra2ProInsights).*  
 
-*If you want to ***contribute*** an e.g. modification (aka "MOD") you did or an important information you found, please send me an [email](mailto:3dneo@quantentunnel.de) - please don't use Pull Requests for that! Thanks!* 
-    
+*If you want to ***contribute*** an e.g. modification (aka "MOD") you did or an important information you found, please send me an [email](mailto:3dneo@quantentunnel.de) - please don't open Pull Requests!*  
+
+*If you find this infosite useful, please consider ***recommending it*** to others. This will make the community aware of this page and help other users.*  
+
+*Thank you!* 
 
 ---
  
