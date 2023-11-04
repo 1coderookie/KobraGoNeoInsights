@@ -1,10 +1,10 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # Welcome  
-to my infopage about Anycubic's **Kobra Go** and **Kobra Neo**.   
+to my infosite about Anycubic's **Kobra Go** and **Kobra Neo**.   
   
 Here you'll find specific information about both models as well as more general kind of information.  
-I created this page to make it easier for users of these printers to get started, as well as to provide specific information on e.g. how to maintain the printers.  
+I created this site to make it easier for users of these printers to get started, as well as to provide specific information on e.g. how to maintain the printers.  
 
 ---
   
