@@ -4,12 +4,11 @@
 to my infosite about Anycubic's **Kobra Go** and **Kobra Neo**.   
   
 Here you'll find specific information about both models as well as more general kind of information.  
+
 I created this site to make it easier for users of these printers to get started, as well as to provide specific information on e.g. how to maintain the printers.  
 
 ---
   
-A few tips for browsing this site:    
-
 Please make sure to **mind the (expandable) textboxes** as they contain valuable information!  
 Depending on the color of the box, it's either a tip, information, instruction, question or warning you'll find in there:    
 
@@ -35,7 +34,6 @@ Depending on the color of the box, it's either a tip, information, instruction, 
 
 Please mind the **search field** in the header as well as the icon in the header for toggling between the bright and the dark mode of this site.
 
-Last but not least:  
 **Please take your time and read attentively.**    
   
 ***Happy tinkering and printing!***  
@@ -48,7 +46,7 @@ Last but not least:
 
 *If you want to ***contribute*** an e.g. modification (aka "MOD") you did or an important information you found, please send me an [email](mailto:3dneo@quantentunnel.de) - please don't open Pull Requests!*  
 
-*If you find this infosite useful, please consider ***recommending it*** to others. This will make the community aware of this site and help other users.*  
+*If you find this infosite useful, please consider ***recommending it*** to others. This will make the community aware of it and help other users.*  
 
 *Thank you!* 
 
