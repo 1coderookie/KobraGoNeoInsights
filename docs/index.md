@@ -24,10 +24,6 @@ Depending on the color of the box, it's either a tip, information, instruction, 
 
     Like "How to disassemble the hotend."
 
-??? question "Question"
-
-    Like "Have a **Kobra 2 Pro** and wanna contribute?"
-
 ??? warning "Warning"
 
     Textboxes which contain a warning will often be displayed being already extended to make sure the warning won't be overseen.
