@@ -11,29 +11,29 @@ A few tips for browsing this site:
 - Please make sure to **mind the (expandable) textboxes** as they contain valuable information!  
   Depending on the color of the box, it's either a tip, information, instruction, question or warning you'll find in there:    
 
-  ??? tip "Tip"  
+??? tip "Tip"  
 
-      Like "Level the position of the ABL sensor in relation to the nozzle."
+    Like "Level the position of the ABL sensor in relation to the nozzle."
 
-  ??? info "Information" 
+??? info "Information" 
 
-      Like "Information about nozzles in general." 
+    Like "Information about nozzles in general." 
 
-  ??? example "Instruction"
+??? example "Instruction"
 
-      Like "How to disassemble the hotend."
+    Like "How to disassemble the hotend."
 
-  ??? question "Question"
+??? question "Question"
 
-      Like "Have a **Kobra 2 Pro** and wanna contribute?"
+    Like "Have a **Kobra 2 Pro** and wanna contribute?"
 
-  ??? warning "Warning"
+??? warning "Warning"
 
-      Textboxes which contain a warning will often be displayed being already extended to make sure the warning won't be overseen.
+    Textboxes which contain a warning will often be displayed being already extended to make sure the warning won't be overseen.
     
-  ??? danger "Danger"
+??? danger "Danger"
 
-      Textboxes which contain a warning about a dangerous circumstance will often be displayed being already extended to make sure the warning won't be overseen.
+    Textboxes which contain a warning about a dangerous circumstance will often be displayed being already extended to make sure the warning won't be overseen.
 
 - Please mind the icon in the header for toggling between the bright and the dark mode of this site.
 - Please **mind the search field** in the header - it might come in handy.  
