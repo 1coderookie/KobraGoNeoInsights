@@ -863,12 +863,8 @@ The following picture shows the connector being used, it's a regular two pin JST
     When the temperature drops, the resistance will become higher/bigger. When the temperature rises, the resistance will become lower/smaller.  
     As an example: at 20°C the resistance is about 125k Ohm; at 30°C the resistance is about 81k Ohm.  
     Therefore you can measure the functionality of the thermistor by measuring the given resistance with a multimeter.  
+    For further information please read the expandable textbox "Measuring / Checking The Thermistor" in the section below.  
     
-    So when you get false readings or error reports on the temperature, check the thermistor itself (measuring directly at the contacts of the thermistor at the undersie of the bed) as well as the wiring (and the connections in general of course).  
-    The wires are made out of many single thin wires which are then covered by the insulation. If wires now start breaking due to the repeated movement at a certain spot and therefore they lose contact, the resistance will become higher in that moment - which then results in a lower temperature being read. If this occurs spontaneously while e.g. the bed is moving, the firmware will read a spontaneous drop or shift in the temperature and will most likely report a ["MINTEMP" or "thermal runaway protection" error](../troubleshooting.md#err-mintempmaxtempthermal-runaway).  
-    On the other hand, if some kind of a shortcut will appears, the resistance will become smaller and therefore the temperature will be reported higher. This will most likely cause the ["MAXTEMP" error](../troubleshooting.md#err-mintempmaxtempthermal-runaway).  
-    So by looking at the kind of error being reported, you can already guess what might be the issue.    
-
 ---
 
 ### Checking And Replacing The Thermistor 
@@ -897,21 +893,16 @@ The following expandable textboxes will give you some basic instructions what yo
   
 ??? example "Measuring / Checking The Wiring"  
 
-    Before attempting any measurements, do a visual check if the insulation of both the thermistor and the cartridge heater is still intact. 
+    Before attempting any measurements, do a visual check if the insulation of the thermistor's wires is still intact.  
     
     *If you can see bare wire shing through due to a melted and/or displaced insulation, change the part immediately!*  
     
     Don't try to cover it up with some kind of insulation, even though Kapton tape should stand the heat. You'll risk a shortcut which then will harm your motherboard and might even cause more severe damage!  
+        
+    You can check the wiring of the thermistor by measuring the electrical continuity of the wires. If your multimeter doesn't have this function, you can measure the resistance instead. 
     
-    Just to show you that I'm not exxagerating at all, the following picture shows my mainboard with a blewn up component due to a shortcut.  
-    ![Melted D4](../assets/images/mainboard_melted-D4_web.jpg)
-    
-    You can check the wiring of both the 24V line and the thermistor by measuring the electrical continuity of the wires. If your multimeter doesn't have this function, you can measure the resistance instead.  
-    
-    However, *it's advisable to measure the resistance, even though your multimeter offers the function of probing for continuity,* because it might be the case that a wire still passes the check for continuity, but that individual strands of the wire are broken. This causes problems if those strands lose contact permanently or during movement of the bed, as it leads to a higher resistance.  
-    
-    - At the 24V wires this can lead to the circumstance that the wire will get hot at that spot, that the insulation will melt, that a shortcut might occur and it might even occur that it causes a fire.   
-    - At the thermistor wires this can cause the [ERR: MINTEMP](../troubleshooting.md#err-mintempmaxtempthermal-runaway) error message. When the problem of breaking strands starts to occur, you'll experience the upcoming of this error message when the head is moving and reaches a certain position. In that case those broken strands lose contact, which leads to a suddenly changing resistance value. As the temperature is interpreted by the reisistance value of the thermistor, a suddenly changing resistance is interpreted as a sudden change in the temperature. If this change is 'big' enough, the belonging error message will be triggered.      
+    However, *it's advisable to measure the resistance, even though your multimeter offers the function of probing for continuity,* because it might be the case that a wire still passes the check for continuity, but that individual strands of the wire are broken. This causes problems if those strands lose contact permanently or during movement of the printhead, as it leads to a higher resistance and therefore a wrong temperature being reported.  
+      
 
 ??? example "Measuring / Checking The Thermistor"  
 
@@ -928,14 +919,9 @@ The following expandable textboxes will give you some basic instructions what yo
 
     *Set your multimeter to resistance testing for a higher Ohm range - in most cases the multimeters have different settings, usually 200/2000/20K/200K/20M -> use the setting "200K" here.*  
     
-    You can measure by probing the belonging wires at the plug of the mainboard (unplug it!), that would be the black connector labeled as "T0" with the two white wires (see the chapter ["Mainboard" -> "TriGorilla V_3.0.6 (Stock)"](mainboard.md#trigorilla-v_306-stock) for a picture of the location). Keep in mind though that by doing so you also measure the wiring itself. Means, if there are e.g. broken wires, the thermistor won't work even if the thermistor itself is still fine.    
-    
-    
-    - Keep in mind though that by probing at the connector, you also measure the wiring itself, which would be needed if you want to check if you maybe have a broken wiring. Means, if there are e.g. broken wires, the thermistor won't work even if the thermistor itself is still fine.  
-    - If you don't want to check the wiring, you could measure at the soldering joints right at the bed - in this case you also check the conductor path of the PCB itself (keep in mind that some glue across the solder pad area might prevent a successful measurement, so make sure you really make contact to the solder joints!).  
-    - If you really want to *only* measure the thermistor itself (which is advisable if you're in doubt and are thinking about changing the thermistor), then you'd have to pull off the little foamy piece in the middle of the underside of the bed and measure the resistance right at the soldering joints or legs of the thermistor itself.
-    
-    You can measure by probing the belonging wires at the plug of the mainboard (unplug it!), that would be the black connector labeled as "T0" with the two white wires (see the chapter ["Mainboard" -> "TriGorilla V_3.0.6 (Stock)"](mainboard.md#trigorilla-v_306-stock) for a picture of the location). Keep in mind though that by doing so you also measure the wiring itself. Means, if there are e.g. broken wires, the thermistor won't work even if the thermistor itself is still fine.   
+    You can measure by probing the belonging wires at the plug of the mainboard (unplug it!), that would be the black connector labeled as "T0" with the two white wires (see the chapter ["Mainboard" -> "TriGorilla V_3.0.6 (Stock)"](mainboard.md#trigorilla-v_306-stock) for a picture of the location).  
+    Keep in mind though that by doing so you also measure the wiring itself. Means, if there are e.g. broken wires, the thermistor won't work even if the thermistor itself is still fine. Due to the construction of the thermistor and it's wiring, you'd have to replace the whole unit anyway though.   
+     
 
 ---
 
@@ -1031,27 +1017,23 @@ The following expandable textbox will give you some basic instructions what you 
   
 ??? example "Measuring / Checking The Wiring"  
 
-    Before attempting any measurements, do a visual check if the insulation of both the thermistor and the cartridge heater is still intact. 
+    Before attempting any measurements, do a visual check if the insulation of the cartridge heater is still intact. 
     
     *If you can see bare wire shing through due to a melted and/or displaced insulation, change the part immediately!*  
     
     Don't try to cover it up with some kind of insulation, even though Kapton tape should stand the heat. You'll risk a shortcut which then will harm your motherboard and might even cause more severe damage!  
     
-    Just to show you that I'm not exxagerating at all, the following picture shows my mainboard with a blewn up component due to a shortcut.  
-    ![Melted D4](../assets/images/mainboard_melted-D4_web.jpg)
-    
-    You can check the wiring of both the 24V line and the thermistor by measuring the electrical continuity of the wires. If your multimeter doesn't have this function, you can measure the resistance instead.  
+    You can check the wiring of the 24V line by measuring the electrical continuity of the wires. If your multimeter doesn't have this function, you can measure the resistance instead.  
     
     However, *it's advisable to measure the resistance, even though your multimeter offers the function of probing for continuity,* because it might be the case that a wire still passes the check for continuity, but that individual strands of the wire are broken. This causes problems if those strands lose contact permanently or during movement of the bed, as it leads to a higher resistance.  
-    
-    - At the 24V wires this can lead to the circumstance that the wire will get hot at that spot, that the insulation will melt, that a shortcut might occur and it might even occur that it causes a fire.   
-    - At the thermistor wires this can cause the [ERR: MINTEMP](../troubleshooting.md#err-mintempmaxtempthermal-runaway) error message. When the problem of breaking strands starts to occur, you'll experience the upcoming of this error message when the head is moving and reaches a certain position. In that case those broken strands lose contact, which leads to a suddenly changing resistance value. As the temperature is interpreted by the reisistance value of the thermistor, a suddenly changing resistance is interpreted as a sudden change in the temperature. If this change is 'big' enough, the belonging error message will be triggered.      
+    Here at the at the 24V wires this can lead to the circumstance that the wire will get hot at that spot, that the insulation will melt, that a shortcut might occur and it might even occur that it causes a fire.   
+          
 
 ??? example "Checking The 24V Heating Circuit Of The Cartridge Heater"  
 
     You can also check the 24V heating circuit of the cartridge heater itself. Besides inspecting it closely if any visible damages like scratches or abraded spots are visible, you can measure the continuity and resistance of the circuit as well.  
     
-    If the circuit and the cartridge heater is ok, continuity will be given and a resistance of about 14.5Ohm should be reported.  
+    If the circuit and the cartridge heater is ok, continuity will be given and a resistance of about 14.5 Ohm should be reported.  
 
 ---
 
