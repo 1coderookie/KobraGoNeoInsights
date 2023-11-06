@@ -871,7 +871,7 @@ There are a few compiled versions and also mods of the original firmwares availa
 
 - @[jokubasver](https://github.com/jokubasver) offers a [highly modified Kobra **Neo** firmware](https://github.com/jokubasver/Kobra_Neo) with e.g. *a lot of enhanced and additional features, extra menu items and even a dark UI*.  
   This is the most enhanced and modified version of the stock firmware that I'm aware of, so if you're looking for this kind of (stock) firmware, I'd suggest to give this one a try first.
-- @[NuclearPhoenixx](https://github.com/NuclearPhoenixx) offers [his version](https://github.com/NuclearPhoenixx/Kobra_Neo) of the beforementioned jokubasver firmware version. One of the changes being made to jokubasver's version is the usage of the values for e.g. the e-steps which were initially set by Anycubic.   
+- @[NuclearPhoenixx](https://github.com/NuclearPhoenixx) offers [his version](https://github.com/NuclearPhoenixx/Kobra_Neo) of the beforementioned jokubasver firmware version. One of the changes being made to jokubasver's version is the usage of the settings for e.g. the e-steps which have been used by Anycubic in the original stock firmware.   
 - @[cringegnere](https://github.com/cringegnere) offers [his *compiled* version of the the *original* Kobra **Neo** firmware](https://github.com/cringegnere/Kobra_Neo/releases/tag/v1.3.3_original)
 - @[sjorge](https://github.com/sjorge) offers a [modified Kobra **Neo** firmware](https://github.com/sjorge/Kobra_Neo_Fw)  
 - @[TheUnlimited64](https://github.com/TheUnlimited64) offers a [modified Kobra **Neo** firmware with activated *Linear Advance*](https://github.com/TheUnlimited64/Kobra_Neo_Firmware).  
