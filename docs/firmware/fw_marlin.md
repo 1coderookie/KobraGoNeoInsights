@@ -869,12 +869,13 @@ There are a few compiled versions and also mods of the original firmwares availa
   
 ### Neo
 
-- @[jokubasver](https://github.com/jokubasver) offers a [highly modified Kobra **Neo** firmware](https://github.com/jokubasver/Kobra_Neo) with e.g. *a lot of enhanced and additional features, extra menu items and even a dark UI*.  
-  This is the most enhanced and modified version of the stock firmware that I'm aware of, so if you're looking for this kind of (stock) firmware, I'd suggest to give this one a try first.   
+- @[jokubasver](https://github.com/jokubasver) offers a [highly modified Kobra **Neo** firmware](https://github.com/jokubasver/Kobra_Neo) with e.g. *a lot of enhanced and additional features, extra menu items and even a dark UI*.
+  This is the most enhanced and modified version of the stock firmware that I'm aware of, so if you're looking for this kind of (stock) firmware, I'd suggest to give this one a try first.
+- @[NuclearPhoenixx](https://github.com/NuclearPhoenixx) offers a [highly modified Kobra **Neo** firmware](https://github.com/NuclearPhoenixx/Kobra_Neo) as well, based on the one by @[jokubasver](https://github.com/jokubasver) with e.g. some minor UI changes, bug fixes, localization and the default E-Steps/PID values as a drop-in replacement for the stock firmware.
 - @[cringegnere](https://github.com/cringegnere) offers [his *compiled* version of the the *original* Kobra **Neo** firmware](https://github.com/cringegnere/Kobra_Neo/releases/tag/v1.3.3_original)
 - @[sjorge](https://github.com/sjorge) offers a [modified Kobra **Neo** firmware](https://github.com/sjorge/Kobra_Neo_Fw)  
 - @[TheUnlimited64](https://github.com/TheUnlimited64) offers a [modified Kobra **Neo** firmware with activated *Linear Advance*](https://github.com/TheUnlimited64/Kobra_Neo_Firmware).  
-  *Attention: It has to be mentioned though that Linear Advance doesn't seem to work reliably as the extruder stops extruding randomly, so it's not safe to use! If you want to take advantage of this kind of feature, I'd suggest to use [Klipper](firmware/fw_klipper.md) which offers Pressure Advance (and resonance compensation aka "Input Shaper" as well).* 
+  *Attention: It has to be mentioned though that Linear Advance doesn't seem to work reliably as the extruder stops extruding randomly, so it's not safe to use! If you want to take advantage of this kind of feature, I'd suggest to use [Klipper](firmware/fw_klipper.md) which offers Pressure Advance (and resonance compensation aka "Input Shaper" as well).*
 
 
 ---
