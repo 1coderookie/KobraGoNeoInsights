@@ -850,7 +850,7 @@ This is the setting which is being used:
 However, it should be `#define NOZZLE_TO_PROBE_OFFSET { 37.5,4, 0 }` though. This value (4mm) is from a first and quick measurement being taken in the past, so I might end up measuring again in the somewhat future, but for now this is at least much more accurate than the stock setting.  
 
 If you're using e.g. OctoPrint or Pronterface and can send g-code commands directly to the printer, you can change this setting using the ["`M851` - XYZ Probe Offset" command](https://marlinfw.org/docs/gcode/M851.html).  
-So `M851 Y4.0` should do the job.  
+So `M851 Y4.0` should do the job - use an additional `M500` afterwards as well to save the settings to the EEPROM.   
 
    
 ---  
@@ -870,7 +870,8 @@ There are a few compiled versions and also mods of the original firmwares availa
 ### Neo
 
 - @[jokubasver](https://github.com/jokubasver) offers a [highly modified Kobra **Neo** firmware](https://github.com/jokubasver/Kobra_Neo) with e.g. *a lot of enhanced and additional features, extra menu items and even a dark UI*.  
-  This is the most enhanced and modified version of the stock firmware that I'm aware of, so if you're looking for this kind of (stock) firmware, I'd suggest to give this one a try first.   
+  This is the most enhanced and modified version of the stock firmware that I'm aware of, so if you're looking for this kind of (stock) firmware, I'd suggest to give this one a try first.
+- @[NuclearPhoenixx](https://github.com/NuclearPhoenixx) offers [his version](https://github.com/NuclearPhoenixx/Kobra_Neo) of the beforementioned jokubasver firmware version. One of the changes being made to jokubasver's version is the usage of the values for e.g. the e-steps which were initially set by Anycubic.   
 - @[cringegnere](https://github.com/cringegnere) offers [his *compiled* version of the the *original* Kobra **Neo** firmware](https://github.com/cringegnere/Kobra_Neo/releases/tag/v1.3.3_original)
 - @[sjorge](https://github.com/sjorge) offers a [modified Kobra **Neo** firmware](https://github.com/sjorge/Kobra_Neo_Fw)  
 - @[TheUnlimited64](https://github.com/TheUnlimited64) offers a [modified Kobra **Neo** firmware with activated *Linear Advance*](https://github.com/TheUnlimited64/Kobra_Neo_Firmware).  
