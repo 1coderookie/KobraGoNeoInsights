@@ -198,21 +198,43 @@ The following picture shows the surface of the coated plate of the **Neo** from 
 ## Spacers / Bushings Of The Bedmount
 
 The bedplate is mounted onto the gantry with 4mm countersunk screws and rigid plastic spacers between the bedplate itself and the gantry.  
-Even though this is a somewhat rigid construction (if the material of the bed gantry would be thicker..), the culprit of this solution is that you can't manually tram the bedplate if needed. Besides that, a huge problem is that the stock spacers aren't all of equal height.  
+Even though this is a somewhat rigid construction (if the material of the bed gantry would be thicker..), the culprit of this solution is that you can't manually tram the bedplate if needed.  
+Besides that, an annoying problem is that the stock spacers aren't all of equal height.  
 
-So it's very advisable to dismount the bed, take the stock spacers out and check if they're all of the same height. I'd suggest to use a digital caliper for doing so, but it you don't have one, you can also place them next to each other onto a *flat* surface and place something thin and straight ((e.g. a ruler) onto them to check and compare the height.  
-Most likely they're not of equal height, which leads to a somewhat warped bed then. If you encounter this problem, I'd suggest to sand them down to the height of the shortest one. If you do so, pay attention to sand them down perpendicular - you don't want to end up with a tilted surface/spacer.  
-You could also try to shim it out of course, but especially if the differences are pretty small, then this can be a real hassle.  
+!!! warning "Check The Spacers' Height"
+
+    It's very advisable to dismount the bed, take the stock spacers out and check if they're all of the same height.  
+    I'd suggest to use a digital caliper for doing so, but it you don't have one, you can also place them next to each other onto a *flat* surface and place something thin and straight ((e.g. a ruler) onto them to check and compare the height.  
+    
+    Most likely they're not of equal height, which leads to a somewhat warped bed then. If you encounter this problem, I'd suggest to sand them down to the height of the shortest one. If you do so, pay attention to sand them down perpendicular - you don't want to end up with a tilted surface/spacer.  
+
+    You could also try to shim it out of course, but especially if the differences are pretty small, then this can be a real hassle.  
+
+!!! warning "Tram The X-Gantry In Relation To The Bed!"
+
+    When using the rigid stock spacers, it's crucial to [tram the x-gantry in relation to the *bed*](axes.md#tramming-the-x-axis-gantry) properly!
 
 ---
 
 ### MOD: Adjustable Spacers 
 
 Because you can't tram the bed itself due to this rigid construction, you may want to replaced the stock spacers with springs or silicone spacers which allows tramming of the bed itself.  
+When doing so while using the threads in the bedgantry where you screw in the screws, you'd have to access the screws from above for tramming the bed.  
+
+If you don't want that and if you want to be able to adjust the bed's height from the underside, you'd have to drill out the threads. Then secure the screws by adding a nut (place an additional nylon washer between the bed's underside and the nut!) and screw them against the bedplate. After doing so, you can then add the knobs underneath the gantry after putting everything together.  
 It's advisable to make sure that the bolt can't turn itself loose due to the vibration, so add some sort of nut acting as a lock nut (like a nylon lock nut, a regular counter nut, a wingnut or so) to the tip of the screw underneath the bed gantry as well.  
 
 The following picture shows the stock spacers on the left, springs in the middle and silicone spacers on the right.  
 ![Spacers](../assets/images/bed_different-spacers_web.jpg)
+
+!!! warning "Tram The X-Gantry In Relation To The Frame!"  
+
+    People often think that using adjustable spacers would be an improvement as that allows them to manually tram the bed. While this is true in the meaning that you can't trame the bed itself with rigid spacers, it's actually not necessarily true that people are actually able to achieve better results when using adjustable spacers and tramming the bed manually.  
+    Not only do we have to access the screws from above here (which can be solved by drilling out the holes as mentioned above), but it can also be pretty challenging to adjust the height to get the four corners of the bed being equidistant to the nozzle with less variances than when using rigid spacers.  
+    Besides that, when adjusting the height, people tend to compress the spacers too much, which then puts additional stress onto the bedplate and might lead to more warping.  
+    It can also lead to the circumstance that the bedplate will be too low and that the underside will hit the mount of the Y-axis motor which then can do harm and create a shortcut to the heater coil. So pay close attention to that! 
+
+    However, when using adjustable spacers, it's crucial to [tram the x-gantry in relation to the *frame*]((axes.md#tramming-the-x-axis-gantry)!
 
 !!! warning "Mind The Gap!"
 
@@ -225,6 +247,8 @@ The following picture shows the stock spacers on the left, springs in the middle
     ![Bed PCB shortcut closeup](../assets/images/bed_shortcut_web.jpeg)
    
     Also when adding insulation to the underside of the bed, the clearance has to be checked to avoid that the mounting plate will tear off the insulation!  
+
+   
 
 ---
         
