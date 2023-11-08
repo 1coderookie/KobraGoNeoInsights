@@ -384,7 +384,7 @@ As the stock extruder/feeder system is mounted onto the extruder motor directly,
 
 
 - Reddit member [zyssai](https://www.reddit.com/user/zyssai/) created a sturdy bracket for turning the **Go** into a ***direct drive system*** as shown in the following picture.
-  ![Zyssai DD mod](../assets/images/head_Go_zyssai_DD-mod_web.jpeg)
+  ![Zyssai DD mod](../assets/images/head_Go_zyssai_DD-mod_web.jpeg)  
   It fits together perfectly with a different model for a 5015 blower fan duct as mentioned in the project's description.  
 
 - Reddit member [xpeng121](https://www.reddit.com/user/xpeng121/) posted his mod for the Kobra **Go** to a ***direct drive extruder*** using the stock parts: [Kobra Go direct drive mod. Yes it's Neo now...](https://www.reddit.com/r/anycubic/comments/10howol/kobra_go_direct_drive_mod_yes_its_neo_now/)
