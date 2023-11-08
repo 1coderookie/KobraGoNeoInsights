@@ -415,7 +415,7 @@ You can access the inside of the feeder system by dismounting the heatsink, whic
 
 ??? info "Titan Aero Clone"
 
-    The extruder seems to be a clone of the "E3D Titan Aero", apparently made by "XCR3D" (look out for "XCR3D Titan").  
+    The extruder seems to be a clone of the "E3D Titan Aero", apparently made by "XCR3D" (look out for "XCR3D Titan") - besides the fact that a different kind of heatsink and hotend is being used here.    
     Therefore one can have a look at the [official E3D assembly instruction of the E3D Titan Aero](https://e3d-online.zendesk.com/hc/en-us/articles/360016764817-Titan-Aero-Assembly-Guide-Edition-2-) when it comes down to solving issues or taking it apart.  
   
 !!! warning "Retraction Settings"
@@ -445,7 +445,7 @@ If that doesn't work, see the expandable textbox below for further instructions 
 
 ??? info "Titan Aero Clone"
 
-    The extruder seems to be a clone of the "E3D Titan Aero", apparently made by "XCR3D" (look out for "XCR3D Titan").  
+    The extruder seems to be a clone of the "E3D Titan Aero", apparently made by "XCR3D" (look out for "XCR3D Titan") - besides the fact that a different kind of heatsink and hotend is being used here.    
     Therefore one can have a look at the [official E3D assembly instruction of the E3D Titan Aero](https://e3d-online.zendesk.com/hc/en-us/articles/360016764817-Titan-Aero-Assembly-Guide-Edition-2-) when it comes down to solving issues or taking it apart.  
   
 
