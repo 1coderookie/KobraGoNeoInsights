@@ -417,6 +417,18 @@ You can access the inside of the feeder system by dismounting the heatsink, whic
 
     The extruder seems to be a clone of the "E3D Titan Aero", apparently made by "XCR3D" (look out for "XCR3D Titan") - besides the fact that a different kind of heatsink and hotend is being used here.    
     Therefore one can have a look at the [official E3D assembly instruction of the E3D Titan Aero](https://e3d-online.zendesk.com/hc/en-us/articles/360016764817-Titan-Aero-Assembly-Guide-Edition-2-) when it comes down to solving issues or taking it apart.  
+
+??? warning "Important Notes On The Extruder"
+
+    @[jokubasver](https://github.com/jokubasver) reached out (Thanks!) and wrote some important notes about the extruder. So I'll just quote his notes in the following:   
+    "XCR3D Titan clone has some differences compared to the original E3D Titan Aero, and it's mostly due to the screws, and imo the XCR3D clone is flawed and is not as good as the original design.  
+    The most important part is to make sure that the screws are not overtighened - it's part of the assembly process to make sure that the hobb gear runs smooth and that it does not bind.  
+    Also, it's very important to align the pinion gear mounted on the stepper motor to be flush with the hobb gear - otherwise the lever arm will be out of alignment, or it will bind on the hobb gear.  
+    So I'm not sure if Anycubic is not properly assembling the extruders, or if the screws get loose overtime causing issues with the lever arm going out of place etc, as I'm starting to see more and more posts on reddit of people complaining about extruder clicking noises on retracts, or the lever being slanted to the side.  
+    So imo it's important people check their extruders and make sure to assemble them correctly.  
+    Therefore I don't recommend the Titan metal arm and gear set upgrade kit, as it just doesn't fit exactly right in the XCR3D clone extruder used in the Kobra Neo.
+    The good news is that one upgrade path is to install an original E3D Titan Aero, which also upgrades you to a proper E3D v6 hotend, or it's also possible to upgrade to a proper, high quality clone, such as one made by TriangleLabs (can be found on AliExpress).  
+    I should also mention that the XCR3D clone is also sold by other names, such as 3DSWAY and LERDGE, and that bimetal heatbreak I'm using is sold by 3DSWAY which is a 1:1 drop in replacement and is a perfect fit - makes sense when you consider that they also sell the exact Titan Aero heatsink clone used in the Kobra Neo :)"
   
 !!! warning "Retraction Settings"
 
@@ -447,7 +459,18 @@ If that doesn't work, see the expandable textbox below for further instructions 
 
     The extruder seems to be a clone of the "E3D Titan Aero", apparently made by "XCR3D" (look out for "XCR3D Titan") - besides the fact that a different kind of heatsink and hotend is being used here.    
     Therefore one can have a look at the [official E3D assembly instruction of the E3D Titan Aero](https://e3d-online.zendesk.com/hc/en-us/articles/360016764817-Titan-Aero-Assembly-Guide-Edition-2-) when it comes down to solving issues or taking it apart.  
-  
+
+??? warning "Important Notes On The Extruder"
+
+    @[jokubasver](https://github.com/jokubasver) reached out (Thanks!) and wrote some important notes about the extruder. So I'll just quote his notes in the following:   
+    "XCR3D Titan clone has some differences compared to the original E3D Titan Aero, and it's mostly due to the screws, and imo the XCR3D clone is flawed and is not as good as the original design.  
+    The most important part is to make sure that the screws are not overtighened - it's part of the assembly process to make sure that the hobb gear runs smooth and that it does not bind.  
+    Also, it's very important to align the pinion gear mounted on the stepper motor to be flush with the hobb gear - otherwise the lever arm will be out of alignment, or it will bind on the hobb gear.  
+    So I'm not sure if Anycubic is not properly assembling the extruders, or if the screws get loose overtime causing issues with the lever arm going out of place etc, as I'm starting to see more and more posts on reddit of people complaining about extruder clicking noises on retracts, or the lever being slanted to the side.  
+    So imo it's important people check their extruders and make sure to assemble them correctly.  
+    Therefore I don't recommend the Titan metal arm and gear set upgrade kit, as it just doesn't fit exactly right in the XCR3D clone extruder used in the Kobra Neo.
+    The good news is that one upgrade path is to install an original E3D Titan Aero, which also upgrades you to a proper E3D v6 hotend, or it's also possible to upgrade to a proper, high quality clone, such as one made by TriangleLabs (can be found on AliExpress).  
+    I should also mention that the XCR3D clone is also sold by other names, such as 3DSWAY and LERDGE, and that bimetal heatbreak I'm using is sold by 3DSWAY which is a 1:1 drop in replacement and is a perfect fit - makes sense when you consider that they also sell the exact Titan Aero heatsink clone used in the Kobra Neo :)"
 
 ??? example "Disassembling Procedure"  
 
