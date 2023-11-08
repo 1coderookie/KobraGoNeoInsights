@@ -412,6 +412,11 @@ At the top in front of the little hole where the filament is inserted you find a
 You can access the inside of the feeder system by dismounting the heatsink, which is located at the right side underneath the heatsink fan. The following picture shows the inside of the system.  
 
 ![Feeder inside](../assets/images/head_neo_feeder-inside_web.jpg)  
+
+??? info "Titan Aero Clone"
+
+    The extruder seems to be a clone of the "E3D Titan Aero", apparently made by "XCR3D" (look out for "XCR3D Titan").  
+    Therefore one can have a look at the [official E3D assembly instruction of the E3D Titan Aero](https://e3d-online.zendesk.com/hc/en-us/articles/360016764817-Titan-Aero-Assembly-Guide-Edition-2-) when it comes down to solving issues or taking it apart.  
   
 !!! warning "Retraction Settings"
 
@@ -437,6 +442,12 @@ You can access the inside of the feeder system by dismounting the heatsink, whic
 In case you dropped something tiny like a screw or so in the holes at the top of the feeder or if you need to check the feeder gear system due to problems like stuck filament or a bad gear, it's probably sufficient to disassemble the system from the metal backplate by taking out the three hexagon socket screws and shake the whole thing around a bit. There are enough holes and openings at the back where you also could try to reach the lost thing using a pair of tweezers.  
 
 If that doesn't work, see the expandable textbox below for further instructions about how to disassemble the gear box.   
+
+??? info "Titan Aero Clone"
+
+    The extruder seems to be a clone of the "E3D Titan Aero", apparently made by "XCR3D" (look out for "XCR3D Titan").  
+    Therefore one can have a look at the [official E3D assembly instruction of the E3D Titan Aero](https://e3d-online.zendesk.com/hc/en-us/articles/360016764817-Titan-Aero-Assembly-Guide-Edition-2-) when it comes down to solving issues or taking it apart.  
+  
 
 ??? example "Disassembling Procedure"  
 
