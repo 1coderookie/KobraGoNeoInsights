@@ -494,9 +494,11 @@ If that doesn't work, see the expandable textbox below for further instructions 
   
 ??? example "Reassembling Procedure"
 
-    For reassembling, just put everything back together by proceeding the steps of disassembling in reverse. Make sure you're using the right screws and don't forget any of them.  
-    Don't overtighten the screws though - as my father (R.I.P.) used to say: "After tight comes loose!" (roughly translated ;) ).  
-
+    For reassembling, just put everything back together by proceeding the steps of disassembling in reverse. Make sure you put all the belonging parts in the correct position and that you're using the right screws and don't forget any of them.  
+    
+    Make sure to *not* tighten up the screws too much - not only can it affect the correct functioning of the parts negatively, but you can also crack the heatsink when doing so!  
+    
+    *Please also mind the notes in the expandable texboxes above and refer to the [official E3D assembly instruction of the E3D Titan Aero](https://e3d-online.zendesk.com/hc/en-us/articles/360016764817-Titan-Aero-Assembly-Guide-Edition-2-) where this extruder is a clone of.*  
     
 ---  
   
