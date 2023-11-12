@@ -10,6 +10,15 @@ When it comes down to tinkering, the fun factor and the results raise and fall w
 
 ---
 
+## Lube  
+This isn't actually a tool, but it's definitely something you need: lube.  
+Don't use WD-40 for lubrification, use a proper lube which doesn't harm any plastic or elastic (POM) parts.  
+I personally use and can recommend "Super Lube".  
+
+![Super Lube](assets/images/tools_SuperLube_web.jpg)
+
+---
+
 ## Height Gauge for ABL Sensor
 Well, even though this isn't a 'tool' you can buy, you probably want to print out the [height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic to make the leveling opration of the ABL sensor a bit easier. You have to make sure though that you're printer already works fine to print it to not mess up the height ratio of the tool.  
 It's not necessary to print this though, as you can just use the big two-sided open end wrench that came with the printer.  
