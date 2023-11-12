@@ -10,6 +10,18 @@ When it comes down to tinkering, the fun factor and the results raise and fall w
 
 ---
 
+!!! warning "Get A Smoke Detector And Fire Extinguisher!"
+
+    As this is really important, I'll mention these two in an extra admonition box - get yourself a proper **smoke detector** and a **fire extinguisher**!  
+
+    You should at least have a smoke detector in your room - if you're using an enclosure for your printer, I'd suggest to place an additional smoke detector in it as well.  
+
+    As for a fire extinguisher, I'd suggest to get a foam fire extinguisher instead of a powder one, just because powder ones really make a huge mess in the whole room if you have to use them.  
+    Put it somewhere where you can grab it quick - if you leave your printer working unattended, maybe place it right at the door of the room so you can grab it right away if you have to.  
+
+
+---
+
 ## Lube  
 This isn't actually a tool, but it's definitely something you need: lube.  
 Don't use WD-40 for lubrification, use a proper lube which doesn't harm any plastic or elastic (POM) parts.  
