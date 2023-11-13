@@ -1,6 +1,6 @@
 # Maintenance 
 
-In the following, I'll list some steps for doing maintenance on a regular basis. I won't go into detail about e.g. how to position the v-slot wheels or how to change parts at the hotend, as you'll find notes and instcurtions about that in the belonging sections.  
+In the following, I'll list some steps for doing maintenance on a regular basis. I won't go into detail about e.g. how to position the v-slot wheels or how to change parts at the hotend, as you'll find notes and instructions about that in the belonging sections about the belonging parts.  
 
 Generally speaking, this list is just some sort of a rough guidance you can follow where to keep an eye on.  
 Due to the fact that parts are moving, vibrances occur and heat is being generated, parts will wear and tear and components may fail sooner or later.  
