@@ -75,7 +75,7 @@ You should inspect the wheels and belts and the belonging parts like pulleys etc
 - Is the pulley that is pressed onto the motor shaft still in place, in a good condition and is it still sitting tight on the shaft?  
 - Is the connection of the wire still fine?  
   
-**Limit switch**
+**Limit Switch**
 
 - Is the limit switch still working?  
 - Is it still mounted firmly as it should be?  
@@ -96,7 +96,7 @@ You should inspect the wheels at those Y-shaped brackets and check if any saggin
 - Check if you can see or feel any dents at the wheels.  
 - Check if the bearings still move nice and smooth or if you can feel any hiccups during movement.  
 
-**Y-shaped brackets**  
+**Y-Shaped Brackets**  
 
 - Check if the brackets are still in the correct position so that the outer wheels rest in the v-slot of the rails equally.  
 - Check if the screws where the brackets are mounted to the rail with are still tight.
@@ -134,7 +134,7 @@ You should inspect the belts and the belonging parts like pulleys etc from time 
 - Is the pulley that is pressed onto the motor shaft still in place, in a good condition and is it still sitting tight on the shaft?  
 - Is the connection of the wire still fine?  
 
-**Limit switch**
+**Limit Switch**
 
 - Is the limit switch still working?  
 - Is it still mounted firmly as it should be?  
@@ -146,7 +146,7 @@ You should inspect the belts and the belonging parts like pulleys etc from time 
 
 You should inspect the screw and the belonging parts like the anti-backlash nut, the motor coupler etc from time to time to make sure everything is in a good condition and nothing will suddenly break.  
 
-**Lead screw** 
+**Lead Screw** 
 
 - Is the lead screw still vertically aligned?  
 - Is there any debris of the POM from the anti-backlash nut in the threads?  
@@ -154,19 +154,19 @@ You should inspect the screw and the belonging parts like the anti-backlash nut,
   Clean off the old lubrification and add some new, I personally use "Super Lube" for this.  
 
 
-**Anti-backlash nut** 
+**Anti-Backlash Nut** 
 
 - Is it still tightly mounted to that metal bracket or did the screws become loose?  
 - Is it still compressed?  
 - Can you see any visible wear & tear of the POM inside of the anti-backlash nut?   
 
-**Motor & coupler**
+**Motor & Coupler**
 
 - Is the coupler which connects the shaft of the motor and the lead screw still tight?  
 - Is the motor still mounted firmly?  
 - Is the connection of the wire still fine?  
 
-**Limit switch**
+**Limit Switch**
 
 - Is the limit switch still working?  
 - Is it still mounted firmly as it should be?  
@@ -203,7 +203,7 @@ Also check if the part cooling fan as well as the heatsink cooling fan still wor
 - Are the blades of the fans clean, or did dust build up? If so, clean it off.  
 - Can the fans rotate freely or is anything (e.g. wires, cable ties) hitting them?  
 
-**ABL sensor** 
+**ABL Sensor** 
 
 - Is the sensor still in the correct position, or did the bracket maybe become loose and therefore the sensor sagged?  
 - Does it still trigger when detecting metal?  
