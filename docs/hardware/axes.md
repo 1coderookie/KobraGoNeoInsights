@@ -109,13 +109,6 @@ My 'rule of thumb' here is: if you can bend the belt down a bit by applying some
 
     So, use your brain and don't always follow the typical answers like "Tighten you belts!" when you're experiencing issues like layer shifts for example. Instead, look at your printer more 'holistic' and see the different parts which are working together in the end. Pay attention to each of them, once again starting by inspecting the frame and making sure everything is still trammed and set up well here. Due to vibrations and repetitive motions screws can come loose, parts can and will wear out and therefore a frame or other parts you set up a while ago can and will come out of alignment by time.
 
-??? example "Belt Maintenance"
-
-    - Check the belt tension from time to time as it might wear out and lengthen a bit. 
-    - Check the teeth of the belt if they are still good looking or if they're worn out or if even some teethe are missing.
-    - Check if you can see any cracks at the belt. 
-    - Check the gear wheels of the motors which are driving the belts. Are they also looking ok? Did they become loose on the motor shaft somehow?  
-
 ??? example "Broken/Snapped Belt"
 
     When you experience a broken/snapped/ripped belt, it's most likely caused by too much belt tension. Of course the belt itself can be physically harmed as well when grinding across sharp edges or when it gets old, but you should notice that when examining the belt every now and then when doing the regular maintenace of your printer.  
@@ -128,6 +121,19 @@ My 'rule of thumb' here is: if you can bend the belt down a bit by applying some
     Install the belt by disassembling the belonging parts like the belt tensioners (see the notes on how to do so in the belonging sections).  
     Pay attention to route the belt in the correct way and not being twisted and adjust the tension of the belt once everything is reassembled.  
     
+---
+
+#### Maintenance
+
+You should inspect the belts and the belonging parts like pulleys etc from time to time to make sure everything is in a good condition and nothing will suddenly break.  
+
+- Belt:
+  - Check the belt tension from time to time as it might wear out and lengthen a bit. 
+  - Check the teeth of the belt if they are still good looking or if they're worn out or if even some teethe are missing.
+  - Check if you can see any cracks or other damage at the belt.
+
+- Pulleys:  
+  - Check the pulleys of the motors which are driving the belts. Are they also looking ok? Did they become loose on the motor shaft somehow?  
 
 ---
 
@@ -475,13 +481,6 @@ My 'rule of thumb' here is: if you can bend the belt down a bit by applying some
 
     So, use your brain and don't always follow the typical answers like "Tighten you belts!" when you're experiencing issues like layer shifts for example. Instead, look at your printer more 'holistic' and see the different parts which are working together in the end. Pay attention to each of them, once again starting by inspecting the frame and making sure everything is still trammed and set up well here. Due to vibrations and repetitive motions screws can come loose, parts can and will wear out and therefore a frame or other parts you set up a while ago can and will come out of alignment by time.
 
-??? example "Belt Maintenance"
-
-    - Check the belt tension from time to time as it might wear out and lengthen a bit. 
-    - Check the teeth of the belt if they are still good looking or if they're worn out or if even some teethe are missing.
-    - Check if you can see any cracks at the belt. 
-    - Check the gear wheels of the motors which are driving the belts. Are they also looking ok? Did they become loose on the motor shaft somehow?  
-
 ??? example "Broken/Snapped Belt"
 
     When you experience a broken/snapped/ripped belt, it's most likely caused by too much belt tension. Of course the belt itself can be physically harmed as well when grinding across sharp edges or when it gets old, but you should notice that when examining the belt every now and then when doing the regular maintenace of your printer.  
@@ -493,6 +492,20 @@ My 'rule of thumb' here is: if you can bend the belt down a bit by applying some
     Crimp one of those clamps to one end of the belt, measure the belonging length of the belt and apply the other one, then cut off the rest of it.  
     Install the belt by disassembling the belonging parts like the belt tensioners (see the notes on how to do so in the belonging sections).  
     Pay attention to route the belt in the correct way and not being twisted and adjust the tension of the belt once everything is reassembled.  
+
+--- 
+
+#### Maintenance
+
+You should inspect the belts and the belonging parts like pulleys etc from time to time to make sure everything is in a good condition and nothing will suddenly break.  
+
+- Belt:
+  - Check the belt tension from time to time as it might wear out and lengthen a bit. 
+  - Check the teeth of the belt if they are still good looking or if they're worn out or if even some teethe are missing.
+  - Check if you can see any cracks or other damage at the belt.
+
+- Pulleys:  
+  - Check the pulleys of the motors which are driving the belts. Are they also looking ok? Did they become loose on the motor shaft somehow?  
     
 ---
 
