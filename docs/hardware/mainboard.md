@@ -14,7 +14,7 @@ The mainboard comes with TMC2208 silent stepper drivers *soldered* onto the boar
 ??? info "GC6609 stepper drivers being used as well!"  
 
     It seems that Anycubic changed the stepper drivers from original TMC2208 to cheap 2208/2209 clones, called "GC6609".  
-    When exactly this change took place and whether it's a permanent solution or if only a certain batch of these mainboards have been populated with these kind of stepper drivers is unknown.  
+    When exactly this change took place and whether it's a permanent solution or if only a certain batch of these mainboards have been populated with these kind of stepper drivers is unknown. It seems though that the mainboards which are equipped with these drivers are set up with silver heatsinkns instead of black heatsinks.    
     However, the following picture shows this stepper driver (you'd have to take off the heatsink to identify which specific type was being used at your mainboard - which I wouldn't recommend to do if you're just curious to know which one you have..).    
     
     ![GC6609](../assets/images/board_GC6609-stepperdrivers_web.jpeg)  
@@ -32,7 +32,12 @@ The mainboard comes with TMC2208 silent stepper drivers *soldered* onto the boar
 
 The microSD card reader slot and the USB-C connector can be accessed from at front of the printer, you find them at the right hand side of that black plastic aperture of the frame as shown in the picture below.  
 
-![microSd card slot and USB-C connector](../assets/images/printer_slot-USBc_web.jpg)  
+![microSD card slot and USB-C connector](../assets/images/printer_slot-USBc_web.jpg)  
+
+??? info "TriGorilla V_3.0.7 Has Been Spotted"  
+
+    User [zyssai](https://www.reddit.com/user/zyssai/) reported that at his Go a TriGorilla V_3.0.7 is being used. Besides a missing connector there doesn't seem to be any further differences to the V_3.0.6 board though.  
+    ![TG v3.0.7](../assets/images/mainboard_mobo-GEN307_web.jpeg)  
 
 !!! danger "Add Ferrules To The 24V Wires!" 
 
