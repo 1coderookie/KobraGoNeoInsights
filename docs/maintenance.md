@@ -33,6 +33,7 @@ If you're using the machine not that often, you still should pay attention. In t
 Check if all screws, bolts and nuts are still tight as they should be.  
 These parts can come loose due to vibrations.  
 If you encounter loose screws, bolts or nuts, it's a good idea to add some Loctite.  
+In that case also check if the frame itself is still in the proper rectangular shape, that the z-axis frame is still mounted perpendicular and so on.  
 
 ---
 
