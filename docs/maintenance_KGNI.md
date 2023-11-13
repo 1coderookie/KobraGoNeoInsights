@@ -46,9 +46,9 @@ Make sure everything is as tight as it should be, but still freely to move nice 
 You should inspect the wheels and belts and the belonging parts like pulleys etc from time to time to make sure everything is in a good condition and nothing will suddenly break.  
 
 - Belt:
-  - Check the belt tension from time to time as it might wear out and lengthen a bit. 
-  - Check the teeth of the belt if they are still good looking or if they're worn out or if even some teethe are missing.
-  - Check if you can see any cracks or other damage at the belt.
+ - Check the belt tension from time to time as it might wear out and lengthen a bit. 
+ - Check the teeth of the belt if they are still good looking or if they're worn out or if even some teethe are missing.
+ - Check if you can see any cracks or other damage at the belt.
 
 - Pulleys:  
   - Check the pulleys of the motors which are driving the belts. Are they also looking ok? Did they become loose on the motor shaft somehow?  
