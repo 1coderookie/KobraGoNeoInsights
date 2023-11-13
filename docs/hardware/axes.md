@@ -873,12 +873,12 @@ If you go with this solution, I'd highly recommend to use additional ["Oldham Co
       
 ---
 
-### Z-Axis System: Maintenance   
+### Maintenance   
 
 Maintenance of the whole z-axis system (means, the whole lead screw setup *and* the belonging parts of the x-axis gantry) is crucial for a well operating printer.  
 Especially the initial cleaning (getting rid of the old and sticky 'oil') and lubrification plus the necessary vertical alignment of the lead screw system is *really* important!  
 
-In the following expandable textboxes you'll find some notes and instructions about how to care of the lead screw system.  
+In the following expandable textbox you'll find some notes and instructions about how to care of the lead screw system.  
 
 !!! warning "Z-Axis Drives X-Axis Gantry"  
 
@@ -903,37 +903,41 @@ In the following expandable textboxes you'll find some notes and instructions ab
     - Before installing the rod into the coupler of the motor again, clean the last inch of the bottom again by using the car break cleaner and the cloth. Try to get it as much degreased as possible, so that it doesn't start to slip inside of the coupler later. 
     - When you're done reassembling everything and you home the printhead, you only should hear the low noise of the turning motor now - so now grinding noise from the anti-backlash nut or something like that.  
     
-    !!! warning "Don't Use WD-40 for Lubrication"
+    !!! warning "Don't Use WD-40 For Lubrication"
     
         Do yourself a favour and *never* use WD-40 for *lubrication* as it's *not* a lubricant!  
         It's perfectly fine for washing off old oil from the threaded rod, but it's *not* a sufficient lubrification!  
         People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
         As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait..  
+
+---
    
-??? example "Disassembling The Lead Screw System"   
+### Disassembling The Lead Screw System   
 
-    If you need to disassemble the z-axis lead screw system, there are a few things that one should be aware of. Besides that, the necessary steps are pretty easy and self-explaing, so I'll go over them just really quick.  
+If you need to disassemble the z-axis lead screw system, there are a few things that one should be aware of. Besides that, the necessary steps are pretty easy and self-explaing, so I'll go over them just really quick.  
     
-    - First, you should somehow fixate the gantry of the x-axis to get the load off of the lead screw. You can do so by e.g. putting two soupcans onto the bed, each on one side (left/right) and then lower the gantry until it rests onto them. Or you can move the gantry up and fixate it with some velcro straps or cable ties as shown in the picture below. <br> ![Parked x-axis gantry](../assets/images/axes_x-gantry-cableties_web.jpg)  
-    - Now unplug the wire from the stepper motor, just to be on the safe side. The printer itself is also switched off of course.  
-    - Loosen the two screws at the coupler which conects the motor shaft and the lead screw. 
-    - Now you can turn the lead screw by hand to screw it out of the anti-backlash nut. After you completely took it out, dismount the anti-backlash nut from the holder at the frame as well.  
-      If you fixated the x-axis gantry at the top like shown in the picture above, you can also just screw the lead screw a bit higher into the anti-backlash nut so that it comes out of the coupler and then you just dismount the anti-backlash nut from the holder at the frame. After that you can take out the lead screw with the nut still on and take off the nut then.  
-    - Take off the coupler from the motor shaft as well for being able to inspect everything.  
+- First, you should somehow fixate the gantry of the x-axis to get the load off of the lead screw. You can do so by e.g. putting two soupcans onto the bed, each on one side (left/right) and then lower the gantry until it rests onto them. Or you can move the gantry up and fixate it with some velcro straps or cable ties as shown in the picture below. <br> ![Parked x-axis gantry](../assets/images/axes_x-gantry-cableties_web.jpg)  
+- Now unplug the wire from the stepper motor, just to be on the safe side. The printer itself is also switched off of course.  
+- Loosen the two screws at the coupler which conects the motor shaft and the lead screw. 
+- Now you can turn the lead screw by hand to screw it out of the anti-backlash nut. After you completely took it out, dismount the anti-backlash nut from the holder at the frame as well.  
+  If you fixated the x-axis gantry at the top like shown in the picture above, you can also just screw the lead screw a bit higher into the anti-backlash nut so that it comes out of the coupler and then you just dismount the anti-backlash nut from the holder at the frame. After that you can take out the lead screw with the nut still on and take off the nut then.  
+- Take off the coupler from the motor shaft as well for being able to inspect everything.  
 
-??? example "Reassembling The Lead Screw System"   
+---
 
-    If you need to resassemble the z-axis lead screw system, there are a few things that one should be aware of. Besides that, the necessary steps are pretty easy and self-explaing, so I'll go over them just really quick.  
+### Reassembling The Lead Screw System   
+
+If you need to resassemble the z-axis lead screw system, there are a few things that one should be aware of. Besides that, the necessary steps are pretty easy and self-explaing, so I'll go over them just really quick.  
     
-    - To reassemble everything, just follow your steps backwards.   
-    However, there are a few things you should pay attention to now:  
-    - Make sure the motor shaft and the bottom tip of the lead screw are free of oil or grease to avoid slipping of the coupler.  
-    - Mount the coupler to the bottom of the lead screw first and tighten the screw. Then put it onto the motor shaft and tighten the screw. The coupler should not move or wiggle on either part.    
-    - When installing the *anti-backlash nut*, make sure you *press it together* firmly while inserting the lead screw, so that the spring inside these two parts of the anti-backlash nut is completely compressed and loaded. 
-    - Before finally installing the lead screw, loosen up the screws of the motor holder a bit so that the motor itself can move a bit on the horizontal plane.  
-    Then install the lead screw, *align everything*, screw the anti-backlash nut (attention: don't forget to really press it together!) to the belonging holder and align the motor once again.  
-    Then finally tighten up the screws of the motor mount.  
-    By doing so you do the best you can to get the parts vertically aligned as much as possible.  
+- To reassemble everything, just follow your steps backwards.   
+  However, there are a few things you should pay attention to now:  
+- Make sure the motor shaft and the bottom tip of the lead screw are free of oil or grease to avoid slipping of the coupler.  
+- Mount the coupler to the bottom of the lead screw first and tighten the screw. Then put it onto the motor shaft and tighten the screw. The coupler should not move or wiggle on either part.    
+- When installing the *anti-backlash nut*, make sure you *press it together* firmly while inserting the lead screw, so that the spring inside these two parts of the anti-backlash nut is completely compressed and loaded. 
+- Before finally installing the lead screw, loosen up the screws of the motor holder a bit so that the motor itself can move a bit on the horizontal plane.  
+  Then install the lead screw, *align everything*, screw the anti-backlash nut (attention: don't forget to really press it together!) to the belonging holder and align the motor once again.  
+  Then finally tighten up the screws of the motor mount.  
+  By doing so you do the best you can to get the parts vertically aligned as much as possible.  
 
 ---  
 
