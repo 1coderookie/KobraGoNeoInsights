@@ -716,10 +716,18 @@ The following picture shows the heatbreak of the **Go** as it's screwed into the
 
 ![Heatbreak Go](../assets/images/head_go_stock-heatbreak_web.jpg)
 
+The following pictures show the heatbreak itself.  
+
+| Heatbreak Go | Heatbreak Go | Heatbreak Go |
+|:------------:|:------------:|:------------:|
+| ![Heatbreak Go 1](../assets/images/head_heatbreak-GO2_web.jpeg) | ![Heatbreak Go 2](../assets/images/head_heatbreak-GO3_web.jpeg) | ![Heatbreak Go 3](../assets/images/head_heatbreak-GO4_web.jpeg) |
+
 ---
 
 ##### MOD: Different Heatbreak
-As nobody reached out to me yet, I can't show or suggest any solutions of alternative hotends for the **Go** - sorry about that. From my perspective (I don't own the **Go** though!) it should be possible to replace the existing hotend with one from the aftermarket though, if you pay attention to the specific dimensions.  
+As nobody reached out to me yet, I can't show or suggest any solutions of alternative heatbreaks for the **Go** - sorry about that.  
+From my perspective (I don't own the **Go** though!) it should be possible to replace at the existing heatbreak with one from the aftermarket though, if you pay attention to the specific dimensions.  
+As you most likely won't find one which is meant for a PTFE inliner like the stock one (at least I personally didn't find any), you should be able to use a bi-metal/all-metal heatbreak though as well. The one vor the Anycubic Vyper should actually fit as it has the same dimensions - I can't say anything about if the stock heatsink offers enough cooling to successfully avoid heatcreep though!  
 
 ---
 
@@ -1104,15 +1112,7 @@ Anycubic ships the printheads with a 0.4mm **E3D V6 type** brass nozzle for 1.75
 So if you're looking for replacement nozzles, make sure to get yourself the correct type: it's a E3D **V6** type of nozzle!  
 I highly recommend to only use high quality nozzles, like the [**original E3D V6 nozzles**](https://e3d-online.com/products/v6-nozzles) (see the infobox below as well)!  
 
-If you're about to print *highly abrasive* types of filament, like "wood" or "glow in the dark" PLA for example, get yourself a hardened steel nozzle or a tungsten carbide nozzle, as regular brass nozzles will be worn out in no time. The following picture shows an "E3D Nozzle X" hardened steel nozzle.  
 
-![E3D Nozzle X](../assets/images/V6_nozzleX_web.jpg)  
-
-If you're planning on printing on much higher speeds and need a higher flowrate than a regular nozzle can offer in this stock hotend setup, you can get yourself a "CHT high flow" nozzle. These ones have a special designed copper inlet in the shaft of the nozzle, which splits up the filament in three parts which then results in a much higher flowrate. The following picture shows this kind of design at a cheap CHT nozzle clone.  
-
-![CHT clone](../assets/images/V6_CHTclone_web.jpg)  
-
-*Whichever kind of nozzle you decide to get - always make sure to choose an E3D ***V6*** type of nozzle!*  
 
 !!! warning "MK8 Nozzles DON'T Fit!"
 
@@ -1153,7 +1153,40 @@ If you're planning on printing on much higher speeds and need a higher flowrate 
         - [Video: Get the benefits of a 0.6mm nozzle with a 0.4?](https://www.youtube.com/watch?v=nmigF5qyJ4M)  
           [Article: Get the benefits of a 0.6mm nozzle with a 0.4?](https://toms3d.org/2022/09/22/get-the-benefits-of-a-0-6mm-nozzle-with-a-0-4/)  
   
-  
+---
+
+### Hardened Steel / Tungsten Carbide Nozzle
+
+If you're about to print *highly abrasive* types of filament, like "wood" or "glow in the dark" PLA for example, get yourself a hardened steel nozzle or a tungsten carbide nozzle, as regular brass nozzles will be worn out in no time. The following picture shows an "E3D Nozzle X" hardened steel nozzle.  
+
+![E3D Nozzle X](../assets/images/V6_nozzleX_web.jpg)  
+
+*Whichever kind of nozzle you decide to get - always make sure to choose an E3D ***V6*** type of nozzle!*  
+
+---
+
+### Ruby Tip Nozzle  
+If you're about to print *highly abrasive* types of filament, like "wood" or "glow in the dark" PLA for example, you can also get yourself a ruby tipped nozzle as shown in the following pictures, as regular brass nozzles will be worn out in no time.
+
+| Normal brass vs ruby tip nozzle | Normal brass vs ruby tip nozzle |
+|:-------------------------------:|:-------------------------------:|
+| ![Ruby 1](../assets/images/head_ruby-nozzle1_web.jpeg) | ![Ruby 2](../assets/images/head_ruby-nozzle2_web.jpeg) |  
+
+!!! warning "Ruby Tip Nozzle Is Slightly Longer"  
+
+    Mind that the ruby tip nozzle (at least the one which has been used here) is slightly longer than a regular brass nozzle, so **adjust your z-offset accordingly before starting a print** to not have your nozzle being driven into the build plate!  
+
+*Whichever kind of nozzle you decide to get - always make sure to choose an E3D ***V6*** type of nozzle!*  
+
+---
+
+### CHT High Flow Nozzle
+
+If you're planning on printing on much higher speeds and need a higher flowrate than a regular nozzle can offer in this stock hotend setup, you can get yourself a "CHT high flow" nozzle. These ones have a special designed copper inlet in the shaft of the nozzle, which splits up the filament in three parts which then results in a much higher flowrate. The following picture shows this kind of design at a cheap CHT nozzle clone.  
+
+![CHT clone](../assets/images/V6_CHTclone_web.jpg)  
+
+*Whichever kind of nozzle you decide to get - always make sure to choose an E3D ***V6*** type of nozzle!*  
   
 ---  
   
