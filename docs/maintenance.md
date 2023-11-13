@@ -89,7 +89,7 @@ You should inspect the wheels at those Y-shaped brackets and check if any saggin
 
 **Wheels**  
 
-- Check the position of the wheels as well as the bolts and nuts are still being tight.  
+- Check the position of the wheels which are running along the z-axis rails as well as the bolts and nuts are still being tight.  
 - Do you see any debris? Clean it off.  
 - Do you see any signs of heavy wear and tear like in the following picture? If so, check the position and pressure as well as if any damage (besides the wear&tear) is visible.  
   ![Wheels wear & tear](assets/images/axes_wheels-weartear_web.jpeg)  
