@@ -60,8 +60,8 @@ You should inspect the wheels and belts and the belonging parts like pulleys etc
 - Check the position of the wheels as well as the bolts and nuts are still being tight.  
 - Do you see any debris? Clean it off.  
 - Do you see any signs of heavy wear and tear like in the following picture? If so, check the position and pressure as well as if any damage (besides the wear&tear) is visible.   
-  ![Wheels wear & tear](assets/images/axes_wheels-weartear_web.jpeg)  
-- Check if you can see or feel any dents at the wheels.
+	![Wheels wear & tear](assets/images/axes_wheels-weartear_web.jpeg)  
+- Check if you can see or feel any dents at the wheels.  
 - Check if the bearings still move nice and smooth or if you can feel any hiccups during movement.  
   
 **Motor**
@@ -90,7 +90,7 @@ You should inspect the wheels at those Y-shaped brackets and check if any saggin
 - Do you see any debris? Clean it off.  
 - Do you see any signs of heavy wear and tear like in the following picture? If so, check the position and pressure as well as if any damage (besides the wear&tear) is visible.  
   ![Wheels wear & tear](assets/images/axes_wheels-weartear_web.jpeg)  
-- Check if you can see or feel any dents at the wheels.
+- Check if you can see or feel any dents at the wheels.  
 - Check if the bearings still move nice and smooth or if you can feel any hiccups during movement.  
 
 **Y-shaped brackets**  
@@ -115,26 +115,27 @@ You should inspect the belts and the belonging parts like pulleys etc from time 
 - Check the pulleys of the motors which are driving the belts. Are they also looking ok? Did they become loose on the motor shaft somehow?  
 
 **Wheels**  
+
 - Check the position of the wheels as well as the bolts and nuts are still being tight.  
 - Do you see any debris? Clean it off.  
 - Do you see any signs of heavy wear and tear like in the following picture? If so, check the position and pressure as well as if any damage (besides the wear&tear) is visible.  
   ![Wheels wear & tear](assets/images/axes_wheels-weartear_web.jpeg)  
-- Check if you can see or feel any dents at the wheels.
+- Check if you can see or feel any dents at the wheels.  
 - Check if the bearings still move nice and smooth or if you can feel any hiccups during movement.  
 
 **Motor**
 
 - Is the motor still mounted firmly?  
-- Is the bracket that holds the motor still straight as it should be, or is it maybe not due to too much belt tension being used?
-- Is the shaft of the motor still straight as it should be, or is it maybe not due to too much belt tension being used?
-- Is the pulley that is pressed onto the motor shaft still in place, in a good condition and is it still sitting tight on the shaft?
-- Is the connection of the wire still fine?
+- Is the bracket that holds the motor still straight as it should be, or is it maybe not due to too much belt tension being used?  
+- Is the shaft of the motor still straight as it should be, or is it maybe not due to too much belt tension being used?  
+- Is the pulley that is pressed onto the motor shaft still in place, in a good condition and is it still sitting tight on the shaft?  
+- Is the connection of the wire still fine?  
 
 **Limit switch**
 
-- Is the limit switch still working?
-- Is it still mounted firmly as it should be?
-- Is the connection of the wire still fine? 
+- Is the limit switch still working?  
+- Is it still mounted firmly as it should be?  
+- Is the connection of the wire still fine?  
 
 --- 
 
@@ -145,7 +146,7 @@ You should inspect the screw and the belonging parts like the anti-backlash nut,
 **Lead screw** 
 
 - Is the lead screw still vertically aligned?  
-- Is there any debris of the POM from the anti-backlash nut in the threads?
+- Is there any debris of the POM from the anti-backlash nut in the threads?  
 - Is the screw still lubed?  
   Clean off the old lubrification and add some new, I personally use "Super Lube" for this.  
 
@@ -153,21 +154,21 @@ You should inspect the screw and the belonging parts like the anti-backlash nut,
 **Anti-backlash nut** 
 
 - Is it still tightly mounted to that metal bracket or did the screws become loose?  
-- Is it still compressed?
-- Can you see any visible wear & tear of the POM inside of the anti-backlash nut? 
+- Is it still compressed?  
+- Can you see any visible wear & tear of the POM inside of the anti-backlash nut?   
 
 **Motor & coupler**
 
-- Is the coupler which connects the shaft of the motor and the lead screw still tight?
-- Is the motor still mounted firmly?
-- Is the connection of the wire still fine?
+- Is the coupler which connects the shaft of the motor and the lead screw still tight?  
+- Is the motor still mounted firmly?  
+- Is the connection of the wire still fine?  
 
 **Limit switch**
 
-- Is the limit switch still working?
+- Is the limit switch still working?  
 - Is it still mounted firmly as it should be?  
   Check both parts: the one at the frame and the little lever at the x-gantry.  
-- Is the connection of the wire still fine? 
+- Is the connection of the wire still fine?  
 
 ---
 
@@ -178,31 +179,32 @@ Also check if the part cooling fan as well as the heatsink cooling fan still wor
 
 **Extruder**  
 
-- Is filament still being fed correctly? 
-- Is the tension of the spring still correct?
-- Are the gears still clean or did any debris of filament build up?
+- Is filament still being fed correctly?   
+- Is the tension of the spring still correct?  
+- Are the gears still clean or did any debris of filament build up?  
 
 **Hotend** 
 
 - Are all screws still tight?  
-  *Pay special attention to the grub/set screws at the heater block which hold the thermistor and cartridge heater in place!*
-- Are the thermistor and the cartridge heater still in place? 
-- Do you see any harmed insulation of the wires, do you see any bare wire shining through?
-- Do you see any melted filament around the top or the bottom of the heater block, right at the threads of the heatbreak and the nozzle?
-- Is the nozzle clean and not yet worn out?
+  *Pay special attention to the grub/set screws at the heater block which hold the thermistor and cartridge heater in place!*  
+- Are the thermistor and the cartridge heater still in place?   
+- Do you see any harmed insulation of the wires, do you see any bare wire shining through?  
+- Do you see any melted filament around the top or the bottom of the heater block, right at the threads of the heatbreak and the nozzle?  
+- Is the nozzle clean and not yet worn out?  
 - Is the silicone sock still ok, does it also still sit in the correct position?  
 
 **Fans** 
 
-- Are the part cooling fan and the heatsink cooling fan still working properly?
-- Are the screws which hold them in place still tight?
-- Are the blades of the fans clean, or did dust build up? If so, clean it off.
-- Can the fans rotate freely or is anything (e.g. wires, cable ties) hitting them?
+- Are the part cooling fan and the heatsink cooling fan still working properly?  
+- Are the screws which hold them in place still tight?  
+- Are the blades of the fans clean, or did dust build up? If so, clean it off.  
+- Can the fans rotate freely or is anything (e.g. wires, cable ties) hitting them?  
 
 **ABL sensor** 
 
-- Is the sensor still in the correct position, or did the bracket maybe become loose and therefore the sensor sagged?
-- Does it still trigger when detecting metal?
+- Is the sensor still in the correct position, or did the bracket maybe become loose and therefore the sensor sagged?  
+- Does it still trigger when detecting metal?  
+
 
 ---
 
