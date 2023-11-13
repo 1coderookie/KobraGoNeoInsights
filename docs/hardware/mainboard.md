@@ -36,7 +36,7 @@ The microSD card reader slot and the USB-C connector can be accessed from at fro
 
 ??? info "TriGorilla V_3.0.7 Has Been Spotted"  
 
-    User [zyssai](https://www.reddit.com/user/zyssai/) reported that at his Go a TriGorilla V_3.0.7 is being used. Besides a missing connector there doesn't seem to be any further differences to the V_3.0.6 board though.  
+    User [zimmystor](https://www.reddit.com/user/zimmystor/) reported that at his Go a TriGorilla V_3.0.7 is being used. Besides a missing connector there doesn't seem to be any further differences to the V_3.0.6 board though.  
     ![TG v3.0.7](../assets/images/mainboard_mobo-GEN307_web.jpeg)  
 
 !!! danger "Add Ferrules To The 24V Wires!" 
