@@ -208,7 +208,24 @@ Also check if the part cooling fan as well as the heatsink cooling fan still wor
 - Is the sensor still in the correct position, or did the bracket maybe become loose and therefore the sensor sagged?  
 - Does it still trigger when detecting metal?  
 
+---
 
+## Bed
+
+**Gantry & Plate**
+
+- Is the bedgantry still stable, or does it wobble?  
+- Are the screws which hold the bedplate onto the gantry still tight?
+- Is the magnetic foil still sticking fine everywhere, or is it coming up somewhere?  
+  Are any bubbles underneath the magnetic foil visible?
+- Is the PEI plate still fine or is it severly scratched or is the PEI coating severly harmed in a larger area?
+
+**Wiring**
+
+- Does the wiring still look good, or are any damages visible?  
+- Is bare wire shining through the insulation?  
+- Are any dark spots at the insulation visible or is insulation even already melted somewhere (mainly the 24V wires)?  
+  
 ---
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
