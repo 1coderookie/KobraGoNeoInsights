@@ -149,7 +149,7 @@ Read the section ["Silicone Sock"](hardware/printhead.md#silicone-sock) for furt
 ---
 
 ## Large Clump Of Melted Filament Built Up
-If you had a problem with a clump of melted filament that built up around the heater block or hotend, see the violet expandable textbox in the section ["Hotend & Heatbreak"](hardware/printhead.md#hotend-heatbreak) to get some tips about how to clean everything again.  
+If you had a problem with a clump of melted filament that built up around the heater block or hotend, see the violet expandable textbox in the section ["Hotend"](hardware/printhead.md#hotend) to get some tips about how to clean everything again.  
 Also check the belonging sections in the chapter ["Printhead"](hardware/printhead.md) to see how to assemble the belonging parts  of the hotend (heater block, heatbreak, nozzle) correctly for avoiding this kind of incident in the future.   
 
 ---
