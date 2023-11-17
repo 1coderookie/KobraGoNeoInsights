@@ -242,28 +242,6 @@ However, there is a way you can change the default setting of the maximum retrac
   
 It has to be mentioned though that a high(er) retraction speed isn't always the key - it can also be the case that using a lower speed than e.g. the default maximum 25mm/s is necessary for getting the best results. This also depends on the type and quality of the filament as well.  
   
-  
----  
-  
-### Layer Height
-This isn't really a calibration you need to do, but it's something you should be aware of and take into account when choosing the layer height for your print settings and therefore I'd like to mention it a this point. So when deciding for a layer height, you probably think "well, I can just choose whatever I want" - and yes, of course you can do so. But there's a "magic number" you should actually take into account when making your decision: **0.04mm**.  
-
-Let me explain it a bit: when moving along the z-axis which is done by the lead screw, it's smart to choose your layer heights in a way that for each layer full motor steps are taken. *One* step is 0.04mm, so it's better to set e.g. 0.2mm layer height (which is 5 full steps) instead of e.g. 0.18mm (which is 4.5 steps).  
-
-Here's the 'math' behind it:  
-
-- The lead screw is 8mm in diameter.  
-- There are 4 starts (= thread paths) at the lead screw.  
-- The lead screw has 2mm pitch.  
-- 4 starts multiplied by 2mm pitch is 8mm lead per one *full* rotation of the lead screw.   
-- The stepper motor of the z-axis does 200 steps per revolution.  
-- Means: 8mm lead divided by 200 steps per revolution is *0.04mm movement per step*.  
-
-Doing the math, you'll realize that e.g. 0.2mm l.h. = 5 steps, 0.24mm l.h. = 6 steps, 0.28mm l.h. = 7 steps and so on.  
-So when choosing a l.h. like e.g. 0.15mm or 0.3mm, the motor has to do 3.75 or 7.5 steps which isn't smart and won't be as accurate and reliable as doing full steps.  
-
-So: always choose layer heights which can be 'fully' divided by 0.04mm.
-
 ---
 
 ### Calibrating E-Steps
@@ -441,6 +419,15 @@ Congratulations, you just did the PID tuning for your bed!
 ??? tip "Insulate The Bedplate"  
 
     Insulating the bedplate with sufficient material has a great effect on the stability and the behaviour while heating up and cooling down. It'll minimize temperature fluctuations and saves electrical energy as well. Check out the section [Insulating the Bed](hardware/bed.md#insulating-the-bed) for further information.  
+
+---  
+  
+### Layer Height
+This isn't really a calibration you need to do, but it's something you should be aware of and take into account when choosing the layer height for your print settings and therefore I'd like to mention it a this point. So when deciding for a layer height, you probably think "well, I can just choose whatever I want" - and yes, of course you can do so. But there's a "magic number" you should actually take into account when making your decision: **0.04mm**.  
+
+This is the distance the head travels up and down along the z-axis for each *full step* of the z-axis motor and therefore it's advisable to always choose layer heights which can be fully divided by / which are multiples of *0.04mm*.  
+
+You can find a bit more information about the 'maths' behind it in the expandable info textbox [here](hardware/axes.md#z-axis).  
     
 ---
 
