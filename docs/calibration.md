@@ -427,7 +427,7 @@ This isn't really a calibration you need to do, but it's something you should be
 
 This is the distance the head travels up and down along the z-axis for each *full step* of the z-axis motor and therefore it's advisable to always choose layer heights which can be fully divided by / which are multiples of *0.04mm*.  
 
-You can find a bit more information about the 'maths' behind it in the expandable info textbox [here](hardware/axes.md#z-axis).  
+You can find a bit more information about the 'maths' behind it in the expandable textbox "Choosing A Layer Height: The "Magic Number"" [here](hardware/axes.md#z-axis).  
     
 ---
 
