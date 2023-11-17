@@ -631,6 +631,43 @@ The top end of the rod is completely unguided. In between it's guided and secure
 
     **The lead screw drives the x-axis gantry up and down along the z-axis aluminum frame parts, so check the section [x-axis gantry](#x-axis-gantry) as well for adjusting the position of the brackets the v-slot wheels are mounted to as well as for adjusting the position of the wheels!**  
 
+??? info "Choosing A Layer Height: The "Magic Number""  
+
+    I'd like to mention the so called "magic number" for choosing layer heights at this time already, even though you probably didn't reach the sections about the individual parts of the z-axis lead screw system yet: it's **0.04mm**.  
+    
+    Let me explain it a bit: when the head at the x-gantry is being moved up and down along the z-axis which is done by the lead screws, it's smart to choose your layer heights in a way that for each layer *full motor steps* are taken. *One* step is 0.04mm, so it's better to set e.g. 0.2mm or 0.16mm layer heights instead of e.g. 0.18mm or 0.15mm.  
+
+    To understand it better, I'll try to give a simple explanation of what a *full step* of a motor is and what *microstepping* of a motor is, before I'll explain the 'math' behind the magic number. If you're interested in a more precise and proper technical description of how exactly a stepper motor works, please search the web for an adequate source.   
+ 
+    We have motors which execute 200 *full steps* to rotate the shaft of the motor for a full 360° rotation, where each step is a movement of 1.8° (there are also 'high resolution' stepper motors which do 400 steps with 0.9° movement per full step, but we have motors which do the mentioned 200 steps). This is based on how the motor is built in the inside with it's permanent magnet motor and the stator coils which make the shaft of the motor turn in the end.   
+    At each of these 200 steps with 1.8° movement, the motor 'rests' in that specific position due to the positions of the permanent magnets in the inside. Means, these positions are 'given', there don't occur any deviations or misalignments.  
+    
+    Then we have *microstepping*. Microstepping is dividing one full step in a number of smaller steps, the so called microsteps. In our case we have 16 microsteps being used (other setups can use up to 256 microsteps). For making this mircostepping possible, the belonging stepper motor driver (which is a chip on the mainboard, in this case a TMC2209) adjusts the current of the stator coil in a way that the permanent magnet motor will be hold in a position between two full steps. So the motor doesn't 'rest' in a certain position due to the force of the magnets, it's being 'hold' in an intermediate position between two magnets which are next to each other so to say.  
+    In our case with a 1.8° rotation per full step and 16 subsequent microsteps, each microstep is a movement of 0.0025mm, because one full step is 0.04mm.  
+    But, due to the fact that the motor is being 'hold' in that position between two magnets like it's floating, this movement isn't 100% precise. So in reality it's not *exactly* altering it's position of 0.0025mm when a microstep is executed, it's more like it's moving *approximately* 0.0025mm.  
+    And this is already the reason why it's smart to choose a layer height which is a multiple of *full steps*, just because the movement is more 'precise' due to the fact that the motor moves from magnet to magnet instead of being hold in a somewhat-position in between.  
+    There are other additional reasons as well like that the torque is heavily reduced when microstepping, but I won't go into further details about that.     
+
+    Now that you know the basic principle of how a stepper motor works and what the difference of a full step and a microstep is, you might wonder why the up and down movement of the z-axis is 0.04mm for a full step now.   
+    Here's the 'math' behind it:  
+
+    - The stepper motor of the z-axis does 200 steps per revolution (1.8° per full step for a 360° rotation).
+    - The lead screw is 8mm in diameter.  
+    - There are 4 starts (= thread paths) at the lead screw.  
+    - The lead screw has 2mm pitch.  
+    - 4 starts multiplied by 2mm pitch is 8mm lead per one *full* rotation of the lead screw. In other words: for every 360° rotation the motor shaft and therefore the lead screw does, the z-axis moves (either up or down) 8mm.     
+    Therefore we have the 8mm lead divided by 200 steps per revolution, which then results in *0.04mm movement per step*.  
+
+    Doing the math, you'll realize that e.g. 0.16mm layer height = 4 full steps, 0.2mm l.h. = 5 full steps and so on.  
+    Now we remember that a microstep is ~0.0025mm.  
+    So when choosing a layer height like e.g. 0.15mm, the motor has to do 3 full steps (3*0.04mm=0.12mm) and 12 microsteps (12*0.0025mm=0.03mm).  
+    But because a microstep is a position which is somewhat 'floating' due to the fact that it's being held between two magnets instead of 'resting' in a position facing one magnet, the chosen 0.15mm layer height is not as precise as the 0.16mm or 0.2mm which is a multiple of 0.04mm full steps. Therefore it's smart to always choose layer heights which can be fully divided by 0.04mm.  
+
+    Now you probably ask yourself if it really affects the outcome of the printed part in the end and if it's worth it paying attention to this, and imho the answer "maybe not that much" and "yes".  
+    You *probably* won't be able to tell the difference in terms of quality when looking at two parts with the bare eye.  
+    But what's the advantage of using a layer height of 0.15mm (where a somewhat unprecise microstepping has to be used) instead of just choosing 0.16mm layer height (which consists of full steps)? Exactly - there isn't any advantage. So, imho: yes, it's worth paying attention to this, because if we can somewhat improve the quality and accuracy of a print by just making one smart decision - then why shouldn't we do it?   
+    
+
 ---
 
 
