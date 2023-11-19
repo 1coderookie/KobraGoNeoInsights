@@ -668,8 +668,118 @@ The top end of the rod is completely unguided. In between it's guided and secure
     But what's the advantage of using a layer height of 0.15mm (where a somewhat unprecise microstepping has to be used) instead of just choosing 0.16mm layer height (which consists of full steps)? Exactly - there isn't any advantage. So, imho: yes, it's worth paying attention to this, because if we can somewhat improve the quality and accuracy of a print by just making one smart decision - then why shouldn't we do it?   
     
 
+
 ---
 
+### Lead Screw 
+
+The printers have one lead screw only. It's a T8x8 type (8mm diameter, 8mm lead, 2mm pitch, 4 starts) of 350mm length.   
+
+---
+
+### Anti-Backlash Nut
+The stock anti-backlash nut is made from plastic with POM in the inside where the lead screw runs along.  
+The nut is made out of two parts which are spring loaded and it's mounted to the x-axis gantry as shown in the following picture.  
+
+![Mounted nut](../assets/images/axes_ab-nut_mounted_web.jpg)  
+
+When receiving the machine and when dis-/mounting the lead screw, you need to make sure that the anit-backlash nut is installed being pressed together, so that the spring is loaded. The following pictures show you the unloaded anti-backlash nut and the nut being pressed together.    
+
+| Nut with unloaded spring | Nut being pressed together |
+|:------------:|:----------------------:|
+| ![Unloaded](../assets/images/axes_ab-nut_web.jpg) | ![Loaded](../assets/images/axes_ab-nut_pressed-together_web.jpg) |
+
+So as you can see in the first picture of the mounted nut, it looks like it hasn't been pushed together while being installed. To be safe, it's advisable to take out the lead screw in this case, press the nut together and put the screw back in while holding the nut being pressed together.  
+
+---
+ 
+#### MOD: Different Anti-Backlash Nut  
+
+If the anti-backlash nut that came with the printer is worn out like shown in the picture below, you should look out for a new one.   
+    
+![Worn out nut](../assets/images/axes_worn-nut_web.jpg)  
+    
+The nut shown at the picture above is still useable though as it still sits tight on the rod.  
+However, sooner or later the debris will come off again and stick on the rod which may causes jams or stuttering of the z-axis movement.   
+These stock anti-backlash nuts used by Anycubic are pretty hard to find as a spare part though - and *if* you find them, they're most likely ridiculously overpriced.  
+    
+There are spring loaded anti-backlash nuts made of brass and POM for this kind of lead screw available as well, you can also use them. The following picture shows the stock anti-backlash nut at the left side, a spring loaded brass one in the middle and a spring loaded POM one on the right side.    
+    
+![Anti-backlash nuts](../assets/images/axes_ab-nuts_web.jpg)  
+    
+However, the distance of the threads of the stock anti-backlash nut is 20mm, the ones of the 'regular' ones being available are either 16mm or 18mm - at least I personally didn't find any of them with 20mm distance. The 16mm obviously won't fit, but as the holes of the bracket where you actually mount this nut to are a bit elongated, so nuts with a thread distance of 18mm do actually fit as the following picture shows.  
+
+![Brass anti-backlash nut mounted](../assets/images/axes_brass-ab-nut_web.jpg)
+    
+Whichever spring loaded anti-backlash nut you (re-)install, make sure that you press both parts together when putting the lead screw in. There's a little spring between the upper and the lower part of the nut which is there to prevent the backlash. This spring needs to be pushed together during the installation, so that there's tension and both parts of that nut system are being pushed away from each other when installed.  
+
+If you installed a regular nut like in the picture shown below instead of an anti-backlash nut, I suggest to use a anti-backlash nut as the ones shown above instead.  
+
+![Regular nut](../assets/images/axes_regular-nut_web.jpg)  
+
+
+
+---
+
+### Coupler
+The lead screw is mounted to the shaft of the z-axis motor with a rigid coupler.    
+The coupler is 5mm ID at one side for taking the 5mm shaft of the motor and 8mm ID at the other side for taking the 8mm lead screw.  
+
+![Coupler](../assets/images/axes_stock-coupler_web.jpg)  
+
+---
+  
+#### MOD: Changing The Coupler
+
+It's a good idea to change the 'rigid' coupler to a somewhat flexible one, as the one which comes with the printer doesn't compensate any misalignement of the motor shaft and the lead screw. So if they aren't in a perfect vertical alignment, it will result in shear forces, increased wear of the anti-backlash nut and even may cause jamming.  
+The following picture shows the stock coupler that is mounted.  
+    
+![Coupler](../assets/images/axes_stock-coupler_web.jpg)   
+
+It's adviseable to swap out the rigid stock couplers and use flexible couplers instead. Those allow to compensate a minor misalignment of the z-axis lead screw setup.   
+
+If you want to change the coupler, you'll need to get a coupler which suits 5mm on one side and 8mm on the other side as the motor shaft is 5mm and the rod is 8mm in diameter.  
+Make sure you *don't* get a coupler which uses a grub/set screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwn onto, same goes for the lead screw itself - so a clamping mechanism will just work better holding everything in place.  
+Besides that, using a clamp mechanism makes sure that the shaft and the lead screw are as centered as possible in the coupler - when using a coupler which uses grub/set screws that tighten against the shaft and the rod, you'll most likely end up with a coupler being mounted slightly off-center. 
+
+---
+
+##### MOD: Spider Coupler  
+Spider couplers are made out of two metal parts with an elastic part in between as you can see at the following picture.  
+
+![Spider coupler](../assets/images/axes_spider-coupler_web.jpg)
+
+---
+
+##### MOD: Spring(y) Coupler
+The next picture shows the type of coupler you probably com earound instantly when searching for "flex coupler" - I call it "spring(y) coupler" as it's shaped like a spring and it actually behaves like one as well.   
+        
+![Flex coupler](../assets/images/axes_flexcoupler_web.jpg)   
+    
+When mounting this type of flexible coupler, I put a 7mm ball of a ball bearing between the motorshaft and the lead screw, so that it won't be pushed together by the weight of the z-axis components. At the following picture you can see the 7mm ball of a ball bearing being put into the bigger hole.  
+
+![Spring coupler plus ball](../assets/images/axes_spring-coupler+ball_web.jpg)  
+
+The lead screw then rests on top of it while the hole assembly rests on the shaft of the motor.  
+The following picture demonstrates that setup.  
+
+![Spring coupler setup](../assets/images/axes_spring-coupler-setup_web.jpg)  
+
+I also added ball bearings underneath the flexcoupler to keep the main load off of the motorshaft and transfer it to the motorhousing, just to support the whole system a bit and take off as much vertical load from the motor shaft as possible.    
+Additionally, I also added a nylon washer of the correct thickness underneath the motor itself as it was hanging in the air, only held by the two screws of the motormount at the z-axis aluminum profile.      
+
+---
+
+##### MOD: Diaphragm Coupler 
+
+There's also another type of coupler available, the so called "Diaphragm Coupling".  This one is bigger and is supposed to compensate misalignments even better.  
+However, it seems like that some additional dampening occurs, which usually isn't adviseable for the z-axis (there are motor dampeners available on the market which you mount between the motors and the frame to dampen vibrations - those ones shouldn't be added to the z-axis motor though), but I personally didn't use this type yet, so I can't really say anything further about it.  
+
+The following picture shows this type of coupler - for comaring the size, the spider coupler mentioned above is put next to it.  
+
+![Diaphragm Coupler vs Spider Coupler](../assets/images/axes_diaphragm-coupler_web.jpg)  
+    
+---
 
 ### Z-Axis Motor
 The motor of the y-axis is a 42-34 Nema 17 stepper motor with a 5mm motor shaft. It seems to be a regular 1.8° stepper, which means the shaft turns 1.8° at each steps, and therefore it's doing 200 steps for one full 360° rotation.  
@@ -718,8 +828,7 @@ As there aren't any specifications and replacement motors from Anycubic being av
     After a final check if everything is still ok, connect the motor - it should work now.  
     
     If it happens that the polarity of the coils/wiring is wrong, you'll experience a stuttering and probably noise-making motor. In that case proceed as above and switch the wiring accordingly.  
-    
-    
+        
 ---
 
 ### Limit Switch
@@ -746,96 +855,15 @@ The following pictures show the disassembled limit switch, just in case you're l
 
 ---
 
-### MOD: Z-Axis Upgrades 
-
-I personally recommend to do some small modifications to the whole z-axis lead screw system.  
-Start with swapping out the stock coupler and adding an Oldham Coupler as that'll already be a huge improvement.   
-You can always upgrade a second lead screw for example, but the beforementioned parts will be useful in that case as well.  
+### Further MODs
+Of course you can do further modifications of the whole lead screw system.  
+I'll mention some of the most common ones, where some are advisable to do and others aren't.  
 
 ---
-  
-#### MOD: Changing The Coupler
-
-It's a good idea to change the 'rigid' coupler to a somewhat flexible one, as the one which comes with the printer doesn't compensate any misalignement of the motor shaft and the lead screw. So if they aren't in a perfect vertical alignment, it will result in shear forces, increased wear of the anti-backlash nut and even may cause jamming.  
-The following picture shows the stock coupler that is mounted.  
-    
-![Coupler](../assets/images/axes_stock-coupler_web.jpg)   
-
-It's adviseable to swap out the rigid stock couplers and use flexible couplers instead. Those allow to compensate a minor misalignment of the z-axis lead screw setup.   
-
-If you want to change the coupler, you'll need to get a coupler which suits 5mm on one side and 8mm on the other side as the motor shaft is 5mm and the rod is 8mm in diameter.  
-Make sure you *don't* get a coupler which uses a grub/set screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwn onto, same goes for the lead screw itself - so a clamping mechanism will just work better holding everything in place.  
-Besides that, using a clamp mechanism makes sure that the shaft and the lead screw are as centered as possible in the coupler - when using a coupler which uses grub/set screws that tighten against the shaft and the rod, you'll most likely end up with a coupler being mounted slightly off-center. 
-
----
-
-##### Spider Coupler  
-Spider couplers are made out of two metal parts with an elastic part in between as you can see at the following picture.  
-
-![Spider coupler](../assets/images/axes_spider-coupler_web.jpg)
-
----
-
-##### Spring(y) Coupler
-The next picture shows the type of coupler you probably com earound instantly when searching for "flex coupler" - I call it "spring(y) coupler" as it's shaped like a spring and it actually behaves like one as well.   
-        
-![Flex coupler](../assets/images/axes_flexcoupler_web.jpg)   
-    
-When mounting this type of flexible coupler, I put a 7mm ball of a ball bearing between the motorshaft and the lead screw, so that it won't be pushed together by the weight of the z-axis components. At the following picture you can see the 7mm ball of a ball bearing being put into the bigger hole.  
-
-![Spring coupler plus ball](../assets/images/axes_spring-coupler+ball_web.jpg)  
-
-The lead screw then rests on top of it while the hole assembly rests on the shaft of the motor.  
-The following picture demonstrates that setup.  
-
-![Spring coupler setup](../assets/images/axes_spring-coupler-setup_web.jpg)  
-
-I also added ball bearings underneath the flexcoupler to keep the main load off of the motorshaft and transfer it to the motorhousing, just to support the whole system a bit and take off as much vertical load from the motor shaft as possible.    
-Additionally, I also added a nylon washer of the correct thickness underneath the motor itself as it was hanging in the air, only held by the two screws of the motormount at the z-axis aluminum profile.      
-
----
-
-##### Diaphragm Coupler 
-
-There's also another type of coupler available, the so called "Diaphragm Coupling".  This one is bigger and is supposed to compensate misalignments even better.  
-However, it seems like that some additional dampening occurs, which usually isn't adviseable for the z-axis (there are motor dampeners available on the market which you mount between the motors and the frame to dampen vibrations - those ones shouldn't be added to the z-axis motor though), but I personally didn't use this type yet, so I can't really say anything further about it.  
-
-The following picture shows this type of coupler - for comaring the size, the spider coupler mentioned above is put next to it.  
-
-![Diaphragm Coupler vs Spider Coupler](../assets/images/axes_diaphragm-coupler_web.jpg)  
-    
-     
----
-    
-#### MOD: Changing The Anti-Backlash Nut  
-
-If the anti-backlash nut that came with the printer is worn out like shown in the picture below, you should look out for a new one.   
-    
-![Worn out nut](../assets/images/axes_worn-nut_web.jpg)  
-    
-The nut shown at the picture above is still useable though as it still sits tight on the rod.  
-However, sooner or later the debris will come off again and stick on the rod which may causes jams or stuttering of the z-axis movement.   
-These stock anti-backlash nuts used by Anycubic are pretty hard to find as a spare part though - and *if* you find them, they're most likely ridiculously overpriced.  
-    
-There are spring loaded anti-backlash nuts made of brass and POM for this kind of lead screw available as well, you can also use them. The following picture shows the stock anti-backlash nut at the left side, a spring loaded brass one in the middle and a spring loaded POM one on the right side.    
-    
-![Anti-backlash nuts](../assets/images/axes_ab-nuts_web.jpg)  
-    
-However, the distance of the threads of the stock anti-backlash nut is 20mm, the ones of the 'regular' ones being available are either 16mm or 18mm - at least I personally didn't find any of them with 20mm distance. The 16mm obviously won't fit, but as the holes of the bracket where you actually mount this nut to are a bit elongated, so nuts with a thread distance of 18mm do actually fit as the following picture shows.  
-
-![Brass anti-backlash nut mounted](../assets/images/axes_brass-ab-nut_web.jpg)
-    
-Whichever spring loaded anti-backlash nut you (re-)install, make sure that you press both parts together when putting the lead screw in. There's a little spring between the upper and the lower part of the nut which is there to prevent the backlash. This spring needs to be pushed together during the installation, so that there's tension and both parts of that nut system are being pushed away from each other when installed.  
-
-If you installed a regular nut like in the picture shown below instead of an anti-backlash nut, I suggest to use a anti-backlash nut as the ones shown above instead.  
-
-![Regular nut](../assets/images/axes_regular-nut_web.jpg)  
-
----        
     
 #### MOD: Add An Oldham Coupler
     
-I highly recommend adding a so called "Oldham Coupler". An Oldham Coupler is made out of three individual parts and it allows horizontal movement of the lead screw which avoids jamming, stuttering or banding caused by the z-axis not being perfectly aligned vertically.  
+I'd recommend adding a so called "Oldham Coupler". An Oldham Coupler is made out of three individual parts and it allows horizontal movement of the lead screw which avoids jamming, stuttering or banding caused by the z-axis not being perfectly aligned vertically.  
 
 The following picture shows an assembled Oldham Coupler at the left side. The one at the right side isn't completely taken apart, I just moved the parts for illustrating how it looks and works.  
 
@@ -906,7 +934,6 @@ If you go with this solution, I'd highly recommend to use additional ["Oldham Co
 - User ["chiz"](https://www.printables.com/de/@chiz_m) remixed the abovementioned solution from DrumsticknDrumstick and came up with a [timing belt driven dual z-axis](https://www.printables.com/de/model/462038-anycubic-kobra-go-dual-z-mod-with-timing-belt).  
 - User ["ntguest"](https://www.printables.com/de/@ntguest_947839) remixed the solution from DrumsticknDrumstick and chiz and came up with another solution for a [timing belt driven dual z-axis](https://www.printables.com/de/model/531742-anycubic-kobra-goneo-dual-z-axis-mod).
 
-  
       
 ---
 
