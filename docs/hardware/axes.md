@@ -729,7 +729,7 @@ The coupler is 5mm ID at one side for taking the 5mm shaft of the motor and 8mm 
 
 ---
   
-#### MOD: Changing The Coupler
+#### MOD: Different Coupler
 
 It's a good idea to change the 'rigid' coupler to a somewhat flexible one, as the one which comes with the printer doesn't compensate any misalignement of the motor shaft and the lead screw. So if they aren't in a perfect vertical alignment, it will result in shear forces, increased wear of the anti-backlash nut and even may cause jamming.  
 The following picture shows the stock coupler that is mounted.  
