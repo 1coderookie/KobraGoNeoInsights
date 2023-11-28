@@ -60,7 +60,7 @@ The following screenshot provided by @jokubasver shows the settings that should 
 !!! warning "Compiled `klipper.bin` Available"
 
     I set up a repository where you can download the compiled `klipper.bin` (aka `firmware.bin`): [Klipper4KobraGoNeo](https://github.com/1coderookie/Klipper4KobraGoNeo).      
-    Thanks to @[jokubasver](https://github.com/jokubasver) for making the file available!  
+    Thanks to the mentioned users there for providing the files to me!  
     **USE AT YOUR OWN RISK!**
 
 ??? tip "Use KIAUH For Installation"
