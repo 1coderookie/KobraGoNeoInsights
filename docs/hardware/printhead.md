@@ -755,6 +755,7 @@ At the very left hand side the stock heatbreak is shown. Next to it is a ~27mm h
 
 
 *You can use all of them due to the same outer diameter of the heatbreak's throat which is 7mm, but you have to adjust the position of the fan duct outlet accordingly.*  
+The one which fits the 'best' due to the pretty much equal length is the 24mm version shown above. It's a bit hard to find, but you can find it at e.g. the "3DSWAY Official Store" at AliExpress. There it's called "3DSWAY 3D Printer Parts V6 Titanium Alloy Bi-Metal Heat Break Throat E3D Smooth Thread Heatbreak Heater Block All Metal Throat" and this version shown here is the type "Color: TA-C Smooth Long".  
 
 !!! warning "Adjust The Position Of The Part Cooling Fan Duct (Outlet)"  
 
