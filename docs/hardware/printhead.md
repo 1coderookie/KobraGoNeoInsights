@@ -416,7 +416,7 @@ You can access the inside of the feeder system by dismounting the heatsink, whic
 ??? info "Titan Aero Clone"
 
     The extruder seems to be a clone of the "E3D Titan Aero", apparently made by "XCR3D" (look out for "XCR3D Titan") - besides the fact that a different kind of heatsink and hotend is being used here.    
-    Therefore one can have a look at the [official E3D assembly instruction of the E3D Titan Aero](https://e3d-online.zendesk.com/hc/en-us/articles/360016764817-Titan-Aero-Assembly-Guide-Edition-2-) when it comes down to solving issues or taking it apart.  
+    Therefore one can have a look at the [**official E3D assembly instruction of the E3D Titan Aero**](https://e3d-online.zendesk.com/hc/en-us/articles/360016764817-Titan-Aero-Assembly-Guide-Edition-2-) when it comes down to solving issues or taking it apart.  
 
 ??? warning "Important Notes On The Extruder"
 
@@ -455,7 +455,7 @@ In case you dropped something tiny like a screw or so in the holes at the top of
 
 If that doesn't work, see the expandable textbox below for further instructions about how to disassemble the gear box.   
 
-??? info "Titan Aero Clone"
+!!! info "Titan Aero Clone"
 
     The extruder seems to be a clone of the "E3D Titan Aero", apparently made by "XCR3D" (look out for "XCR3D Titan") - besides the fact that a different kind of heatsink and hotend is being used here.    
     Therefore one can have a look at the [official E3D assembly instruction of the E3D Titan Aero](https://e3d-online.zendesk.com/hc/en-us/articles/360016764817-Titan-Aero-Assembly-Guide-Edition-2-) when it comes down to solving issues or taking it apart.  
@@ -494,11 +494,11 @@ If that doesn't work, see the expandable textbox below for further instructions 
   
 ??? example "Reassembling Procedure"
 
-    For reassembling, just put everything back together by proceeding the steps of disassembling in reverse. Make sure you put all the belonging parts in the correct position and that you're using the right screws and don't forget any of them.  
+    For reassembling, you basically put everything back together by proceeding the steps of disassembling in reverse. Make sure you put all the belonging parts in the correct position and that you're using the right screws and don't forget any of them.  
     
     Make sure to *not* tighten up the screws too much - not only can it affect the correct functioning of the parts negatively, but you can also crack the heatsink when doing so!  
     
-    *Please also mind the notes in the expandable texboxes above and refer to the [official E3D assembly instruction of the E3D Titan Aero](https://e3d-online.zendesk.com/hc/en-us/articles/360016764817-Titan-Aero-Assembly-Guide-Edition-2-) where this extruder is a clone of.*  
+    **I strongly recommend to read the** [***official E3D assembly instruction of the E3D Titan Aero***](https://e3d-online.zendesk.com/hc/en-us/articles/360016764817-Titan-Aero-Assembly-Guide-Edition-2-) **where this extruder is a clone of!**  
     
 ---  
   
