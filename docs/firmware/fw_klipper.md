@@ -177,8 +177,8 @@ You can then either run those macros by
 As I can't go into further details here, I'd highly recommend to read around about macros. To make the research easier for you, here are some links you can start with:  
 
 - The description about [commands templates](https://www.klipper3d.org/Command_Templates.html) in the official documentation.
-- The article ["Klipper: Macros - Simply Explained"](https://all3dp.com/2/klipper-macros-simply-explained/) at all3dp.com.
-- The detailed article ["Klipper Macros - What They Are and How to Use Them"](https://www.obico.io/blog/klipper-macros/#what-are-klipper-macros) at the Obicio blog.
+- **The article ["Klipper: Macros - Simply Explained"](https://all3dp.com/2/klipper-macros-simply-explained/) at all3dp.com which gives a nice and short overview about how macros work.**
+- **The detailed article ["Klipper Macros - What They Are and How to Use Them"](https://www.obico.io/blog/klipper-macros/#what-are-klipper-macros) at the Obicio blog.**
 - The article ["Voidtrance Klipper Macros Beginners Guide](https://docs.vorondesign.com/community/howto/voidtrance/Klipper_Macros_Beginners_Guide.html) of the Voron Design community.
 - The ["Macro Creation Tutorial"](https://klipper.discourse.group/t/macro-creation-tutorial/30) at Klipper's discourse group.
 - The [collection of Klipper macros](https://github.com/jschuh/klipper-macros) by [Justin Schuh](https://github.com/jschuh). 
