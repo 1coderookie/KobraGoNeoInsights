@@ -131,9 +131,16 @@ Klipper uses **extended g-codes**. Therefore one has to be aware of the fact tha
 
 You can also use **macros** in Klipper. Basically a macro is a collection of g-code commands Klipper should execute. This macro is created and saved as an own file one refers to in the `printer.cfg` then. You can set up your own macros to set up certain routines like when you want to change filament midprint or to e.g. use scripts to do automatic backups of your Klipper configs.  
 
+You can then either run those macros by  
+
+- using the belonging shell command in the Mainsail UI console terminal,
+- add a button to the Mainsail UI which you can simply click on or
+- have a macro executed automatically by adding that command to your slicer's gcode (e.g. you want to have a macro for a purge line be executed automatically before a print starts - add that macro's name to the start g-code section).     
+
 As I can't go into further details here, I'd highly recommend to read around about macros. To make the research easier for you, here are some links you can start with:  
 
-- The description about [commands templates](https://www.klipper3d.org/Command_Templates.html) in the official documentation.  
+- The description about [commands templates](https://www.klipper3d.org/Command_Templates.html) in the official documentation.
+- The article ["Klipper: Macros - Simply Explained"](https://all3dp.com/2/klipper-macros-simply-explained/) at all3dp.com.
 - The detailed article ["Klipper Macros - What They Are and How to Use Them"](https://www.obico.io/blog/klipper-macros/#what-are-klipper-macros) at the Obicio blog.
 - The article ["Voidtrance Klipper Macros Beginners Guide](https://docs.vorondesign.com/community/howto/voidtrance/Klipper_Macros_Beginners_Guide.html) of the Voron Design community.
 - The ["Macro Creation Tutorial"](https://klipper.discourse.group/t/macro-creation-tutorial/30) at Klipper's discourse group.
@@ -227,7 +234,7 @@ It tells your Klipper which distance needs to be between the nozzle and triggeri
     *If you adjust your z-offset on the fly while printing your ***initial layer***, you need to save that value to the ***endstop*** (not to the probe!) for having it applied the next times.*  
     At the Mainsail UI for example there's a little button you can use for saving the changes you made while adjusting the offset on the fly. It shows a floppy disk symbol next to "SAVE" and a small arrow next to it. When you click on that arrow, a context menu opens up and you can choose whether to save your changes to the probe or the endstop as the following screenshot shows.   
     ![Mainsail UI save offset button](../assets/images/mainsail_save-z-offset.jpg)  
-    So when doing so, choose "TO ENDSTOP" for saving the new z-offset value for printing your perfect first layer next time.  
+    So when doing so, choose "TO ENDSTOP" for saving the new z-offset value for printing your perfect first layer next time. After doing so, execute a "SAVE_CONFIG".   
 
 ??? tip "Using The Probe As A Virtual Endstop"
 
