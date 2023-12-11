@@ -137,12 +137,15 @@ Both printers come with an inductive proximity sensor for automatic bed levellin
 The ABL sensor is the part with that round orange tip, you can see a picture of it in the following sections for the specific printer model. At the **Go** it's located at the left hand side of the hotend, at the **Neo** it's located at the right hand side of the hotend when looking at the printhead from the front.  
 
 The sensor itself seems to be the same as the one being used at the regular Kobra, so if you need a replacement and can't find it for the Go/Neo, look out for the one of the Kobra as well (you'll have to extend the wiring then though!).  
-In a German 3d forum someone measured the sensor of the regular Kobra and it gives +24VDC on the black signal wire when the LED lights up, so imho that's a PNP-NO type then (as the level is HIGH then).  
+In a German 3d forum someone measured the sensor of the regular Kobra and it gives +24VDC on the black signal wire when the LED lights up, so that's a PNP-NO type (as the level is HIGH then).  
 The connections are:  
 
 - brown = VCC 24VDC
 - blue = GND
 - black = LEVEL/signal 
+
+*If you need to get a spare sensor because the wiring of the stock sensor broke (most of the times the LED still lights up but the nozzle is being driven in the build plate), you can get yourself a 'generic' PNP NO sensor instead.*   
+*Most of these ones are slightly longer than the stock sensor (I need to check for a sensor of the same length), but for now look out for a ***"PNP NO LJ12A3-4-Z/BY"*** (4mm detection range).*  
 
 The position of the sensor (the height) should be adjusted in relation to the nozzle.  
 Therefore you can either use the ABL height gauge which sometimes comes with the printer or you can use the bigger one of the two-sided open ended wrench that comes in the toolset.  
