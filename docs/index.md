@@ -76,7 +76,9 @@ Please mind the **search field** in the header as well as the icon in the header
     - Thanks to **[simpleman118](https://www.reddit.com/user/simpleman118)** for taking a picture of the ABL height gauge!  
     - Thanks to **[the-transponster](https://www.reddit.com/user/the-transponster)** for allowing me to use the picture of his clumped hotend!
     - Thanks to **[Yoriko_Rayne_](https://www.reddit.com/user/Yoriko_Rayne_)** for allowing me to use the picture of how to use the ABL height gauge!  
-    - Thanks to **[zimmystor](https://www.reddit.com/user/zimmystor)** for taking pictures of his MicroSwiss bowden drive upgrade at his Go, of the stock heatbreak and of the TriGorilla V_3.0.7!
+    - Thanks to **[zimmystor](https://www.reddit.com/user/zimmystor)** for taking pictures of his MicroSwiss bowden drive upgrade at his Go, of the stock heatbreak and of the TriGorilla V_3.0.7!  
+    - Thanks to **[zyssai](https://www.reddit.com/user/zyssai)** for allowing me to use the picture of the diassembled stepper motor!  
+    
     
 ---
     
