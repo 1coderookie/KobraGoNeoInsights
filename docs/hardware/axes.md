@@ -638,6 +638,8 @@ The top end of the rod is completely unguided. In between it's guided and secure
     Let me explain it a bit: when the head at the x-gantry is being moved up and down along the z-axis which is done by the lead screws, it's smart to choose your layer heights in a way that for each layer *full motor steps* are taken. *One* step is 0.04mm, so it's better to set e.g. 0.2mm or 0.16mm layer heights instead of e.g. 0.18mm or 0.15mm.  
 
     To understand it better, I'll try to give a simple explanation of what a *full step* of a motor is and what *microstepping* of a motor is, before I'll explain the 'math' behind the magic number. If you're interested in a more precise and proper technical description of how exactly a stepper motor works, please search the web for an adequate source.   
+    For a better understanding of the following description, see the following picture which shows the inside of a stepper motor.  
+    ![Motor inside](../docs/assets/images/motor_inside_web.jpg)  
  
     We have motors which execute 200 *full steps* to rotate the shaft of the motor for a full 360° rotation, where each step is a movement of 1.8° (there are also 'high resolution' stepper motors which do 400 steps with 0.9° movement per full step, but we have motors which do the mentioned 200 steps). This is based on how the motor is built in the inside with it's permanent magnet motor and the stator coils which make the shaft of the motor turn in the end.   
     At each of these 200 steps with 1.8° movement, the motor 'rests' in that specific position due to the positions of the permanent magnets in the inside. Means, these positions are 'given', there don't occur any deviations or misalignments.  
