@@ -12,8 +12,14 @@ Sounds tempting? Ok, so you'd need additional hardware for that to run the desir
 **If you want to use Klipper firmware with your printer you'd need additional hardware to run Klipper and e.g. Mainsail on it anyway.**  
   
 So let's have a look what might be an interesting and reasonable priced solution for that first.  
+
+---
   
 ## Hardware  
+
+In the following I'll mention some solutions which can be used as an additional host which runs some sort of Software like OctoPrit or Pronterface or which can be used as a host for a Klipper installation.  
+
+---
   
 ### Raspberry Pi 
 When you start looking around for a system the desired software should run on, the first thing you'll come across surely will be the Raspberry Pi (in the following named as "RPi").  
@@ -35,12 +41,12 @@ So does that mean you shouldn't use a RPi? No, not at all, it works absolutely f
 
     If you're trying to find a RPi and have a hard time finding a company who actually has one in stock, maybe give the page [rpilocator](https://rpilocator.com/) a try. It lists vendors and different RPi models and shows if there are RPis in stock.   
   
-??? tip "RPi plus Touchscreen"
+??? tip "RPi Plus Touchscreen"
 
     If you're using a RPi, you can add a touchscreen to it and install an additional software like [OctoDash](https://github.com/UnchartedBull/OctoDash) which gives you a nice clean UI for OctoPrint optimized for small screens. It allows you to display certain status information and makes it possible to interact with OctoPrint directly using the touchscreen.  
-    Especially when you're using the Klipper firmware instead of the stock firmware this a great solution to still be able to monitor and control your printer while you're sitting in front of it as the regular control unit of your printer doesn't work with Klipper anymore. In this case I'd recommend to check out [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/).  
+    Especially when you're using the Klipper firmware instead of the stock firmware, this is a great solution to still be able to monitor and control your printer while you're sitting in front of it as the regular control unit of your printer doesn't work with Klipper anymore. In this case I'd recommend to check out [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/).  
   
-??? tip "RPi plus (Web-)Cam"
+??? tip "RPi Plus (Web-)Cam"
 
     However, if you're already running a RPi(3) and face those kind of problems as mentioned above which may be caused by a connected webcam to the RPi, I'd suggest the following:  
 
@@ -50,19 +56,28 @@ So does that mean you shouldn't use a RPi? No, not at all, it works absolutely f
     - If you're already using a RPi3/4 with a RPi cam and don't have a sufficient housing for that yet, have a look at the thing from [A_Leh](https://www.thingiverse.com/A_Leh): [Anycubic Vyper/ Kobra Raspberry 4b (+3b) housing with camera attachment](https://www.thingiverse.com/thing:4994599)
     - Last but not least: make sure you're using a good and fast microSD card and a good USB cable which connects the RPi to the printer.
 
+---
+
 ### RPi Zero (2) W
-Instead of using the regular Raspberry Pi, you could also get yourself the RPi Zero (2) W. If you want to use it for KLipper, I'd recommend to get the Zero **2** W as it's quadcore CPU is more powerful.  
-However, as it seems to be quite difficult to get in these tiomes, you could try running Klipper with the older single core Zero W as well - it just might be that it's not powerful enough to run the webcam stream. I've heard that it might not even be capable of running Input Shaper, but I'm not sure if this is true or nt, so maybe do a little rersearch on your own before you buy it.  
+Instead of using the regular Raspberry Pi, you could also get yourself the RPi Zero (2) W.  
+If you want to use it for KLipper, I'd recommend to get the Zero **2** W as it's quadcore CPU is more powerful.  
+However, as it seems to be quite difficult to get in these times, you could try running Klipper with the older single core Zero W as well - it just might be that it's not powerful enough to run the webcam stream. I've heard that it might not even be capable of running Input Shaper, but I'm not sure if this is true or nt, so maybe do a little rersearch on your own before you buy it.  
+
+---
 
 ### Other SBC
 If you can't or don't want to get an RPi but still want to stick to one of those tiny tinker SBC (single board computer) units, you can check out the market what's available and comparable to a RPi, like an "Orange Pi", a "Le Potato" or so on.  
 However, I'm not going into further details here as I personally don't use them and therefore can't give reliable pieces of information about which boards exactly might be a good substitue to a RPi.  
+
+---
 
 ### Old "Regular" Hardware 
 If you have old hardware laying around like a laptop or so, you can also use that. Don't worry - even if it's pretty old in most of the cases it still would be sufficient. Install a Linux OS onto it and then install the desired software.   
   
 However, as much as I appreciate and love to re- and upcycle old hardware in general, one thing has to be mentioned: the amount of power they're drawing due to their old and mostly energy inefficient chipsets.  
 It might not really come into account if your prints last only a few hours and after finishing them you turn everything off. But as soon as you think about running those machines pretty much 24/7 you should keep in mind that they might draw a lot of power which sums up at the end. Right now here in Germany we're paying about 0,40€/kWh, so it really matters just looking at the financial side of that - not to mention the ecological aspect.    
+
+---
 
 ### Thin Clients
 Now - get ready for the real deal: Thin Clients!  
@@ -83,14 +98,23 @@ Anyway - even if they're usually available for a fair price, I want to mention t
     - If you're looking for something really small, maybe look out for a Dell Wyse 3040 or 3020. They do have limited power and RAM possibilities compared to bigger Thin Clients, but for just acting as a headless print server instead of a RPi they're powerful enough.   
     -  I personally like the HP Thin Client T6x0 series as you can upgrade them really well. The higer the number, the newer the model and the more powerful, energy efficient and compatible with modern parts it is (e.g. T610 uses a 2.5" SSD & DDR3 SO-DIMM RAM while the T630 uses a m2.SATA SSD & DDR4 SO-DIMM RAM).    
 
+---
 
 ### NAS / Server
 If you have a NAS or a server up and running already, you could also install the printing software onto that. In this case I'd assume that you already know what you're doing and that you don't need any advise though.   
- 
-### Sonic Pad
-This is a nice and handy solution for the **Klipper** users. The Creality Sonic Pad comes with Klipper preinstalled and offers features like WiFi, a touchscreen and so on. User [@mackmind](https://github.com/mackmind) was so kind to write down some [instructions about how to proceed](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/7) for getting a Sonic Pad to work with the Go/Neo.  
 
-There are also other kind of pads available for the special usage with Klipper, like the one from BTT and so on.  
+---
+ 
+### Creality Sonic Pad / BigTreeTech Pad 7
+These ones are a nice and handy solution for the **Klipper** users as these are SBC units with a touchscreen in a nice enclosure.    
+
+The Creality Sonic Pad comes with Klipper preinstalled and offers features like WiFi, a touchscreen and so on.  
+User [@mackmind](https://github.com/mackmind) was so kind to write down some [instructions about how to proceed](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/7) for getting a Sonic Pad to work with the Go/Neo.  
+
+The BTT Pad 7 is especially interesting when you want to swap out the stock mainboard and use a BTT board instead.  
+Afaik the BTT Pad 7 is also somewhat 'easier' to flash and configure than the Sonic Pad, but I didn't really do firther research on it, so maybe better check and compare yourself.  
+
+---
 
 ### Old Android Devices
 Yes, you've read correct: certain software could also be installed onto your old Android device like your smartphone or your tablet. Namely especially OctoPrint has to be mentioned here.  
@@ -112,20 +136,26 @@ However, it should be mentioned here that it seems to be a bit like gambling to 
     - I'd like to mention one of the probably biggest issues you might encouter: charging the device while having it connected to the printer at the same time. <br> While it shouldn't be a problem if you're having a device with a separate power plug or wireless charging, it might become a problem if you'd have to use some kind of solution which splits up the line for USB charging and OTG - not all devices work with that. <br> Additionally, I personally would be concerned about probably harming the printers mainboard due to a faulty cable or whatever. 
     - What also should be mentioned here as a **warning** is the fact that devices which are connected 24/7 to the charger might be a huge hazard as the battery could catch fire or even blow up. So keep that in mind if you're tempted to go this way.
 
+---
+
 ### AndroidTV Boxes
 You could also use one of those AndroidTV boxes like those T95 models and install Linux/Armbian onto them. These devices often come with 2GB RAM & 16GB flash or 4GB RAM and 32GB flash and use different kinds of quadcore CPUs. As there are many different versions which using different CPUs out there, you'll have to do a little bit of a research on your own how to install a Linux OS onto the belonging AndroidTV box regarding the chip being used.   
 
 If you're living in the US, you can also have a look at the [Inovato Quadra](https://inovato.com/) - it's a T95 AndroidTV box which comes with a LinuxOS already being installed and it's about 35$. 
 
+---
 
 ## Software
-When it comes down to the software that should run on the printserver, you can choose between different solutions. It also depends a bit which kind of firmware you're running.  
+When it comes down to the software that should run on the printserver, you can choose between different solutions.  
+It also depends a bit which kind of firmware you're running.  
+
 My personal opinion on this:  
-- If you're running the stock one which is Marlin based, just go with OctoPrint.  
+- If you're running the stock one which is Marlin based, just go with OctoPrint.   
 - If you're using Klipper firmware, you can stick to OctoPrint, I'd recommend the usage of Mainsail or Fluidd though, as they're basically made for Klipper.  
 
 Yes, you could also look out for different software, but because the abovementioned programs are commonly used you'll find a lot of information about them and also many plugins for enhancing the capability even more. I'd recommend to do a little websearch on that, you might want to start with this article though: [Ocbico: Mainsail vs. Fluidd vs. Octoprint - A Comparison](https://www.obico.io/blog/mainsail-vs-fluidd-vs-octoprint/)
-  
+
+---  
 
 ## How To Install
 So in case you want to use hardware like the abovementioned Thin Clients, you probably don't know how to set it up and install the software. You'll find many guides and tutorials for that out there, so let me just mention the following:  
@@ -133,6 +163,8 @@ So in case you want to use hardware like the abovementioned Thin Clients, you pr
   - For installing OctoPrint you can start your web research at [All3DP: How to Install OctoPrint on Linux/Ubuntu](https://www.all3dp.com/2/octoprint-linux-ubuntu-tutorial).  
   - If you want to install on an SBC, you might want to have a look at [All3DP: How to Install OctoPrint/Klipper on an SBC: Tutorial](https://www.all3dp.com/2/install-octoprint-klipper-single-board-computer-sbc).  
   - Check out [KIAUH](https://github.com/th33xitus/kiauh) as it isn't an installation script that makes everything a lot easier only for Klipper but also for OctoPrint, Mainsail, Fluidd and so on.     
+
+---
 
 ## Camera
 As mentioned in the RPi section, if you connect a webcam directly to your printserver, I'd suggest to use a webcam which only offers a low resolution like 480p (640x480) as you don't need 4K for monitoring the printing process. Of course a more powerful hardware can also handle a higher resolution though. Even though you can use 720p or even 1080p as well most of the times, I personally think 480p is totally sufficient when it's just about monitoring the print process.  
