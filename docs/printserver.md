@@ -52,7 +52,7 @@ So does that mean you shouldn't use a RPi? No, not at all, it works absolutely f
 
 ### RPi Zero (2) W
 Instead of using the regular Raspberry Pi, you could also get yourself the RPi Zero (2) W. If you want to use it for KLipper, I'd recommend to get the Zero **2** W as it's quadcore CPU is more powerful.  
-However, as it seems to be quite difficult to get in these tiomes, you could try running Klipper with the older single core Zero W as well - it just might be that it's not powerful enough to run the webcam stream. I've heard that it might not even be capable of running Input Shaper, but I'm not sure if this is true or nt, so maybe do a little rersearch on your own before you buy it.  
+However, as it seems to be quite difficult to get in these times, you could try running Klipper with the older single core Zero W as well - it just might be that it's not powerful enough to run the webcam stream. I've heard that it might not even be capable of running Input Shaper, but I'm not sure if this is true or nt, so maybe do a little rersearch on your own before you buy it.  
 
 ### Other SBC
 If you can't or don't want to get an RPi but still want to stick to one of those tiny tinker SBC (single board computer) units, you can check out the market what's available and comparable to a RPi, like an "Orange Pi", a "Le Potato" or so on.  
