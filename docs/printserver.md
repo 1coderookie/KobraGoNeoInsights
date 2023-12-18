@@ -141,7 +141,7 @@ Preferably use a cam with a wide angle view and a fixed focus, so that you can s
 
 If you want to create a time lapse video from your printing process, keep in mind that it's a pretty resource consuming task (CPU power, RAM and storage usage). So also here using a low resolution like 480p is adviseable, but might not fulfill your needs if you want high resolution videos.    
   
-However, I also would like to mention or even recommend general IP cameras (WiFi/LAN) which you could use. Also here it doesn't have to be a cam for a hundret bucks - a cheap one will do the job just fine. They often already come with the option to create time lapse videos and store it onto a microSD card also.  
+However, I also would like to mention or even recommend general IP cameras (WiFi/LAN) which you could use. Also here it doesn't have to be a cam for a hundred bucks - a cheap one will do the job just fine. They often already come with the option to create time lapse videos and store it onto a microSD card also.  
 If you like to tinker a bit, maybe get yourself a cheap ESP32-CAM module.  
 
 
