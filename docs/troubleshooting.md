@@ -45,7 +45,8 @@ If you're having the problem that your first layer isn't consistent across the p
 - Avoid touching the plate with your bare hands and fingers as that'll leave a tiny amount of grease onto the plate as well.  
 - Once the plate is clean, the z-offset is dialed in and the bedtemp is correct for the type of filament, the PEI plate really works great. There's *no need* to mess around with some sort of gluestick, tape, hairspray or whatsoever.  
 - I'd also suppose to add a brim to your model (you need to do it in the slicer), which helps keeping the print staying on the plate a lot. This is especially useful for objects with a small base. You can configure the width of the brim in your slicer. After finishing the print, you just wait until the object is cooled down and then you can break/tear the brim off the object. If tiny amounts of the brim stay at the model, just use a sharp cutter.
-- Also make sure that you chose the correct temperature of the bed for the filament you're using. For PLA for example it should be around 55°-60°C, PETG sticks best in my case at 80°C. If the bed is too hot, then the print won't reliably stick to it either.
+- Also make sure that you chose the correct temperature of the bed for the filament you're using. If the bed is either too cold or too hot, then the print won't reliably stick to it either.
+  For PLA for example it should be around 55°C - don't exceed 60°C for PLA as that's already the glass transition temperature of PLA (means, that's where the filament starts to get soft). For PETG I personally have to use 80°C.   
 - Turn off the part cooling fan when printing the first (few) layer(s) and use the correct fanspeed depending on your filament (e.g.: PLA needs a lot of cooling, PETG needs usually less cooling).     
 
 ---
