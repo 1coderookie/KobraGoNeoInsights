@@ -32,7 +32,9 @@ However, if you're new to this whole thing (or if you've never heard of one of t
 In the following I'll list some of the pages where you can search and find free 3D models. I only list those pages where you don't need a registration and where you can get free 3D models.  
 Some of the following pages offer direct downloads (DD), others are search engines (SE).   
 
-- https://www.printables.com/en (DD) (--> my personal favourite - I'm [@Meowsketeer](https://www.printables.com/@Meowsketeer) there)
+- **https://www.printables.com/en** (DD)  
+  This is my personal favourite - I'm [@Meowsketeer](https://www.printables.com/@Meowsketeer) there.  
+  I also set up collections with some models specifically for the [Kobra Go](https://www.printables.com/@Meowsketeer/collections/929540) and [Kobra Neo](https://www.printables.com/@Meowsketeer/collections/929539). I'll update those collections every now and then and add new models I come across and find useful.   
 - https://www.thingiverse.com/ (DD)
 - https://www.myminifactory.com/ (DD)
 - https://cults3d.com/en/ (DD)
