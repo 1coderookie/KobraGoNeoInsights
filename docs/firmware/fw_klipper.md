@@ -72,9 +72,15 @@ The following screenshot provided by @jokubasver shows the settings that should 
     If you want to install frontends like e.g. Mainsail as a Docker container, check out the [prind repository](https://github.com/mkuf/prind).
 
 Once you've created the `firmware.bin` file, copy it to the root directory (means, directly onto the card, not in a subfolder!) of your mSD card. I personally would suggest to remove all files from the mSD card and only copy the `firmware.bin` file onto it.  
-Then you flash it as you would do with the stock firmware. Means, you turn off the printer, put the card into the cardreader and turn on the printer.  
-Note that the screen doesn't update though after the flash procedure is done as the control unit doesn't work with Klipper anymore, it'll stick with the message "Firmware update. Please wait."! So just wait 5-10min to make sure everything had time enough to be installed.  
+
+Then you flash it as you would do with the stock firmware.  
+Means, you turn off the printer, put the card into the cardreader and turn on the printer.  
+
+Note that the screen doesn't update though after the flash procedure is done as the control unit doesn't work with Klipper anymore. It might show the message "Firmware update. Please wait." and stick with it OR it doesn't show anything at all!  
+So just wait 5-10min to make sure everything had time enough to be installed.  
+
 Then turn off the printer, remove the card, connect your host which has OctoPrint/Mainsail/.. running with the printer using an USB-C cable and turn on the printer again.  
+If it doesn't boot the stock firmware now, you successfully flashed Klipper.  
 Now you should be able to connect OctoPrint/Mainsail/.. with the printer. If an error message pops up that no connection to the MCU was possible, click on "Restart Firmware" or turn off the printer and switch it on again.  
 
 !!! warning  
