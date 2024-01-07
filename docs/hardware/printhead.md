@@ -1249,6 +1249,17 @@ If you need to change the nozzle, mind the warnings from above and check out the
 
 The part cooling fans of the **Go** and the **Neo** are different.  
 
+??? note "Klipper: Try Different PWM Frequencies When Using A Different Fan"  
+
+    When you're using Klipper and a different part cooling fan from a 3rd party manufacturer (no matter if it's a 4510 or 5015) and you still face issues with the PWM behaviour of the fan, try different settings for the PWM frequency, which is the setting "cycle_time" in Klipper.  
+    By default, Klipper is using 100Hz, but due to the setting in the stock firmware, 20kHz (= 0.00005 cycle_time) is being set here in the `printer.cfg`:   
+    ```
+    [fan]
+    pin: PB5
+    cycle_time: 0.000050
+    ```
+
+
 ---
 
 ### Go
@@ -1258,6 +1269,17 @@ The **Go** uses a 24V, 0.08A, 40x40x10mm fan, model "Coolcox BF4010H24S".
 | Coolcox front side | Coolcox backside label |
 |:-------------------|:-----------------------|
 | ![Go: Coolcox BF4010H24S front](../assets/images/head_go_part-cooling-fan-front_web.jpg) | ![Go: Coolcox BF4010H24S label](../assets/images/head_go_part-cooling-fan-coolcox_web.jpg) |  
+
+??? note "Klipper: Try Different PWM Frequencies When Using A Different Fan"  
+
+    When you're using Klipper and a different part cooling fan from a 3rd party manufacturer (no matter if it's a 4510 or 5015) and you still face issues with the PWM behaviour of the fan, try different settings for the PWM frequency, which is the setting "cycle_time" in Klipper.  
+    By default, Klipper is using 100Hz, but due to the setting in the stock firmware, 20kHz (= 0.00005 cycle_time) is being set here in the `printer.cfg`:   
+    ```
+    [fan]
+    pin: PB5
+    cycle_time: 0.000050
+    ```
+
 
 ---
 
@@ -1282,6 +1304,16 @@ The fan which is now being used is a "HSC BCY4510D24E", which draws 0.10A.
 !!! warning "Issues With The PWM Control"  
 
     It seems that the newer version of the fan, the HSC one, does have some issues with PWM control. It has been reported by @ProXinous that the fan doesn't work properly using lower speed settings that 100%. The both of us then did several tests and investigated this problem further, and it seems that this type of fan just isn't capable of working being PWM controlled. We're still investigating this issue, but for now there doesn't seem to be a solution other than swapping out that fan and using a different model. I'll update this warning note as soon as new insights have been gathered.    
+
+??? note "Klipper: Try Different PWM Frequencies When Using A Different Fan"  
+
+    When you're using Klipper and a different part cooling fan from a 3rd party manufacturer (no matter if it's a 4510 or 5015) and you still face issues with the PWM behaviour of the fan, try different settings for the PWM frequency, which is the setting "cycle_time" in Klipper.  
+    By default, Klipper is using 100Hz, but due to the setting in the stock firmware, 20kHz (= 0.00005 cycle_time) is being set here in the `printer.cfg`:   
+    ```
+    [fan]
+    pin: PB5
+    cycle_time: 0.000050
+    ```
 
 ---
 
