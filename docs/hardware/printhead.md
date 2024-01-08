@@ -136,7 +136,7 @@ The following picture shows the whole metal plate where the feeder construction 
 Both printers come with an inductive proximity sensor for automatic bed levelling (ABL) which detects the metal of the spring steel PEI plate.  
 The ABL sensor is the part with that round orange tip, you can see a picture of it in the following sections for the specific printer model. At the **Go** it's located at the left hand side of the hotend, at the **Neo** it's located at the right hand side of the hotend when looking at the printhead from the front.  
 
-The sensor itself seems to be the same as the one being used at the regular Kobra, so if you need a replacement and can't find it for the Go/Neo, look out for the one of the Kobra as well (you'll have to extend the wiring then though!).  
+The sensor itself seems to be the same as the one being used at the regular Kobra, so if you need a replacement and can't find it for the Go/Neo, look out for the one of the Kobra as well (you'll have to extend the wiring then though!). You can also directly reach out to Anycubic's support and ask anout the specific part, evnen if you don't find it being listed at their shop. They have some sort of 'internal' shop links where they could still provide you a link for purchasing it from them.   
 In a German 3d forum someone measured the sensor of the regular Kobra and it gives +24VDC on the black signal wire when the LED lights up, so that's a PNP-NO type (as the level is HIGH then).  
 The connections are:  
 
