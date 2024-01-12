@@ -2,7 +2,7 @@
 
 In the following, I'll list some steps for doing maintenance on a regular basis. I won't go into detail about e.g. how to position the v-slot wheels or how to change parts at the hotend, as you'll find notes and instructions about that in the belonging sections about the belonging parts.  
 
-Generally speaking, this list is just some sort of a rough guidance you can follow where to keep an eye on.  
+Generally speaking, this list is just some sort of a rough guideance you can follow where to keep an eye on.  
 Due to the fact that parts are moving, vibrances occur and heat is being generated, parts will wear and tear and components may fail sooner or later.  
 So it's advisable to keep an eye on the whole construction as well as on specific parts especially to avoid any malfunction as much as possible.  
 
@@ -17,7 +17,7 @@ If you're using the machine not that often, you still should pay attention. In t
 ??? warning "Don't Use WD-40 For Lubrication"
     
     Do yourself a favour and *never* use WD-40 for *lubrication* as it's *not* a lubricant!  
-    It's perfectly fine for e.g. washing off old lubrification from the threaded rod, but it's *not* a sufficient lubrification!  
+    It's perfectly fine for e.g. washing off old lubrification from the threaded rod, but it's *not* a sufficient lubrification like e.g. "Super Lube"!  
 
     People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
 
@@ -190,9 +190,16 @@ Also check if the part cooling fan as well as the heatsink cooling fan still wor
 
 - Are all screws still tight?  
   *Pay special attention to the grub/set screws at the heater block which hold the thermistor and cartridge heater in place!*  
+- Are the screws that hold the heatbreak in the heatsink still tight or is the heatbreak somewhat loose in the heatsink?
+- Is the whole hotend still rigid and firmly mounted, or does anything appears to be somewhat loose and wobbles? Can anything be moved and twisted by hand?  
 - Are the thermistor and the cartridge heater still in place?   
-- Do you see any harmed insulation of the wires, do you see any bare wire shining through?  
+- Do you see any harmed insulation of the wires of the thermistor or cartridge heater, do you see any bare wires shining through?  
+  If so, get replacement parts and install them.   
 - Do you see any melted filament around the top or the bottom of the heater block, right at the threads of the heatbreak and the nozzle?  
+  *If so, then don't start a printjob! You need to check the seating of both parts immediately!*  
+  Best would be to heat up the hotend, disassemble it, give everything a good cleaning and reassemble everything.  
+  Inspect the PTFE inliner of the heatbreak and make sure it's not melted, deformed or clogged and that it's cut straight. Best would be to replace it with a Capricorn XS tube right away.  
+  When reassembling and reinstalling the parts, make sure the nozzle and the heatbreak touch each other firmly in the block and make sure the PTFE inliner of the heatbreak sits flush against the bottom of the nozzle. Re-tighten the nozzle after heating up the hotend to ~250°C while holding the heater block in place with an adjustable wrench. 
 - Is the nozzle clean and not yet worn out?  
 - Is the silicone sock still ok, does it also still sit in the correct position?  
 
@@ -202,7 +209,8 @@ Also check if the part cooling fan as well as the heatsink cooling fan still wor
 - Are the screws which hold them in place still tight?  
 - Are the blades of the fans clean, or did dust build up? If so, clean it off.  
 - Can the fans rotate freely or is anything (e.g. wires, cable ties) hitting them?  
-
+- Do you see any fine strings of filament being caught up somewhere in the fans? If so, clean them off.
+  
 **ABL Sensor** 
 
 - Is the sensor still in the correct position, or did the bracket maybe become loose and therefore the sensor sagged?  
