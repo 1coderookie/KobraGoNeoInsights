@@ -106,7 +106,7 @@ If I find the time, I'll add some screenshots as well, but I suggest to read aro
 ---
 
 ### Cura  
-Cura is probably the most commonly known slicer. If you check support page of Anycubic or if you have a look at the content of the microSD card that was shipped with the printer, you'll find an *outdated* version of Cura and some printer profiles for it. My suggestion would be: *don't* use that outdated Cura version and *don't* use the profiles Anycubic offers, at least not without inspecting them (especially Neo users!). You can find more notes on the profiles further down below.  
+Cura is probably the most commonly known slicer. If you check support page of Anycubic or if you have a look at the content of the microSD card that was shipped with the printer, you'll find an *outdated* version of Cura and some printer profiles for it. My suggestion would be: *don't* use that outdated Cura version and *don't* use the profiles Anycubic offers, at least not without inspecting them (especially Neo users!).    
 
 **Notes on Klipper**  
 
@@ -129,8 +129,9 @@ PrusaSlicer and it derivates like SuperSlicer and OrcaSlicer are my personal fav
 **Notes on Klipper**  
 
 You can set the G-code flavor depending on the firmware of the printer (menu "Printer Settings") to "Klipper" as shown in the screenshot of SuperSlicer below, so it's already everything set up correctly within the G-code of the sliced files.  
-  
-![SuperSlicer firmware](../assets/images/klipperfw_superslicer-flavor.png)
+![SuperSlicer firmware](../assets/images/klipperfw_superslicer-flavor.png)  
+In PrusaSlicer you can find this setting under "Printer Settings" -> "General" -> "Firmware" (you need to have "Expert" mode activated to get access to that option!). The following screenshot shows that setting.  
+![G-code flavour](assets/images/g-code_flavour.png)
   
 Of course all slicers have many functionalities to finetune and control the output - you can even choose between different patterns for the top layer finish. They're all pretty identical overall, yet they differ in certain functions. One of them being worth mentioned is a *handy set of calibration tools that comes with SuperSlicer and OrcaSlicer*. This function actually guides you step by step through the calibration process and allows you to generate calibration models like temperature or retraction towers with individual settings by just a few clicks.  
 
