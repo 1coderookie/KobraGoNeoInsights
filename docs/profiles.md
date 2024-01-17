@@ -30,6 +30,16 @@ You can always set up your own custom profile in your slicer. Just pay attention
 ??? tip "Set Up Filament Specific Profiles"
 
     When you're using more than one filament, it's a good idea to set up a profile for each spool of filament you have. So not only for the type of filament (like PLA, PETG etc.), but also for the different manufacturer, the colour and so on. It happens that you have to use slightly different settings even with the same type of filament from the same brand but just when using a different colour of it.   
+
+??? tip "Try PrusaSlicer"  
+
+    Many users seem to get better results when using PrusaSlicer instead of Cura (I personally switched to PrusaSlicer a long time ago and don't use Cura anymore, so I can't really judge it), so maybe give PrusaSlicer a try if you're using Cura.  
+
+??? tip "Using Klipper? Set G-Code Flavour To "Klipper""
+
+    If you're using Klipper, you should set the g-code flavour to "Klipper" accordingly if your slicer offers that function.  
+    In PrusaSlicer you can find this setting under "Printer Settings" -> "General" -> "Firmware" (you need to have "Expert" mode activated to get access to that option!). The following screenshot shows that setting.  
+    ![G-code flavour](assets/images/g-code_flavour.png)  
   
 ---  
   
