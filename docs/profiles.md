@@ -108,6 +108,8 @@ If I find the time, I'll add some screenshots as well, but I suggest to read aro
 ### Cura  
 Cura is probably the most commonly known slicer. If you check support page of Anycubic or if you have a look at the content of the microSD card that was shipped with the printer, you'll find an *outdated* version of Cura and some printer profiles for it. My suggestion would be: *don't* use that outdated Cura version and *don't* use the profiles Anycubic offers, at least not without inspecting them (especially Neo users!). You can find more notes on the profiles further down below.  
 
+**Notes on Klipper**  
+
 Even though Cura and Klipper work perfectly together, there are a few things to be aware of.  
 Certain classic G-code commands aren't directly supported by Klipper as it uses extended G-code and scripts for certain things. As an example the G-code command `M0` (unconditional stop) isn't recognized by Klipper, you'd have to use the extended G-code command `PAUSE` for that.  
 
@@ -123,6 +125,8 @@ However, there's also a ["Klipper Settings Plugin"](https://github.com/jjgraphix
  
 ### PrusaSlicer, SuperSlicer, OrcaSlicer 
 PrusaSlicer and it derivates like SuperSlicer and OrcaSlicer are my personal favourites after using Cura for some time.  
+
+**Notes on Klipper**  
 
 You can set the G-code flavor depending on the firmware of the printer (menu "Printer Settings") to "Klipper" as shown in the screenshot of SuperSlicer below, so it's already everything set up correctly within the G-code of the sliced files.  
   
