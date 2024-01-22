@@ -5,7 +5,7 @@
 
 ---
 
-***If you like this work, please consider starring it.***  
+***If you like this work, please consider starring and supporting it.***  
 
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
