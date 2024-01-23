@@ -1317,6 +1317,46 @@ The fan which is now being used is a "HSC BCY4510D24E", which draws 0.10A.
 
 ---
 
+### MOD: Different Part Cooling Fan
+If you want to use a different part cooling fan (e.g. a 5015 blower), first of all you need to make sure that you got yourself one which runs at 24VDC.  
+
+However, you might then face the problem that you won't be able to control it's speed properly. Means, it might work in an on/off state only.  
+Being able to control the speed and let it run at e.g. 40% instead of 100% is caused by the PWM control of the fan.  
+PWM (= pulse width modulation) basically is (usually) being realized by switching the GND of the fan's connection on and off in a certain frequency.  
+
+However, the problem with this is that a) not all fans work fine with this (generally speaking) and b) that some fans work better with a high frequency and other work better with a low frequency.   
+The frequency which is set in the stock firmware is 20kHz - which is pretty high. So if you get yourself a different fan and you can't control it's speed properly, the first thing to have a look at is trying to change the frequency which is being used for PWM.  
+Now this isn't easy to change with the stock firmware, as that would mean that you'd have to recompile the sources of the stock Marlin firmware after changing the belonging settings. But as we can run Klipper just fine on these machines, this would be the comfortable solution to test different frequencies (besides that, I personally *strongly* recommend using Klipper anyway..).  
+
+So my suggestion would be: flash Klipper (see the chapter ["Klipper (MOD)")(firmware/fw_klipper.md)), set everything up for your specific machine and once everything is running fine, try different frequencies for the part cooling fan.  
+The belonging section in the `printer.cfg` for the part cooling fan is this:  
+```
+[fan]
+pin: PB5
+cycle_time: 0.000050
+```
+As you can see, you don't find a setting called "frequency" or so, but there's the setting called "cycle_time" which is second(period) - this is the setting for the frequency. So you do *not* enter a specific frequency value in hertz here, but you have to calculate the specific value for s(p)=Hz instead.   
+The value which is set there right now is "0.00005" - which is 20kHz as the setting in the stock firmware.  
+The default setting of Klipper for this is "0.1" - which is 100Hz.  
+So you can now use e.g. an online tool like [this one](https://www.unitjuggler.com/convert-frequency-from-Hz-to-s(p).html) and calculate the belonging "cycle_time" value for the specific frequency in hertz you want to try. So calculate it, then change the according setting, save and restart the firmware and try with the slider in the Mainsail UI (or whichever frontend you're using) if the fan works how it should.  
+
+Just as an example so that you get the idea and the concept, I'll list some values here:  
+
+| Frequency (Hz) | cycle_time (s(p)) |
+|:----------:|:---------:|
+| 20 | 0.05 |
+| 100 | 0.01 |
+| 125 | 0.008 |
+| 200 | 0.005 |
+| 1000 | 0.001 |
+| 2000 | 0.0005 |
+| 5000 | 0.0002 | 
+| 10000 | 0.0001 |
+| 20000 | 0.00005 |
+
+
+---
+
 ## Fan Duct
 
 As the stock fan ducts aren't very good in doing their job of part cooling, it's highly recommended to print a better one. This can be done as soon as you can print - you don't need to look out for perfect quality at this point yet. If you're only printing PLA right now, also that is ok for using it for the first enhanced fan duct.  
