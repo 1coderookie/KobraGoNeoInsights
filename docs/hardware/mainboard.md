@@ -6,6 +6,11 @@
   
 The stock mainboard of both the **Go** and the **Neo** is the "TriGorilla V_3.0.6" - it's the same board, it's just flashed with the respective fimware of either model.  
 
+??? info "TriGorilla V_3.0.7 Has Been Spotted"  
+
+    User [zimmystor](https://www.reddit.com/user/zimmystor/) reported that at his Go a TriGorilla V_3.0.7 is being used. Besides a missing connector there doesn't seem to be any further differences to the V_3.0.6 board though.  
+    ![TG v3.0.7](../assets/images/mainboard_mobo-GEN307_web.jpeg)  
+
 It is a 32bit 24V mainboard with a Huada HC32F460 KCTA ARM Cortex-M4 with 192KB SRAM and 512KB Flash.  
 The speed  of the ARM chip is listed as 200MHz by the manufacturer.  
 It offers a microSD card reader, a USB-C connector and a 10 pin connector for adding the control unit.    
@@ -34,10 +39,7 @@ The microSD card reader slot and the USB-C connector can be accessed from at fro
 
 ![microSD card slot and USB-C connector](../assets/images/printer_slot-USBc_web.jpg)  
 
-??? info "TriGorilla V_3.0.7 Has Been Spotted"  
 
-    User [zimmystor](https://www.reddit.com/user/zimmystor/) reported that at his Go a TriGorilla V_3.0.7 is being used. Besides a missing connector there doesn't seem to be any further differences to the V_3.0.6 board though.  
-    ![TG v3.0.7](../assets/images/mainboard_mobo-GEN307_web.jpeg)  
 
 !!! danger "Add Ferrules To The 24V Wires!" 
 
