@@ -1120,14 +1120,14 @@ I highly recommend to only use high quality nozzles, like the [**original E3D V6
 
 
 
-!!! warning "MK8 Nozzles DON'T Fit!"
+??? warning "MK8 Nozzles DON'T Fit!"
 
     Because some people in various forums and in Youtube videos obviously claim that it's a MK8 nozzle which is being used, I wanna point this out once again: **MK8 is NOT the correct type of nozzle!**  
     Even though MK8 nozzles have a M6 thread and therefore fit in the heater block, the thread is too short! The end of the nozzle won't touch the heatbreak as it's supposed to - and this will create severe problems (e.g.: clogs, burnt filament, leaking filament out of the threads of the heater block).  
     So just get yourself the correct type of nozzle, which is an E3D **V6** type!  
     
     
-!!! warning "Nozzles: Handle With Care!" 
+??? warning "Nozzles: Handle With Care!" 
 
     - *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with at brass brush or the wrench!* <br> You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. 
     - If you want to change the nozzle (*check out the expandable admonition below!*) and need to grab the heater block with a wrench, make sure you really just grab the heater block and never get any wires up in between - preferably grab the heater block from that sides where the wires don't come out.   
@@ -1145,20 +1145,35 @@ I highly recommend to only use high quality nozzles, like the [**original E3D V6
     - If you want to print filaments that are more abrasive, you probably want to go with nozzles made from plated copper, stainless or hardened steel, ruby sapphire nozzles and so on. Check out the web for further and more specific information about what to choose.  
       Be aware of the fact though, that the manufacturers *clearly advise against doing cold pulls with any kind of coated nozzles*! This also involves hardened steel nozzles! Referring to them, the coating might be harmed when doing so.  
     
-    - When it comes down to choose the right nozzle size, it all depends on what you want to print and how detailed it should be. The standard size of 0.4mm the printers come with is a good starting point.  
-      However, you may find yourself in the situation that you want to print more detailed objects or objects which should be more sturdy or where it doesn't matter if the surface doesn't look as clean and flat as possible, so you probably should adjust the size and switch to a smaller oder bigger diameter like 0.2-0.3mm for high detailed objects and 0.6mm for the 'rougher' prints.   
-      Keep in mind though that the printing time usually increases by choosing a smaller diameter and it decreases when you're using a bigger diameter.  
-      The printing time as well as the quality also depends on the [layer height](../calibration.md#layer-height) you're using, so by choosing a smaller layer height you can also get detailed and great looking prints with a 0.6mm nozzle.  
-      Last but not least a smaller nozzle bore is more likely to clog and some filaments even have a sticker on the spool saying that e.g. it should be printed with minimum a 0.4mm nozzle. So choose wisely if you really want to use a nozzle with a 0.2mm bore for example.  
-      Search the web for more specific information about finding and choosing the right nozzle size for your project. You may want to start with this article from [All3DP: The Best 3D Printer Nozzle Types, Sizes & Materials](https://www.all3dp.com/2/3d-printer-nozzle-size-material-what-to-know-which-to-buy). 
-  
-    - In case you're using *Cura* as a slicer, make sure you update to the current version v5.x (Note: It doesn't run at Ubuntu versions below 20.x though) as it uses the new Arachne engine and offers better quality as a result of that. In case you never heard of that, I recommend to watch the following videos from [Thomas Sanladerer](https://www.youtube.com/channel/UCb8Rde3uRL1ohROUVg46h1A) or read the articles at his page [https://toms3d.org/](https://toms3d.org/) where he shows the result of using a 0.6mm nozzle with Cura v5.x comparing to a 0.4 nozzle using Cura 4.x (SPOILER: you barely can see a difference).  
-  
-        - [Video: 0.4mm nozzles just became obsolete](https://www.youtube.com/watch?v=WgXM2zPusXo)  
-          [Article: 0.4mm nozzles just became obsolete](https://toms3d.org/2022/07/28/arachne-in-prusaslicer-0-4mm-nozzles-just-became-obsolete/)  
-        - [Video: Get the benefits of a 0.6mm nozzle with a 0.4?](https://www.youtube.com/watch?v=nmigF5qyJ4M)  
-          [Article: Get the benefits of a 0.6mm nozzle with a 0.4?](https://toms3d.org/2022/09/22/get-the-benefits-of-a-0-6mm-nozzle-with-a-0-4/)  
-  
+??? info "About Nozzle Sizes"  
+
+    When it comes down to choose the right nozzle size, it all depends on what you want to print and how detailed it should be. The standard size of 0.4mm the printers come with is a good starting point.  
+    However, you may find yourself in the situation that you want to print more detailed objects or objects which should be more sturdy or where it doesn't matter if the surface doesn't look as clean and flat as possible, so you probably should adjust the size and switch to a smaller oder bigger diameter like 0.2mm for high detailed objects and 0.6mm for the 'rougher' prints.   
+    Keep in mind though that the printing time usually increases by choosing a smaller diameter and it decreases when you're using a bigger diameter.  
+    The printing time as well as the quality also depends on the [layer height](../calibration.md#layer-height) you're using, so by choosing a smaller layer height you can also get detailed and great looking prints with a 0.6mm nozzle.  
+    Last but not least a smaller nozzle bore is more likely to clog and some filaments even have a sticker on the spool saying that e.g. it should be printed with minimum a 0.4mm nozzle. So choose wisely if you really want to use a nozzle with a 0.2mm bore for example.  
+    
+    Search the web for more specific information about finding and choosing the right nozzle size for your project. You may want to start with this article from [All3DP: The Best 3D Printer Nozzle Types, Sizes & Materials](https://www.all3dp.com/2/3d-printer-nozzle-size-material-what-to-know-which-to-buy).  
+    
+    In the following I'll mention some aspects you should be aware of when choosing a different nozzle size, particularly when choosing a bigger nozzle.
+    Most people seem to be stuck to the common 0.4 nozzle and don't seem to be aware of the fact that one can still get 'fine' detailed outcomes (more or less - of course there's a difference in the ability of printing super fine details when e.g. comparing a 0.2 to a 0.6 nozzle..) or 'even' surfaces with a bigger nozzle size as well if e.g. going with the same layer height.  
+    The increased line width helps cutting down the printing time and makes prints even more rigid.   
+
+    For testing around just copy your existent profile and change the nozzle size in there. Save it as an own profile and start playing around. 
+
+    - Printing temperature: when using a bigger nozzle, one needs to keep an eye on the printing temperature. The bigger the nozzle is, the more filament will flow thru the bore at the same time - and therefore less time it has to completely melt so to say. So instead of using the same temp like with the 0.4 nozzle, increase the temperature. How much that has to be depends on the diameter of the nozzle, the type of filament etc - so maybe start with increasing 5°C or 10°C and see how it turns out.  
+    - Printing speed: the same as for the printing temp. Generally speaking, the faster you want to print, the hotter you have to print as well to compensate/reach the higher flowrate and have the same amount melted in the same time. I often see ppl going with e.g. 190-200° for PLA and trying to print at the max speeds the new K2 models can reach - that most likely doesn't work. Instead, increase the temp and/or decrease the speed.  
+
+    For both of these points there are somewhat limitations tho, so when e.g. printing small and thin parts you'll most likely run into issues when printing too fast as well as when printing too hot, as the material might not have enough time to cool down properly and therefore curls up or behaves weird in other ways. One can try to compensate that (besides choosing the suitable speed&temp) by making use of the minimum layer time settings in the slicer.  
+
+    - Retraction settings: you need to keep an eye on and dial in your retraction settings when using a bigger nozzle size. Try different retraction *speed* settings as well, not only retraction *distance*.  
+    - Use the Arachne feature in your Slicer - Prusa has it and iirc also Cura has it.  
+      That being said, when using a bigger nozzle, you might want to check if it makes sense to add one or two more walls. As most of the models are somewhat designed for being printed with the common 0.4 nozzle, I found that this comes into account when choosing the amount of walls and the percentage of the infill as well. So adding e.g. one more wall can often save you from printing any infill and you'll end up with a cleaner and even more rigid print.  
+    - You can also take advantage of the feature "adaptive layer height". However, when doing so, keep an eye on the settings as you might reach the maximum flowrate (= limit) or even try to go beyond it. There are online calculators you can use where you type in the layer height, line width and printing speed and then you'll have the according flowrate calculated.  
+    - There's a 'physical' limitation to what's possible in terms of maximum flowrate and even the thermal conductivity of the filament itself. So don't expect to successfully use a 1mm nozzle at 300mm/s printing speed  printing huge models with super long layer lines from regular PLA - that most likely won't work out. There are a few things one could do when trying to really reach or even go beyond the limits, like using a CHT nozzle, using specific HighSpeed-filament and so on.  
+    - I personally use plated copper heater blocks at my printers, even tho I'm not going for the highest possible speed. Imho it made a difference due to the increased thermal mass of the heavy copper block vs the aluminum block.   
+    - Depending on what speeds should be reached and how big the nozzle will be in the end, it *might* be good/useful to also use a more powerful heater cartridge when already changing the heater block to a plated copper one. This shouldn't be necessary for the typical user tho as the stock one is 40W and that's usually plenty enough, but just in case one really wants to push the limits, it might be good to have some extra power and use a 60W heater instead.  
+
 ---
 
 ### Hardened Steel / Tungsten Carbide Nozzle
