@@ -144,7 +144,7 @@ These ones can be used, one has to do a slight modification to the rail though b
 
 The following picture shows such a belt tensioner being mounted.  
 
-![Aluminum x-belt tensioner](../assets/images/axes_alu-x-tensioner_mounted.jpg)  
+![Aluminum x-belt tensioner](../assets/images/axes_alu-x-tensioner_mounted_web.jpg)  
  
 ??? example "Mounting An Aluminum X-Belt Tensioner"
 
