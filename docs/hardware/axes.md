@@ -545,7 +545,7 @@ These ones can be used without the need of modifying anything at the printer's Y
 
 The following picture shows such a belt tensioner being mounted.  
 
-![Aluminum x-belt tensioner](../assets/images/axes_alu-y-tensioner_mounted.jpg)  
+![Aluminum x-belt tensioner](../assets/images/axes_alu-y-tensioner_mounted_web.jpg)  
  
 ??? example "Mounting An Aluminum Y-Belt Tensioner"
 
