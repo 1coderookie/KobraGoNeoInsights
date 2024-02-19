@@ -137,6 +137,35 @@ You should inspect the belts and the belonging parts like pulleys etc from time 
 
 ---
 
+#### MOD: Aluminum X-Belt Tensioner
+Since the stock belt tensioners are made from plastic, they can wear out and even break (especially when using too much belt tension).  
+There are 'generic' aluminum belt tensioners for 2020 rails from 3rd party manufacturers available, often being advertised as being suitable for an "Ender 3".  
+These ones can be used, one has to do a slight modification to the rail though by drilling an additional 4mm hole for the second mounting bolt and inserting an M4 nut in the rail. Please see the expandable textbox below for further instructions and pictures.  
+
+The following picture shows such a belt tensioner being mounted.  
+
+![Aluminum x-belt tensioner](../assets/images/axes_alu-x-tensioner_mounted.jpg)  
+ 
+??? example "Mounting An Aluminum X-Belt Tensioner"
+
+    First of all, you have to unhook the x-belt from the printhead's mounting plate and then dismount the stock tensioner. Once done, you'll see there's only one threaded M4 hole as you can see in the following picture.  
+    ![Stock hole](../assets/images/axes_x-gantry-tensioner-stock-hole_web.jpg)  
+
+    Now for mounting a 'generic' 2020 aluminum belt tensioner, you have to drill an additional 4mm hole for taking up the second mounting bolt as shown in the following picture.  
+    ![Drilled hole](../assets/images/axes_alu-x-tensioner_holes_web.jpg)  
+    To make sure you have the correct distance between the holes, you can slide on the aluminum tensioner, secure it with that one screw and mark the position where you have to drill the second hole.  
+
+    Once done with that, slide in an M4 nut until it's located right behind the hole you just drilled. Maybe the v-slot nut that comes with the tensioner does fit in there as well, so maybe try that in the first place.    
+    ![Nut added](../assets/images/axes_alu-x-tensioner_nuts_web.jpg
+
+    Now put on the new tensioner and mount it.  
+    ![Mounted, closeup](../assets/images/axes_alu-x-tensioner_mount-closeup_web.jpg)
+
+    Guide the belt through the new tensioner, hook it back in the printhead's gantry where it belongs and adjust the belt tension.  
+
+    
+---
+
 ### X-Axis Motor
 The motor of the x-axis is a 42-34 Nema 17 stepper motor with a 20 teeth pulley being attached to the 5mm motor shaft. It seems to be a regular 1.8° stepper, which means the shaft turns 1.8° at each steps, and therefore it's doing 200 steps for one full 360° rotation.  
 
@@ -508,6 +537,26 @@ You should inspect the belts and the belonging parts like pulleys etc from time 
   - Check the pulleys of the motors which are driving the belts. Are they also looking ok? Did they become loose on the motor shaft somehow?  
     
 ---
+
+#### MOD: Aluminum Y-Belt Tensioner
+Since the stock belt tensioners are made from plastic, they can wear out and even break (especially when using too much belt tension).  
+There are 'generic' aluminum belt tensioners for 2040 rails from 3rd party manufacturers available, often being advertised as being suitable for an "Ender 3".  
+These ones can be used without the need of modifying anything at the printer's Y-rail. Please see the expandable textbox below for further instructions and pictures.  
+
+The following picture shows such a belt tensioner being mounted.  
+
+![Aluminum x-belt tensioner](../assets/images/axes_alu-y-tensioner_mounted.jpg)  
+ 
+??? example "Mounting An Aluminum Y-Belt Tensioner"
+
+    Mounting the aluminum Y-axis belt tensioner is pretty simple, but I'll add a short description of the steps anyway.   
+    First of all, you have to loosen up the tension of the belt (turn the belt tensioner knob counter-clockwise) and unhook the x-belt from the bedgantry's mounting plate and then dismount the stock tensioner.  
+    Once done, you see the 'open' end of the Y-rail.  
+    Now add the corresponding bolts and self-locking v-slot nuts to the aluminum tensioner if that wasn't done by the manufacturer already.  
+    Slide in the nuts in the v-slots at the left and right side of the Y-rail and push the tensioner on the rail as far as it goes. Then tighten the screws.  
+    No guide the belt through the new tensioner, hook it back in the bedgantry where it belongs and adjust the belt tension.  
+
+---    
 
 ### Y-Axis Motor
 The motor of the y-axis is a 42-34 Nema 17 stepper motor with a 20 teeth pulley being attached to the 5mm motor shaft. It seems to be a regular 1.8° stepper, which means the shaft turns 1.8° at each steps, and therefore it's doing 200 steps for one full 360° rotation.  
