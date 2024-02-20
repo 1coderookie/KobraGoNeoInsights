@@ -920,11 +920,10 @@ The following picture shows an assembled Oldham Coupler at the left side. The on
 
 ![Oldham coupler](../assets/images/axes_oldhamcoupler_web.jpg)  
     
-!!! warning "An Oldham Coupler Is Additional Part"  
+    
+*An Oldham Coupler needs to be mounted between the bracket which holds the anti-backlash nut and the anti-backlash nut itself. So it's ***not replacing*** any part, it's an addition to the whole setup!*  
 
-    *An Oldham Coupler needs to be mounted between the bracket which holds the anti-backlash nut and the anti-backlash nut itself. So it's ***not replacing*** any part, it's an addition to the whole setup!*  
-
-    (..add pic..)  
+![Oldham coupler installed](../assets/images/axes_OC-installed_web.jpg)  
     
 You can look out for Oldham Couplers with a 18mm mounting hole distance (often they're advertised for being compatible with a Creality Ender 3) - BUT you'd have to swap out the stock anti-backlash nut and use one of the 'regular' spring loaded anti-backlash nuts with 18mm hole distance as the ones mentioned and shown in the expandable textbox "Changing The Anti-Backlash Nut" above (as the stock nut has 20mm distance between the holes which obviously doesn't match the 18mm of the Oldham Coupler).  
 
