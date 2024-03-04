@@ -111,7 +111,7 @@ Make sure the v-slot wheels are all fine and that they aren't harmed or indented
 If you feel any reoccuring hiccups during movements or when turning a wheel and can't see any damage of the wheel itself, you might have a bad bearing.  
 If any wheels or bearings seem to be damaged or faulty, get yourself new ones and install them.  
  
-Also pay attention to the correct positions of the V-slot wheels. They should sit in the v-slot of the rails perfectly and they shouldn't run to loose nor too tight. Please refer to the according sections for further information. 
+Also pay attention to the correct positions of the V-slot wheels. They should sit in the v-slot of the rails perfectly and they shouldn't run too loose nor too tight. Please refer to the according sections for further information. 
 
 ---
 
