@@ -74,7 +74,8 @@ In the following I'll list the most crucial points.
 
 - Set up the frame correctly!  
   Means, check if the baseframe is mounted being square, if the the z-axis aluminum parts are really mounted perpendicular onto the baseframe and so on. **As everything else relies on this, the proper alignment of the frame is the most important step!**  
-  So, once again: **Set up your frame and your axes. Everything should be square, perpendicular and equidistant.**  
+  So, once again: **Set up your frame and your axes. Everything should be square, perpendicular and equidistant.**
+- Check if all screws, bolts and nuts are tight.    
 - Check the [axes](hardware/axes.md)!  
   Means, check the whole z-axis lead screw system for being assembled correctly and vertically aligned. Make sure you cleaned the old sticky 'oil' (or whatever that nasty stuff should be) off from the lead screw and applied fresh grease, assemble the anti-backlash nut correctly and so on.  
   Make sure that you have all wheels positioned correctly, that you don't have bad ball bearings which cause hiccups and irregular movements and that the belts of the x- and y-axis aren't too sloppy or too tight.  
@@ -97,6 +98,20 @@ See the section ["Tramming The Bed"](hardware/bed.md#tramming-the-bed) for furth
 Tramming the x-axis gantry (aka 'leveling' the gantry) is a really important step as well as it will ensure that the x-axis gantry either is parallel to the bed (when using the rigid stock spacers) or to the baseframe (when using adjustable spacers).  
 
 See the section ["Tramming The X-Axis Gantry"](hardware/axes.md#tramming-the-x-axis-gantry) in the belonging hardware chapter for further information and instructions about how to do so.  
+
+---
+
+### Check The Belts
+Make sure the belts of the axes are properly tensioned. Don't go with sloppy belts, but don't tension them up too much as well. Please refer to the according sections for further information.  
+
+---
+
+### Check The Wheels
+Make sure the v-slot wheels are all fine and that they aren't harmed or indented. The wheels should turn nice and smooth.  
+If you feel any reoccuring hiccups during movements or when turning a wheel and can't see any damage of the wheel itself, you might have a bad bearing.  
+If any wheels or bearings seem to be damaged or faulty, get yourself new ones and install them.  
+ 
+Also pay attention to the correct positions of the V-slot wheels. They should sit in the v-slot of the rails perfectly and they shouldn't run to loose nor too tight. Please refer to the according sections for further information. 
 
 ---
 
