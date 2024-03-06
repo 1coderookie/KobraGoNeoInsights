@@ -88,11 +88,54 @@ If you don't have the space for it or want to keep the spool being attached at t
 ---
 
 ## Filament Dryer
-(will come soon)
+Using dry filament is crucial for a successful print.  
+Since some sorts of filament like PETG, TPU and Nylon are prone to take up moisture more than others (like PLA), you often need to actively dry it to avoid printing problems like artifacts and heavy stringing.  
+Using a fresh spool which comes right out of the sealed bag from the manufacturer isn't a guarantee for dry filament as well, since moisture is often being taken up during the cooling process when manufacturing it.  
+The following picture shows the skirt of a fresh spool of high quality filament - on the left it's straight out of the sealed bag, on the right it's after being dried.  
+
+![Wet vs dry filament](../assets/images/wet-filament_web.jpg)
+
+To actively dry filament, you need to heat up the entire spool for a few hours and let the mositure evaporate.  
+You can either do so by using a dedicated filament dryer, a modified food dehydrator or just the heated bed of your printer.  
+*You should not use your kitchen oven though!*   
+
+Whichever solution you use in the end, you have to make sure that the temperature for drying does fit the specific type of filament, and that you *never* reach the glass transition temperature.  
+You can find various charts across the web where temperatures and times are being listed one should use for drying.  
+However, some of those charts sometimes show drastic differences for temperatures, so be careful. When in doubt, better choose the lower temperature and dry it longer. It's also smart to look up the typical glass transition temperature of the specific type of filament first of all.  
+
+After you dried your filament, make sure to store it somewhat airtight - like in a sealed bag or a sealed cereal container as you can see in the specific section further down below.  
 
 ??? info "Types Of Filament"  
 
     The following article gives you a nice overview of the different types of filament available and what they're being used for: [Best 3D Printer Filament: The Main Types in 2023](https://all3dp.com/1/3d-printer-filament-types-3d-printing-3d-filament/)
+
+In the following I'll show some solutions for drying your filament.  
+
+---
+
+### Typical Filament Dryer
+Since I don't have one of those typical filament dryers you can buy, I can't show you a picture of those, but a quick internet search will show you various models.  
+However, if you're looking out for a filament dryer, you should check for two things:  
+1) Check the maximum temperature the device can generate. This is especially important if you want to dry filaments which need higher temperatures.  
+2) Make sure to get yourself a dryer which comes with an inbuilt fan, so that the hot air can circulate in the drier. Cheap units often lack a fan and just have a heating element at the bottom. This then leads to the problem that the bottom of the spool gets warm (or even too hot) while the upper part of the spool doesn't reach the desired filament.  
+
+---
+
+### Food Dehydrator
+I personally use a food dehydrator since they're intended to dry food and herbs, come with a built in fan already and are usually also cheaper than a 'dedicated' filament drier.   
+Instead of cutting the original stacking units, I printed a 'spacer' which then takes up the spool and the top lid as shown in the following picture.  
+
+![Food dehydrator]()
+
+You can find various models for different dehydrators at e.g. Printables, so maybe look around before you purchase a specific model.  
+
+---
+
+### Heated Bed 
+If the firmware of your printer allows to have the bed staying heated throughut several hours without actually printing something, you can also use your heated bed to actively dry your filament.  
+The cheapest and esiest solution is to place two long, thin and flat (~5mm) pieces of wood across the bed. On there, you put the spool flat/horizontally (= not standing upright) and then put a cardboard box over the spool. Make sure both the spool and the cardboard box are resting on the wooden sticks to allow circulation of the air. Poke some holes in the top of the cardboard box to allow that the moisture can evaporate.  
+
+
 
 ---
     
