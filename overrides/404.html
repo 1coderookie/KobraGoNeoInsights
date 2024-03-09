@@ -8,13 +8,6 @@
 
 <style>
 
-body {
-    background-image: url("looking-for-it_web72.JPG");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contains;
-}
-
 
 section.notFound {
     display: flex;
@@ -27,12 +20,16 @@ section.notFound {
 section.notFound h1 {
     color: orange;
     font-size: 50px;
-}
-
-section.notFound h1 {
     margin-bottom: 45px;
 }
 
+section.notFound div.img img {
+    background-image: url("looking-for-it_web72.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contains;
+}
+  
 div.text {
     height: 15vh;
 }
@@ -73,6 +70,7 @@ div.text a:hover {
 }
 </style>
     <section class="notFound">
+        <div class="img">
         <div class="text">
         <h1>Sorry! <br> I've been digging deep, but I can't find what you're looking for.. <br> Please start all over from <a href="https://1coderookie.github.io/KobraGoNeoInsights" class="yes">HOME</a></h1>
         </div>
