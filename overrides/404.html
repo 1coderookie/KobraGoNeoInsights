@@ -25,16 +25,11 @@ section.notFound {
 }
 
 section.notFound h1 {
-    color: red;
+    color: orange;
     font-size: 50px;
 }
 
-section.notFound h2 {
-    color: red;
-    font-size: 45px;
-}
-
-section.notFound h1, h2, h3 {
+section.notFound h1 {
     margin-bottom: 45px;
 }
 
@@ -43,13 +38,14 @@ div.text {
 }
 
 div.text a {
-    text-decoration: none;
+    color: red;
+    text-decoration: underline;
     margin-right: 15px;
 }
 
 div.text a:hover {
-    color: red;
-    text-decoration: underline; 
+    color: yellow;
+    text-decoration: none; 
 }
 
 @media only screen and (max-width: 600px) {
@@ -62,14 +58,17 @@ div.text a:hover {
         height: auto;
     }
     section.notFound h1 {
+        color: orange;
         font-size: 40px;
-    }
-    section.notFound h2 {
-        font-size: 35px;
+    }  
+    div.text a {
+    color: red;
+    text-decoration: underline;
+    margin-right: 15px;
     }
     div.text a:active {
-    color: red;
-    text-decoration: underline; 
+    color: yellow;
+    text-decoration: none; 
   }
 }
 </style>
