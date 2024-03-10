@@ -295,7 +295,9 @@ The following picture shows an eccentric nut which I painted to make the special
 
 As you hopefully can see, the bolt isn't centered - so if you turn that eccentric nut while being mounted, the position of the bolt and therefore the whole wheel will be changed, either towards or away from the v-slot of the rail it's sitting at. 
 
-*Not all of the wheels have eccentric nuts though as the following picture shows, only the two wheels (one at each side) which are facing the inner side of the frame (towards the bed) do have an eccentric nut.* 
+*Not all of the wheels have eccentric nuts though as the following picture shows, only the two wheels (one at each side) which are facing the inner side of the frame (towards the bed) do have an eccentric nut.*  
+
+![ecc nuts positions](../assets/images/axes_x-ecc-nuts_web.jpg)  
     
 ![ecc nut left side](../assets/images/x-axis_left-side-nut_web.jpg)
   
