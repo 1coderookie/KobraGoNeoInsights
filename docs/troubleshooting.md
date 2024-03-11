@@ -215,6 +215,12 @@ If you face **movement problems** of
 
 ---
 
+## ABL Sensor Not Working
+
+You might face the problem that the LED of the ABL sensor will light up when metal is being detected, but that the functionality of the sensor won't be given since the signal won't be passed to the mainboard. In that case you most likely suffer from a broken wiring. Please read the epandable textbox at the end of the section ["ABL Sensor"](hardware/printhead.md#abl-sensor).  
+
+---
+
 ## Error Messages 
 In the following I'll list some of the error messages that might appear on the screen of the control unit.  
 
