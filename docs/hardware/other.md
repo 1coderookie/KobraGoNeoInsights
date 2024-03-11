@@ -125,7 +125,7 @@ However, if you're looking out for a filament dryer, you should check for two th
 I personally use a food dehydrator since they're intended to dry food and herbs, come with a built in fan already and are usually also cheaper than a 'dedicated' filament drier.   
 Instead of cutting the original stacking units, I printed a 'spacer' which then takes up the spool and the top lid as shown in the following picture.  
 
-![Food dehydrator]()
+![Food dehydrator](../assets/images/dehydrator_web.jpg)  
 
 You can find various models for different dehydrators at e.g. Printables, so maybe look around before you purchase a specific model.  
 
