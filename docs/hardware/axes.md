@@ -216,6 +216,18 @@ As there aren't any specifications and replacement motors from Anycubic being av
 The wheels of the printhead's mounting plate are leading the printhead along the aluminum profile of the x-axis (the so-called "x-axis gantry").  
 The wheels run in the V-slot of the profile and therefore they should sit in an optimal position.    
 
+![POM wheel](../assets/images/POM-wheel_web.jpg)  
+
+These wheels are made out of POM, which is a somewhat soft and often being called "self-lubricating" material.  
+Two small ball bearings (type "ZZ625") are located in the center of the wheel. Since these bearings are sealed, you can't lubricate them.   
+
+The positive thing about POM wheels is, that they don't need to be lubricated and that they're slightly dampening the movements.  
+The downside is that they'll wear off pretty quick if they're running too tight in the v-slot of the rail.  
+
+!!! warning "WD-40 Destroys The POM Wheels"
+
+    Make sure to *never* use WD-40 for trying to lubricate either the wheels or bearings - the solvents in the WD-40 will destroy the POM wheels!    
+
 ---
 
 #### Position
@@ -252,6 +264,27 @@ See the following picture where you can clearly see a heavy wear and tear. Accor
 
 ![Wheels wear & tear](../assets/images/axes_wheels-weartear_web.jpeg)
           
+Also check the wheels for any visible defects, like a harmed profile as shown in the following picture.  
+
+![Harmed wheels](../assets/images/POM-wheel_harmed_web.jpg)  
+
+Wheels can also become indented, especially when they're sitting too tight in the v-slot of the rail and if the printer hasn't been used for a while.  
+Dents can be quite hard to identify, so take a close look.   
+
+Another, actually quite common but overseen problem are defective ball bearings. Since the used bearings aren't expensive high-quality ones, they can be defective right away. You can't *see* a defective ball bearing though, you can only *feel* it when moving the wheel/bearing along the rail or across a flat surface.  
+
+Both of the above, harmed wheels as well as bad bearings, cause regularly recurring 'hiccups' when the wheel is being rolled along the v-slot rail or across a flat surface.   
+*This problem becomes bigger the tighter the wheels are running in the v-slot of the rail. So if you e.g. face problems like layer shifting, take a closer look at the wheels and bearings as well!*  
+
+---
+
+#### MOD: Polycarbonate Wheels
+Besides POM wheels, there are also wheels made out of Polycarbonate (PC) available at the market.  
+You can often identify them right away by their white-ish/transparent colour.  
+
+These wheels are harder than POM wheels, which has benefits and downsides as well.  
+The benefit is that they don't wear down as fast as POM wheels, especially when you're printing highly abrasive filament which can cause POM wheels (as well as cheap linear rails!) to wear down quite fast when dust of the filament gets collected onto the rails.  
+The downside is that they're not dampening the movements like POM wheels do. Since linear rails don't dampen movements as well, this factor doesn't weigh that much though. But: since the material itself is harder, PC wheels can easily crack if their position is too tight in the v-slot of the rail - so when using PC wheels, be careful and pay even more attention to the perfect position!   
 
 
 ---
@@ -283,7 +316,21 @@ The x-axis gantry is the aluminum profile (plus the corresponding parts) where t
 ---
 
 ### V-Slot Wheels 
-The x-axis gantry is moved along the z-axis aluminum profile driven by the z-axis lead screw, guided by v-slot wheels. They run in the v-slot of the z-axis profiles and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
+The x-axis gantry is moved along the z-axis aluminum profile driven by the z-axis lead screw, guided by v-slot wheels.  
+They run in the v-slot of the z-axis profiles and therefore they should sit in a good position.  
+
+![POM wheel](../assets/images/POM-wheel_web.jpg)  
+
+These wheels are made out of POM, which is a somewhat soft and often being called "self-lubricating" material.  
+Two small ball bearings (type "ZZ625") are located in the center of the wheel. Since these bearings are sealed, you can't lubricate them.   
+
+The positive thing about POM wheels is, that they don't need to be lubricated and that they're slightly dampening the movements.  
+The downside is that they'll wear off pretty quick if they're running too tight in the v-slot of the rail.  
+
+!!! warning "WD-40 Destroys The POM Wheels"
+
+    Make sure to *never* use WD-40 for trying to lubricate either the wheels or bearings - the solvents in the WD-40 will destroy the POM wheels!    
+
 
 ---
 
@@ -326,7 +373,30 @@ Another factor is a possible misalignment here, so that they aren't running well
 See the following picture where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage - which is absolutely *not* "normal".   
 
 ![Wheels wear & tear](../assets/images/axes_wheels-weartear_web.jpeg)
-          
+
+Also check the wheels for any visible defects, like a harmed profile as shown in the following picture.  
+
+![Harmed wheels](../assets/images/POM-wheel_harmed_web.jpg)  
+
+Wheels can also become indented, especially when they're sitting too tight in the v-slot of the rail and if the printer hasn't been used for a while.  
+Dents can be quite hard to identify, so take a close look.   
+
+Another, actually quite common but overseen problem are defective ball bearings. Since the used bearings aren't expensive high-quality ones, they can be defective right away. You can't *see* a defective ball bearing though, you can only *feel* it when moving the wheel/bearing along the rail or across a flat surface.  
+
+Both of the above, harmed wheels as well as bad bearings, cause regularly recurring 'hiccups' when the wheel is being rolled along the v-slot rail or across a flat surface.   
+*This problem becomes bigger the tighter the wheels are running in the v-slot of the rail. So if you e.g. face problems like layer shifting, take a closer look at the wheels and bearings as well!*  
+
+---
+
+#### MOD: Polycarbonate Wheels
+Besides POM wheels, there are also wheels made out of Polycarbonate (PC) available at the market.  
+You can often identify them right away by their white-ish/transparent colour.  
+
+These wheels are harder than POM wheels, which has benefits and downsides as well.  
+The benefit is that they don't wear down as fast as POM wheels, especially when you're printing highly abrasive filament which can cause POM wheels (as well as cheap linear rails!) to wear down quite fast when dust of the filament gets collected onto the rails.  
+The downside is that they're not dampening the movements like POM wheels do. Since linear rails don't dampen movements as well, this factor doesn't weigh that much though. But: since the material itself is harder, PC wheels can easily crack if their position is too tight in the v-slot of the rail - so when using PC wheels, be careful and pay even more attention to the perfect position!   
+
+
 ---
 
 ### Tramming The X-Axis Gantry
@@ -608,7 +678,21 @@ As there aren't any specifications and replacement motors from Anycubic being av
 ---
     
 ### V-Slot Wheels 
-The wheels are leading the bed onto the aluminum profile in the middle. They run in the V-slot of the long profile in the middle underneath the bed and therefore they should sit in a good position. Means, they shouldn't sit too tight in the V-slot but also not too loose - they should be able to roll and move freely, but they shouldn't be too far away from the profile which would lead to instability.  
+The wheels are leading the bed onto the aluminum profile in the middle.  
+They run in the V-slot of the long profile in the middle underneath the bed and therefore they should sit in a perfect position.   
+
+![POM wheel](../assets/images/POM-wheel_web.jpg)  
+
+These wheels are made out of POM, which is a somewhat soft and often being called "self-lubricating" material.  
+Two small ball bearings (type "ZZ625") are located in the center of the wheel. Since these bearings are sealed, you can't lubricate them.   
+
+The positive thing about POM wheels is, that they don't need to be lubricated and that they're slightly dampening the movements.  
+The downside is that they'll wear off pretty quick if they're running too tight in the v-slot of the rail.  
+
+!!! warning "WD-40 Destroys The POM Wheels"
+
+    Make sure to *never* use WD-40 for trying to lubricate either the wheels or bearings - the solvents in the WD-40 will destroy the POM wheels!    
+  
 
 ---
 
@@ -649,6 +733,29 @@ Another factor is a possible misalignment here, so that they aren't running well
 See the following picture where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage - which is absolutely *not* "normal".   
 
 ![Wheels wear & tear](../assets/images/axes_wheels-weartear_web.jpeg)
+
+Also check the wheels for any visible defects, like a harmed profile as shown in the following picture.  
+
+![Harmed wheels](../assets/images/POM-wheel_harmed_web.jpg)  
+
+Wheels can also become indented, especially when they're sitting too tight in the v-slot of the rail and if the printer hasn't been used for a while.  
+Dents can be quite hard to identify, so take a close look.   
+
+Another, actually quite common but overseen problem are defective ball bearings. Since the used bearings aren't expensive high-quality ones, they can be defective right away. You can't *see* a defective ball bearing though, you can only *feel* it when moving the wheel/bearing along the rail or across a flat surface.  
+
+Both of the above, harmed wheels as well as bad bearings, cause regularly recurring 'hiccups' when the wheel is being rolled along the v-slot rail or across a flat surface.   
+*This problem becomes bigger the tighter the wheels are running in the v-slot of the rail. So if you e.g. face problems like layer shifting, take a closer look at the wheels and bearings as well!*  
+
+---
+
+#### MOD: Polycarbonate Wheels
+Besides POM wheels, there are also wheels made out of Polycarbonate (PC) available at the market.  
+You can often identify them right away by their white-ish/transparent colour.  
+
+These wheels are harder than POM wheels, which has benefits and downsides as well.  
+The benefit is that they don't wear down as fast as POM wheels, especially when you're printing highly abrasive filament which can cause POM wheels (as well as cheap linear rails!) to wear down quite fast when dust of the filament gets collected onto the rails.  
+The downside is that they're not dampening the movements like POM wheels do. Since linear rails don't dampen movements as well, this factor doesn't weigh that much though. But: since the material itself is harder, PC wheels can easily crack if their position is too tight in the v-slot of the rail - so when using PC wheels, be careful and pay even more attention to the perfect position!   
+
           
 ---
 
