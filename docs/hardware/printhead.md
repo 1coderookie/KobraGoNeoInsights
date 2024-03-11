@@ -155,6 +155,16 @@ The following picture shows the height gauge that sometimes comes with the print
 
 The procedure about how to adjust the position will be described for the specific printer model in the following sections as well. 
   
+??? warning "Malfunction! - Common Issue: Broken Wiring!"  
+
+    It might (actually: most likely will) happen that sooner or later the ABL sensor will become faulty. In that case the LED of the sensor might light up when metal is being detected, but no signal will be passed to the mainboard and therefore the functionality itself isn't given anymore.  
+
+    This seems to be a quite common issue. The problem seems to be that the wiring of the sensor will break, due to the repetitive movement and bending of the wiring at a certain spot.  
+    In most cases the breaking seems to take place at the spot where the cable of the sensor is being tied down with a zip tie to the metal plate of the printhead. At that spot the repetitive bending occurs and the starnds of the wires start to break. Since the wires are really thin, sooner or later the damage is severe enough to cause the malfunction.  
+    In other cases the breaking took place right at the spot where the cable leaves the plastic cap of the sensor.  
+
+    If you encounter this problem, you might be able to identify the broken wiring by measuring the resistance of the wire, preferrably when slowly bending around the wires. If the resistance changes, you have a partially broken wiring. You could also try and probe for continuity first, but this might give you a false positive resultm, since one thin strand is enough to report continuity.  
+    You then *might* be able to solve and fix it by cutting away the broken parts and reconnect the wires, but since the wires are really thin, it might be better to just get yourself a replacement sensor right away.  
 
 ---  
   
