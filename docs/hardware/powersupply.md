@@ -82,7 +82,8 @@ The fan of the PSU is pretty loud, so one of the first things one wants to chang
 I found a model for a different cover, which was actually made for using a different (bigger) fan. I remixed it and closed that cutout for using the stock fan instead.  
 For making sure that nothing will get through those bigger holes, I hot-glued a piece of mosquito net to it from the inside. Instead of drilling holes for the stock fan, I just used two of the existing holes and added some washers for making the screws clamp the fan to the cover.  
 
-*You can find my version at Printables.com: [Anycubic Kobra Go/Neo PSU Cover (Stock Fan!)](https://www.printables.com/de/model/559590-anycubic-kobra-goneo-psu-cover-stock-fan)*  
+*You can find my version at Printables.com: [Anycubic Kobra Go/Neo PSU Cover (Stock Fan!)](https://www.printables.com/model/559590-anycubic-kobra-goneo-psu-cover-stock-fan)*  
+
 
 The following picture shows the stock cover plate and the 'custom' one (yes, they are the same size, it just doesn't look like that on the picture).  
 
@@ -97,6 +98,18 @@ The following picture shows the PSU mounted again.
 
 As this lid sticks out a few milimeters and the clearance is already pretty low with the stock setup, I raised the printer a bit by mounting slightly taller feet I had laying around. You can also print some risers which can be plugged onto the existing feet.   
 If you do so and you're using Klipper and resonance compensation (aka Input Shaping), keep in mind that the vibrational behaviour will change and you therefore should execute a new resonance measurement. 
+
+**UPDATE:**  
+*Since most people apparently don't use the mosquito net and don't use additional washers to mount the fan, I made a new remix of the model where I added struts in the hexagon cutouts as well as two holes for mounting the stock fan.*  
+***This is the link of the new model: [Kobra 2 series PSU cover/lid (for stock fan and/or Noctua 6025) ](https://www.printables.com/model/783591-kobra-2-series-psu-coverlid-for-stock-fan-andor-no)*** 
+
+The following picture shows the different versions.  
+
+![New vs old vs stock](../assets/images/PSU_cover_v2_mounted_web.jpg)  
+
+The following picture shows the new version mounted.  
+
+![New version mounted](../assets/images/PSU_covers_v1-v2-stock_web.jpg)  
 
 --- 
 
