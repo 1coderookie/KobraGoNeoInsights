@@ -71,6 +71,7 @@ Please mind the **search field** in the header as well as the icon in the header
     - Thanks to **[Jaximus](https://www.reddit.com/user/Jaximus)** for allowing me to use the picture of the slipped out cartridge heater!  
     - Thanks to **[JD154](https://github.com/JD154)** for the pics of and notes about the aluminum belt tensioners!  
     - Thanks to **[jokubasver](https://github.com/jokubasver)** for taking that screenshot of the config settings for compiling the klipper.bin and for allowing me to use his picture of the stock control unit being used for KlipperScreen!  
+    - Thanks to **[McNeillTrevor](https://www.reddit.com/user/McNeillTrevor/)** for sharing his solution of using a Beacon3D probe at the Kobra Neo and allowing me to use his picture!  
     - Thanks to **[MeckeMecke](https://www.reddit.com/user/MeckeMecke/)** for allowing me to use the picture of his direct drive mod for the Go using a Revo CR an an Orbiter V.2!
     - Thanks to **[mowerheimen](https://www.reddit.com/user/mowerheimen)** for allowing me to use the picture of the crooked x-axis gantry!
     - Thanks to **[Sad-Lie8181](https://www.reddit.com/user/Sad-Lie8181)** for taking a picture of his dual z-driven Neo!  
