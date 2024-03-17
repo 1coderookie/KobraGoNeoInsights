@@ -15,7 +15,7 @@
 | **Silicone Sock**: E3D V5 type |
 | **Part Cooling Fan**: <br> **Go**: 24V, 0.08A, 40x40x10mm, model "Coolcox BF4010H24S" <br> **Neo**: <br> - older versions: 24V, 0.08A, 45x45x10mm, model "Coolcox BF4510H24S" <br> - newer versions: 24V, 0.10A, 45x45x10mm, model "HSC BCY4510D24E" |
 | **Heatsink Cooling Fan**: 24V, 0.03A, 40x40x10mm, model "Coolcox CC4010L24S" (both printer models)  |
-| **ABL sensor**: PNP-NO type, 6-36V, wiring: brown = VCC 24VDC; blue = GND; black = LEVEL/signal |  
+| **ABL sensor**: PNP-NO type, 6-36V, XH 2.54 connector; wiring: brown = VCC 24VDC; blue = GND; black = LEVEL/signal |  
 
 ---
 
