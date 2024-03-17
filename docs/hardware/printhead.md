@@ -15,7 +15,7 @@
 | **Silicone Sock**: E3D V5 type |
 | **Part Cooling Fan**: <br> **Go**: 24V, 0.08A, 40x40x10mm, model "Coolcox BF4010H24S" <br> **Neo**: <br> - older versions: 24V, 0.08A, 45x45x10mm, model "Coolcox BF4510H24S" <br> - newer versions: 24V, 0.10A, 45x45x10mm, model "HSC BCY4510D24E" |
 | **Heatsink Cooling Fan**: 24V, 0.03A, 40x40x10mm, model "Coolcox CC4010L24S" (both printer models)  |
-| **ABL sensor**: PNP-NO type (imho!), connection: brown = VCC 24VDC; blue = GND; black = LEVEL/signal |  
+| **ABL sensor**: PNP-NO type, 6-36V, wiring: brown = VCC 24VDC; blue = GND; black = LEVEL/signal |  
 
 ---
 
@@ -136,16 +136,17 @@ The following picture shows the whole metal plate where the feeder construction 
 Both printers come with an inductive proximity sensor for automatic bed levelling (ABL) which detects the metal of the spring steel PEI plate.  
 The ABL sensor is the part with that round orange tip, you can see a picture of it in the following sections for the specific printer model. At the **Go** it's located at the left hand side of the hotend, at the **Neo** it's located at the right hand side of the hotend when looking at the printhead from the front.  
 
-The sensor itself seems to be the same as the one being used at the regular Kobra, so if you need a replacement and can't find it for the Go/Neo, look out for the one of the Kobra as well (you'll have to extend the wiring then though!). You can also directly reach out to Anycubic's support and ask anout the specific part, evnen if you don't find it being listed at their shop. They have some sort of 'internal' shop links where they could still provide you a link for purchasing it from them.   
-In a German 3d forum someone measured the sensor of the regular Kobra and it gives +24VDC on the black signal wire when the LED lights up, so that's a PNP-NO type (as the level is HIGH then).  
-The connections are:  
+The sensor is a **PNP-NO** type and works at 6-36V DC (I did some tests with 5V and it seemed to work, but you might face a decrease in the detection range if not even an unreliable behaviour). The connector is a XH 2.54 type.   
+The wiring is:  
 
 - brown = VCC 24VDC
 - blue = GND
 - black = LEVEL/signal 
 
-*If you need to get a spare sensor because the wiring of the stock sensor broke (most of the times the LED still lights up but the nozzle is being driven in the build plate), you can get yourself a 'generic' PNP NO sensor instead.*   
-*Most of these ones are slightly longer than the stock sensor (I need to check for a sensor of the same length), but for now look out for a ***"PNP NO LJ12A3-4-Z/BY"*** (4mm detection range).*  
+??? info "Spare Sensor"  
+
+    If you need a spare sensor and can't find it at Anycubic's online shop, you can first of all reach out to Anycubic directly and ask for it. They have some sort of internal shop system and will send you a link if they have this sensor available.  
+    However, you can also get yourself a 'generic' PNP NO sensor instead. These ones are often slightly longer than the stock sensor though, so the printhead's cover will most likely not fit anymore, but that's not a problem. You can search for a **"PNP NO LJ12A3-4-Z/BY"** (PNP-NO, M12, 4mm detection range, 6-36V).    
 
 The position of the sensor (the height) should be adjusted in relation to the nozzle.  
 Therefore you can either use the ABL height gauge which sometimes comes with the printer or you can use the bigger one of the two-sided open ended wrench that comes in the toolset.  
@@ -303,6 +304,17 @@ See the expandable textbox below for further instructions.
     If you dis- and remounted the ABL sensor, make sure to level the ABL sensor again and control your Z offset!  
        
 ---  
+
+#### MOD: Beacon 3D Probe
+**Attention: This mod only works with [Klipper firmware]()!**  
+
+Reddit user [McNeillTrevor](https://www.reddit.com/user/McNeillTrevor/) is using a beacon3d / cartographer3d probe instead of the stock ABL sensor as yuo can see in the following picture.  
+
+![Beacon3D](../assets/images/kobra-neo-cartographer-beacon3d-mount-v1_web.jpg)  
+
+Please read the following reddit posts for further information: [Kobra neo beacon/cartographer3d probe](https://www.reddit.com/r/anycubic/comments/1bcf1ty/kobra_neo_beaconcartographer3d_probe/) and [Kobra Neo Cartographer/beacon3d mount V1 released](https://www.reddit.com/r/anycubic/comments/1bcztum/kobra_neo_cartographerbeacon3d_mount_v1_released/).  
+
+---
   
 ## Extruder / Feeder Gear System
 The **Go** uses a bowden drive extruder/feeder, while the **Neo** is using a direct drive extruder/feeder.  
