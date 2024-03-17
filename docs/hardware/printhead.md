@@ -306,7 +306,7 @@ See the expandable textbox below for further instructions.
 ---  
 
 #### MOD: Beacon 3D Probe
-**Attention: This mod only works with [Klipper firmware]()!**  
+**Attention: This mod only works with [Klipper firmware](../firmware/fw_klipper.md)!**  
 
 Reddit user [McNeillTrevor](https://www.reddit.com/user/McNeillTrevor/) is using a beacon3d / cartographer3d probe instead of the stock ABL sensor as yuo can see in the following picture.  
 
