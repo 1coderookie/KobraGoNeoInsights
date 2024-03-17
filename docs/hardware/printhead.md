@@ -305,14 +305,16 @@ See the expandable textbox below for further instructions.
        
 ---  
 
-#### MOD: Beacon 3D Probe
+#### MOD: Beacon3D Sensor
 **Attention: This mod only works with [Klipper firmware](../firmware/fw_klipper.md)!**  
 
-Reddit user [McNeillTrevor](https://www.reddit.com/user/McNeillTrevor/) is using a beacon3d / cartographer3d probe instead of the stock ABL sensor as yuo can see in the following picture.  
+Reddit user [McNeillTrevor](https://www.reddit.com/user/McNeillTrevor/) is using a beacon3d / cartographer3d probe instead of the stock ABL sensor as you can see in the following picture.  
 
 ![Beacon3D](../assets/images/kobra-neo-cartographer-beacon3d-mount-v1_web.jpg)  
 
-Please read the following reddit posts for further information: [Kobra neo beacon/cartographer3d probe](https://www.reddit.com/r/anycubic/comments/1bcf1ty/kobra_neo_beaconcartographer3d_probe/) and [Kobra Neo Cartographer/beacon3d mount V1 released](https://www.reddit.com/r/anycubic/comments/1bcztum/kobra_neo_cartographerbeacon3d_mount_v1_released/).  
+You can see an impressive video with the sensor probing the surface in his reddit post: [Kobra neo beacon/cartographer3d probe](https://www.reddit.com/r/anycubic/comments/1bcf1ty/kobra_neo_beaconcartographer3d_probe/)  
+
+He made a model for a probe mount which fits the mounting of the stock sensor, you can find v1 here: [Kobra Neo Cartographer3d/beacon3d adapter](https://www.printables.com/model/803021-kobra-neo-cartographer3dbeacon3d-adapter)  
 
 ---
   
