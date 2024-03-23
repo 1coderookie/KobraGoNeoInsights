@@ -192,6 +192,20 @@ Make sure the crimp went well and to plug in the crimped contacts into the corre
 
 ---
 
+## Button Connectors
+Button connectors come in handy when you want to connect two wires without soldering.  
+They are available in different sizes as well as for a different amount of wires that can be connected with each other.  
+They're usually gel filled and you can only use them once.  
+You don't need to strip the end of the wires you want to connect, just put them in and press down the center of the round part. A little metal lid will then cut through the insulation and make the connection across the wires.   
+However, as handy as they are, you need to make sure that the diameter of your wire fits these connectors. Especially with super thin wires this can be a problem when you assume it'll fit but it actually doesn't and you end up with a faulty connection.  
+Besides, it is possible that that the strands of the wire get harmed and that the wires start to break right at the spot where they should be connected.  
+
+Originally they were made by 3M (afaik!), but you can find cheap knockoffs as well. The following picture shows such cheap items. 
+![Button connectors](assets/images/button_connectors_web.jpg)  
+Mind the naming: K1, K2, K3. K1 and K2 take up two wires, K3 can take up three. The difference between K1 and K2 is the *outer* diameter of the wire, where K2 can take up thicker wires than K1.  
+
+---
+
 ## Infrared Thermometer
 An infrared thermometer allows you to measure higher temperatures without touching the part you want to measure. It comes in handy when you want to check the temperature of the bed a t diffferent spots or when you want to check the temperature of the stepper motors.  
 
