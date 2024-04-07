@@ -236,6 +236,10 @@ The following picture shows an eccentric nut which I painted to make the special
 
 ![Eccentric nut](../assets/images/eccentric-nut_web.jpg)   
 
+The following picture shows an eccentric nut on it's own.  
+
+![Ecc nut solo](../assets/images/eccentric_nut2_web.jpeg)  
+
 As you hopefully can see, the bolt isn't centered - so if you turn that eccentric nut while being mounted, the position of the bolt and therefore the whole wheel will be changed, either towards or away from the v-slot of the rail it's sitting at. 
 
 *The wheel whose position can be adjusted is the one located at the ***bottom*** - the two wheels at the top which are running across the upper side of the x-axis gantry can't be adjusted as there aren't any eccentric nuts mounted!*  
@@ -339,6 +343,10 @@ The downside is that they'll wear off pretty quick if they're running too tight 
 The following picture shows an eccentric nut which I painted to make the special shape of it more visible.  
 
 ![Eccentric nut](../assets/images/eccentric-nut_web.jpg)   
+
+The following picture shows an eccentric nut on it's own.  
+
+![Ecc nut solo](../assets/images/eccentric_nut2_web.jpeg)  
 
 As you hopefully can see, the bolt isn't centered - so if you turn that eccentric nut while being mounted, the position of the bolt and therefore the whole wheel will be changed, either towards or away from the v-slot of the rail it's sitting at. 
 
@@ -701,6 +709,10 @@ The downside is that they'll wear off pretty quick if they're running too tight 
 The following picture shows an eccentric nut which I painted to make the special shape of it more visible.  
 
 ![Eccentric nut](../assets/images/eccentric-nut_web.jpg)   
+
+The following picture shows an eccentric nut on it's own.  
+
+![Ecc nut solo](../assets/images/eccentric_nut2_web.jpeg)  
 
 As you hopefully can see, the bolt isn't centered - so if you turn that eccentric nut while being mounted, the position of the bolt and therefore the whole wheel will be changed, either towards or away from the v-slot of the rail it's sitting at. 
 
