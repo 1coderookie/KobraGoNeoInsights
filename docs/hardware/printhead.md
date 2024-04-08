@@ -164,7 +164,7 @@ The procedure about how to adjust the position will be described for the specifi
     In most cases the breaking seems to take place at the spot where the cable of the sensor is being tied down with a zip tie to the metal plate of the printhead. At that spot the repetitive bending occurs and the starnds of the wires start to break. Since the wires are really thin, sooner or later the damage is severe enough to cause the malfunction.  
     In other cases the breaking took place right at the spot where the cable leaves the plastic cap of the sensor.  
 
-    If you encounter this problem, you might be able to identify the broken wiring by measuring the resistance of the wire, preferrably when slowly bending around the wires. If the resistance changes, you have a partially broken wiring. You could also try and probe for continuity first, but this might give you a false positive resultm, since one thin strand is enough to report continuity.  
+    If you encounter this problem, you might be able to identify the broken wiring by measuring the resistance of the wire, preferrably when slowly bending around the wires. If the resistance changes, you have a partially broken wiring. You could also try and probe for continuity first, but this might give you a false positive result, since one thin strand is enough to report continuity.  
     You then *might* be able to solve and fix it by cutting away the broken parts and reconnect the wires, but since the wires are really thin, it might be better to just get yourself a replacement sensor right away.  
 
 ---  
@@ -538,11 +538,13 @@ Since I only have the Neo, I couldn't verify if it's the same motor at the Go, b
 
 ![Extruder motor](../assets/images/extruder-motor_web.jpg)  
  
-The cable for the motor consists of 4 wires and is about 130cm long. At one end there's a 4pin XH 2.54 connector attached which connects to the mainboard, at the other end it's a 6pin PH 2.0 connector attached which connects to the motor.  
+The cable for the motor consists of 4 wires and is about 130cm long.  
+At one end there's a 4pin XH 2.54 connector attached which connects to the mainboard, at the other end it's a 6pin PH 2.0 connector attached which connects to the motor.  
 
 ??? warning "Malfunction! - Common Issue: Broken Wiring!"  
 
     It might (actually: most likely will) happen that sooner or later the extruder motor will start to act up when the printhead moves to specific areas of the bed, specifically at the Kobra **Neo**. You might notice that in a specific area the extruder motor might skip and won't extrude filament.  
+    
     [add pic]  
 
     This seems to be a quite common issue. The problem seems to be that the wiring of the sensor will break, due to the repetitive movement and bending of the wiring at a certain spot.  
@@ -561,9 +563,11 @@ The cable for the motor consists of 4 wires and is about 130cm long. At one end 
 
     Depending on the cable you actually got, it might be the case that you'd have to change the position of two or more wires in one of the connectors.  
     If you have to do so, I'd suggest to do it at the 4pin XH 2.54 connector since it's a bit easier to handle.  
-    When you look at the meatl contacs as shown in the pictures above, you have to push down a little 'lever' for being able to pull out the wire with the metal contact out of the plastic connector housing. Use a pointy item like a toothpick or so, slightly push down that 'lever' and hold it like that while gently pulling out the wire.  
-    Be patient and careful and don't force it. Sometimes the lever gets stuck and the contact won't come out, then just push the wire back in and try it again.  
-    Once you have the wires pulled out, change the position accordingly and make sure the order fits the one of the stock wiring as shown in the picture aboce.   
+    When you look at the metal contacs as shown in the pictures above, you have to push down a little 'lever' for being able to pull the wire with the metal contact out of the plastic connector housing.  
+    Use a pointy item like a toothpick or so, slightly push down that 'lever' and hold it like that while gently pulling out the wire.  
+    Please be patient and careful and don't force it!  
+    Sometimes the lever gets stuck and the contact won't come out, then just push the wire back in and try it again.  
+    Once you have the wires pulled out, change the position accordingly and make sure the order fits the one of the stock wiring as shown in the picture above.   
 
 ---
   
