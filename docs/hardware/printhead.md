@@ -530,6 +530,42 @@ If that doesn't work, see the expandable textbox below for further instructions 
     **I strongly recommend to read the** [***official E3D assembly instruction of the E3D Titan Aero***](https://e3d-online.zendesk.com/hc/en-us/articles/360016764817-Titan-Aero-Assembly-Guide-Edition-2-) **where this extruder is a clone of!**  
     
 ---  
+
+## Extruder Motor & Wiring
+
+The extruder motor seems to be a 42-22 Nema 17, unfortunately I'm not sure yet if it's a 1.8° or a 0.9° stepper motor.  
+Since I only have the Neo, I couldn't verify if it's the same motor at the Go, but I assume it is.  
+
+![Extruder motor](../assets/images/extruder-motor_web.jpg)  
+ 
+The cable for the motor consists of 4 wires and is about 130cm long. At one end there's a 4pin XH 2.54 connector attached which connects to the mainboard, at the other end it's a 6pin PH 2.0 connector attached which connects to the motor.  
+
+??? warning "Malfunction! - Common Issue: Broken Wiring!"  
+
+    It might (actually: most likely will) happen that sooner or later the extruder motor will start to act up when the printhead moves to specific areas of the bed, specifically at the Kobra **Neo**. You might notice that in a specific area the extruder motor might skip and won't extrude filament.  
+    [add pic]  
+
+    This seems to be a quite common issue. The problem seems to be that the wiring of the sensor will break, due to the repetitive movement and bending of the wiring at a certain spot.  
+    In most cases the breaking seems to take place at the spot where the cable of the sensor is being tied down with a zip tie to the metal plate of the printhead. At that spot the repetitive bending occurs and the starnds of the wires start to break. Since the wires are really thin, sooner or later the damage is severe enough to cause the malfunction.  
+
+    If you encounter this problem, you might be able to identify the broken wiring by measuring the resistance of the wire, preferrably when slowly bending around the wires. If the resistance changes, you have a partially broken wiring. You could also try and probe for continuity first, but this might give you a false positive result, since one thin strand is enough to report continuity.  
+    
+    If you face this issue, it's the best solution to just get yourself a new cable and replace the broken one. You can find according cables easily, just search for "stepper motor cable" for example.   
+    Pay attention to the specs mentioned above and make sure to get a cable with the correct types of connectors and the sufficient length. Usually these kind of motor cables are available in lengths like 100cm, 150cm and 200cm, so just go with 150cm then.  
+     
+    Before connecting the new cable, you need to check the wiring and make sure it fits the coils of the motor as shown in the following pictures.  
+
+    ![Motor coils](../assets/images/extruder_motor_marked_web.jpg)  
+    ![Wiring](../assets/images/extruder-wiring_marked_web.jpg)  
+    ![Wiring](../assets/images/extruder-wiring2_marked_web.jpg)  
+
+    Depending on the cable you actually got, it might be the case that you'd have to change the position of two or more wires in one of the connectors.  
+    If you have to do so, I'd suggest to do it at the 4pin XH 2.54 connector since it's a bit easier to handle.  
+    When you look at the meatl contacs as shown in the pictures above, you have to push down a little 'lever' for being able to pull out the wire with the metal contact out of the plastic connector housing. Use a pointy item like a toothpick or so, slightly push down that 'lever' and hold it like that while gently pulling out the wire.  
+    Be patient and careful and don't force it. Sometimes the lever gets stuck and the contact won't come out, then just push the wire back in and try it again.  
+    Once you have the wires pulled out, change the position accordingly and make sure the order fits the one of the stock wiring as shown in the picture aboce.   
+
+---
   
 ## Hotend 
 In the following, the specific hotends will be shown. Before jumping to the specific section, mind the notes in the expandable textboxes as well.  
