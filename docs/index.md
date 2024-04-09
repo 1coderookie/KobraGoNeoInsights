@@ -63,6 +63,7 @@ Please mind the **search field** in the header as well as the icon in the header
     - Thanks to **[aspiringnobody](https://github.com/aspiringnobody)** for reporting and providing the picture of the GC6609 stepper drivers being used!
     - Thanks to **[Balambao](https://www.reddit.com/user/Balambao)** for taking a picture of the ceramic heater block!  
     - Thanks to **[BlackSunBeast](https://www.reddit.com/user/BlackSunBeast)** for taking pictures of the feeder gear of the Go and the Go itself!  
+    - Thanks to **[Consistent_Leopard46](https://www.reddit.com/user/Consistent_Leopard46/)** for letting me use his picture of the faulty initial layer which illustrates the problem of a broken extruder motor wiring!  
     - Thanks to **[Darth_Kram](https://www.reddit.com/user/Darth_Kram)** for disassembling the feeder gear box of the Go, taking those pics and measuring the dimensions of those parts!  
     - Thanks to **[Due-Telephone-6817](https://www.reddit.com/user/Due-Telephone-6817)** for taking those pictures of the spider coupler and the diaphragm coupler!  
     - Thanks to **[felixna](https://forum.drucktipps3d.de/user/6880-felixna/)** for allowing me to use his circuit drawing of how to add a step-down converter for PWM controlled fans!  
