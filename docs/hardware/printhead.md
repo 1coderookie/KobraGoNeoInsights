@@ -543,12 +543,14 @@ At one end there's a 4pin XH 2.54 connector attached which connects to the mainb
 
 ??? warning "Malfunction! - Common Issue: Broken Wiring!"  
 
-    It might (actually: most likely will) happen that sooner or later the extruder motor will start to act up when the printhead moves to specific areas of the bed, specifically at the Kobra **Neo**. You might notice that in a specific area the extruder motor might skip and won't extrude filament.  
+    It might (actually: most likely will) happen that sooner or later the extruder motor will start to act up when the printhead moves to specific areas of the bed, specifically at the Kobra **Neo**. You might notice that in a specific area the extruder motor might skip and won't extrude filament - the following picture illustrates this problem.  
     
-    [add pic]  
+    ![Broken wiring](../assets/images/extr-wiring-broken_symptom_web.jpeg)  
 
-    This seems to be a quite common issue. The problem seems to be that the wiring of the sensor will break, due to the repetitive movement and bending of the wiring at a certain spot.  
-    In most cases the breaking seems to take place at the spot where the cable of the sensor is being tied down with a zip tie to the metal plate of the printhead. At that spot the repetitive bending occurs and the starnds of the wires start to break. Since the wires are really thin, sooner or later the damage is severe enough to cause the malfunction.  
+    You can see two short videos of how the extruder behave and skipped when the head was in a certain position in [this reddit post](https://www.reddit.com/r/anycubic/comments/1bybkbh/i_need_help_my_extruder_stops_working_on_the_left/).  
+
+    This seems to be a quite common issue (at least at the Neo). The problem seems to be that the wiring of the motor will break, due to the repetitive movement and bending of the wiring at a certain spot.  
+    In most cases the breaking seems to take place at the spot where the cable package that contains all the wires of the head's parts is being tied down with a cable tie to the metal plate of the printhead. At that spot the repetitive bending occurs and the starnds of the wires start to break. Since the wires are really thin, sooner or later the damage is severe enough to cause malfunctions of the parts.  
 
     If you encounter this problem, you might be able to identify the broken wiring by measuring the resistance of the wire, preferrably when slowly bending around the wires. If the resistance changes, you have a partially broken wiring. You could also try and probe for continuity first, but this might give you a false positive result, since one thin strand is enough to report continuity.  
     
@@ -556,13 +558,16 @@ At one end there's a 4pin XH 2.54 connector attached which connects to the mainb
     Pay attention to the specs mentioned above and make sure to get a cable with the correct types of connectors and the sufficient length. Usually these kind of motor cables are available in lengths like 100cm, 150cm and 200cm, so just go with 150cm then.  
      
     Before connecting the new cable, you need to check the wiring and make sure it fits the coils of the motor as shown in the following pictures.  
+    A stepper motor has two coils and each coil has to be connected with the according wires. In the following pictures, those coils and according wires are marked green and red.  
 
     ![Motor coils](../assets/images/extruder_motor_marked_web.jpg)  
     ![Wiring](../assets/images/extruder-wiring_marked_web.jpg)  
     ![Wiring](../assets/images/extruder-wiring2_marked_web.jpg)  
 
-    Depending on the cable you actually got, it might be the case that you'd have to change the position of two or more wires in one of the connectors.  
-    If you have to do so, I'd suggest to do it at the 4pin XH 2.54 connector since it's a bit easier to handle.  
+    Depending on the cable you actually got, it might be the case that you'd have to change the position of two or more wires in one of the connectors, because some stepper motors have the coils connected to different pins and therefore the connectors are populated with the wires being in a different position.  
+    If you'd mix up the connections and connect one wire of the first coil to the second coil and vice versa, the motor wouldn't turn, it would make weird noises instead.  
+
+    If you have to change the position of wires, I'd suggest to do it at the 4pin XH 2.54 connector since it's a bit easier to handle.  
     When you look at the metal contacs as shown in the pictures above, you have to push down a little 'lever' for being able to pull the wire with the metal contact out of the plastic connector housing.  
     Use a pointy item like a toothpick or so, slightly push down that 'lever' and hold it like that while gently pulling out the wire.  
     Please be patient and careful and don't force it!  
