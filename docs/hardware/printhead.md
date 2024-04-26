@@ -256,7 +256,7 @@ Check if you need to level your ABL sensor in relation to the nozzle (which shou
 
 The following picture shows a sensor that should/has to be leveled (don't mind the tiny rest of filament at the tip of the nozzle which touches the paper instead of the nozzle itself though, I chipped it away before leveling everything).      
 
-![This sensor needs to be leveld](../assets/images/head_neo_ABL2level_web.jpg)
+![This sensor needs to be leveled](../assets/images/head_neo_ABL2level_web.jpg)
 
 As I didn't get the plastic heihght gauge from Anycubic with my printers, I used the bigger one of those two-sided open ended wrenches. Check the parts that came with your printer, maybe you got the gauge shown in the following picture.  
 
@@ -315,6 +315,7 @@ Reddit user [McNeillTrevor](https://www.reddit.com/user/McNeillTrevor/) is using
 You can see an impressive video with the sensor probing the surface in his reddit post: [Kobra neo beacon/cartographer3d probe](https://www.reddit.com/r/anycubic/comments/1bcf1ty/kobra_neo_beaconcartographer3d_probe/)  
 
 He made a model for a probe mount which fits the mounting of the stock sensor, you can find v1 here: [Kobra Neo Cartographer3d/beacon3d adapter](https://www.printables.com/model/803021-kobra-neo-cartographer3dbeacon3d-adapter)  
+New version, probe with offset: [Cartographer3D/Beacon3D offset mount for Kobra neo](https://www.printables.com/model/822603-cartographer3dbeacon3d-offset-mount-for-kobra-neo)  
 
 ---
   
