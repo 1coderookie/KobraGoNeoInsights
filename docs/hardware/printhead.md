@@ -908,6 +908,12 @@ Both the thermistor and the cartidge heater have to be plugged into the specific
     See the following picture of a user where the cartridge heater slipped out of the heater block.  
     ![Slipped out cartridge heater](../assets/images/head_glowing-cartridge_web.jpg)  
 
+??? warning "Spare Part: Get The Correct Block"  
+
+    When looking for a replacement heater block, pay attention to the pictures and description, especially of the hole's diameter for the thermistor. There are different types of V5 blocks out there - you need to make sure to get the type which has a 3.1mm hole (for the 3mm encapsuled thermistor) and has a grub screw / set screw to secure the thermistor.  
+    The following picture shows an incompatible V5 block at the left side (which has a smaller hole for the thermistor and no grub screw) and the stock block at the right side.   
+    ![V5 blocks](../assets/images/diff-V5-blocks_web.jpg)  
+    
 
 ---
 
@@ -918,13 +924,18 @@ Both the thermistor and the cartidge heater have to be plugged into the specific
     Whenever you change something at your hotend setup, remember to execute a PID tuning.  
 
 
-You can pick any V5 type of heater block you want if you have to exchange or want to mod/upgrade your existing hotend.  
+You can pick any V5 type of heater block you want if you have to exchange or want to mod/upgrade your existing hotend, just make sure to get the correct ones which have a 3.1mm hole for the thermistor and an according grub screw for securing the thermistor (see infobox below).  
 However, it might be smart to not get the cheapest one available as they sometimes lack of precision and therefore may cause problems with leaking filament.  
 
 Usually the heater blocks are made of aluminum, but you can also get them made of plated copper (which I personally use and highly recommend) as shown in the following picture.  
 
 ![V5 plated copper](../assets/images/head_heaterblock-v5-copper_web.jpg)
+  
+??? warning "Spare Part: Get The Correct Block"  
 
+    When looking for a replacement heater block, pay attention to the pictures and description, especially of the hole's diameter for the thermistor. There are different types of V5 blocks out there - you need to make sure to get the type which has a 3.1mm hole (for the 3mm encapsuled thermistor) and has a grub screw / set screw to secure the thermistor.  
+    The following picture shows an incompatible V5 block at the left side (which has a smaller hole for the thermistor and no grub screw) and the stock block at the right side.   
+    ![V5 blocks](../assets/images/diff-V5-blocks_web.jpg)  
     
 There are also ceramic heater blocks on the market which come with M6 threads - those ones can be used as well. The following picture shows one of these already being mounted.  
 
@@ -934,6 +945,7 @@ However, as they come with an inbuilt heating element and an inbuilt thermistor,
 Also pay attention to the length of the wires of these units and the connectors they're coming with - it might be necessary to do a bit of a tinkering to get these ones installed.  
 Last but not least check the height of these units and compare it to the V5 heater block setup - most likely it will be necessary to adjust the position of your fan duct and the settings as well.   
  
+
     
 ---   
   
