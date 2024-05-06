@@ -12,7 +12,7 @@
 | **V-Slot Wheels**: POM, ~24x10.2mm with 6mm width at the tip of the "V", 625 type ball bearing with 5mm inner diameter |
 | **X- & Y-Axis Motor**: 42x34 Nema17, 1.8°, 200 steps, 5mm shaft with 16 OD / 5mm ID / 20 teeth pulley attached (for 6mm wide belt) |
 | **Z-Axis Motor**: 42x34 Nema17, 1.8°, 200 steps, 5mm shaft |
-| **Limit Switches**: x- & y-axis = mechanical, NO ; z-axis = optical, NC |
+| **Limit Switches**: x- & y-axis = mechanical; z-axis = optical, NC |
 
 ---
 
@@ -883,7 +883,7 @@ However, the distance of the threads of the stock anti-backlash nut is 20mm, the
 
 ![Brass anti-backlash nut mounted](../assets/images/axes_brass-ab-nut_web.jpg)
     
-Whichever spring loaded anti-backlash nut you (re-)install, make sure that you press both parts together when putting the lead screw in. There's a little spring between the upper and the lower part of the nut which is there to prevent the backlash. This spring needs to be pushed together during the installation, so that there's tension and both parts of that nut system are being pushed away from each other when installed.  
+Whichever spring loaded anti-backlash nut you (re-)install, make sure that you press both parts together *completely* when putting the lead screw in. There's a little spring between the upper and the lower part of the nut which is there to prevent the backlash. This spring needs to be pushed together *completely* during the installation and the two solid parts need to fit into each other, so that there's tension and both parts of that nut system are being pushed away from each other when installed.  
 
 If you installed a regular nut like in the picture shown below instead of an anti-backlash nut, I suggest to use a anti-backlash nut as the ones shown above instead.  
 
