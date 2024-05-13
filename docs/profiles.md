@@ -61,7 +61,7 @@ The following list links to the specific profiles from [Anycubic's firmware page
 
 The following list links to profiles provided by users which I became aware of:  
 
-- @[natur3kid](https://github.com/natur3kid) offers a profile for PrusaSlicer for the Kobra **Go**: [https://github.com/natur3kid/PrusaSlicer_KobraGo](https://github.com/natur3kid/PrusaSlicer_KobraGo) 
+- @[naturekid72](https://github.com/naturekid72) offers a profile for PrusaSlicer for the Kobra **Go**: [https://github.com/naturekid72/Anycubic-Kobra-Go---Prusa-Slicer-Config-Bundle](https://github.com/naturekid72/Anycubic-Kobra-Go---Prusa-Slicer-Config-Bundle) 
 
 
 ---
