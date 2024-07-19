@@ -6,7 +6,7 @@
 |:---------------|
 | Switch: NO (normally open) |
 | Voltage: 24V DC |
-| Connector: JST-XH 2.54 (male, 2 pins) |  
+| Connector: JST-XH 2.54 |  
 
 
 The filament runout / break detection sensor available from Anycubic is optional, it doesn't come with the printer right away.  
