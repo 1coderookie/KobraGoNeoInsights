@@ -1,5 +1,9 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
+
+---  
+
 # Other
 
 Here you can find whatever didn't seem to fit in one of the other chapters.  
