@@ -1,5 +1,9 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
+
+---  
+
 # Tools 
 When it comes down to tinkering, the fun factor and the results raise and fall with the tools you have. So if you're new to this whole world and find yourself in front of an empty toolbox, the following tools might be a good start (the list will be extended by time).  
   
