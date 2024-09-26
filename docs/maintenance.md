@@ -1,3 +1,9 @@
+<link rel=”manifest” href=”docs/manifest.webmanifest”>
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
+
+---  
+
 # Maintenance 
 
 In the following, I'll list some steps for doing maintenance on a regular basis. I won't go into detail about e.g. how to position the v-slot wheels or how to change parts at the hotend, as you'll find notes and instructions about that in the belonging sections about the belonging parts.  
