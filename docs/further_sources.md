@@ -1,5 +1,9 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
+
+---  
+
 # Further Sources Of Information
 In the following you'll find some further sources for certain kind of information mentioned.  
 
