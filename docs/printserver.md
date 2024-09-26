@@ -1,5 +1,9 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
+
+---  
+
 # Printserver
 Sooner or later you'll come to the point that you want to use additional software like OctoPrint to control your printer.    
 Yes, it's not necessary as you can control it directly using the printers control unit and it's advisable to stay in the same room and monitor the printing process to be able to intervene as soon as something is going wrong - but we all know how it is..  
