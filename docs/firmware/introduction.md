@@ -1,5 +1,9 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
+
+---  
+
 # Introduction
 Here you'll find further information about the [stock firmware](fw_marlin.md) of both the **Go** and the **Neo** - like how to install updates, information about specific settings and known restrictions.  
   
