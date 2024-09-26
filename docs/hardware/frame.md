@@ -1,3 +1,9 @@
+<link rel=”manifest” href=”docs/manifest.webmanifest”>
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
+
+---  
+
 # Frame 
 
 As already mentioned in the introduction of this hardware section, **I strongly recommend to check and tram the whole construction of the printer's frame first.**  
