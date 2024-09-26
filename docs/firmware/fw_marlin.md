@@ -1,5 +1,9 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
+
+---  
+
 # Stock Firmware (Marlin Based) 
 The official stock firmware for both models is based on the [Marlin firmware](https://marlinfw.org/) v2.0.x.  
   
