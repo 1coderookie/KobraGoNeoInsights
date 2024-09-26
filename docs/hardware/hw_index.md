@@ -1,5 +1,9 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
+
+---  
+
 # Introduction
 This hardware section covers the hardware topics like the mainboard, the printhead and so on.  
 You'll find pictures and notes about the parts, how to disassemble or maintenace them and sometimes also suggestions for spare parts which could be used. Just click on the belonging chapter of the part where the desired part is located at, so e.g. in case you're looking for informations about the hotend, see the chapter "Printhead".  
