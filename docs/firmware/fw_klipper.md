@@ -80,8 +80,7 @@ Once you've created the `firmware.bin` file, copy it to the root directory (mean
 Then you flash it as you would do with the stock firmware.  
 Means, you turn off the printer, put the card into the cardreader and turn on the printer.  
 
-Note that the screen doesn't update though after the flash procedure is done as the control unit doesn't work with Klipper anymore. It might show the message "Firmware update. Please wait." and stick with it OR it doesn't show anything at all!  
-So just wait 5-10min to make sure everything had time enough to be installed.  
+Note that the screen doesn't update though after the flash procedure is done as the control unit doesn't work with Klipper anymore. It might show the message `UpdateFirmware` (or something similar) and stick with it OR it doesn't show anything at all. Either one is fine - just wait 5-10min to make sure everything had time enough to be installed.  
 
 Then turn off the printer, remove the card, connect your host which has OctoPrint/Mainsail/.. running with the printer using an USB-C cable and turn on the printer again.  
 If it doesn't boot the stock firmware now, you successfully flashed Klipper.  
