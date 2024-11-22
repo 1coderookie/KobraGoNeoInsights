@@ -238,7 +238,7 @@ The following picture shows the stock spacers on the left, springs in the middle
     Besides that, when adjusting the height, people tend to compress the spacers too much, which then puts additional stress onto the bedplate and might lead to more warping.  
     It can also lead to the circumstance that the bedplate will be too low and that the underside will hit the mount of the Y-axis motor which then can do harm and create a shortcut to the heater coil. So pay close attention to that! 
 
-    However, when using adjustable spacers, it's crucial to [tram the x-gantry in relation to the *frame*]((axes.md#tramming-the-x-axis-gantry)!
+    However, when using adjustable spacers, it's crucial to [tram the x-gantry in relation to the *frame*](axes.md#tramming-the-x-axis-gantry)!
 
 !!! warning "Mind The Gap!"
 

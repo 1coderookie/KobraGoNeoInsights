@@ -289,7 +289,7 @@ Before I go into further details here, let me mention some of the (imho) most im
 - You can set the area where the probing should occur in general.
 - You can even use certain macros which allow you to only probe the area you're going to print at before each print you're attempting.
 - You can create different bedmeshes for e.g. different bed temperatures which you can then load when printing different types of filament (like one bedmesh done at 60°C bedtemp for PLA and one done at 80°C bedtemp for PETG and so on).
-- You can do a bedmesh at any time without the need of setting the z-offset again (of yourse only in case you didn't change anything that had an impact on the z-offset, like tramming the bed or so).    
+- You can do a bedmesh at any time without the need of setting the z-offset again (of course only in case you didn't change anything that had an impact on the z-offset, like tramming the bed or so).    
 
 Of course Klipper supports both ABL and manual bed leveling as well. Please see the official Klipper documentation for more detailed information about this topic, I'll only mention some notes about it here in the following. So before you continue to read here, maybe check out the official Klipper documentation first and read the chapters ["Bed Level Support"](https://www.klipper3d.org/Config_Reference.html#bed-level-support) and ["Bed Level"](https://www.klipper3d.org/Bed_Level.html).  
 
@@ -375,7 +375,7 @@ So is that going to be an issue? Actually I thought the same initially and that 
 
 Just as an example:  
 
-- Klipper *keeps* the z-offset, so you don't have to fiddle arount at the control unit for that before each and every print because the stcok-fw forgot your settings once again.   
+- Klipper *keeps* the z-offset, so you don't have to fiddle around at the control unit for that before each and every print because the stock-fw forgot your settings once again.   
 - Setting temps for e.g. heating up the hotend to change a nozzle or load/unload filament can be done by using Mainsail.  
 - Initiating the ABL procedure is also be done through Mainsail, just like everything else.  
 
