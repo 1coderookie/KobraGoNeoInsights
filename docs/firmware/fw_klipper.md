@@ -18,14 +18,16 @@ The [Huada HC32F460 MCU](https://github.com/Klipper3d/klipper/commit/72b6bd7efa1
     - You'd need a host to run additional software like OctoPrint or Mainsail for being able to use the printer with Klipper. See the belonging section further down below for some information and my personal recommendation abput what to use.  
     If you don't have a host running OctoPrint/Mainsail/.. yet, see the chapter ["Printserver"](../printserver.md) for some information about hardware you could use for that.    
       
+---
 
-??? info "What Is Klipper?"
+## What Is Klipper?
+Klipper is a 3d printer firmware and, in this case, *replaces* the stock firmware of your stock mainboard.  
+For further information about Klipper, about how to install and configure it, please refer to the [official Klipper documentation](https://www.klipper3d.org/).   
 
-    Long story short: Klipper is an 'alternative' firmware which gives you way more possibilities and even functions for configuring and using your 3D printer. If you don't know what Klipper is, this may be a good start for your research: [All3DP: Klipper](https://www.all3dp.com/topic/klipper)  
+!!! warning  
 
-??? info "Discussion Thread About Klipper"
-
-    I opened a [discussion thread about Klipper](https://github.com/1coderookie/KobraGoNeoInsights/discussions/6) just in case any further questions arise or in case you want to comment on certain things without doing so by sending me an email. Keep in mind though that I'm not an expert at all, so if you do have specific questions about Klipper, please refer to the [official documentation of Klipper](https://www.klipper3d.org/Overview.html), the [Klipper discourse group](https://klipper.discourse.group/) and/or ask in a special forum like e.g. the [Klipper subreddit](https://www.reddit.com/r/klippers/).  
+    In the following, I **don't** give a step-by-step guide about how to install and configure Klipper, so please read the official documentation attentively!  
+      
 
 ---
   
@@ -42,7 +44,7 @@ However, there are options to e.g. add a touchscreen to your host or use an old 
 ## Installation
 *Credits to reddit user [xpeng121](https://www.reddit.com/user/xpeng121/) who initially posted how to get Klipper running on the **Go** and the **Neo**: [Install Klipper on Kobra Go or Neo](https://www.reddit.com/r/anycubic/comments/10cwm16/install_klipper_on_kobra_go_or_neo/).*  
   
-Basically you need to clone the Klipper repository and compile the necessary `klipper.bin` file (aka `firmware.bin`) which you flash onto the mainboard then. Please watch out for some dedicated tutorials about this procedure, as I don't offer a step by step guide here (yet) about it.  
+Basically you need to clone the Klipper repository and compile the necessary `klipper.bin` file (aka `firmware.bin`) which you flash onto the mainboard then. Please watch out for some dedicated tutorials about this procedure, as I don't offer a step by step guide here about it.  
 For further information about the installation steps please read the chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official Klipper documentation.  
 
 To build the correct firmware, use the following configuration during the setup process for creating the `klipper.bin` file:  
@@ -59,13 +61,6 @@ You also now have two more options to choose from, the clock speed and the app a
 The following screenshot provided by @jokubasver shows the settings that should be used when choosing the options for compiling the `klipper.bin` file.  
 
 ![Klipper compile settings](../assets/images/klipper-compile-settings.png)  
-
-
-!!! warning "Compiled `klipper.bin` Available"
-
-    I set up a repository where you can download the compiled `klipper.bin` (aka `firmware.bin`): [Klipper4KobraGoNeo](https://github.com/1coderookie/Klipper4KobraGoNeo).      
-    Thanks to the mentioned users there for providing the files to me!  
-    **USE AT YOUR OWN RISK!**
 
 ??? tip "Use KIAUH For Installation"
 
@@ -288,7 +283,7 @@ Before I go into further details here, let me mention some of the (imho) most im
 - You can set the area where the probing should occur in general.
 - You can even use certain macros which allow you to only probe the area you're going to print at before each print you're attempting.
 - You can create different bedmeshes for e.g. different bed temperatures which you can then load when printing different types of filament (like one bedmesh done at 60°C bedtemp for PLA and one done at 80°C bedtemp for PETG and so on).
-- You can do a bedmesh at any time without the need of setting the z-offset again (of yourse only in case you didn't change anything that had an impact on the z-offset, like tramming the bed or so).    
+- You can do a bedmesh at any time without the need of setting the z-offset again (of course only in case you didn't change anything that had an impact on the z-offset, like tramming the bed or so).    
 
 Of course Klipper supports both ABL and manual bed leveling as well. Please see the official Klipper documentation for more detailed information about this topic, I'll only mention some notes about it here in the following. So before you continue to read here, maybe check out the official Klipper documentation first and read the chapters ["Bed Level Support"](https://www.klipper3d.org/Config_Reference.html#bed-level-support) and ["Bed Level"](https://www.klipper3d.org/Bed_Level.html).  
 
@@ -374,7 +369,7 @@ So is that going to be an issue? Actually I thought the same initially and that 
 
 Just as an example:  
 
-- Klipper *keeps* the z-offset, so you don't have to fiddle arount at the control unit for that before each and every print because the stcok-fw forgot your settings once again.   
+- Klipper *keeps* the z-offset, so you don't have to fiddle around at the control unit for that before each and every print because the stock-fw forgot your settings once again.   
 - Setting temps for e.g. heating up the hotend to change a nozzle or load/unload filament can be done by using Mainsail.  
 - Initiating the ABL procedure is also be done through Mainsail, just like everything else.  
 
