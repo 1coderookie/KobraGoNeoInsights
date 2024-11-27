@@ -174,7 +174,7 @@ The following picture shows the surface of the coated plate of the **Neo** from 
 ![Close-up view of the PEI-coated plate](../assets/images/bed_closeup_web.jpg)  
 
 
-!!! warning "Attention: PEI Plate Size"  
+??? warning "Attention: PEI Plate Size"  
 
     If you're looking for a bedplate, a magnetic foil or just a PEI plate from a third party company, you need to get yourself a *230x230mm* plate, otherwise it would be too small!  
     As it seems that most parts out there are either 220x220mm or 235x235mm, get yourself the 235x235mm version then. There is about 4mm space between the z-axis aluminum frames and the original bedplate, so if you pay attention to position e.g. the bigger PEI plate from the aftermarket correctly, then it'll fit.
@@ -205,7 +205,7 @@ The bedplate is mounted onto the gantry with 4mm countersunk screws and rigid pl
 Even though this is a somewhat rigid construction (if the material of the bed gantry would be thicker..), the culprit of this solution is that you can't manually tram the bedplate if needed.  
 Besides that, an annoying problem is that the stock spacers aren't all of equal height.  
 
-!!! warning "Check The Spacers' Height"
+??? warning "Check The Spacers' Height"
 
     It's very advisable to dismount the bed, take the stock spacers out and check if they're all of the same height.  
     I'd suggest to use a digital caliper for doing so, but it you don't have one, you can also place them next to each other onto a *flat* surface and place something thin and straight ((e.g. a ruler) onto them to check and compare the height.  
@@ -214,7 +214,7 @@ Besides that, an annoying problem is that the stock spacers aren't all of equal 
 
     You could also try to shim it out of course, but especially if the differences are pretty small, then this can be a real hassle.  
 
-!!! warning "Tram The X-Gantry In Relation To The Bed!"
+??? warning "Tram The X-Gantry In Relation To The Bed!"
 
     When using the rigid stock spacers, it's crucial to [tram the x-gantry in relation to the *bed*](axes.md#tramming-the-x-axis-gantry) properly!
 
@@ -231,16 +231,16 @@ It's advisable to make sure that the bolt can't turn itself loose due to the vib
 The following picture shows the stock spacers on the left, springs in the middle and silicone spacers on the right.  
 ![Spacers](../assets/images/bed_different-spacers_web.jpg)
 
-!!! warning "Tram The X-Gantry In Relation To The Frame!"  
+??? warning "Tram The X-Gantry In Relation To The Frame!"  
 
     People often think that using adjustable spacers would be an improvement as that allows them to manually tram the bed. While this is true in the meaning that you can't trame the bed itself with rigid spacers, it's actually not necessarily true that people are actually able to achieve better results when using adjustable spacers and tramming the bed manually.  
     Not only do we have to access the screws from above here (which can be solved by drilling out the holes as mentioned above), but it can also be pretty challenging to adjust the height to get the four corners of the bed being equidistant to the nozzle with less variances than when using rigid spacers.  
     Besides that, when adjusting the height, people tend to compress the spacers too much, which then puts additional stress onto the bedplate and might lead to more warping.  
     It can also lead to the circumstance that the bedplate will be too low and that the underside will hit the mount of the Y-axis motor which then can do harm and create a shortcut to the heater coil. So pay close attention to that! 
 
-    However, when using adjustable spacers, it's crucial to [tram the x-gantry in relation to the *frame*]((axes.md#tramming-the-x-axis-gantry)!
+    However, when using adjustable spacers, it's crucial to [tram the x-gantry in relation to the *frame*](axes.md#tramming-the-x-axis-gantry)!
 
-!!! warning "Mind The Gap!"
+??? warning "Mind The Gap!"
 
     When using adjustable spacers, it's extremely important to keep an eye on the clearing underneath the bed while tramming the bed and therefore adjusting the height of the whole bedplate itself!  
     You don't want to get the bed too low so that it hits or scratches the bracket of the y-axis motor mount!  
@@ -314,7 +314,7 @@ As you can see in the picture above, also the v-slot wheels which are running al
 The belt is also attached to the gantry.  
 The y-axis limit switch is being triggered by the gantry when it's moving completely to the back.  
   
-!!! warning "Important: Check The Screws Of The Bedplate And The Gantry Of The Bed"
+??? warning "Important: Check The Screws Of The Bedplate And The Gantry Of The Bed"
 
     - Check if the screws are all tightened up. Be careful though to not overtighten the screws of the Bedplate as you may compress the little spacers underneath it and therefore the plate may become warped. On the other hand, if you see that your bed is warped somehow or that the bed is much more off in certain areas or at one side, you can check if the screws in that area might be too tightened up or too loose.  
     - Check if the bedplate itself is somehow wobbling. Not only sideways (horizontally), but also up and down (vertically). If so, not only check the v-slot wheels and maybe adjust their fitting using the eccentric nuts, also check if the screws of the gantry of the bed where the wheels are mounted to are tightened up.     
