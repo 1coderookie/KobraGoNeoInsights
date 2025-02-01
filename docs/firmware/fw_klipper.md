@@ -18,16 +18,16 @@ The [Huada HC32F460 MCU](https://github.com/Klipper3d/klipper/commit/72b6bd7efa1
     - You'd need a host to run additional software like OctoPrint or Mainsail for being able to use the printer with Klipper. See the belonging section further down below for some information and my personal recommendation abput what to use.  
     If you don't have a host running OctoPrint/Mainsail/.. yet, see the chapter ["Printserver"](../printserver.md) for some information about hardware you could use for that.    
       
----
+<!---
 
 ## What Is Klipper?
 Klipper is a 3d printer firmware and, in this case, *replaces* the stock firmware of your stock mainboard.  
 For further information about Klipper, about how to install and configure it, please refer to the [official Klipper documentation](https://www.klipper3d.org/).   
+-->  
 
 !!! warning  
 
     In the following, I **don't** give a step-by-step guide about how to install and configure Klipper, so please read the official documentation attentively!  
-      
 
 ---
   
