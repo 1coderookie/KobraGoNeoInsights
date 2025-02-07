@@ -71,7 +71,13 @@ After the plastic cover is gone, you can see the fan and the fanduct inside the 
 ![Head no cover](../assets/images/head_go_no-cover_web.jpg)   
   
 *You'll find further disassembling instructions for the ABL sensor, the feeder gear system and the hotend in the specific sections.*  
-  
+
+---
+
+### MOD: H2 V2S Revo
+
+Reddit member [OriginalName687](https://www.reddit.com/user/OriginalName687/) mounted a H2 V2S Revo at his Kobra **Go**, you can find his description at reddit [here](https://www.reddit.com/r/AnycubicKobraGo/comments/18vddnh/h2_v2s_revo_on_kobra_go_instructions_in_the/).    
+
 ---  
   
 ## Neo  
