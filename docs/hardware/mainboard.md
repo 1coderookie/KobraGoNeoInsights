@@ -103,7 +103,7 @@ User [zimmystor](https://www.reddit.com/user/zimmystor/) reported that at his Ko
 
 ---
 
-### Mainboard Cooling Fan
+## Mainboard Cooling Fan
   
 The following picture shows the fan of the mainboard. It's a 70x70x15mm, 24V, 0.08A type ("Coolcox CC7015M24S").  
 
