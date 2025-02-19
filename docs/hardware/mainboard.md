@@ -10,11 +10,6 @@
   
 The stock mainboard of both the **Go** and the **Neo** is the "TriGorilla V_3.0.6" - it's the same board, it's just flashed with the respective firmware of either model.  
 
-??? info "TriGorilla V_3.0.7 Has Been Spotted"  
-
-    User [zimmystor](https://www.reddit.com/user/zimmystor/) reported that at his Go a TriGorilla V_3.0.7 is being used. Besides a missing connector there doesn't seem to be any further differences to the V_3.0.6 board though.  
-    ![TG v3.0.7](../assets/images/mainboard_mobo-GEN307_web.jpeg)  
-
 It is a 32bit 24V mainboard with a Huada HC32F460 KCTA ARM Cortex-M4 with 192KB SRAM and 512KB Flash.  
 The speed  of the ARM chip is listed as 200MHz by the manufacturer.  
 It offers a microSD card reader, a USB-C connector and a 10 pin connector for adding the control unit.    
@@ -45,13 +40,13 @@ The microSD card reader slot and the USB-C connector can be accessed from at fro
 
 
 
-!!! danger "Add Ferrules To The 24V Wires!" 
+??? danger "Add Ferrules To The 24V Wires!" 
 
     **It's highly advisable to cut off the soldered tips of the wires without a plug (power supply and heated bed) and add ferrules to them.**  
     
     When you are screwing down the soldered tip inside the clamp, the solder will get cracked a bit and may get deformed a bit as well. When the wire gets warm due to the current and the solder gets softer, the contact may become loose which could lead to malfunction or even cause fire in the last consequence. So it's always a good idea to just use proper ferrules. <br> ![Ferrules instead of soldered tips](../assets/images/mainboard_ferrules_web.jpg)  
   
-!!! danger "Avoid Short Circuits!"  
+??? danger "Avoid Short Circuits!"  
   
     *Short circuits coming from the cartridge heater for example can/will damage your mainboard, so be careful to never cause a short circuit somehow!*  
     
@@ -61,7 +56,7 @@ The microSD card reader slot and the USB-C connector can be accessed from at fro
     
     *So always turn off the whole printer first to avoid a short circuit which will destroy your mainboard!*
 
-!!! warning "Use A USB Power Blocker"  
+??? warning "Use A USB Power Blocker"  
 
     When connecting the printer to a computer or a Raspberry Pi, it is highly recommended to use an additional USB power blocker.  
     By doing so, you make sure that neither the computer nor the mainboard will draw power through the USB-C connector from the other device. If you don't do so, it can harm your mainboard as well as your computer.  
@@ -97,6 +92,14 @@ The microSD card reader slot and the USB-C connector can be accessed from at fro
   
     - As both the **Go** and the **Neo** use the same mainboard, you can just get yourself the mainboard for the **Go** if you e.g. own a **Neo** and can't get a mainboard for it (at the time of writing this, Anycubic only offers the mainboard for the **Go** in their shop) or if you find a seller but he charges more for the **Neo** version. You just need to flash the specific firmware for the **Neo** before using the printer. 
   
+
+---
+
+## TriGorilla V_3.0.7  
+
+User [zimmystor](https://www.reddit.com/user/zimmystor/) reported that at his Kobra Go a TriGorilla V_3.0.7 is being used. Besides a missing connector it's not clear what has been changed compared to the V_3.0.6 board - it seems that the MCU and pin assignments are the same though.   
+
+![TG v3.0.7](../assets/images/mainboard_mobo-GEN307_web.jpeg)  
 
 ---
 
@@ -151,11 +154,11 @@ If you're using this kind (or a different kind) of MOSFET, you should check if t
 ![MOSFET disassembled](../assets/images/PSU_MOSFET_disassembled_web.jpg)
 
 
-!!! warning "Mind The Polarity"  
+??? warning "Mind The Polarity"  
 
     Pay attention to the polarity when connecting the components!  
 
-!!! warning "Add An Additional Fuse"
+??? warning "Add An Additional Fuse"
 
     It is highly recommended to add a suitable fuse to the 24V line, right after the connector of the PSU. If your additional parts like the converter will fail, the fuse will melt - which can save you from burning down your house.  
     
