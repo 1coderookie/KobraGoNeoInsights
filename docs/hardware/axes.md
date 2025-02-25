@@ -464,15 +464,19 @@ Please see the expandable textbox below for further instructions about how to tr
     
     - In order to **tram the x-axis gantry in relation to the bed**, so that both are as parallel as possible, take two parts of equal height like cans for example and place them onto the left and right side of the bed.  
     
-    - Lower the x-axis gantry until the aluminum frame of it touches the can(s).  
-      Make sure to have the cans positioned as far to the sides of the bed as possible, but only *that* far that *only the aluminum frame of the gantry touches them!*  
+    - Put the two objects (here: cans) on the bedplate and drive the x-axis gantry up/down until it's about 5mm lower than the cans.  
+    - Take out the two screws which attach the anti-backlash nuts to their respective mounting brackets at the x-gantry, so that you can move the x-gantry upwards without the anti-backlash nut being attached. You want the gantry to rest on the cans later *only* by it's own weight!    
+    - Now lift the gantry with your hand and slide the two cans underneath it - *don't spin the lead screw to raise the gantry!*  
+    - Make sure to have the cans positioned as far to the sides of the bed as possible, but only *that* far that *only the aluminum frame of the gantry touches them!*  
       This is crucial - you *don't* want those y-shaped metal brackets touch the cans at all!  
+    - Now lower the gantry carefully until it rests on the cans *with the rod of that linear rail* at the underside of that aluminum rail of the gantry.  
+    - Check if the 'noses' of the anti-backlash nuts still sit in that notch of those y-shaped metal brackets how it should be while there's still a little gap between the upper side of them and the corresponding mounting brackets. See the following picture for a better understanding what I'm talking about.  
+      ![Loose nut](../assets/images/axes_K2Pro_nut-loose_marked_web.jpg)  
+      If it's *not* the case and the nuts are either too low (so that those 'noses' aren't sitting in that notch) or too high (so that there isn't a gap between them and the mounting bracket), slowly turn the lead of that side accordingly until it looks like in the picture shown above.   
+    - Once you're done with that, pay close attention to the position of the gantry on those cans.  
       The following picture shows the crooked gantry resting on one can (the right one), where there's a noticeable gap between it and the left can.  
       ![Crooked gantry on cans](../assets/images/axes_NEO_untrammed-x-gantry_marked_web.jpeg)  
-      
-    - Loosen the coupler between the z-axis motor shaft and the lead screw at one side. I'd suppose to loosen the upper side where the lead screw is mounted into. Then turn the lead screw manually by hand counter clockwise to get it lifted up outside of the coupler.  
-      By doing so you achieve that there isn't any kind of force being added to that side of the gantry which will lead to a false result.  
-      You want the gantry to rest on the cans *only* by it's own weight!   
+
       
      - *Note: if you didn't take care of cleaning and lubing the lead screw yet as well as checking the whole z-axis lead screw system for perfect vertical alignment and the anti-backlash nut for a correct installation, this is the perfect time to do so! Don't skip this! Please see the belonging textbox below in the section ["Z-Axis"](#z-axis).*   
      
