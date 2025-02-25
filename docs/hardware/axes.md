@@ -469,7 +469,7 @@ Please see the expandable textbox below for further instructions about how to tr
     - Now lift the gantry with your hand and slide the two cans underneath it - *don't spin the lead screw to raise the gantry!*  
     - Make sure to have the cans positioned as far to the sides of the bed as possible, but only *that* far that *only the aluminum frame of the gantry touches them!*  
       This is crucial - you *don't* want those y-shaped metal brackets touch the cans at all!  
-    - Now lower the gantry carefully until it rests on the cans *with the rod of that linear rail* at the underside of that aluminum rail of the gantry.  
+    - Now lower the gantry carefully until it rests on the cans.  
     - Check if the 'noses' of the anti-backlash nuts still sit in that notch of those y-shaped metal brackets how it should be while there's still a little gap between the upper side of them and the corresponding mounting brackets. See the following picture for a better understanding what I'm talking about.  
       ![Loose nut](../assets/images/axes_K2Pro_nut-loose_marked_web.jpg)  
       If it's *not* the case and the nuts are either too low (so that those 'noses' aren't sitting in that notch) or too high (so that there isn't a gap between them and the mounting bracket), slowly turn the lead of that side accordingly until it looks like in the picture shown above.   
