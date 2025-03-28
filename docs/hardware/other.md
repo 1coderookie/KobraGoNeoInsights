@@ -11,8 +11,10 @@ Here you can find whatever didn't seem to fit in one of the other chapters.
 ---
   
 ## MicroSD Card
-The printers are shipped with a 8GB microSD card. If you need to replace that card with a new one, make sure to format it as FAT32. Cards up to 32GB should work.  
-It might happen though that several cards won't be accepted and the error message "SD init fail" will be reported. In that case, try to completely format it again (full format, not fast format) as FAT32. If that still doesn't solve the problem, try a different card. I personally had to try five(!) different cards of different sizes until the printer finally accepted one (actually the oldest 4GB I had laying around).  
+The printers are shipped with a 8GB microSD card.  
+If you need to replace that card with a new one, make sure to format it as FAT32.  
+Even though Anycubic recommends to keep 8GB as a limit, cards up to 32GB have been reported to work.  
+However, it might happen though that several cards won't be accepted and the error message "SD init fail" will be reported. In that case, try to completely format it again (full format, not fast format) as FAT32. If that still doesn't solve the problem, try a different card. I personally had to try five(!) different cards of different sizes until the printer finally accepted one (actually the oldest 4GB I had laying around). See this blog article from Anycubic for some further possible solutions: https://store.anycubic.com/blogs/3d-printing-guides/fix-anycubic-3d-printer-not-reading-sd-card   
 
 ---
 
