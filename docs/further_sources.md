@@ -13,7 +13,8 @@ In the following you'll find some further sources for certain kind of informatio
 Here of course the [Anycubic website](https://www.anycubic.com) has to be mentioned first.  
 You can find [manuals and firmware](https://www.anycubic.com/pages/firmware-software) at their support page.  
 They also produced some video tutorials about e.g. changing the printhead or the mainboard for the **Go** and the **Neo**. You can find them at their [guide videos page](https://www.anycubic.com/pages/guide-videos).  
-Pretty much all of these information are also available at their [blog page](https://www.anycubic.com/blogs/news/all-you-need-to-know-about-kobra-series).  
+Pretty much all of these information are also available at their [blog page](https://www.anycubic.com/blogs/news/all-you-need-to-know-about-kobra-series).   
+Anycubic also set up a Wiki for their printers: [Wiki Kobra Go](https://wiki.anycubic.com/en/fdm-3d-printer/kobra-go) and [Wiki Kobra Neo](https://wiki.anycubic.com/en/fdm-3d-printer/kobra-neo). 
 
 ---
 
