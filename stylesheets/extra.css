@@ -1,0 +1,12 @@
+:root {
+.md-typeset__body {
+  font-size: .75rem;
+  }	
+.md-typeset__admonition {
+  font-size: .65rem;
+  }
+.md-typeset table:not([class]) {
+  font-size: .65rem;
+  }
+
+}
