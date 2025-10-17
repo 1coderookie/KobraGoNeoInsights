@@ -186,7 +186,7 @@ See the section ["Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY"](#err-mintempmaxtempther
 If you face **homing problems** of  
 
 - the **x- or y-axis**, like the printhead crashes into the limit switch and doesn't seem to stop trying to move (which most likely makes an awful sound as well), please see the section ["Homing Failed: X/Y](#homing-failed-xy).
-- the **z-axis**, then it's most likely either a wiring problem (like a broken wire or a loose or unplugged connector) or a faulty switch. Of course the mainboard might be defective as well, but this is more unlikely (imho) if you didn't create a shortcut or so.  
+- the **z-axis**, then it's most likely either a wiring problem (like a broken wire or a loose or unplugged connector) or a faulty switch. Of course the mainboard might be defective as well, but this is more unlikely (imho) if you didn't create a short circuit or so.  
   So first of all check if the little metal piece at the x-axis gantry which triggers the switch really is in the correct position to trigger the switch.  
   Check if the wiring of the switch is correct and if the connectors are plugged in at both the limit switch as well as at the mainboard.  
   You can also measure the wire with a multimeter to see if you face a broken wire.  
@@ -291,7 +291,7 @@ Reasons that can cause this might vary from being easy to fix to a real hardware
 - The thermistor wire is completely broken or ripped off.  
 - The thermistor itself is faulty.  
 - The plug of the thermistor wire at the mainboard somehow came off.  
-- An electronic component of the mainboard is broken (e.g. due to a shortcut).   
+- An electronic component of the mainboard is broken (e.g. due to a short circuit).   
 
 If the error pops up while the printer is moving or printing, then it's most likely one of the first two things I mentioned above.  
 It might also be the third point as a broken wire loses contact due to movements and therefore the resistance becomes bigger (if just a few strands of the wire are broken inside of the insulation) or the signal won't be transmitted anymore at all (if the wire is completely broken).  
@@ -331,7 +331,7 @@ Reasons that can cause this might vary from being easy to fix to a real hardware
 - The thermistor wire is completely broken or ripped off.  
 - The thermistor itself is faulty.  
 - The plug of the thermistor wire at the mainboard somehow came off.  
-- An electronic component of the mainboard is broken (e.g. due to a shortcut).   
+- An electronic component of the mainboard is broken (e.g. due to a short circuit).   
 
 If the error pops up while the printer is moving or printing, then it's most likely one of the first two things I mentioned above.    
 It's actually *most likely that you're dealing with broken wires* - that's a pretty common issue, as they are made of poor quality and tend to brake over time due to the movement. In this case broken strands of the wires (inside of the insulation) temporary lose contact due to the movement of the bed and wires and therefore the resistance fluctuates, which results in a fluctuating temperature reading. The more wires break and the more permament this 'gap' between the broken wires will be, the more 'permanent' this problem will be until to the point that all wires broke and the signal won't be transmitted anymore at all. At this stage the error message will pop up right away when you turn on the printer.    
@@ -358,7 +358,7 @@ This occurs when either
 - the belonging switch isn't installed correctly and therefore can't be properly triggered by the belonging part of the head or the bed, 
 - the wiring is faulty (e.g. a loose connector either at the belonging switch or at the mainboard, a broken wire),
 - the limit switch itself is faulty, 
-- the mainboard is damaged (which ususally is pretty unlikely if you didn't somehow create a shortcut or so).  
+- the mainboard is damaged (which ususally is pretty unlikely if you didn't somehow create a short circuit or so).  
 
 To determine whether it's the position, the wiring or the switch (as these are the most likely reasons), check the position of the switch and the plastic cap first. Make sure it's properly installed and the belonging part of either the head of the bed touches the metal lever of the switch properly, so that the switch itself really will be triggered. You can do so by manually moving the head or bed towards the switch while observing it.   
 

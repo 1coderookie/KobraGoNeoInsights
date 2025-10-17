@@ -143,7 +143,7 @@ However, when you want to use e.g. 12V fans which speeds are usually controlled 
 ## MOD: Add Additional Fuses To The 24V DC Wiring 
 
 It is highly recommended to add a fuse or a fusebox to each of the 24V lines. Pay attention to choose the correct 'size' of the fuse for the belonging part (ampere rating).  
-Doing so can save you from burning down your house if components fail or if the wires somehow overheat and start to burn due to broken strands (which causes a higher resistance) or a shortcut.  
+Doing so can save you from burning down your house if components fail or if the wires somehow overheat and start to burn due to broken strands (which causes a higher resistance) or a short circuit.  
 
 (..need to add pic..)
 

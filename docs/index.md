@@ -75,7 +75,7 @@ Please mind the **search field** in the header as well as the icon in the header
     - Thanks to **[GruesomeJeans](https://www.reddit.com/user/GruesomeJeans)** for taking pictures of the spare parts of the bed, the magnetic foil, the mounted z-axis limit switch and the ruby tipped nozzle!  
     - Thanks to **[Imaginary_Gift_8533](https://www.reddit.com/user/Imaginary_Gift_8533/)** for allowing me to use his picture of the wear & tear of his wheels!  
     - Thanks to **[I_Sells_Drugs](https://www.reddit.com/user/I_Sells_Drugs/)** for taking pictures of his sheared off heatbreak!
-    - Thanks to **[Island-Strange](https://www.reddit.com/user/Island-Strange/)** for taking a picture of his shortcut bed!  
+    - Thanks to **[Island-Strange](https://www.reddit.com/user/Island-Strange/)** for taking a picture of his short circuit bed!  
     - Thanks to **[Jaximus](https://www.reddit.com/user/Jaximus)** for allowing me to use the picture of the slipped out cartridge heater!  
     - Thanks to **[JD154](https://github.com/JD154)** for the pics of and notes about the aluminum belt tensioners!  
     - Thanks to **[jokubasver](https://github.com/jokubasver)** for taking that screenshot of the config settings for compiling the klipper.bin and for allowing me to use his picture of the stock control unit being used for KlipperScreen!  

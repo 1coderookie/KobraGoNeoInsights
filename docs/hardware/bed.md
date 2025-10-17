@@ -236,7 +236,7 @@ The following picture shows the stock spacers on the left, springs in the middle
     People often think that using adjustable spacers would be an improvement as that allows them to manually tram the bed. While this is true in the meaning that you can't trame the bed itself with rigid spacers, it's actually not necessarily true that people are actually able to achieve better results when using adjustable spacers and tramming the bed manually.  
     Not only do we have to access the screws from above here (which can be solved by drilling out the holes as mentioned above), but it can also be pretty challenging to adjust the height to get the four corners of the bed being equidistant to the nozzle with less variances than when using rigid spacers.  
     Besides that, when adjusting the height, people tend to compress the spacers too much, which then puts additional stress onto the bedplate and might lead to more warping.  
-    It can also lead to the circumstance that the bedplate will be too low and that the underside will hit the mount of the Y-axis motor which then can do harm and create a shortcut to the heater coil. So pay close attention to that! 
+    It can also lead to the circumstance that the bedplate will be too low and that the underside will hit the mount of the Y-axis motor which then can do harm and create a short circuit to the heater coil. So pay close attention to that! 
 
     However, when using adjustable spacers, it's crucial to [tram the x-gantry in relation to the *frame*](axes.md#tramming-the-x-axis-gantry)!
 
@@ -245,10 +245,10 @@ The following picture shows the stock spacers on the left, springs in the middle
     When using adjustable spacers, it's extremely important to keep an eye on the clearing underneath the bed while tramming the bed and therefore adjusting the height of the whole bedplate itself!  
     You don't want to get the bed too low so that it hits or scratches the bracket of the y-axis motor mount!  
      
-    The following pictures show the result of a bed which as been adjusted too low, so that the metal bracket of the y-axis motor mount scratched the underside of the bed. The heating coils got harmed and a shortcut occured. Not only will you have to get yourself a new bed in this case, this can also destroy the mainboard or do even more severe harm!  
+    The following pictures show the result of a bed which as been adjusted too low, so that the metal bracket of the y-axis motor mount scratched the underside of the bed. The heating coils got harmed and a short circuit occured. Not only will you have to get yourself a new bed in this case, this can also destroy the mainboard or do even more severe harm!  
 
-    ![Bed PCB shortcut](../assets/images/bed_shortcut_wide_web.jpeg)  
-    ![Bed PCB shortcut closeup](../assets/images/bed_shortcut_web.jpeg)
+    ![Bed PCB short circuit](../assets/images/bed_shortcut_wide_web.jpeg)  
+    ![Bed PCB short circuit closeup](../assets/images/bed_shortcut_web.jpeg)
    
     Also when adding insulation to the underside of the bed, the clearance has to be checked to avoid that the mounting plate will tear off the insulation!  
 
@@ -269,10 +269,10 @@ I personally used 8x25mm springs (the yellow ones shown above) and M4x40mm count
     When using adjustable spacers, it's extremely important to keep an eye on the clearing underneath the bed while tramming the bed and therefore adjusting the height of the whole bedplate itself!  
     You don't want to get the bed too low so that it hits or scratches the bracket of the y-axis motor mount!  
      
-    The following pictures show the result of a bed which as been adjusted too low, so that the metal bracket of the y-axis motor mount scratched the underside of the bed. The heating coils got harmed and a shortcut occured. Not only will you have to get yourself a new bed in this case, this can also destroy the mainboard or do even more severe harm!  
+    The following pictures show the result of a bed which as been adjusted too low, so that the metal bracket of the y-axis motor mount scratched the underside of the bed. The heating coils got harmed and a short circuit occured. Not only will you have to get yourself a new bed in this case, this can also destroy the mainboard or do even more severe harm!  
 
-    ![Bed PCB shortcut](../assets/images/bed_shortcut_wide_web.jpeg)  
-    ![Bed PCB shortcut closeup](../assets/images/bed_shortcut_web.jpeg)
+    ![Bed PCB short circuit](../assets/images/bed_shortcut_wide_web.jpeg)  
+    ![Bed PCB short circuit closeup](../assets/images/bed_shortcut_web.jpeg)
    
     Also when adding insulation to the underside of the bed, the clearance has to be checked to avoid that the mounting plate will tear off the insulation!    
 
@@ -288,10 +288,10 @@ Keep in mind that the silicone spacers (I used 18mm long ones shown below) compr
     When using adjustable spacers, it's extremely important to keep an eye on the clearing underneath the bed while tramming the bed and therefore adjusting the height of the whole bedplate itself!  
     You don't want to get the bed too low so that it hits or scratches the bracket of the y-axis motor mount!  
      
-    The following pictures show the result of a bed which as been adjusted too low, so that the metal bracket of the y-axis motor mount scratched the underside of the bed. The heating coils got harmed and a shortcut occured. Not only will you have to get yourself a new bed in this case, this can also destroy the mainboard or do even more severe harm!  
+    The following pictures show the result of a bed which as been adjusted too low, so that the metal bracket of the y-axis motor mount scratched the underside of the bed. The heating coils got harmed and a short circuit occured. Not only will you have to get yourself a new bed in this case, this can also destroy the mainboard or do even more severe harm!  
 
-    ![Bed PCB shortcut](../assets/images/bed_shortcut_wide_web.jpeg)  
-    ![Bed PCB shortcut closeup](../assets/images/bed_shortcut_web.jpeg)
+    ![Bed PCB short circuit](../assets/images/bed_shortcut_wide_web.jpeg)  
+    ![Bed PCB short circuit closeup](../assets/images/bed_shortcut_web.jpeg)
    
     Also when adding insulation to the underside of the bed, the clearance has to be checked to avoid that the mounting plate will tear off the insulation!       
 
@@ -651,7 +651,7 @@ The following expandable textboxes will give you some basic instructions what yo
     
     However, *it's advisable to measure the resistance, even though your multimeter offers the function of probing for continuity,* because it might be the case that a wire still passes the check for continuity, but that individual strands of the wire are broken. This causes problems if those strands lose contact permanently or during movement of the bed, as it leads to a higher resistance.  
     
-    - At the 24V wires this can lead to the circumstance that the wire will get hot at that spot, that the insulation will melt, that a shortcut might occur and it might even occur that it causes a fire.   
+    - At the 24V wires this can lead to the circumstance that the wire will get hot at that spot, that the insulation will melt, that a short circuit might occur and it might even occur that it causes a fire.   
     - At the thermistor wires this can cause the [ERR: MINTEMP](../troubleshooting.md#err-mintempmaxtempthermal-runaway) error message. When the problem of breaking strands starts to occur, you'll experience the upcoming of this error message when the bed is moving and reaches a certain position. In that case those broken strands lose contact, which leads to a suddenly changing resistance value. As the temperature is interpreted by the reisistance value of the bed's thermistor, a suddenly changing resistance is interpreted as a sudden change in the temperature. If this change is 'big' enough, the belonging error message will be triggered.     
     
     **Procedure:**  
@@ -724,7 +724,7 @@ If you encounter a **faulty wiring, either of the 24V line or the thermistor,** 
     - If you need to replace the wiring of the 24V heater circuit of the bed, use highly flexible wire with many thin strands and a silicone insulation! *Don't* use a wire with a PVC insulation!  
     - Use at least AWG14 wire, preferrably thicker.  
     - Add [ferrules] to the end of the wires which connects to the screw terminals of the mainboard!
-    - Pay attention to proper soldering! Avoid any shortcuts, cold solder joints etc.  
+    - Pay attention to proper soldering! Avoid any short circuits, cold solder joints etc.  
     - If you can't solder and you *absolutely* don't have any other possibility to have the soldering done by someone who is experienced in this, you might use special connectors.  
     - In that case you leave e.g. an inch of the original wiring at the bed (assuming that the faulty spot isn't located there - check that beforehand!) and then connect the new wire with the existing one.  
     - If you do so, pay special attention to add a proper strain relief - no strain or movement *at all* should occur at the fixed part of the wire!  
@@ -735,7 +735,7 @@ If you encounter a **faulty wiring, either of the 24V line or the thermistor,** 
     
     - If you need to replace the wiring of the thermistor of the bed, use highly flexible wire with many thin strands and a silicone insulation! *Don't* use a wire with a PVC insulation!  
     - Use at least AWG22 wire, preferrably thicker.  
-    - Pay attention to proper soldering! Avoid any shortcuts, cold solder joints etc.  
+    - Pay attention to proper soldering! Avoid any short circuits, cold solder joints etc.  
     - If you can't solder and you *absolutely* don't have any other possibility to have the soldering done by someone who is experienced in this, you might use special connectors.  
     - If you want to do so, leave e.g. an inch of the original wiring at the bed (assuming that the faulty spot isn't located there - check that beforehand!) and then connect the new wire with the existing one.  
     - *If you do so, pay special attention to add a proper strain relief - no strain or movement at all should occur at the fixed part of the wire!*   
