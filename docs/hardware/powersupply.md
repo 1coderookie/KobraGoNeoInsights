@@ -54,7 +54,7 @@ On the very left side you can see a green LED and right next to it a white poten
 
     It must be said at this point that you shouldn't open the PSU.  
     However, *if* you have to do so, make sure to *not touch* any parts on the inside!  
-    **There are capacitors built in which can give you severe eletrical shocks even if the machine isn't plugged in or switched on as they store electricity!** 
+    **There are capacitors built in which can give you severe electrical shocks even if the machine isn't plugged in or switched on as they store electricity!** 
 
 The following picture shows the PCB of the PSU - the fan isn't plugged in, the belonging connector is the white two-pin connector in the upper left edge area of the board.    
 
@@ -78,7 +78,7 @@ The fan is a 60x60x15mm, 24V, 0.10A type ("Cheng Liang CHA6024RL-15B").
 
     It must be said at this point that you shouldn't open the PSU.  
     However, *if* you have to do so, make sure to *not touch* any parts on the inside!  
-    **There are capacitors built in which can give you severe eletrical shocks even if the machine isn't plugged in or switched on as they store electricity!** 
+    **There are capacitors built in which can give you severe electrical shocks even if the machine isn't plugged in or switched on as they store electricity!** 
 
 
 The fan of the PSU is pretty loud, so one of the first things one wants to change is probably to mount a different fan. The fan itself isn't actually that loud though, the noise is mostly created by the way the cover of the PSU housing inhibits the airflow.  
@@ -100,7 +100,7 @@ The following picture shows the PSU mounted again.
 
 ![Modded PSU mounted](../assets/images/PSU_altcover-mounted_web.jpg)  
 
-As this lid sticks out a few milimeters and the clearance is already pretty low with the stock setup, I raised the printer a bit by mounting slightly taller feet I had laying around. You can also print some risers which can be plugged onto the existing feet.   
+As this lid sticks out a few millimeters and the clearance is already pretty low with the stock setup, I raised the printer a bit by mounting slightly taller feet I had laying around. You can also print some risers which can be plugged onto the existing feet.   
 If you do so and you're using Klipper and resonance compensation (aka Input Shaping), keep in mind that the vibrational behaviour will change and you therefore should execute a new resonance measurement. 
 
 **UPDATE:**  
@@ -152,9 +152,9 @@ Doing so can save you from burning down your house if components fail or if the 
 ## MOD: Add An External MOSFET  
 
 It's advisable to add an external MOSFET for driving the heated bed (if you like, you can also add one for the heater cartridge as well of course). Even though the MOSFET on the mainboard is sufficient, it's an upgrade worth doing as it not only leads to the fact that the bed will be heated up slightly faster, but it also increases the security of the hole printer.  
-The MOSFET of the mainboard doesn't have a heatsink and it *may* caused by overheating due to an excessive amount of current being drawn, especially when using higher bed temperatures. Due to the low clearance between the fan of the moainboard and the ground the printer stands on, the cooling isn't the best as well. When using an enclosure which then heats up as well, cooling gets even worse.  
-If the board's MOSTFET dies, you most likely have to get a whole new mainboard then. Even though it's possible to solder a new one onto the board (if you're skilled to do that), additional components might have been harmed.  
-To avoid that, it's therefore adviseable to add an external MOSFET which then takes the load - the one on the mainboard only acts as a signal for the external one to switch.  
+The MOSFET of the mainboard doesn't have a heatsink and it *may* caused by overheating due to an excessive amount of current being drawn, especially when using higher bed temperatures. Due to the low clearance between the fan of the mainboard and the ground the printer stands on, the cooling isn't the best as well. When using an enclosure which then heats up as well, cooling gets even worse.  
+If the board's MOSFET dies, you most likely have to get a whole new mainboard then. Even though it's possible to solder a new one onto the board (if you're skilled to do that), additional components might have been harmed.  
+To avoid that, it's therefore advisable to add an external MOSFET which then takes the load - the one on the mainboard only acts as a signal for the external one to switch.  
 
 The 24V DC of the PSU will be connected to the belonging connector of the external MOSFET. The 24V DC line from the heated bed screw terminals will be connected with the belonging connector of the external MOSFET and the 24V DC wires of the heated bed will then be connected to the outlet of the external MOSFET. When the mainboard switches the onboard MOSFET, it will then trigger the external one to switch and lead the current to the heated bed.  
 There are a few external MOSFETs on the market, most of them only have a "signal" connector. When using a mainboard with a dedicated 'signal' connector for this, it's then connected to that one. When using a mainboard that doesn't have this 'signal' connector like the one being used at these printers, then it's said to connect the 24V from the bed's connector of the mainboard to that.  

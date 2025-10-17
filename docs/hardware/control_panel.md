@@ -24,7 +24,7 @@ The display also displays error messages if any severe errors occur. See the sec
 ??? tip "Bed Level Visualization"
 
     The display does *not* show a meshview or the values of the measured points after you proceeded the bed level function when using the stock firmware. If you'd like to see that, you'd usually have to use additional software like the beforementioned [Octoprint](https://octoprint.org/) and an additional plugin for visualization like the [Bed Level Visualizer](https://plugins.octoprint.org/plugins/bedlevelvisualizer/).  
-    However, you mght find this function activated within a modified version of the stock firmware, made by users. See the section ["Mods"](../firmware/fw_marlin.md#mods) in the chapter ["Stock Firmware (Marlin Based)"](../firmware/fw_marlin.md) for some links.    
+    However, you might find this function activated within a modified version of the stock firmware, made by users. See the section ["Mods"](../firmware/fw_marlin.md#mods) in the chapter ["Stock Firmware (Marlin Based)"](../firmware/fw_marlin.md) for some links.    
   
 
 ---
