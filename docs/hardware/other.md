@@ -25,11 +25,11 @@ If you'd know the weight of the empty spool, you could (more or less precise) ca
 So if you have a favoured brand and an empty spool already, measure the weight of it and keep it in mind (or on a Post-It note ;) ).  
 But what if you don't have an empty spool you could measure? In that case I have your back covered - check out [this Wiki](https://3dprintingwiki.mywikis.wiki/wiki/Spool_weight) which lists many brands and the weights of the belonging spools. (If your specific type isn't listed, please reach out to the creators of that Wiki once your spool is empty and you were able to get the specific weight!)  
 
-??? example "Calculating The Amoung Of Filament"  
+??? example "Calculating The Amount Of Filament"  
 
     It's said that a regular 1kg spool of 1.75mm filament contains about 330m of filament.  
     To be on the safe side, I personally calculate with 300m per 1kg. That means 1000g = 300m, 100g = 30m and 10g = 1m.  
-    So when you wanna roughly calculate the amount of filament left on the spool before or even while printing, put the spool on a kitchen scale and read the weight. Then substract the spool's weight and you have the amount of filament left in grams. Convert that to meters and you'll get an idea if you're on the safe side or if you should have a new spool on hand.  
+    So when you wanna roughly calculate the amount of filament left on the spool before or even while printing, put the spool on a kitchen scale and read the weight. Then subtract the spool's weight and you have the amount of filament left in grams. Convert that to meters and you'll get an idea if you're on the safe side or if you should have a new spool on hand.  
     
     Example:  
     I'm using AzureFilm filament which comes with the newer spool design, those black ones with the holes. The spool's weight is 220g.  
@@ -101,7 +101,7 @@ The following picture shows the skirt of a fresh spool of high quality filament 
 
 ![Wet vs dry filament](../assets/images/wet-filament_web.jpg)
 
-To actively dry filament, you need to heat up the entire spool for a few hours and let the mositure evaporate.  
+To actively dry filament, you need to heat up the entire spool for a few hours and let the moisture evaporate.  
 You can either do so by using a dedicated filament dryer, a modified food dehydrator or just the heated bed of your printer.  
 *You should not use your kitchen oven though!*   
 
@@ -138,8 +138,8 @@ You can find various models for different dehydrators at e.g. Printables, so may
 ---
 
 ### Heated Bed 
-If the firmware of your printer allows to have the bed staying heated throughut several hours without actually printing something, you can also use your heated bed to actively dry your filament.  
-The cheapest and esiest solution is to place two long, thin and flat (~5mm) pieces of wood across the bed. On there, you put the spool flat/horizontally (= not standing upright) and then put a cardboard box over the spool. Make sure both the spool and the cardboard box are resting on the wooden sticks to allow circulation of the air. Poke some holes in the top of the cardboard box to allow that the moisture can evaporate.  
+If the firmware of your printer allows to have the bed staying heated throughout several hours without actually printing something, you can also use your heated bed to actively dry your filament.  
+The cheapest and easiest solution is to place two long, thin and flat (~5mm) pieces of wood across the bed. On there, you put the spool flat/horizontally (= not standing upright) and then put a cardboard box over the spool. Make sure both the spool and the cardboard box are resting on the wooden sticks to allow circulation of the air. Poke some holes in the top of the cardboard box to allow that the moisture can evaporate.  
 
 
 
@@ -147,12 +147,12 @@ The cheapest and esiest solution is to place two long, thin and flat (~5mm) piec
     
 ## Filament Storage  
 
-Storing your filament in a way that it's not only protected from dust and UV light, but also from moisture is the way to go. As always, you have plenty of options. You could put the used spool back in a bag and vaccum and seal it, use re-usable plastic bags with a zipper and a hole for using a pump to create a vaccum, put all of your spools in a big box which is as much sealed as possible or use individual sealed containers for each spool - just to name a few.  
+Storing your filament in a way that it's not only protected from dust and UV light, but also from moisture is the way to go. As always, you have plenty of options. You could put the used spool back in a bag and vacuum and seal it, use re-usable plastic bags with a zipper and a hole for using a pump to create a vacuum, put all of your spools in a big box which is as much sealed as possible or use individual sealed containers for each spool - just to name a few.  
 After doing some tests with different storage solutions and measuring the humidity over time, I personally decided to go with the last option I just mentioned - and after observing the stability of the humidity and the filament, I really can recommend it. So let me go a bit into details about it.  
 
 I got myself some of those sealed cereal containers in the size of 4l (size is about ). The 1kg spools fit in there perfectly (at least the ones I tested - I didn't test the brands with those spools made from cardbox though and therefore I don't know if those may vary in the size), 2kg spools don't fit. These containers come with a sealed lid you can clip on the container.  
 I printed a little mount for those cheap rectangular hygrometers and printed a mini spool holder as well, just to keep the spool in place a bit better (this isn't necessary though). I then also bought a big amount of silica gel (desiccant) and put 200g of it into some thin lady socks (I also tested those small packages which come with the spools, but those ones just don't take enough moisture imho). I got the orange version of the silica gel which turns to a dark green when being moist (don't get the stuff that turns blue as that's toxic) as it makes it easier to judge by a quick glance if the desiccant is still good to use.  
-Adding some labels to the box helps identifying the different types of filament without the need to open the box and thake out the spool. I didn't type the colour, as I'm able to identify that through the box.  
+Adding some labels to the box helps identifying the different types of filament without the need to open the box and take out the spool. I didn't type the colour, as I'm able to identify that through the box.  
 
 So, adding that 200g bag into an empty container got the humidity down to 10%. That was stable across time. After adding a fresh spool right out of the sealed bag, the humidity usually raised up to something between ~40-50%, which then dropped down to 10% again over time. This value was stable then over time. In my opinion this method doesn't only keep the humidity inside of the container low but it also dries the filament over time.   
 
@@ -176,7 +176,7 @@ If you want to feed the filament right out of the box, I'd suggest to add a ball
 
 ## Printer Enclosure
 
-Using an enclosure has clear advantages and is even necessary for succesfully print certain types of filament.  
+Using an enclosure has clear advantages and is even necessary for successfully print certain types of filament.  
 However, it might cause some problems as well.  
 So here are a few things I'd like to mention about enclosures in general.   
 
@@ -192,7 +192,7 @@ The upsides though can clearly make up the beforementioned issues:
 - Your machine is protected from dust, pet hair and so on.  
 - Depending on the design of the enclosure, you'll achieve a reduction of the noises and the fumes.  
 - Printing certain types of filament will not only become easier (like PETG for example which is already pretty sensitive to a cool airstream hitting the bed), some even require the usage of an enclosure, like ABS for example.  
-- You can integrate certain security functions like a smoke detector and even a fire distinguisher, which can reduce the risk of a fire hazard massively. This is highly dependant on the material the enclosure is built from though - if you're using highly flammable material for insulating the inner parts of the enclosure of if you're building the enclosure from wood, then of course the whole enclosure itself will increase the risk as mentioned above. So make sure you're using proper material.  
+- You can integrate certain security functions like a smoke detector and even a fire extinguisher, which can reduce the risk of a fire hazard massively. This is highly dependant on the material the enclosure is built from though - if you're using highly flammable material for insulating the inner parts of the enclosure of if you're building the enclosure from wood, then of course the whole enclosure itself will increase the risk as mentioned above. So make sure you're using proper material.  
 
 When thinking about using an enclosure, you'd have to think about the design itself, the size and the materials.  
 If you have no idea to start from, you can find countless solutions as an inspiration across the web (a pretty popular and easy to build solution is the "IKEA Lack enclosure").  
@@ -216,7 +216,7 @@ When looking at the generic tent which in my case was branded by Sunlu, it hits 
 The 'aluminum' is applied as some sort of sprayed on layer, there is no insulation between the outer material and the aluminum foil at the inside as there's just one layer of material.   
 If you place a lamp inside the enclosure, you can see the light shining through the material (in the picture of the closed tent above you might be able to tell the reflecting spots, this is the aluminum coating shining through the outer material!) - I think this already speaks for itself. As expected, the insulating effect on noise, temperatures and fumes therefore is only small.  
 The zipper isn't covered in any way and it doesn't appear to be made of a high quality anyway.  
-The rods are made from fibreglas, the parts where the rods are being stuck into are made from plastic.  
+The rods are made from fiberglass, the parts where the rods are being stuck into are made from plastic.  
 The following pictures show some close-up views of the material and the zipper.  
 
 | Zipper | Material | 
@@ -226,7 +226,7 @@ The following pictures show some close-up views of the material and the zipper.
 
 You can open that front door completely all across the top.  
 There's an additional opening at the left side which allows accessing the machine or feeding filament from outside - keep in mind though that this will lead to the fact that the heat won't be trapped inside anymore and airstreams could hit the bedplate.  
-On the right side some pocketss for storing smaller parts are applied.   
+On the right side some pockets for storing smaller parts are applied.   
 The following picture shows the left side of the enclosure with the part which can be opened.   
 
 ![Sunlu left side](../assets/images/enclosure_Sunlu_left-side_web.jpg)
@@ -257,15 +257,15 @@ The following pictures show some close-up views of the material and the zipper. 
 | ![SainSmart zipper](../assets/images/enclosure_SainSmart_closeup-zipper_web.jpg) | ![SainSmart material](../assets/images/enclosure_SainSmart_material-foam_web.jpg) |  
 
 The front door can be opened all across the top as well and there is an additional opening at the top which can be used while the tent is closed.  
-On the left side some pocekts for storing smaller parts are applied as well as some belts for e.g. hanging up filament spools.  
-On the right side there's an additional oopening as well which allows you to access the machine from the side.  
+On the left side some pockets for storing smaller parts are applied as well as some belts for e.g. hanging up filament spools.  
+On the right side there's an additional opening as well which allows you to access the machine from the side.  
 
 | Left side | Top side | Right side |
 |:---------:|:--------:|:----------:|
 | ![Left side](../assets/images/enclosure_SainSmart_left-side_web.jpg) | ![Top side](../assets/images/enclosure_SainSmart_top-lid_web.jpg) | ![Right side](../assets/images/enclosure_SainSmart_right-side_web.jpg) |
 
 Due to the better quality, I personally used this tent for one of my Kobra Neos which only prints other types of filament than PLA in the first place.  
-But because the quality is just so much better than the quality of the generic one mentioned above, I ended up getting more of these enclosure from SainSmart and only use these ones now. Compared to the generic one, it's really impressive how much quieter the printer is and how much better the fumes are being kept iniside.  
+But because the quality is just so much better than the quality of the generic one mentioned above, I ended up getting more of these enclosure from SainSmart and only use these ones now. Compared to the generic one, it's really impressive how much quieter the printer is and how much better the fumes are being kept inside.  
 
 UPDATE: I gave the 'generic' one away to a friend and got myself some more of the SainSmart enclosures when they were on sale. The quality is just outstanding compared to the 'generic' one I showed. I even got myself more than I actually needed - just in case I'll get another machine. My cat loves them as well - she immediately seized the packages when I was setting up a new one..  
 
@@ -281,7 +281,7 @@ Judging by the product images being available, I *assume* the quality of the enc
 ---
   
 ## Mods
-In the following I'll list mods or STL files I found which could be interesting in general. Keep in mind that they mostly should fit for both printers in general due to the identical design and contruction itself, so (right now) I don't separate them into **Go** and **Neo** like usually.    
+In the following I'll list mods or STL files I found which could be interesting in general. Keep in mind that they mostly should fit for both printers in general due to the identical design and construction itself, so (right now) I don't separate them into **Go** and **Neo** like usually.    
 
 - [Gregg Bennett](https://www.printables.com/de/social/221278-greg-bennett) created [risers](https://www.printables.com/de/model/394918-anycubic-kobra-neo-risers) which slip on the feet of the printer to rise up the whole construction allowing a better airflow for the fans of the mainboard and the power supply unit.  
 - [Lohtex](https://www.printables.com/de/social/546846-lohtex) created [bed spacers](https://www.printables.com/de/model/376710-anycubic-kobra-go-bed-spacers) which could be used to replace the stock ones if they're completely different in their size.  

@@ -14,7 +14,7 @@ Here you can read a [blog article from Anycubic](https://www.anycubic.com/blogs/
   
 ??? tip "Be Aware Of Different Settings"
 
-    Because of the different types of extruder systems you have to be aware of certain settings like in the slicer you're using and also in alternative firmware like Klipper. In both cases you need to keep an eye on the rectration distance - this is *very* important!  
+    Because of the different types of extruder systems you have to be aware of certain settings like in the slicer you're using and also in alternative firmware like Klipper. In both cases you need to keep an eye on the retraction distance - this is *very* important!  
     
     *The profile (for the slicer) for the* ***Neo*** *Anycubic is offering has a* ***wrong*** *retraction distance set!*  
     

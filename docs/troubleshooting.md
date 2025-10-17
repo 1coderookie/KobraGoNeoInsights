@@ -20,7 +20,7 @@ There are many pages and troubleshooting guides out there to find, so maybe do a
 However, to offer you an easier start right away, I'd like to mention a few troubleshooting guides here as well:  
 
 - The [troubleshooting page from TeachingTech](https://teachingtechyt.github.io/troubleshooting.html).
-- The [Print Quality Troubleshooting Guide](https://www.simplify3d.com/resources/print-quality-troubleshooting/) from [Simplyfy 3D](https://www.simplify3d.com). 
+- The [Print Quality Troubleshooting Guide](https://www.simplify3d.com/resources/print-quality-troubleshooting/) from [Simplify 3D](https://www.simplify3d.com). 
 - The [3D Printer Troubleshooting Guide](https://www.matterhackers.com/articles/3d-printer-troubleshooting-guide) from [Matterhackers](https://www.matterhackers.com).  
 
 If you're (also) looking for tuning and calibration guides, see the chapter ["Calibration"](calibration.md) for some links.  
@@ -44,14 +44,14 @@ If you're having the problem that your first layer isn't consistent across the p
   For PLA for example it should be around 55°C - don't exceed 60°C for PLA as that's already the glass transition temperature of PLA (means, that's where the filament starts to get soft). For PETG I personally have to use 80°C.   
 - Turn off the part cooling fan when printing the first (few) layer(s) and use the correct fanspeed depending on your filament (e.g.: PLA needs a lot of cooling, PETG needs usually less cooling).     
 - Also make sure that you [trammed the x-axis gantry](hardware/axes.md#tramming-the-x-axis-gantry), so that the nozzle has the same distance to the plate across the whole area. This might not be enough though if you're encountering a tilted bed along the y-axis, so check the next listing.
-- Check the whole construction and the frame of the printer itself. Everthing has to be set up being square, parallel, perpendicular and equidistant to each other. If the frame isn't trammed and e.g. the Y-axis is being mounted crooked or tilted (which is possible due to play in the whole construction), then you'll never be able to get perfect prints.  
-- If you're using the rigid stock spacers (the black round parts between the bedplate and the bedgantry) that came with the printer, then it's most likely that they're not all of the same height (at my Neo they *all* had a different height!). Of course that'll lead to a somewhat warped or tilted bed.  
+- Check the whole construction and the frame of the printer itself. Everything has to be set up being square, parallel, perpendicular and equidistant to each other. If the frame isn't trammed and e.g. the Y-axis is being mounted crooked or tilted (which is possible due to play in the whole construction), then you'll never be able to get perfect prints.  
+- If you're using the rigid stock spacers (the black round parts between the bedplate and the bed gantry) that came with the printer, then it's most likely that they're not all of the same height (at my Neo they *all* had a different height!). Of course that'll lead to a somewhat warped or tilted bed.  
   Instead of fiddling around with either trying to get them all to the same height by e.g. sanding them down or by putting some sort of thin material underneath them to equalize the height, you might wanna get some [adjustable spacers](hardware/bed.md#different-spacers) for the bed for being able to tram the bed itself as well. This process can be quite challenging and more annoying than taking the effort once to equalize the rigid stock spacers though, so don't think that it'll necessarily make everything easier for you. 
 - I'd recommend to check the bedmesh values (query M503 through a program like e.g. OctoPrint, Pronterface to get them listed) or use e.g. OctoPrint for getting a meshview out of it. By doing so you can see how 'flat' and trammed the bed is.  
   If it's tilted, tram it.  
   If it's warped or bent (like e.g. a bow) or if you're having certain spots which seem to be bulges or dents or if you have a certain area which is lower, you can use *Kapton tape* to equalize those areas/spots. Just take off the PEI plate, stick pieces of the Kapton tape right onto the magnetic foil of the bed, put the PEI plate back on and do another ABL sequence. Then check the values or the meshview again. By doing so step by step, you can get yourself a bed as flat as possible. Minor deviations should be compensated by the ABL function later when printing.  
   See the chapter ["Bed"](hardware/bed.md) (mind the expandable textboxes) as well for more information.  
-- Wiggle the bed and check if it moves in the vertical plane. If it does, check the bolts and nuts of the bedgantry and [check the v-slot wheels for perfect position](hardware/axes.md#v-slot-wheels-position_2). Most likely the wheels (or at least one) are a bit too far away from the aluminum frame. Adjust the position of the wheels then, but pay attention to not adjust them too tight as well.  
+- Wiggle the bed and check if it moves in the vertical plane. If it does, check the bolts and nuts of the bed gantry and [check the v-slot wheels for perfect position](hardware/axes.md#v-slot-wheels-position_2). Most likely the wheels (or at least one) are a bit too far away from the aluminum frame. Adjust the position of the wheels then, but pay attention to not adjust them too tight as well.  
 
 ---
 
@@ -104,7 +104,7 @@ If you don't have any of them, you can use the well-controlled solution we all a
 
 *Don't use your kitchen oven for drying filament, as those are often not capable of heating at lower temperatures (many ovens start to heat at 50°C, which is already close to the glass transition temperature of PLA, which is around 55°-60°C!) - you can end up with a big clump of a melted spool and filament!*   
 
-When storing your filament, use e.g. some vaccum sealed bags or containers and add dessicant. You can see the solution I personally am using [here](hardware/other.md#filament-storage). 
+When storing your filament, use e.g. some vacuum sealed bags or containers and add desiccant. You can see the solution I personally am using [here](hardware/other.md#filament-storage). 
 
 ---
 
@@ -148,7 +148,7 @@ If you still can't get your filament loaded, it's most likely that the PTFE tube
 ## Blue Silicone Sock Comes Off
 If the blue elastic piece, which covers the heater block of the hotend, came off, try to put it back on. This one is called ["silicone sock"](hardware/printhead.md#silicone-sock).  
 It kinda insulates the heater block and should be used. If it's missing and the fan duct of the part cooling fan is pointing not at the printed piece, but at the heater block, then you even may face a "Thermal Runaway" error.  
-If it doesn't stay on, just get yourself some new ones. I'd suppose to get yourself the ones which are slightliy shaped different and have bigger lips, they wrap around the heater block much better and therefore stay in place better.  
+If it doesn't stay on, just get yourself some new ones. I'd suppose to get yourself the ones which are shaped slightly different and have bigger lips, they wrap around the heater block much better and therefore stay in place better.  
 Read the section ["Silicone Sock"](hardware/printhead.md#silicone-sock) for further information and to see both types for comparison.  
 
 ---
@@ -176,7 +176,7 @@ The other possible cause is a misalignment of the wheels. As the wheels are runn
 ---
 
 ## Wrong Temperature Is Read
-If an obviously wrong temperature is read (like e.g. 10° for the bed when you have 25° room temperature or even a negative temperature when it's obvously not *that* cold), then it's most likely that you face a faulty wire. The wires inside of the wires tend to break due to the movement and poor quality, and when only a few wires are left, the resistance becomes bigger - which results in an obviously faulty reading.  
+If an obviously wrong temperature is read (like e.g. 10° for the bed when you have 25° room temperature or even a negative temperature when it's obviously not *that* cold), then it's most likely that you face a faulty wire. The wires inside of the wires tend to break due to the movement and poor quality, and when only a few wires are left, the resistance becomes bigger - which results in an obviously faulty reading.  
 See the section ["Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY"](#err-mintempmaxtempthermal-runaway) and the reasons listed there as well as the possible solutions for further information.   
 
 ---
@@ -186,7 +186,7 @@ See the section ["Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY"](#err-mintempmaxtempther
 If you face **homing problems** of  
 
 - the **x- or y-axis**, like the printhead crashes into the limit switch and doesn't seem to stop trying to move (which most likely makes an awful sound as well), please see the section ["Homing Failed: X/Y](#homing-failed-xy).
-- the **z-axis**, then it's most likely either a wiring problem (like a broken wire or a loose or unplugged connector) or a faulty switch. Of course the mainboard might be defective as well, but this is more unlikely (imho) if you didn't create a shortcut or so.  
+- the **z-axis**, then it's most likely either a wiring problem (like a broken wire or a loose or unplugged connector) or a faulty switch. Of course the mainboard might be defective as well, but this is more unlikely (imho) if you didn't create a short circuit or so.  
   So first of all check if the little metal piece at the x-axis gantry which triggers the switch really is in the correct position to trigger the switch.  
   Check if the wiring of the switch is correct and if the connectors are plugged in at both the limit switch as well as at the mainboard.  
   You can also measure the wire with a multimeter to see if you face a broken wire.  
@@ -221,7 +221,7 @@ If you face **movement problems** of
 
 ## ABL Sensor Not Working
 
-You might face the problem that the LED of the ABL sensor will light up when metal is being detected, but that the functionality of the sensor won't be given since the signal won't be passed to the mainboard. In that case you most likely suffer from a broken wiring. Please read the epandable textbox at the end of the section ["ABL Sensor"](hardware/printhead.md#abl-sensor).  
+You might face the problem that the LED of the ABL sensor will light up when metal is being detected, but that the functionality of the sensor won't be given since the signal won't be passed to the mainboard. In that case you most likely suffer from a broken wiring. Please read the expandable textbox at the end of the section ["ABL Sensor"](hardware/printhead.md#abl-sensor).  
 
 ---
 
@@ -230,7 +230,7 @@ In the following I'll list some of the error messages that might appear on the s
 
 ### Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY  
 
-It might happen that either a **wrong temperature will be read** or that the **whole display turns red** and an error message "Err: MINTEMP/MAXTMEP/THERMAL RUNAWAY: E1/Bed - PRINTER HALTED - Please reset" will be shown (see the following sections for the specific message), blocking any further usage. In this case (red screen) you won't be able to use the printer anymore unless the problem that causes this error will be solved (at least it was the case when I faced this kind of error message).  
+It might happen that either a **wrong temperature will be read** or that the **whole display turns red** and an error message "Err: MINTEMP/MAXTEMP/THERMAL RUNAWAY: E1/Bed - PRINTER HALTED - Please reset" will be shown (see the following sections for the specific message), blocking any further usage. In this case (red screen) you won't be able to use the printer anymore unless the problem that causes this error will be solved (at least it was the case when I faced this kind of error message).  
   
 | Err: MINTEMP | Err: MAXTEMP | Err: THERMAL RUNAWAY |
 |--------------|--------------|----------------------|
@@ -239,7 +239,7 @@ It might happen that either a **wrong temperature will be read** or that the **w
   
 - **MINTEMP** and **THERMAL RUNAWAY** errors:  
   These kind of errors are called "thermal runaway errors" (*Attention: I'm not sure about the MINTEMP error yet though!*) and they are triggered by a function called "thermal runaway protection".  
-  Basically it's a good thing that these appear (even though the underlying problem isn't 'good' most of the time), as that shows you that this protective function is working. The function observes the development of the heat in a given time and triggers the messages when the expexted temperature of either the bed or the hotend drops about a certain amount of degrees within a certain amount of time and then it triggers the "MINTEMP" error.   
+  Basically it's a good thing that these appear (even though the underlying problem isn't 'good' most of the time), as that shows you that this protective function is working. The function observes the development of the heat in a given time and triggers the messages when the expected temperature of either the bed or the hotend drops about a certain amount of degrees within a certain amount of time and then it triggers the "MINTEMP" error.   
   These are the sections in the files `Configuration_adv.h` of the belonging [stock firmware](firmware/fw_marlin.md#default-settings):   
   ```
   Thermal Protection / Thermal Runaway -> Hotend:
@@ -286,12 +286,12 @@ Reasons that can cause this might vary from being easy to fix to a real hardware
 
 - The printer is exposed to cold air and therefore the temperature drops rapidly. This might be caused by e.g. a window or door you opened. So make sure to prevent the printer being exposed to an area where (cold) air ventilates too much. Also use the printer in a room which isn't too cold in general.  
 - The blue [silicone sock](hardware/printhead.md#silicone-sock) of the heater block came off (or isn't present because you took it off) and the part cooling fan blows at the heater block instead of blowing at the printed part. So make sure to add a silicone sock and adjust the airflow of the part cooling fan.  
-- *Idividual strands of the thermistor wire are broken (inside of the insulation) and they're losing contact due to movement that occurs.*  
+- *Individual strands of the thermistor wire are broken (inside of the insulation) and they're losing contact due to movement that occurs.*  
 - The insulation of the thermistor wire is harmed and the unprotected strands of both wires are touching each other.  
 - The thermistor wire is completely broken or ripped off.  
 - The thermistor itself is faulty.  
 - The plug of the thermistor wire at the mainboard somehow came off.  
-- An electronic component of the mainboard is broken (e.g. due to a shortcut).   
+- An electronic component of the mainboard is broken (e.g. due to a short circuit).   
 
 If the error pops up while the printer is moving or printing, then it's most likely one of the first two things I mentioned above.  
 It might also be the third point as a broken wire loses contact due to movements and therefore the resistance becomes bigger (if just a few strands of the wire are broken inside of the insulation) or the signal won't be transmitted anymore at all (if the wire is completely broken).  
@@ -331,10 +331,10 @@ Reasons that can cause this might vary from being easy to fix to a real hardware
 - The thermistor wire is completely broken or ripped off.  
 - The thermistor itself is faulty.  
 - The plug of the thermistor wire at the mainboard somehow came off.  
-- An electronic component of the mainboard is broken (e.g. due to a shortcut).   
+- An electronic component of the mainboard is broken (e.g. due to a short circuit).   
 
 If the error pops up while the printer is moving or printing, then it's most likely one of the first two things I mentioned above.    
-It's actually *most likely that you're dealing with broken wires* - that's a pretty common issue, as they are made of poor quality and tend to brake over time due to the movement. In this case broken strands of the wires (inside of the insulation) temporary lose contact due to the movement of the bed and wires and therefore the resistance fluctuates, which results in a fluctuating temperature reading. The more wires break and the more permament this 'gap' between the broken wires will be, the more 'permanent' this problem will be until to the point that all wires broke and the signal won't be transmitted anymore at all. At this stage the error message will pop up right away when you turn on the printer.    
+It's actually *most likely that you're dealing with broken wires* - that's a pretty common issue, as they are made of poor quality and tend to brake over time due to the movement. In this case broken strands of the wires (inside of the insulation) temporary lose contact due to the movement of the bed and wires and therefore the resistance fluctuates, which results in a fluctuating temperature reading. The more wires break and the more permanent this 'gap' between the broken wires will be, the more 'permanent' this problem will be until to the point that all wires broke and the signal won't be transmitted anymore at all. At this stage the error message will pop up right away when you turn on the printer.    
 
 The solution depends on the underlying problem of course.  
 If you face a hardware issue like a partially or completely broken sensor wire, you can replace the sensor wires. 
@@ -358,7 +358,7 @@ This occurs when either
 - the belonging switch isn't installed correctly and therefore can't be properly triggered by the belonging part of the head or the bed, 
 - the wiring is faulty (e.g. a loose connector either at the belonging switch or at the mainboard, a broken wire),
 - the limit switch itself is faulty, 
-- the mainboard is damaged (which ususally is pretty unlikely if you didn't somehow create a shortcut or so).  
+- the mainboard is damaged (which usually is pretty unlikely if you didn't somehow create a short circuit or so).  
 
 To determine whether it's the position, the wiring or the switch (as these are the most likely reasons), check the position of the switch and the plastic cap first. Make sure it's properly installed and the belonging part of either the head of the bed touches the metal lever of the switch properly, so that the switch itself really will be triggered. You can do so by manually moving the head or bed towards the switch while observing it.   
 
@@ -379,7 +379,7 @@ If the movement still doesn't stop, *turn off the printer immediately to avoid t
 This error will be reported when the printer somehow doesn't recognize the [micro SD card](hardware/other.md#microsd-card).   
 
 This most likely is caused by a harmed filesystem. When printing from the SD card with having the power loss saving feature enabled, the machine is constantly writing to the card to save the progress of the print.  
-It can also be that the card itself is comletely damaged, but this is actually more the rare case - in most of the cases the card was still accessable when using a computer.  
+It can also be that the card itself is completely damaged, but this is actually more the rare case - in most of the cases the card was still accessible when using a computer.  
 
 For solving this issue, try to reformat the card as FAT32 (do a full format though, not a fast format).  
 If that still doesn't solve the issue, try different cards (always formatted as FAT32!). The card that came with the printer is 8GB, but cards up to 32GB should work.  

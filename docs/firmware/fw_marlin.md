@@ -199,7 +199,7 @@ Probe
 #define Y_MAX_POS (Y_BED_SIZE + 8)
 #define Z_MAX_POS 250
 --
-Filament rounout sensor
+Filament runout sensor
 #define FILAMENT_RUNOUT_SENSOR
   #define FIL_SENSOR_OPTIONAL        true
   #define FIL_RUNOUT_ENABLED_DEFAULT true // Enable the sensor on startup. Override with M412 followed by M500.
@@ -218,7 +218,7 @@ Bed Leveling
 #define ENABLE_LEVELING_FADE_HEIGHT  // Gradually reduce leveling correction until a set height is reached, at which point movement will be level to the machine's XY plane. The height can be set with M420 Z<height>
   #define DEFAULT_LEVELING_FADE_HEIGHT 0.0 // (mm) Default fade height.
 
-Note: G26 Mesh Valifation Pattern tool is DEactivated! : //#define G26_MESH_VALIDATION
+Note: G26 Mesh Validation Pattern tool is DEactivated! : //#define G26_MESH_VALIDATION
 
 #define GRID_MAX_POINTS_X 5  // Set the number of grid points per dimension.
 #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
@@ -436,7 +436,7 @@ Thermal Runaway Protection
 #define THERMAL_PROTECTION_BED     // Enable thermal protection for the heated bed
 #define THERMAL_PROTECTION_CHAMBER // Enable thermal protection for the heated chamber
 --
-Enstops (note: NO max endstops!)
+Endstops (note: NO max endstops!)
 #define USE_XMIN_PLUG
 #define USE_YMIN_PLUG
 #define USE_ZMIN_PLUG

@@ -15,7 +15,7 @@
 | **Nozzle**: E3D V6 type |
 | **Heater Block**: E3D V5 type |
 | **Heatbreak**: <br> **Go**: M6 thread (to fit in the V5 heater block), overall length ~26mm, 6mm OD / 4mm ID, PTFE tube <br> **Neo**: M6 thread (to fit in the V5 heater block), overall length ~24.6mm, 7mm OD / 4mm ID, PTFE tube |  
-| **PTFE tube**: <br> **Go**: ~400mm bowden, ~4mm OD / ~2mm ID bore <br> **Neo**: ~41-44mm inliner for the heatbreak, ~4mm OD / ~2mm ID bore <br> *The PTFE tube at both printers can/should be repaced with a "Capricorn XS" tube (for 1.75mm filament).* |  
+| **PTFE tube**: <br> **Go**: ~400mm bowden, ~4mm OD / ~2mm ID bore <br> **Neo**: ~41-44mm inliner for the heatbreak, ~4mm OD / ~2mm ID bore <br> *The PTFE tube at both printers can/should be replaced with a "Capricorn XS" tube (for 1.75mm filament).* |  
 | **Silicone Sock**: E3D V5 type |
 | **Part Cooling Fan**: <br> **Go**: 24V, 0.08A, 40x40x10mm, model "Coolcox BF4010H24S" <br> **Neo**: <br> - older versions: 24V, 0.08A, 45x45x10mm, model "Coolcox BF4510H24S" <br> - newer versions: 24V, 0.10A, 45x45x10mm, model "HSC BCY4510D24E" |
 | **Heatsink Cooling Fan**: 24V, 0.03A, 40x40x10mm, model "Coolcox CC4010L24S" (both printer models)  |
@@ -51,7 +51,7 @@ The following picture shows the head of **Go** from the backside.
 
 ### Disassembling
   
-Disassembling the printhead isn't really complicated. Just make sure you're careful and put the screws in a place and order that makes it easy for you to reassemble everything later. The following steps are just a rough guide through so that you know what you'll be confrontated with. I'd recommend to take a picture of each step, so that you can look at them later when reassembling - just in case you don't know how to proceed at a certain point or if you're not sure where certain screws belong.    
+Disassembling the printhead isn't really complicated. Just make sure you're careful and put the screws in a place and order that makes it easy for you to reassemble everything later. The following steps are just a rough guide through so that you know what you'll be confronted with. I'd recommend to take a picture of each step, so that you can look at them later when reassembling - just in case you don't know how to proceed at a certain point or if you're not sure where certain screws belong.    
   
 ??? warning "Warning - Important Notes"
 
@@ -94,7 +94,7 @@ The following picture shows a close up view of the printhead of the **Neo** from
 
 ### Disassembling
   
-Disassembling the printhead isn't really complicated. Just make sure you're careful and put the screws in a place and order that makes it easy for you to reassemble everything later. The following steps are just a rough guide through so that you know what you'll be confrontated with. I'd recommend to take a picture of each step, so that you can look at them later when reassembling - just in case you don't know how to proceed at a certain point or if you're not sure where certain screws belong.    
+Disassembling the printhead isn't really complicated. Just make sure you're careful and put the screws in a place and order that makes it easy for you to reassemble everything later. The following steps are just a rough guide through so that you know what you'll be confronted with. I'd recommend to take a picture of each step, so that you can look at them later when reassembling - just in case you don't know how to proceed at a certain point or if you're not sure where certain screws belong.    
   
 ??? warning "Warning - Important Notes"
 
@@ -128,7 +128,7 @@ From the right side view you see the fan for cooling the heatsink and the ABL se
 Looking at the head from the bottom right side, you can see the fan outlet on the left, the hotend with the stock silicone sock and the orange tip of the ABL sensor.    
   
 ![Bottom right side view](../assets/images/head_bottom-view_web.jpg)   
-The following picture shows the whole metal plate where the feeder construction (the marked tips of the three screws on the right side) and the bracket of the ABL sensor (the two marked screws on the left side) is mounted onto - I took these pictures when the head wasn't mounted to the carrier of the x-axis so you can have a better look at the deatails.   
+The following picture shows the whole metal plate where the feeder construction (the marked tips of the three screws on the right side) and the bracket of the ABL sensor (the two marked screws on the left side) is mounted onto - I took these pictures when the head wasn't mounted to the carrier of the x-axis so you can have a better look at the details.   
   
 ![Backside view metal plate](../assets/images/head_neo_backplate_marked_web.jpg)
 
@@ -171,10 +171,10 @@ The procedure about how to adjust the position will be described for the specifi
     It might (actually: most likely will) happen that sooner or later the ABL sensor will become faulty. In that case the LED of the sensor might light up when metal is being detected, but no signal will be passed to the mainboard and therefore the functionality itself isn't given anymore.  
 
     This seems to be a quite common issue. The problem seems to be that the wiring of the sensor will break, due to the repetitive movement and bending of the wiring at a certain spot.  
-    In most cases the breaking seems to take place at the spot where the cable of the sensor is being tied down with a zip tie to the metal plate of the printhead. At that spot the repetitive bending occurs and the starnds of the wires start to break. Since the wires are really thin, sooner or later the damage is severe enough to cause the malfunction.  
+    In most cases the breaking seems to take place at the spot where the cable of the sensor is being tied down with a zip tie to the metal plate of the printhead. At that spot the repetitive bending occurs and the strands of the wires start to break. Since the wires are really thin, sooner or later the damage is severe enough to cause the malfunction.  
     In other cases the breaking took place right at the spot where the cable leaves the plastic cap of the sensor.  
 
-    If you encounter this problem, you might be able to identify the broken wiring by measuring the resistance of the wire, preferrably when slowly bending around the wires. If the resistance changes, you have a partially broken wiring. You could also try and probe for continuity first, but this might give you a false positive result, since one thin strand is enough to report continuity.  
+    If you encounter this problem, you might be able to identify the broken wiring by measuring the resistance of the wire, preferably when slowly bending around the wires. If the resistance changes, you have a partially broken wiring. You could also try and probe for continuity first, but this might give you a false positive result, since one thin strand is enough to report continuity.  
     You then *might* be able to solve and fix it by cutting away the broken parts and reconnect the wires, but since the wires are really thin, it might be better to just get yourself a replacement sensor right away.  
 
 ---  
@@ -192,7 +192,7 @@ The ABL sensor itself is mounted in a plastic bracket which is the mounted to th
     
 #### Leveling The ABL Sensor
 
-Check if you need to level your ABL sensor in relation to the nozzle (which should be done after every maintenance at the hotend as well as when you got the printer brandnew from the manufacturer).  
+Check if you need to level your ABL sensor in relation to the nozzle (which should be done after every maintenance at the hotend as well as when you got the printer brand new from the manufacturer).  
 
 !!! warning "Attention"  
 
@@ -200,9 +200,9 @@ Check if you need to level your ABL sensor in relation to the nozzle (which shou
 
 The following picture shows a sensor that should/has to be leveled (don't mind the tiny rest of filament at the tip of the nozzle which touches the paper instead of the nozzle itself though, I chipped it away before leveling everything).        
 
-![This sensor needs to be leveld](../assets/images/head_neo_ABL2level_web.jpg)  
+![This sensor needs to be leveled](../assets/images/head_neo_ABL2level_web.jpg)  
 
-As I didn't get the plastic heihght gauge from Anycubic with my printers, I used the bigger one of those two-sided open ended wrenches. Check the parts that came with your printer, maybe you got the gauge shown in the following picture.  
+As I didn't get the plastic height gauge from Anycubic with my printers, I used the bigger one of those two-sided open ended wrenches. Check the parts that came with your printer, maybe you got the gauge shown in the following picture.  
 
 ![ABL height gauge](../assets/images/abl-gauge_web.jpg)
 
@@ -258,7 +258,7 @@ The ABL sensor itself is mounted in a plastic bracket which is the mounted to th
       
 #### Leveling The ABL Sensor
 
-Check if you need to level your ABL sensor in relation to the nozzle (which should be done after every maintenance at the hotend as well as when you got the printer brandnew from the manufacturer).  
+Check if you need to level your ABL sensor in relation to the nozzle (which should be done after every maintenance at the hotend as well as when you got the printer brand new from the manufacturer).  
 
 !!! warning "Attention"  
 
@@ -268,7 +268,7 @@ The following picture shows a sensor that should/has to be leveled (don't mind t
 
 ![This sensor needs to be leveled](../assets/images/head_neo_ABL2level_web.jpg)
 
-As I didn't get the plastic heihght gauge from Anycubic with my printers, I used the bigger one of those two-sided open ended wrenches. Check the parts that came with your printer, maybe you got the gauge shown in the following picture.  
+As I didn't get the plastic height gauge from Anycubic with my printers, I used the bigger one of those two-sided open ended wrenches. Check the parts that came with your printer, maybe you got the gauge shown in the following picture.  
 
 ![ABL height gauge](../assets/images/abl-gauge_web.jpg)
 
@@ -286,7 +286,7 @@ See the expandable textbox below for further instructions.
     - If you're using the height gauge, put it under the printhead and lower the head by turning the z axis rod manually. The nozzle should then touch the lower/thinner part of the gauge while the proximity sensor should touch the higher/thicker part of it as the following picture illustrates.  
       ![ABL height gauge how-to](../assets/images/ABL-height-gauge_web.jpeg)   
     - If you don't have/use the height gauge, place a sheet of paper under the printhead now. Then lower the head to make the nozzle touch the sheet of paper. You should still be able to move the paper but you should feel a minimum amount of resistance as a sign that the nozzle is touching it. <br> Now place the wrench flat under the ABL sensor. The sensor should touch the wrench.  
-    - If the sensor is too high or too low, adjust the height by turning the little M2 hexagon socket screw at the top of the bracket that holds the sensor.  <br> ![Screw at the top to move the sledge](../assets/images/head_ABL-sensor_top_closeup_web.jpg) <br> You're only able to move it a few milimeters by doing so though!   
+    - If the sensor is too high or too low, adjust the height by turning the little M2 hexagon socket screw at the top of the bracket that holds the sensor.  <br> ![Screw at the top to move the sledge](../assets/images/head_ABL-sensor_top_closeup_web.jpg) <br> You're only able to move it a few millimeters by doing so though!   
     -  If you need to adjust a bigger height, you'd need to disassemble the sensor from the bracket itself first to already change it's position in the bracket (see the pictures of it in the "dismounting" section above.  
     - After completing the beforementioned steps, take the parts away from the bed, set your Z offset to zero (0) if you didn't do it yet and home all axes. Then execute the ABL process and dial in your z-offset.
 
@@ -344,7 +344,7 @@ The main difference here (from a hardware perspective) is that at the the **Go**
 ??? tip "Feeder Gear Pressure"
 
     When adjusting the pressure of the feeder gear, make sure you don't tighten it up too much as it could squeeze and deform the filament. On the other hand it shouldn't be too loose though as it should transport the filament reliably.  
-    When pulling out the filament of the extruder system, you should notice little dents on the surface of the filament from the teeth of the feeder gear, the filament itself shouldn't be squeezed and deformed though, it should still be "round" so to say. You don't want the feeder gear to "bite" too much into the filament as well though, as this may lead to inconsistentites of the filament flow. I personally like to extrude a bit so that the gear actually has to pull it in. Then I do a cold pull and check the marks of the gear on the filament itself. If you can see and feel little marks of the teeth of the gear on the surface of the filament, then it should be ok. If you don't feel and see any marks, then it's too loose. PLA is pretty hard, so the pressure can/should be a bit higher as well, but if the marks are pretty deep, then it already might be too much. If the filament is already a bit squeezed and kinda flat, then it's definitely way too much pressure (you'll most likely experience some weird artefacts, inconcisties and patterns at your prints as well then). 
+    When pulling out the filament of the extruder system, you should notice little dents on the surface of the filament from the teeth of the feeder gear, the filament itself shouldn't be squeezed and deformed though, it should still be "round" so to say. You don't want the feeder gear to "bite" too much into the filament as well though, as this may lead to inconsistencies of the filament flow. I personally like to extrude a bit so that the gear actually has to pull it in. Then I do a cold pull and check the marks of the gear on the filament itself. If you can see and feel little marks of the teeth of the gear on the surface of the filament, then it should be ok. If you don't feel and see any marks, then it's too loose. PLA is pretty hard, so the pressure can/should be a bit higher as well, but if the marks are pretty deep, then it already might be too much. If the filament is already a bit squeezed and kinda flat, then it's definitely way too much pressure (you'll most likely experience some weird artefacts, inconsistencies and patterns at your prints as well then). 
     The filament should be fed reliably, which especially comes into account while retracting. So keep an eye on the shaft of the motor by looking at the back of the motor - if you notice that it's slipping while retracting, you definitely need to increase the tension.  
     As a rule of thumb you can keep in mind that the pressure should be higher when using hard filament like PLA and lower when using soft filament like TPU.    
   
@@ -370,7 +370,7 @@ The next picture shows the position of the different screws being used.
 
 The mounting dimensions of the outer screws which hold the gear box onto the motor (marked with *green* circles) are NEMA17 specific 31mm. The screw on the bottom left corner here also holds the lever in place.  
 The *yellow* circle marks the screw which is used for mounting the cover of the box onto the box itself.  
-The *red* circle marks the position of the screw for adjusting the feeder gear (spring) tension - you can reach that screw form the right sied which is marked with a red arrow.  
+The *red* circle marks the position of the screw for adjusting the feeder gear (spring) tension - you can reach that screw form the right side which is marked with a red arrow.  
 
 The following picture shows the dimensions of the gear box and the lever itself, just in case one wants to get a replacement from a different manufacturer (like a metal gear box).  
 
@@ -382,7 +382,7 @@ The gear is about 9.2mm outer diameter, approximately 11mm thick and has 31 teet
 ??? tip "Feeder Gear Pressure"
 
     When adjusting the pressure of the feeder gear, make sure you don't tighten it up too much as it could squeeze and deform the filament. On the other hand it shouldn't be too loose though as it should transport the filament reliably.  
-    When pulling out the filament of the extruder system, you should notice little dents on the surface of the filament from the teeth of the feeder gear, the filament itself shouldn't be squeezed and deformed though, it should still be "round" so to say. You don't want the feeder gear to "bite" too much into the filament as well though, as this may lead to inconsistentites of the filament flow. I personally like to extrude a bit so that the gear actually has to pull it in. Then I do a cold pull and check the marks of the gear on the filament itself. If you can see and feel little marks of the teeth of the gear on the surface of the filament, then it should be ok. If you don't feel and see any marks, then it's too loose. PLA is pretty hard, so the pressure can/should be a bit higher as well, but if the marks are pretty deep, then it already might be too much. If the filament is already a bit squeezed and kinda flat, then it's definitely way too much pressure (you'll most likely experience some weird artefacts, inconcisties and patterns at your prints as well then). 
+    When pulling out the filament of the extruder system, you should notice little dents on the surface of the filament from the teeth of the feeder gear, the filament itself shouldn't be squeezed and deformed though, it should still be "round" so to say. You don't want the feeder gear to "bite" too much into the filament as well though, as this may lead to inconsistencies of the filament flow. I personally like to extrude a bit so that the gear actually has to pull it in. Then I do a cold pull and check the marks of the gear on the filament itself. If you can see and feel little marks of the teeth of the gear on the surface of the filament, then it should be ok. If you don't feel and see any marks, then it's too loose. PLA is pretty hard, so the pressure can/should be a bit higher as well, but if the marks are pretty deep, then it already might be too much. If the filament is already a bit squeezed and kinda flat, then it's definitely way too much pressure (you'll most likely experience some weird artefacts, inconsistencies and patterns at your prints as well then). 
     The filament should be fed reliably, which especially comes into account while retracting. So keep an eye on the shaft of the motor by looking at the back of the motor - if you notice that it's slipping while retracting, you definitely need to increase the tension.  
     As a rule of thumb you can keep in mind that the pressure should be higher when using hard filament like PLA and lower when using soft filament like TPU.    
 
@@ -396,7 +396,7 @@ See the expandable textbox below for further instructions.
 
 ??? example "Disassembling Procedure"  
 
-    - Disassemble the feeder gear box by removing the screw of the gear box cover which is marked with a yellow circle in the following picture. You also have to remove the one screw in the lower right corner (marked with a green circle) for taking off the cover then. You don't have to dismount the whole gear box from the motr itself though.  
+    - Disassemble the feeder gear box by removing the screw of the gear box cover which is marked with a yellow circle in the following picture. You also have to remove the one screw in the lower right corner (marked with a green circle) for taking off the cover then. You don't have to dismount the whole gear box from the motor itself though.  
     - If you just want to remove the lever, you'd need to remove the green marked screw in the lower left corner. <br> ![Gear box marked screws](../assets/images/head_Go_gearbox_screw-positions_web.jpg)  
     - After removing the cover of the gear box, you'll then be able to access the metal sleeve where the bowden tube runs through. <br> ![Gear box disassembled](../assets/images/head_Go_gearbox_disass_web.jpg)  
 
@@ -469,7 +469,7 @@ You can access the inside of the feeder system by dismounting the heatsink, whic
 
     @[jokubasver](https://github.com/jokubasver) reached out (Thanks!) and wrote some important notes about the extruder. So I'll just quote his notes in the following:   
     "XCR3D Titan clone has some differences compared to the original E3D Titan Aero, and it's mostly due to the screws, and imo the XCR3D clone is flawed and is not as good as the original design.  
-    The most important part is to make sure that the screws are not overtighened - it's part of the assembly process to make sure that the hobb gear runs smooth and that it does not bind.  
+    The most important part is to make sure that the screws are not overtightened - it's part of the assembly process to make sure that the hobb gear runs smooth and that it does not bind.  
     Also, it's very important to align the pinion gear mounted on the stepper motor to be flush with the hobb gear - otherwise the lever arm will be out of alignment, or it will bind on the hobb gear.  
     So I'm not sure if Anycubic is not properly assembling the extruders, or if the screws get loose overtime causing issues with the lever arm going out of place etc, as I'm starting to see more and more posts on reddit of people complaining about extruder clicking noises on retracts, or the lever being slanted to the side.  
     So imo it's important people check their extruders and make sure to assemble them correctly.  
@@ -486,7 +486,7 @@ You can access the inside of the feeder system by dismounting the heatsink, whic
 ??? tip "Feeder Gear Pressure"
 
     When adjusting the pressure of the feeder gear, make sure you don't tighten it up too much as it could squeeze and deform the filament. On the other hand it shouldn't be too loose though as it should transport the filament reliably.  
-    When pulling out the filament of the extruder system, you should notice little dents on the surface of the filament from the teeth of the feeder gear, the filament itself shouldn't be squeezed and deformed though, it should still be "round" so to say. You don't want the feeder gear to "bite" too much into the filament as well though, as this may lead to inconsistentites of the filament flow. I personally like to extrude a bit so that the gear actually has to pull it in. Then I do a cold pull and check the marks of the gear on the filament itself. If you can see and feel little marks of the teeth of the gear on the surface of the filament, then it should be ok. If you don't feel and see any marks, then it's too loose. PLA is pretty hard, so the pressure can/should be a bit higher as well, but if the marks are pretty deep, then it already might be too much. If the filament is already a bit squeezed and kinda flat, then it's definitely way too much pressure (you'll most likely experience some weird artefacts, inconcisties and patterns at your prints as well then).   
+    When pulling out the filament of the extruder system, you should notice little dents on the surface of the filament from the teeth of the feeder gear, the filament itself shouldn't be squeezed and deformed though, it should still be "round" so to say. You don't want the feeder gear to "bite" too much into the filament as well though, as this may lead to inconsistencies of the filament flow. I personally like to extrude a bit so that the gear actually has to pull it in. Then I do a cold pull and check the marks of the gear on the filament itself. If you can see and feel little marks of the teeth of the gear on the surface of the filament, then it should be ok. If you don't feel and see any marks, then it's too loose. PLA is pretty hard, so the pressure can/should be a bit higher as well, but if the marks are pretty deep, then it already might be too much. If the filament is already a bit squeezed and kinda flat, then it's definitely way too much pressure (you'll most likely experience some weird artefacts, inconsistencies and patterns at your prints as well then).   
     The filament should be fed reliably, which especially comes into account while retracting. So keep an eye on the shaft of the motor by looking at the back of the motor - if you notice that it's slipping while retracting, you definitely need to increase the tension.  
     As a rule of thumb you can keep in mind that the pressure should be higher when using hard filament like PLA and lower when using soft filament like TPU.  
   
@@ -511,7 +511,7 @@ If that doesn't work, see the expandable textbox below for further instructions 
 
     @[jokubasver](https://github.com/jokubasver) reached out (Thanks!) and wrote some important notes about the extruder. So I'll just quote his notes in the following:   
     "XCR3D Titan clone has some differences compared to the original E3D Titan Aero, and it's mostly due to the screws, and imo the XCR3D clone is flawed and is not as good as the original design.  
-    The most important part is to make sure that the screws are not overtighened - it's part of the assembly process to make sure that the hobb gear runs smooth and that it does not bind.  
+    The most important part is to make sure that the screws are not overtightened - it's part of the assembly process to make sure that the hobb gear runs smooth and that it does not bind.  
     Also, it's very important to align the pinion gear mounted on the stepper motor to be flush with the hobb gear - otherwise the lever arm will be out of alignment, or it will bind on the hobb gear.  
     So I'm not sure if Anycubic is not properly assembling the extruders, or if the screws get loose overtime causing issues with the lever arm going out of place etc, as I'm starting to see more and more posts on reddit of people complaining about extruder clicking noises on retracts, or the lever being slanted to the side.  
     So imo it's important people check their extruders and make sure to assemble them correctly.  
@@ -530,7 +530,7 @@ If that doesn't work, see the expandable textbox below for further instructions 
 
     ??? info "Dimensions Of The Spring"
 
-        As the question arised about the dimensions of the spring being used which applies the tension to the feeder gear (in case you lost it and need to find a suitable replacement), here are the dimensions of it:  
+        As the question arose about the dimensions of the spring being used which applies the tension to the feeder gear (in case you lost it and need to find a suitable replacement), here are the dimensions of it:  
     
         - overall length: ~12-12.5mm
         - length completely compressed: hard to tell as it's pretty stiff, I'd say around 6-7mm
@@ -568,9 +568,9 @@ At one end there's a 4pin XH 2.54 connector attached which connects to the mainb
     You can see two short videos of how the extruder behave and skipped when the head was in a certain position in [this reddit post](https://www.reddit.com/r/anycubic/comments/1bybkbh/i_need_help_my_extruder_stops_working_on_the_left/).  
 
     This seems to be a quite common issue (at least at the Neo). The problem seems to be that the wiring of the motor will break, due to the repetitive movement and bending of the wiring at a certain spot.  
-    In most cases the breaking seems to take place at the spot where the cable package that contains all the wires of the head's parts is being tied down with a cable tie to the metal plate of the printhead. At that spot the repetitive bending occurs and the starnds of the wires start to break. Since the wires are really thin, sooner or later the damage is severe enough to cause malfunctions of the parts.  
+    In most cases the breaking seems to take place at the spot where the cable package that contains all the wires of the head's parts is being tied down with a cable tie to the metal plate of the printhead. At that spot the repetitive bending occurs and the strands of the wires start to break. Since the wires are really thin, sooner or later the damage is severe enough to cause malfunctions of the parts.  
 
-    If you encounter this problem, you might be able to identify the broken wiring by measuring the resistance of the wire, preferrably when slowly bending around the wires. If the resistance changes, you have a partially broken wiring. You could also try and probe for continuity first, but this might give you a false positive result, since one thin strand is enough to report continuity.  
+    If you encounter this problem, you might be able to identify the broken wiring by measuring the resistance of the wire, preferably when slowly bending around the wires. If the resistance changes, you have a partially broken wiring. You could also try and probe for continuity first, but this might give you a false positive result, since one thin strand is enough to report continuity.  
     
     If you face this issue, it's the best solution to just get yourself a new cable and replace the broken one. You can find according cables easily, just search for "stepper motor cable" for example.   
     Pay attention to the specs mentioned above and make sure to get a cable with the correct types of connectors and the sufficient length. Usually these kind of motor cables are available in lengths like 100cm, 150cm and 200cm, so just go with 150cm then.  
@@ -586,7 +586,7 @@ At one end there's a 4pin XH 2.54 connector attached which connects to the mainb
     If you'd mix up the connections and connect one wire of the first coil to the second coil and vice versa, the motor wouldn't turn, it would make weird noises instead.  
 
     If you have to change the position of wires, I'd suggest to do it at the 4pin XH 2.54 connector since it's a bit easier to handle.  
-    When you look at the metal contacs as shown in the pictures above, you have to push down a little 'lever' for being able to pull the wire with the metal contact out of the plastic connector housing.  
+    When you look at the metal contacts as shown in the pictures above, you have to push down a little 'lever' for being able to pull the wire with the metal contact out of the plastic connector housing.  
     Use a pointy item like a toothpick or so, slightly push down that 'lever' and hold it like that while gently pulling out the wire.  
     Please be patient and careful and don't force it!  
     Sometimes the lever gets stuck and the contact won't come out, then just push the wire back in and try it again.  
@@ -621,19 +621,19 @@ In the following, the specific hotends will be shown. Before jumping to the spec
          
 ??? example "Large Clump Of Melted Filament Built Up"
 
-    Sometimes it may happen that melted filament builds up on top of the heater block to a large clump. The reason for that is that the heatbreak isn't screwed into the heater block tight enough so that the melted fiolament can squeeze out. It also may be caused by bad and cheap parts where the thread isn't just as good as it should be. <br> ![Blob](../assets/images/head_blob_web.jpg) <br> So if you encouter this problem, here is what I recommend to do (based on my own experience with this dilemma).  
+    Sometimes it may happen that melted filament builds up on top of the heater block to a large clump. The reason for that is that the heatbreak isn't screwed into the heater block tight enough so that the melted filament can squeeze out. It also may be caused by bad and cheap parts where the thread isn't just as good as it should be. <br> ![Blob](../assets/images/head_blob_web.jpg) <br> So if you encounter this problem, here is what I recommend to do (based on my own experience with this dilemma).  
     
     - Take off the plastic cover first to get better access to the whole area.  
-    - Heat up everthing - I did this by using the preherat function for PLA at the control unit.
-    - Once the filament starts to melt and gets soft, grab a wooden stick and take away as much as possible carefully. *Don't* use a screwdriver or something like that to do so as you might harm the wires and/or cause a shortcut at e.g. the contacts of the cartridge heater. <br> *Be really careful when taking away the clumps to not harm or rip off any of the wires!* You can also use a cloth to wipe off the melted filament from the heater block and so on, just make sure you don't burn yourself!  
-    - For the next steps you need to be a bit quick in proceeding them, so if this is the first time you're diassembling the hotend, take a look at the sections here at the page and read them first so you'll know where the screws are located and which steps you need to take. Then proceed with the following steps.
+    - Heat up everything - I did this by using the preheat function for PLA at the control unit.
+    - Once the filament starts to melt and gets soft, grab a wooden stick and take away as much as possible carefully. *Don't* use a screwdriver or something like that to do so as you might harm the wires and/or cause a short circuit at e.g. the contacts of the cartridge heater. <br> *Be really careful when taking away the clumps to not harm or rip off any of the wires!* You can also use a cloth to wipe off the melted filament from the heater block and so on, just make sure you don't burn yourself!  
+    - For the next steps you need to be a bit quick in proceeding them, so if this is the first time you're disassembling the hotend, take a look at the sections here at the page and read them first so you'll know where the screws are located and which steps you need to take. Then proceed with the following steps.
     - So, once everything is as clean as possible, turn off the printer and loosen the grub screws inside the heater block to take out the thermistor and the cartridge heater. Give it a quick wipe with the cloth if they're covered by a lot of filament, too (but don't waste too much time here as the filament is becoming hard again now pretty quick!). 
     - Then take out the nozzle from the heater block and unscrew the heater block from the hotend. Pay attention if you can feel that the heatbreak was loose in the heater block to check if that was the reason for the filament being able to squeeze out and build up. 
     - Dismount the fan on the right side and loosen the two hexagon socket screws which are holding the heatbreak in place. If it doesn't fall out by itself, pull it out. When using the **Neo**, make sure the little PTFE tube also comes out, take it out of the heatbreak.  
     - If you were using a cheap nozzle and have a spare one, just throw away the old one. If it's a good or your only nozzle, try to get it back to work again by giving it a proper cleaning and doing some cold pulls when it's installed again. 
     - Now put all the metal parts (heatbreak, heater block and probably the nozzle) in a glass with acetone. close the lid and let it sit there for about 24hrs. The acetone won't dissolve PLA filament or so automagically like it does with ABS, but it'll make it soft and easier to clean. 
-    - In the meantime you can take care of the thermistor and the cartridge heater. Scratch off the hardened filament from the metal parts by using a cutter for example, but be *really* careful to not slip off and harm any wires! I personally didn't take care of the little clump at the part where ther wires are coming out of the metal part because I didn't wanted to risk harming the wires, so I just let it sit there.  
-    - When you're about to clean the meatal parts which soaked in the acetone, I'd recommend wearing disposable gloves as acteone isn't really healthy for your skin. So put on those gloves and start cleaning the parts by carefully scratching off the rest of the filament. Use a cutter, a brass brush etc., but always be careful to not really harm anything. Pay special attention to all the threads and the holes of the heater block where the thermistor and the cartridge heater will take place. If you don't get everything cleaned up at the first time, just put it back in the acetone, wait again and then repeat the cleaning steps. 
+    - In the meantime you can take care of the thermistor and the cartridge heater. Scratch off the hardened filament from the metal parts by using a cutter for example, but be *really* careful to not slip off and harm any wires! I personally didn't take care of the little clump at the part where the wires are coming out of the metal part because I didn't wanted to risk harming the wires, so I just let it sit there.  
+    - When you're about to clean the metal parts which soaked in the acetone, I'd recommend wearing disposable gloves as acetone isn't really healthy for your skin. So put on those gloves and start cleaning the parts by carefully scratching off the rest of the filament. Use a cutter, a brass brush etc., but always be careful to not really harm anything. Pay special attention to all the threads and the holes of the heater block where the thermistor and the cartridge heater will take place. If you don't get everything cleaned up at the first time, just put it back in the acetone, wait again and then repeat the cleaning steps. 
     - Once everything looks nice and clean, rinse off the acetone with clear water and let it dry. This is especially important for the inner side of the nozzle - you don't want to have acetone in there.  
     - Then reassemble everything and put it back in place. Read the notes in the specific sections here about how to reassemble the specific parts and what to pay attention to.  
     - At the end when everything is reassembled and you heated up the hotend to finally mount the nozzle and load the filament, extrude filament to see if everything is ok. 
@@ -663,14 +663,14 @@ If you need to dismount the hotend from the printhead to change it or if you nee
 
     - When pulling out the hotend at the **Neo**, *make sure the PTFE tube placed in the heatbreak comes out, too!*  
     - Inspect the PTFE tube if it's burned, deformed  or clogged - if so, get a new one as a replacement (I'd recommend using a Capricorn bowden tube). Make sure the filament runs through the tube nice and easy and without any friction.   
-    - When pulling out the hotend, *be careful to not break any wires or rip them off from the sensor and heater catridge* - so better unscrew the tiny hex screws a bit and take out the thermistor and the heating cartridge first as mentioned above. 
+    - When pulling out the hotend, *be careful to not break any wires or rip them off from the sensor and heater cartridge* - so better unscrew the tiny hex screws a bit and take out the thermistor and the heating cartridge first as mentioned above. 
     - Check the wires and contacts if they aren't harmed and if everything is ok. 
     - ***Never try to unscrew the heatbreak and/or the nozzle from the heater block while the parts are cold!*** 
       Melted filament or some kind of screw lock glue might make it hard or even impossible to unscrew these parts and you risk to shear them off!  
 
 !!! danger  
 
-    *If you can see bare wire shining through the isolation of the wires of either the thermistor or the cartridge heater, I'd strongly recommend to replace the component to not risk a shortcut and therefore a broken mainboard!*   
+    *If you can see bare wire shining through the isolation of the wires of either the thermistor or the cartridge heater, I'd strongly recommend to replace the component to not risk a short circuit and therefore a broken mainboard!*   
   
 ??? example "Disassembling Procedure"
  
@@ -680,7 +680,7 @@ If you need to dismount the hotend from the printhead to change it or if you nee
     - Loosen the nozzle and the heatbreak. You can already take out the nozzle completely and unscrew the heater block from the heatbreak as well - just make sure you don't burn yourself. 
     - Now loosen the two grub screws located at the bottom part of the heatsink and pull out the heatbreak. <br> ![Extruder disassembled](../assets/images/head_go_hotend-dis_web.jpg)   
     - If you want to take off the heatsink as well, unscrew the two grub screws located at the top part. <br> ![Hotend dismounted](../assets/images/head_go_extruder-dismounted_web.jpg)
-    - Unscrew the nut at the top of the heatsik where the long PTFE tube runs through that leads the filament.   
+    - Unscrew the nut at the top of the heatsink where the long PTFE tube runs through that leads the filament.   
 
 ??? example "Reassembling Procedure" 
   
@@ -726,14 +726,14 @@ If you need to dismount the hotend from the printhead to change it or if you nee
 
     - When pulling out the hotend at the **Neo**, *make sure the PTFE tube placed in the heatbreak comes out, too!*  
     - Inspect the PTFE tube if it's burned, deformed  or clogged - if so, get a new one as a replacement (I'd recommend using a Capricorn bowden tube). Make sure the filament runs through the tube nice and easy and without any friction.   
-    - When pulling out the hotend, *be careful to not break any wires or rip them off from the sensor and heater catridge* - so better unscrew the tiny hex screws a bit and take out the thermistor and the heating cartridge first as mentioned above. 
+    - When pulling out the hotend, *be careful to not break any wires or rip them off from the sensor and heater cartridge* - so better unscrew the tiny hex screws a bit and take out the thermistor and the heating cartridge first as mentioned above. 
     - Check the wires and contacts if they aren't harmed and if everything is ok. 
     - ***Never try to unscrew the heatbreak and/or the nozzle from the heater block while the parts are cold!*** 
       Melted filament or some kind of screw lock glue might make it hard or even impossible to unscrew these parts and you risk to shear them off!  
 
 !!! danger  
 
-    *If you can see bare wire shining through the isolation of the wires of either the thermistor or the cartridge heater, I'd strongly recommend to replace the component to not risk a shortcut and therefore a broken mainboard!*   
+    *If you can see bare wire shining through the isolation of the wires of either the thermistor or the cartridge heater, I'd strongly recommend to replace the component to not risk a short circuit and therefore a broken mainboard!*   
   
 ??? example "Disassembling Procedure"  
 
@@ -761,7 +761,7 @@ If you need to dismount the hotend from the printhead to change it or if you nee
 #### MOD: Different Hotend 
 Besides the stock hotend you can also just get or build yourself your own hotend by using a V5 compatible heatbreak and heater block which fits just fine. When doing so, pay attention to the dimensions though, as e.g. a lower position of the nozzle due to a longer heatbreak requires adaptation of the position of the part cooling fan duct!  
 
-Genereally speaking, it's also possible to upgrade to a completely different system, like a V6, a Volcano or a MK8 - if you're willing and capable of tinkering. In that case I assume you already know what you should pay attention to, so I won't go deeper into this.  
+Generally speaking, it's also possible to upgrade to a completely different system, like a V6, a Volcano or a MK8 - if you're willing and capable of tinkering. In that case I assume you already know what you should pay attention to, so I won't go deeper into this.  
 
 The following pictures show two hotends I built myself from third party manufacturer parts. In both cases I used an original E3D V6 nozzle, a plated copper V5 heater block and a Capricorn XS PTFE tube for 1.75mm filament. Then I used a heatbreak for V5 compatible heater blocks where the PTFE tube goes all the way down to the nozzle (like the stock one) for printing PLA, and a bi-metal heatbreak where the PTFE tube only sticks into the top of the heatbreak for ~4mm for printing PETG and other material that needs higher temperatures.  
 
@@ -905,7 +905,7 @@ When you need to cut a new inliner and you're not sure about the correct length,
 !!! warning "Check The PTFE Tube"  
 
     The stock PTFE tube which acts as an inliner for the heatbreak isn't the best quality. It will deform, burn and melt at certain temperatures. These inliners can also clog and especially the stock one adds friction to the whole filament feeding system.  
-    So it's adivsable to check the state of this inliner from time to time to make sure everything is fine here. If you notice that the quality of your prints decreases, that you have to run higher retraction settings or that more stringing occurs, you might face a deformed or clogged inliner.  
+    So it's advisable to check the state of this inliner from time to time to make sure everything is fine here. If you notice that the quality of your prints decreases, that you have to run higher retraction settings or that more stringing occurs, you might face a deformed or clogged inliner.  
 
     I personally can highly recommend using Capricorn XS tube instead of the stock one, as those can stand higher temperatures as well as the surface itself is smoother and therefore friction is lowered.  
 
@@ -913,7 +913,7 @@ When you need to cut a new inliner and you're not sure about the correct length,
   
 ## Heater Block
 Both printers use an E3D **V5** type heater block.  
-Both the thermistor and the cartidge heater have to be plugged into the specific holes and should be fixed with at tiny grub screw (HEX 1.5).  
+Both the thermistor and the cartridge heater have to be plugged into the specific holes and should be fixed with at tiny grub screw (HEX 1.5).  
   
 ![Heater block V5](../assets/images/head_block-screws-close_web.jpg)  
 
@@ -973,14 +973,14 @@ The following pictures shows a V5 heater block compatible silicone sock from the
   
 ![Silicone socks top view](../assets/images/silisocks_top_web.jpg)   
   
-Additionaly, the ones from the aftermarket also cover and therefore insulate the base of the nozzle - something that the stock ones don't do at all.  
+Additionally, the ones from the aftermarket also cover and therefore insulate the base of the nozzle - something that the stock ones don't do at all.  
   
 ![Silicone socks bottom view](../assets/images/silisocks_bottom_web.jpg)  
   
 ??? info "Spare Part Silicone Sock"  
 
     The sock which comes with the printhead isn't the best one to use (in my opinion) as it seems to come off pretty easily. There are compatible V5 silicone socks at the aftermarket which I personally use and which I can highly recommend. They have a bigger lip which slips over the heater block and covers a bigger area of the top than the one which comes with the printer. Therefore they stay in place much better when they heat up and become more flexible.    
-    If you read the above and still don't know what you should look or search for, search for "silicone sock V5" for example as these socks are for a V5 heater block. You can get them pretty much everywhere, so if you use to shop at Amazon or ebay for example, you'll find many offers which are pretty much the same at the end. <br> Just make sure that you're **not** getting the ones for a V6 or a volcano heater block! You can also diffenrentiate them by already looking at the shape: the wrong ones for the V6 are more flat on one side, the *correct ones* for the V5 are more *cubic* as you can see at the pictures above.  
+    If you read the above and still don't know what you should look or search for, search for "silicone sock V5" for example as these socks are for a V5 heater block. You can get them pretty much everywhere, so if you use to shop at Amazon or ebay for example, you'll find many offers which are pretty much the same at the end. <br> Just make sure that you're **not** getting the ones for a V6 or a volcano heater block! You can also differentiate them by already looking at the shape: the wrong ones for the V6 are more flat on one side, the *correct ones* for the V5 are more *cubic* as you can see at the pictures above.  
   
 ---  
   
@@ -1013,7 +1013,7 @@ The following picture shows the connector being used, it's a regular two pin JST
 
 ??? info "What Is A 100k NTC Thermistor?"
 
-    A thermistor is an electronical part which changes resistances depending on the given temperature, the resistance will then be interpreted as a temperature reading. The thermistor being used is a 100k Ohm NTC type. That means, that it has a resistance of about *100k Ohm at 25°C* temperature.  
+    A thermistor is an electronic part which changes resistances depending on the given temperature, the resistance will then be interpreted as a temperature reading. The thermistor being used is a 100k Ohm NTC type. That means, that it has a resistance of about *100k Ohm at 25°C* temperature.  
     When the temperature drops, the resistance will become higher/bigger. When the temperature rises, the resistance will become lower/smaller.  
     As an example: at 20°C the resistance is about 125k Ohm; at 30°C the resistance is about 81k Ohm.  
     Therefore you can measure the functionality of the thermistor by measuring the given resistance with a multimeter.  
@@ -1049,9 +1049,9 @@ The following expandable textboxes will give you some basic instructions what yo
 
     Before attempting any measurements, do a visual check if the insulation of the thermistor's wires is still intact.  
     
-    *If you can see bare wire shing through due to a melted and/or displaced insulation, change the part immediately!*  
+    *If you can see bare wire shine through due to a melted and/or displaced insulation, change the part immediately!*  
     
-    Don't try to cover it up with some kind of insulation, even though Kapton tape should stand the heat. You'll risk a shortcut which then will harm your motherboard and might even cause more severe damage!  
+    Don't try to cover it up with some kind of insulation, even though Kapton tape should stand the heat. You'll risk a short circuit which then will harm your motherboard and might even cause more severe damage!  
         
     You can check the wiring of the thermistor by measuring the electrical continuity of the wires. If your multimeter doesn't have this function, you can measure the resistance instead. 
     
@@ -1060,7 +1060,7 @@ The following expandable textboxes will give you some basic instructions what yo
 
 ??? example "Measuring / Checking The Thermistor"  
 
-    You can check if a thermistor is working or if it's broken by measuring the resistance of it using a multimeter. As described above, at a temperature of 25°C the resistance should be ~100k Ohm (nominal restistance: R<sup>25°C</sup> = 100 kΩ ± 1%). If the temperature is lower, the resistance value will be higher; if the temperature is higher, the resistance value will be lower.  
+    You can check if a thermistor is working or if it's broken by measuring the resistance of it using a multimeter. As described above, at a temperature of 25°C the resistance should be ~100k Ohm (nominal resistance: R<sup>25°C</sup> = 100 kΩ ± 1%). If the temperature is lower, the resistance value will be higher; if the temperature is higher, the resistance value will be lower.  
     The following table gives you some typical resistance values of a 100K thermistor type 3950 (generic) for temperatures around room temperature. The values might slightly vary from the one you'll get, but they should be pretty close.  
     
     | Temperature in °C | Resistance in kΩ (kilo Ohm) |  
@@ -1099,12 +1099,12 @@ Note the dent from the screw and the deformed thermistor due to an overtightened
 
 ## Cartridge Heater
 
-The cartidge heater which is used is a **24V 40W** element.  
+The cartridge heater which is used is a **24V 40W** element.  
 The diameter is 6mm, the length of the original part is about 18mm, the length of the wire is about 150cm.  
 
 The following picture shows the stock cartridge heater being used.  
 
-![Stock catridge heater](../assets/images/head_cart-heater_stock_web.jpg)
+![Stock cartridge heater](../assets/images/head_cart-heater_stock_web.jpg)
 
 The following picture shows the JST VH 3.96 connector which is necessary to fit into the socket at the mainboard.  
 
@@ -1133,7 +1133,7 @@ The following picture shows the JST VH 3.96 connector which is necessary to fit 
 ??? tip "General Tips" 
 
     - If you need to install a new thermistor and/or cartridge heater, you have to unstrip the wires from the wire conduit. You can just unroll the conduit, pull out the wires from the old part while tugging in the wires of the new part. Be careful to not pull too hard to not harm any thin wires which might be wrapped around the wires of the old part. <br> ![Stripping in the new wires](../assets/images/stripping_in_wires_web.jpg)    
-    - When installing the parts at the heater block and putting back on the plastic cap of the printhead, I personally avoided to bend the thin wires as it was done within the original installation. I just guided the wires along outside the plastic cover. By doing so, you minimize the risk of getting a shortcut due to a harmed or melted wire isolation at the part where the wires are bent and twisted originally. The following picture shows my new installed thermistor and cartridge heater with the wires running outside of the plastic cap. <br> ![Wires running outside of the plastic cap](../assets/images/head_neo_new-sen-therm_web.jpg)  
+    - When installing the parts at the heater block and putting back on the plastic cap of the printhead, I personally avoided to bend the thin wires as it was done within the original installation. I just guided the wires along outside the plastic cover. By doing so, you minimize the risk of getting a short circuit due to a harmed or melted wire isolation at the part where the wires are bent and twisted originally. The following picture shows my new installed thermistor and cartridge heater with the wires running outside of the plastic cap. <br> ![Wires running outside of the plastic cap](../assets/images/head_neo_new-sen-therm_web.jpg)  
 
 ??? info "Ceramic Heater Block With Inbuilt Heating Element"
 
@@ -1167,20 +1167,20 @@ Basic knowledge of how to use a multimeter is sufficient - if you don't know how
 
 #### How To Check The Cartridge Heater
 
-The following expandable textbox will give you some basic instructions what you can do to check the electric circuits of the 24V catridge heater.  
+The following expandable textbox will give you some basic instructions what you can do to check the electric circuits of the 24V cartridge heater.  
   
 ??? example "Measuring / Checking The Wiring"  
 
     Before attempting any measurements, do a visual check if the insulation of the cartridge heater is still intact. 
     
-    *If you can see bare wire shing through due to a melted and/or displaced insulation, change the part immediately!*  
+    *If you can see bare wire shine through due to a melted and/or displaced insulation, change the part immediately!*  
     
-    Don't try to cover it up with some kind of insulation, even though Kapton tape should stand the heat. You'll risk a shortcut which then will harm your motherboard and might even cause more severe damage!  
+    Don't try to cover it up with some kind of insulation, even though Kapton tape should stand the heat. You'll risk a short circuit which then will harm your motherboard and might even cause more severe damage!  
     
     You can check the wiring of the 24V line by measuring the electrical continuity of the wires. If your multimeter doesn't have this function, you can measure the resistance instead.  
     
     However, *it's advisable to measure the resistance, even though your multimeter offers the function of probing for continuity,* because it might be the case that a wire still passes the check for continuity, but that individual strands of the wire are broken. This causes problems if those strands lose contact permanently or during movement of the bed, as it leads to a higher resistance.  
-    Here at the at the 24V wires this can lead to the circumstance that the wire will get hot at that spot, that the insulation will melt, that a shortcut might occur and it might even occur that it causes a fire.   
+    Here at the at the 24V wires this can lead to the circumstance that the wire will get hot at that spot, that the insulation will melt, that a short circuit might occur and it might even occur that it causes a fire.   
           
 
 ??? example "Checking The 24V Heating Circuit Of The Cartridge Heater"  
@@ -1228,9 +1228,9 @@ I highly recommend to only use high quality nozzles, like the [**original E3D V6
     
 ??? warning "Nozzles: Handle With Care!" 
 
-    - *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with at brass brush or the wrench!* <br> You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. 
+    - *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with at brass brush or the wrench!* <br> You may either harm the insulation, break the wire or even cause a short circuit which can result in a broken mainboard once you powered the printer up again. 
     - If you want to change the nozzle (*check out the expandable admonition below!*) and need to grab the heater block with a wrench, make sure you really just grab the heater block and never get any wires up in between - preferably grab the heater block from that sides where the wires don't come out.   
-    - If you want to clean the nozzle using a brass brush for example, *never* do it when the printer is powered up and the heating process of the extruder is in progress to avoid causing a shortcut by touching the contacs with the brush.  
+    - If you want to clean the nozzle using a brass brush for example, *never* do it when the printer is powered up and the heating process of the extruder is in progress to avoid causing a short circuit by touching the contacts with the brush.  
     - *Make sure you DON'T turn the heater block!* In case you want to change the nozzle, you don't want to loosen the heater block from the hotend, so just hold the heater block in place without turning it.     
     - *Don't do cold pulls for cleaning a nozzle when using any kind of coated nozzles!* This also involves hardened steel nozzles! Referring to the manufacturers, the coating might be harmed when doing so.   
     
@@ -1325,8 +1325,8 @@ A harmed tip or worn out nozzle may also cause artefacts like stringing for exam
 
     - For cleaning the nozzle and getting rid of excessive filament during the printing process or right before printing starts as the extruder is heating up, you can use a long and thin wooden stick like a skewer. A wooden toothpick also works fine - just make sure you don't burn yourself as it may be a bit short. I personally use these long pipe cleaners which have this kinda cotton stuff all around them. It doesn't melt when touching the hot nozzle and filament sticks great to it.  
     - Before and after each print I recommend to wipe away the melted filament at the nozzle with a 'cotton' pipe cleaner, a paper towel or a cloth - but *don't burn yourself!* This procedure keeps the nozzle clean and the rest of the filament won't burn black onto the brass which makes it hard to remove later.   
-    - If the nozzle is already too smeared and has too much filament burnt onto the surface to be cleaned with a paper towel, you can use a small brass brush. Be careful though to not harm the tip of the nozzle by scrubbing too hard across it! Be careful to *not* touch any wires or contacts during brushing at it may cause a shortcut and blow off your mainboard! So I'd suggest you heat up the nozzle and then turn off the printer before starting to brush.  
-    - If the nozzle is clogged, using a needle with the correct diameter to stick it into the hot nozzle for cleaning it sometimes works. Just stick in in the heatened up nozzle and poke around. Be careful to not harm the tip of the nozzle though!  
+    - If the nozzle is already too smeared and has too much filament burnt onto the surface to be cleaned with a paper towel, you can use a small brass brush. Be careful though to not harm the tip of the nozzle by scrubbing too hard across it! Be careful to *not* touch any wires or contacts during brushing at it may cause a short circuit and blow off your mainboard! So I'd suggest you heat up the nozzle and then turn off the printer before starting to brush.  
+    - If the nozzle is clogged, using a needle with the correct diameter to stick it into the hot nozzle for cleaning it sometimes works. Just stick it in the heated up nozzle and poke around. Be careful to not harm the tip of the nozzle though!  
     - You can also use certain filament which is made for cleaning. You load it and let it run through. 
     - If the nozzle is clogged and therefore the cleaning filament can't run through, you could also try to do a *"cold pull"*. To do so you heat up the nozzle to about 220°C, load the cleaning filament and manually push it through a bit. Then let the nozzle cool down to about 90-100°C and rip out the filament. You may have to repeat this procedure a few times until the cleaning filament can run through again. However, be careful not to rip off the filament by doing the cold pull as you then definitely have to disassemble the hotend.  
       *Attention: don't do cold pulls when using any kind of coated nozzles! This also involves hardened steel nozzles! The manufacturers say that it might harm the coating of the inside of the nozzle!* 
@@ -1347,7 +1347,7 @@ If you need to change the nozzle, mind the warnings from above and check out the
 
     - If you just want to change the nozzle, take off the silicone sock of the heater block, then *heat up the extruder first* about 5-10°C above your regular printing temperature and pull back the filament a bit once it's warm enough. 
     - Once the extruder heated up, let it sit at that temperature for about a minute or two to make sure that even the last amount of filament which might stick somewhere in the gaps or the thread is melted. 
-    - Then *turn off the printer* and ideally unplug it from the power outlet. Don't fiddle around while it's turned on - in case you slip with the wrench and harm the wires you could create a shortcut which most likely will blow something up of your mainboard.  
+    - Then *turn off the printer* and ideally unplug it from the power outlet. Don't fiddle around while it's turned on - in case you slip with the wrench and harm the wires you could create a short circuit which most likely will blow something up of your mainboard.  
     - Then grab the heater block with a wrench to hold it in place and screw out the nozzle carefully. Use a sufficient tool like a wrench or a socket wrench for the nozzle - don't use a pair of pliers as it may/will round off the screw nut. 
     - Make sure you don't turn the heater block at all to not loosen it from the heat break! Just hold it in place.
     - If the nozzle won't come loose, heat up the extruder again, raise the temperature a bit and let it sit longer to melt the filament in the gaps which seems to block. Before trying to unscrew the nozzle, switch off the printer again. <br> If that still doesn't work, you could take a piece of damp cloth and hold it against the nozzle (*not* the heater block, *only the nozzle*!) for a moment to cool it down. Due to the sudden decrease of temperature the metal of the nozzle will contract a tiny bit which may result in being able to unscrew it.  
@@ -1355,7 +1355,7 @@ If you need to change the nozzle, mind the warnings from above and check out the
     - Check if you didn't harm any wires! 
     - If everything is fine, power up the printer and heat up the extruder again. Most nozzle manufacturers say that you should heat it up to about 250°C, but that might already harm the PTFE tube. So go with 230-240°.  
     - Then carefully tighten up the nozzle, but don't overtighten it though. However, you need to make sure that it's tight enough (about 1.5NM) and that it really touches the heatbreak! There shouldn't be any gap between the heatbreak and the nozzle inside of the heater block!  
-    - Don't get irritated by the fact that there's a little gap between the head of the nozzle and the heater block oncce you installed everything correctly - that's totally fine and it's supposed to be like that as the following picture shows. <br> ![Mounted nozzle](../assets/images/head_nozzle-mounted_web.jpg)     
+    - Don't get irritated by the fact that there's a little gap between the head of the nozzle and the heater block once you installed everything correctly - that's totally fine and it's supposed to be like that as the following picture shows. <br> ![Mounted nozzle](../assets/images/head_nozzle-mounted_web.jpg)     
              
 ---
 
@@ -1488,7 +1488,7 @@ The list is kinda outdated right now tho, I need to look around and add the mode
 ### Go  
 
 ***I highly recommend to print one of the fan ducts which replace the stock fan duct. It's a huge improvement!***  
-It's advisable to (at least) print them from PETG if you're able to do that. If not, printing them from PLA is better than not printing them at all of course. It might happen though that a fan duct printed from PLA will sooner or later sag or deform due to the heat it's being exposed to. This shouldn't be much of an issue as long as you're printing PLA with e.g. a bed temperature of 60°, but if you're about to print PETG for axample, using a bed temperature of 80° (plus a higher hotend temperature), the fan duct will most like start to deform and sag.
+It's advisable to (at least) print them from PETG if you're able to do that. If not, printing them from PLA is better than not printing them at all of course. It might happen though that a fan duct printed from PLA will sooner or later sag or deform due to the heat it's being exposed to. This shouldn't be much of an issue as long as you're printing PLA with e.g. a bed temperature of 60°, but if you're about to print PETG for example, using a bed temperature of 80° (plus a higher hotend temperature), the fan duct will most like start to deform and sag.
 
 - [MW-Mechanical](https://www.printables.com/de/social/455820-mw-mechanical) created an [Upgraded fan duct (exposed print head setup) for Anycubic Kobra Go](https://www.printables.com/de/model/338244-upgraded-fan-duct-exposed-print-head-setup-for-any) which is supposed to achieve better part cooling.
 - [Gallapagos](https://www.thingiverse.com/gallapagos/designs) created a [Monomonster](https://www.thingiverse.com/thing:5741047) for the **Go** using a 5015 style blower fan.
@@ -1499,7 +1499,7 @@ It's advisable to (at least) print them from PETG if you're able to do that. If 
 ### Neo  
 
 ***I highly recommend to print one of the fan ducts which replace the stock fan duct. It's a huge improvement!***  
-It's advisable to (at least) print them from PETG if you're able to do that. If not, printing them from PLA is better than not printing them at all of course. It might happen though that a fan duct printed from PLA will sooner or later sag or deform due to the heat it's being exposed to. This shouldn't be much of an issue as long as you're printing PLA with e.g. a bed temperature of 60°, but if you're about to print PETG for axample, using a bed temperature of 80° (plus a higher hotend temperature), the fan duct will most like start to deform and sag.  
+It's advisable to (at least) print them from PETG if you're able to do that. If not, printing them from PLA is better than not printing them at all of course. It might happen though that a fan duct printed from PLA will sooner or later sag or deform due to the heat it's being exposed to. This shouldn't be much of an issue as long as you're printing PLA with e.g. a bed temperature of 60°, but if you're about to print PETG for example, using a bed temperature of 80° (plus a higher hotend temperature), the fan duct will most like start to deform and sag.  
   
 - [Gregg Bennett](https://www.printables.com/de/social/221278-greg-bennett/about) created an [extension for the stock fan duct](https://www.printables.com/de/model/399159-air-duct-anycubic-kobra-neo-httpsyoutubeso7tb6e8yh) of the **Neo** which has to be mounted onto it and leads the airflow closer to the printed object underneath the nozzle. Based on my personal experience, I'd suggest to maybe print this one with the stock setup first, mount it and then print another, even better fan duct design.   
 - [Martin](https://www.printables.com/de/social/443043-martin) created a [replacement for the stock fan duct ](https://www.printables.com/de/model/378928-anycubic-kobra-neo-fan-duct) of the **Neo** which is supposed to achieve better part cooling due to air flow from three sides.  

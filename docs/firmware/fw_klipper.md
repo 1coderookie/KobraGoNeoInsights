@@ -15,7 +15,7 @@ The [Huada HC32F460 MCU](https://github.com/Klipper3d/klipper/commit/72b6bd7efa1
 
     - It should already be mentioned here that you can always go back to the stock firmware by just re-flashing it, so you might just want to give Klipper a try. 
     - Be aware of the fact that the control unit and display of the printer doesn't work after flashing Klipper due to the fact that the SPI the unit is connected to isn't supported by Klipper yet. See the belonging section further down below for more information. 
-    - You'd need a host to run additional software like OctoPrint or Mainsail for being able to use the printer with Klipper. See the belonging section further down below for some information and my personal recommendation abput what to use.  
+    - You'd need a host to run additional software like OctoPrint or Mainsail for being able to use the printer with Klipper. See the belonging section further down below for some information and my personal recommendation about what to use.  
     If you don't have a host running OctoPrint/Mainsail/.. yet, see the chapter ["Printserver"](../printserver.md) for some information about hardware you could use for that.    
       
 <!---
@@ -110,7 +110,7 @@ However, there is one thing I'd like to point out right now as it's causing trou
     There is one specific setting I'd like to mention here though as it may cause problems if you don't adjust that. It's the setting `[fan]` for the part cooling fan.  
     So, in the file `printer.cfg` there is a section for the settings of the fans. Klipper is using software PWM by default, the default frequency here seems to be 100Hz.  
     However, users reported dying part cooling fans shortly after switching to Klipper (you can find one of the discussions [here](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2)). This problem seems to be related to the default PWM frequency.  
-    After investiganting the problem it seems that [the fan runs at 20kHz](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2#discussioncomment-5626026) when using the stock firmware as [@xiaopeng12138](https://github.com/xiaopeng12138) found out. So I'd recommend to change the belonging setting for the part cooling fan to the specific "cycle_time" value "0.000050" which is 20kHz if it's not already set in the specific `printer.cfg` you're using.  
+    After investigating the problem it seems that [the fan runs at 20kHz](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2#discussioncomment-5626026) when using the stock firmware as [@xiaopeng12138](https://github.com/xiaopeng12138) found out. So I'd recommend to change the belonging setting for the part cooling fan to the specific "cycle_time" value "0.000050" which is 20kHz if it's not already set in the specific `printer.cfg` you're using.  
    
     This is the belonging section and the setting for the part cooling fan:  
     ```
@@ -184,7 +184,7 @@ As I can't go into further details here, I'd highly recommend to read around abo
 
 - The description about [commands templates](https://www.klipper3d.org/Command_Templates.html) in the official documentation.
 - **The article ["Klipper: Macros - Simply Explained"](https://all3dp.com/2/klipper-macros-simply-explained/) at all3dp.com which gives a nice and short overview about how macros work.**
-- **The detailed article ["Klipper Macros - What They Are and How to Use Them"](https://www.obico.io/blog/klipper-macros/#what-are-klipper-macros) at the Obicio blog.**
+- **The detailed article ["Klipper Macros - What They Are and How to Use Them"](https://www.obico.io/blog/klipper-macros/#what-are-klipper-macros) at the Obico blog.**
 - The article ["Voidtrance Klipper Macros Beginners Guide](https://docs.vorondesign.com/community/howto/voidtrance/Klipper_Macros_Beginners_Guide.html) of the Voron Design community.
 - The ["Macro Creation Tutorial"](https://klipper.discourse.group/t/macro-creation-tutorial/30) at Klipper's discourse group.
 - The [collection of Klipper macros](https://github.com/jschuh/klipper-macros) by [Justin Schuh](https://github.com/jschuh). 
@@ -215,7 +215,7 @@ Please click on the links and read the official documentation about these comman
     **BUT - and this is CRUCIAL! - the head will start to slowly move sidewards in this moment to position the nozzle right above the point where the probe has been located!** ***You need to WAIT for this movement to be done!*** **So inspect the head and wait until it doesn't move anymore before adjusting the actual height!**
     
 
-In the follwing, I'll just give you a short overview about these two kinds of z-offset to show you what the differences are and why you need to set both of them.    
+In the following, I'll just give you a short overview about these two kinds of z-offset to show you what the differences are and why you need to set both of them.    
 
 ---
 
@@ -278,7 +278,7 @@ Before I go into further details here, let me mention some of the (imho) most im
 
 - You can set the offset of the ABL sensor!  
   In the stock firmware, the offset of the probe's location isn't set correctly, therefore the compensation while printing isn't actually as precise as possible.
-  As an example: the probe is located 37.5mm to the right and 4mm to the back in relation to the nozzle at the **Neo** (when looking at the printhead from the front). In the stock firmware, there's only the x-offset being set, the y-offset is not. That leads to the circumstance that the printer assumes that the nozzle and the probe are actually llined up - therefore the corrections being applied while compensating during printing just don't fit as much as they could, because the printer is compensating for a value which is 4mm off to the actual location of the nozzle.  
+  As an example: the probe is located 37.5mm to the right and 4mm to the back in relation to the nozzle at the **Neo** (when looking at the printhead from the front). In the stock firmware, there's only the x-offset being set, the y-offset is not. That leads to the circumstance that the printer assumes that the nozzle and the probe are actually lined up - therefore the corrections being applied while compensating during printing just don't fit as much as they could, because the printer is compensating for a value which is 4mm off to the actual location of the nozzle.  
 - You can set the amount of probed points as well as the algorithm of the probing, so you don't have to stick with the 5x5 grid.
 - You can set the area where the probing should occur in general.
 - You can even use certain macros which allow you to only probe the area you're going to print at before each print you're attempting.
@@ -301,10 +301,10 @@ G28
 BED_MESH_PROFILE LOAD=default
 ```
 
-If you chose individual names for different bed meshs (e.g. "mesh1"), you need to name the specific one you want to be loaded then in the abovementioned command (e.g. `BED_MESH_PROFILE LOAD=mesh1`).  
+If you chose individual names for different bed meshes (e.g. "mesh1"), you need to name the specific one you want to be loaded then in the abovementioned command (e.g. `BED_MESH_PROFILE LOAD=mesh1`).  
 If you saved the mesh using the "default" name like it's being suggested by the UI, enter the name "default" as shown above.    
 
-You can create different bedmeshs for e.g. different bed temperatures by using different names and load them automagically using e.g. the belonging name of the filament type being set in the Slicer. Means, you set the filament type in your Slicer and add a certain entry in the start g-code section of the Slicer, so that the filament type will be written into the generated g-code file. In addition to that you then write a macro for Klipper which then loads the belonging bedmesh for the type of filament being used, like the bedmesh you did at 60°C bed temperature for printing PLA or the one you did at 80°C for printing PETG.    
+You can create different bedmeshes for e.g. different bed temperatures by using different names and load them automagically using e.g. the belonging name of the filament type being set in the Slicer. Means, you set the filament type in your Slicer and add a certain entry in the start g-code section of the Slicer, so that the filament type will be written into the generated g-code file. In addition to that you then write a macro for Klipper which then loads the belonging bedmesh for the type of filament being used, like the bedmesh you did at 60°C bed temperature for printing PLA or the one you did at 80°C for printing PETG.    
 
 You can configure the ABL procedure within your `printer.cfg` as well so that it fits your needs.  
 Means, you can change the amount and location of probing points, the probing speed and the amount of probes for each probing point. You can also choose between different probe algorithms. 
@@ -410,7 +410,7 @@ Just to mention a few here:
 - You already have a heightmap function included which allows you to create and display the meshview after executing an ABL.   
 - If your slicer does support it (SuperSlicer does), you can have thumbnails of your models displayed.   
 - There's also a G-Code viewer already built in.   
-- You have the possibilty to create custom macros and add scripts for e.g. executing backups and activate them with one click.   
+- You have the possibility to create custom macros and add scripts for e.g. executing backups and activate them with one click.   
 - And much more..   
 
 Please see the [official documentation site](https://docs.mainsail.xyz/) for further information.  

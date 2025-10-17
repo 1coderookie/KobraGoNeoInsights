@@ -21,7 +21,7 @@ So let's have a look what might be an interesting and reasonable priced solution
   
 ## Hardware  
 
-In the following I'll mention some solutions which can be used as an additional host which runs some sort of Software like OctoPrit or Pronterface or which can be used as a host for a Klipper installation.  
+In the following I'll mention some solutions which can be used as an additional host which runs some sort of Software like OctoPrint or Pronterface or which can be used as a host for a Klipper installation.  
 
 ---
   
@@ -65,13 +65,13 @@ So does that mean you shouldn't use a RPi? No, not at all, it works absolutely f
 ### RPi Zero (2) W
 Instead of using the regular Raspberry Pi, you could also get yourself the RPi Zero (2) W.  
 If you want to use it for KLipper, I'd recommend to get the Zero **2** W as it's quadcore CPU is more powerful.  
-However, as it seems to be quite difficult to get in these times, you could try running Klipper with the older single core Zero W as well - it just might be that it's not powerful enough to run the webcam stream. I've heard that it might not even be capable of running Input Shaper, but I'm not sure if this is true or nt, so maybe do a little rersearch on your own before you buy it.  
+However, as it seems to be quite difficult to get in these times, you could try running Klipper with the older single core Zero W as well - it just might be that it's not powerful enough to run the webcam stream. I've heard that it might not even be capable of running Input Shaper, but I'm not sure if this is true or nt, so maybe do a little research on your own before you buy it.  
 
 ---
 
 ### Other SBC
 If you can't or don't want to get an RPi but still want to stick to one of those tiny tinker SBC (single board computer) units, you can check out the market what's available and comparable to a RPi, like an "Orange Pi", a "Le Potato" or so on.  
-However, I'm not going into further details here as I personally don't use them and therefore can't give reliable pieces of information about which boards exactly might be a good substitue to a RPi.  
+However, I'm not going into further details here as I personally don't use them and therefore can't give reliable pieces of information about which boards exactly might be a good substitute to a RPi.  
 
 ---
 
@@ -85,7 +85,7 @@ It might not really come into account if your prints last only a few hours and a
 
 ### Thin Clients
 Now - get ready for the real deal: Thin Clients!  
-Ok, might be a bit exxagerated, but I really *love* those fellas.  
+Ok, might be a bit exaggerated, but I really *love* those fellas.  
 *Especially if you want a host for running Klipper on, Thin Clients are my number one recommendation.*
   
 If you've never heard of them, let me give you a quick introduction:  
@@ -100,7 +100,7 @@ Anyway - even if they're usually available for a fair price, I want to mention t
 
     - There are many different Thin Clients from different manufacturers available out there - a good site I'd like to recommend to gather around and check out the specs of different Thin Clients is [ParkyTowers](https://www.parkytowers.me.uk/thin/).  
     - If you're looking for something really small, maybe look out for a Dell Wyse 3040 or 3020. They do have limited power and RAM possibilities compared to bigger Thin Clients, but for just acting as a headless print server instead of a RPi they're powerful enough.   
-    -  I personally like the HP Thin Client T6x0 series as you can upgrade them really well. The higer the number, the newer the model and the more powerful, energy efficient and compatible with modern parts it is (e.g. T610 uses a 2.5" SSD & DDR3 SO-DIMM RAM while the T630 uses a m2.SATA SSD & DDR4 SO-DIMM RAM).    
+    -  I personally like the HP Thin Client T6x0 series as you can upgrade them really well. The higher the number, the newer the model and the more powerful, energy efficient and compatible with modern parts it is (e.g. T610 uses a 2.5" SSD & DDR3 SO-DIMM RAM while the T630 uses a m2.SATA SSD & DDR4 SO-DIMM RAM).    
 
 ---
 
@@ -116,7 +116,7 @@ The Creality Sonic Pad comes with Klipper preinstalled and offers features like 
 User [@mackmind](https://github.com/mackmind) was so kind to write down some [instructions about how to proceed](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/7) for getting a Sonic Pad to work with the Go/Neo.  
 
 The BTT Pad 7 is especially interesting when you want to swap out the stock mainboard and use a BTT board instead.  
-Afaik the BTT Pad 7 is also somewhat 'easier' to flash and configure than the Sonic Pad, but I didn't really do firther research on it, so maybe better check and compare yourself.  
+Afaik the BTT Pad 7 is also somewhat 'easier' to flash and configure than the Sonic Pad, but I didn't really do further research on it, so maybe better check and compare yourself.  
 
 ---
 
@@ -126,7 +126,7 @@ I personally would *not* recommend it as a host for Klipper though - you can use
 
 I won't go deeper here though due to my lack of experience with this solution - you'll find many information about this around the web. One of those sources of information I'd like to mention though is the video of [Thomas Sanladerer: How to run OctoPrint on your phone!](https://www.youtube.com/watch?v=74xdib_-X38) and the GitHub repository of [feelfreelinux: octo4a](https://github.com/feelfreelinux/octo4a).  
   
-Besides the possibilty to use your old android device as a printserver, you can also use it as an additional screen for software like OctoPrint. That means that you don't install e.g. OctoPrint itself on the android device - you install an app which connects with the running instance of OctoPrint and gives you a nice UI on your smartphone. By doing so you could mount your old phone at the printer and interact with OctoPrint using your touchscreen or just have certain information displayed at the screen.  
+Besides the possibility of using your old android device as a printserver, you can also use it as an additional screen for software like OctoPrint. That means that you don't install e.g. OctoPrint itself on the android device - you install an app which connects with the running instance of OctoPrint and gives you a nice UI on your smartphone. By doing so you could mount your old phone at the printer and interact with OctoPrint using your touchscreen or just have certain information displayed at the screen.  
 
 However, it should be mentioned here that it seems to be a bit like gambling to find the right device which connects with the USB chip being used at the printers mainboard and that can be charged parallel to being connected to the printer as well. It might even occur that the mainboard might get affected somehow if one applies 5V to it through the USB-C connector. 
 
@@ -137,7 +137,7 @@ However, it should be mentioned here that it seems to be a bit like gambling to 
   
 ??? tip "USB OTG"
 
-    - I'd like to mention one of the probably biggest issues you might encouter: charging the device while having it connected to the printer at the same time. <br> While it shouldn't be a problem if you're having a device with a separate power plug or wireless charging, it might become a problem if you'd have to use some kind of solution which splits up the line for USB charging and OTG - not all devices work with that. <br> Additionally, I personally would be concerned about probably harming the printers mainboard due to a faulty cable or whatever. 
+    - I'd like to mention one of the probably biggest issues you might encounter: charging the device while having it connected to the printer at the same time. <br> While it shouldn't be a problem if you're having a device with a separate power plug or wireless charging, it might become a problem if you'd have to use some kind of solution which splits up the line for USB charging and OTG - not all devices work with that. <br> Additionally, I personally would be concerned about probably harming the printers mainboard due to a faulty cable or whatever. 
     - What also should be mentioned here as a **warning** is the fact that devices which are connected 24/7 to the charger might be a huge hazard as the battery could catch fire or even blow up. So keep that in mind if you're tempted to go this way.
 
 ---
@@ -157,7 +157,7 @@ My personal opinion on this:
 - If you're running the stock one which is Marlin based, just go with OctoPrint.   
 - If you're using Klipper firmware, you can stick to OctoPrint, I'd recommend the usage of Mainsail or Fluidd though, as they're basically made for Klipper.  
 
-Yes, you could also look out for different software, but because the abovementioned programs are commonly used you'll find a lot of information about them and also many plugins for enhancing the capability even more. I'd recommend to do a little websearch on that, you might want to start with this article though: [Ocbico: Mainsail vs. Fluidd vs. Octoprint - A Comparison](https://www.obico.io/blog/mainsail-vs-fluidd-vs-octoprint/)
+Yes, you could also look out for different software, but because the abovementioned programs are commonly used you'll find a lot of information about them and also many plugins for enhancing the capability even more. I'd recommend to do a little websearch on that, you might want to start with this article though: [Obico: Mainsail vs. Fluidd vs. Octoprint - A Comparison](https://www.obico.io/blog/mainsail-vs-fluidd-vs-octoprint/)
 
 ---  
 
@@ -175,7 +175,7 @@ As mentioned in the RPi section, if you connect a webcam directly to your prints
 
 Preferably use a cam with a wide angle view and a fixed focus, so that you can see the whole area of the bed and there's no autofocus which gets irritated by the movement.  
 
-If you want to create a time lapse video from your printing process, keep in mind that it's a pretty resource consuming task (CPU power, RAM and storage usage). So also here using a low resolution like 480p is adviseable, but might not fulfill your needs if you want high resolution videos.    
+If you want to create a time lapse video from your printing process, keep in mind that it's a pretty resource consuming task (CPU power, RAM and storage usage). So also here using a low resolution like 480p is advisable, but might not fulfill your needs if you want high resolution videos.    
   
 However, I also would like to mention or even recommend general IP cameras (WiFi/LAN) which you could use. Also here it doesn't have to be a cam for a hundred bucks - a cheap one will do the job just fine. They often already come with the option to create time lapse videos and store it onto a microSD card also.  
 If you like to tinker a bit, maybe get yourself a cheap ESP32-CAM module.  

@@ -73,7 +73,7 @@ The thermistor is a 100k NTC type which is soldered onto the PCB. According to t
 
 ??? info "What Is A "100k NTC" Thermistor?"
 
-    A "NTC" thermistor is an electronical components that's changing its resistance when temperature changes occur. "NTC" stands for Negative Temperature Coefficient, which means that the resistance becomes lower when temperature rises.    
+    A "NTC" thermistor is an electronic components that's changing its resistance when temperature changes occur. "NTC" stands for Negative Temperature Coefficient, which means that the resistance becomes lower when temperature rises.    
     "100k" NTC thermistor means that at a defined temperature of 25°C the resistance is 100k Ohm. The hotter the thermistor gets, the lower the resistance value will be; the colder the thermistor gets, the bigger the resistance will be. So at e.g. 20°C bed temperature the resistance will be ~125k Ohm, at 30°C it'll be ~81k Ohm.  
     There are general data sheets for this kind of thermistor to find with list the different resistance values at given temperatures. However, these values can slightly vary, depending on the manufacturer and the type of the 100k thermistor (e.g.: EPCOS vs. ATC 104 vs. General 3950).   
 
@@ -86,7 +86,7 @@ The thermistor is a 100k NTC type which is soldered onto the PCB. According to t
 ### MOD: Insulating The Bedplate 
 What I personally can highly recommend is to insulate the underside of the bed.  
 You can get special insulation mats for 3d printers which meet the requirements for this (like being suited for higher temperatures and being flame retardant) for a few bucks. See the expandable textblock below for some tips about the installation.    
-Make sure you order the correct size (preferrably a bit bigger) which is 230x230mm as that's the size of the bedplate itself.  
+Make sure you order the correct size (preferably a bit bigger) which is 230x230mm as that's the size of the bedplate itself.  
 
 ![Bed insulated](../assets/images/bed_insulated_web.jpg)
 
@@ -155,7 +155,7 @@ The following picture shows the magnetic foil that Anycubic shipped together wit
     Make sure to position the foil correctly at the first attempt as you don't want to put yourself in the position where you have to pull off the foil again. Bend the foil a bit and then wipe along that stripe you already put on the bed from the middle to the outer edges with slight pressure. Pay attention to get the foil onto the bed smooth and even - there shouldn't be any bubbles of trapped air or even 'wrinkles' of the foil!  
     If everything worked out well for that first stripe, slowly pull off the protective film while applying the foil onto the bedplate in the described way. Means, go slowly in small increments and always apply pressure by wiping from the center to the sides for avoiding trapped air.  
     
-    Once you're done, wipe from the center of the bedplate to the sides once again while applying a bit of more pressure. Then heat up the bed to about 40-50°C (so that it's still safe for you to touch it without burning yourself) and let it sit for about 5min like that. Then wipe over it once again while applying pressure to make sure the foil is properly attached. Pay special attention to the egdes and long corners and make sure the foil really is attached well there.  
+    Once you're done, wipe from the center of the bedplate to the sides once again while applying a bit of more pressure. Then heat up the bed to about 40-50°C (so that it's still safe for you to touch it without burning yourself) and let it sit for about 5min like that. Then wipe over it once again while applying pressure to make sure the foil is properly attached. Pay special attention to the edges and long corners and make sure the foil really is attached well there.  
     
     If you bought a 235x235mm or even bigger foil, cut off the protruding parts by using a scalpel or sharp knife.   
 
@@ -186,8 +186,8 @@ The following picture shows the surface of the coated plate of the **Neo** from 
         - wash the plate using *regular dishwasher soap and water* (don't use the kind of 'soft', 'creamy' or 'balm' soap though), 
         - use *isopropyl alcohol (IPA)* or 
         - use *silicone remover spray* (it's the stuff the guys use to clean the surface before spraypainting a car, I personally use this and can highly recommend it).  
-    - Already touching the plate with your fingers leads to a little amoung of grease left there which already might be enough to cause problems for your print to stick on the bed, so maybe always use disposable gloves when touching it, taking it off or repositioning it.
-    - If there's a rest of filament stuck on the plate, *never* try to scratch it off with metal or other sharp materials as you don't want to harm the PEI coating. Let it cool down completely and try to peel it off. If that doesn't work well (depends on the materiall you were using), heat up the bed and try to peel off the filament then. If that also doesn't work, take off the plate and heat up the area using your hot air gun - sooner or later you'll be able to peel it off. However, be careful to not overheat and maybe harm the coating though.  
+    - Already touching the plate with your fingers leads to a little amount of grease left there which already might be enough to cause problems for your print to stick on the bed, so maybe always use disposable gloves when touching it, taking it off or repositioning it.
+    - If there's a rest of filament stuck on the plate, *never* try to scratch it off with metal or other sharp materials as you don't want to harm the PEI coating. Let it cool down completely and try to peel it off. If that doesn't work well (depends on the material you were using), heat up the bed and try to peel off the filament then. If that also doesn't work, take off the plate and heat up the area using your hot air gun - sooner or later you'll be able to peel it off. However, be careful to not overheat and maybe harm the coating though.  
 
     *If you cleaned the bed properly, got your z-offset dialed in and use the correct bed temperature for the type of filament you're using, there's* ***no need to mess around with gluesticks, hairspray, blue tape or whatever!*** *The PEI plate really does work great!*
 
@@ -223,7 +223,7 @@ Besides that, an annoying problem is that the stock spacers aren't all of equal 
 ### MOD: Adjustable Spacers 
 
 Because you can't tram the bed itself due to this rigid construction, you may want to replaced the stock spacers with springs or silicone spacers which allows tramming of the bed itself.  
-When doing so while using the threads in the bedgantry where you screw in the screws, you'd have to access the screws from above for tramming the bed.  
+When doing so while using the threads in the bed gantry where you screw in the screws, you'd have to access the screws from above for tramming the bed.  
 
 If you don't want that and if you want to be able to adjust the bed's height from the underside, you'd have to drill out the threads. Then secure the screws by adding a nut (place an additional nylon washer between the bed's underside and the nut!) and screw them against the bedplate. After doing so, you can then add the knobs underneath the gantry after putting everything together.  
 It's advisable to make sure that the bolt can't turn itself loose due to the vibration, so add some sort of nut acting as a lock nut (like a nylon lock nut, a regular counter nut, a wingnut or so) to the tip of the screw underneath the bed gantry as well.  
@@ -233,10 +233,10 @@ The following picture shows the stock spacers on the left, springs in the middle
 
 ??? warning "Tram The X-Gantry In Relation To The Frame!"  
 
-    People often think that using adjustable spacers would be an improvement as that allows them to manually tram the bed. While this is true in the meaning that you can't trame the bed itself with rigid spacers, it's actually not necessarily true that people are actually able to achieve better results when using adjustable spacers and tramming the bed manually.  
+    People often think that using adjustable spacers would be an improvement as that allows them to manually tram the bed. While this is true in the meaning that you can't tram the bed itself with rigid spacers, it's actually not necessarily true that people are actually able to achieve better results when using adjustable spacers and tramming the bed manually.  
     Not only do we have to access the screws from above here (which can be solved by drilling out the holes as mentioned above), but it can also be pretty challenging to adjust the height to get the four corners of the bed being equidistant to the nozzle with less variances than when using rigid spacers.  
     Besides that, when adjusting the height, people tend to compress the spacers too much, which then puts additional stress onto the bedplate and might lead to more warping.  
-    It can also lead to the circumstance that the bedplate will be too low and that the underside will hit the mount of the Y-axis motor which then can do harm and create a shortcut to the heater coil. So pay close attention to that! 
+    It can also lead to the circumstance that the bedplate will be too low and that the underside will hit the mount of the Y-axis motor which then can do harm and create a short circuit to the heater coil. So pay close attention to that! 
 
     However, when using adjustable spacers, it's crucial to [tram the x-gantry in relation to the *frame*](axes.md#tramming-the-x-axis-gantry)!
 
@@ -245,10 +245,10 @@ The following picture shows the stock spacers on the left, springs in the middle
     When using adjustable spacers, it's extremely important to keep an eye on the clearing underneath the bed while tramming the bed and therefore adjusting the height of the whole bedplate itself!  
     You don't want to get the bed too low so that it hits or scratches the bracket of the y-axis motor mount!  
      
-    The following pictures show the result of a bed which as been adjusted too low, so that the metal bracket of the y-axis motor mount scratched the underside of the bed. The heating coils got harmed and a shortcut occured. Not only will you have to get yourself a new bed in this case, this can also destroy the mainboard or do even more severe harm!  
+    The following pictures show the result of a bed which as been adjusted too low, so that the metal bracket of the y-axis motor mount scratched the underside of the bed. The heating coils got harmed and a short circuit occurred. Not only will you have to get yourself a new bed in this case, this can also destroy the mainboard or do even more severe harm!  
 
-    ![Bed PCB shortcut](../assets/images/bed_shortcut_wide_web.jpeg)  
-    ![Bed PCB shortcut closeup](../assets/images/bed_shortcut_web.jpeg)
+    ![Bed PCB short circuit](../assets/images/bed_shortcut_wide_web.jpeg)  
+    ![Bed PCB short circuit closeup](../assets/images/bed_shortcut_web.jpeg)
    
     Also when adding insulation to the underside of the bed, the clearance has to be checked to avoid that the mounting plate will tear off the insulation!  
 
@@ -269,10 +269,10 @@ I personally used 8x25mm springs (the yellow ones shown above) and M4x40mm count
     When using adjustable spacers, it's extremely important to keep an eye on the clearing underneath the bed while tramming the bed and therefore adjusting the height of the whole bedplate itself!  
     You don't want to get the bed too low so that it hits or scratches the bracket of the y-axis motor mount!  
      
-    The following pictures show the result of a bed which as been adjusted too low, so that the metal bracket of the y-axis motor mount scratched the underside of the bed. The heating coils got harmed and a shortcut occured. Not only will you have to get yourself a new bed in this case, this can also destroy the mainboard or do even more severe harm!  
+    The following pictures show the result of a bed which as been adjusted too low, so that the metal bracket of the y-axis motor mount scratched the underside of the bed. The heating coils got harmed and a short circuit occurred. Not only will you have to get yourself a new bed in this case, this can also destroy the mainboard or do even more severe harm!  
 
-    ![Bed PCB shortcut](../assets/images/bed_shortcut_wide_web.jpeg)  
-    ![Bed PCB shortcut closeup](../assets/images/bed_shortcut_web.jpeg)
+    ![Bed PCB short circuit](../assets/images/bed_shortcut_wide_web.jpeg)  
+    ![Bed PCB short circuit closeup](../assets/images/bed_shortcut_web.jpeg)
    
     Also when adding insulation to the underside of the bed, the clearance has to be checked to avoid that the mounting plate will tear off the insulation!    
 
@@ -288,10 +288,10 @@ Keep in mind that the silicone spacers (I used 18mm long ones shown below) compr
     When using adjustable spacers, it's extremely important to keep an eye on the clearing underneath the bed while tramming the bed and therefore adjusting the height of the whole bedplate itself!  
     You don't want to get the bed too low so that it hits or scratches the bracket of the y-axis motor mount!  
      
-    The following pictures show the result of a bed which as been adjusted too low, so that the metal bracket of the y-axis motor mount scratched the underside of the bed. The heating coils got harmed and a shortcut occured. Not only will you have to get yourself a new bed in this case, this can also destroy the mainboard or do even more severe harm!  
+    The following pictures show the result of a bed which as been adjusted too low, so that the metal bracket of the y-axis motor mount scratched the underside of the bed. The heating coils got harmed and a short circuit occurred. Not only will you have to get yourself a new bed in this case, this can also destroy the mainboard or do even more severe harm!  
 
-    ![Bed PCB shortcut](../assets/images/bed_shortcut_wide_web.jpeg)  
-    ![Bed PCB shortcut closeup](../assets/images/bed_shortcut_web.jpeg)
+    ![Bed PCB short circuit](../assets/images/bed_shortcut_wide_web.jpeg)  
+    ![Bed PCB short circuit closeup](../assets/images/bed_shortcut_web.jpeg)
    
     Also when adding insulation to the underside of the bed, the clearance has to be checked to avoid that the mounting plate will tear off the insulation!       
 
@@ -338,11 +338,11 @@ Maybe it was a 4 point mounting because of the bed being heated up? Maybe it was
 So I did a bit of a research and thankfully discovered an [article where exactly this circumstance is being described and explained](https://drmrehorst.blogspot.com/2017/07/3-point-print-bed-leveling-vs-4-point.html) for 3d printers. *I highly recommend reading it!*  
 
 So, long story short: I decided trying to mod my printer's gantry and bedmount to a 3 point system.  
-I gathered through my workshop and found an aluminum pofile which seemed to be useful for this attempt. I cut two pieces and drilled the belonging holes (the distance was about 164mm and I used a 5mm drill which gave me a bit of a play while installing it): one at each end for mounting the profiles to the bedplate and the gantry using the existing holes and threads, and one in the exact middle for the screw which then would be my 'roll' mounting point. The holes in the middle had to have a bit of an offset to each other as I used L-shaped aluminum profiles for better stability, so that the profiles won't hit each other when lowering the bed.    
+I gathered through my workshop and found an aluminum profile which seemed to be useful for this attempt. I cut two pieces and drilled the belonging holes (the distance was about 164mm and I used a 5mm drill which gave me a bit of a play while installing it): one at each end for mounting the profiles to the bedplate and the gantry using the existing holes and threads, and one in the exact middle for the screw which then would be my 'roll' mounting point. The holes in the middle had to have a bit of an offset to each other as I used L-shaped aluminum profiles for better stability, so that the profiles won't hit each other when lowering the bed.    
 
 ![Aluminum parts](../assets/images/bed_3pt-parts_web.jpg)  
 
-After mounting a screw to the middle of the part which will be attached to the bedplate, I then mounted the parts to the bedgantry and the bed itself.  
+After mounting a screw to the middle of the part which will be attached to the bedplate, I then mounted the parts to the bed gantry and the bed itself.  
 As I have insulation added to the bedplate, I had to use bushings/spacers so that the insulation won't be compressed at the two mounting holes. I used some slightly too short spacers here first, which immediately lead to a bent bedplate due to the insulation pushing against the bed, especially in the middle section. After swapping out those spacers and using longer ones, everything worked out fine.  
 Of course I didn't found screws with the perfect length, but as I didn't want to drive t o the hardware store just for two screws and I didn't want to cut the original screws, I ended up using those. I also drilled the existing holes in the bedplate a tiny bit bigger for allowing a bit of movement which should take care of the expanding material while heating up.   
 After adding a spring to that screw in the middle, I then mounted everything together.  
@@ -360,7 +360,7 @@ This is how it looks like in total from the front. I took the picture with the c
 Right now I still have to take off the PEI plate (or at least lift the left front corner) for accessing and adjusting the screw for the pitch (because that one is still screwed into the thread of the gantry) which I chose the front left screw should be (the back left screw is my reference), the screw for the roll (which is now the screw in the middle at the right side) I can access from underneath the bed though which makes it easy to adjust. I'll probably end up changing the setup for the screw of the pitch as well. 
 
 I then continued with a rough tramming without the PEI plate being applied, adjusting only the 'pitch' and then the 'roll' after having the 'reference' set to the desired height.  
-After that, I put on the pEI plate and excetuted the probing for a bedmesh (7x7 grid using Klipper) with the bed being cold - the result looked promising.  
+After that, I put on the pEI plate and executed the probing for a bedmesh (7x7 grid using Klipper) with the bed being cold - the result looked promising.  
 
 ![Bedmesh 3point cold](../assets/images/bedmesh_3pt_cold_web.jpg)
 
@@ -388,10 +388,10 @@ The data will then be used to compensate any deviations in the distance of the s
 
 However, there are some limitations to this.  
 First of all, this compensation while printing isn't 100% precise due to the 5x5 grid (even though the data is interpolated). At the **Neo** this problem is even amplified due to the fact that Anycubic didn't set the y-offset for the ABL sensor in the firmware. Means, the firmware 'knows' that the ABL sensor at the **Neo** is positioned 37.5mm to the right side of the nozzle, but it doesn't know that the sensor is positioned about 4mm to the back in relation to the nozzle as well (`#define NOZZLE_TO_PROBE_OFFSET { 37.5,0, 0 }`). Therefore the compensation while printing can't be as much as accurate as possible.   
-Next, this compensation is somewhat limited by the amount of deviation and (imho) by the printing speed as well. So if you have a massively warped bed and a tilted x-axis gantry as well and you have variances of a few milimeters, you'll most likely still see a heavily imperfect initial layer.  
-So - what can you do to at least get the best results out of the measunring and compensation process? Well - make sure to set up the printer as square and perpendicular as possible, [tram your bed](#tramming-the-bed), [tram your x-axis gantry](axes.md#tramming-the-x-axis-gantry) and [level the ABL sensor in relation to the nozzle](printhead.md#abl-sensor). If you use Klipper, you can enhance the amount of probing points and (for the **Neo**) set the y-offset of the ABL sensor as well.  
+Next, this compensation is somewhat limited by the amount of deviation and (imho) by the printing speed as well. So if you have a massively warped bed and a tilted x-axis gantry as well and you have variances of a few millimeters, you'll most likely still see a heavily imperfect initial layer.  
+So - what can you do to at least get the best results out of the measuring and compensation process? Well - make sure to set up the printer as square and perpendicular as possible, [tram your bed](#tramming-the-bed), [tram your x-axis gantry](axes.md#tramming-the-x-axis-gantry) and [level the ABL sensor in relation to the nozzle](printhead.md#abl-sensor). If you use Klipper, you can enhance the amount of probing points and (for the **Neo**) set the y-offset of the ABL sensor as well.  
 
-So, to make this clear: **don't get misleaded by the term "automatic bed leveling" - the process does *not* level or tram your bed!**  
+So, to make this clear: **don't be mislead by the term "automatic bed leveling" - the process does *not* level or tram your bed!**  
 It only measures and recognizes the distance towards the sensor at the 25 spots where it measures. You can *not* level/tram the bed itself without tinkering, as it's mounted directly to the bed gantry with rigid spacers/bushings.    
 
 When it comes to executing the ABL function of the printer, it's advisable to initially check if the ABL sensor is leveled correctly to get the best results out of the ABL process. You can find information about how to do it for your specific model in the section ["ABL Sensor"](printhead.md#abl-sensor).     
@@ -471,7 +471,7 @@ So: enter the settings in your slicer and search the place where this section is
 
 ??? warning "'Tramming' vs. 'Leveling' The Bed"  
 
-    Because I got attacked, harrassed, insulted and called names for using the correct term "tramming" instead of the misleading and technically wrong term "leveling", let me make something clear at this point.  
+    Because I got attacked, harassed, insulted and called names for using the correct term "tramming" instead of the misleading and technically wrong term "leveling", let me make something clear at this point.  
     
     What we do here is a procedure called "tramming". 
     We (try) to get the machine and certain parts of it aligned perfectly, like axes and parts being square, parallel, perpendicular and equidistant *towards each other*.  
@@ -488,7 +488,7 @@ So: enter the settings in your slicer and search the place where this section is
 
     *So to all those haters out there: yes, I will continue to use the correct term "tramming", no matter how much you'll attack and try to insult me.*  
     And no, I don't do it because I want to show the world that I know the correct term, I do it because I want to avoid that beginners become frustrated because they just get it wrong.  
-    And if you haters would start to actually do the same, then maybe one day there might occur a shift in the 'consciousness' of the community and the correct term would be used on a regular basis. Seriously, try to *help* people out by just using the correct term for making them realize that it's *not* about how perpendicular the bed or gantry is towards gravity - and stop harrassing people who already do so.  
+    And if you haters would start to actually do the same, then maybe one day there might occur a shift in the 'consciousness' of the community and the correct term would be used on a regular basis. Seriously, try to *help* people out by just using the correct term for making them realize that it's *not* about how perpendicular the bed or gantry is towards gravity - and stop harassing people who already do so.  
     
 
 Even though "tramming" the bed isn't really possible when using the rigid stock spacers of the bedplate these printers come with, there is something one can and should do though: check if those spacers are all of the same height. *This is really important, so better don't skip this step!*   
@@ -501,7 +501,7 @@ I'll describe the belonging process for each case in the following.
 
 ??? example ""Tramming" When Using The Rigid Stock Spacers"
 
-    When using the rigid stock spacers the printer came with, dismount the bedplate from the bedgantry and take out those four black spacers. Then put them next to each other on a flat surface and/or measure them using a caliper. Most likely they aren't all of the same height, which will lead to a somewhat crooked, tilted or 'warped' bed.  
+    When using the rigid stock spacers the printer came with, dismount the bedplate from the bed gantry and take out those four black spacers. Then put them next to each other on a flat surface and/or measure them using a caliper. Most likely they aren't all of the same height, which will lead to a somewhat crooked, tilted or 'warped' bed.  
     
     Now you could either look for other spacers you might be using, put washers or other suitable material (e.g. gasket material) of the needed thickness under them when remounting or (what I'd recommend to do) *sand them down to the smallest of the four spacers for achieving an equal height*.  
     When doing so, put the sandpaper on a flat surface and carefully rub the spacers across it - *pay attention that you do this while holding the spacer absolutely perpendicular! You don't want to end up with a spacer where one end is sanded off tilted!*  
@@ -533,7 +533,7 @@ I'll describe the belonging process for each case in the following.
 
 There's a common issue which is worth getting it's own section: breaking wires of the bed's wiring.  
 There are two types of wires at the bed: the thin ones which are the wires for the bed's thermistor and the thicker ones which are the wires for supplying the 24V DC to the coil at the underside of the bed for heating up the bed.  
-Due to repetive motion and the design, these wires start to break over time.  
+Due to repetitive motion and the design, these wires start to break over time.  
 To be more precise: the thin strands of the wires inside of the insulation start to break. Therefore the resistance of those wires will increase until the point is reached that all of the strands are broken and there's no contact given anymore.  
 
 In the beginning you'll most likely notice this when you have an error message ["ERR: MINTEMP Bed"](troubleshooting.md#err-mintempmaxtempthermal-runaway-bed) appearing. Even though you can fix this issue by replacing the wires of the thermistor as described in the next sections, sooner or later this will also happen with the thicker wires. And even though this can be fixed as well by replacing the wires, it's not as easy 'detectable' as with the wring of the thermistor, as there won't be an error message if strands of the 24V wires start to break and therefore the resistance becomes bigger.  
@@ -601,7 +601,7 @@ To keep this section as short as possible, I'll go over each of them in an expan
       You can see this 'hack' at the following picture.      
       ![Wiring harness](../assets/images/bed_K2Pro_wiring-harness_web.jpg)  
 
-    I have to admit though that I probably exxagerated it as the additional silicone tube made it quite stiff. So if you want to go with this solution, keep an eye on the thickness and stiffness of the tube as well as how many layers of tape you apply.    
+    I have to admit though that I probably exaggerated it as the additional silicone tube made it quite stiff. So if you want to go with this solution, keep an eye on the thickness and stiffness of the tube as well as how many layers of tape you apply.    
 
 ??? example "Spring And Heat Shrink Tubings"
 
@@ -614,7 +614,7 @@ To keep this section as short as possible, I'll go over each of them in an expan
     - Place the spring with the wires in the plastic cap and add a cabletie to hold it in place.  
       ![Step 2](../assets/images/bed_wires-springmod2_web.jpg)
     - Now pull the wires through a bigger heat shrink tube and place that one across the end of the spring and the wires that come out of it, to secure everything here. By doing so, you'll reduce the motion of the wires in the spring itself and stabilize the wire a bit. When the wires will be pulled/moved, they won't be bent at the spot right after the spring and won't be moved around in the spring as well.  
-      The following picture shows the final asssembly.  
+      The following picture shows the final assembly.  
       ![Final](../assets/images/bed_wires-springmod4_web.jpg)  
 
     This is actually my preferred solution, BUT: you have to pay attention to use a spring which isn't too stiff! I had one laying around in my drawers at my workshop, so I can't give you any further specs. Best would be to check at a hardware shop and bend the spring to make sure it bends easily. You don't want to stiffen it up too much, you just want it to act as a guide for when the wires are being bent.  
@@ -651,8 +651,8 @@ The following expandable textboxes will give you some basic instructions what yo
     
     However, *it's advisable to measure the resistance, even though your multimeter offers the function of probing for continuity,* because it might be the case that a wire still passes the check for continuity, but that individual strands of the wire are broken. This causes problems if those strands lose contact permanently or during movement of the bed, as it leads to a higher resistance.  
     
-    - At the 24V wires this can lead to the circumstance that the wire will get hot at that spot, that the insulation will melt, that a shortcut might occur and it might even occur that it causes a fire.   
-    - At the thermistor wires this can cause the [ERR: MINTEMP](../troubleshooting.md#err-mintempmaxtempthermal-runaway) error message. When the problem of breaking strands starts to occur, you'll experience the upcoming of this error message when the bed is moving and reaches a certain position. In that case those broken strands lose contact, which leads to a suddenly changing resistance value. As the temperature is interpreted by the reisistance value of the bed's thermistor, a suddenly changing resistance is interpreted as a sudden change in the temperature. If this change is 'big' enough, the belonging error message will be triggered.     
+    - At the 24V wires this can lead to the circumstance that the wire will get hot at that spot, that the insulation will melt, that a short circuit might occur and it might even occur that it causes a fire.   
+    - At the thermistor wires this can cause the [ERR: MINTEMP](../troubleshooting.md#err-mintempmaxtempthermal-runaway) error message. When the problem of breaking strands starts to occur, you'll experience the upcoming of this error message when the bed is moving and reaches a certain position. In that case those broken strands lose contact, which leads to a suddenly changing resistance value. As the temperature is interpreted by the resistance value of the bed's thermistor, a suddenly changing resistance is interpreted as a sudden change in the temperature. If this change is 'big' enough, the belonging error message will be triggered.     
     
     **Procedure:**  
     
@@ -661,7 +661,7 @@ The following expandable textboxes will give you some basic instructions what yo
 
 ??? example "Measuring / Checking The Thermistor"  
 
-    You can check if a thermistor is working or if it's broken by measuring the resistance of it using a multimeter. As described above, at a temperature of 25°C the resistance should be ~100k Ohm (nominal restistance: R<sup>25°C</sup> = 100 kΩ ± 1%). If the temperature is lower, the resistance value will be higher; if the temperature is higher, the resistance value will be lower.  
+    You can check if a thermistor is working or if it's broken by measuring the resistance of it using a multimeter. As described above, at a temperature of 25°C the resistance should be ~100k Ohm (nominal resistance: R<sup>25°C</sup> = 100 kΩ ± 1%). If the temperature is lower, the resistance value will be higher; if the temperature is higher, the resistance value will be lower.  
     The following table gives you some typical resistance values of a 100K thermistor type 3950 (generic) for temperatures around room temperature. The values might slightly vary from the one you'll get, but they should be pretty close.  
     
     | Temperature in °C | Resistance in kΩ (kilo Ohm) |  
@@ -712,7 +712,7 @@ If you encounter a **faulty wiring, either of the 24V line or the thermistor,** 
     
 !!! warning   
     
-    - *If you don't know how to solder, it's advisable to consultate someone who is capable of doing so. It's important that the soldering will be done properly!*  
+    - *If you don't know how to solder, it's advisable to consult someone who is capable of doing so. It's important that the soldering will be done properly!*  
     
     - *A faulty soldering like cold solder joints can not only induce problems like unreliable working parts, it can also cause severe damage if it's located at the 24V heating circuit line!*    
     
@@ -722,9 +722,9 @@ If you encounter a **faulty wiring, either of the 24V line or the thermistor,** 
 ??? example "Replacing The Wires Of The 24V Heating Circuit"  
 
     - If you need to replace the wiring of the 24V heater circuit of the bed, use highly flexible wire with many thin strands and a silicone insulation! *Don't* use a wire with a PVC insulation!  
-    - Use at least AWG14 wire, preferrably thicker.  
+    - Use at least AWG14 wire, preferably thicker.  
     - Add [ferrules] to the end of the wires which connects to the screw terminals of the mainboard!
-    - Pay attention to proper soldering! Avoid any shortcuts, cold solder joints etc.  
+    - Pay attention to proper soldering! Avoid any short circuits, cold solder joints etc.  
     - If you can't solder and you *absolutely* don't have any other possibility to have the soldering done by someone who is experienced in this, you might use special connectors.  
     - In that case you leave e.g. an inch of the original wiring at the bed (assuming that the faulty spot isn't located there - check that beforehand!) and then connect the new wire with the existing one.  
     - If you do so, pay special attention to add a proper strain relief - no strain or movement *at all* should occur at the fixed part of the wire!  
@@ -734,8 +734,8 @@ If you encounter a **faulty wiring, either of the 24V line or the thermistor,** 
 ??? example "Replacing The Wires Of The Thermistor Wiring"  
     
     - If you need to replace the wiring of the thermistor of the bed, use highly flexible wire with many thin strands and a silicone insulation! *Don't* use a wire with a PVC insulation!  
-    - Use at least AWG22 wire, preferrably thicker.  
-    - Pay attention to proper soldering! Avoid any shortcuts, cold solder joints etc.  
+    - Use at least AWG22 wire, preferably thicker.  
+    - Pay attention to proper soldering! Avoid any short circuits, cold solder joints etc.  
     - If you can't solder and you *absolutely* don't have any other possibility to have the soldering done by someone who is experienced in this, you might use special connectors.  
     - If you want to do so, leave e.g. an inch of the original wiring at the bed (assuming that the faulty spot isn't located there - check that beforehand!) and then connect the new wire with the existing one.  
     - *If you do so, pay special attention to add a proper strain relief - no strain or movement at all should occur at the fixed part of the wire!*   

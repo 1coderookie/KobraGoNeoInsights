@@ -66,7 +66,7 @@ See the following expandable textboxes for some notes on how to dis- and reassem
 ??? example "Disassembling The Belt Tensioner"
 
     It might happen that you have to disassemble the tensioner in order to replace a broken belt or a broken (part of the) tensioner.  
-    In that case turn the knob counter-clockwise until the belt completely sags. Then unhook one end of the belt from the bedgantry (I suggest to unhook it in the front of the bed gantry). Unscrew the two screws you can see at the blue plastic cap of the belt tensioner and carefully pull it off the frame. You might have to turn the knob even more counter-clockwise if it doesn't come off right away.  
+    In that case turn the knob counter-clockwise until the belt completely sags. Then unhook one end of the belt from the bed gantry (I suggest to unhook it in the front of the bed gantry). Unscrew the two screws you can see at the blue plastic cap of the belt tensioner and carefully pull it off the frame. You might have to turn the knob even more counter-clockwise if it doesn't come off right away.  
     Once you've pulled it off, you'll see the parts as shown in the picture below (right now the picture shows the disassembled y-axis tensioner, but besides a slightly different shaped plastic cap, the interior looks the same - I'll add a belonging picture of the x-axis tensioner soo though).  
 
     ![Belt tensioner unmounted](../assets/images/axes_y-tensioner_dis1_web.jpg)
@@ -94,12 +94,12 @@ See the following expandable textboxes for some notes on how to dis- and reassem
 It's kinda difficult to explain the correct belt tension, so you'd have to experiment a bit with that.  
 Generally speaking, the belt shouldn't be too tightened up and shouldn't be too loose either. If it's too tight, too much pressure will be put onto the motor shaft which will do harm, the belt can snap etc. - if it's too loose though, the belt might even slip. Either state (too tensioned and too loose) can cause artifacts.   
 
-My 'rule of thumb' here is: if you can bend the belt down a bit by applying some pressure with your finger onto it but you still feel a good amount of resistance, then it's a good sign that you're in the right area of tension. So start from there and if you feel or need to do so, play around with different belt tensions while printing the same bject over and over again for finding the best tension for your setup.   
+My 'rule of thumb' here is: if you can bend the belt down a bit by applying some pressure with your finger onto it but you still feel a good amount of resistance, then it's a good sign that you're in the right area of tension. So start from there and if you feel or need to do so, play around with different belt tensions while printing the same object over and over again for finding the best tension for your setup.   
 
 ??? info "Some Notes On Belt Tension"  
 
     People often recommend "Tighten your belts!", but that's actually not always the solution if artifacts like layer shifts occur.  
-    As a matter of fact, I made many different tests with my Neos and evaluated the different influences of factors like belt tension, wheel position, quality of ball bearings of the wheels, a trammed vs. untrammed frame/printer setup and so on. And to be honest: a belt being too loose in terms of being the cause for severe problems only occured when it was really *that* loose that even someone who has no experience at all with this would notice it. If a belt is sagging, I'd assume that a user would notice that and realizes that this can't be good.   
+    As a matter of fact, I made many different tests with my Neos and evaluated the different influences of factors like belt tension, wheel position, quality of ball bearings of the wheels, a trammed vs. untrammed frame/printer setup and so on. And to be honest: a belt being too loose in terms of being the cause for severe problems only occurred when it was really *that* loose that even someone who has no experience at all with this would notice it. If a belt is sagging, I'd assume that a user would notice that and realizes that this can't be good.   
 
     Don't get me wrong - *of course* different tensions of the belts *do* have a certain influence of the quality of the print, and it might be worth to finetune the tension for getting the last little amount of perfection out of your print.  
     And yes, of course, if a belt is too loose, then it can slip or it can cause layer shifts due to a slight 'lag' which occurs when the motors start to drive the belt or when a sudden change of the direction occurs.  
@@ -109,13 +109,13 @@ My 'rule of thumb' here is: if you can bend the belt down a bit by applying some
     Let me give you two short examples to show you what I mean:  
     
     - If your wheels are too tight, of course you also need to increase the belt tension - but in that case it's not the belt tension what's causing the issue in the first place, it's the wrong position of the wheels.  
-    - If you have bad ball bearings at the wheels (which is actually most likely the case due to the cheap parts being used), then those may cause an irregular/inconsistent movement of the wheels and you can feel regular 'hiccups' while moving the belonging part (like the bedgantry or the printhead). You can *feel* how you have to apply more force at certain spots when moving the part manually by hand, as it feels like it's getting stuck at certain spots. So a belt being too loose isn't the cause of the problem here and therefore tightening up your belt isn't the solution - replacing the bad bearings with some quality ones is.  
+    - If you have bad ball bearings at the wheels (which is actually most likely the case due to the cheap parts being used), then those may cause an irregular/inconsistent movement of the wheels and you can feel regular 'hiccups' while moving the belonging part (like the bed gantry or the printhead). You can *feel* how you have to apply more force at certain spots when moving the part manually by hand, as it feels like it's getting stuck at certain spots. So a belt being too loose isn't the cause of the problem here and therefore tightening up your belt isn't the solution - replacing the bad bearings with some quality ones is.  
 
     So, use your brain and don't always follow the typical answers like "Tighten you belts!" when you're experiencing issues like layer shifts for example. Instead, look at your printer more 'holistic' and see the different parts which are working together in the end. Pay attention to each of them, once again starting by inspecting the frame and making sure everything is still trammed and set up well here. Due to vibrations and repetitive motions screws can come loose, parts can and will wear out and therefore a frame or other parts you set up a while ago can and will come out of alignment by time.
 
 ??? example "Broken/Snapped Belt"
 
-    When you experience a broken/snapped/ripped belt, it's most likely caused by too much belt tension. Of course the belt itself can be physically harmed as well when grinding across sharp edges or when it gets old, but you should notice that when examining the belt every now and then when doing the regular maintenace of your printer.  
+    When you experience a broken/snapped/ripped belt, it's most likely caused by too much belt tension. Of course the belt itself can be physically harmed as well when grinding across sharp edges or when it gets old, but you should notice that when examining the belt every now and then when doing the regular maintenance of your printer.  
     
     If you encounter a snapped belt, get yourself a good quality one as a replacement - don't go with the cheapest no-name product you can get.  
     I'd suggest to look out for an original "Gates Powergrip®" belt. You can get them in different lengths, like one or five meters.  
@@ -205,7 +205,7 @@ As there aren't any specifications and replacement motors from Anycubic being av
     If the pairing is different, like at the Creality motor shown in the picture, you need to pull out two wires of the connector of the motor cable (one wire of one coil each!), switch them accordingly and insert them back in the connector housing.  
     At the shown example with the stock vs. the Creality motor, you'd just switch the position of the two inner wires here.  
     
-    You can pull out the wires (inclduing the attached metal contacts) by pressing down a tiny metal latch of that contact.  
+    You can pull out the wires (including the attached metal contacts) by pressing down a tiny metal latch of that contact.  
     Take something like a needle or a tiny screwdriver for that. Gently press that latch down and slightly pull on the wire - the wire with the contact being attached will come out.  
     Once you put it into the correct position, just push it back into the belonging hole - but mind the orientation! You might hear a little "click" sound, but check if the wire really got into position by looking after that latch and by pulling at the wire - it shouldn't come out.  
     
@@ -265,7 +265,7 @@ See the following picture where you can clearly see a *heavy* wear and tear. Acc
 
 As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
 
-If you see debris building up pretty quick, it's most likely because the wheels are running too tight in the v-slot of the aluminum and therefore it's too much friction which leads to a quick wearout.  
+If you see debris building up pretty quick, it's most likely because the wheels are running too tight in the v-slot of the aluminum and therefore it's too much friction which quickly causes the wheels to wear out.  
 Another factor is a possible misalignment here, so that they aren't running well along in the slot, so check the position of the wheels as well.  
 
 See the following picture where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage - which is absolutely *not* "normal".   
@@ -308,12 +308,12 @@ The limit switch is located inside of the blue plastic cover at the left hand si
 ??? example "Checking The Switches (And Wires)"
 
     You can check if the switch really isn't working by triggering it manually while the belonging axis is moving. If the movement doesn't stop, turn off your printer. Check the connectors at the switch and the mainboard if they're still in place.  
-    If everything looks fine here, then it's most likey that either a wire is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the wires. When measuring the wires, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
+    If everything looks fine here, then it's most likely that either a wire is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the wires. When measuring the wires, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
     If the wire is broken, fix it or install a new one. If the limit switch itself is broken, disassemble the switch from the frame and put in a new one. Wire everything up again and try again triggering it manually to see if it works now.  
   
 ??? example "Limit Switch Problem"
 
-    If you encounter the problem that the limit switch won't be hit sufficiently for being triggered sucessfully, move the printhead manually against it (with the blue plastic cover of the printhead removed) and observe what might cause the problem. Most of the cases the whole blue plastic cap isn't in the correct position, so check that and try to adjust the position, so that it can be triggered sucessfully.  
+    If you encounter the problem that the limit switch won't be hit sufficiently for being triggered successfully, move the printhead manually against it (with the blue plastic cover of the printhead removed) and observe what might cause the problem. Most of the cases the whole blue plastic cap isn't in the correct position, so check that and try to adjust the position, so that it can be triggered successfully.  
     When using a **Neo**, pay attention to the metal lever of the switch itself as well as to the nut of the left wheel of the gantry. See both areas marked in the following picture. <br> ![Problematic limit switch](../assets/images/axes_x-limit-switch_problematic_web.jpg) <br> It might be the case that the nut hits the y-shaped metal bracket of the x-axis gantry before the edge of the metal bracket triggers the limit switch.    
   
 ---
@@ -365,7 +365,7 @@ Here you can see clearly that only the inner wheel on the left side in the follo
 ![ecc nut right side](../assets/images/x-axis_knob_nut_web.jpg)
   
 However, you might face the problem that you just can't get all of the three wheels at each side to touch the aluminum frame as they should.  
-So if you need to adjust the position of the wheels using the eccentric nuts, you might encouter the problem that e.g. the inner wheel and the lower wheel on the outside may sit in the v-slot really nice, but that the third wheel (the upper one on the outside in this example) isn't even touching the aluminum and can be spinned in the air. This also leads to a wobbly and sagging/lagging x-axis gantry at the unsupported right side, as you'll most likely be able to move the right part (the side without the lead screw) up and down a bit.   
+So if you need to adjust the position of the wheels using the eccentric nuts, you might encounter the problem that e.g. the inner wheel and the lower wheel on the outside may sit in the v-slot really nice, but that the third wheel (the upper one on the outside in this example) isn't even touching the aluminum and spins in the air. This also leads to a wobbly and sagging/lagging x-axis gantry at the unsupported right side, as you'll most likely be able to move the right part (the side without the lead screw) up and down a bit.   
 Whatever you'll try with the eccentric nut of the wheel of the inside (because there's only this one), you won't be able to achieve that all of the three wheels touch the aluminum and sit in the slot like they should, as the eccentric nut only changes the position of the inner wheel towards the frame.  
 So - what to do?  
 Well, there's a 'trick': you need to align those Y-shaped metal brackets where the wheels are mounted to - which directly leads us to the process of [tramming the x-axis gantry](#tramming-the-x-axis-gantry).   
@@ -415,7 +415,7 @@ The downside is that they're not dampening the movements like POM wheels do. Sin
 
 ??? warning "'Tramming' vs. 'Leveling' The Gantry"  
 
-    Because I got attacked, harrassed, insulted and called names for using the correct term "tramming" instead of the misleading and technically wrong term "leveling", let me make something clear at this point.  
+    Because I got attacked, harassed, insulted and called names for using the correct term "tramming" instead of the misleading and technically wrong term "leveling", let me make something clear at this point.  
     
     What we do here is a procedure called "tramming". 
     We (try) to get the machine and certain parts of it aligned perfectly, like axes and parts being square, parallel, perpendicular and equidistant *towards each other*.  
@@ -432,13 +432,13 @@ The downside is that they're not dampening the movements like POM wheels do. Sin
 
     *So to all those haters out there: yes, I will continue to use the correct term "tramming", no matter how much you'll attack and try to insult me.*  
     And no, I don't do it because I want to show the world that I know the correct term, I do it because I want to avoid that beginners become frustrated because they just get it wrong.  
-    And if you haters would start to actually do the same, then maybe one day there might occur a shift in the 'consciousness' of the community and the correct term would be used on a regular basis. Seriously, try to *help* people out by just using the correct term for making them realize that it's *not* about how perpendicular the bed or gantry is towards gravity - and stop harrassing people who already do so.  
+    And if you haters would start to actually do the same, then maybe one day there might occur a shift in the 'consciousness' of the community and the correct term would be used on a regular basis. Seriously, try to *help* people out by just using the correct term for making them realize that it's *not* about how perpendicular the bed or gantry is towards gravity - and stop harassing people who already do so.  
     
 
 It's advisable to tram the x-axis gantry to either the bed itself or the frame, depending on the type of spacers of the bedmount. By doing so, you make sure that the bed and the gantry are parallel to each other and therefore the distance of the nozzle to the plate is pretty much the same all along the x-axis.  
   
 As the printers come with rigid spacers (the black plastic pieces between the bedplate and the bed gantry), you aren't really able to "tram" the bed unless you replace the stock spacers with [adjustable ones](bed.md#different-spacers).    
-The problem with those rigid stock spacers is, that they most likely aren't all of the same length/height - so I'd recommend to at least dismount them, check if they're all of the same height and if they aren't, sand them down to an equal height. By doing so you can at least make sure that you won't have a tilted or warped bed caused by spacers of different legth. See the section ["Tramming The Bed"](bed.md#tramming-the-bed) for further information and instructions.   
+The problem with those rigid stock spacers is, that they most likely aren't all of the same length/height - so I'd recommend to at least dismount them, check if they're all of the same height and if they aren't, sand them down to an equal height. By doing so you can at least make sure that you won't have a tilted or warped bed caused by spacers of different length. See the section ["Tramming The Bed"](bed.md#tramming-the-bed) for further information and instructions.   
 *Make sure to take care of this before actually starting to tram the x-axis gantry, as you'll tram it in relation to the bed.*  
    
 After taking care of the spacers (either the stock ones or after getting yourself new adjustable ones), reassemble everything. Now you can proceed tramming the x-axis gantry:  
@@ -551,7 +551,7 @@ See the following expandable textboxes for some notes on how to dis- and reassem
 ??? example "Disassembling The Belt Tensioner"
 
     It might happen that you have to disassemble the tensioner in order to replace a broken belt or a broken (part of the) tensioner.  
-    In that case turn the knob counter-clockwise until the belt completely sags. Then unhook one end of the belt from the bedgantry (I suggest to unhook it in the front of the bed gantry). Unscrew the two screws you can see at the blue plastic cap of the belt tensioner and carefully pull it off the frame. You might have to turn the knob even more counter-clockwise if it doesn't come off right away.  
+    In that case turn the knob counter-clockwise until the belt completely sags. Then unhook one end of the belt from the bed gantry (I suggest to unhook it in the front of the bed gantry). Unscrew the two screws you can see at the blue plastic cap of the belt tensioner and carefully pull it off the frame. You might have to turn the knob even more counter-clockwise if it doesn't come off right away.  
     Once you've pulled it off, you'll see the parts as shown in the picture below.  
 
     ![Belt tensioner unmounted](../assets/images/axes_y-tensioner_dis1_web.jpg)
@@ -570,7 +570,7 @@ See the following expandable textboxes for some notes on how to dis- and reassem
     Then route the belt through that bracket - make sure the belt isn't somehow twisted and that the teeth are gripping onto the pulley - the smooth side of the belt needs to face you when you look at it from above.  
     Stick the setup back into the blue plastic cap and stick the screw of that knob into the belonging hole at the front. Turn the knob a few times clockwise to make the thread grip the bracket.  
     Then slide the whole setup back into place where it belongs and screw in the two screws which hold the blue plastic cap into place.  
-    Finally hook up the end of the belt to that notch at the bedgantry again.   
+    Finally hook up the end of the belt to that notch at the bed gantry again.   
     Once everything is done, adjust the belt tension again by turning the knob clockwise.  
 
 ---
@@ -579,12 +579,12 @@ See the following expandable textboxes for some notes on how to dis- and reassem
 It's kinda difficult to explain the correct belt tension, so you'd have to experiment a bit with that.  
 Generally speaking, the belt shouldn't be too tightened up and shouldn't be too loose either. If it's too tight, too much pressure will be put onto the motor shaft which will do harm, the belt can snap etc. - if it's too loose though, the belt might even slip. Either state (too tensioned and too loose) can cause artifacts.   
 
-My 'rule of thumb' here is: if you can bend the belt down a bit by applying some pressure with your finger onto it but you still feel a good amount of resistance, then it's a good sign that you're in the right area of tension. So start from there and if you feel or need to do so, play around with different belt tensions while printing the same bject over and over again for finding the best tension for your setup.   
+My 'rule of thumb' here is: if you can bend the belt down a bit by applying some pressure with your finger onto it but you still feel a good amount of resistance, then it's a good sign that you're in the right area of tension. So start from there and if you feel or need to do so, play around with different belt tensions while printing the same object over and over again for finding the best tension for your setup.   
 
 ??? info "Some Notes On Belt Tension"  
 
     People often recommend "Tighten your belts!", but that's actually not always the solution if artifacts like layer shifts occur.  
-    As a matter of fact, I made many different tests with my Neos and evaluated the different influences of factors like belt tension, wheel position, quality of ball bearings of the wheels, a trammed vs. untrammed frame/printer setup and so on. And to be honest: a belt being too loose in terms of being the cause for severe problems only occured when it was really *that* loose that even someone who has no experience at all with this would notice it. If a belt is sagging, I'd assume that a user would notice that and realizes that this can't be good.   
+    As a matter of fact, I made many different tests with my Neos and evaluated the different influences of factors like belt tension, wheel position, quality of ball bearings of the wheels, a trammed vs. untrammed frame/printer setup and so on. And to be honest: a belt being too loose in terms of being the cause for severe problems only occurred when it was really *that* loose that even someone who has no experience at all with this would notice it. If a belt is sagging, I'd assume that a user would notice that and realizes that this can't be good.   
 
     Don't get me wrong - *of course* different tensions of the belts *do* have a certain influence of the quality of the print, and it might be worth to finetune the tension for getting the last little amount of perfection out of your print.  
     And yes, of course, if a belt is too loose, then it can slip or it can cause layer shifts due to a slight 'lag' which occurs when the motors start to drive the belt or when a sudden change of the direction occurs.  
@@ -594,13 +594,13 @@ My 'rule of thumb' here is: if you can bend the belt down a bit by applying some
     Let me give you two short examples to show you what I mean:  
     
     - If your wheels are too tight, of course you also need to increase the belt tension - but in that case it's not the belt tension what's causing the issue in the first place, it's the wrong position of the wheels.  
-    - If you have bad ball bearings at the wheels (which is actually most likely the case due to the cheap parts being used), then those may cause an irregular/inconsistent movement of the wheels and you can feel regular 'hiccups' while moving the belonging part (like the bedgantry or the printhead). You can *feel* how you have to apply more force at certain spots when moving the part manually by hand, as it feels like it's getting stuck at certain spots. So a belt being too loose isn't the cause of the problem here and therefore tightening up your belt isn't the solution - replacing the bad bearings with some quality ones is.  
+    - If you have bad ball bearings at the wheels (which is actually most likely the case due to the cheap parts being used), then those may cause an irregular/inconsistent movement of the wheels and you can feel regular 'hiccups' while moving the belonging part (like the bed gantry or the printhead). You can *feel* how you have to apply more force at certain spots when moving the part manually by hand, as it feels like it's getting stuck at certain spots. So a belt being too loose isn't the cause of the problem here and therefore tightening up your belt isn't the solution - replacing the bad bearings with some quality ones is.  
 
     So, use your brain and don't always follow the typical answers like "Tighten you belts!" when you're experiencing issues like layer shifts for example. Instead, look at your printer more 'holistic' and see the different parts which are working together in the end. Pay attention to each of them, once again starting by inspecting the frame and making sure everything is still trammed and set up well here. Due to vibrations and repetitive motions screws can come loose, parts can and will wear out and therefore a frame or other parts you set up a while ago can and will come out of alignment by time.
 
 ??? example "Broken/Snapped Belt"
 
-    When you experience a broken/snapped/ripped belt, it's most likely caused by too much belt tension. Of course the belt itself can be physically harmed as well when grinding across sharp edges or when it gets old, but you should notice that when examining the belt every now and then when doing the regular maintenace of your printer.  
+    When you experience a broken/snapped/ripped belt, it's most likely caused by too much belt tension. Of course the belt itself can be physically harmed as well when grinding across sharp edges or when it gets old, but you should notice that when examining the belt every now and then when doing the regular maintenance of your printer.  
     
     If you encounter a snapped belt, get yourself a good quality one as a replacement - don't go with the cheapest no-name product you can get.  
     I'd suggest to look out for an original "Gates Powergrip®" belt. You can get them in different lengths, like one or five meters.  
@@ -638,11 +638,11 @@ The following picture shows such a belt tensioner being mounted.
 ??? example "Mounting An Aluminum Y-Belt Tensioner"
 
     Mounting the aluminum Y-axis belt tensioner is pretty simple, but I'll add a short description of the steps anyway.   
-    First of all, you have to loosen up the tension of the belt (turn the belt tensioner knob counter-clockwise) and unhook the x-belt from the bedgantry's mounting plate and then dismount the stock tensioner.  
+    First of all, you have to loosen up the tension of the belt (turn the belt tensioner knob counter-clockwise) and unhook the x-belt from the bed gantry's mounting plate and then dismount the stock tensioner.  
     Once done, you see the 'open' end of the Y-rail.  
     Now add the corresponding bolts and self-locking v-slot nuts to the aluminum tensioner if that wasn't done by the manufacturer already.  
     Slide in the nuts in the v-slots at the left and right side of the Y-rail and push the tensioner on the rail as far as it goes. Then tighten the screws.  
-    No guide the belt through the new tensioner, hook it back in the bedgantry where it belongs and adjust the belt tension.  
+    No guide the belt through the new tensioner, hook it back in the bed gantry where it belongs and adjust the belt tension.  
 
 ---    
 
@@ -681,7 +681,7 @@ As there aren't any specifications and replacement motors from Anycubic being av
     If the pairing is different, like at the Creality motor shown in the picture, you need to pull out two wires of the connector of the motor cable (one wire of one coil each!), switch them accordingly and insert them back in the connector housing.  
     At the shown example with the stock vs. the Creality motor, you'd just switch the position of the two inner wires here.  
     
-    You can pull out the wires (inclduing the attached metal contacts) by pressing down a tiny metal latch of that contact.  
+    You can pull out the wires (including the attached metal contacts) by pressing down a tiny metal latch of that contact.  
     Take something like a needle or a tiny screwdriver for that. Gently press that latch down and slightly pull on the wire - the wire with the contact being attached will come out.  
     Once you put it into the correct position, just push it back into the belonging hole - but mind the orientation! You might hear a little "click" sound, but check if the wire really got into position by looking after that latch and by pulling at the wire - it shouldn't come out.  
     
@@ -728,7 +728,7 @@ As you hopefully can see, the bolt isn't centered - so if you turn that eccentri
   
 ![Bedmount](../assets/images/y-axis_gantry_web.jpg)
 
-The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in the slot well and they should be able to move smoothly. On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability. The bedgantry shouldn't wiggle but it has to be able to move freely.   
+The wheels shouldn't sit too tight in the V-slot but also not too loose. They should touch the aluminum profile and sit in the slot well and they should be able to move smoothly. On the other hand, they also shouldn't be too loose or far away from the profile which would lead to instability. The bed gantry shouldn't wiggle but it has to be able to move freely.   
     
 Make sure they're assembled correctly and line up with the slot as well - if they're out of alignment and don't run correctly in the slot, you'll experience a massive wear and tear. Same goes for the wheels being too tight. See the following picture where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage - which is absolutely *not* "normal".   
 
@@ -747,7 +747,7 @@ Make sure they're assembled correctly and line up with the slot as well - if the
 
 As the wheels will suffer from running on the aluminum and debris can build up, clean the aluminum and the wheels itself from time to time. 
 
-If you see debris building up pretty quick, it's most likely because the wheels are running too tight in the v-slot of the aluminum and therefore it's too much friction which leads to a quick wearout.  
+If you see debris building up pretty quick, it's most likely because the wheels are running too tight in the v-slot of the aluminum and therefore it's too much friction which quickly causes the wheels to wear out.  
 Another factor is a possible misalignment here, so that they aren't running well along in the slot, so check the position of the wheels as well.  
 
 See the following picture where you can clearly see a heavy wear and tear. According to the user who took this picture, this is the state after three days of usage - which is absolutely *not* "normal".   
@@ -792,7 +792,7 @@ The limit switch for the y-axis is mounted at the back, right on front of the mo
 ??? example "Checking The Switches (And Wires)"
 
     You can check if the switch really isn't working by triggering it manually while the belonging axis is moving. If the movement doesn't stop, turn off your printer. Check the connectors at the switch and the mainboard if they're still in place.  
-    If everything looks fine here, then it's most likey that either a wire is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the wires. When measuring the wires, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
+    If everything looks fine here, then it's most likely that either a wire is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the wires. When measuring the wires, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
     If the wire is broken, fix it or install a new one. If the limit switch itself is broken, disassemble the switch from the frame and put in a new one. Wire everything up again and try again triggering it manually to see if it works now.  
     
 ---
@@ -822,7 +822,7 @@ The top end of the rod is completely unguided. In between it's guided and secure
     We have motors which execute 200 *full steps* to rotate the shaft of the motor for a full 360° rotation, where each step is a movement of 1.8° (there are also 'high resolution' stepper motors which do 400 steps with 0.9° movement per full step, but we have motors which do the mentioned 200 steps). This is based on how the motor is built in the inside with it's permanent magnet motor and the stator coils which make the shaft of the motor turn in the end.   
     At each of these 200 steps with 1.8° movement, the motor 'rests' in that specific position due to the positions of the permanent magnets in the inside. Means, these positions are 'given', there don't occur any deviations or misalignments.  
     
-    Then we have *microstepping*. Microstepping is dividing one full step in a number of smaller steps, the so called microsteps. In our case we have 16 microsteps being used (other setups can use up to 256 microsteps). For making this mircostepping possible, the belonging stepper motor driver (which is a chip on the mainboard, in this case either a TMC2208 or a GC6609) adjusts the current of the stator coil in a way that the permanent magnet motor will be hold in a position between two full steps. So the motor doesn't 'rest' in a certain position due to the force of the magnets, it's being 'hold' in an intermediate position between two magnets which are next to each other so to say.  
+    Then we have *microstepping*. Microstepping is dividing one full step in a number of smaller steps, the so called microsteps. In our case we have 16 microsteps being used (other setups can use up to 256 microsteps). For making this microstepping possible, the belonging stepper motor driver (which is a chip on the mainboard, in this case either a TMC2208 or a GC6609) adjusts the current of the stator coil in a way that the permanent magnet motor will be hold in a position between two full steps. So the motor doesn't 'rest' in a certain position due to the force of the magnets, it's being 'hold' in an intermediate position between two magnets which are next to each other so to say.  
     In our case with a 1.8° rotation per full step and 16 subsequent microsteps, each microstep is a movement of 0.0025mm, because one full step is 0.04mm.  
     But, due to the fact that the motor is being 'hold' in that position between two magnets like it's floating, this movement isn't 100% precise. So in reality it's not *exactly* altering it's position of 0.0025mm when a microstep is executed, it's more like it's moving *approximately* 0.0025mm.  
     And this is already the reason why it's smart to choose a layer height which is a multiple of *full steps*, just because the movement is more 'precise' due to the fact that the motor moves from magnet to magnet instead of being hold in a somewhat-position in between.  
@@ -845,7 +845,7 @@ The top end of the rod is completely unguided. In between it's guided and secure
 
     Now you probably ask yourself if it really affects the outcome of the printed part in the end and if it's worth it paying attention to this, and imho the answer "maybe not that much" and "yes".  
     You *probably* won't be able to tell the difference in terms of quality when looking at two parts with the bare eye.  
-    But what's the advantage of using a layer height of 0.15mm (where a somewhat unprecise microstepping has to be used) instead of just choosing 0.16mm layer height (which consists of full steps)? Exactly - there isn't any advantage. So, imho: yes, it's worth paying attention to this, because if we can somewhat improve the quality and accuracy of a print by just making one smart decision - then why shouldn't we do it?   
+    But what's the advantage of using a layer height of 0.15mm (where a somewhat imprecise microstepping has to be used) instead of just choosing 0.16mm layer height (which consists of full steps)? Exactly - there isn't any advantage. So, imho: yes, it's worth paying attention to this, because if we can somewhat improve the quality and accuracy of a print by just making one smart decision - then why shouldn't we do it?   
     
 
 
@@ -863,7 +863,7 @@ The nut is made out of two parts which are spring loaded and it's mounted to the
 
 ![Mounted nut](../assets/images/axes_ab-nut_mounted_web.jpg)  
 
-When receiving the machine and when dis-/mounting the lead screw, you need to make sure that the anit-backlash nut is installed being pressed together, so that the spring is loaded. The following pictures show you the unloaded anti-backlash nut and the nut being pressed together.    
+When receiving the machine and when dis-/mounting the lead screw, you need to make sure that the anti-backlash nut is installed being pressed together, so that the spring is loaded. The following pictures show you the unloaded anti-backlash nut and the nut being pressed together.    
 
 | Nut with unloaded spring | Nut being pressed together |
 |:------------:|:----------------------:|
@@ -911,15 +911,15 @@ The coupler is 5mm ID at one side for taking the 5mm shaft of the motor and 8mm 
   
 #### MOD: Different Coupler
 
-It's a good idea to change the 'rigid' coupler to a somewhat flexible one, as the one which comes with the printer doesn't compensate any misalignement of the motor shaft and the lead screw. So if they aren't in a perfect vertical alignment, it will result in shear forces, increased wear of the anti-backlash nut and even may cause jamming.  
+It's a good idea to change the 'rigid' coupler to a somewhat flexible one, as the one which comes with the printer doesn't compensate any misalignment of the motor shaft and the lead screw. So if they aren't in a perfect vertical alignment, it will result in shear forces, increased wear of the anti-backlash nut and even may cause jamming.  
 The following picture shows the stock coupler that is mounted.  
     
 ![Coupler](../assets/images/axes_stock-coupler_web.jpg)   
 
-It's adviseable to swap out the rigid stock couplers and use flexible couplers instead. Those allow to compensate a minor misalignment of the z-axis lead screw setup.   
+It's advisable to swap out the rigid stock couplers and use flexible couplers instead. Those allow to compensate a minor misalignment of the z-axis lead screw setup.   
 
 If you want to change the coupler, you'll need to get a coupler which suits 5mm on one side and 8mm on the other side as the motor shaft is 5mm and the rod is 8mm in diameter.  
-Make sure you *don't* get a coupler which uses a grub/set screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwn onto, same goes for the lead screw itself - so a clamping mechanism will just work better holding everything in place.  
+Make sure you *don't* get a coupler which uses a grub/set screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwed onto, same goes for the lead screw itself - so a clamping mechanism will just work better holding everything in place.  
 Besides that, using a clamp mechanism makes sure that the shaft and the lead screw are as centered as possible in the coupler - when using a coupler which uses grub/set screws that tighten against the shaft and the rod, you'll most likely end up with a coupler being mounted slightly off-center. 
 
 ---
@@ -932,7 +932,7 @@ Spider couplers are made out of two metal parts with an elastic part in between 
 ---
 
 ##### MOD: Spring(y) Coupler
-The next picture shows the type of coupler you probably com earound instantly when searching for "flex coupler" - I call it "spring(y) coupler" as it's shaped like a spring and it actually behaves like one as well.   
+The next picture shows the type of coupler you probably come around instantly when searching for "flex coupler" - I call it "spring(y) coupler" as it's shaped like a spring and it actually behaves like one as well.   
         
 ![Flex coupler](../assets/images/axes_flexcoupler_web.jpg)   
     
@@ -953,9 +953,9 @@ Additionally, I also added a nylon washer of the correct thickness underneath th
 ##### MOD: Diaphragm Coupler 
 
 There's also another type of coupler available, the so called "Diaphragm Coupling".  This one is bigger and is supposed to compensate misalignments even better.  
-However, it seems like that some additional dampening occurs, which usually isn't adviseable for the z-axis (there are motor dampeners available on the market which you mount between the motors and the frame to dampen vibrations - those ones shouldn't be added to the z-axis motor though), but I personally didn't use this type yet, so I can't really say anything further about it.  
+However, it seems like that some additional dampening occurs, which usually isn't advisable for the z-axis (there are motor dampeners available on the market which you mount between the motors and the frame to dampen vibrations - those ones shouldn't be added to the z-axis motor though), but I personally didn't use this type yet, so I can't really say anything further about it.  
 
-The following picture shows this type of coupler - for comaring the size, the spider coupler mentioned above is put next to it.  
+The following picture shows this type of coupler - for comparing the size, the spider coupler mentioned above is put next to it.  
 
 ![Diaphragm Coupler vs Spider Coupler](../assets/images/axes_diaphragm-coupler_web.jpg)  
     
@@ -1001,7 +1001,7 @@ As there aren't any specifications and replacement motors from Anycubic being av
     If the pairing is different, like at the Creality motor shown in the picture, you need to pull out two wires of the connector of the motor cable (one wire of one coil each!), switch them accordingly and insert them back in the connector housing.  
     At the shown example with the stock vs. the Creality motor, you'd just switch the position of the two inner wires here.  
     
-    You can pull out the wires (inclduing the attached metal contacts) by pressing down a tiny metal latch of that contact.  
+    You can pull out the wires (including the attached metal contacts) by pressing down a tiny metal latch of that contact.  
     Take something like a needle or a tiny screwdriver for that. Gently press that latch down and slightly pull on the wire - the wire with the contact being attached will come out.  
     Once you put it into the correct position, just push it back into the belonging hole - but mind the orientation! You might hear a little "click" sound, but check if the wire really got into position by looking after that latch and by pulling at the wire - it shouldn't come out.  
     
@@ -1030,7 +1030,7 @@ The following pictures show the disassembled limit switch, just in case you're l
 ??? example "Checking The Switches (And Wires)"
 
     You can check if the switch really isn't working by triggering it manually while the belonging axis is moving. If the movement doesn't stop, turn off your printer. Check the connectors at the switch and the mainboard if they're still in place.  
-    If everything looks fine here, then it's most likey that either a wire is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the wires. When measuring the wires, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
+    If everything looks fine here, then it's most likely that either a wire is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the wires. When measuring the wires, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
     If the wire is broken, fix it or install a new one. If the limit switch itself is broken, disassemble the switch from the frame and put in a new one. Wire everything up again and try again triggering it manually to see if it works now.  
 
 ---
@@ -1058,7 +1058,7 @@ You can look out for Oldham Couplers with a 18mm mounting hole distance (often t
 
 ??? note "Lubricate The Oldham Coupler"  
 
-    As the Oldham Coupler is made out of three individual brass parts which glide along each other, you should add a bit of lubrification on the parts surfaces. You can use PTFE grease like "Super Lube" to do so.  
+    As the Oldham Coupler is made out of three individual brass parts which glide along each other, you should add a bit of lubrication on the parts surfaces. You can use PTFE grease like "Super Lube" to do so.  
 
 ??? info "Upwards Or Downwards?"  
 
@@ -1066,7 +1066,7 @@ You can look out for Oldham Couplers with a 18mm mounting hole distance (often t
 
 ??? info "Additional Backlash?!"
 
-    An Oldham Coupler does add a little bit of backlash to the system, due to the fact that there needs to be a litte bit of clearance between the individual parts of the Oldham Coupler to make it work. This usually isn't a problem though and the benefits of an Oldham Coupler surely make this unwanted effect up.  
+    An Oldham Coupler does add a little bit of backlash to the system, due to the fact that there needs to be a little bit of clearance between the individual parts of the Oldham Coupler to make it work. This usually isn't a problem though and the benefits of an Oldham Coupler surely make this unwanted effect up.  
 
 
 
@@ -1083,7 +1083,7 @@ In my opinion it's better if the top of the lead screw can move freely to avoid 
     The reason for this is quite simple, yet it seems that people aren't aware of it, so I'll try to explain it with an analogy.  
     Think of the z-axis lead screw like it's a pool cue which is curved like the really bad ones you have to play with in certain bars. So when you put the cue on the table and roll it - what happens? It'll bump and stutter, there won't be a smooth movement, right?  
     So now imagine a friend is holding the top and the bottom of it in place while you're holding it somewhere at the middle for example. Your friend here is the coupler and the holder at the top of the lead screw, you're the anti-backlash nut.  
-    So when your friend tries to turn the cue by rotatin it at the bottom while both of you still hold the other two spots - what happens? Will you as the 'anti-backlash nut' feel the wiggle and the forces or will it turn smooth? Exactly, you'll feel it - depending on how much the cue is bent and where exactly you placed your hand you'll either feel it stronger or weaker.  
+    So when your friend tries to turn the cue by rotating it at the bottom while both of you still hold the other two spots - what happens? Will you as the 'anti-backlash nut' feel the wiggle and the forces or will it turn smooth? Exactly, you'll feel it - depending on how much the cue is bent and where exactly you placed your hand you'll either feel it stronger or weaker.  
     So now let's place this cue on the edge of the table, so that only the bottom part lays on it. Again you place your hand somewhere in the middle and hold the cue tight, the end of the cue is just in the air.  
     So when your friend rotates the cue again at the bottom - what will happen? Exactly, the end of the cue will wiggle around and you won't feel the forces that strong anymore like before.  
     Now you and your friend still hold the cue at these positions, but both of you allow a tiny bit of movement, like you allow to move your arms just a tiny bit, following the movement of the cue. Again your friend rotates the cue at the bottom while the top of the cue can still wiggle around in the air. What will happen? Exactly, you as the 'anti-backlash nut' guy won't feel pretty much any forces or stuttering anymore.  
@@ -1135,7 +1135,7 @@ If you go with this solution, I'd highly recommend to use additional ["Oldham Co
 ### Maintenance   
 
 Maintenance of the whole z-axis system (means, the whole lead screw setup *and* the belonging parts of the x-axis gantry) is crucial for a well operating printer.  
-Especially the initial cleaning (getting rid of the old and sticky 'oil') and lubrification plus the necessary vertical alignment of the lead screw system is *really* important!  
+Especially the initial cleaning (getting rid of the old and sticky 'oil') and lubrication plus the necessary vertical alignment of the lead screw system is *really* important!  
 
 In the following expandable textbox you'll find some notes and instructions about how to care of the lead screw system.  
 
@@ -1148,7 +1148,7 @@ In the following expandable textbox you'll find some notes and instructions abou
     - Make sure the coupler is mounted correctly.    
       Check from time to time that the coupler didn't come loose somehow. 
     - Make sure the rod is clean, there shouldn't stick debris or dirt on it as it could/would block the movement. The following picture shows a partially clogged thread due to debris of the anti-backlash nut. <br> ![Debris in Thread](../assets/images/axes_dirty-thread_web.jpg) <br> In this case the motor was still able to move the rod across it, but you could notice a tiny jerk at that point.  
-    - If you need to clean it, it's advisable to disassamble the whole rod system including the coupler and the anti-backlash nut. The following picture shows the **Neo** where the coupler, rod and nut are dismounted. <br> ![Dismounted z-axis](../assets/images/axes_z-axis-dismounted_web.jpg) <br> See the other expandable box for some guidances about dis- and reassembling the z-axis lead screw system.  
+    - If you need to clean it, it's advisable to disassemble the whole rod system including the coupler and the anti-backlash nut. The following picture shows the **Neo** where the coupler, rod and nut are dismounted. <br> ![Dismounted z-axis](../assets/images/axes_z-axis-dismounted_web.jpg) <br> See the other expandable box for some guidances about dis- and reassembling the z-axis lead screw system.  
     - Spray e.g. WD-40 on the rod to loosen old sticky oil and debris. Then take a toothbrush or something like that for being able to reach the bottom of the thread also and clean it up. Make sure to not leave any particles from the anti-backlash nut like shown in the picture below or any dirt stuck on it. <br> ![Debris](../assets/images/axes_POMdebris_web.jpg)
     - After this procedure, clean the WD-40 off of the rod by using e.g. car break cleaner or silicone remover spray. It'll wash off everything, you can also use an old cloth to wipe it (but make sure that no textile fibres will stick in the thread somehow). 
     - After you cleaned and dried it, inspect the rod and the anti-backlash nut.  
@@ -1165,19 +1165,19 @@ In the following expandable textbox you'll find some notes and instructions abou
     !!! warning "Don't Use WD-40 For Lubrication"
     
         Do yourself a favour and *never* use WD-40 for *lubrication* as it's *not* a lubricant!  
-        It's perfectly fine for washing off old oil from the threaded rod, but it's *not* a sufficient lubrification!  
+        It's perfectly fine for washing off old oil from the threaded rod, but it's *not* a sufficient lubrication!  
         People use to think WD-40 is the perfect solution for pretty much everything, but they aren't aware of the fact that -due to the chemical recipe it's made of- it's absolutely not sufficient for getting parts lubed mid- to longterm. Fact is, that the chemicals inside of it will even wash off any grease or oil, it can harm POM and rubber and so on.  
-        As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrification  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the sealings. If you don't believe me, make a little test by yourself: take an air baloon, pump it up, spray WD-40 onto it and wait..  
+        As an example: So let's say you want to lubricate your bike chain and use WD-40 to do so, you'll basically *wash away* the existent lubrication  which is inside the chain - therefore the chain will be worn out pretty quick. You'll also harm the seals. If you don't believe me, make a little test by yourself: take an air balloon, pump it up, spray WD-40 onto it and wait..  
 
 ---
    
 ### Disassembling The Lead Screw System   
 
-If you need to disassemble the z-axis lead screw system, there are a few things that one should be aware of. Besides that, the necessary steps are pretty easy and self-explaing, so I'll go over them just really quick.  
+If you need to disassemble the z-axis lead screw system, there are a few things that one should be aware of. Besides that, the necessary steps are pretty easy and self-explanatory, so I'll go over them just really quick.  
     
 - First, you should somehow fixate the gantry of the x-axis to get the load off of the lead screw. You can do so by e.g. putting two soupcans onto the bed, each on one side (left/right) and then lower the gantry until it rests onto them. Or you can move the gantry up and fixate it with some velcro straps or cable ties as shown in the picture below. <br> ![Parked x-axis gantry](../assets/images/axes_x-gantry-cableties_web.jpg)  
 - Now unplug the wire from the stepper motor, just to be on the safe side. The printer itself is also switched off of course.  
-- Loosen the two screws at the coupler which conects the motor shaft and the lead screw. 
+- Loosen the two screws at the coupler which connects the motor shaft and the lead screw. 
 - Now you can turn the lead screw by hand to screw it out of the anti-backlash nut. After you completely took it out, dismount the anti-backlash nut from the holder at the frame as well.  
   If you fixated the x-axis gantry at the top like shown in the picture above, you can also just screw the lead screw a bit higher into the anti-backlash nut so that it comes out of the coupler and then you just dismount the anti-backlash nut from the holder at the frame. After that you can take out the lead screw with the nut still on and take off the nut then.  
 - Take off the coupler from the motor shaft as well for being able to inspect everything.  
@@ -1186,7 +1186,7 @@ If you need to disassemble the z-axis lead screw system, there are a few things 
 
 ### Reassembling The Lead Screw System   
 
-If you need to resassemble the z-axis lead screw system, there are a few things that one should be aware of. Besides that, the necessary steps are pretty easy and self-explaing, so I'll go over them just really quick.  
+If you need to reassemble the z-axis lead screw system, there are a few things that one should be aware of. Besides that, the necessary steps are pretty easy and self-explanatory, so I'll go over them just really quick.  
     
 - To reassemble everything, just follow your steps backwards.   
   However, there are a few things you should pay attention to now:  
