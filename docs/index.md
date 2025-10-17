@@ -59,7 +59,7 @@ Please mind the **search field** in the header as well as the icon in the header
 ---
  
   
-??? info "Thanks To The Supporters And Contributers!"
+??? info "Thanks To The Supporters And Contributors!"
 
     - *Thanks a lot to **Anthony** for donating a spare part printhead of the **Go** and the **Neo** for further investigations!*  
     - *Thanks a lot to the **kind people who supported my work with a donation** to [my ko-fi account](https://ko-fi.com/U6U5NPB51)!*
@@ -87,7 +87,7 @@ Please mind the **search field** in the header as well as the icon in the header
     - Thanks to **[the-transponster](https://www.reddit.com/user/the-transponster)** for allowing me to use the picture of his clumped hotend!
     - Thanks to **[Yoriko_Rayne_](https://www.reddit.com/user/Yoriko_Rayne_)** for allowing me to use the picture of how to use the ABL height gauge!  
     - Thanks to **[zimmystor](https://www.reddit.com/user/zimmystor)** for taking pictures of his MicroSwiss bowden drive upgrade at his Go, of the stock heatbreak and of the TriGorilla V_3.0.7!  
-    - Thanks to **[zyssai](https://www.reddit.com/user/zyssai)** for allowing me to use the picture of the diassembled stepper motor!  
+    - Thanks to **[zyssai](https://www.reddit.com/user/zyssai)** for allowing me to use the picture of the disassembled stepper motor!  
     
     
 ---
@@ -98,7 +98,7 @@ Please mind the **search field** in the header as well as the icon in the header
     - Please be aware of the fact that you use and/or transpose everything *at your own risk*! 
     - It can't be guaranteed that everything is correct and that it wouldn't harm your printer or even yourself - keep in mind that I'm NO expert by all means!  
     - All information, tips, instructions, suggestions, mods and so on which could be found here should be considered as a base for your own further research! 
-    - Neither am I resposible for any content that I've linked to, it's just meant to be a further source of information to make the start of your own research a bit easier! 
+    - Neither am I responsible for any content that I've linked to, it's just meant to be a further source of information to make the start of your own research a bit easier! 
 
 ---
 

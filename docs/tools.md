@@ -28,7 +28,7 @@ When it comes down to tinkering, the fun factor and the results raise and fall w
 
 ## Lube  
 This isn't actually a tool, but it's definitely something you need: lube.  
-Don't use WD-40 for lubrification, use a proper lube which doesn't harm any plastic or elastic (POM) parts.  
+Don't use WD-40 for lubrication, use a proper lube which doesn't harm any plastic or elastic (POM) parts.  
 I personally use and can recommend "Super Lube".  
 
 ![Super Lube](assets/images/tools_SuperLube_web.jpg)
@@ -36,7 +36,7 @@ I personally use and can recommend "Super Lube".
 ---
 
 ## Height Gauge for ABL Sensor
-Well, even though this isn't a 'tool' you can buy, you probably want to print out the [height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic to make the leveling opration of the ABL sensor a bit easier. You have to make sure though that you're printer already works fine to print it to not mess up the height ratio of the tool.  
+Well, even though this isn't a 'tool' you can buy, you probably want to print out the [height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic to make the leveling operation of the ABL sensor a bit easier. You have to make sure though that you're printer already works fine to print it to not mess up the height ratio of the tool.  
 It's not necessary to print this though, as you can just use the big two-sided open end wrench that came with the printer.  
 Maybe you even already got it with your printer though, so check if you have this little plastic tool shown in the picture picture below.  
 
@@ -107,7 +107,7 @@ The following picture shows my little 12W Weller at the bottom and the beforemen
 
 ![Soldering irons](assets/images/soldering_irons_web.jpg)  
 
-Most likely you'll get some kind of set, like either a set of two different soldering irons as mentioned above or a soldering station. Thse use to come with the additional components you need, like solder wire and a holder for the iron.  
+Most likely you'll get some kind of set, like either a set of two different soldering irons as mentioned above or a soldering station. These used to come with the additional components you need, like solder wire and a holder for the iron.  
 However, depending on what you got, it might be smart to buy additional solder wire and solder sucking wire (to suck away molten solder when you want to unsolder something). I personally prefer to use thin solder wire with a flux core and a bit of lead in it for tinkering and soldering small parts, as the lead makes soldering easier and the thin wire allows to be more precise when adding the solder. Nowadays you'll most likely won't be able to get leaded solder wire anymore though, as lead produces toxic fumes while soldering. Instead of that, you'll get lead free solder with silver in it.    
 
 ![Solder wire](assets/images/solder-wire_web.jpg)
@@ -115,7 +115,7 @@ However, depending on what you got, it might be smart to buy additional solder w
 ---
 
 ## Hot Air Gun
-A hot air gun comes in handy if you have to disassamble your hotend after you've already taken it out of the printhead or in case you cartridge heater and/or thermistor is broken and therefore you can't use the heating function of the printer itself.  
+A hot air gun comes in handy if you have to disassemble your hotend after you've already taken it out of the printhead or in case you cartridge heater and/or thermistor is broken and therefore you can't use the heating function of the printer itself.  
 You could either use a 'big' heat gun like the ones from the tool shop and put a 'nozzle' on top of it which concentrates the airflow or you get yourself a hot air gun station which is used to solder SMD with. Here it's nice to be able to set the desired temperature and choose the diameter of the nozzle depending on the part you want to heat up. The following picture shows one of these cheap SMD hot air stations.  
 
 ![Hot air station](assets/images/hot-air-station_web.jpg)
@@ -149,7 +149,7 @@ However, I personally don't use these needles anymore, I prefer to just do a qui
 ---
 
 ## Pipe Cleaner  
-I like to use pipe cleaners for wiping excessive or leaking filament off the heatened up hotend. They catch molten filament just great and you can bend them to easily wipe around the nozzle.  
+I like to use pipe cleaners for wiping excessive or leaking filament off the heated hotend. They catch molten filament just great and you can bend them to easily wipe around the nozzle.  
 
 ![Pipe cleaners](assets/images/pipe_cleaner_web.jpg)
 
@@ -211,7 +211,7 @@ Mind the naming: K1, K2, K3. K1 and K2 take up two wires, K3 can take up three. 
 ---
 
 ## Infrared Thermometer
-An infrared thermometer allows you to measure higher temperatures without touching the part you want to measure. It comes in handy when you want to check the temperature of the bed a t diffferent spots or when you want to check the temperature of the stepper motors.  
+An infrared thermometer allows you to measure higher temperatures without touching the part you want to measure. It comes in handy when you want to check the temperature of the bed a t different spots or when you want to check the temperature of the stepper motors.  
 
 ![Infrared thermometer](assets/images/infrared-thermometer_web.jpg)
 

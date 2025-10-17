@@ -59,7 +59,7 @@ Using certain tools makes it easier to calibrate your printer. It'll allow you t
 ---
 
 ## Printer Calibration 
-The following steps should be done first to ensure that you set up your printer correctly and that you took care of printer specific pecullarities.  
+The following steps should be done first to ensure that you set up your printer correctly and that you took care of printer specific peculiarities.  
 
 ---
 
@@ -67,7 +67,7 @@ The following steps should be done first to ensure that you set up your printer 
 Make sure that you built and set up the printer correctly and that it's trammed as best as you can.  
 **This is the most important and crucial thing, as you'll only be able to get good prints if the hardware itself is set up correctly.**   
 
-This also should be checked if you're using the **Neo** which comes pre-assembled, as you shouldn't rely on the assumption that the manufacturere built everything correctly. Just to show you *how* important that is, look at the following picture of the y-axis frame of one of my Neos how it came preassembled from the manufacturer.  
+This also should be checked if you're using the **Neo** which comes pre-assembled, as you shouldn't rely on the assumption that the manufacturer built everything correctly. Just to show you *how* important that is, look at the following picture of the y-axis frame of one of my Neos how it came preassembled from the manufacturer.  
 
 ![Neo crooked y-axis](assets/images/axes_y-axis-crooked_web.jpg)  
 
@@ -112,7 +112,7 @@ Make sure the belts of the axes are properly tensioned. Don't go with sloppy bel
 
 ### Check The Wheels
 Make sure the v-slot wheels are all fine and that they aren't harmed or indented. The wheels should turn nice and smooth.  
-If you feel any reoccuring hiccups during movements or when turning a wheel and can't see any damage of the wheel itself, you might have a bad bearing.  
+If you feel any reoccurring hiccups during movements or when turning a wheel and can't see any damage of the wheel itself, you might have a bad bearing.  
 If any wheels or bearings seem to be damaged or faulty, get yourself new ones and install them.  
  
 Also pay attention to the correct positions of the V-slot wheels. They should sit in the v-slot of the rails perfectly and they shouldn't run too loose nor too tight. Please refer to the according sections for further information. 
@@ -153,7 +153,7 @@ In the following I'll list some of the calibrations which are necessary. The lis
   
 Keep in mind that it may take some time until you found the best suitable settings. And even then it might occur that you'll have to adjust certain settings later when finally printing 'real' models. So maybe try to see it more like a process instead of the struggle of a search for the 'perfect' settings which must out there somewhere..  
 
-Also keep in mind that you'll have to do certain calibrations again when using different kinds of filament. This doesn't only comes into account when printing a differenty type like ABS or PETG instead of PLA, but it also most likely will be the case when using the same type of filament but made from another manufaturer. Even the same type and brand of filament from the same manufacturer might need some slightly different settings like the temperature for example, when you're using a new spool or a different colour!  
+Also keep in mind that you'll have to do certain calibrations again when using different kinds of filament. This doesn't only comes into account when printing a differently type like ABS or PETG instead of PLA, but it also most likely will be the case when using the same type of filament but made from another manufacturer. Even the same type and brand of filament from the same manufacturer might need some slightly different settings like the temperature for example, when you're using a new spool or a different colour!  
 
 ---    
 
@@ -194,7 +194,7 @@ If you need to adjust the height, you don't need to execute an ABL sequence agai
 ---
 
 ### Printing Temperature (Filament)
-You determie the best printing temperature for your specific type of filament by printing temperature towers. These models change the printing temperature at certain layer heights in certain steps (e.g. in 5°C increments, starting with the highest temperature first), so that you'll print the same structure with different temperatures. For generating a temperature tower with your own specific settings, I recommend using the abovementioned SuperSlicer with the inbuilt calibration toolset. You can take the recommendations of the manufacturer of your filament as a rough guide for the temperature range you should print at.   
+You determine the best printing temperature for your specific type of filament by printing temperature towers. These models change the printing temperature at certain layer heights in certain steps (e.g. in 5°C increments, starting with the highest temperature first), so that you'll print the same structure with different temperatures. For generating a temperature tower with your own specific settings, I recommend using the abovementioned SuperSlicer with the inbuilt calibration toolset. You can take the recommendations of the manufacturer of your filament as a rough guide for the temperature range you should print at.   
 
 Then you inspect the printed model: in which temperature zones does it look best? Where are the layers of the filament solidified and melted together best? Where do overhangs look best and where does (massive) oozing and stringing occur? 
 Don't pay *too much* attention on stringing and oozing yet though, as you'll take care of that later by printing retraction towers. Same goes for bridges (and overhangs): if you notice that bridges didn't come out perfect and that you can see strings of filament 'hanging' down, don't get too irritated by that as well. You can and should take care of bridging specific settings in your slicer later anyway, like a different printing speed, different extrusion rate, different fan speed and so on.    
@@ -206,7 +206,7 @@ Besides only *looking* at the outcome, I personally use to tear apart the printe
 So try to break each temperature section apart by using your hands first. You'll most likely already encounter some floors which are easy to break apart.  
 Once you're done with that, take two pliers and repeat the process for each floor. You'll most likely be able to break every floor at a certain point, but you'll notice some obvious differences like how much force you have to use and *how* the floors break apart.  
 So after you teared the model apart, inspect those areas: did it clearly break right between two layers? Or did it break *across* different layers?  
-When it clearly broke between two layers, inspect the next floor with the higher temperature being used. Try to find the floor where it seems that the layers sticked together very well and the break most likely occured across different layers.    
+When it clearly broke between two layers, inspect the next floor with the higher temperature being used. Try to find the floor where it seems that the layers sticked together very well and the break most likely occurred across different layers.    
 
 Once you're done and decided to go with a specific temperature, continue with other calibrations like printing retraction towers, calibrating the e-steps and so on. At the end I'd recommend to print another temperature tower once again for being able to compare the output to the first one you printed. You don't have to print such a 'large' and wide ranged temperature tower though, maybe just print a tower with the 'final' settings and temperature you decided to use and add a floor with 5° higher and 5° lower temperature.   
   
@@ -255,7 +255,7 @@ Retraction *speed* is the setting how *fast* the feeder gear will pull back the 
 In general it seems that you can say that the higher the *speed*, the lower the *distance* can be - but like with every 'rule of thumb', this is just a 'rough' guide and you'll need to find out the optimum setting for your specific setup by your own. You might also find out that things work out much better and that you get better results when using a lower retraction speed.    
 
 There is a little problem though with both the **Go** and the **Neo**: the retraction speed is limited in the firmware by default to *25mm/s*!   
-This means that every higher value you set in your sclicer will just be ignored and reduced to 25mm/s as that's the encoded limit.  
+This means that every higher value you set in your slicer will just be ignored and reduced to 25mm/s as that's the encoded limit.  
 Means, when you're starting to print retraction speed towers with higher vales than 25mm/s, those speeds will be 'ignored' so to say as the speed is actually capped to 25mm/s.   
 However, there is a way you can change the default setting of the maximum retraction speed. Please see the chapter [Stock Firmware (Marlin Based)](firmware/fw_marlin.md), scroll down to the section "Limited Retraction Speed" for your specific model and read the expandable box "Setting A Higher Maximum Value For Retraction Speed".  
   
@@ -284,14 +284,14 @@ Some guides say that you should do it without a nozzle, some guides say you shou
 - Determine the correct printing temperature for the filament you're using.   
 - Use the nozzle you're going to use for printing as well - so don't calibrate the e-steps with e.g. a 0.4mm nozzle, when you're printing with a 0.6mm nozzle later. 
 - Make sure the pressure of the feeder gear is correct and it's (mostly) the setting you'll use later on as well. So don't calibrate with a sloppy feeder gear and crank up the tension later and vice versa. 
-- *Make sure to use a fine lined, waterproof pen for marking the filament, so don't use a fat marker which aleady draws a 1mm or 2mm wide line!* You want to be as precise as possible here! 
-- *Make sure to use a precise ruler or a sliding gauge for being able to actually really measure 100mm!* You'd be suprised how bad certain measurement tools actually are and how big deviations can actually be, so make sure to use a sufficient measuring tool.  
+- *Make sure to use a fine lined, waterproof pen for marking the filament, so don't use a fat marker which already draws a 1mm or 2mm wide line!* You want to be as precise as possible here! 
+- *Make sure to use a precise ruler or a sliding gauge for being able to actually really measure 100mm!* You'd be surprised how bad certain measurement tools actually are and how big deviations can actually be, so make sure to use a sufficient measuring tool.  
 - Calibrate the e-steps whenever you use different type of filament, even different spools of the same type. The process doesn't take long, but it's crucial that the e-steps are calibrated. So better take the little time to check if everything is still fine after changing the filament.  
     
 ---
   
 ### PID Tuning
-Without going into too much details here, PID stands for Proportion, Integral and Derivate. These are three variables of an algorith which is supposed to keep the temperature stable.  
+Without going into too much details here, PID stands for Proportion, Integral and Derivate. These are three variables of an algorithm which is supposed to keep the temperature stable.  
 By executing a PID tuning, the printer heats up the desired heating element (extruder or bed) to a given temperature, cools down again a few degrees and heats up again for a given amount of circles and measures the fluctuation. After the process is done, you'll then get an output of three values P, I and D and save them to the firmware.  
 
 It's advisable to execute a PID tuning for both the extruder and the bed before you want to use your printer for the first time.  

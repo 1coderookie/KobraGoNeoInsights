@@ -128,7 +128,7 @@ However, there's also a ["Klipper Settings Plugin"](https://github.com/jjgraphix
 ---
  
 ### PrusaSlicer, SuperSlicer, OrcaSlicer 
-PrusaSlicer and it derivates like SuperSlicer and OrcaSlicer are my personal favourites after using Cura for some time.  
+PrusaSlicer and it derivatives like SuperSlicer and OrcaSlicer are my personal favourites after using Cura for some time.  
 
 **Notes on Klipper**  
 
